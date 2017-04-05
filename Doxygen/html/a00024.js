@@ -1,7 +1,7 @@
 var a00024 =
 [
-    [ "FokkerPlanck", "a00024.html#a718fc89d155ab44ff0ceab5edaebae42", null ],
-    [ "~FokkerPlanck", "a00024.html#a58e0c436828db3c5c2398eac07f00747", null ],
-    [ "TypeName", "a00024.html#a744547cf1f8f8cab0775e6b41d928bda", null ],
-    [ "K", "a00024.html#ac39375448f36ddee2cac96a50dd6a0a9", null ]
+    [ "fullFragmentation", "a00024.html#aa3c53b21095cacbcf34c500cc696a3fa", null ],
+    [ "~fullFragmentation", "a00024.html#adb107a2c005595f4c614a4b15316b0e8", null ],
+    [ "TypeName", "a00024.html#a9605c41753d122821a153bb82d936e9c", null ],
+    [ "mD", "a00024.html#af11d63388088dc9b381b450559526d24", null ]
 ];

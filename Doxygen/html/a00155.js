@@ -1,5 +1,5 @@
 var a00155 =
 [
-    [ "defineTypeNameAndDebug", "a00155.html#abf81d58a6669ac3c3505cc7bc83fc3ec", null ],
-    [ "defineRunTimeSelectionTable", "a00155.html#aefa5f150c6459c5dc6b9dd059c74f912", null ]
+    [ "defineTypeNameAndDebug", "a00155.html#ae282d355e8bb81dcd60d4c2778f12ba5", null ],
+    [ "addToRunTimeSelectionTable", "a00155.html#a024bbc4b37f0b86ec4a0715a76d74ebc", null ]
 ];

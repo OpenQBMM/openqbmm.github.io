@@ -1,7 +1,4 @@
-<map id="daughterDistribution" name="daughterDistribution">
-<area shape="rect" id="node2" href="$a00018.html" title="erosion" alt="" coords="5,80,72,107"/>
-<area shape="rect" id="node3" href="$a00026.html" title="fullFragmentation" alt="" coords="97,80,221,107"/>
-<area shape="rect" id="node4" href="$a00058.html" title="oneQuarterMassRatio" alt="" coords="245,80,398,107"/>
-<area shape="rect" id="node5" href="$a00065.html" title="symmetricFragmentation" alt="" coords="422,80,591,107"/>
-<area shape="rect" id="node6" href="$a00071.html" title="uniform" alt="" coords="615,80,681,107"/>
+<map id="nucleationModel" name="nucleationModel">
+<area shape="rect" id="node2" href="$a00037.html" title="Miller nucleation model for soot formation. " alt="" coords="5,80,60,107"/>
+<area shape="rect" id="node3" href="$a00052.html" title="No nucleation model. " alt="" coords="84,80,184,107"/>
 </map>

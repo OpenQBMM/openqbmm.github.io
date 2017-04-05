@@ -1,7 +1,8 @@
 var a00026 =
 [
-    [ "fullFragmentation", "a00026.html#aa3c53b21095cacbcf34c500cc696a3fa", null ],
-    [ "~fullFragmentation", "a00026.html#adb107a2c005595f4c614a4b15316b0e8", null ],
-    [ "TypeName", "a00026.html#a9605c41753d122821a153bb82d936e9c", null ],
-    [ "mD", "a00026.html#af11d63388088dc9b381b450559526d24", null ]
+    [ "gaussLobattoMomentInversion", "a00026.html#a19f132e2fe6d20faf1a5a05768990c4b", null ],
+    [ "~gaussLobattoMomentInversion", "a00026.html#ae6b87c401ec282458f44cea51931b47c", null ],
+    [ "TypeName", "a00026.html#a82afeb74ebccf942227542383440ade1", null ],
+    [ "correctRecurrence", "a00026.html#adb8044c0e431e0fe1005a4395fff5478", null ],
+    [ "calcNQuadratureNodes", "a00026.html#ae11f16abe217f76d4e7b5e98e47b3ae1", null ]
 ];

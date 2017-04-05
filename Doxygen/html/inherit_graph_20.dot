@@ -4,13 +4,9 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node1 [label="PtrList",height=0.2,width=0.4,color="grey75"];
+  Node1 [label="nucleationModel",height=0.2,width=0.4,color="black",URL="$a00054.html",tooltip="Abstract class for nucleation model. "];
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="momentFieldSet\< momentType,\l nodeType \>",height=0.2,width=0.4,color="black",URL="$a00046.html",tooltip="Stores a list of moments, with a Map<label> that takes a label key and returns the index into the lis..."];
+  Node2 [label="Miller",height=0.2,width=0.4,color="black",URL="$a00037.html",tooltip="Miller nucleation model for soot formation. "];
   Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="nDimensionalMappedList\l\< mappedType \>",height=0.2,width=0.4,color="black",URL="$a00050.html",tooltip="Stores a list, with a Map<label> that takes a label key and returns the index into the list..."];
-  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node4 [label="momentFieldSet\< surfaceUnivariate\lMoment, surfaceScalarNode \>",height=0.2,width=0.4,color="black",URL="$a00046.html"];
-  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node5 [label="nDimensionalMappedList\l\< scalar \>",height=0.2,width=0.4,color="black",URL="$a00050.html"];
+  Node3 [label="noNucleation",height=0.2,width=0.4,color="black",URL="$a00052.html",tooltip="No nucleation model. "];
 }

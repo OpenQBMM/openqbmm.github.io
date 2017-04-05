@@ -1,5 +1,5 @@
 var a00259 =
 [
-    [ "FokkerPlanck", "a00024.html", "a00024" ],
-    [ "IEM", "a00033.html", "a00033" ]
+    [ "noPopulationBalance", "a00053.html", "a00053" ],
+    [ "univariatePopulationBalance", "a00073.html", null ]
 ];

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>mixingKernel Class Reference</title>
+<title>mixingModels Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -105,331 +105,31 @@ $(document).ready(function(){initNavTree('a00040.html','');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="a00583.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mixingKernel Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">mixingModels Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Abstract class for mixing model kernels.  
+<p>Solve a turbulent mixing model.  
  <a href="a00040.html#details">More...</a></p>
-<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for mixingKernel:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="a00584.png" border="0" usemap="#mixingKernel_inherit__map" alt="Inheritance graph"/></div>
-<map name="mixingKernel_inherit__map" id="mixingKernel_inherit__map">
-<area shape="rect" id="node2" href="a00024.html" title="FokkerPlanck" alt="" coords="5,80,111,107"/>
-<area shape="rect" id="node3" href="a00033.html" title="IEM" alt="" coords="135,80,179,107"/>
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a3b42ca04bac2225aebf334ca0d1930d3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00040.html#a3b42ca04bac2225aebf334ca0d1930d3">TypeName</a> (&quot;mixingKernel&quot;)</td></tr>
-<tr class="memdesc:a3b42ca04bac2225aebf334ca0d1930d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#a3b42ca04bac2225aebf334ca0d1930d3">More...</a><br /></td></tr>
-<tr class="separator:a3b42ca04bac2225aebf334ca0d1930d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae2fd47362b83e744693764fac06c525"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00040.html#aae2fd47362b83e744693764fac06c525">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00040.html">mixingKernel</a>, dictionary,(                                       const dictionary &amp;dict                       ),(dict))</td></tr>
-<tr class="separator:aae2fd47362b83e744693764fac06c525"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaca5d9c330f9d405dbba4c0a005e67b2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00040.html#aaca5d9c330f9d405dbba4c0a005e67b2">mixingKernel</a> (const dictionary &amp;dict)</td></tr>
-<tr class="memdesc:aaca5d9c330f9d405dbba4c0a005e67b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#aaca5d9c330f9d405dbba4c0a005e67b2">More...</a><br /></td></tr>
-<tr class="separator:aaca5d9c330f9d405dbba4c0a005e67b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8187a8529b4c0530e7d8b8e65f567ae2"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00040.html#a8187a8529b4c0530e7d8b8e65f567ae2">~mixingKernel</a> ()</td></tr>
-<tr class="memdesc:a8187a8529b4c0530e7d8b8e65f567ae2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a8187a8529b4c0530e7d8b8e65f567ae2">More...</a><br /></td></tr>
-<tr class="separator:a8187a8529b4c0530e7d8b8e65f567ae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ab81f0139b713a05fb0ebe91fc54ed5"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; fvScalarMatrix &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00040.html#a6ab81f0139b713a05fb0ebe91fc54ed5">K</a> (const <a class="el" href="a00255.html#a1247bdc497fbec0f2b067b84972d3873">volUnivariateMoment</a> &amp;<a class="el" href="a00045.html">moment</a>, const <a class="el" href="a00255.html#ad3c4993319e0afd86f19cfc10dc05503">volUnivariateMomentFieldSet</a> &amp;<a class="el" href="a00048.html">moments</a>) const  =0</td></tr>
-<tr class="memdesc:a6ab81f0139b713a05fb0ebe91fc54ed5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aggregation kernel.  <a href="#a6ab81f0139b713a05fb0ebe91fc54ed5">More...</a><br /></td></tr>
-<tr class="separator:a6ab81f0139b713a05fb0ebe91fc54ed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:add8b3288d1baf0dccf98ad50e9c1a689"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00040.html">mixingKernel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00040.html#add8b3288d1baf0dccf98ad50e9c1a689">New</a> (const dictionary &amp;dict)</td></tr>
-<tr class="separator:add8b3288d1baf0dccf98ad50e9c1a689"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a892ddcb9cba6f50b0396cdb7bf1b4f6a"><td class="memItemLeft" align="right" valign="top">const dictionary &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00040.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a">dict_</a></td></tr>
-<tr class="separator:a892ddcb9cba6f50b0396cdb7bf1b4f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88b4336f953c90f0d28a80db8fa28857"><td class="memItemLeft" align="right" valign="top">const dimensionedScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00040.html#a88b4336f953c90f0d28a80db8fa28857">Cphi_</a></td></tr>
-<tr class="memdesc:a88b4336f953c90f0d28a80db8fa28857"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coefficient of aggregation kernel.  <a href="#a88b4336f953c90f0d28a80db8fa28857">More...</a><br /></td></tr>
-<tr class="separator:a88b4336f953c90f0d28a80db8fa28857"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1807597980604a41ccdbd2b34f9f4479"><td class="memItemLeft" align="right" valign="top">const dimensionedScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00040.html#a1807597980604a41ccdbd2b34f9f4479">Cmixing_</a></td></tr>
-<tr class="memdesc:a1807597980604a41ccdbd2b34f9f4479"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coefficient of relaxation control.  <a href="#a1807597980604a41ccdbd2b34f9f4479">More...</a><br /></td></tr>
-<tr class="separator:a1807597980604a41ccdbd2b34f9f4479"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Abstract class for mixing model kernels. </p>
+<div class="textblock"><p>Solve a turbulent mixing model. </p>
 <p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
 <li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/mixingModels/mixingSubModels/mixingKernels/mixingKernel/mixingKernel.H">mixingKernel.H</a> </li>
+<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/mixingModels/turbulentMixing/turbulentMixing.H">turbulentMixing.H</a> </li>
 <li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/mixingModels/mixingSubModels/mixingKernels/mixingKernel/mixingKernel.C">mixingKernel.C</a> </li>
+<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/mixingModels/turbulentMixing/turbulentMixing.C">turbulentMixing.C</a> </li>
 </ul>
 </dd></dl>
-
-<p>Definition at line <a class="el" href="a00155_source.html#l00056">56</a> of file <a class="el" href="a00155_source.html">mixingKernel.H</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aaca5d9c330f9d405dbba4c0a005e67b2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="a00040.html">mixingKernel</a> </td>
-          <td>(</td>
-          <td class="paramtype">const dictionary &amp;&#160;</td>
-          <td class="paramname"><em>dict</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Construct from components. </p>
-
-<p>Definition at line <a class="el" href="a00154_source.html#l00044">44</a> of file <a class="el" href="a00154_source.html">mixingKernel.C</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a8187a8529b4c0530e7d8b8e65f567ae2"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">~<a class="el" href="a00040.html">mixingKernel</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Destructor. </p>
-
-<p>Definition at line <a class="el" href="a00154_source.html#l00070">70</a> of file <a class="el" href="a00154_source.html">mixingKernel.C</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a3b42ca04bac2225aebf334ca0d1930d3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">TypeName </td>
-          <td>(</td>
-          <td class="paramtype">&quot;mixingKernel&quot;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Runtime type information. </p>
-
-</div>
-</div>
-<a class="anchor" id="aae2fd47362b83e744693764fac06c525"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">declareRunTimeSelectionTable </td>
-          <td>(</td>
-          <td class="paramtype">autoPtr&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="a00040.html">mixingKernel</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">dictionary&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">(                                                                           const dictionary &amp;dict                                           )&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">(dict)&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="add8b3288d1baf0dccf98ad50e9c1a689"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Foam::autoPtr&lt; <a class="el" href="a00040.html">Foam::mixingSubModels::mixingKernel</a> &gt; New </td>
-          <td>(</td>
-          <td class="paramtype">const dictionary &amp;&#160;</td>
-          <td class="paramname"><em>dict</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00185_source.html#l00032">32</a> of file <a class="el" href="a00185_source.html">newMixingKernel.C</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a6ab81f0139b713a05fb0ebe91fc54ed5"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual tmp&lt;fvScalarMatrix&gt; K </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="a00255.html#a1247bdc497fbec0f2b067b84972d3873">volUnivariateMoment</a> &amp;&#160;</td>
-          <td class="paramname"><em>moment</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="a00255.html#ad3c4993319e0afd86f19cfc10dc05503">volUnivariateMomentFieldSet</a> &amp;&#160;</td>
-          <td class="paramname"><em>moments</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Aggregation kernel. </p>
-
-<p>Implemented in <a class="el" href="a00024.html#ac39375448f36ddee2cac96a50dd6a0a9">FokkerPlanck</a>, and <a class="el" href="a00033.html#ac39375448f36ddee2cac96a50dd6a0a9">IEM</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a892ddcb9cba6f50b0396cdb7bf1b4f6a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const dictionary&amp; dict_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00155_source.html#l00071">71</a> of file <a class="el" href="a00155_source.html">mixingKernel.H</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a88b4336f953c90f0d28a80db8fa28857"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const dimensionedScalar Cphi_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Coefficient of aggregation kernel. </p>
-
-<p>Definition at line <a class="el" href="a00155_source.html#l00074">74</a> of file <a class="el" href="a00155_source.html">mixingKernel.H</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a1807597980604a41ccdbd2b34f9f4479"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const dimensionedScalar Cmixing_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Coefficient of relaxation control. </p>
-
-<p>Definition at line <a class="el" href="a00155_source.html#l00077">77</a> of file <a class="el" href="a00155_source.html">mixingKernel.H</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="a00155_source.html">mixingKernel.H</a></li>
-<li><a class="el" href="a00154_source.html">mixingKernel.C</a></li>
-<li><a class="el" href="a00185_source.html">newMixingKernel.C</a></li>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="a00230_source.html">turbulentMixing.H</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00255.html">Foam</a></li><li class="navelem"><a class="el" href="a00257.html">mixingSubModels</a></li><li class="navelem"><a class="el" href="a00040.html">mixingKernel</a></li>
+    <li class="navelem"><a class="el" href="a00251.html">Foam</a></li><li class="navelem"><a class="el" href="a00040.html">mixingModels</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

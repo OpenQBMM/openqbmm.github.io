@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>hydrodynamicAggregation.C File Reference</title>
+<title>lognormalEQMOM.C File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,17 +107,15 @@ $(document).ready(function(){initNavTree('a00143.html','');});
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">hydrodynamicAggregation.C File Reference</div>  </div>
+<div class="title">lognormalEQMOM.C File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for hydrodynamicAggregation.C:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="a00366.png" border="0" usemap="#hydrodynamicAggregation_8C" alt=""/></div>
-<map name="hydrodynamicAggregation_8C" id="hydrodynamicAggregation_8C">
-<area shape="rect" id="node2" href="a00144.html" title="hydrodynamicAggregation.H" alt="" coords="5,80,199,107"/>
+<div class="textblock"><div class="dynheader">
+Include dependency graph for lognormalEQMOM.C:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00367.png" border="0" usemap="#lognormalEQMOM_8C" alt=""/></div>
+<map name="lognormalEQMOM_8C" id="lognormalEQMOM_8C">
+<area shape="rect" id="node2" href="a00144.html" title="lognormalEQMOM.H" alt="" coords="5,80,149,107"/>
 </map>
 </div>
 </div>
@@ -125,30 +123,26 @@ $(document).ready(function(){initNavTree('a00143.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:a00255"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00255.html">Foam</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00265"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00265.html">Foam::populationBalanceSubModels</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00266"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00266.html">Foam::populationBalanceSubModels::aggregationKernels</a></td></tr>
+<tr class="memitem:a00251"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html">Foam</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a636ec3d763c8c887602ea04a51fad475"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00266.html#a636ec3d763c8c887602ea04a51fad475">defineTypeNameAndDebug</a> (hydrodynamicAggregation, 0)</td></tr>
-<tr class="separator:a636ec3d763c8c887602ea04a51fad475"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af83bce581ea73f24b1228b0fff351b56"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00266.html#af83bce581ea73f24b1228b0fff351b56">addToRunTimeSelectionTable</a> (aggregationKernel, hydrodynamicAggregation, dictionary)</td></tr>
-<tr class="separator:af83bce581ea73f24b1228b0fff351b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc4d0b6de74a1649ffc1fb65e338c2d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html#abc4d0b6de74a1649ffc1fb65e338c2d7">defineTypeNameAndDebug</a> (lognormalEQMOM, 0)</td></tr>
+<tr class="separator:abc4d0b6de74a1649ffc1fb65e338c2d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5fccf27937c96a424dd25d4f637bcd8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html#ad5fccf27937c96a424dd25d4f637bcd8">addToRunTimeSelectionTable</a> (extendedMomentInversion, lognormalEQMOM, dictionary)</td></tr>
+<tr class="separator:ad5fccf27937c96a424dd25d4f637bcd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/aggregationKernels/hydrodynamicAggregation/hydrodynamicAggregation.C">hydrodynamicAggregation.C</a> </p>
+<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/momentInversion/univariate/extended/lognormal/lognormalEQMOM.C">lognormalEQMOM.C</a> </p>
 
-<p>Definition in file <a class="el" href="a00143_source.html">hydrodynamicAggregation.C</a>.</p>
+<p>Definition in file <a class="el" href="a00143_source.html">lognormalEQMOM.C</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0ecbe6cb5f50223527ce4e1b499bd333.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="dir_58c61e057ed2119d9755c9fdbb448648.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="dir_62f86ef0c260ceaf3b93a8b1f701039a.html">aggregationKernels</a></li><li class="navelem"><a class="el" href="dir_80f5a8988a3207453ee47742f441b6c1.html">hydrodynamicAggregation</a></li><li class="navelem"><a class="el" href="a00143.html">hydrodynamicAggregation.C</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0b9bb76b72c90181149adc55e92e6ea3.html">momentInversion</a></li><li class="navelem"><a class="el" href="dir_224f5f7c837ec5f1a50cf8e5b44c5959.html">univariate</a></li><li class="navelem"><a class="el" href="dir_eab674178c35773c79abc32ac1e64a39.html">extended</a></li><li class="navelem"><a class="el" href="dir_88c85b95c14969766ecd90e59c5ff4a1.html">lognormal</a></li><li class="navelem"><a class="el" href="a00143.html">lognormalEQMOM.C</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

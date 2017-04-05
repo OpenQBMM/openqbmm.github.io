@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>molecularDiffusion.H File Reference</title>
+<title>momentFieldSet.H File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,24 +107,21 @@ $(document).ready(function(){initNavTree('a00162.html','');});
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
-<div class="title">populationBalanceModels/populationBalanceSubModels/diffusionModels/molecularDiffusion/molecularDiffusion.H File Reference</div>  </div>
+<div class="title">momentFieldSet.H File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for populationBalanceModels/populationBalanceSubModels/diffusionModels/molecularDiffusion/molecularDiffusion.H:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+<div class="textblock"><div class="dynheader">
+Include dependency graph for momentFieldSet.H:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00393.png" border="0" usemap="#momentFieldSet_8H" alt=""/></div>
 </div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="a00392.png" border="0" usemap="#molecularDiffusion_8H" alt=""/></div>
-</div>
-</div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="a00393.png" border="0" usemap="#molecularDiffusion_8Hdep" alt=""/></div>
-<map name="molecularDiffusion_8Hdep" id="molecularDiffusion_8Hdep">
-<area shape="rect" id="node2" href="a00160.html" title="molecularDiffusion.C" alt="" coords="5,80,151,107"/>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00394.png" border="0" usemap="#momentFieldSet_8Hdep" alt=""/></div>
+<map name="momentFieldSet_8Hdep" id="momentFieldSet_8Hdep">
+<area shape="rect" id="node2" href="a00161.html" title="momentFieldSet.C" alt="" coords="5,80,139,107"/>
+<area shape="rect" id="node3" href="a00164.html" title="momentFieldSets.H" alt="" coords="163,80,301,107"/>
 </map>
 </div>
 </div>
@@ -132,29 +129,25 @@ $(document).ready(function(){initNavTree('a00162.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00044.html">molecularDiffusion</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Molecular diffusion model.  <a href="a00044.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00044.html">momentFieldSet&lt; momentType, nodeType &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores a list of moments, with a Map&lt;label&gt; that takes a label key and returns the index into the list of moments.  <a href="a00044.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:a00255"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00255.html">Foam</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00265"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00265.html">Foam::populationBalanceSubModels</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00269"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00269.html">Foam::populationBalanceSubModels::diffusionModels</a></td></tr>
+<tr class="memitem:a00251"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html">Foam</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/diffusionModels/molecularDiffusion/molecularDiffusion.H">molecularDiffusion.H</a> </p>
+<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/moments/momentFieldSet.H">momentFieldSet.H</a> </p>
 
-<p>Definition in file <a class="el" href="a00162_source.html">populationBalanceModels/populationBalanceSubModels/diffusionModels/molecularDiffusion/molecularDiffusion.H</a>.</p>
+<p>Definition in file <a class="el" href="a00162_source.html">momentFieldSet.H</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0ecbe6cb5f50223527ce4e1b499bd333.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="dir_58c61e057ed2119d9755c9fdbb448648.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="dir_6ec2bdb0f036663acb1a5a50d7b40959.html">diffusionModels</a></li><li class="navelem"><a class="el" href="dir_d19fbed9e8484b79d3af90d088632922.html">molecularDiffusion</a></li><li class="navelem"><a class="el" href="a00162.html">molecularDiffusion.H</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_17a6c3d0f5fde6543c26c10fa938ae5d.html">moments</a></li><li class="navelem"><a class="el" href="a00162.html">momentFieldSet.H</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

@@ -6,5 +6,5 @@ digraph "correctRecurrence"
   rankdir="LR";
   Node1 [label="correctRecurrence",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="~gaussLobattoMomentInversion",height=0.2,width=0.4,color="black",URL="$a00028.html#ae6b87c401ec282458f44cea51931b47c",tooltip="Destructor. "];
+  Node2 [label="~gaussRadauMomentInversion",height=0.2,width=0.4,color="black",URL="$a00028.html#a1c10e28cb0b50ad94bb183aa98afcf05",tooltip="Destructor. "];
 }

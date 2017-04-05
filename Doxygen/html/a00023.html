@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Fokker Class Reference</title>
+<title>FokkerPlanck Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -105,39 +105,252 @@ $(document).ready(function(){initNavTree('a00023.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="a00589.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Fokker Class Reference</div>  </div>
+<div class="title">FokkerPlanck Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Brownian aggregation kernel supplemented kernel for particles in turbulent flows in conditions when the particle size is smaller than the local Kolmogorov scale.  
- <a href="a00023.html#details">More...</a></p>
+<div class="dynheader">
+Inheritance diagram for FokkerPlanck:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00590.png" border="0" usemap="#FokkerPlanck_inherit__map" alt="Inheritance graph"/></div>
+<map name="FokkerPlanck_inherit__map" id="FokkerPlanck_inherit__map">
+<area shape="rect" id="node2" href="a00038.html" title="Abstract class for mixing model kernels. " alt="" coords="8,5,108,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for FokkerPlanck:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00591.png" border="0" usemap="#FokkerPlanck_coll__map" alt="Collaboration graph"/></div>
+<map name="FokkerPlanck_coll__map" id="FokkerPlanck_coll__map">
+<area shape="rect" id="node2" href="a00038.html" title="Abstract class for mixing model kernels. " alt="" coords="8,5,108,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a744547cf1f8f8cab0775e6b41d928bda"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00023.html#a744547cf1f8f8cab0775e6b41d928bda">TypeName</a> (&quot;FokkerPlanck&quot;)</td></tr>
+<tr class="memdesc:a744547cf1f8f8cab0775e6b41d928bda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#a744547cf1f8f8cab0775e6b41d928bda">More...</a><br /></td></tr>
+<tr class="separator:a744547cf1f8f8cab0775e6b41d928bda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a718fc89d155ab44ff0ceab5edaebae42"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00023.html#a718fc89d155ab44ff0ceab5edaebae42">FokkerPlanck</a> (const dictionary &amp;dict)</td></tr>
+<tr class="memdesc:a718fc89d155ab44ff0ceab5edaebae42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#a718fc89d155ab44ff0ceab5edaebae42">More...</a><br /></td></tr>
+<tr class="separator:a718fc89d155ab44ff0ceab5edaebae42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58e0c436828db3c5c2398eac07f00747"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00023.html#a58e0c436828db3c5c2398eac07f00747">~FokkerPlanck</a> ()</td></tr>
+<tr class="memdesc:a58e0c436828db3c5c2398eac07f00747"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a58e0c436828db3c5c2398eac07f00747">More...</a><br /></td></tr>
+<tr class="separator:a58e0c436828db3c5c2398eac07f00747"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac39375448f36ddee2cac96a50dd6a0a9"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; fvScalarMatrix &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00023.html#ac39375448f36ddee2cac96a50dd6a0a9">K</a> (const <a class="el" href="a00251.html#a1247bdc497fbec0f2b067b84972d3873">volUnivariateMoment</a> &amp;<a class="el" href="a00043.html">moment</a>, const <a class="el" href="a00251.html#ad3c4993319e0afd86f19cfc10dc05503">volUnivariateMomentFieldSet</a> &amp;<a class="el" href="a00046.html">moments</a>) const </td></tr>
+<tr class="memdesc:ac39375448f36ddee2cac96a50dd6a0a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aggregation kernel.  <a href="#ac39375448f36ddee2cac96a50dd6a0a9">More...</a><br /></td></tr>
+<tr class="separator:ac39375448f36ddee2cac96a50dd6a0a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00038"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00038')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="a00038.html">mixingKernel</a></td></tr>
+<tr class="memitem:a3b42ca04bac2225aebf334ca0d1930d3 inherit pub_methods_a00038"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00038.html#a3b42ca04bac2225aebf334ca0d1930d3">TypeName</a> (&quot;mixingKernel&quot;)</td></tr>
+<tr class="memdesc:a3b42ca04bac2225aebf334ca0d1930d3 inherit pub_methods_a00038"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#a3b42ca04bac2225aebf334ca0d1930d3">More...</a><br /></td></tr>
+<tr class="separator:a3b42ca04bac2225aebf334ca0d1930d3 inherit pub_methods_a00038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae2fd47362b83e744693764fac06c525 inherit pub_methods_a00038"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00038.html#aae2fd47362b83e744693764fac06c525">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00038.html">mixingKernel</a>, dictionary,(                                       const dictionary &amp;dict                       ),(dict))</td></tr>
+<tr class="separator:aae2fd47362b83e744693764fac06c525 inherit pub_methods_a00038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaca5d9c330f9d405dbba4c0a005e67b2 inherit pub_methods_a00038"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00038.html#aaca5d9c330f9d405dbba4c0a005e67b2">mixingKernel</a> (const dictionary &amp;dict)</td></tr>
+<tr class="memdesc:aaca5d9c330f9d405dbba4c0a005e67b2 inherit pub_methods_a00038"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#aaca5d9c330f9d405dbba4c0a005e67b2">More...</a><br /></td></tr>
+<tr class="separator:aaca5d9c330f9d405dbba4c0a005e67b2 inherit pub_methods_a00038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8187a8529b4c0530e7d8b8e65f567ae2 inherit pub_methods_a00038"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00038.html#a8187a8529b4c0530e7d8b8e65f567ae2">~mixingKernel</a> ()</td></tr>
+<tr class="memdesc:a8187a8529b4c0530e7d8b8e65f567ae2 inherit pub_methods_a00038"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a8187a8529b4c0530e7d8b8e65f567ae2">More...</a><br /></td></tr>
+<tr class="separator:a8187a8529b4c0530e7d8b8e65f567ae2 inherit pub_methods_a00038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_methods_a00038"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_a00038')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="a00038.html">mixingKernel</a></td></tr>
+<tr class="memitem:add8b3288d1baf0dccf98ad50e9c1a689 inherit pub_static_methods_a00038"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00038.html">mixingKernel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00038.html#add8b3288d1baf0dccf98ad50e9c1a689">New</a> (const dictionary &amp;dict)</td></tr>
+<tr class="separator:add8b3288d1baf0dccf98ad50e9c1a689 inherit pub_static_methods_a00038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_a00038"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a00038')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="a00038.html">mixingKernel</a></td></tr>
+<tr class="memitem:a892ddcb9cba6f50b0396cdb7bf1b4f6a inherit pro_attribs_a00038"><td class="memItemLeft" align="right" valign="top">const dictionary &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00038.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a">dict_</a></td></tr>
+<tr class="separator:a892ddcb9cba6f50b0396cdb7bf1b4f6a inherit pro_attribs_a00038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88b4336f953c90f0d28a80db8fa28857 inherit pro_attribs_a00038"><td class="memItemLeft" align="right" valign="top">const dimensionedScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00038.html#a88b4336f953c90f0d28a80db8fa28857">Cphi_</a></td></tr>
+<tr class="memdesc:a88b4336f953c90f0d28a80db8fa28857 inherit pro_attribs_a00038"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coefficient of aggregation kernel.  <a href="#a88b4336f953c90f0d28a80db8fa28857">More...</a><br /></td></tr>
+<tr class="separator:a88b4336f953c90f0d28a80db8fa28857 inherit pro_attribs_a00038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1807597980604a41ccdbd2b34f9f4479 inherit pro_attribs_a00038"><td class="memItemLeft" align="right" valign="top">const dimensionedScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00038.html#a1807597980604a41ccdbd2b34f9f4479">Cmixing_</a></td></tr>
+<tr class="memdesc:a1807597980604a41ccdbd2b34f9f4479 inherit pro_attribs_a00038"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coefficient of relaxation control.  <a href="#a1807597980604a41ccdbd2b34f9f4479">More...</a><br /></td></tr>
+<tr class="separator:a1807597980604a41ccdbd2b34f9f4479 inherit pro_attribs_a00038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Brownian aggregation kernel supplemented kernel for particles in turbulent flows in conditions when the particle size is smaller than the local Kolmogorov scale. </p>
-<p>model.</p>
-<p><a class="anchor" id="Description"></a>References </p><pre class="fragment">    "Computational Models for Turbulent Reacting Flows"
-    R O Fox
-    Cambridge University Press
-</pre><pre class="fragment">    "Solution of the Fokker-Planck Equation Using the Extended
-    Quadrature Method of Moments"
-    E Madadi-Kandjani and A Passalacqua
-    2015 AIChE Annual Meeting, Salt Lake City, UT
-</pre><dl class="section user"><dt>Source files</dt><dd><ul>
-<li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/mixingModels/mixingSubModels/mixingKernels/FokkerPlanck/FokkerPlanck.H">FokkerPlanck.H</a> </li>
-<li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/mixingModels/mixingSubModels/mixingKernels/FokkerPlanck/FokkerPlanck.C">FokkerPlanck.C</a> </li>
-</ul>
-</dd></dl>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="a00130_source.html">FokkerPlanck.H</a></li>
+<div class="textblock">
+<p>Definition at line <a class="el" href="a00126_source.html#l00068">68</a> of file <a class="el" href="a00126_source.html">FokkerPlanck.H</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a718fc89d155ab44ff0ceab5edaebae42"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a00023.html">FokkerPlanck</a> </td>
+          <td>(</td>
+          <td class="paramtype">const dictionary &amp;&#160;</td>
+          <td class="paramname"><em>dict</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct from components. </p>
+
+<p>Definition at line <a class="el" href="a00125_source.html#l00056">56</a> of file <a class="el" href="a00125_source.html">FokkerPlanck.C</a>.</p>
+
+<p>References <a class="el" href="a00125_source.html#l00067">FokkerPlanck::~FokkerPlanck()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00023_a718fc89d155ab44ff0ceab5edaebae42_cgraph.png" border="0" usemap="#a00023_a718fc89d155ab44ff0ceab5edaebae42_cgraph" alt=""/></div>
+<map name="a00023_a718fc89d155ab44ff0ceab5edaebae42_cgraph" id="a00023_a718fc89d155ab44ff0ceab5edaebae42_cgraph">
+<area shape="rect" id="node2" href="a00023.html#a58e0c436828db3c5c2398eac07f00747" title="Destructor. " alt="" coords="159,5,272,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a58e0c436828db3c5c2398eac07f00747"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">~<a class="el" href="a00023.html">FokkerPlanck</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Destructor. </p>
+
+<p>Definition at line <a class="el" href="a00125_source.html#l00067">67</a> of file <a class="el" href="a00125_source.html">FokkerPlanck.C</a>.</p>
+
+<p>References <a class="el" href="a00125_source.html#l00075">FokkerPlanck::K()</a>.</p>
+
+<p>Referenced by <a class="el" href="a00125_source.html#l00056">FokkerPlanck::FokkerPlanck()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00023_a58e0c436828db3c5c2398eac07f00747_cgraph.png" border="0" usemap="#a00023_a58e0c436828db3c5c2398eac07f00747_cgraph" alt=""/></div>
+<map name="a00023_a58e0c436828db3c5c2398eac07f00747_cgraph" id="a00023_a58e0c436828db3c5c2398eac07f00747_cgraph">
+<area shape="rect" id="node2" href="a00023.html#ac39375448f36ddee2cac96a50dd6a0a9" title="Aggregation kernel. " alt="" coords="167,5,205,32"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00023_a58e0c436828db3c5c2398eac07f00747_icgraph.png" border="0" usemap="#a00023_a58e0c436828db3c5c2398eac07f00747_icgraph" alt=""/></div>
+<map name="a00023_a58e0c436828db3c5c2398eac07f00747_icgraph" id="a00023_a58e0c436828db3c5c2398eac07f00747_icgraph">
+<area shape="rect" id="node2" href="a00023.html#a718fc89d155ab44ff0ceab5edaebae42" title="Construct from components. " alt="" coords="167,5,272,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a744547cf1f8f8cab0775e6b41d928bda"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TypeName </td>
+          <td>(</td>
+          <td class="paramtype">&quot;FokkerPlanck&quot;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Runtime type information. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac39375448f36ddee2cac96a50dd6a0a9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Foam::tmp&lt; Foam::fvScalarMatrix &gt; K </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="a00251.html#a1247bdc497fbec0f2b067b84972d3873">volUnivariateMoment</a> &amp;&#160;</td>
+          <td class="paramname"><em>moment</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="a00251.html#ad3c4993319e0afd86f19cfc10dc05503">volUnivariateMomentFieldSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>moments</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Aggregation kernel. </p>
+
+<p>Implements <a class="el" href="a00038.html#a6ab81f0139b713a05fb0ebe91fc54ed5">mixingKernel</a>.</p>
+
+<p>Definition at line <a class="el" href="a00125_source.html#l00075">75</a> of file <a class="el" href="a00125_source.html">FokkerPlanck.C</a>.</p>
+
+<p>References <a class="el" href="a00165_source.html#l00053">moment&lt; fieldType, nodeType &gt;::order()</a>.</p>
+
+<p>Referenced by <a class="el" href="a00125_source.html#l00067">FokkerPlanck::~FokkerPlanck()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00023_ac39375448f36ddee2cac96a50dd6a0a9_cgraph.png" border="0" usemap="#a00023_ac39375448f36ddee2cac96a50dd6a0a9_cgraph" alt=""/></div>
+<map name="a00023_ac39375448f36ddee2cac96a50dd6a0a9_cgraph" id="a00023_ac39375448f36ddee2cac96a50dd6a0a9_cgraph">
+<area shape="rect" id="node2" href="a00043.html#aca3a2c038db9ad76dce684b08b8c9b6f" title="Return the overall order of the moment. " alt="" coords="92,5,245,32"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00023_ac39375448f36ddee2cac96a50dd6a0a9_icgraph.png" border="0" usemap="#a00023_ac39375448f36ddee2cac96a50dd6a0a9_icgraph" alt=""/></div>
+<map name="a00023_ac39375448f36ddee2cac96a50dd6a0a9_icgraph" id="a00023_ac39375448f36ddee2cac96a50dd6a0a9_icgraph">
+<area shape="rect" id="node2" href="a00023.html#a58e0c436828db3c5c2398eac07f00747" title="Destructor. " alt="" coords="92,5,205,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li><a class="el" href="a00126_source.html">FokkerPlanck.H</a></li>
+<li><a class="el" href="a00125_source.html">FokkerPlanck.C</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00023.html">Fokker</a></li>
+    <li class="navelem"><a class="el" href="a00251.html">Foam</a></li><li class="navelem"><a class="el" href="a00253.html">mixingSubModels</a></li><li class="navelem"><a class="el" href="a00255.html">mixingKernels</a></li><li class="navelem"><a class="el" href="a00023.html">FokkerPlanck</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

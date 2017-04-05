@@ -1,3 +1,4 @@
-<map id="nDimensionalMappedList&lt; mappedType &gt;" name="nDimensionalMappedList&lt; mappedType &gt;">
-<area shape="rect" id="node3" href="$a00050.html" title="nDimensionalMappedList\l\&lt; scalar \&gt;" alt="" coords="5,185,179,227"/>
+<map id="populationBalanceModel" name="populationBalanceModel">
+<area shape="rect" id="node2" href="$a00074.html" title="univariatePopulationBalance" alt="" coords="5,80,199,107"/>
+<area shape="rect" id="node3" href="$a00053.html" title="Disables the solution of the population balance model. " alt="" coords="223,80,373,107"/>
 </map>

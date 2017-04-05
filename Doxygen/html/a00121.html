@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>exponentialBreakup.H File Reference</title>
+<title>extendedMomentInversion.H File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,27 +107,29 @@ $(document).ready(function(){initNavTree('a00121.html','');});
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
-<div class="title">exponentialBreakup.H File Reference</div>  </div>
+<div class="title">extendedMomentInversion.H File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for exponentialBreakup.H:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="a00333.png" border="0" usemap="#exponentialBreakup_8H" alt=""/></div>
-<map name="exponentialBreakup_8H" id="exponentialBreakup_8H">
-<area shape="rect" id="node2" href="a00089.html" title="breakupKernel.H" alt="" coords="21,80,143,107"/>
+<div class="textblock"><div class="dynheader">
+Include dependency graph for extendedMomentInversion.H:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00334.png" border="0" usemap="#extendedMomentInversion_8H" alt=""/></div>
+<map name="extendedMomentInversion_8H" id="extendedMomentInversion_8H">
+<area shape="rect" id="node7" href="a00241.html" title="univariateMomentSet.H" alt="" coords="266,155,426,181"/>
+<area shape="rect" id="node8" href="a00238.html" title="univariateMomentInversion.H" alt="" coords="285,80,479,107"/>
 </map>
 </div>
-</div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="a00334.png" border="0" usemap="#exponentialBreakup_8Hdep" alt=""/></div>
-<map name="exponentialBreakup_8Hdep" id="exponentialBreakup_8Hdep">
-<area shape="rect" id="node2" href="a00120.html" title="exponentialBreakup.C" alt="" coords="5,80,160,107"/>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00335.png" border="0" usemap="#extendedMomentInversion_8Hdep" alt=""/></div>
+<map name="extendedMomentInversion_8Hdep" id="extendedMomentInversion_8Hdep">
+<area shape="rect" id="node2" href="a00119.html" title="extendedFieldMomentInversion.H" alt="" coords="5,80,228,107"/>
+<area shape="rect" id="node3" href="a00083.html" title="betaEQMOM.H" alt="" coords="252,80,363,107"/>
+<area shape="rect" id="node4" href="a00120.html" title="extendedMomentInversion.C" alt="" coords="387,80,582,107"/>
+<area shape="rect" id="node5" href="a00178.html" title="newExtendedMomentInversion.C" alt="" coords="606,80,825,107"/>
+<area shape="rect" id="node6" href="a00130.html" title="gammaEQMOM.H" alt="" coords="849,80,979,107"/>
+<area shape="rect" id="node7" href="a00144.html" title="lognormalEQMOM.H" alt="" coords="1003,80,1147,107"/>
 </map>
 </div>
 </div>
@@ -135,29 +137,25 @@ $(document).ready(function(){initNavTree('a00121.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00019.html">exponentialBreakup</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exponential breakup kernel. The value of the kernel is read from dictionary or assumed equal to 1. The minimum value of the abscissa after which the model is applied can be defined by the user or it is assumed to be 1.  <a href="a00019.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00020.html">extendedMomentInversion</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract class to allow run-time selection of the algorithm to be used for the extended quadrature method of moments.  <a href="a00020.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:a00255"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00255.html">Foam</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00265"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00265.html">Foam::populationBalanceSubModels</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00267"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00267.html">Foam::populationBalanceSubModels::breakupKernels</a></td></tr>
+<tr class="memitem:a00251"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html">Foam</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/breakupKernels/exponentialBreakup/exponentialBreakup.H">exponentialBreakup.H</a> </p>
+<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/momentInversion/univariate/extended/extendedMomentInversion/extendedMomentInversion.H">extendedMomentInversion.H</a> </p>
 
-<p>Definition in file <a class="el" href="a00121_source.html">exponentialBreakup.H</a>.</p>
+<p>Definition in file <a class="el" href="a00121_source.html">extendedMomentInversion.H</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0ecbe6cb5f50223527ce4e1b499bd333.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="dir_58c61e057ed2119d9755c9fdbb448648.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="dir_8db1431bcb360c6bb23f8119e5d3e19f.html">breakupKernels</a></li><li class="navelem"><a class="el" href="dir_fd026c3281016f3d3666195c1f155dc1.html">exponentialBreakup</a></li><li class="navelem"><a class="el" href="a00121.html">exponentialBreakup.H</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0b9bb76b72c90181149adc55e92e6ea3.html">momentInversion</a></li><li class="navelem"><a class="el" href="dir_224f5f7c837ec5f1a50cf8e5b44c5959.html">univariate</a></li><li class="navelem"><a class="el" href="dir_eab674178c35773c79abc32ac1e64a39.html">extended</a></li><li class="navelem"><a class="el" href="dir_81685f318616eefea0b52e76178bd778.html">extendedMomentInversion</a></li><li class="navelem"><a class="el" href="a00121.html">extendedMomentInversion.H</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

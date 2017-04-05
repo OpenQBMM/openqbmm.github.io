@@ -1,13 +1,10 @@
 var a00075 =
 [
-    [ "univariatePDFTransportModel", "a00075.html#ac76f0af150281544efbb317164c0075e", null ],
-    [ "~univariatePDFTransportModel", "a00075.html#a7c2fb39b317ec861cc76f8a047fb2e0b", null ],
-    [ "momentDiffusion", "a00075.html#a6dca7ee5f9dcbd74ab958fead1ac05fd", null ],
-    [ "implicitMomentSource", "a00075.html#a984a91bb0f818af9554dbc6805598ea3", null ],
-    [ "explicitMomentSource", "a00075.html#a85b0ae2fdf7934eb3a8fda32f8795fa5", null ],
-    [ "cellMomentSource", "a00075.html#aec57a3aa99ea3029930dc95b50c005e6", null ],
-    [ "quadrature", "a00075.html#a200f5b2e653f07470d4ac4fa1a317779", null ],
-    [ "solve", "a00075.html#af7d39f0eac0af0ed5785935ac72a1e7d", null ],
-    [ "quadrature_", "a00075.html#a4fa4a0f5eac7545eecc523ed6244beba", null ],
-    [ "momentAdvection_", "a00075.html#ae68524f5590b620d61f8e7f0f866cfa0", null ]
+    [ "Vandermonde", "a00075.html#ad67ccfbb9cade9e7a4af8af247cbc760", null ],
+    [ "Vandermonde", "a00075.html#aa269448837b597fdbbc600d30d0ee801", null ],
+    [ "~Vandermonde", "a00075.html#a56ad6e00f00ff1794e13eac202ba81dd", null ],
+    [ "solve", "a00075.html#a0501062a3550e6d046dd2dca738ecfa1", null ],
+    [ "inv", "a00075.html#a41f917babb4e3753f9e48b975cb03b2f", null ],
+    [ "operator()", "a00075.html#a5abda4d7d3085503b1326c880f77ad36", null ],
+    [ "operator()", "a00075.html#aaed018d61a33bd73175c5c1fc3a6fd84", null ]
 ];

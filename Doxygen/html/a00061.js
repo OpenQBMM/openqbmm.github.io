@@ -1,7 +1,7 @@
 var a00061 =
 [
-    [ "powerLawBreakup", "a00061.html#a11045d68f7b22d71a19150334861de52", null ],
-    [ "~powerLawBreakup", "a00061.html#acfdcf8ac936fab910b034c20837198f6", null ],
-    [ "TypeName", "a00061.html#ab1fbb32a962ed7ca607b766ec813333b", null ],
-    [ "Kb", "a00061.html#a1e8a125530058d3c06bc7ca11c10c1e2", null ]
+    [ "sumAggregation", "a00061.html#a2c16e4ffc6504984bf080838406a8de2", null ],
+    [ "~sumAggregation", "a00061.html#a8e3dea727d5bdc9cd286c349f6dfefff", null ],
+    [ "TypeName", "a00061.html#a4175abdc1459fcf6820150c4e2ecf4da", null ],
+    [ "Ka", "a00061.html#aff545f8602677e85abbb1b6c6d0fb20f", null ]
 ];

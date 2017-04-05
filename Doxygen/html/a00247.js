@@ -1,6 +1,5 @@
 var a00247 =
 [
-    [ "molecularDiffusion", "a00038.html", "a00038" ],
-    [ "noDiffusion", "a00044.html", "a00044" ],
-    [ "turbulentDiffusion", "a00059.html", "a00059" ]
+    [ "defineTypeNameAndDebug", "a00247.html#a141d32d1d596c5abf5a48966fb726556", null ],
+    [ "addToRunTimeSelectionTable", "a00247.html#a908eacb72c5c2b3af99129191b55dc5f", null ]
 ];

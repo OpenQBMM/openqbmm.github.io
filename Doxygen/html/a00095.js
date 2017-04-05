@@ -1,6 +1,5 @@
 var a00095 =
 [
-    [ "patches", "a00095.html#a36a9f0467bdd55ece250a2d8e21bfdab", null ],
-    [ "addFvPatches", "a00095.html#aba98bd4bf2ae6ad20eaee4b756080d6f", null ],
-    [ "patches", "a00095.html#a6eea546b8fab7318f4d0d67e4ff28fde", null ]
+    [ "defineTypeNameAndDebug", "a00095.html#a4338754b0aa20aed5a47b1d88f7fa364", null ],
+    [ "addToRunTimeSelectionTable", "a00095.html#a7337b8a9505305ea7461d4aa5aee0c6f", null ]
 ];

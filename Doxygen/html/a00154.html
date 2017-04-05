@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>mixingKernel.C File Reference</title>
+<title>mixingTransportFoam.C File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -104,49 +104,74 @@ $(document).ready(function(){initNavTree('a00154.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">mixingKernel.C File Reference</div>  </div>
+<div class="title">mixingTransportFoam.C File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for mixingKernel.C:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="a00381.png" border="0" usemap="#mixingKernel_8C" alt=""/></div>
-<map name="mixingKernel_8C" id="mixingKernel_8C">
-<area shape="rect" id="node2" href="a00155.html" title="mixingKernel.H" alt="" coords="6,80,118,107"/>
+
+<p>Solver for mixing model on steady velocity field.  
+<a href="#details">More...</a></p>
+<div class="textblock"><div class="dynheader">
+Include dependency graph for mixingTransportFoam.C:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00382.png" border="0" usemap="#mixingTransportFoam_8C" alt=""/></div>
+<map name="mixingTransportFoam_8C" id="mixingTransportFoam_8C">
+<area shape="rect" id="node8" href="a00153.html" title="mixingModel.H" alt="" coords="942,87,1053,114"/>
+<area shape="rect" id="node13" href="a00099.html" title="createFields.H" alt="" coords="1711,87,1820,114"/>
 </map>
 </div>
 </div>
 <p><a href="a00154_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:a00255"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00255.html">Foam</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00257"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00257.html">Foam::mixingSubModels</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:abf81d58a6669ac3c3505cc7bc83fc3ec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00257.html#abf81d58a6669ac3c3505cc7bc83fc3ec">defineTypeNameAndDebug</a> (mixingKernel, 0)</td></tr>
-<tr class="separator:abf81d58a6669ac3c3505cc7bc83fc3ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefa5f150c6459c5dc6b9dd059c74f912"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00257.html#aefa5f150c6459c5dc6b9dd059c74f912">defineRunTimeSelectionTable</a> (mixingKernel, dictionary)</td></tr>
-<tr class="separator:aefa5f150c6459c5dc6b9dd059c74f912"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00154.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
+<tr class="separator:a0ddf1224851353fc92bfbff6f499fa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/mixingModels/mixingSubModels/mixingKernels/mixingKernel/mixingKernel.C">mixingKernel.C</a> </p>
+<div class="textblock"><p>Solver for mixing model on steady velocity field. </p>
+<p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/applications/mixingTransportFoam/mixingTransportFoam.C">mixingTransportFoam.C</a></p>
+<p><a class="anchor" id="Description"></a> </p>
 
-<p>Definition in file <a class="el" href="a00154_source.html">mixingKernel.C</a>.</p>
-</div></div><!-- contents -->
+<p>Definition in file <a class="el" href="a00154_source.html">mixingTransportFoam.C</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a0ddf1224851353fc92bfbff6f499fa97"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>argv</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00154_source.html#l00043">43</a> of file <a class="el" href="a00154_source.html">mixingTransportFoam.C</a>.</p>
+
+<p>References <a class="el" href="a00099_source.html#l00102">mixing</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_e33c4094dda42b63bf42ed0cf06ff677.html">mixingModels</a></li><li class="navelem"><a class="el" href="dir_2e6d34bda531f0fb841bc3aac1e0e585.html">mixingSubModels</a></li><li class="navelem"><a class="el" href="dir_59c2c0be88902734948c694706404395.html">mixingKernels</a></li><li class="navelem"><a class="el" href="dir_5b2311dddb8d1d4e27493a6b3d60ef15.html">mixingKernel</a></li><li class="navelem"><a class="el" href="a00154.html">mixingKernel.C</a></li>
+    <li class="navelem"><a class="el" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html">applications</a></li><li class="navelem"><a class="el" href="dir_3c83e603c8504607b4a744f056045e48.html">mixingTransportFoam</a></li><li class="navelem"><a class="el" href="a00154.html">mixingTransportFoam.C</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

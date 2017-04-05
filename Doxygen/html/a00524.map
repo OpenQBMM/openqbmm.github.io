@@ -1,3 +1,4 @@
-<map id="extendedFieldMomentInversion" name="extendedFieldMomentInversion">
-<area shape="rect" id="node2" href="$a00022.html" title="Abstract class for run&#45;time selection of field moment inversion. " alt="" coords="36,5,185,32"/>
+<map id="fieldMomentInversion" name="fieldMomentInversion">
+<area shape="rect" id="node2" href="$a00004.html" title="Invert moment a volUnivariateMomentFieldSet using basic quadrature inversion. " alt="" coords="5,80,192,107"/>
+<area shape="rect" id="node3" href="$a00019.html" title="Inverts a volUnivariateMomentFieldSet using the extended quadrature method of moments. " alt="" coords="216,80,427,107"/>
 </map>

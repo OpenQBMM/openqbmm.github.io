@@ -4,5 +4,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node1 [label="eigenSolver",height=0.2,width=0.4,color="black",URL="$a00016.html",tooltip="Eigenvalues and eigenvectors of a square real matrix. "];
+  Node1 [label="Fokker",height=0.2,width=0.4,color="black",URL="$a00022.html",tooltip="Brownian aggregation kernel supplemented kernel for particles in turbulent flows in conditions when t..."];
 }

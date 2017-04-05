@@ -1,3 +1,3 @@
-<map id="gammaEQMOM" name="gammaEQMOM">
-<area shape="rect" id="node2" href="$a00021.html" title="Abstract class to allow run&#45;time selection of the algorithm to be used for the extended quadrature me..." alt="" coords="5,5,187,32"/>
+<map id="gaussLobattoMomentInversion" name="gaussLobattoMomentInversion">
+<area shape="rect" id="node2" href="$a00070.html" title="Abstract class for univariate quadrature on a moment set. " alt="" coords="17,5,199,32"/>
 </map>

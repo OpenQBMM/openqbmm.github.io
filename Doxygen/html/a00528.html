@@ -87,7 +87,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a00022.html','');});
+$(document).ready(function(){initNavTree('a00026.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -106,22 +106,31 @@ $(document).ready(function(){initNavTree('a00022.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">fieldMomentInversion Member List</div>  </div>
+<div class="title">gaussLobattoMomentInversion Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="a00022.html">fieldMomentInversion</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="a00026.html">gaussLobattoMomentInversion</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="a00022.html#acc3d49bf06efee7e67b10d62808f0153">declareRunTimeSelectionTable</a>(autoPtr, fieldMomentInversion, dictionary,(                                                       const dictionary &amp;dict,                                                       const label nMoments,                                                       const label nSecondaryNodes                                       ),(dict, nMoments, nSecondaryNodes))</td><td class="entry"><a class="el" href="a00022.html">fieldMomentInversion</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a00022.html#ab7b9ffa2fac0589fccaf727ecc4bf8ed">extended</a>()</td><td class="entry"><a class="el" href="a00022.html">fieldMomentInversion</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a00022.html#a4bb40947fbadb3a714e5e3beb2824193">extended_</a></td><td class="entry"><a class="el" href="a00022.html">fieldMomentInversion</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a00022.html#ab0c968ddf570d99079f6013c38e6366a">fieldMomentInversion</a>(const dictionary &amp;dict, const label nMoments, const label nSecondaryNodes)</td><td class="entry"><a class="el" href="a00022.html">fieldMomentInversion</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a00022.html#af1ce49a928b14da3dbc18b8c7a3b2061">invert</a>(const volUnivariateMomentFieldSet &amp;moments, PtrList&lt; volScalarNode &gt; &amp;nodes)=0</td><td class="entry"><a class="el" href="a00022.html">fieldMomentInversion</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a00022.html#a6ab57be96e140a67b8f4762fc67c2a1b">invertBoundaryMoments</a>(const volUnivariateMomentFieldSet &amp;moments, PtrList&lt; volScalarNode &gt; &amp;nodes)=0</td><td class="entry"><a class="el" href="a00022.html">fieldMomentInversion</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a00022.html#a07e40a68be917a3b4910abca074f30db">invertLocalMoments</a>(const volUnivariateMomentFieldSet &amp;moments, PtrList&lt; volScalarNode &gt; &amp;nodes, const label celli, const bool fatalErrorOnFailedRealizabilityTest=true)=0</td><td class="entry"><a class="el" href="a00022.html">fieldMomentInversion</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a00022.html#aaa7a60bdf0d7425ae1a922520de47637">New</a>(const dictionary &amp;dict, const label nMoments, const label nSecondaryNodes)</td><td class="entry"><a class="el" href="a00022.html">fieldMomentInversion</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a00022.html#a78518bc7cbbbdd3e08d024a5776e9d2d">TypeName</a>(&quot;fieldMomentInversion&quot;)</td><td class="entry"><a class="el" href="a00022.html">fieldMomentInversion</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a00022.html#ac9514bda7486d306d89ac080c6b48a52">~fieldMomentInversion</a>()</td><td class="entry"><a class="el" href="a00022.html">fieldMomentInversion</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00069.html#a25742f47f6927a75ac22cde118b03bde">abscissae</a>() const </td><td class="entry"><a class="el" href="a00069.html">univariateMomentInversion</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a00069.html#a0bfebb14fe9a3d5c7a1293f6d92d1bac">abscissae_</a></td><td class="entry"><a class="el" href="a00069.html">univariateMomentInversion</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00026.html#ae11f16abe217f76d4e7b5e98e47b3ae1">calcNQuadratureNodes</a>(univariateMomentSet &amp;moments)</td><td class="entry"><a class="el" href="a00026.html">gaussLobattoMomentInversion</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a00026.html#adb8044c0e431e0fe1005a4395fff5478">correctRecurrence</a>(univariateMomentSet &amp;moments, scalarList &amp;alpha, scalarList &amp;beta, const scalar minKnownAbscissa=0, const scalar maxKnownAbscissa=0)</td><td class="entry"><a class="el" href="a00026.html">gaussLobattoMomentInversion</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00069.html#ac3fb26c63be494fef81fc98b96df07bb">declareRunTimeSelectionTable</a>(autoPtr, univariateMomentInversion, dictionary,(                                                       const dictionary &amp;dict                                       ),(dict))</td><td class="entry"><a class="el" href="a00069.html">univariateMomentInversion</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a00026.html#a19f132e2fe6d20faf1a5a05768990c4b">gaussLobattoMomentInversion</a>(const dictionary &amp;dict)</td><td class="entry"><a class="el" href="a00026.html">gaussLobattoMomentInversion</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00069.html#af2d72953108395e48c42760a2f79fa5b">invert</a>(univariateMomentSet &amp;moments, const scalar minKnownAbscissa=0, const scalar maxKnownAbscissa=0)</td><td class="entry"><a class="el" href="a00069.html">univariateMomentInversion</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a00069.html#a7e65cdc9e809cd6a315bb1cc38135e3c">JacobiMatrix</a>(univariateMomentSet &amp;moments, scalarSquareMatrix &amp;z, const scalar minKnownAbscissa=0, const scalar maxKnownAbscissa=0)</td><td class="entry"><a class="el" href="a00069.html">univariateMomentInversion</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00069.html#ad4fa6d0402a347ca7a48217bbebed6af">New</a>(const dictionary &amp;dict)</td><td class="entry"><a class="el" href="a00069.html">univariateMomentInversion</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a00069.html#a042d2903aac945d2246df06b46bb8a0a">nInvertibleMoments_</a></td><td class="entry"><a class="el" href="a00069.html">univariateMomentInversion</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00069.html#ab9e8c6ca4d7acb4aeb67a55cbc012286">nNodes</a>() const </td><td class="entry"><a class="el" href="a00069.html">univariateMomentInversion</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a00069.html#ac0005b63850c8da82cb91f341a25ffd3">nNodes_</a></td><td class="entry"><a class="el" href="a00069.html">univariateMomentInversion</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00026.html#a82afeb74ebccf942227542383440ade1">TypeName</a>(&quot;GaussLobatto&quot;)</td><td class="entry"><a class="el" href="a00026.html">gaussLobattoMomentInversion</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a00069.html#ab4091ef353bbb2f6fc1c9b8bf3bb06ca">Foam::univariateMomentInversion::TypeName</a>(&quot;univariateMomentInversion&quot;)</td><td class="entry"><a class="el" href="a00069.html">univariateMomentInversion</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00069.html#a2f27635231d56cc368aaa0f2cbdbf8e6">univariateMomentInversion</a>(const dictionary &amp;dict)</td><td class="entry"><a class="el" href="a00069.html">univariateMomentInversion</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a00069.html#a4405ee79c70e650e18641bbf7c8dd743">weights</a>() const </td><td class="entry"><a class="el" href="a00069.html">univariateMomentInversion</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00069.html#af51ecc158e56aaae1fc774d6658e9b6d">weights_</a></td><td class="entry"><a class="el" href="a00069.html">univariateMomentInversion</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a00026.html#ae6b87c401ec282458f44cea51931b47c">~gaussLobattoMomentInversion</a>()</td><td class="entry"><a class="el" href="a00026.html">gaussLobattoMomentInversion</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00069.html#a3d81ad6e9bef5d0e56c866331fea31a8">~univariateMomentInversion</a>()</td><td class="entry"><a class="el" href="a00069.html">univariateMomentInversion</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

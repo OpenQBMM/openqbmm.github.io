@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>univariateMomentAdvection Class Reference</title>
+<title>univariatePDFTransportModel Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -108,59 +108,108 @@ $(document).ready(function(){initNavTree('a00072.html','');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="a00569.html">List of all members</a>  </div>
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="a00595.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">univariateMomentAdvection Class Reference</div>  </div>
+<div class="title">univariatePDFTransportModel Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Computes advection term for a moment set using a realizable advection scheme.  
- <a href="a00072.html#details">More...</a></p>
+<div class="dynheader">
+Inheritance diagram for univariatePDFTransportModel:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00596.png" border="0" usemap="#univariatePDFTransportModel_inherit__map" alt="Inheritance graph"/></div>
+<map name="univariatePDFTransportModel_inherit__map" id="univariatePDFTransportModel_inherit__map">
+<area shape="rect" id="node3" href="a00066.html" title="turbulentMixing" alt="" coords="5,155,116,181"/>
+<area shape="rect" id="node4" href="a00074.html" title="univariatePopulationBalance" alt="" coords="140,155,333,181"/>
+<area shape="rect" id="node2" href="a00056.html" title="Abstract class for the run&#45;time selection of the PDF transport model. " alt="" coords="76,5,221,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for univariatePDFTransportModel:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00597.png" border="0" usemap="#univariatePDFTransportModel_coll__map" alt="Collaboration graph"/></div>
+<map name="univariatePDFTransportModel_coll__map" id="univariatePDFTransportModel_coll__map">
+<area shape="rect" id="node2" href="a00056.html" title="Abstract class for the run&#45;time selection of the PDF transport model. " alt="" coords="40,5,185,32"/>
+<area shape="rect" id="node3" href="a00068.html" title="Computes advection term for a moment set using a realizable advection scheme. " alt="" coords="19,56,207,83"/>
+<area shape="rect" id="node4" href="a00059.html" title="quadratureApproximation\l\&lt; volUnivariateMomentFieldSet,\l volScalarNode \&gt;" alt="" coords="5,107,220,163"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa8fe5fcf476070644d7d052644ba021a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#aa8fe5fcf476070644d7d052644ba021a">univariateMomentAdvection</a> (const <a class="el" href="a00255.html#a545e54cd8a5ad1ca2192158b263148c5">univariateQuadratureApproximation</a> &amp;quadrature, const surfaceScalarField &amp;phi, const word &amp;support)</td></tr>
-<tr class="memdesc:aa8fe5fcf476070644d7d052644ba021a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from quadrature approximation.  <a href="#aa8fe5fcf476070644d7d052644ba021a">More...</a><br /></td></tr>
-<tr class="separator:aa8fe5fcf476070644d7d052644ba021a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7558438bb9fa34ba37ed51735b3a2e2"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#af7558438bb9fa34ba37ed51735b3a2e2">~univariateMomentAdvection</a> ()</td></tr>
-<tr class="memdesc:af7558438bb9fa34ba37ed51735b3a2e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#af7558438bb9fa34ba37ed51735b3a2e2">More...</a><br /></td></tr>
-<tr class="separator:af7558438bb9fa34ba37ed51735b3a2e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e42ed478eefece586b6bfb013468be1"><td class="memItemLeft" align="right" valign="top">const PtrList&lt; volScalarField &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#a1e42ed478eefece586b6bfb013468be1">divMoments</a> () const </td></tr>
-<tr class="memdesc:a1e42ed478eefece586b6bfb013468be1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the advection term for the moment transport equation.  <a href="#a1e42ed478eefece586b6bfb013468be1">More...</a><br /></td></tr>
-<tr class="separator:a1e42ed478eefece586b6bfb013468be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5c54df7ed3b930268c8d7752c101725"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#ac5c54df7ed3b930268c8d7752c101725">update</a> ()</td></tr>
-<tr class="memdesc:ac5c54df7ed3b930268c8d7752c101725"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update advection.  <a href="#ac5c54df7ed3b930268c8d7752c101725">More...</a><br /></td></tr>
-<tr class="separator:ac5c54df7ed3b930268c8d7752c101725"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac76f0af150281544efbb317164c0075e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#ac76f0af150281544efbb317164c0075e">univariatePDFTransportModel</a> (const word &amp;name, const dictionary &amp;dict, const fvMesh &amp;mesh, const surfaceScalarField &amp;phi, const word &amp;support)</td></tr>
+<tr class="memdesc:ac76f0af150281544efbb317164c0075e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#ac76f0af150281544efbb317164c0075e">More...</a><br /></td></tr>
+<tr class="separator:ac76f0af150281544efbb317164c0075e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c2fb39b317ec861cc76f8a047fb2e0b"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#a7c2fb39b317ec861cc76f8a047fb2e0b">~univariatePDFTransportModel</a> ()</td></tr>
+<tr class="memdesc:a7c2fb39b317ec861cc76f8a047fb2e0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a7c2fb39b317ec861cc76f8a047fb2e0b">More...</a><br /></td></tr>
+<tr class="separator:a7c2fb39b317ec861cc76f8a047fb2e0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a200f5b2e653f07470d4ac4fa1a317779"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00251.html#a545e54cd8a5ad1ca2192158b263148c5">univariateQuadratureApproximation</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#a200f5b2e653f07470d4ac4fa1a317779">quadrature</a> () const </td></tr>
+<tr class="memdesc:a200f5b2e653f07470d4ac4fa1a317779"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access.  <a href="#a200f5b2e653f07470d4ac4fa1a317779">More...</a><br /></td></tr>
+<tr class="separator:a200f5b2e653f07470d4ac4fa1a317779"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7d39f0eac0af0ed5785935ac72a1e7d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#af7d39f0eac0af0ed5785935ac72a1e7d">solve</a> ()</td></tr>
+<tr class="memdesc:af7d39f0eac0af0ed5785935ac72a1e7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edit.  <a href="#af7d39f0eac0af0ed5785935ac72a1e7d">More...</a><br /></td></tr>
+<tr class="separator:af7d39f0eac0af0ed5785935ac72a1e7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00056"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00056')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="a00056.html">PDFTransportModel</a></td></tr>
+<tr class="memitem:a7a484ccf0035787e3f0694401128817a inherit pub_methods_a00056"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00056.html#a7a484ccf0035787e3f0694401128817a">PDFTransportModel</a> (const word &amp;name, const dictionary &amp;dict, const fvMesh &amp;mesh)</td></tr>
+<tr class="memdesc:a7a484ccf0035787e3f0694401128817a inherit pub_methods_a00056"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#a7a484ccf0035787e3f0694401128817a">More...</a><br /></td></tr>
+<tr class="separator:a7a484ccf0035787e3f0694401128817a inherit pub_methods_a00056"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa73779ffb5b8359a6463d7c93864fee6 inherit pub_methods_a00056"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00056.html#aa73779ffb5b8359a6463d7c93864fee6">~PDFTransportModel</a> ()</td></tr>
+<tr class="memdesc:aa73779ffb5b8359a6463d7c93864fee6 inherit pub_methods_a00056"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#aa73779ffb5b8359a6463d7c93864fee6">More...</a><br /></td></tr>
+<tr class="separator:aa73779ffb5b8359a6463d7c93864fee6 inherit pub_methods_a00056"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:aee1fc78125838d352f1209c771319fe7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#aee1fc78125838d352f1209c771319fe7">interpolateNodes</a> ()</td></tr>
-<tr class="memdesc:aee1fc78125838d352f1209c771319fe7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Protected member functions.  <a href="#aee1fc78125838d352f1209c771319fe7">More...</a><br /></td></tr>
-<tr class="separator:aee1fc78125838d352f1209c771319fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dca7ee5f9dcbd74ab958fead1ac05fd"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; fvScalarMatrix &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#a6dca7ee5f9dcbd74ab958fead1ac05fd">momentDiffusion</a> (const <a class="el" href="a00251.html#a1247bdc497fbec0f2b067b84972d3873">volUnivariateMoment</a> &amp;<a class="el" href="a00043.html">moment</a>)=0</td></tr>
+<tr class="memdesc:a6dca7ee5f9dcbd74ab958fead1ac05fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Diffusion term.  <a href="#a6dca7ee5f9dcbd74ab958fead1ac05fd">More...</a><br /></td></tr>
+<tr class="separator:a6dca7ee5f9dcbd74ab958fead1ac05fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a984a91bb0f818af9554dbc6805598ea3"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; fvScalarMatrix &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#a984a91bb0f818af9554dbc6805598ea3">implicitMomentSource</a> (const <a class="el" href="a00251.html#a1247bdc497fbec0f2b067b84972d3873">volUnivariateMoment</a> &amp;<a class="el" href="a00043.html">moment</a>)=0</td></tr>
+<tr class="memdesc:a984a91bb0f818af9554dbc6805598ea3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate implicit source terms.  <a href="#a984a91bb0f818af9554dbc6805598ea3">More...</a><br /></td></tr>
+<tr class="separator:a984a91bb0f818af9554dbc6805598ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85b0ae2fdf7934eb3a8fda32f8795fa5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#a85b0ae2fdf7934eb3a8fda32f8795fa5">explicitMomentSource</a> ()</td></tr>
+<tr class="memdesc:a85b0ae2fdf7934eb3a8fda32f8795fa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate explicit source terms with realizable ODE solver.  <a href="#a85b0ae2fdf7934eb3a8fda32f8795fa5">More...</a><br /></td></tr>
+<tr class="separator:a85b0ae2fdf7934eb3a8fda32f8795fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec57a3aa99ea3029930dc95b50c005e6"><td class="memItemLeft" align="right" valign="top">virtual scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#aec57a3aa99ea3029930dc95b50c005e6">cellMomentSource</a> (label &amp;momentOrder, label &amp;celli)=0</td></tr>
+<tr class="memdesc:aec57a3aa99ea3029930dc95b50c005e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate source term for moment equation in the specified cell.  <a href="#aec57a3aa99ea3029930dc95b50c005e6">More...</a><br /></td></tr>
+<tr class="separator:aec57a3aa99ea3029930dc95b50c005e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a4fa4a0f5eac7545eecc523ed6244beba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00251.html#a545e54cd8a5ad1ca2192158b263148c5">univariateQuadratureApproximation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#a4fa4a0f5eac7545eecc523ed6244beba">quadrature_</a></td></tr>
+<tr class="memdesc:a4fa4a0f5eac7545eecc523ed6244beba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Univariate quadrature approximation used to solve PDF transport.  <a href="#a4fa4a0f5eac7545eecc523ed6244beba">More...</a><br /></td></tr>
+<tr class="separator:a4fa4a0f5eac7545eecc523ed6244beba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae68524f5590b620d61f8e7f0f866cfa0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00068.html">univariateMomentAdvection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#ae68524f5590b620d61f8e7f0f866cfa0">momentAdvection_</a></td></tr>
+<tr class="memdesc:ae68524f5590b620d61f8e7f0f866cfa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moment advection.  <a href="#ae68524f5590b620d61f8e7f0f866cfa0">More...</a><br /></td></tr>
+<tr class="separator:ae68524f5590b620d61f8e7f0f866cfa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_a00056"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a00056')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="a00056.html">PDFTransportModel</a></td></tr>
+<tr class="memitem:a23edeeeecebcef11921a33dd5d990570 inherit pro_attribs_a00056"><td class="memItemLeft" align="right" valign="top">const fvMesh &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00056.html#a23edeeeecebcef11921a33dd5d990570">mesh_</a></td></tr>
+<tr class="memdesc:a23edeeeecebcef11921a33dd5d990570 inherit pro_attribs_a00056"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant reference to the mesh.  <a href="#a23edeeeecebcef11921a33dd5d990570">More...</a><br /></td></tr>
+<tr class="separator:a23edeeeecebcef11921a33dd5d990570 inherit pro_attribs_a00056"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Computes advection term for a moment set using a realizable advection scheme. </p>
-<p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
-<li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/momentAdvection/univariateMomentAdvection/univariateMomentAdvection.H">univariateMomentAdvection.H</a> </li>
-<li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/momentAdvection/univariateMomentAdvection/univariateMomentAdvection.C">univariateMomentAdvection.C</a> </li>
-<li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/momentAdvection/univariateMomentAdvection/univariateMomentAdvectionI.H">univariateMomentAdvectionI.H</a> </li>
-</ul>
-</dd></dl>
-
-<p>Definition at line <a class="el" href="a00239_source.html#l00059">59</a> of file <a class="el" href="a00239_source.html">univariateMomentAdvection.H</a>.</p>
+<div class="textblock">
+<p>Definition at line <a class="el" href="a00244_source.html#l00053">53</a> of file <a class="el" href="a00244_source.html">univariatePDFTransportModel.H</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aa8fe5fcf476070644d7d052644ba021a"></a>
+<a class="anchor" id="ac76f0af150281544efbb317164c0075e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00072.html">univariateMomentAdvection</a> </td>
+          <td class="memname"><a class="el" href="a00072.html">univariatePDFTransportModel</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="a00255.html#a545e54cd8a5ad1ca2192158b263148c5">univariateQuadratureApproximation</a> &amp;&#160;</td>
-          <td class="paramname"><em>quadrature</em>, </td>
+          <td class="paramtype">const word &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dictionary &amp;&#160;</td>
+          <td class="paramname"><em>dict</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const fvMesh &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -182,13 +231,25 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Construct from quadrature approximation. </p>
+<p>Construct from components. </p>
 
-<p>Definition at line <a class="el" href="a00238_source.html#l00034">34</a> of file <a class="el" href="a00238_source.html">univariateMomentAdvection.C</a>.</p>
+<p>Definition at line <a class="el" href="a00243_source.html#l00032">32</a> of file <a class="el" href="a00243_source.html">univariatePDFTransportModel.C</a>.</p>
+
+<p>References <a class="el" href="a00243_source.html#l00060">univariatePDFTransportModel::~univariatePDFTransportModel()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00072_ac76f0af150281544efbb317164c0075e_cgraph.png" border="0" usemap="#a00072_ac76f0af150281544efbb317164c0075e_cgraph" alt=""/></div>
+<map name="a00072_ac76f0af150281544efbb317164c0075e_cgraph" id="a00072_ac76f0af150281544efbb317164c0075e_cgraph">
+<area shape="rect" id="node2" href="a00072.html#a7c2fb39b317ec861cc76f8a047fb2e0b" title="Destructor. " alt="" coords="256,5,467,32"/>
+</map>
+</div>
+</p>
 
 </div>
 </div>
-<a class="anchor" id="af7558438bb9fa34ba37ed51735b3a2e2"></a>
+<a class="anchor" id="a7c2fb39b317ec861cc76f8a047fb2e0b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -196,7 +257,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">~<a class="el" href="a00072.html">univariateMomentAdvection</a> </td>
+          <td class="memname">~<a class="el" href="a00072.html">univariatePDFTransportModel</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -211,12 +272,36 @@ Protected Member Functions</h2></td></tr>
 
 <p>Destructor. </p>
 
-<p>Definition at line <a class="el" href="a00238_source.html#l00227">227</a> of file <a class="el" href="a00238_source.html">univariateMomentAdvection.C</a>.</p>
+<p>Definition at line <a class="el" href="a00243_source.html#l00060">60</a> of file <a class="el" href="a00243_source.html">univariatePDFTransportModel.C</a>.</p>
+
+<p>References <a class="el" href="a00243_source.html#l00066">univariatePDFTransportModel::explicitMomentSource()</a>.</p>
+
+<p>Referenced by <a class="el" href="a00243_source.html#l00032">univariatePDFTransportModel::univariatePDFTransportModel()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00072_a7c2fb39b317ec861cc76f8a047fb2e0b_cgraph.png" border="0" usemap="#a00072_a7c2fb39b317ec861cc76f8a047fb2e0b_cgraph" alt=""/></div>
+<map name="a00072_a7c2fb39b317ec861cc76f8a047fb2e0b_cgraph" id="a00072_a7c2fb39b317ec861cc76f8a047fb2e0b_cgraph">
+<area shape="rect" id="node2" href="a00072.html#a85b0ae2fdf7934eb3a8fda32f8795fa5" title="Calculate explicit source terms with realizable ODE solver. " alt="" coords="264,5,419,32"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00072_a7c2fb39b317ec861cc76f8a047fb2e0b_icgraph.png" border="0" usemap="#a00072_a7c2fb39b317ec861cc76f8a047fb2e0b_icgraph" alt=""/></div>
+<map name="a00072_a7c2fb39b317ec861cc76f8a047fb2e0b_icgraph" id="a00072_a7c2fb39b317ec861cc76f8a047fb2e0b_icgraph">
+<area shape="rect" id="node2" href="a00072.html#ac76f0af150281544efbb317164c0075e" title="Construct from components. " alt="" coords="264,5,467,32"/>
+</map>
+</div>
+</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aee1fc78125838d352f1209c771319fe7"></a>
+<a class="anchor" id="a6dca7ee5f9dcbd74ab958fead1ac05fd"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -224,7 +309,83 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void interpolateNodes </td>
+          <td class="memname">virtual tmp&lt;fvScalarMatrix&gt; momentDiffusion </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="a00251.html#a1247bdc497fbec0f2b067b84972d3873">volUnivariateMoment</a> &amp;&#160;</td>
+          <td class="paramname"><em>moment</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Diffusion term. </p>
+
+<p>Referenced by <a class="el" href="a00243_source.html#l00236">univariatePDFTransportModel::solve()</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00072_a6dca7ee5f9dcbd74ab958fead1ac05fd_icgraph.png" border="0" usemap="#a00072_a6dca7ee5f9dcbd74ab958fead1ac05fd_icgraph" alt=""/></div>
+<map name="a00072_a6dca7ee5f9dcbd74ab958fead1ac05fd_icgraph" id="a00072_a6dca7ee5f9dcbd74ab958fead1ac05fd_icgraph">
+<area shape="rect" id="node2" href="a00072.html#af7d39f0eac0af0ed5785935ac72a1e7d" title="Edit. " alt="" coords="175,5,229,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a984a91bb0f818af9554dbc6805598ea3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual tmp&lt;fvScalarMatrix&gt; implicitMomentSource </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="a00251.html#a1247bdc497fbec0f2b067b84972d3873">volUnivariateMoment</a> &amp;&#160;</td>
+          <td class="paramname"><em>moment</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate implicit source terms. </p>
+
+<p>Referenced by <a class="el" href="a00243_source.html#l00236">univariatePDFTransportModel::solve()</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00072_a984a91bb0f818af9554dbc6805598ea3_icgraph.png" border="0" usemap="#a00072_a984a91bb0f818af9554dbc6805598ea3_icgraph" alt=""/></div>
+<map name="a00072_a984a91bb0f818af9554dbc6805598ea3_icgraph" id="a00072_a984a91bb0f818af9554dbc6805598ea3_icgraph">
+<area shape="rect" id="node2" href="a00072.html#af7d39f0eac0af0ed5785935ac72a1e7d" title="Edit. " alt="" coords="207,5,261,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a85b0ae2fdf7934eb3a8fda32f8795fa5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void explicitMomentSource </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -232,47 +393,32 @@ Protected Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Protected member functions. </p>
+<p>Calculate explicit source terms with realizable ODE solver. </p>
+<p>Local time </p>
 
-<p>Definition at line <a class="el" href="a00238_source.html#l00233">233</a> of file <a class="el" href="a00238_source.html">univariateMomentAdvection.C</a>.</p>
+<p>Definition at line <a class="el" href="a00243_source.html#l00066">66</a> of file <a class="el" href="a00243_source.html">univariatePDFTransportModel.C</a>.</p>
 
-<p>References <a class="el" href="a00220_source.html#l00067">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::primaryAbscissa()</a>, and <a class="el" href="a00220_source.html#l00052">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::primaryWeight()</a>.</p>
+<p>Referenced by <a class="el" href="a00243_source.html#l00236">univariatePDFTransportModel::solve()</a>, and <a class="el" href="a00243_source.html#l00060">univariatePDFTransportModel::~univariatePDFTransportModel()</a>.</p>
 
-<p>Referenced by <a class="el" href="a00238_source.html#l00271">univariateMomentAdvection::update()</a>.</p>
-
-<p><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="a00072_aee1fc78125838d352f1209c771319fe7_cgraph.png" border="0" usemap="#a00072_aee1fc78125838d352f1209c771319fe7_cgraph" alt=""/></div>
-<map name="a00072_aee1fc78125838d352f1209c771319fe7_cgraph" id="a00072_aee1fc78125838d352f1209c771319fe7_cgraph">
-<area shape="rect" id="node2" href="a00063.html#a436581ffd72d3ac178b6d3381f0928ce" title="Const access to the abscissa of the node. " alt="" coords="177,5,340,47"/>
-<area shape="rect" id="node3" href="a00063.html#aa0a25e3fbd8098cb359e8e92cafba070" title="Const access to the weight of the node. " alt="" coords="177,71,340,112"/>
-</map>
-</div>
-</p>
-
-<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="a00072_aee1fc78125838d352f1209c771319fe7_icgraph.png" border="0" usemap="#a00072_aee1fc78125838d352f1209c771319fe7_icgraph" alt=""/></div>
-<map name="a00072_aee1fc78125838d352f1209c771319fe7_icgraph" id="a00072_aee1fc78125838d352f1209c771319fe7_icgraph">
-<area shape="rect" id="node2" href="a00072.html#ac5c54df7ed3b930268c8d7752c101725" title="Update advection. " alt="" coords="177,5,240,32"/>
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00072_a85b0ae2fdf7934eb3a8fda32f8795fa5_icgraph.png" border="0" usemap="#a00072_a85b0ae2fdf7934eb3a8fda32f8795fa5_icgraph" alt=""/></div>
+<map name="a00072_a85b0ae2fdf7934eb3a8fda32f8795fa5_icgraph" id="a00072_a85b0ae2fdf7934eb3a8fda32f8795fa5_icgraph">
+<area shape="rect" id="node2" href="a00072.html#af7d39f0eac0af0ed5785935ac72a1e7d" title="Edit. " alt="" coords="286,5,341,32"/>
+<area shape="rect" id="node3" href="a00072.html#a7c2fb39b317ec861cc76f8a047fb2e0b" title="Destructor. " alt="" coords="208,56,419,83"/>
 </map>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a1e42ed478eefece586b6bfb013468be1"></a>
+<a class="anchor" id="aec57a3aa99ea3029930dc95b50c005e6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -280,7 +426,43 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const Foam::PtrList&lt; Foam::volScalarField &gt; &amp; divMoments </td>
+          <td class="memname">virtual scalar cellMomentSource </td>
+          <td>(</td>
+          <td class="paramtype">label &amp;&#160;</td>
+          <td class="paramname"><em>momentOrder</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">label &amp;&#160;</td>
+          <td class="paramname"><em>celli</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate source term for moment equation in the specified cell. </p>
+
+</div>
+</div>
+<a class="anchor" id="a200f5b2e653f07470d4ac4fa1a317779"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="a00251.html#a545e54cd8a5ad1ca2192158b263148c5">Foam::univariateQuadratureApproximation</a> &amp; quadrature </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -293,85 +475,143 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Return the advection term for the moment transport equation. </p>
+<p>Access. </p>
+<p>Returns a const reference to the quadrature approximation </p>
 
-<p>Definition at line <a class="el" href="a00240_source.html#l00029">29</a> of file <a class="el" href="a00240_source.html">univariateMomentAdvectionI.H</a>.</p>
+<p>Definition at line <a class="el" href="a00245_source.html#l00029">29</a> of file <a class="el" href="a00245_source.html">univariatePDFTransportModelI.H</a>.</p>
 
-<p>Referenced by <a class="el" href="a00247_source.html#l00236">univariatePDFTransportModel::solve()</a>.</p>
-
-<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="a00072_a1e42ed478eefece586b6bfb013468be1_icgraph.png" border="0" usemap="#a00072_a1e42ed478eefece586b6bfb013468be1_icgraph" alt=""/></div>
-<map name="a00072_a1e42ed478eefece586b6bfb013468be1_icgraph" id="a00072_a1e42ed478eefece586b6bfb013468be1_icgraph">
-<area shape="rect" id="node2" href="a00075.html#af7d39f0eac0af0ed5785935ac72a1e7d" title="Edit. " alt="" coords="148,5,400,47"/>
-</map>
-</div>
-</p>
+<p>References <a class="el" href="a00244_source.html#l00086">univariatePDFTransportModel::quadrature_</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ac5c54df7ed3b930268c8d7752c101725"></a>
+<a class="anchor" id="af7d39f0eac0af0ed5785935ac72a1e7d"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void update </td>
+          <td class="memname">void solve </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Update advection. </p>
+<p>Edit. </p>
+<p>Solve univariate PDF transport equation </p>
 
-<p>Definition at line <a class="el" href="a00238_source.html#l00271">271</a> of file <a class="el" href="a00238_source.html">univariateMomentAdvection.C</a>.</p>
+<p>Implements <a class="el" href="a00056.html#aacd6f92a174ec1ebe14983fc21ec498c">PDFTransportModel</a>.</p>
 
-<p>References <a class="el" href="a00238_source.html#l00233">univariateMomentAdvection::interpolateNodes()</a>, and <a class="el" href="a00165_source.html#l00102">momentFieldSet&lt; momentType, nodeType &gt;::update()</a>.</p>
+<p>Reimplemented in <a class="el" href="a00074.html#af7d39f0eac0af0ed5785935ac72a1e7d">univariatePopulationBalance</a>, and <a class="el" href="a00066.html#af7d39f0eac0af0ed5785935ac72a1e7d">turbulentMixing</a>.</p>
 
-<p>Referenced by <a class="el" href="a00247_source.html#l00236">univariatePDFTransportModel::solve()</a>.</p>
+<p>Definition at line <a class="el" href="a00243_source.html#l00236">236</a> of file <a class="el" href="a00243_source.html">univariatePDFTransportModel.C</a>.</p>
 
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="a00072_ac5c54df7ed3b930268c8d7752c101725_cgraph.png" border="0" usemap="#a00072_ac5c54df7ed3b930268c8d7752c101725_cgraph" alt=""/></div>
-<map name="a00072_ac5c54df7ed3b930268c8d7752c101725_cgraph" id="a00072_ac5c54df7ed3b930268c8d7752c101725_cgraph">
-<area shape="rect" id="node2" href="a00072.html#aee1fc78125838d352f1209c771319fe7" title="Protected member functions. " alt="" coords="135,5,259,32"/>
-<area shape="rect" id="node3" href="a00046.html#ac5c54df7ed3b930268c8d7752c101725" title="Recalculate the moments from the quadrature nodes. " alt="" coords="116,57,279,98"/>
+<p>References <a class="el" href="a00236_source.html#l00029">univariateMomentAdvection::divMoments()</a>, <a class="el" href="a00243_source.html#l00066">univariatePDFTransportModel::explicitMomentSource()</a>, <a class="el" href="a00072.html#a984a91bb0f818af9554dbc6805598ea3">univariatePDFTransportModel::implicitMomentSource()</a>, <a class="el" href="a00244_source.html#l00089">univariatePDFTransportModel::momentAdvection_</a>, <a class="el" href="a00072.html#a6dca7ee5f9dcbd74ab958fead1ac05fd">univariatePDFTransportModel::momentDiffusion()</a>, <a class="el" href="a00212_source.html#l00052">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::moments()</a>, <a class="el" href="a00212_source.html#l00073">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::nMoments()</a>, <a class="el" href="a00244_source.html#l00086">univariatePDFTransportModel::quadrature_</a>, <a class="el" href="a00234_source.html#l00271">univariateMomentAdvection::update()</a>, and <a class="el" href="a00210_source.html#l00119">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::updateQuadrature()</a>.</p>
+
+<p>Referenced by <a class="el" href="a00229_source.html#l00148">turbulentMixing::solve()</a>, and <a class="el" href="a00246_source.html#l00419">univariatePopulationBalance::solve()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00072_af7d39f0eac0af0ed5785935ac72a1e7d_cgraph.png" border="0" usemap="#a00072_af7d39f0eac0af0ed5785935ac72a1e7d_cgraph" alt=""/></div>
+<map name="a00072_af7d39f0eac0af0ed5785935ac72a1e7d_cgraph" id="a00072_af7d39f0eac0af0ed5785935ac72a1e7d_cgraph">
+<area shape="rect" id="node2" href="a00068.html#a1e42ed478eefece586b6bfb013468be1" title="Return the advection term for the moment transport equation. " alt="" coords="108,5,339,47"/>
+<area shape="rect" id="node3" href="a00072.html#a85b0ae2fdf7934eb3a8fda32f8795fa5" title="Calculate explicit source terms with realizable ODE solver. " alt="" coords="146,71,301,98"/>
+<area shape="rect" id="node4" href="a00072.html#a984a91bb0f818af9554dbc6805598ea3" title="Calculate implicit source terms. " alt="" coords="147,122,300,149"/>
+<area shape="rect" id="node5" href="a00072.html#a6dca7ee5f9dcbd74ab958fead1ac05fd" title="Diffusion term. " alt="" coords="163,173,284,199"/>
+<area shape="rect" id="node6" href="a00059.html#abec4ab79350278c1e96c53a7a3211cb2" title="Const access to the moments. " alt="" coords="116,224,331,265"/>
+<area shape="rect" id="node7" href="a00059.html#a111ae2fd86df6aa54d903019cd7032f6" title="Return the number of moments. " alt="" coords="116,289,331,331"/>
+<area shape="rect" id="node8" href="a00068.html#ac5c54df7ed3b930268c8d7752c101725" title="Update advection. " alt="" coords="108,355,339,396"/>
+<area shape="rect" id="node9" href="a00059.html#ac4aec727fcdd873ea78763aaeeb86e14" title="Recalculate the quadrature nodes from the moments. " alt="" coords="116,420,331,461"/>
 </map>
 </div>
 </p>
 
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="a00072_ac5c54df7ed3b930268c8d7752c101725_icgraph.png" border="0" usemap="#a00072_ac5c54df7ed3b930268c8d7752c101725_icgraph" alt=""/></div>
-<map name="a00072_ac5c54df7ed3b930268c8d7752c101725_icgraph" id="a00072_ac5c54df7ed3b930268c8d7752c101725_icgraph">
-<area shape="rect" id="node2" href="a00075.html#af7d39f0eac0af0ed5785935ac72a1e7d" title="Edit. " alt="" coords="116,5,368,47"/>
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00072_af7d39f0eac0af0ed5785935ac72a1e7d_icgraph.png" border="0" usemap="#a00072_af7d39f0eac0af0ed5785935ac72a1e7d_icgraph" alt=""/></div>
+<map name="a00072_af7d39f0eac0af0ed5785935ac72a1e7d_icgraph" id="a00072_af7d39f0eac0af0ed5785935ac72a1e7d_icgraph">
+<area shape="rect" id="node2" href="a00066.html#af7d39f0eac0af0ed5785935ac72a1e7d" title="Solve mixing model. " alt="" coords="108,5,359,47"/>
+<area shape="rect" id="node3" href="a00074.html#af7d39f0eac0af0ed5785935ac72a1e7d" title="Solve population balance equation. " alt="" coords="112,70,355,126"/>
 </map>
 </div>
 </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a4fa4a0f5eac7545eecc523ed6244beba"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a00251.html#a545e54cd8a5ad1ca2192158b263148c5">univariateQuadratureApproximation</a> quadrature_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Univariate quadrature approximation used to solve PDF transport. </p>
+
+<p>Definition at line <a class="el" href="a00244_source.html#l00086">86</a> of file <a class="el" href="a00244_source.html">univariatePDFTransportModel.H</a>.</p>
+
+<p>Referenced by <a class="el" href="a00245_source.html#l00029">univariatePDFTransportModel::quadrature()</a>, and <a class="el" href="a00243_source.html#l00236">univariatePDFTransportModel::solve()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae68524f5590b620d61f8e7f0f866cfa0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a00068.html">univariateMomentAdvection</a> momentAdvection_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Moment advection. </p>
+
+<p>Definition at line <a class="el" href="a00244_source.html#l00089">89</a> of file <a class="el" href="a00244_source.html">univariatePDFTransportModel.H</a>.</p>
+
+<p>Referenced by <a class="el" href="a00243_source.html#l00236">univariatePDFTransportModel::solve()</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="a00239_source.html">univariateMomentAdvection.H</a></li>
-<li><a class="el" href="a00238_source.html">univariateMomentAdvection.C</a></li>
-<li><a class="el" href="a00240_source.html">univariateMomentAdvectionI.H</a></li>
+<li><a class="el" href="a00244_source.html">univariatePDFTransportModel.H</a></li>
+<li><a class="el" href="a00243_source.html">univariatePDFTransportModel.C</a></li>
+<li><a class="el" href="a00245_source.html">univariatePDFTransportModelI.H</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00255.html">Foam</a></li><li class="navelem"><a class="el" href="a00072.html">univariateMomentAdvection</a></li>
+    <li class="navelem"><a class="el" href="a00251.html">Foam</a></li><li class="navelem"><a class="el" href="a00256.html">PDFTransportModels</a></li><li class="navelem"><a class="el" href="a00072.html">univariatePDFTransportModel</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

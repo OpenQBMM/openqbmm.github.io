@@ -1,4 +1,6 @@
 var a00218 =
 [
-    [ "univariateQuadratureApproximation", "a00218.html#a545e54cd8a5ad1ca2192158b263148c5", null ]
+    [ "if", "a00218.html#ad9044c3d1d0b8f3ed3e6b9b1f8dbb8cb", null ],
+    [ "adjustTimeStep", "a00218.html#a116d20bd6aa9cc2b5fcf634e3c45bbd5", null ],
+    [ "maxDeltaT", "a00218.html#a7c604fc34158f5108b7ee5d89b95b433", null ]
 ];

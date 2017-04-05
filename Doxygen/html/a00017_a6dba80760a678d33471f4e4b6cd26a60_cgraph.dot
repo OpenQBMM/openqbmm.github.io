@@ -6,5 +6,5 @@ digraph "~erosion"
   rankdir="LR";
   Node1 [label="~erosion",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
   Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="mD",height=0.2,width=0.4,color="black",URL="$a00017.html#af11d63388088dc9b381b450559526d24"];
+  Node2 [label="mD",height=0.2,width=0.4,color="black",URL="$a00017.html#af11d63388088dc9b381b450559526d24",tooltip="Moment of the daughter distribution function. "];
 }

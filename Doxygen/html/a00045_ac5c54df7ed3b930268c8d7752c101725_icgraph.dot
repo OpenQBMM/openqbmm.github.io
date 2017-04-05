@@ -6,5 +6,5 @@ digraph "update"
   rankdir="LR";
   Node1 [label="update",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="momentName",height=0.2,width=0.4,color="red",URL="$a00045.html#af1a22abea6056cddf89aae3bfbaa9f11",tooltip="Creates the name of the moment. "];
+  Node2 [label="Foam::univariateMomentAdvection\l::update",height=0.2,width=0.4,color="red",URL="$a00069.html#ac5c54df7ed3b930268c8d7752c101725",tooltip="Update advection. "];
 }

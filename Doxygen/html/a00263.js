@@ -1,6 +1,8 @@
 var a00263 =
 [
-    [ "daughterDistribution", "a00264.html", "a00264" ],
-    [ "noPopulationBalance", "a00055.html", "a00055" ],
-    [ "univariatePopulationBalance", "a00077.html", null ]
+    [ "erosion", "a00017.html", "a00017" ],
+    [ "fullFragmentation", "a00024.html", "a00024" ],
+    [ "oneQuarterMassRatio", "a00055.html", "a00055" ],
+    [ "symmetricFragmentation", "a00062.html", "a00062" ],
+    [ "uniform", "a00067.html", "a00067" ]
 ];

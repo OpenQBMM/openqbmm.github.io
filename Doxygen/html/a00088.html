@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>breakupKernel.C File Reference</title>
+<title>buoyantPbePimpleFoam.C File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -104,49 +104,88 @@ $(document).ready(function(){initNavTree('a00088.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">breakupKernel.C File Reference</div>  </div>
+<div class="title">buoyantPbePimpleFoam.C File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for breakupKernel.C:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="a00284.png" border="0" usemap="#breakupKernel_8C" alt=""/></div>
-<map name="breakupKernel_8C" id="breakupKernel_8C">
-<area shape="rect" id="node2" href="a00089.html" title="breakupKernel.H" alt="" coords="6,80,127,107"/>
+
+<p>Transient solver for buoyant, turbulent flow of compressible fluids with solution of population balance.  
+<a href="#details">More...</a></p>
+<div class="textblock"><div class="dynheader">
+Include dependency graph for buoyantPbePimpleFoam.C:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00285.png" border="0" usemap="#buoyantPbePimpleFoam_8C" alt=""/></div>
+<map name="buoyantPbePimpleFoam_8C" id="buoyantPbePimpleFoam_8C">
+<area shape="rect" id="node9" href="a00207.html" title="populationBalanceModel.H" alt="" coords="1055,87,1238,114"/>
+<area shape="rect" id="node13" href="a00098.html" title="createFields.H" alt="" coords="1659,87,1768,114"/>
+<area shape="rect" id="node23" href="a00231.html" title="UEqn.H" alt="" coords="3119,87,3185,114"/>
+<area shape="rect" id="node24" href="a00111.html" title="EEqn.H" alt="" coords="3210,87,3275,114"/>
+<area shape="rect" id="node25" href="a00205.html" title="pEqn.H" alt="" coords="3300,87,3364,114"/>
 </map>
 </div>
 </div>
 <p><a href="a00088_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:a00255"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00255.html">Foam</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00265"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00265.html">Foam::populationBalanceSubModels</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab205061f0523b0c0145ab52cb5a15fa7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00265.html#ab205061f0523b0c0145ab52cb5a15fa7">defineTypeNameAndDebug</a> (breakupKernel, 0)</td></tr>
-<tr class="separator:ab205061f0523b0c0145ab52cb5a15fa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a226d16ce92fe729b204a751b4b002599"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00265.html#a226d16ce92fe729b204a751b4b002599">defineRunTimeSelectionTable</a> (breakupKernel, dictionary)</td></tr>
-<tr class="separator:a226d16ce92fe729b204a751b4b002599"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00088.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
+<tr class="separator:a0ddf1224851353fc92bfbff6f499fa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/breakupKernels/breakupKernel/breakupKernel.C">breakupKernel.C</a> </p>
+<div class="textblock"><p>Transient solver for buoyant, turbulent flow of compressible fluids with solution of population balance. </p>
+<p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/applications/buoyantPbePimpleFoam/buoyantPbePimpleFoam.C">buoyantPbePimpleFoam.C</a></p>
+<p><a class="anchor" id="Description"></a>Turbulence is modelled using a run-time selectable compressible RAS or LES model. </p>
 
-<p>Definition in file <a class="el" href="a00088_source.html">breakupKernel.C</a>.</p>
-</div></div><!-- contents -->
+<p>Definition in file <a class="el" href="a00088_source.html">buoyantPbePimpleFoam.C</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a0ddf1224851353fc92bfbff6f499fa97"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>argv</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00088_source.html#l00047">47</a> of file <a class="el" href="a00088_source.html">buoyantPbePimpleFoam.C</a>.</p>
+
+<p>References <a class="el" href="a00098_source.html#l00107">populationBalance</a>, <a class="el" href="a00098.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho()</a>, <a class="el" href="a00098_source.html#l00004">thermo</a>, and <a class="el" href="a00098.html#ac06391579e3bd64067c1f6a8e84e6f35">turbulence()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00088_a0ddf1224851353fc92bfbff6f499fa97_cgraph.png" border="0" usemap="#a00088_a0ddf1224851353fc92bfbff6f499fa97_cgraph" alt=""/></div>
+<map name="a00088_a0ddf1224851353fc92bfbff6f499fa97_cgraph" id="a00088_a0ddf1224851353fc92bfbff6f499fa97_cgraph">
+<area shape="rect" id="node2" href="a00098.html#aa74838e1f8f89be91e7a5f1d70d08fb1" title="rho" alt="" coords="125,5,166,32"/>
+<area shape="rect" id="node3" href="a00098.html#ac06391579e3bd64067c1f6a8e84e6f35" title="turbulence" alt="" coords="104,56,187,83"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0ecbe6cb5f50223527ce4e1b499bd333.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="dir_58c61e057ed2119d9755c9fdbb448648.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="dir_8db1431bcb360c6bb23f8119e5d3e19f.html">breakupKernels</a></li><li class="navelem"><a class="el" href="dir_716f5cbb281bc8c04cbc643b875570af.html">breakupKernel</a></li><li class="navelem"><a class="el" href="a00088.html">breakupKernel.C</a></li>
+    <li class="navelem"><a class="el" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html">applications</a></li><li class="navelem"><a class="el" href="dir_2ef2fabd40c7da3d17a848db9671c536.html">buoyantPbePimpleFoam</a></li><li class="navelem"><a class="el" href="a00088.html">buoyantPbePimpleFoam.C</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

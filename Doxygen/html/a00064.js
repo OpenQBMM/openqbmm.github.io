@@ -1,7 +1,7 @@
 var a00064 =
 [
-    [ "sumAggregation", "a00064.html#a2c16e4ffc6504984bf080838406a8de2", null ],
-    [ "~sumAggregation", "a00064.html#a8e3dea727d5bdc9cd286c349f6dfefff", null ],
-    [ "TypeName", "a00064.html#a4175abdc1459fcf6820150c4e2ecf4da", null ],
-    [ "Ka", "a00064.html#aff545f8602677e85abbb1b6c6d0fb20f", null ]
+    [ "turbulentDiffusion", "a00064.html#a53a87c43578f29144d9faa8a85d38ae0", null ],
+    [ "~turbulentDiffusion", "a00064.html#a4c6867b84e9f2bae67c952fe4e59c0b9", null ],
+    [ "TypeName", "a00064.html#a7ed8525205e60ab2350365229650b6c9", null ],
+    [ "momentDiff", "a00064.html#a2607d470834fac9d39bfc0d92f89d41a", null ]
 ];

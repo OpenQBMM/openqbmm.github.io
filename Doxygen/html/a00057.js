@@ -1,11 +1,10 @@
 var a00057 =
 [
-    [ "nucleationModel", "a00057.html#a0ac17d12d16b428f700ae92fe9416109", null ],
-    [ "~nucleationModel", "a00057.html#a5d14062dfa0b363acfe6bdefafd6c418", null ],
-    [ "TypeName", "a00057.html#a90992f6d2fd6ea0a8188a87b2e019ad7", null ],
-    [ "declareRunTimeSelectionTable", "a00057.html#a1ed401378d0f4f9f0ffb1e6b8a6b6186", null ],
-    [ "New", "a00057.html#ac2e910cf2638a653967c10d92c364d2a", null ],
-    [ "nucleationSource", "a00057.html#a1ff5f4ad27805c7b4433e716fbc27c02", null ],
-    [ "dict_", "a00057.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a", null ],
-    [ "mesh_", "a00057.html#a23edeeeecebcef11921a33dd5d990570", null ]
+    [ "populationBalanceModel", "a00057.html#a31d0f5b4494ff076cb81eed74ba4bce2", null ],
+    [ "~populationBalanceModel", "a00057.html#ae05106936db1115c15304ded19972e3d", null ],
+    [ "TypeName", "a00057.html#a9723503cf97d2ad82b67092a7aa3e1f3", null ],
+    [ "declareRunTimeSelectionTable", "a00057.html#a7f8cc56b3b077604a6644432cf501cda", null ],
+    [ "New", "a00057.html#a9209244e0920b05f98597bf3d105149d", null ],
+    [ "solve", "a00057.html#aacd6f92a174ec1ebe14983fc21ec498c", null ],
+    [ "phi_", "a00057.html#a5828da03a859a3aaa358802cd2daf505", null ]
 ];

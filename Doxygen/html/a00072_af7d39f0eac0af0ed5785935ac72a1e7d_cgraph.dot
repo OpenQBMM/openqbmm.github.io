@@ -6,5 +6,19 @@ digraph "solve"
   rankdir="LR";
   Node1 [label="solve",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
   Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="Foam::PDFTransportModels\l::univariatePDFTransportModel::solve",height=0.2,width=0.4,color="red",URL="$a00079.html#af7d39f0eac0af0ed5785935ac72a1e7d",tooltip="Edit. "];
+  Node2 [label="Foam::univariateMomentAdvection\l::divMoments",height=0.2,width=0.4,color="black",URL="$a00068.html#a1e42ed478eefece586b6bfb013468be1",tooltip="Return the advection term for the moment transport equation. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="explicitMomentSource",height=0.2,width=0.4,color="black",URL="$a00072.html#a85b0ae2fdf7934eb3a8fda32f8795fa5",tooltip="Calculate explicit source terms with realizable ODE solver. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="implicitMomentSource",height=0.2,width=0.4,color="black",URL="$a00072.html#a984a91bb0f818af9554dbc6805598ea3",tooltip="Calculate implicit source terms. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="momentDiffusion",height=0.2,width=0.4,color="black",URL="$a00072.html#a6dca7ee5f9dcbd74ab958fead1ac05fd",tooltip="Diffusion term. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Foam::quadratureApproximation\l::moments",height=0.2,width=0.4,color="black",URL="$a00059.html#abec4ab79350278c1e96c53a7a3211cb2",tooltip="Const access to the moments. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Foam::quadratureApproximation\l::nMoments",height=0.2,width=0.4,color="black",URL="$a00059.html#a111ae2fd86df6aa54d903019cd7032f6",tooltip="Return the number of moments. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Foam::univariateMomentAdvection\l::update",height=0.2,width=0.4,color="red",URL="$a00068.html#ac5c54df7ed3b930268c8d7752c101725",tooltip="Update advection. "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Foam::quadratureApproximation\l::updateQuadrature",height=0.2,width=0.4,color="red",URL="$a00059.html#ac4aec727fcdd873ea78763aaeeb86e14",tooltip="Recalculate the quadrature nodes from the moments. "];
 }

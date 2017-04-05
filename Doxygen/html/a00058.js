@@ -1,7 +1,7 @@
 var a00058 =
 [
-    [ "oneQuarterMassRatio", "a00058.html#a962d460d76cd33e02cf608ca4beacb77", null ],
-    [ "~oneQuarterMassRatio", "a00058.html#a147fb07ac3fc0d40d665bba9391ef32d", null ],
-    [ "TypeName", "a00058.html#a7fb47156df4cac064c2b90cb0fc81675", null ],
-    [ "mD", "a00058.html#af11d63388088dc9b381b450559526d24", null ]
+    [ "powerLawBreakup", "a00058.html#a11045d68f7b22d71a19150334861de52", null ],
+    [ "~powerLawBreakup", "a00058.html#acfdcf8ac936fab910b034c20837198f6", null ],
+    [ "TypeName", "a00058.html#ab1fbb32a962ed7ca607b766ec813333b", null ],
+    [ "Kb", "a00058.html#a1e8a125530058d3c06bc7ca11c10c1e2", null ]
 ];

@@ -1,7 +1,7 @@
 var a00055 =
 [
-    [ "noPopulationBalance", "a00055.html#a81cc7bb7784505d09ef2dbf07b9d2a94", null ],
-    [ "~noPopulationBalance", "a00055.html#a879eaa74c53e210bfb1a1356cb30e06a", null ],
-    [ "TypeName", "a00055.html#a660172304dfa1b418cc1bded338b9fd9", null ],
-    [ "solve", "a00055.html#af7d39f0eac0af0ed5785935ac72a1e7d", null ]
+    [ "oneQuarterMassRatio", "a00055.html#a962d460d76cd33e02cf608ca4beacb77", null ],
+    [ "~oneQuarterMassRatio", "a00055.html#a147fb07ac3fc0d40d665bba9391ef32d", null ],
+    [ "TypeName", "a00055.html#a7fb47156df4cac064c2b90cb0fc81675", null ],
+    [ "mD", "a00055.html#af11d63388088dc9b381b450559526d24", null ]
 ];

@@ -1,7 +1,7 @@
 var a00018 =
 [
-    [ "erosion", "a00018.html#a2b3867c760b6b4b9aa9d9498e244db7b", null ],
-    [ "~erosion", "a00018.html#a6dba80760a678d33471f4e4b6cd26a60", null ],
-    [ "TypeName", "a00018.html#a62fb9ef190a5ffc161db6206dc8268c2", null ],
-    [ "mD", "a00018.html#af11d63388088dc9b381b450559526d24", null ]
+    [ "exponentialBreakup", "a00018.html#ab8c18aa51a2edf305a6043ff25a8e675", null ],
+    [ "~exponentialBreakup", "a00018.html#a3805c5cd8e532366720e40ab89e2d01d", null ],
+    [ "TypeName", "a00018.html#a86ff92ca0beb621157b91eba8601746d", null ],
+    [ "Kb", "a00018.html#a1e8a125530058d3c06bc7ca11c10c1e2", null ]
 ];

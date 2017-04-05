@@ -1,7 +1,9 @@
 var a00019 =
 [
-    [ "exponentialBreakup", "a00019.html#ab8c18aa51a2edf305a6043ff25a8e675", null ],
-    [ "~exponentialBreakup", "a00019.html#a3805c5cd8e532366720e40ab89e2d01d", null ],
-    [ "TypeName", "a00019.html#a86ff92ca0beb621157b91eba8601746d", null ],
-    [ "Kb", "a00019.html#a1e8a125530058d3c06bc7ca11c10c1e2", null ]
+    [ "extendedFieldMomentInversion", "a00019.html#a694ee9b046a29d6d51bce94e2d5f9193", null ],
+    [ "~extendedFieldMomentInversion", "a00019.html#abcb2345daaefe093eab65b6cf91ad9c8", null ],
+    [ "TypeName", "a00019.html#a92d1d2c620a5376ba8e67121739b9a96", null ],
+    [ "invert", "a00019.html#a81fbc0b024ab994e1e665273b7b7268b", null ],
+    [ "invertBoundaryMoments", "a00019.html#a0db254ceb34e9343bebd658750f9312d", null ],
+    [ "invertLocalMoments", "a00019.html#ae61ce7f3d511855a1d0eaf25c94d648f", null ]
 ];

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>gaussRadauMomentInversion.C File Reference</title>
+<title>hydrodynamicAggregation.C File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,17 +107,15 @@ $(document).ready(function(){initNavTree('a00139.html','');});
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">gaussRadauMomentInversion.C File Reference</div>  </div>
+<div class="title">hydrodynamicAggregation.C File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for gaussRadauMomentInversion.C:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="a00360.png" border="0" usemap="#gaussRadauMomentInversion_8C" alt=""/></div>
-<map name="gaussRadauMomentInversion_8C" id="gaussRadauMomentInversion_8C">
-<area shape="rect" id="node2" href="a00140.html" title="gaussRadauMomentInversion.H" alt="" coords="5,80,219,107"/>
+<div class="textblock"><div class="dynheader">
+Include dependency graph for hydrodynamicAggregation.C:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00361.png" border="0" usemap="#hydrodynamicAggregation_8C" alt=""/></div>
+<map name="hydrodynamicAggregation_8C" id="hydrodynamicAggregation_8C">
+<area shape="rect" id="node2" href="a00140.html" title="hydrodynamicAggregation.H" alt="" coords="5,80,199,107"/>
 </map>
 </div>
 </div>
@@ -125,26 +123,30 @@ $(document).ready(function(){initNavTree('a00139.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:a00255"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00255.html">Foam</a></td></tr>
+<tr class="memitem:a00251"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html">Foam</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00260"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00260.html">Foam::populationBalanceSubModels</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00261"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00261.html">Foam::populationBalanceSubModels::aggregationKernels</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae28a8693ec96aa0ce2f10a129012de21"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00255.html#ae28a8693ec96aa0ce2f10a129012de21">defineTypeNameAndDebug</a> (gaussRadauMomentInversion, 0)</td></tr>
-<tr class="separator:ae28a8693ec96aa0ce2f10a129012de21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b3e4d883035d960f7255cc8bed29329"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00255.html#a0b3e4d883035d960f7255cc8bed29329">addToRunTimeSelectionTable</a> (univariateMomentInversion, gaussRadauMomentInversion, dictionary)</td></tr>
-<tr class="separator:a0b3e4d883035d960f7255cc8bed29329"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a636ec3d763c8c887602ea04a51fad475"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00261.html#a636ec3d763c8c887602ea04a51fad475">defineTypeNameAndDebug</a> (hydrodynamicAggregation, 0)</td></tr>
+<tr class="separator:a636ec3d763c8c887602ea04a51fad475"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af83bce581ea73f24b1228b0fff351b56"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00261.html#af83bce581ea73f24b1228b0fff351b56">addToRunTimeSelectionTable</a> (aggregationKernel, hydrodynamicAggregation, dictionary)</td></tr>
+<tr class="separator:af83bce581ea73f24b1228b0fff351b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/momentInversion/univariate/basic/gaussRadauMomentInversion/gaussRadauMomentInversion.C">gaussRadauMomentInversion.C</a> </p>
+<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/aggregationKernels/hydrodynamicAggregation/hydrodynamicAggregation.C">hydrodynamicAggregation.C</a> </p>
 
-<p>Definition in file <a class="el" href="a00139_source.html">gaussRadauMomentInversion.C</a>.</p>
+<p>Definition in file <a class="el" href="a00139_source.html">hydrodynamicAggregation.C</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0b9bb76b72c90181149adc55e92e6ea3.html">momentInversion</a></li><li class="navelem"><a class="el" href="dir_224f5f7c837ec5f1a50cf8e5b44c5959.html">univariate</a></li><li class="navelem"><a class="el" href="dir_b57c68eea9442de1941a28876bed1be5.html">basic</a></li><li class="navelem"><a class="el" href="dir_f6b83f958e94be02670b20c6320e1d43.html">gaussRadauMomentInversion</a></li><li class="navelem"><a class="el" href="a00139.html">gaussRadauMomentInversion.C</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0ecbe6cb5f50223527ce4e1b499bd333.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="dir_58c61e057ed2119d9755c9fdbb448648.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="dir_62f86ef0c260ceaf3b93a8b1f701039a.html">aggregationKernels</a></li><li class="navelem"><a class="el" href="dir_80f5a8988a3207453ee47742f441b6c1.html">hydrodynamicAggregation</a></li><li class="navelem"><a class="el" href="a00139.html">hydrodynamicAggregation.C</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

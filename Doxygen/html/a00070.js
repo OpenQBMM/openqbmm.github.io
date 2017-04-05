@@ -1,7 +1,21 @@
 var a00070 =
 [
-    [ "turbulentMixing", "a00070.html#aa538c7e23461fc715edb1f17abbb4910", null ],
-    [ "~turbulentMixing", "a00070.html#af371dd36dabac7b470898a187554a939", null ],
-    [ "TypeName", "a00070.html#a07e393e8d7cbf999eaad113a4fc42314", null ],
-    [ "solve", "a00070.html#af7d39f0eac0af0ed5785935ac72a1e7d", null ]
+    [ "univariateMomentSet", "a00070.html#ad00a756f64fc3a916ed12a28311ca0d8", null ],
+    [ "univariateMomentSet", "a00070.html#ad0210e9bd66f7a47538343809c285336", null ],
+    [ "~univariateMomentSet", "a00070.html#a1d22df074ca1399584587efd06cc562a", null ],
+    [ "alphaRecurrence", "a00070.html#ab8a8796d726d48dc10e6c596e7db6094", null ],
+    [ "alphaRecurrence", "a00070.html#a5d692f80be2fae779e373513e263b6e1", null ],
+    [ "betaRecurrence", "a00070.html#ac28e83c3c38907e738fb554c3e26ba0d", null ],
+    [ "betaRecurrence", "a00070.html#a763a9605b171b40abbf64f0c13054dfe", null ],
+    [ "isDegenerate", "a00070.html#a3049a5df266d0671853f077acf4c6975", null ],
+    [ "isFullyRealizable", "a00070.html#a1955fd1ee1096cb91e27063baf97c4d4", null ],
+    [ "isRealizable", "a00070.html#a58730b945c36dd3aa5042e95e1e9f098", null ],
+    [ "isSubsetRealizable", "a00070.html#a98ab2e587e2ae018f1c7b23a4a20168e", null ],
+    [ "isOnMomentSpaceBoundary", "a00070.html#a54a602fe9e0f6b808bf432ed0326ac46", null ],
+    [ "momentOrders", "a00070.html#a47393a1ebbe34ea66716a08b5a27ce9f", null ],
+    [ "nRealizableMoments", "a00070.html#a2256488242f928209215b0a3221f6bb8", null ],
+    [ "update", "a00070.html#ab2d663e44a31918ddbad847b7894b995", null ],
+    [ "operator[]", "a00070.html#a0630fe677f21cfd14ac34563442adaf9", null ],
+    [ "operator[]", "a00070.html#a534a916eb7080818ddbd292257a17c5c", null ],
+    [ "realizabilityChecked_", "a00070.html#ae90397e9f5eb1ce2b969b6223f3f1ab9", null ]
 ];

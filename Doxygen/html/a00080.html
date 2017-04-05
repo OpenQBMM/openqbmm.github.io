@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>aggregationKernel.C File Reference</title>
+<title>basicFieldMomentInversion.C File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,17 +107,15 @@ $(document).ready(function(){initNavTree('a00080.html','');});
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">aggregationKernel.C File Reference</div>  </div>
+<div class="title">basicFieldMomentInversion.C File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for aggregationKernel.C:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="a00272.png" border="0" usemap="#aggregationKernel_8C" alt=""/></div>
-<map name="aggregationKernel_8C" id="aggregationKernel_8C">
-<area shape="rect" id="node2" href="a00081.html" title="aggregationKernel.H" alt="" coords="5,80,152,107"/>
+<div class="textblock"><div class="dynheader">
+Include dependency graph for basicFieldMomentInversion.C:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00273.png" border="0" usemap="#basicFieldMomentInversion_8C" alt=""/></div>
+<map name="basicFieldMomentInversion_8C" id="basicFieldMomentInversion_8C">
+<area shape="rect" id="node2" href="a00081.html" title="basicFieldMomentInversion.H" alt="" coords="5,80,204,107"/>
 </map>
 </div>
 </div>
@@ -125,28 +123,26 @@ $(document).ready(function(){initNavTree('a00080.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:a00255"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00255.html">Foam</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00265"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00265.html">Foam::populationBalanceSubModels</a></td></tr>
+<tr class="memitem:a00251"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html">Foam</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:abce02722c305557cb5730a9610ba0d51"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00265.html#abce02722c305557cb5730a9610ba0d51">defineTypeNameAndDebug</a> (aggregationKernel, 0)</td></tr>
-<tr class="separator:abce02722c305557cb5730a9610ba0d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9dd0aa6f3fae81195037437f9fb2042f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00265.html#a9dd0aa6f3fae81195037437f9fb2042f">defineRunTimeSelectionTable</a> (aggregationKernel, dictionary)</td></tr>
-<tr class="separator:a9dd0aa6f3fae81195037437f9fb2042f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae421e805e1c811481923fc7b9556487b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html#ae421e805e1c811481923fc7b9556487b">defineTypeNameAndDebug</a> (basicFieldMomentInversion, 0)</td></tr>
+<tr class="separator:ae421e805e1c811481923fc7b9556487b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb6d54b8864cf92eb887585f1fbd72b5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html#afb6d54b8864cf92eb887585f1fbd72b5">addToRunTimeSelectionTable</a> (fieldMomentInversion, basicFieldMomentInversion, dictionary)</td></tr>
+<tr class="separator:afb6d54b8864cf92eb887585f1fbd72b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/aggregationKernels/aggregationKernel/aggregationKernel.C">aggregationKernel.C</a> </p>
+<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/fieldMomentInversion/basicFieldMomentInversion/basicFieldMomentInversion.C">basicFieldMomentInversion.C</a> </p>
 
-<p>Definition in file <a class="el" href="a00080_source.html">aggregationKernel.C</a>.</p>
+<p>Definition in file <a class="el" href="a00080_source.html">basicFieldMomentInversion.C</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0ecbe6cb5f50223527ce4e1b499bd333.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="dir_58c61e057ed2119d9755c9fdbb448648.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="dir_62f86ef0c260ceaf3b93a8b1f701039a.html">aggregationKernels</a></li><li class="navelem"><a class="el" href="dir_a48c39aac25b9d92c13c5141c3503af1.html">aggregationKernel</a></li><li class="navelem"><a class="el" href="a00080.html">aggregationKernel.C</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_db960164ea42c42a422c08f487d84e08.html">fieldMomentInversion</a></li><li class="navelem"><a class="el" href="dir_bc753f497ce40b0e1177248f168089de.html">basicFieldMomentInversion</a></li><li class="navelem"><a class="el" href="a00080.html">basicFieldMomentInversion.C</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

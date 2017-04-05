@@ -1,8 +1,5 @@
 var a00012 =
 [
-    [ "erosion", "a00017.html", null ],
-    [ "oneQuarterMassRatio", "a00057.html", null ],
-    [ "uniform", "a00070.html", null ],
     [ "daughterDistribution", "a00012.html#a24ef98904209a2fdb76d456f36fb7433", null ],
     [ "~daughterDistribution", "a00012.html#a82d94b9042834125e095b863b9b1d2b2", null ],
     [ "TypeName", "a00012.html#a82911bf276379ac9d1978f3e59b5a2da", null ],

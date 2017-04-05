@@ -1,4 +1,3 @@
-<map id="nucleationModel" name="nucleationModel">
-<area shape="rect" id="node2" href="$a00039.html" title="Miller nucleation model for soot formation. " alt="" coords="5,80,60,107"/>
-<area shape="rect" id="node3" href="$a00054.html" title="No nucleation model. " alt="" coords="84,80,184,107"/>
+<map id="constantAggregation" name="constantAggregation">
+<area shape="rect" id="node2" href="$a00002.html" title="Abstract class for aggregation kernels. " alt="" coords="11,5,146,32"/>
 </map>

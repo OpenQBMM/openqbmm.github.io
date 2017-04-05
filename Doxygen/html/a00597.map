@@ -1,3 +1,5 @@
-<map id="FokkerPlanck" name="FokkerPlanck">
-<area shape="rect" id="node2" href="$a00041.html" title="Abstract class for mixing model kernels. " alt="" coords="8,5,108,32"/>
+<map id="univariatePDFTransportModel" name="univariatePDFTransportModel">
+<area shape="rect" id="node2" href="$a00056.html" title="Abstract class for the run&#45;time selection of the PDF transport model. " alt="" coords="40,5,185,32"/>
+<area shape="rect" id="node3" href="$a00068.html" title="Computes advection term for a moment set using a realizable advection scheme. " alt="" coords="19,56,207,83"/>
+<area shape="rect" id="node4" href="$a00059.html" title="quadratureApproximation\l\&lt; volUnivariateMomentFieldSet,\l volScalarNode \&gt;" alt="" coords="5,107,220,163"/>
 </map>

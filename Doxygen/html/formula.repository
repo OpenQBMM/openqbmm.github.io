@@ -12,3 +12,22 @@
 \form#11:\[ K_a = \frac{2 \kappa T}{3 \mu} \frac{(\xi_i + \xi_j)^2}{\xi_i \xi_j} + \frac{4}{3} (\xi_i + \xi_j)^3 \sqrt{\frac{3 \pi \varepsilon}{10 \nu}} \]
 \form#12:$ \varepsilon $
 \form#13:$ \nu $
+\form#14:\[ \overline{b}_k = \xi_0^k + (\xi^3 - \xi_0^3)^{1/3} \]
+\form#15:$ k $
+\form#16:$ \xi $
+\form#17:$ \xi_0 $
+\form#18:\[ \overline{b}_k = \left( \frac{\xi}{\xi_0} \right)^3 \xi_0^k \]
+\form#19:\[ \overline{b}_k = \frac{4^{k/3} + 1}{5^{k/3}} \xi^k \]
+\form#20:\[ \overline{b}_k = 2^{(3-k)/3} \xi^k \]
+\form#21:\[ \overline{b}_k = \frac{6}{k + 3} \xi^k \]
+\form#22:\[ \mathcal{D_k} = \nabla \cdot \left( \Gamma_l \nabla m_k \right) \]
+\form#23:$ \mathcal{D_k} $
+\form#24:$ m_k $
+\form#25:$ \Gamma_l $
+\form#26:\[ \mathcal{D_k} = \nabla \cdot \left[ \left( \Gamma_l + \frac{mu_t}{Sc_t} \right) \nabla m_k \right] \]
+\form#27:$ Sc_t $
+\form#28:$ \mu_t $
+\form#29:\[ \mathcal{D}_k = \nabla \cdot \left( \Gamma_l \nabla m_k \right) \]
+\form#30:\[ \mathcal{D}_k = \nabla \cdot \left[ \left( \Gamma_l + \frac{mu_t}{Sc_t} \right) \nabla m_k \right] \]
+\form#31:$ \mathcal{D}_k $
+\form#32:\[ \mathcal{D}_k = \nabla \cdot \left[ \left( \Gamma_l + \frac{\mu_t}{Sc_t} \right) \nabla m_k \right] \]

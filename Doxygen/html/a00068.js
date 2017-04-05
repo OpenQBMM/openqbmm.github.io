@@ -1,7 +1,8 @@
 var a00068 =
 [
-    [ "turbulentDiffusion", "a00068.html#a53a87c43578f29144d9faa8a85d38ae0", null ],
-    [ "~turbulentDiffusion", "a00068.html#a4c6867b84e9f2bae67c952fe4e59c0b9", null ],
-    [ "TypeName", "a00068.html#a7ed8525205e60ab2350365229650b6c9", null ],
-    [ "momentDiff", "a00068.html#a2607d470834fac9d39bfc0d92f89d41a", null ]
+    [ "univariateMomentAdvection", "a00068.html#aa8fe5fcf476070644d7d052644ba021a", null ],
+    [ "~univariateMomentAdvection", "a00068.html#af7558438bb9fa34ba37ed51735b3a2e2", null ],
+    [ "interpolateNodes", "a00068.html#aee1fc78125838d352f1209c771319fe7", null ],
+    [ "divMoments", "a00068.html#a1e42ed478eefece586b6bfb013468be1", null ],
+    [ "update", "a00068.html#ac5c54df7ed3b930268c8d7752c101725", null ]
 ];

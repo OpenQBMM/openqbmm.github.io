@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>gaussMomentInversion.C File Reference</title>
+<title>growthModel.C File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,17 +107,15 @@ $(document).ready(function(){initNavTree('a00137.html','');});
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">gaussMomentInversion.C File Reference</div>  </div>
+<div class="title">growthModel.C File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for gaussMomentInversion.C:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="a00357.png" border="0" usemap="#gaussMomentInversion_8C" alt=""/></div>
-<map name="gaussMomentInversion_8C" id="gaussMomentInversion_8C">
-<area shape="rect" id="node2" href="a00138.html" title="gaussMomentInversion.H" alt="" coords="5,80,179,107"/>
+<div class="textblock"><div class="dynheader">
+Include dependency graph for growthModel.C:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00358.png" border="0" usemap="#growthModel_8C" alt=""/></div>
+<map name="growthModel_8C" id="growthModel_8C">
+<area shape="rect" id="node2" href="a00138.html" title="growthModel.H" alt="" coords="6,80,118,107"/>
 </map>
 </div>
 </div>
@@ -125,26 +123,28 @@ $(document).ready(function(){initNavTree('a00137.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:a00255"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00255.html">Foam</a></td></tr>
+<tr class="memitem:a00251"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html">Foam</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00260"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00260.html">Foam::populationBalanceSubModels</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab292baa664c0b1ffe9902ad93185b24f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00255.html#ab292baa664c0b1ffe9902ad93185b24f">defineTypeNameAndDebug</a> (gaussMomentInversion, 0)</td></tr>
-<tr class="separator:ab292baa664c0b1ffe9902ad93185b24f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a819bba564847deaf815d6be3f1c72bac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00255.html#a819bba564847deaf815d6be3f1c72bac">addToRunTimeSelectionTable</a> (univariateMomentInversion, gaussMomentInversion, dictionary)</td></tr>
-<tr class="separator:a819bba564847deaf815d6be3f1c72bac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a808c3e596bb1cee3b5e795d38419b367"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00260.html#a808c3e596bb1cee3b5e795d38419b367">defineTypeNameAndDebug</a> (growthModel, 0)</td></tr>
+<tr class="separator:a808c3e596bb1cee3b5e795d38419b367"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fcd4c8a5852e11ff67830a07a4cfe7b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00260.html#a7fcd4c8a5852e11ff67830a07a4cfe7b">defineRunTimeSelectionTable</a> (growthModel, dictionary)</td></tr>
+<tr class="separator:a7fcd4c8a5852e11ff67830a07a4cfe7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/momentInversion/univariate/basic/gaussMomentInversion/gaussMomentInversion.C">gaussMomentInversion.C</a> </p>
+<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/growthModels/growthModel/growthModel.C">growthModel.C</a> </p>
 
-<p>Definition in file <a class="el" href="a00137_source.html">gaussMomentInversion.C</a>.</p>
+<p>Definition in file <a class="el" href="a00137_source.html">growthModel.C</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0b9bb76b72c90181149adc55e92e6ea3.html">momentInversion</a></li><li class="navelem"><a class="el" href="dir_224f5f7c837ec5f1a50cf8e5b44c5959.html">univariate</a></li><li class="navelem"><a class="el" href="dir_b57c68eea9442de1941a28876bed1be5.html">basic</a></li><li class="navelem"><a class="el" href="dir_69cda17393d99638a055981e70fb59f8.html">gaussMomentInversion</a></li><li class="navelem"><a class="el" href="a00137.html">gaussMomentInversion.C</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0ecbe6cb5f50223527ce4e1b499bd333.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="dir_58c61e057ed2119d9755c9fdbb448648.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="dir_6940a7f58037034d8426ca1ed1224859.html">growthModels</a></li><li class="navelem"><a class="el" href="dir_ec684823dce04113314ce54695e567a3.html">growthModel</a></li><li class="navelem"><a class="el" href="a00137.html">growthModel.C</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
