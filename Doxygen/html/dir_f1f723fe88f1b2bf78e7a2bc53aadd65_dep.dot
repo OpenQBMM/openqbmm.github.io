@@ -1,0 +1,12 @@
+digraph "gaussLobattoMomentInversion" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b57c68eea9442de1941a28876bed1be5 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="basic" fontname="Helvetica", fontsize="10", URL="dir_b57c68eea9442de1941a28876bed1be5.html"]
+  dir_f1f723fe88f1b2bf78e7a2bc53aadd65 [shape=box, label="gaussLobattoMomentInversion", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_f1f723fe88f1b2bf78e7a2bc53aadd65.html"];
+  }
+  dir_5d93fb87d5a4d8520d1d58aab7b74357 [shape=box label="univariateMomentInversion" URL="dir_5d93fb87d5a4d8520d1d58aab7b74357.html"];
+  dir_f1f723fe88f1b2bf78e7a2bc53aadd65->dir_5d93fb87d5a4d8520d1d58aab7b74357 [headlabel="1", labeldistance=1.5 headhref="dir_000047_000067.html"];
+}

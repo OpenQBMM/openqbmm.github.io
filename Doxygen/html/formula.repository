@@ -1,0 +1,14 @@
+\form#0:\[ K_a = \frac{2 \kappa T}{3 \mu} \frac{(\xi_i + \xi_j)^2}{\xi_i \xi_j} \]
+\form#1:$ T $
+\form#2:$ \kappa $
+\form#3:$ \mu $
+\form#4:$ \xi_i $
+\form#5:$ \xi_j $
+\form#6:\[ K_a = C_a \]
+\form#7:$ C_a $
+\form#8:\[ K_a = C_a (\xi_i + \xi_j)^2 |\xi_i^2 - \xi_j^2| \]
+\form#9:\[ K_a = C_a (\xi_i + \xi_j)^3 \]
+\form#10:\[ K_a = C_a (\xi_i^3 + \xi_j^3) \]
+\form#11:\[ K_a = \frac{2 \kappa T}{3 \mu} \frac{(\xi_i + \xi_j)^2}{\xi_i \xi_j} + \frac{4}{3} (\xi_i + \xi_j)^3 \sqrt{\frac{3 \pi \varepsilon}{10 \nu}} \]
+\form#12:$ \varepsilon $
+\form#13:$ \nu $

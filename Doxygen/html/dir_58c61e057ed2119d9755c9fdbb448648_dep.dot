@@ -1,0 +1,21 @@
+digraph "populationBalanceSubModels" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_0ecbe6cb5f50223527ce4e1b499bd333 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="populationBalanceModels" fontname="Helvetica", fontsize="10", URL="dir_0ecbe6cb5f50223527ce4e1b499bd333.html"]
+  subgraph clusterdir_58c61e057ed2119d9755c9fdbb448648 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_58c61e057ed2119d9755c9fdbb448648.html"];
+    dir_58c61e057ed2119d9755c9fdbb448648 [shape=plaintext label="populationBalanceSubModels"];
+    dir_62f86ef0c260ceaf3b93a8b1f701039a [shape=box label="aggregationKernels" color="red" fillcolor="white" style="filled" URL="dir_62f86ef0c260ceaf3b93a8b1f701039a.html"];
+    dir_8db1431bcb360c6bb23f8119e5d3e19f [shape=box label="breakupKernels" color="red" fillcolor="white" style="filled" URL="dir_8db1431bcb360c6bb23f8119e5d3e19f.html"];
+    dir_a959301c3cf54322ad2aac04893d37dc [shape=box label="daugtherDistributions" color="red" fillcolor="white" style="filled" URL="dir_a959301c3cf54322ad2aac04893d37dc.html"];
+    dir_6ec2bdb0f036663acb1a5a50d7b40959 [shape=box label="diffusionModels" color="red" fillcolor="white" style="filled" URL="dir_6ec2bdb0f036663acb1a5a50d7b40959.html"];
+    dir_6940a7f58037034d8426ca1ed1224859 [shape=box label="growthModels" color="red" fillcolor="white" style="filled" URL="dir_6940a7f58037034d8426ca1ed1224859.html"];
+    dir_deb70e2408b5d543a7b3ca509fad8f1b [shape=box label="nucleationModels" color="red" fillcolor="white" style="filled" URL="dir_deb70e2408b5d543a7b3ca509fad8f1b.html"];
+  }
+  }
+  dir_17a6c3d0f5fde6543c26c10fa938ae5d [shape=box label="moments" URL="dir_17a6c3d0f5fde6543c26c10fa938ae5d.html"];
+  dir_deb70e2408b5d543a7b3ca509fad8f1b->dir_17a6c3d0f5fde6543c26c10fa938ae5d [headlabel="1", labeldistance=1.5 headhref="dir_000055_000061.html"];
+}

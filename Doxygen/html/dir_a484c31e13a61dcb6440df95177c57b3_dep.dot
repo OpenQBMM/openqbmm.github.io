@@ -1,0 +1,12 @@
+digraph "pbeTransportFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a6e4fee11f07c3b70486e88fe92cbbdc {
+    graph [ bgcolor="#ddddee", pencolor="black", label="applications" fontname="Helvetica", fontsize="10", URL="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html"]
+  dir_a484c31e13a61dcb6440df95177c57b3 [shape=box, label="pbeTransportFoam", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_a484c31e13a61dcb6440df95177c57b3.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_a484c31e13a61dcb6440df95177c57b3->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000026_000000.html"];
+}

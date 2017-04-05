@@ -1,0 +1,24 @@
+digraph "basic" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_224f5f7c837ec5f1a50cf8e5b44c5959 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="univariate" fontname="Helvetica", fontsize="10", URL="dir_224f5f7c837ec5f1a50cf8e5b44c5959.html"]
+  subgraph clusterdir_b57c68eea9442de1941a28876bed1be5 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_b57c68eea9442de1941a28876bed1be5.html"];
+    dir_b57c68eea9442de1941a28876bed1be5 [shape=plaintext label="basic"];
+    dir_f1f723fe88f1b2bf78e7a2bc53aadd65 [shape=box label="gaussLobattoMomentInversion" color="black" fillcolor="white" style="filled" URL="dir_f1f723fe88f1b2bf78e7a2bc53aadd65.html"];
+    dir_69cda17393d99638a055981e70fb59f8 [shape=box label="gaussMomentInversion" color="black" fillcolor="white" style="filled" URL="dir_69cda17393d99638a055981e70fb59f8.html"];
+    dir_f6b83f958e94be02670b20c6320e1d43 [shape=box label="gaussRadauMomentInversion" color="black" fillcolor="white" style="filled" URL="dir_f6b83f958e94be02670b20c6320e1d43.html"];
+    dir_5d93fb87d5a4d8520d1d58aab7b74357 [shape=box label="univariateMomentInversion" color="black" fillcolor="white" style="filled" URL="dir_5d93fb87d5a4d8520d1d58aab7b74357.html"];
+  }
+  }
+  dir_28a10e058b67f0d7e124cb3c5246e6cb [shape=box label="momentSets" color="red" URL="dir_28a10e058b67f0d7e124cb3c5246e6cb.html"];
+  dir_9c0e92409a33848bf66dccc8c0cdc400 [shape=box label="eigenSolver" URL="dir_9c0e92409a33848bf66dccc8c0cdc400.html"];
+  dir_f6b83f958e94be02670b20c6320e1d43->dir_5d93fb87d5a4d8520d1d58aab7b74357 [headlabel="1", labeldistance=1.5 headhref="dir_000049_000067.html"];
+  dir_5d93fb87d5a4d8520d1d58aab7b74357->dir_28a10e058b67f0d7e124cb3c5246e6cb [headlabel="1", labeldistance=1.5 headhref="dir_000067_000062.html"];
+  dir_5d93fb87d5a4d8520d1d58aab7b74357->dir_9c0e92409a33848bf66dccc8c0cdc400 [headlabel="1", labeldistance=1.5 headhref="dir_000067_000036.html"];
+  dir_69cda17393d99638a055981e70fb59f8->dir_5d93fb87d5a4d8520d1d58aab7b74357 [headlabel="1", labeldistance=1.5 headhref="dir_000048_000067.html"];
+  dir_f1f723fe88f1b2bf78e7a2bc53aadd65->dir_5d93fb87d5a4d8520d1d58aab7b74357 [headlabel="1", labeldistance=1.5 headhref="dir_000047_000067.html"];
+}

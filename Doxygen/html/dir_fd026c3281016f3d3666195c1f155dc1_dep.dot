@@ -1,0 +1,12 @@
+digraph "exponentialBreakup" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_8db1431bcb360c6bb23f8119e5d3e19f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="breakupKernels" fontname="Helvetica", fontsize="10", URL="dir_8db1431bcb360c6bb23f8119e5d3e19f.html"]
+  dir_fd026c3281016f3d3666195c1f155dc1 [shape=box, label="exponentialBreakup", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_fd026c3281016f3d3666195c1f155dc1.html"];
+  }
+  dir_716f5cbb281bc8c04cbc643b875570af [shape=box label="breakupKernel" URL="dir_716f5cbb281bc8c04cbc643b875570af.html"];
+  dir_fd026c3281016f3d3666195c1f155dc1->dir_716f5cbb281bc8c04cbc643b875570af [headlabel="1", labeldistance=1.5 headhref="dir_000038_000014.html"];
+}

@@ -1,0 +1,22 @@
+digraph "univariate" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_0b9bb76b72c90181149adc55e92e6ea3 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="momentInversion" fontname="Helvetica", fontsize="10", URL="dir_0b9bb76b72c90181149adc55e92e6ea3.html"]
+  subgraph clusterdir_224f5f7c837ec5f1a50cf8e5b44c5959 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_224f5f7c837ec5f1a50cf8e5b44c5959.html"];
+    dir_224f5f7c837ec5f1a50cf8e5b44c5959 [shape=plaintext label="univariate"];
+    dir_b57c68eea9442de1941a28876bed1be5 [shape=box label="basic" color="red" fillcolor="white" style="filled" URL="dir_b57c68eea9442de1941a28876bed1be5.html"];
+    dir_eab674178c35773c79abc32ac1e64a39 [shape=box label="extended" color="red" fillcolor="white" style="filled" URL="dir_eab674178c35773c79abc32ac1e64a39.html"];
+  }
+  }
+  dir_28a10e058b67f0d7e124cb3c5246e6cb [shape=box label="momentSets" color="red" URL="dir_28a10e058b67f0d7e124cb3c5246e6cb.html"];
+  dir_9c0e92409a33848bf66dccc8c0cdc400 [shape=box label="eigenSolver" URL="dir_9c0e92409a33848bf66dccc8c0cdc400.html"];
+  dir_b57c68eea9442de1941a28876bed1be5->dir_28a10e058b67f0d7e124cb3c5246e6cb [headlabel="1", labeldistance=1.5 headhref="dir_000046_000062.html"];
+  dir_b57c68eea9442de1941a28876bed1be5->dir_9c0e92409a33848bf66dccc8c0cdc400 [headlabel="1", labeldistance=1.5 headhref="dir_000046_000036.html"];
+  dir_eab674178c35773c79abc32ac1e64a39->dir_b57c68eea9442de1941a28876bed1be5 [headlabel="1", labeldistance=1.5 headhref="dir_000012_000046.html"];
+  dir_eab674178c35773c79abc32ac1e64a39->dir_28a10e058b67f0d7e124cb3c5246e6cb [headlabel="1", labeldistance=1.5 headhref="dir_000012_000062.html"];
+  dir_eab674178c35773c79abc32ac1e64a39->dir_9c0e92409a33848bf66dccc8c0cdc400 [headlabel="1", labeldistance=1.5 headhref="dir_000012_000036.html"];
+}

@@ -1,0 +1,16 @@
+digraph "univariatePopulationBalance" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_0ecbe6cb5f50223527ce4e1b499bd333 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="populationBalanceModels" fontname="Helvetica", fontsize="10", URL="dir_0ecbe6cb5f50223527ce4e1b499bd333.html"]
+  dir_9fe78a6990f85c935a0517d3138ac44c [shape=box, label="univariatePopulationBalance", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_9fe78a6990f85c935a0517d3138ac44c.html"];
+  }
+  dir_58c61e057ed2119d9755c9fdbb448648 [shape=box label="populationBalanceSubModels" color="red" URL="dir_58c61e057ed2119d9755c9fdbb448648.html"];
+  dir_2c47f8c771a5035d1ec7eb97e91dc6fe [shape=box label="populationBalanceModel" URL="dir_2c47f8c771a5035d1ec7eb97e91dc6fe.html"];
+  dir_a2511ae0788c5bf3ef079489002b5a51 [shape=box label="PDFTransportModels" color="red" URL="dir_a2511ae0788c5bf3ef079489002b5a51.html"];
+  dir_9fe78a6990f85c935a0517d3138ac44c->dir_58c61e057ed2119d9755c9fdbb448648 [headlabel="5", labeldistance=1.5 headhref="dir_000090_000003.html"];
+  dir_9fe78a6990f85c935a0517d3138ac44c->dir_2c47f8c771a5035d1ec7eb97e91dc6fe [headlabel="1", labeldistance=1.5 headhref="dir_000090_000066.html"];
+  dir_9fe78a6990f85c935a0517d3138ac44c->dir_a2511ae0788c5bf3ef079489002b5a51 [headlabel="1", labeldistance=1.5 headhref="dir_000090_000074.html"];
+}

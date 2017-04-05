@@ -1,0 +1,21 @@
+digraph "PDFTransportModels" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_259a5a6e928303d9988273e835fb5828 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="quadratureMethods" fontname="Helvetica", fontsize="10", URL="dir_259a5a6e928303d9988273e835fb5828.html"]
+  subgraph clusterdir_a2511ae0788c5bf3ef079489002b5a51 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_a2511ae0788c5bf3ef079489002b5a51.html"];
+    dir_a2511ae0788c5bf3ef079489002b5a51 [shape=plaintext label="PDFTransportModels"];
+    dir_c7bb23c4c35074ff6c3bb01ead78aaa0 [shape=box label="PDFTransportModel" color="black" fillcolor="white" style="filled" URL="dir_c7bb23c4c35074ff6c3bb01ead78aaa0.html"];
+    dir_67267f5a91ed640e67510f5791a1c825 [shape=box label="univariatePDFTransportModel" color="black" fillcolor="white" style="filled" URL="dir_67267f5a91ed640e67510f5791a1c825.html"];
+  }
+  }
+  dir_9d10a745d1d113d9472c5830c2cbe4f5 [shape=box label="quadratureApproximation" URL="dir_9d10a745d1d113d9472c5830c2cbe4f5.html"];
+  dir_1a1d8e7a8fbc26c9783a2a4005a1b47e [shape=box label="momentAdvection" color="red" URL="dir_1a1d8e7a8fbc26c9783a2a4005a1b47e.html"];
+  dir_67267f5a91ed640e67510f5791a1c825->dir_9d10a745d1d113d9472c5830c2cbe4f5 [headlabel="1", labeldistance=1.5 headhref="dir_000089_000077.html"];
+  dir_67267f5a91ed640e67510f5791a1c825->dir_1a1d8e7a8fbc26c9783a2a4005a1b47e [headlabel="1", labeldistance=1.5 headhref="dir_000089_000086.html"];
+  dir_67267f5a91ed640e67510f5791a1c825->dir_c7bb23c4c35074ff6c3bb01ead78aaa0 [headlabel="1", labeldistance=1.5 headhref="dir_000089_000075.html"];
+  dir_1a1d8e7a8fbc26c9783a2a4005a1b47e->dir_9d10a745d1d113d9472c5830c2cbe4f5 [headlabel="1", labeldistance=1.5 headhref="dir_000086_000077.html"];
+}

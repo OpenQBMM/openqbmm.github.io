@@ -1,0 +1,12 @@
+digraph "oneQuarterMassRatio" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a959301c3cf54322ad2aac04893d37dc {
+    graph [ bgcolor="#ddddee", pencolor="black", label="daugtherDistributions" fontname="Helvetica", fontsize="10", URL="dir_a959301c3cf54322ad2aac04893d37dc.html"]
+  dir_776fef035ec21dc2a7752b734a5fd076 [shape=box, label="oneQuarterMassRatio", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_776fef035ec21dc2a7752b734a5fd076.html"];
+  }
+  dir_6107ce464e8bb2e0d96560c02a662c14 [shape=box label="daughterDistribution" URL="dir_6107ce464e8bb2e0d96560c02a662c14.html"];
+  dir_776fef035ec21dc2a7752b734a5fd076->dir_6107ce464e8bb2e0d96560c02a662c14 [headlabel="1", labeldistance=1.5 headhref="dir_000073_000028.html"];
+}

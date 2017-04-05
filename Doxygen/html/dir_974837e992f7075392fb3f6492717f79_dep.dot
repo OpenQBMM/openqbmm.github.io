@@ -1,0 +1,18 @@
+digraph "extendedFieldMomentInversion" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_db960164ea42c42a422c08f487d84e08 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="fieldMomentInversion" fontname="Helvetica", fontsize="10", URL="dir_db960164ea42c42a422c08f487d84e08.html"]
+  dir_974837e992f7075392fb3f6492717f79 [shape=box, label="extendedFieldMomentInversion", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_974837e992f7075392fb3f6492717f79.html"];
+  }
+  dir_28a10e058b67f0d7e124cb3c5246e6cb [shape=box label="momentSets" color="red" URL="dir_28a10e058b67f0d7e124cb3c5246e6cb.html"];
+  dir_db2c61815207dc85e75ccbf467d61a07 [shape=box label="fieldMomentInversion" URL="dir_db2c61815207dc85e75ccbf467d61a07.html"];
+  dir_0b9bb76b72c90181149adc55e92e6ea3 [shape=box label="momentInversion" color="red" URL="dir_0b9bb76b72c90181149adc55e92e6ea3.html"];
+  dir_db2c61815207dc85e75ccbf467d61a07->dir_28a10e058b67f0d7e124cb3c5246e6cb [headlabel="1", labeldistance=1.5 headhref="dir_000041_000062.html"];
+  dir_0b9bb76b72c90181149adc55e92e6ea3->dir_28a10e058b67f0d7e124cb3c5246e6cb [headlabel="3", labeldistance=1.5 headhref="dir_000010_000062.html"];
+  dir_974837e992f7075392fb3f6492717f79->dir_28a10e058b67f0d7e124cb3c5246e6cb [headlabel="1", labeldistance=1.5 headhref="dir_000039_000062.html"];
+  dir_974837e992f7075392fb3f6492717f79->dir_db2c61815207dc85e75ccbf467d61a07 [headlabel="1", labeldistance=1.5 headhref="dir_000039_000041.html"];
+  dir_974837e992f7075392fb3f6492717f79->dir_0b9bb76b72c90181149adc55e92e6ea3 [headlabel="1", labeldistance=1.5 headhref="dir_000039_000010.html"];
+}

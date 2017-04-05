@@ -1,0 +1,17 @@
+digraph "mixingSubModels" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_e33c4094dda42b63bf42ed0cf06ff677 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="mixingModels" fontname="Helvetica", fontsize="10", URL="dir_e33c4094dda42b63bf42ed0cf06ff677.html"]
+  subgraph clusterdir_2e6d34bda531f0fb841bc3aac1e0e585 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_2e6d34bda531f0fb841bc3aac1e0e585.html"];
+    dir_2e6d34bda531f0fb841bc3aac1e0e585 [shape=plaintext label="mixingSubModels"];
+    dir_d6772ea9513def0e0f2211126e6f45d9 [shape=box label="diffusionModels" color="red" fillcolor="white" style="filled" URL="dir_d6772ea9513def0e0f2211126e6f45d9.html"];
+    dir_59c2c0be88902734948c694706404395 [shape=box label="mixingKernels" color="red" fillcolor="white" style="filled" URL="dir_59c2c0be88902734948c694706404395.html"];
+  }
+  }
+  dir_17a6c3d0f5fde6543c26c10fa938ae5d [shape=box label="moments" URL="dir_17a6c3d0f5fde6543c26c10fa938ae5d.html"];
+  dir_59c2c0be88902734948c694706404395->dir_17a6c3d0f5fde6543c26c10fa938ae5d [headlabel="1", labeldistance=1.5 headhref="dir_000042_000061.html"];
+}

@@ -1,0 +1,12 @@
+digraph "nucleationModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_deb70e2408b5d543a7b3ca509fad8f1b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="nucleationModels" fontname="Helvetica", fontsize="10", URL="dir_deb70e2408b5d543a7b3ca509fad8f1b.html"]
+  dir_510ba15065abe55fcb2982271eaa7cd4 [shape=box, label="nucleationModel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_510ba15065abe55fcb2982271eaa7cd4.html"];
+  }
+  dir_17a6c3d0f5fde6543c26c10fa938ae5d [shape=box label="moments" URL="dir_17a6c3d0f5fde6543c26c10fa938ae5d.html"];
+  dir_510ba15065abe55fcb2982271eaa7cd4->dir_17a6c3d0f5fde6543c26c10fa938ae5d [headlabel="1", labeldistance=1.5 headhref="dir_000065_000061.html"];
+}
