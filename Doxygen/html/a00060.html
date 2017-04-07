@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>quadratureNode&lt; weightType, abscissaType, sigmaType &gt; Class Template Reference</title>
+<title>symmetricFragmentation Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -106,262 +106,123 @@ $(document).ready(function(){initNavTree('a00060.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="a00562.html">List of all members</a>  </div>
+<a href="a00659.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">quadratureNode&lt; weightType, abscissaType, sigmaType &gt; Class Template Reference</div>  </div>
+<div class="title">symmetricFragmentation Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Extended version of the quadrature node, which stores the list of secondary weights and abscissae associated to the primary weight and abscissa, and the sigma parameter.  
+<p>Daughter distribution of fragments with symmetric fragmentation.  
  <a href="a00060.html#details">More...</a></p>
+<div class="dynheader">
+Inheritance diagram for symmetricFragmentation:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00660.png" border="0" usemap="#symmetricFragmentation_inherit__map" alt="Inheritance graph"/></div>
+<map name="symmetricFragmentation_inherit__map" id="symmetricFragmentation_inherit__map">
+<area shape="rect" id="node2" href="a00012.html" title="Abstract class for the daughter distribution of fragments in breakup processes. " alt="" coords="20,5,160,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for symmetricFragmentation:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00661.png" border="0" usemap="#symmetricFragmentation_coll__map" alt="Collaboration graph"/></div>
+<map name="symmetricFragmentation_coll__map" id="symmetricFragmentation_coll__map">
+<area shape="rect" id="node2" href="a00012.html" title="Abstract class for the daughter distribution of fragments in breakup processes. " alt="" coords="20,5,160,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00032.html">iNew</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a pointer to a new quadrature node created on freestore.  <a href="a00032.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab4a87e985dbde8b2a7052ca8e443dd00"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00060.html#ab4a87e985dbde8b2a7052ca8e443dd00">quadratureNode</a> (const word &amp;<a class="el" href="a00060.html#a6d60057c26042eaf7fa1b3b6fb07b582">name</a>, const word &amp;distributionName, const dictionary &amp;nodeDict, const fvMesh &amp;mesh, const dimensionSet &amp;weightDimensions, const dimensionSet &amp;abscissaDimensions, const wordList &amp;boundaryTypes, const bool <a class="el" href="a00060.html#a169e93115091615d69838e87c7f96a14">extended</a>=false, const label <a class="el" href="a00060.html#a6d3652c06c7d71d67f199d2104465f3a">nSecondaryNodes</a>=0)</td></tr>
-<tr class="memdesc:ab4a87e985dbde8b2a7052ca8e443dd00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from name, dictionary, mesh and dimensions.  <a href="#ab4a87e985dbde8b2a7052ca8e443dd00">More...</a><br /></td></tr>
-<tr class="separator:ab4a87e985dbde8b2a7052ca8e443dd00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5683c102dc4bc1dfdb49072dcf9556d3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00060.html#a5683c102dc4bc1dfdb49072dcf9556d3">quadratureNode</a> (const word &amp;<a class="el" href="a00060.html#a6d60057c26042eaf7fa1b3b6fb07b582">name</a>, const word &amp;distributionName, const fvMesh &amp;mesh, const dimensionSet &amp;weightDimensions, const dimensionSet &amp;abscissaDimensions, const bool <a class="el" href="a00060.html#a169e93115091615d69838e87c7f96a14">extended</a>=false, const label <a class="el" href="a00060.html#a6d3652c06c7d71d67f199d2104465f3a">nSecondaryNodes</a>=0)</td></tr>
-<tr class="memdesc:a5683c102dc4bc1dfdb49072dcf9556d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from name, number of secondary nodes, mesh and dimensions.  <a href="#a5683c102dc4bc1dfdb49072dcf9556d3">More...</a><br /></td></tr>
-<tr class="separator:a5683c102dc4bc1dfdb49072dcf9556d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44d59e562ac996bdebdb242602452a52"><td class="memItemLeft" align="right" valign="top">autoPtr&lt; <a class="el" href="a00060.html">quadratureNode</a>&lt; weightType, abscissaType, sigmaType &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00060.html#a44d59e562ac996bdebdb242602452a52">clone</a> () const </td></tr>
-<tr class="memdesc:a44d59e562ac996bdebdb242602452a52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return clone.  <a href="#a44d59e562ac996bdebdb242602452a52">More...</a><br /></td></tr>
-<tr class="separator:a44d59e562ac996bdebdb242602452a52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad65970595fbbbcb000b0192eb41d7416"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00060.html#ad65970595fbbbcb000b0192eb41d7416">~quadratureNode</a> ()</td></tr>
-<tr class="memdesc:ad65970595fbbbcb000b0192eb41d7416"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#ad65970595fbbbcb000b0192eb41d7416">More...</a><br /></td></tr>
-<tr class="separator:ad65970595fbbbcb000b0192eb41d7416"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d60057c26042eaf7fa1b3b6fb07b582"><td class="memItemLeft" align="right" valign="top">const word &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00060.html#a6d60057c26042eaf7fa1b3b6fb07b582">name</a> () const </td></tr>
-<tr class="memdesc:a6d60057c26042eaf7fa1b3b6fb07b582"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the name of the node.  <a href="#a6d60057c26042eaf7fa1b3b6fb07b582">More...</a><br /></td></tr>
-<tr class="separator:a6d60057c26042eaf7fa1b3b6fb07b582"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a169e93115091615d69838e87c7f96a14"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00060.html#a169e93115091615d69838e87c7f96a14">extended</a> () const </td></tr>
-<tr class="separator:a169e93115091615d69838e87c7f96a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d3652c06c7d71d67f199d2104465f3a"><td class="memItemLeft" align="right" valign="top">label&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00060.html#a6d3652c06c7d71d67f199d2104465f3a">nSecondaryNodes</a> () const </td></tr>
-<tr class="memdesc:a6d3652c06c7d71d67f199d2104465f3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of secondary nodes.  <a href="#a6d3652c06c7d71d67f199d2104465f3a">More...</a><br /></td></tr>
-<tr class="separator:a6d3652c06c7d71d67f199d2104465f3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0a25e3fbd8098cb359e8e92cafba070"><td class="memItemLeft" align="right" valign="top">const weightType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00060.html#aa0a25e3fbd8098cb359e8e92cafba070">primaryWeight</a> () const </td></tr>
-<tr class="memdesc:aa0a25e3fbd8098cb359e8e92cafba070"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const access to the weight of the node.  <a href="#aa0a25e3fbd8098cb359e8e92cafba070">More...</a><br /></td></tr>
-<tr class="separator:aa0a25e3fbd8098cb359e8e92cafba070"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a156872933508c1374a01a7abe6ec039c"><td class="memItemLeft" align="right" valign="top">weightType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00060.html#a156872933508c1374a01a7abe6ec039c">primaryWeight</a> ()</td></tr>
-<tr class="memdesc:a156872933508c1374a01a7abe6ec039c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-const access to the weight of the node.  <a href="#a156872933508c1374a01a7abe6ec039c">More...</a><br /></td></tr>
-<tr class="separator:a156872933508c1374a01a7abe6ec039c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a436581ffd72d3ac178b6d3381f0928ce"><td class="memItemLeft" align="right" valign="top">const abscissaType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00060.html#a436581ffd72d3ac178b6d3381f0928ce">primaryAbscissa</a> () const </td></tr>
-<tr class="memdesc:a436581ffd72d3ac178b6d3381f0928ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const access to the abscissa of the node.  <a href="#a436581ffd72d3ac178b6d3381f0928ce">More...</a><br /></td></tr>
-<tr class="separator:a436581ffd72d3ac178b6d3381f0928ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a501aa6ae793c60ca18e873cb53c67be9"><td class="memItemLeft" align="right" valign="top">abscissaType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00060.html#a501aa6ae793c60ca18e873cb53c67be9">primaryAbscissa</a> ()</td></tr>
-<tr class="memdesc:a501aa6ae793c60ca18e873cb53c67be9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-const access to the abscissa of the node.  <a href="#a501aa6ae793c60ca18e873cb53c67be9">More...</a><br /></td></tr>
-<tr class="separator:a501aa6ae793c60ca18e873cb53c67be9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a225ac587d44fce3f6a523a89784379af"><td class="memItemLeft" align="right" valign="top">const PtrList&lt; weightType &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00060.html#a225ac587d44fce3f6a523a89784379af">secondaryWeights</a> () const </td></tr>
-<tr class="memdesc:a225ac587d44fce3f6a523a89784379af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const access to the secondary weights of the node.  <a href="#a225ac587d44fce3f6a523a89784379af">More...</a><br /></td></tr>
-<tr class="separator:a225ac587d44fce3f6a523a89784379af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa0787d957d3b8ce80ecb60ccf5482d8"><td class="memItemLeft" align="right" valign="top">PtrList&lt; weightType &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00060.html#aaa0787d957d3b8ce80ecb60ccf5482d8">secondaryWeights</a> ()</td></tr>
-<tr class="memdesc:aaa0787d957d3b8ce80ecb60ccf5482d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-const access to the secondary weights of the node.  <a href="#aaa0787d957d3b8ce80ecb60ccf5482d8">More...</a><br /></td></tr>
-<tr class="separator:aaa0787d957d3b8ce80ecb60ccf5482d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf323f4680d96d62aca77b85fab8d25c"><td class="memItemLeft" align="right" valign="top">const PtrList&lt; abscissaType &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00060.html#acf323f4680d96d62aca77b85fab8d25c">secondaryAbscissae</a> () const </td></tr>
-<tr class="memdesc:acf323f4680d96d62aca77b85fab8d25c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const access to the list of secondary abscissae of the node.  <a href="#acf323f4680d96d62aca77b85fab8d25c">More...</a><br /></td></tr>
-<tr class="separator:acf323f4680d96d62aca77b85fab8d25c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaff8cd6e5fbfd9b1c86db4f836f9dc2c"><td class="memItemLeft" align="right" valign="top">PtrList&lt; abscissaType &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00060.html#aaff8cd6e5fbfd9b1c86db4f836f9dc2c">secondaryAbscissae</a> ()</td></tr>
-<tr class="memdesc:aaff8cd6e5fbfd9b1c86db4f836f9dc2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-const access to the list of secondary abscissae of the node.  <a href="#aaff8cd6e5fbfd9b1c86db4f836f9dc2c">More...</a><br /></td></tr>
-<tr class="separator:aaff8cd6e5fbfd9b1c86db4f836f9dc2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7ed63986006f100bfc1515291f070cb"><td class="memItemLeft" align="right" valign="top">const sigmaType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00060.html#ae7ed63986006f100bfc1515291f070cb">sigma</a> () const </td></tr>
-<tr class="memdesc:ae7ed63986006f100bfc1515291f070cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const access to sigma.  <a href="#ae7ed63986006f100bfc1515291f070cb">More...</a><br /></td></tr>
-<tr class="separator:ae7ed63986006f100bfc1515291f070cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a211880a026af3ce558c45adc81be4c3d"><td class="memItemLeft" align="right" valign="top">sigmaType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00060.html#a211880a026af3ce558c45adc81be4c3d">sigma</a> ()</td></tr>
-<tr class="memdesc:a211880a026af3ce558c45adc81be4c3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-const access to sigma.  <a href="#a211880a026af3ce558c45adc81be4c3d">More...</a><br /></td></tr>
-<tr class="separator:a211880a026af3ce558c45adc81be4c3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a999a81c4ca2504ee0ffe0b088c09ba85"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00060.html#a999a81c4ca2504ee0ffe0b088c09ba85">TypeName</a> (&quot;symmetricFragmentation&quot;)</td></tr>
+<tr class="memdesc:a999a81c4ca2504ee0ffe0b088c09ba85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#a999a81c4ca2504ee0ffe0b088c09ba85">More...</a><br /></td></tr>
+<tr class="separator:a999a81c4ca2504ee0ffe0b088c09ba85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06ddb9d84a56a2e718822ea145ca1c01"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00060.html#a06ddb9d84a56a2e718822ea145ca1c01">symmetricFragmentation</a> (const dictionary &amp;dict)</td></tr>
+<tr class="memdesc:a06ddb9d84a56a2e718822ea145ca1c01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#a06ddb9d84a56a2e718822ea145ca1c01">More...</a><br /></td></tr>
+<tr class="separator:a06ddb9d84a56a2e718822ea145ca1c01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d44e31c17c944f6a03e3abea48bbea2"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00060.html#a8d44e31c17c944f6a03e3abea48bbea2">~symmetricFragmentation</a> ()</td></tr>
+<tr class="memdesc:a8d44e31c17c944f6a03e3abea48bbea2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a8d44e31c17c944f6a03e3abea48bbea2">More...</a><br /></td></tr>
+<tr class="separator:a8d44e31c17c944f6a03e3abea48bbea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af11d63388088dc9b381b450559526d24"><td class="memItemLeft" align="right" valign="top">virtual scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00060.html#af11d63388088dc9b381b450559526d24">mD</a> (const label &amp;order, const scalar &amp;abscissa) const </td></tr>
+<tr class="memdesc:af11d63388088dc9b381b450559526d24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moment of the daughter distribution function.  <a href="#af11d63388088dc9b381b450559526d24">More...</a><br /></td></tr>
+<tr class="separator:af11d63388088dc9b381b450559526d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00012"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00012')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="a00012.html">daughterDistribution</a></td></tr>
+<tr class="memitem:a82911bf276379ac9d1978f3e59b5a2da inherit pub_methods_a00012"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00012.html#a82911bf276379ac9d1978f3e59b5a2da">TypeName</a> (&quot;daughterDistribution&quot;)</td></tr>
+<tr class="memdesc:a82911bf276379ac9d1978f3e59b5a2da inherit pub_methods_a00012"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#a82911bf276379ac9d1978f3e59b5a2da">More...</a><br /></td></tr>
+<tr class="separator:a82911bf276379ac9d1978f3e59b5a2da inherit pub_methods_a00012"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a233d1b6be37d99eb2ef9e3f3431d6e18 inherit pub_methods_a00012"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00012.html#a233d1b6be37d99eb2ef9e3f3431d6e18">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00012.html">daughterDistribution</a>, dictionary,(                                       const dictionary &amp;dict                       ),(dict))</td></tr>
+<tr class="separator:a233d1b6be37d99eb2ef9e3f3431d6e18 inherit pub_methods_a00012"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24ef98904209a2fdb76d456f36fb7433 inherit pub_methods_a00012"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00012.html#a24ef98904209a2fdb76d456f36fb7433">daughterDistribution</a> (const dictionary &amp;dict)</td></tr>
+<tr class="memdesc:a24ef98904209a2fdb76d456f36fb7433 inherit pub_methods_a00012"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#a24ef98904209a2fdb76d456f36fb7433">More...</a><br /></td></tr>
+<tr class="separator:a24ef98904209a2fdb76d456f36fb7433 inherit pub_methods_a00012"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82d94b9042834125e095b863b9b1d2b2 inherit pub_methods_a00012"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00012.html#a82d94b9042834125e095b863b9b1d2b2">~daughterDistribution</a> ()</td></tr>
+<tr class="memdesc:a82d94b9042834125e095b863b9b1d2b2 inherit pub_methods_a00012"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a82d94b9042834125e095b863b9b1d2b2">More...</a><br /></td></tr>
+<tr class="separator:a82d94b9042834125e095b863b9b1d2b2 inherit pub_methods_a00012"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_methods_a00012"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_a00012')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="a00012.html">daughterDistribution</a></td></tr>
+<tr class="memitem:aae6ec3b92070a02ab63d7193760e4cb4 inherit pub_static_methods_a00012"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00012.html">daughterDistribution</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00012.html#aae6ec3b92070a02ab63d7193760e4cb4">New</a> (const dictionary &amp;dict)</td></tr>
+<tr class="separator:aae6ec3b92070a02ab63d7193760e4cb4 inherit pub_static_methods_a00012"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_a00012"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a00012')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="a00012.html">daughterDistribution</a></td></tr>
+<tr class="memitem:a892ddcb9cba6f50b0396cdb7bf1b4f6a inherit pro_attribs_a00012"><td class="memItemLeft" align="right" valign="top">const dictionary &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00012.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a">dict_</a></td></tr>
+<tr class="separator:a892ddcb9cba6f50b0396cdb7bf1b4f6a inherit pro_attribs_a00012"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;class weightType, class abscissaType, class sigmaType&gt;<br />
-class Foam::quadratureNode&lt; weightType, abscissaType, sigmaType &gt;</h3>
-
-<p>Extended version of the quadrature node, which stores the list of secondary weights and abscissae associated to the primary weight and abscissa, and the sigma parameter. </p>
-<p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
+<div class="textblock"><p>Daughter distribution of fragments with symmetric fragmentation. </p>
+<p><a class="anchor" id="Description"></a>The moment source term corresponding to the distribution is:</p>
+<p class="formulaDsp">
+<img class="formulaDsp" alt="\[ \overline{b}_k = 2^{(3-k)/3} \xi^k \]" src="form_20.png"/>
+</p>
+<table  border="0">
+<tr>
+<td style="padding-left: 10px"><img class="formulaInl" alt="$ k $" src="form_15.png"/> </td><td style="padding-left: 10px; padding-right: 10px;">= </td><td>Order of the moment [-]  </td></tr>
+<tr>
+<td style="padding-left: 10px"><img class="formulaInl" alt="$ \xi $" src="form_16.png"/> </td><td style="padding-left: 10px; padding-right: 10px;">= </td><td>Particle size [m]  </td></tr>
+</table>
+<dl class="section user"><dt>Source files</dt><dd><ul>
 <li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/quadratureNode/quadratureNode.H">quadratureNode.H</a> </li>
+<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/daugtherDistributions/symmetricFragmentation/symmetricFragmentation.H">symmetricFragmentation.H</a> </li>
 <li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/quadratureNode/quadratureNode.C">quadratureNode.C</a> </li>
-<li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/quadratureNode/quadratureNodeI.H">quadratureNodeI.H</a> </li>
+<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/daugtherDistributions/symmetricFragmentation/symmetricFragmentation.C">symmetricFragmentation.C</a> </li>
 </ul>
 </dd></dl>
 
-<p>Definition at line <a class="el" href="a00215_source.html#l00054">54</a> of file <a class="el" href="a00215_source.html">quadratureNode.H</a>.</p>
+<p>Definition at line <a class="el" href="a00220_source.html#l00071">71</a> of file <a class="el" href="a00220_source.html">symmetricFragmentation.H</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ab4a87e985dbde8b2a7052ca8e443dd00"></a>
+<a class="anchor" id="a06ddb9d84a56a2e718822ea145ca1c01"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00060.html">quadratureNode</a> </td>
+          <td class="memname"><a class="el" href="a00060.html">symmetricFragmentation</a> </td>
           <td>(</td>
-          <td class="paramtype">const word &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const word &amp;&#160;</td>
-          <td class="paramname"><em>distributionName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">const dictionary &amp;&#160;</td>
-          <td class="paramname"><em>nodeDict</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>dict</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">const fvMesh &amp;&#160;</td>
-          <td class="paramname"><em>mesh</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const dimensionSet &amp;&#160;</td>
-          <td class="paramname"><em>weightDimensions</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const dimensionSet &amp;&#160;</td>
-          <td class="paramname"><em>abscissaDimensions</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const wordList &amp;&#160;</td>
-          <td class="paramname"><em>boundaryTypes</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const bool&#160;</td>
-          <td class="paramname"><em>extended</em> = <code>false</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const label&#160;</td>
-          <td class="paramname"><em>nSecondaryNodes</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Construct from name, dictionary, mesh and dimensions. </p>
+<p>Construct from components. </p>
 
-<p>Definition at line <a class="el" href="a00214_source.html#l00179">179</a> of file <a class="el" href="a00214_source.html">quadratureNode.C</a>.</p>
+<p>Definition at line <a class="el" href="a00219_source.html#l00054">54</a> of file <a class="el" href="a00219_source.html">symmetricFragmentation.C</a>.</p>
 
-<p>References <a class="el" href="a00214_source.html#l00330">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::~quadratureNode()</a>.</p>
-
-<p>Referenced by <a class="el" href="a00214_source.html#l00032">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::quadratureNode()</a>.</p>
+<p>References <a class="el" href="a00219_source.html#l00065">symmetricFragmentation::~symmetricFragmentation()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00060_ab4a87e985dbde8b2a7052ca8e443dd00_cgraph.png" border="0" usemap="#a00060_ab4a87e985dbde8b2a7052ca8e443dd00_cgraph" alt=""/></div>
-<map name="a00060_ab4a87e985dbde8b2a7052ca8e443dd00_cgraph" id="a00060_ab4a87e985dbde8b2a7052ca8e443dd00_cgraph">
-<area shape="rect" id="node2" href="a00060.html#ad65970595fbbbcb000b0192eb41d7416" title="Destructor. " alt="" coords="173,5,301,32"/>
-</map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00060_ab4a87e985dbde8b2a7052ca8e443dd00_icgraph.png" border="0" usemap="#a00060_ab4a87e985dbde8b2a7052ca8e443dd00_icgraph" alt=""/></div>
-<map name="a00060_ab4a87e985dbde8b2a7052ca8e443dd00_icgraph" id="a00060_ab4a87e985dbde8b2a7052ca8e443dd00_icgraph">
-<area shape="rect" id="node2" href="a00060.html#a5683c102dc4bc1dfdb49072dcf9556d3" title="Construct from name, number of secondary nodes, mesh and dimensions. " alt="" coords="173,5,293,32"/>
+<div class="center"><img src="a00060_a06ddb9d84a56a2e718822ea145ca1c01_cgraph.png" border="0" usemap="#a00060_a06ddb9d84a56a2e718822ea145ca1c01_cgraph" alt=""/></div>
+<map name="a00060_a06ddb9d84a56a2e718822ea145ca1c01_cgraph" id="a00060_a06ddb9d84a56a2e718822ea145ca1c01_cgraph">
+<area shape="rect" id="node2" href="a00060.html#a8d44e31c17c944f6a03e3abea48bbea2" title="Destructor. " alt="" coords="223,5,400,32"/>
 </map>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a5683c102dc4bc1dfdb49072dcf9556d3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="a00060.html">quadratureNode</a> </td>
-          <td>(</td>
-          <td class="paramtype">const word &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const word &amp;&#160;</td>
-          <td class="paramname"><em>distributionName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const fvMesh &amp;&#160;</td>
-          <td class="paramname"><em>mesh</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const dimensionSet &amp;&#160;</td>
-          <td class="paramname"><em>weightDimensions</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const dimensionSet &amp;&#160;</td>
-          <td class="paramname"><em>abscissaDimensions</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const bool&#160;</td>
-          <td class="paramname"><em>extended</em> = <code>false</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const label&#160;</td>
-          <td class="paramname"><em>nSecondaryNodes</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Construct from name, number of secondary nodes, mesh and dimensions. </p>
-
-<p>Definition at line <a class="el" href="a00214_source.html#l00032">32</a> of file <a class="el" href="a00214_source.html">quadratureNode.C</a>.</p>
-
-<p>References <a class="el" href="a00214_source.html#l00179">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::quadratureNode()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00060_a5683c102dc4bc1dfdb49072dcf9556d3_cgraph.png" border="0" usemap="#a00060_a5683c102dc4bc1dfdb49072dcf9556d3_cgraph" alt=""/></div>
-<map name="a00060_a5683c102dc4bc1dfdb49072dcf9556d3_cgraph" id="a00060_a5683c102dc4bc1dfdb49072dcf9556d3_cgraph">
-<area shape="rect" id="node2" href="a00060.html#ab4a87e985dbde8b2a7052ca8e443dd00" title="Construct from name, dictionary, mesh and dimensions. " alt="" coords="173,5,293,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="ad65970595fbbbcb000b0192eb41d7416"></a>
+<a class="anchor" id="a8d44e31c17c944f6a03e3abea48bbea2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -369,7 +230,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">~<a class="el" href="a00060.html">quadratureNode</a> </td>
+          <td class="memname">~<a class="el" href="a00060.html">symmetricFragmentation</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -384,18 +245,18 @@ Here is the call graph for this function:</div>
 
 <p>Destructor. </p>
 
-<p>Definition at line <a class="el" href="a00214_source.html#l00330">330</a> of file <a class="el" href="a00214_source.html">quadratureNode.C</a>.</p>
+<p>Definition at line <a class="el" href="a00219_source.html#l00065">65</a> of file <a class="el" href="a00219_source.html">symmetricFragmentation.C</a>.</p>
 
-<p>References <a class="el" href="a00060.html#a44d59e562ac996bdebdb242602452a52">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::clone()</a>.</p>
+<p>References <a class="el" href="a00219_source.html#l00074">symmetricFragmentation::mD()</a>.</p>
 
-<p>Referenced by <a class="el" href="a00215_source.html#l00158">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::iNew::operator()()</a>, and <a class="el" href="a00214_source.html#l00179">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::quadratureNode()</a>.</p>
+<p>Referenced by <a class="el" href="a00219_source.html#l00054">symmetricFragmentation::symmetricFragmentation()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00060_ad65970595fbbbcb000b0192eb41d7416_cgraph.png" border="0" usemap="#a00060_ad65970595fbbbcb000b0192eb41d7416_cgraph" alt=""/></div>
-<map name="a00060_ad65970595fbbbcb000b0192eb41d7416_cgraph" id="a00060_ad65970595fbbbcb000b0192eb41d7416_cgraph">
-<area shape="rect" id="node2" href="a00060.html#a44d59e562ac996bdebdb242602452a52" title="Return clone. " alt="" coords="181,5,236,32"/>
+<div class="center"><img src="a00060_a8d44e31c17c944f6a03e3abea48bbea2_cgraph.png" border="0" usemap="#a00060_a8d44e31c17c944f6a03e3abea48bbea2_cgraph" alt=""/></div>
+<map name="a00060_a8d44e31c17c944f6a03e3abea48bbea2_cgraph" id="a00060_a8d44e31c17c944f6a03e3abea48bbea2_cgraph">
+<area shape="rect" id="node2" href="a00060.html#af11d63388088dc9b381b450559526d24" title="Moment of the daughter distribution function. " alt="" coords="231,5,273,32"/>
 </map>
 </div>
 </p>
@@ -403,10 +264,9 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00060_ad65970595fbbbcb000b0192eb41d7416_icgraph.png" border="0" usemap="#a00060_ad65970595fbbbcb000b0192eb41d7416_icgraph" alt=""/></div>
-<map name="a00060_ad65970595fbbbcb000b0192eb41d7416_icgraph" id="a00060_ad65970595fbbbcb000b0192eb41d7416_icgraph">
-<area shape="rect" id="node2" href="a00032.html#a7cf4b421db9b97300525a415cbae6d2c" title="Foam::quadratureNode\l::iNew::operator()" alt="" coords="181,5,344,47"/>
-<area shape="rect" id="node3" href="a00060.html#ab4a87e985dbde8b2a7052ca8e443dd00" title="Construct from name, dictionary, mesh and dimensions. " alt="" coords="203,71,323,98"/>
+<div class="center"><img src="a00060_a8d44e31c17c944f6a03e3abea48bbea2_icgraph.png" border="0" usemap="#a00060_a8d44e31c17c944f6a03e3abea48bbea2_icgraph" alt=""/></div>
+<map name="a00060_a8d44e31c17c944f6a03e3abea48bbea2_icgraph" id="a00060_a8d44e31c17c944f6a03e3abea48bbea2_icgraph">
+<area shape="rect" id="node2" href="a00060.html#a06ddb9d84a56a2e718822ea145ca1c01" title="Construct from components. " alt="" coords="231,5,400,32"/>
 </map>
 </div>
 </p>
@@ -414,275 +274,25 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a44d59e562ac996bdebdb242602452a52"></a>
+<a class="anchor" id="a999a81c4ca2504ee0ffe0b088c09ba85"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">autoPtr&lt;<a class="el" href="a00060.html">quadratureNode</a>&lt;weightType, abscissaType, sigmaType&gt; &gt; clone </td>
+          <td class="memname">TypeName </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return clone. </p>
-
-<p>Referenced by <a class="el" href="a00214_source.html#l00330">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::~quadratureNode()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00060_a44d59e562ac996bdebdb242602452a52_icgraph.png" border="0" usemap="#a00060_a44d59e562ac996bdebdb242602452a52_icgraph" alt=""/></div>
-<map name="a00060_a44d59e562ac996bdebdb242602452a52_icgraph" id="a00060_a44d59e562ac996bdebdb242602452a52_icgraph">
-<area shape="rect" id="node2" href="a00060.html#ad65970595fbbbcb000b0192eb41d7416" title="Destructor. " alt="" coords="108,5,236,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a6d60057c26042eaf7fa1b3b6fb07b582"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const Foam::word &amp; name </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return the name of the node. </p>
-
-<p>Definition at line <a class="el" href="a00216_source.html#l00029">29</a> of file <a class="el" href="a00216_source.html">quadratureNodeI.H</a>.</p>
-
-<p>References <a class="el" href="a00216_source.html#l00036">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::extended()</a>.</p>
-
-<p>Referenced by <a class="el" href="a00215_source.html#l00158">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::iNew::operator()()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00060_a6d60057c26042eaf7fa1b3b6fb07b582_cgraph.png" border="0" usemap="#a00060_a6d60057c26042eaf7fa1b3b6fb07b582_cgraph" alt=""/></div>
-<map name="a00060_a6d60057c26042eaf7fa1b3b6fb07b582_cgraph" id="a00060_a6d60057c26042eaf7fa1b3b6fb07b582_cgraph">
-<area shape="rect" id="node2" href="a00060.html#a169e93115091615d69838e87c7f96a14" title="extended" alt="" coords="109,5,188,32"/>
-</map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00060_a6d60057c26042eaf7fa1b3b6fb07b582_icgraph.png" border="0" usemap="#a00060_a6d60057c26042eaf7fa1b3b6fb07b582_icgraph" alt=""/></div>
-<map name="a00060_a6d60057c26042eaf7fa1b3b6fb07b582_icgraph" id="a00060_a6d60057c26042eaf7fa1b3b6fb07b582_icgraph">
-<area shape="rect" id="node2" href="a00032.html#a7cf4b421db9b97300525a415cbae6d2c" title="Foam::quadratureNode\l::iNew::operator()" alt="" coords="109,5,272,47"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a169e93115091615d69838e87c7f96a14"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool extended </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00216_source.html#l00036">36</a> of file <a class="el" href="a00216_source.html">quadratureNodeI.H</a>.</p>
-
-<p>References <a class="el" href="a00216_source.html#l00044">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::nSecondaryNodes()</a>.</p>
-
-<p>Referenced by <a class="el" href="a00216_source.html#l00029">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::name()</a>, and <a class="el" href="a00215_source.html#l00158">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::iNew::operator()()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00060_a169e93115091615d69838e87c7f96a14_cgraph.png" border="0" usemap="#a00060_a169e93115091615d69838e87c7f96a14_cgraph" alt=""/></div>
-<map name="a00060_a169e93115091615d69838e87c7f96a14_cgraph" id="a00060_a169e93115091615d69838e87c7f96a14_cgraph">
-<area shape="rect" id="node2" href="a00060.html#a6d3652c06c7d71d67f199d2104465f3a" title="Returns the number of secondary nodes. " alt="" coords="132,5,267,32"/>
-</map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00060_a169e93115091615d69838e87c7f96a14_icgraph.png" border="0" usemap="#a00060_a169e93115091615d69838e87c7f96a14_icgraph" alt=""/></div>
-<map name="a00060_a169e93115091615d69838e87c7f96a14_icgraph" id="a00060_a169e93115091615d69838e87c7f96a14_icgraph">
-<area shape="rect" id="node2" href="a00060.html#a6d60057c26042eaf7fa1b3b6fb07b582" title="Return the name of the node. " alt="" coords="132,5,188,32"/>
-<area shape="rect" id="node3" href="a00032.html#a7cf4b421db9b97300525a415cbae6d2c" title="Foam::quadratureNode\l::iNew::operator()" alt="" coords="236,23,399,65"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a6d3652c06c7d71d67f199d2104465f3a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Foam::label nSecondaryNodes </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the number of secondary nodes. </p>
-
-<p>Definition at line <a class="el" href="a00216_source.html#l00044">44</a> of file <a class="el" href="a00216_source.html">quadratureNodeI.H</a>.</p>
-
-<p>References <a class="el" href="a00216_source.html#l00052">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::primaryWeight()</a>.</p>
-
-<p>Referenced by <a class="el" href="a00216_source.html#l00036">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::extended()</a>, <a class="el" href="a00118_source.html#l00092">extendedFieldMomentInversion::invertBoundaryMoments()</a>, and <a class="el" href="a00215_source.html#l00158">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::iNew::operator()()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00060_a6d3652c06c7d71d67f199d2104465f3a_cgraph.png" border="0" usemap="#a00060_a6d3652c06c7d71d67f199d2104465f3a_cgraph" alt=""/></div>
-<map name="a00060_a6d3652c06c7d71d67f199d2104465f3a_cgraph" id="a00060_a6d3652c06c7d71d67f199d2104465f3a_cgraph">
-<area shape="rect" id="node2" href="a00060.html#aa0a25e3fbd8098cb359e8e92cafba070" title="Const access to the weight of the node. " alt="" coords="188,5,296,32"/>
-</map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00060_a6d3652c06c7d71d67f199d2104465f3a_icgraph.png" border="0" usemap="#a00060_a6d3652c06c7d71d67f199d2104465f3a_icgraph" alt=""/></div>
-<map name="a00060_a6d3652c06c7d71d67f199d2104465f3a_icgraph" id="a00060_a6d3652c06c7d71d67f199d2104465f3a_icgraph">
-<area shape="rect" id="node2" href="a00060.html#a169e93115091615d69838e87c7f96a14" title="extended" alt="" coords="263,5,342,32"/>
-<area shape="rect" id="node3" href="a00032.html#a7cf4b421db9b97300525a415cbae6d2c" title="Foam::quadratureNode\l::iNew::operator()" alt="" coords="465,23,628,65"/>
-<area shape="rect" id="node4" href="a00019.html#a0db254ceb34e9343bebd658750f9312d" title="Invert moments on boundaries. " alt="" coords="188,107,417,149"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="aa0a25e3fbd8098cb359e8e92cafba070"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const weightType &amp; primaryWeight </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Const access to the weight of the node. </p>
-
-<p>Definition at line <a class="el" href="a00216_source.html#l00052">52</a> of file <a class="el" href="a00216_source.html">quadratureNodeI.H</a>.</p>
-
-<p>Referenced by <a class="el" href="a00234_source.html#l00233">univariateMomentAdvection::interpolateNodes()</a>, <a class="el" href="a00118_source.html#l00092">extendedFieldMomentInversion::invertBoundaryMoments()</a>, <a class="el" href="a00080_source.html#l00099">basicFieldMomentInversion::invertBoundaryMoments()</a>, <a class="el" href="a00118_source.html#l00156">extendedFieldMomentInversion::invertLocalMoments()</a>, <a class="el" href="a00080_source.html#l00169">basicFieldMomentInversion::invertLocalMoments()</a>, <a class="el" href="a00216_source.html#l00044">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::nSecondaryNodes()</a>, <a class="el" href="a00215_source.html#l00158">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::iNew::operator()()</a>, and <a class="el" href="a00246_source.html#l00115">univariatePopulationBalance::~univariatePopulationBalance()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00060_aa0a25e3fbd8098cb359e8e92cafba070_icgraph.png" border="0" usemap="#a00060_aa0a25e3fbd8098cb359e8e92cafba070_icgraph" alt=""/></div>
-<map name="a00060_aa0a25e3fbd8098cb359e8e92cafba070_icgraph" id="a00060_aa0a25e3fbd8098cb359e8e92cafba070_icgraph">
-<area shape="rect" id="node2" href="a00068.html#aee1fc78125838d352f1209c771319fe7" title="Protected member functions. " alt="" coords="161,5,392,47"/>
-<area shape="rect" id="node3" href="a00019.html#a0db254ceb34e9343bebd658750f9312d" title="Invert moments on boundaries. " alt="" coords="440,123,669,164"/>
-<area shape="rect" id="node4" href="a00004.html#a0db254ceb34e9343bebd658750f9312d" title="Invert moments on boundaries. " alt="" coords="440,301,669,343"/>
-<area shape="rect" id="node5" href="a00019.html#ae61ce7f3d511855a1d0eaf25c94d648f" title="Invert moments in a single cell. " alt="" coords="175,123,379,164"/>
-<area shape="rect" id="node6" href="a00004.html#ae61ce7f3d511855a1d0eaf25c94d648f" title="Invert moments in a single cell. " alt="" coords="162,341,391,383"/>
-<area shape="rect" id="node7" href="a00060.html#a6d3652c06c7d71d67f199d2104465f3a" title="Returns the number of secondary nodes. " alt="" coords="209,189,344,215"/>
-<area shape="rect" id="node8" href="a00032.html#a7cf4b421db9b97300525a415cbae6d2c" title="Foam::quadratureNode\l::iNew::operator()" alt="" coords="473,215,636,256"/>
-<area shape="rect" id="node9" href="a00074.html#a91b7874c9f1109a0de2aa5366cb493cd" title="Destructor. " alt="" coords="172,407,381,477"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a156872933508c1374a01a7abe6ec039c"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">weightType &amp; primaryWeight </td>
-          <td>(</td>
+          <td class="paramtype">&quot;symmetricFragmentation&quot;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Non-const access to the weight of the node. </p>
-
-<p>Definition at line <a class="el" href="a00216_source.html#l00059">59</a> of file <a class="el" href="a00216_source.html">quadratureNodeI.H</a>.</p>
-
-<p>References <a class="el" href="a00216_source.html#l00067">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::primaryAbscissa()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00060_a156872933508c1374a01a7abe6ec039c_cgraph.png" border="0" usemap="#a00060_a156872933508c1374a01a7abe6ec039c_cgraph" alt=""/></div>
-<map name="a00060_a156872933508c1374a01a7abe6ec039c_cgraph" id="a00060_a156872933508c1374a01a7abe6ec039c_cgraph">
-<area shape="rect" id="node2" href="a00060.html#a436581ffd72d3ac178b6d3381f0928ce" title="Const access to the abscissa of the node. " alt="" coords="161,5,283,32"/>
-</map>
-</div>
-</p>
+<p>Runtime type information. </p>
 
 </div>
 </div>
-<a class="anchor" id="a436581ffd72d3ac178b6d3381f0928ce"></a>
+<a class="anchor" id="af11d63388088dc9b381b450559526d24"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -690,327 +300,60 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const abscissaType &amp; primaryAbscissa </td>
+          <td class="memname">Foam::scalar mD </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">const label &amp;&#160;</td>
+          <td class="paramname"><em>order</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const scalar &amp;&#160;</td>
+          <td class="paramname"><em>abscissa</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Const access to the abscissa of the node. </p>
+<p>Moment of the daughter distribution function. </p>
 
-<p>Definition at line <a class="el" href="a00216_source.html#l00067">67</a> of file <a class="el" href="a00216_source.html">quadratureNodeI.H</a>.</p>
+<p>Implements <a class="el" href="a00012.html#af9150e5e771caf94839759d56d04e458">daughterDistribution</a>.</p>
 
-<p>Referenced by <a class="el" href="a00234_source.html#l00233">univariateMomentAdvection::interpolateNodes()</a>, <a class="el" href="a00118_source.html#l00092">extendedFieldMomentInversion::invertBoundaryMoments()</a>, <a class="el" href="a00080_source.html#l00099">basicFieldMomentInversion::invertBoundaryMoments()</a>, <a class="el" href="a00118_source.html#l00156">extendedFieldMomentInversion::invertLocalMoments()</a>, <a class="el" href="a00080_source.html#l00169">basicFieldMomentInversion::invertLocalMoments()</a>, <a class="el" href="a00215_source.html#l00158">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::iNew::operator()()</a>, <a class="el" href="a00216_source.html#l00059">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::primaryWeight()</a>, and <a class="el" href="a00246_source.html#l00115">univariatePopulationBalance::~univariatePopulationBalance()</a>.</p>
+<p>Definition at line <a class="el" href="a00219_source.html#l00074">74</a> of file <a class="el" href="a00219_source.html">symmetricFragmentation.C</a>.</p>
+
+<p>Referenced by <a class="el" href="a00219_source.html#l00065">symmetricFragmentation::~symmetricFragmentation()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00060_a436581ffd72d3ac178b6d3381f0928ce_icgraph.png" border="0" usemap="#a00060_a436581ffd72d3ac178b6d3381f0928ce_icgraph" alt=""/></div>
-<map name="a00060_a436581ffd72d3ac178b6d3381f0928ce_icgraph" id="a00060_a436581ffd72d3ac178b6d3381f0928ce_icgraph">
-<area shape="rect" id="node2" href="a00068.html#aee1fc78125838d352f1209c771319fe7" title="Protected member functions. " alt="" coords="175,5,405,47"/>
-<area shape="rect" id="node3" href="a00019.html#a0db254ceb34e9343bebd658750f9312d" title="Invert moments on boundaries. " alt="" coords="453,107,683,148"/>
-<area shape="rect" id="node4" href="a00004.html#a0db254ceb34e9343bebd658750f9312d" title="Invert moments on boundaries. " alt="" coords="453,197,683,239"/>
-<area shape="rect" id="node5" href="a00019.html#ae61ce7f3d511855a1d0eaf25c94d648f" title="Invert moments in a single cell. " alt="" coords="188,123,392,164"/>
-<area shape="rect" id="node6" href="a00004.html#ae61ce7f3d511855a1d0eaf25c94d648f" title="Invert moments in a single cell. " alt="" coords="175,240,405,281"/>
-<area shape="rect" id="node7" href="a00032.html#a7cf4b421db9b97300525a415cbae6d2c" title="Foam::quadratureNode\l::iNew::operator()" alt="" coords="209,305,371,347"/>
-<area shape="rect" id="node8" href="a00060.html#a156872933508c1374a01a7abe6ec039c" title="Non&#45;const access to the weight of the node. " alt="" coords="236,371,344,398"/>
-<area shape="rect" id="node9" href="a00074.html#a91b7874c9f1109a0de2aa5366cb493cd" title="Destructor. " alt="" coords="185,423,395,493"/>
+<div class="center"><img src="a00060_af11d63388088dc9b381b450559526d24_icgraph.png" border="0" usemap="#a00060_af11d63388088dc9b381b450559526d24_icgraph" alt=""/></div>
+<map name="a00060_af11d63388088dc9b381b450559526d24_icgraph" id="a00060_af11d63388088dc9b381b450559526d24_icgraph">
+<area shape="rect" id="node2" href="a00060.html#a8d44e31c17c944f6a03e3abea48bbea2" title="Destructor. " alt="" coords="96,5,273,32"/>
 </map>
 </div>
 </p>
-
-</div>
-</div>
-<a class="anchor" id="a501aa6ae793c60ca18e873cb53c67be9"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">abscissaType &amp; primaryAbscissa </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Non-const access to the abscissa of the node. </p>
-
-<p>Definition at line <a class="el" href="a00216_source.html#l00074">74</a> of file <a class="el" href="a00216_source.html">quadratureNodeI.H</a>.</p>
-
-<p>References <a class="el" href="a00216_source.html#l00082">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::secondaryWeights()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00060_a501aa6ae793c60ca18e873cb53c67be9_cgraph.png" border="0" usemap="#a00060_a501aa6ae793c60ca18e873cb53c67be9_cgraph" alt=""/></div>
-<map name="a00060_a501aa6ae793c60ca18e873cb53c67be9_cgraph" id="a00060_a501aa6ae793c60ca18e873cb53c67be9_cgraph">
-<area shape="rect" id="node2" href="a00060.html#a225ac587d44fce3f6a523a89784379af" title="Const access to the secondary weights of the node. " alt="" coords="175,5,309,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a225ac587d44fce3f6a523a89784379af"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const Foam::PtrList&lt; weightType &gt; &amp; secondaryWeights </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Const access to the secondary weights of the node. </p>
-
-<p>Definition at line <a class="el" href="a00216_source.html#l00082">82</a> of file <a class="el" href="a00216_source.html">quadratureNodeI.H</a>.</p>
-
-<p>Referenced by <a class="el" href="a00118_source.html#l00092">extendedFieldMomentInversion::invertBoundaryMoments()</a>, <a class="el" href="a00118_source.html#l00156">extendedFieldMomentInversion::invertLocalMoments()</a>, <a class="el" href="a00215_source.html#l00158">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::iNew::operator()()</a>, <a class="el" href="a00216_source.html#l00074">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::primaryAbscissa()</a>, and <a class="el" href="a00246_source.html#l00115">univariatePopulationBalance::~univariatePopulationBalance()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00060_a225ac587d44fce3f6a523a89784379af_icgraph.png" border="0" usemap="#a00060_a225ac587d44fce3f6a523a89784379af_icgraph" alt=""/></div>
-<map name="a00060_a225ac587d44fce3f6a523a89784379af_icgraph" id="a00060_a225ac587d44fce3f6a523a89784379af_icgraph">
-<area shape="rect" id="node2" href="a00019.html#a0db254ceb34e9343bebd658750f9312d" title="Invert moments on boundaries. " alt="" coords="445,14,675,55"/>
-<area shape="rect" id="node3" href="a00019.html#ae61ce7f3d511855a1d0eaf25c94d648f" title="Invert moments in a single cell. " alt="" coords="191,43,395,84"/>
-<area shape="rect" id="node4" href="a00032.html#a7cf4b421db9b97300525a415cbae6d2c" title="Foam::quadratureNode\l::iNew::operator()" alt="" coords="211,108,374,150"/>
-<area shape="rect" id="node5" href="a00060.html#a501aa6ae793c60ca18e873cb53c67be9" title="Non&#45;const access to the abscissa of the node. " alt="" coords="232,174,353,201"/>
-<area shape="rect" id="node6" href="a00074.html#a91b7874c9f1109a0de2aa5366cb493cd" title="Destructor. " alt="" coords="188,226,397,296"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="aaa0787d957d3b8ce80ecb60ccf5482d8"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Foam::PtrList&lt; weightType &gt; &amp; secondaryWeights </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Non-const access to the secondary weights of the node. </p>
-
-<p>Definition at line <a class="el" href="a00216_source.html#l00098">98</a> of file <a class="el" href="a00216_source.html">quadratureNodeI.H</a>.</p>
-
-<p>References <a class="el" href="a00216_source.html#l00113">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::secondaryAbscissae()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00060_aaa0787d957d3b8ce80ecb60ccf5482d8_cgraph.png" border="0" usemap="#a00060_aaa0787d957d3b8ce80ecb60ccf5482d8_cgraph" alt=""/></div>
-<map name="a00060_aaa0787d957d3b8ce80ecb60ccf5482d8_cgraph" id="a00060_aaa0787d957d3b8ce80ecb60ccf5482d8_cgraph">
-<area shape="rect" id="node2" href="a00060.html#acf323f4680d96d62aca77b85fab8d25c" title="Const access to the list of secondary abscissae of the node. " alt="" coords="188,5,337,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="acf323f4680d96d62aca77b85fab8d25c"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const Foam::PtrList&lt; abscissaType &gt; &amp; secondaryAbscissae </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Const access to the list of secondary abscissae of the node. </p>
-
-<p>Definition at line <a class="el" href="a00216_source.html#l00113">113</a> of file <a class="el" href="a00216_source.html">quadratureNodeI.H</a>.</p>
-
-<p>Referenced by <a class="el" href="a00118_source.html#l00092">extendedFieldMomentInversion::invertBoundaryMoments()</a>, <a class="el" href="a00118_source.html#l00156">extendedFieldMomentInversion::invertLocalMoments()</a>, <a class="el" href="a00215_source.html#l00158">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::iNew::operator()()</a>, <a class="el" href="a00216_source.html#l00098">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::secondaryWeights()</a>, and <a class="el" href="a00246_source.html#l00115">univariatePopulationBalance::~univariatePopulationBalance()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00060_acf323f4680d96d62aca77b85fab8d25c_icgraph.png" border="0" usemap="#a00060_acf323f4680d96d62aca77b85fab8d25c_icgraph" alt=""/></div>
-<map name="a00060_acf323f4680d96d62aca77b85fab8d25c_icgraph" id="a00060_acf323f4680d96d62aca77b85fab8d25c_icgraph">
-<area shape="rect" id="node2" href="a00019.html#a0db254ceb34e9343bebd658750f9312d" title="Invert moments on boundaries. " alt="" coords="460,13,689,54"/>
-<area shape="rect" id="node3" href="a00019.html#ae61ce7f3d511855a1d0eaf25c94d648f" title="Invert moments in a single cell. " alt="" coords="205,42,409,83"/>
-<area shape="rect" id="node4" href="a00032.html#a7cf4b421db9b97300525a415cbae6d2c" title="Foam::quadratureNode\l::iNew::operator()" alt="" coords="226,107,389,149"/>
-<area shape="rect" id="node5" href="a00060.html#aaa0787d957d3b8ce80ecb60ccf5482d8" title="Non&#45;const access to the secondary weights of the node. " alt="" coords="240,173,375,200"/>
-<area shape="rect" id="node6" href="a00074.html#a91b7874c9f1109a0de2aa5366cb493cd" title="Destructor. " alt="" coords="203,225,412,295"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="aaff8cd6e5fbfd9b1c86db4f836f9dc2c"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Foam::PtrList&lt; abscissaType &gt; &amp; secondaryAbscissae </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Non-const access to the list of secondary abscissae of the node. </p>
-
-<p>Definition at line <a class="el" href="a00216_source.html#l00129">129</a> of file <a class="el" href="a00216_source.html">quadratureNodeI.H</a>.</p>
-
-<p>References <a class="el" href="a00216_source.html#l00145">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::sigma()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00060_aaff8cd6e5fbfd9b1c86db4f836f9dc2c_cgraph.png" border="0" usemap="#a00060_aaff8cd6e5fbfd9b1c86db4f836f9dc2c_cgraph" alt=""/></div>
-<map name="a00060_aaff8cd6e5fbfd9b1c86db4f836f9dc2c_cgraph" id="a00060_aaff8cd6e5fbfd9b1c86db4f836f9dc2c_cgraph">
-<area shape="rect" id="node2" href="a00060.html#ae7ed63986006f100bfc1515291f070cb" title="Const access to sigma. " alt="" coords="203,5,261,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="ae7ed63986006f100bfc1515291f070cb"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const sigmaType &amp; sigma </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Const access to sigma. </p>
-
-<p>Definition at line <a class="el" href="a00216_source.html#l00145">145</a> of file <a class="el" href="a00216_source.html">quadratureNodeI.H</a>.</p>
-
-<p>Referenced by <a class="el" href="a00118_source.html#l00092">extendedFieldMomentInversion::invertBoundaryMoments()</a>, <a class="el" href="a00118_source.html#l00156">extendedFieldMomentInversion::invertLocalMoments()</a>, <a class="el" href="a00215_source.html#l00158">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::iNew::operator()()</a>, and <a class="el" href="a00216_source.html#l00129">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::secondaryAbscissae()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00060_ae7ed63986006f100bfc1515291f070cb_icgraph.png" border="0" usemap="#a00060_ae7ed63986006f100bfc1515291f070cb_icgraph" alt=""/></div>
-<map name="a00060_ae7ed63986006f100bfc1515291f070cb_icgraph" id="a00060_ae7ed63986006f100bfc1515291f070cb_icgraph">
-<area shape="rect" id="node2" href="a00019.html#a0db254ceb34e9343bebd658750f9312d" title="Invert moments on boundaries. " alt="" coords="364,14,593,55"/>
-<area shape="rect" id="node3" href="a00019.html#ae61ce7f3d511855a1d0eaf25c94d648f" title="Invert moments in a single cell. " alt="" coords="112,43,316,84"/>
-<area shape="rect" id="node4" href="a00032.html#a7cf4b421db9b97300525a415cbae6d2c" title="Foam::quadratureNode\l::iNew::operator()" alt="" coords="133,108,295,150"/>
-<area shape="rect" id="node5" href="a00060.html#aaff8cd6e5fbfd9b1c86db4f836f9dc2c" title="Non&#45;const access to the list of secondary abscissae of the node. " alt="" coords="139,174,289,201"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a211880a026af3ce558c45adc81be4c3d"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">sigmaType &amp; sigma </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Non-const access to sigma. </p>
-
-<p>Definition at line <a class="el" href="a00216_source.html#l00160">160</a> of file <a class="el" href="a00216_source.html">quadratureNodeI.H</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="a00215_source.html">quadratureNode.H</a></li>
-<li><a class="el" href="a00214_source.html">quadratureNode.C</a></li>
-<li><a class="el" href="a00216_source.html">quadratureNodeI.H</a></li>
+<li><a class="el" href="a00220_source.html">symmetricFragmentation.H</a></li>
+<li><a class="el" href="a00219_source.html">symmetricFragmentation.C</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00251.html">Foam</a></li><li class="navelem"><a class="el" href="a00060.html">quadratureNode</a></li>
+    <li class="navelem"><a class="el" href="a00249.html">Foam</a></li><li class="navelem"><a class="el" href="a00258.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="a00261.html">daughterDistributions</a></li><li class="navelem"><a class="el" href="a00060.html">symmetricFragmentation</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

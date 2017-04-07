@@ -1,7 +1,7 @@
 var a00065 =
 [
-    [ "turbulentDiffusion", "a00065.html#a53a87c43578f29144d9faa8a85d38ae0", null ],
-    [ "~turbulentDiffusion", "a00065.html#a4c6867b84e9f2bae67c952fe4e59c0b9", null ],
-    [ "TypeName", "a00065.html#a7ed8525205e60ab2350365229650b6c9", null ],
-    [ "momentDiff", "a00065.html#a2607d470834fac9d39bfc0d92f89d41a", null ]
+    [ "uniform", "a00065.html#ac561847e384f201ac93f7f11fd889721", null ],
+    [ "~uniform", "a00065.html#acc576355220747307ccd5b343af2e7d4", null ],
+    [ "TypeName", "a00065.html#ac6db16878b991f0c033aa693d16e804d", null ],
+    [ "mD", "a00065.html#af11d63388088dc9b381b450559526d24", null ]
 ];

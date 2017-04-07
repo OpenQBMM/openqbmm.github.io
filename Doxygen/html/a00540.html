@@ -87,7 +87,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a00039.html','');});
+$(document).ready(function(){initNavTree('a00041.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -106,19 +106,26 @@ $(document).ready(function(){initNavTree('a00039.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">mixingModel Member List</div>  </div>
+<div class="title">moment&lt; fieldType, nodeType &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="a00039.html">mixingModel</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="a00041.html">moment&lt; fieldType, nodeType &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="a00039.html#a8255da669c4a6eac1c759c797ffedde2">declareRunTimeSelectionTable</a>(autoPtr, mixingModel, dictionary,(                                       const word &amp;name,                                       const dictionary &amp;dict,                                       const surfaceScalarField &amp;phi                       ),(name, dict, phi))</td><td class="entry"><a class="el" href="a00039.html">mixingModel</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a00039.html#a48b036b0db3b72f28d8a9ad55fccf461">mixingModel</a>(const word &amp;name, const dictionary &amp;dict, const surfaceScalarField &amp;phi)</td><td class="entry"><a class="el" href="a00039.html">mixingModel</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a00039.html#a5d4cbf388886a9664347242d9a72b29c">New</a>(const word &amp;name, const dictionary &amp;dict, const surfaceScalarField &amp;phi)</td><td class="entry"><a class="el" href="a00039.html">mixingModel</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a00039.html#a5828da03a859a3aaa358802cd2daf505">phi_</a></td><td class="entry"><a class="el" href="a00039.html">mixingModel</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a00039.html#aacd6f92a174ec1ebe14983fc21ec498c">solve</a>()=0</td><td class="entry"><a class="el" href="a00039.html">mixingModel</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a00039.html#ada378cf08f9571013cdc7e3c5363f46f">TypeName</a>(&quot;mixingModel&quot;)</td><td class="entry"><a class="el" href="a00039.html">mixingModel</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a00039.html#a0a94ee20d9626b89e9b072c1a6fffd47">~mixingModel</a>()</td><td class="entry"><a class="el" href="a00039.html">mixingModel</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00041.html#a7e393a7523438df0e59843176b4bebb0">clone</a>() const </td><td class="entry"><a class="el" href="a00041.html">moment&lt; fieldType, nodeType &gt;</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a00041.html#ab070a3b6d0957585273c5331d6521334">cmptOrders</a>() const </td><td class="entry"><a class="el" href="a00041.html">moment&lt; fieldType, nodeType &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00041.html#af064e129930173e0b74f8b529238d310">keyword</a>() const </td><td class="entry"><a class="el" href="a00041.html">moment&lt; fieldType, nodeType &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a00041.html#ac027d0efa8c54ed71e47cf31f5553ecf">listToLabel</a>(const labelList &amp;lst)</td><td class="entry"><a class="el" href="a00041.html">moment&lt; fieldType, nodeType &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00041.html#aef26621d83f587d4dc6f21d1057ba82d">listToWord</a>(const labelList &amp;lst)</td><td class="entry"><a class="el" href="a00041.html">moment&lt; fieldType, nodeType &gt;</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a00041.html#a0dd4c0fc68639575e5a3e66da70630f6">moment</a>(const word &amp;distributionName, const labelList &amp;cmptOrders, const fvMesh &amp;mesh, const autoPtr&lt; PtrList&lt; nodeType &gt;&gt; &amp;nodes)</td><td class="entry"><a class="el" href="a00041.html">moment&lt; fieldType, nodeType &gt;</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00041.html#a4fb86284ade7cdb74bea8378ecd0ab36">moment</a>(const word &amp;distributionName, const labelList &amp;cmptOrders, const autoPtr&lt; PtrList&lt; nodeType &gt;&gt; &amp;nodes, const fieldType &amp;initMoment)</td><td class="entry"><a class="el" href="a00041.html">moment&lt; fieldType, nodeType &gt;</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a00041.html#af1a22abea6056cddf89aae3bfbaa9f11">momentName</a>(const word &amp;order, const word &amp;distributionName)</td><td class="entry"><a class="el" href="a00041.html">moment&lt; fieldType, nodeType &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00041.html#a6d60057c26042eaf7fa1b3b6fb07b582">name</a>() const </td><td class="entry"><a class="el" href="a00041.html">moment&lt; fieldType, nodeType &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a00041.html#ae4410b8afdbd8d2d0aef13f1944201a3">nDimensions</a>() const </td><td class="entry"><a class="el" href="a00041.html">moment&lt; fieldType, nodeType &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00041.html#aca3a2c038db9ad76dce684b08b8c9b6f">order</a>() const </td><td class="entry"><a class="el" href="a00041.html">moment&lt; fieldType, nodeType &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a00041.html#ac5c54df7ed3b930268c8d7752c101725">update</a>()</td><td class="entry"><a class="el" href="a00041.html">moment&lt; fieldType, nodeType &gt;</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00041.html#a7490ff7789ea684543eefa5a00bcd0b3">updateLocalMoment</a>(label elemi)</td><td class="entry"><a class="el" href="a00041.html">moment&lt; fieldType, nodeType &gt;</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a00041.html#a1ee407ef1ef100cb57e2b2308495e6d4">~moment</a>()</td><td class="entry"><a class="el" href="a00041.html">moment&lt; fieldType, nodeType &gt;</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

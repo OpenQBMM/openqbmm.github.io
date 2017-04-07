@@ -4,5 +4,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node1 [label="mixingModels",height=0.2,width=0.4,color="black",URL="$a00040.html",tooltip="Solve a turbulent mixing model. "];
+  Node1 [label="moment\< fieldType,\l nodeType \>::iNew",height=0.2,width=0.4,color="black",URL="$a00032.html",tooltip="Return a pointer to a new moment created on freestore. "];
 }

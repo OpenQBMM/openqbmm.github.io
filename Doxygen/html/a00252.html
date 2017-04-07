@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Foam::mixingModels Namespace Reference</title>
+<title>Foam::mixingSubModels::diffusionModels Namespace Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,32 +107,46 @@ $(document).ready(function(){initNavTree('a00252.html','');});
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Foam::mixingModels Namespace Reference</div>  </div>
+<div class="title">Foam::mixingSubModels::diffusionModels Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00051.html">noMixing</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disables the solution of the mixing model.  <a href="a00051.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00039.html">molecularDiffusion</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Molecular diffusion model.  <a href="a00039.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00047.html">noDiffusion</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">No diffusion model.  <a href="a00047.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00062.html">turbulentDiffusion</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turbulent diffusion model.  <a href="a00062.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:acae4135f0a969e5c9ac08c46a86accc1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00252.html#acae4135f0a969e5c9ac08c46a86accc1">defineTypeNameAndDebug</a> (<a class="el" href="a00051.html">noMixing</a>, 0)</td></tr>
-<tr class="separator:acae4135f0a969e5c9ac08c46a86accc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade9514ba79b25a6a811619ee6bf9114f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00252.html#ade9514ba79b25a6a811619ee6bf9114f">addToRunTimeSelectionTable</a> (<a class="el" href="a00039.html">mixingModel</a>, <a class="el" href="a00051.html">noMixing</a>, dictionary)</td></tr>
-<tr class="separator:ade9514ba79b25a6a811619ee6bf9114f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae282d355e8bb81dcd60d4c2778f12ba5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00252.html#ae282d355e8bb81dcd60d4c2778f12ba5">defineTypeNameAndDebug</a> (<a class="el" href="a00039.html">molecularDiffusion</a>, 0)</td></tr>
+<tr class="separator:ae282d355e8bb81dcd60d4c2778f12ba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a024bbc4b37f0b86ec4a0715a76d74ebc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00252.html#a024bbc4b37f0b86ec4a0715a76d74ebc">addToRunTimeSelectionTable</a> (<a class="el" href="a00014.html">diffusionModel</a>, <a class="el" href="a00039.html">molecularDiffusion</a>, dictionary)</td></tr>
+<tr class="separator:a024bbc4b37f0b86ec4a0715a76d74ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a432faaba2585abcf703c9b1c67c05331"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00252.html#a432faaba2585abcf703c9b1c67c05331">defineTypeNameAndDebug</a> (<a class="el" href="a00047.html">noDiffusion</a>, 0)</td></tr>
+<tr class="separator:a432faaba2585abcf703c9b1c67c05331"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a063ffcd74bcfd9ebe3de26bb9433b132"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00252.html#a063ffcd74bcfd9ebe3de26bb9433b132">addToRunTimeSelectionTable</a> (<a class="el" href="a00014.html">diffusionModel</a>, <a class="el" href="a00047.html">noDiffusion</a>, dictionary)</td></tr>
+<tr class="separator:a063ffcd74bcfd9ebe3de26bb9433b132"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63731383ea80126b6cf10aaf15679fc9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00252.html#a63731383ea80126b6cf10aaf15679fc9">defineTypeNameAndDebug</a> (<a class="el" href="a00062.html">turbulentDiffusion</a>, 0)</td></tr>
+<tr class="separator:a63731383ea80126b6cf10aaf15679fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97d2209e8102de7cf85a3dc3192735b9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00252.html#a97d2209e8102de7cf85a3dc3192735b9">addToRunTimeSelectionTable</a> (<a class="el" href="a00014.html">diffusionModel</a>, <a class="el" href="a00062.html">turbulentDiffusion</a>, dictionary)</td></tr>
+<tr class="separator:a97d2209e8102de7cf85a3dc3192735b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="acae4135f0a969e5c9ac08c46a86accc1"></a>
+<a class="anchor" id="ae282d355e8bb81dcd60d4c2778f12ba5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Foam::mixingModels::defineTypeNameAndDebug </td>
+          <td class="memname">Foam::mixingSubModels::diffusionModels::defineTypeNameAndDebug </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="a00051.html">noMixing</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="a00039.html">molecularDiffusion</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -151,20 +165,136 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ade9514ba79b25a6a811619ee6bf9114f"></a>
+<a class="anchor" id="a024bbc4b37f0b86ec4a0715a76d74ebc"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Foam::mixingModels::addToRunTimeSelectionTable </td>
+          <td class="memname">Foam::mixingSubModels::diffusionModels::addToRunTimeSelectionTable </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="a00039.html">mixingModel</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="a00014.html">diffusionModel</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00051.html">noMixing</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="a00039.html">molecularDiffusion</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dictionary&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a432faaba2585abcf703c9b1c67c05331"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Foam::mixingSubModels::diffusionModels::defineTypeNameAndDebug </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00047.html">noDiffusion</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">0&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a063ffcd74bcfd9ebe3de26bb9433b132"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Foam::mixingSubModels::diffusionModels::addToRunTimeSelectionTable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00014.html">diffusionModel</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="a00047.html">noDiffusion</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dictionary&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a63731383ea80126b6cf10aaf15679fc9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Foam::mixingSubModels::diffusionModels::defineTypeNameAndDebug </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00062.html">turbulentDiffusion</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">0&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a97d2209e8102de7cf85a3dc3192735b9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Foam::mixingSubModels::diffusionModels::addToRunTimeSelectionTable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00014.html">diffusionModel</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="a00062.html">turbulentDiffusion</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -188,7 +318,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00251.html">Foam</a></li><li class="navelem"><a class="el" href="a00252.html">mixingModels</a></li>
+    <li class="navelem"><a class="el" href="a00249.html">Foam</a></li><li class="navelem"><a class="el" href="a00251.html">mixingSubModels</a></li><li class="navelem"><a class="el" href="a00252.html">diffusionModels</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

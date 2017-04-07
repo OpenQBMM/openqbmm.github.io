@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>nucleationModel Class Reference</title>
+<title>PDFTransportModel Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,75 +107,67 @@ $(document).ready(function(){initNavTree('a00054.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="a00617.html">List of all members</a>  </div>
+<a href="a00553.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">nucleationModel Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">PDFTransportModel Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Abstract class for nucleation model.  
+<p>Abstract class for the run-time selection of the PDF transport model.  
  <a href="a00054.html#details">More...</a></p>
 <div class="dynheader">
-Inheritance diagram for nucleationModel:</div>
+Inheritance diagram for PDFTransportModel:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00618.png" border="0" usemap="#nucleationModel_inherit__map" alt="Inheritance graph"/></div>
-<map name="nucleationModel_inherit__map" id="nucleationModel_inherit__map">
-<area shape="rect" id="node2" href="a00037.html" title="Miller nucleation model for soot formation. " alt="" coords="5,80,60,107"/>
-<area shape="rect" id="node3" href="a00052.html" title="No nucleation model. " alt="" coords="84,80,184,107"/>
+<div class="center"><img src="a00554.png" border="0" usemap="#PDFTransportModel_inherit__map" alt="Inheritance graph"/></div>
+<map name="PDFTransportModel_inherit__map" id="PDFTransportModel_inherit__map">
+<area shape="rect" id="node2" href="a00070.html" title="univariatePDFTransportModel" alt="" coords="5,80,208,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a90992f6d2fd6ea0a8188a87b2e019ad7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00054.html#a90992f6d2fd6ea0a8188a87b2e019ad7">TypeName</a> (&quot;nucleationModel&quot;)</td></tr>
-<tr class="memdesc:a90992f6d2fd6ea0a8188a87b2e019ad7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#a90992f6d2fd6ea0a8188a87b2e019ad7">More...</a><br /></td></tr>
-<tr class="separator:a90992f6d2fd6ea0a8188a87b2e019ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ed401378d0f4f9f0ffb1e6b8a6b6186"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00054.html#a1ed401378d0f4f9f0ffb1e6b8a6b6186">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00054.html">nucleationModel</a>, dictionary,(                                       const dictionary &amp;dict,                                       const fvMesh &amp;mesh                       ),(dict, mesh))</td></tr>
-<tr class="separator:a1ed401378d0f4f9f0ffb1e6b8a6b6186"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ac17d12d16b428f700ae92fe9416109"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00054.html#a0ac17d12d16b428f700ae92fe9416109">nucleationModel</a> (const dictionary &amp;dict, const fvMesh &amp;mesh)</td></tr>
-<tr class="memdesc:a0ac17d12d16b428f700ae92fe9416109"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#a0ac17d12d16b428f700ae92fe9416109">More...</a><br /></td></tr>
-<tr class="separator:a0ac17d12d16b428f700ae92fe9416109"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d14062dfa0b363acfe6bdefafd6c418"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00054.html#a5d14062dfa0b363acfe6bdefafd6c418">~nucleationModel</a> ()</td></tr>
-<tr class="memdesc:a5d14062dfa0b363acfe6bdefafd6c418"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a5d14062dfa0b363acfe6bdefafd6c418">More...</a><br /></td></tr>
-<tr class="separator:a5d14062dfa0b363acfe6bdefafd6c418"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ff5f4ad27805c7b4433e716fbc27c02"><td class="memItemLeft" align="right" valign="top">virtual scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00054.html#a1ff5f4ad27805c7b4433e716fbc27c02">nucleationSource</a> (const label &amp;momentOrder, const label &amp;celli) const  =0</td></tr>
-<tr class="memdesc:a1ff5f4ad27805c7b4433e716fbc27c02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nucleation rate.  <a href="#a1ff5f4ad27805c7b4433e716fbc27c02">More...</a><br /></td></tr>
-<tr class="separator:a1ff5f4ad27805c7b4433e716fbc27c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ac2e910cf2638a653967c10d92c364d2a"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00054.html">nucleationModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00054.html#ac2e910cf2638a653967c10d92c364d2a">New</a> (const dictionary &amp;dict, const fvMesh &amp;mesh)</td></tr>
-<tr class="separator:ac2e910cf2638a653967c10d92c364d2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a484ccf0035787e3f0694401128817a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00054.html#a7a484ccf0035787e3f0694401128817a">PDFTransportModel</a> (const word &amp;name, const dictionary &amp;dict, const fvMesh &amp;mesh)</td></tr>
+<tr class="memdesc:a7a484ccf0035787e3f0694401128817a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#a7a484ccf0035787e3f0694401128817a">More...</a><br /></td></tr>
+<tr class="separator:a7a484ccf0035787e3f0694401128817a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa73779ffb5b8359a6463d7c93864fee6"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00054.html#aa73779ffb5b8359a6463d7c93864fee6">~PDFTransportModel</a> ()</td></tr>
+<tr class="memdesc:aa73779ffb5b8359a6463d7c93864fee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#aa73779ffb5b8359a6463d7c93864fee6">More...</a><br /></td></tr>
+<tr class="separator:aa73779ffb5b8359a6463d7c93864fee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacd6f92a174ec1ebe14983fc21ec498c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00054.html#aacd6f92a174ec1ebe14983fc21ec498c">solve</a> ()=0</td></tr>
+<tr class="memdesc:aacd6f92a174ec1ebe14983fc21ec498c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve PDF transport equation.  <a href="#aacd6f92a174ec1ebe14983fc21ec498c">More...</a><br /></td></tr>
+<tr class="separator:aacd6f92a174ec1ebe14983fc21ec498c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a892ddcb9cba6f50b0396cdb7bf1b4f6a"><td class="memItemLeft" align="right" valign="top">const dictionary &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00054.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a">dict_</a></td></tr>
-<tr class="separator:a892ddcb9cba6f50b0396cdb7bf1b4f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23edeeeecebcef11921a33dd5d990570"><td class="memItemLeft" align="right" valign="top">const fvMesh &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00054.html#a23edeeeecebcef11921a33dd5d990570">mesh_</a></td></tr>
-<tr class="memdesc:a23edeeeecebcef11921a33dd5d990570"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to mesh.  <a href="#a23edeeeecebcef11921a33dd5d990570">More...</a><br /></td></tr>
+<tr class="memdesc:a23edeeeecebcef11921a33dd5d990570"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant reference to the mesh.  <a href="#a23edeeeecebcef11921a33dd5d990570">More...</a><br /></td></tr>
 <tr class="separator:a23edeeeecebcef11921a33dd5d990570"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Abstract class for nucleation model. </p>
+<div class="textblock"><p>Abstract class for the run-time selection of the PDF transport model. </p>
 <p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
 <li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/nucleationModels/nucleationModel/nucleationModel.H">nucleationModel.H</a> </li>
+<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/PDFTransportModels/PDFTransportModel/PDFTransportModel.H">PDFTransportModel.H</a> </li>
 <li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/nucleationModels/nucleationModel/nucleationModel.C">nucleationModel.C</a> </li>
+<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/PDFTransportModels/PDFTransportModel/PDFTransportModel.C">PDFTransportModel.C</a> </li>
 </ul>
 </dd></dl>
 
-<p>Definition at line <a class="el" href="a00197_source.html#l00054">54</a> of file <a class="el" href="a00197_source.html">nucleationModel.H</a>.</p>
+<p>Definition at line <a class="el" href="a00202_source.html#l00051">51</a> of file <a class="el" href="a00202_source.html">PDFTransportModel.H</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a0ac17d12d16b428f700ae92fe9416109"></a>
+<a class="anchor" id="a7a484ccf0035787e3f0694401128817a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00054.html">nucleationModel</a> </td>
+          <td class="memname"><a class="el" href="a00054.html">PDFTransportModel</a> </td>
           <td>(</td>
+          <td class="paramtype">const word &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const dictionary &amp;&#160;</td>
           <td class="paramname"><em>dict</em>, </td>
         </tr>
@@ -195,11 +187,11 @@ Protected Attributes</h2></td></tr>
 
 <p>Construct from components. </p>
 
-<p>Definition at line <a class="el" href="a00196_source.html#l00044">44</a> of file <a class="el" href="a00196_source.html">nucleationModel.C</a>.</p>
+<p>Definition at line <a class="el" href="a00201_source.html#l00031">31</a> of file <a class="el" href="a00201_source.html">PDFTransportModel.C</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a5d14062dfa0b363acfe6bdefafd6c418"></a>
+<a class="anchor" id="aa73779ffb5b8359a6463d7c93864fee6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -207,7 +199,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">~<a class="el" href="a00054.html">nucleationModel</a> </td>
+          <td class="memname">~<a class="el" href="a00054.html">PDFTransportModel</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -222,132 +214,23 @@ Protected Attributes</h2></td></tr>
 
 <p>Destructor. </p>
 
-<p>Definition at line <a class="el" href="a00196_source.html#l00056">56</a> of file <a class="el" href="a00196_source.html">nucleationModel.C</a>.</p>
+<p>Definition at line <a class="el" href="a00201_source.html#l00044">44</a> of file <a class="el" href="a00201_source.html">PDFTransportModel.C</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a90992f6d2fd6ea0a8188a87b2e019ad7"></a>
+<a class="anchor" id="aacd6f92a174ec1ebe14983fc21ec498c"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">TypeName </td>
+          <td class="memname">virtual void solve </td>
           <td>(</td>
-          <td class="paramtype">&quot;nucleationModel&quot;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Runtime type information. </p>
-
-</div>
-</div>
-<a class="anchor" id="a1ed401378d0f4f9f0ffb1e6b8a6b6186"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">declareRunTimeSelectionTable </td>
-          <td>(</td>
-          <td class="paramtype">autoPtr&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="a00054.html">nucleationModel</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">dictionary&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">(                                                                           const dictionary &amp;dict,                                                                           const fvMesh &amp;mesh                                           )&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">(dict, mesh)&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ac2e910cf2638a653967c10d92c364d2a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Foam::autoPtr&lt; <a class="el" href="a00054.html">Foam::populationBalanceSubModels::nucleationModel</a> &gt; New </td>
-          <td>(</td>
-          <td class="paramtype">const dictionary &amp;&#160;</td>
-          <td class="paramname"><em>dict</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const fvMesh &amp;&#160;</td>
-          <td class="paramname"><em>mesh</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00183_source.html#l00032">32</a> of file <a class="el" href="a00183_source.html">newNucleationModel.C</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a1ff5f4ad27805c7b4433e716fbc27c02"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual scalar nucleationSource </td>
-          <td>(</td>
-          <td class="paramtype">const label &amp;&#160;</td>
-          <td class="paramname"><em>momentOrder</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const label &amp;&#160;</td>
-          <td class="paramname"><em>celli</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -357,35 +240,13 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Nucleation rate. </p>
+<p>Solve PDF transport equation. </p>
 
-<p>Implemented in <a class="el" href="a00037.html#a1a1beb8cf7e0221ebba90ce5aa341f59">Miller</a>, and <a class="el" href="a00052.html#a1a1beb8cf7e0221ebba90ce5aa341f59">noNucleation</a>.</p>
+<p>Implemented in <a class="el" href="a00072.html#af7d39f0eac0af0ed5785935ac72a1e7d">univariatePopulationBalance</a>, <a class="el" href="a00070.html#af7d39f0eac0af0ed5785935ac72a1e7d">univariatePDFTransportModel</a>, and <a class="el" href="a00064.html#af7d39f0eac0af0ed5785935ac72a1e7d">turbulentMixing</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a892ddcb9cba6f50b0396cdb7bf1b4f6a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const dictionary&amp; dict_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00197_source.html#l00069">69</a> of file <a class="el" href="a00197_source.html">nucleationModel.H</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a23edeeeecebcef11921a33dd5d990570"></a>
 <div class="memitem">
 <div class="memproto">
@@ -404,23 +265,22 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reference to mesh. </p>
+<p>Constant reference to the mesh. </p>
 
-<p>Definition at line <a class="el" href="a00197_source.html#l00072">72</a> of file <a class="el" href="a00197_source.html">nucleationModel.H</a>.</p>
+<p>Definition at line <a class="el" href="a00202_source.html#l00072">72</a> of file <a class="el" href="a00202_source.html">PDFTransportModel.H</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="a00197_source.html">nucleationModel.H</a></li>
-<li><a class="el" href="a00183_source.html">newNucleationModel.C</a></li>
-<li><a class="el" href="a00196_source.html">nucleationModel.C</a></li>
+<li><a class="el" href="a00202_source.html">PDFTransportModel.H</a></li>
+<li><a class="el" href="a00201_source.html">PDFTransportModel.C</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00251.html">Foam</a></li><li class="navelem"><a class="el" href="a00260.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="a00054.html">nucleationModel</a></li>
+    <li class="navelem"><a class="el" href="a00249.html">Foam</a></li><li class="navelem"><a class="el" href="a00054.html">PDFTransportModel</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

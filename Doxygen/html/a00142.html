@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>IEM.H File Reference</title>
+<title>lognormalEQMOM.H File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,23 +107,23 @@ $(document).ready(function(){initNavTree('a00142.html','');});
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
-<div class="title">IEM.H File Reference</div>  </div>
+<div class="title">lognormalEQMOM.H File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div class="dynheader">
-Include dependency graph for IEM.H:</div>
+Include dependency graph for lognormalEQMOM.H:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00365.png" border="0" usemap="#IEM_8H" alt=""/></div>
-<map name="IEM_8H" id="IEM_8H">
-<area shape="rect" id="node2" href="a00151.html" title="mixingKernel.H" alt="" coords="5,80,117,107"/>
+<div class="center"><img src="a00366.png" border="0" usemap="#lognormalEQMOM_8H" alt=""/></div>
+<map name="lognormalEQMOM_8H" id="lognormalEQMOM_8H">
+<area shape="rect" id="node2" href="a00119.html" title="extendedMomentInversion.H" alt="" coords="5,80,199,107"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00366.png" border="0" usemap="#IEM_8Hdep" alt=""/></div>
-<map name="IEM_8Hdep" id="IEM_8Hdep">
-<area shape="rect" id="node2" href="a00141.html" title="IEM.C" alt="" coords="5,80,63,107"/>
+<div class="center"><img src="a00367.png" border="0" usemap="#lognormalEQMOM_8Hdep" alt=""/></div>
+<map name="lognormalEQMOM_8Hdep" id="lognormalEQMOM_8Hdep">
+<area shape="rect" id="node2" href="a00141.html" title="lognormalEQMOM.C" alt="" coords="5,80,151,107"/>
 </map>
 </div>
 </div>
@@ -131,28 +131,25 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00031.html">IEM</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html">lognormalEQMOM</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extended quadrature method of moments with log-normal kernel density functions.  <a href="a00033.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:a00251"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html">Foam</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00253"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00253.html">Foam::mixingSubModels</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00255"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00255.html">Foam::mixingSubModels::mixingKernels</a></td></tr>
+<tr class="memitem:a00249"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00249.html">Foam</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/mixingModels/mixingSubModels/mixingKernels/IEM/IEM.H">IEM.H</a> </p>
+<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/momentInversion/univariate/extended/lognormal/lognormalEQMOM.H">lognormalEQMOM.H</a> </p>
 
-<p>Definition in file <a class="el" href="a00142_source.html">IEM.H</a>.</p>
+<p>Definition in file <a class="el" href="a00142_source.html">lognormalEQMOM.H</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_e33c4094dda42b63bf42ed0cf06ff677.html">mixingModels</a></li><li class="navelem"><a class="el" href="dir_2e6d34bda531f0fb841bc3aac1e0e585.html">mixingSubModels</a></li><li class="navelem"><a class="el" href="dir_59c2c0be88902734948c694706404395.html">mixingKernels</a></li><li class="navelem"><a class="el" href="dir_044ce33e76c3206ee6cfd9fffb2276e9.html">IEM</a></li><li class="navelem"><a class="el" href="a00142.html">IEM.H</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0b9bb76b72c90181149adc55e92e6ea3.html">momentInversion</a></li><li class="navelem"><a class="el" href="dir_224f5f7c837ec5f1a50cf8e5b44c5959.html">univariate</a></li><li class="navelem"><a class="el" href="dir_eab674178c35773c79abc32ac1e64a39.html">extended</a></li><li class="navelem"><a class="el" href="dir_88c85b95c14969766ecd90e59c5ff4a1.html">lognormal</a></li><li class="navelem"><a class="el" href="a00142.html">lognormalEQMOM.H</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

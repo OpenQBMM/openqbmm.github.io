@@ -1,7 +1,7 @@
 var a00063 =
 [
-    [ "turbulentBrownian", "a00063.html#a69313e09fe86ca111b470eff033b395d", null ],
-    [ "~turbulentBrownian", "a00063.html#a870db0e339e84ac084658eea637e60a0", null ],
-    [ "TypeName", "a00063.html#ad85b05c960956edb395072e9c0879d23", null ],
-    [ "Ka", "a00063.html#aff545f8602677e85abbb1b6c6d0fb20f", null ]
+    [ "turbulentDiffusion", "a00063.html#a53a87c43578f29144d9faa8a85d38ae0", null ],
+    [ "~turbulentDiffusion", "a00063.html#a4c6867b84e9f2bae67c952fe4e59c0b9", null ],
+    [ "TypeName", "a00063.html#a7ed8525205e60ab2350365229650b6c9", null ],
+    [ "momentDiff", "a00063.html#a2607d470834fac9d39bfc0d92f89d41a", null ]
 ];

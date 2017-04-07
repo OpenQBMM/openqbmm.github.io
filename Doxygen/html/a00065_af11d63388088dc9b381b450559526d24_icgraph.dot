@@ -6,5 +6,5 @@ digraph "mD"
   rankdir="LR";
   Node1 [label="mD",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="~symmetricFragmentation",height=0.2,width=0.4,color="red",URL="$a00065.html#a8d44e31c17c944f6a03e3abea48bbea2",tooltip="Destructor. "];
+  Node2 [label="~uniform",height=0.2,width=0.4,color="red",URL="$a00065.html#acc576355220747307ccd5b343af2e7d4",tooltip="Destructor. "];
 }

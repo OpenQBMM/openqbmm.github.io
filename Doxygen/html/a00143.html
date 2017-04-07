@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>lognormalEQMOM.C File Reference</title>
+<title>LuoSvendsen.C File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,15 +107,15 @@ $(document).ready(function(){initNavTree('a00143.html','');});
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">lognormalEQMOM.C File Reference</div>  </div>
+<div class="title">LuoSvendsen.C File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div class="dynheader">
-Include dependency graph for lognormalEQMOM.C:</div>
+Include dependency graph for LuoSvendsen.C:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00367.png" border="0" usemap="#lognormalEQMOM_8C" alt=""/></div>
-<map name="lognormalEQMOM_8C" id="lognormalEQMOM_8C">
-<area shape="rect" id="node2" href="a00144.html" title="lognormalEQMOM.H" alt="" coords="5,80,149,107"/>
+<div class="center"><img src="a00368.png" border="0" usemap="#LuoSvendsen_8C" alt=""/></div>
+<map name="LuoSvendsen_8C" id="LuoSvendsen_8C">
+<area shape="rect" id="node2" href="a00144.html" title="LuoSvendsen.H" alt="" coords="5,80,123,107"/>
 </map>
 </div>
 </div>
@@ -123,26 +123,30 @@ Include dependency graph for lognormalEQMOM.C:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:a00251"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html">Foam</a></td></tr>
+<tr class="memitem:a00249"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00249.html">Foam</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00258"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00258.html">Foam::populationBalanceSubModels</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00260"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00260.html">Foam::populationBalanceSubModels::breakupKernels</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:abc4d0b6de74a1649ffc1fb65e338c2d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html#abc4d0b6de74a1649ffc1fb65e338c2d7">defineTypeNameAndDebug</a> (lognormalEQMOM, 0)</td></tr>
-<tr class="separator:abc4d0b6de74a1649ffc1fb65e338c2d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5fccf27937c96a424dd25d4f637bcd8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html#ad5fccf27937c96a424dd25d4f637bcd8">addToRunTimeSelectionTable</a> (extendedMomentInversion, lognormalEQMOM, dictionary)</td></tr>
-<tr class="separator:ad5fccf27937c96a424dd25d4f637bcd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56da0846e22fec8b96568c9df45a9ff0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00260.html#a56da0846e22fec8b96568c9df45a9ff0">defineTypeNameAndDebug</a> (LuoSvendsen, 0)</td></tr>
+<tr class="separator:a56da0846e22fec8b96568c9df45a9ff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0446f84d3f857ce06af2d4d1e5c4303"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00260.html#ab0446f84d3f857ce06af2d4d1e5c4303">addToRunTimeSelectionTable</a> (breakupKernel, LuoSvendsen, dictionary)</td></tr>
+<tr class="separator:ab0446f84d3f857ce06af2d4d1e5c4303"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/momentInversion/univariate/extended/lognormal/lognormalEQMOM.C">lognormalEQMOM.C</a> </p>
+<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/breakupKernels/LuoSvendsen/LuoSvendsen.C">LuoSvendsen.C</a> </p>
 
-<p>Definition in file <a class="el" href="a00143_source.html">lognormalEQMOM.C</a>.</p>
+<p>Definition in file <a class="el" href="a00143_source.html">LuoSvendsen.C</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0b9bb76b72c90181149adc55e92e6ea3.html">momentInversion</a></li><li class="navelem"><a class="el" href="dir_224f5f7c837ec5f1a50cf8e5b44c5959.html">univariate</a></li><li class="navelem"><a class="el" href="dir_eab674178c35773c79abc32ac1e64a39.html">extended</a></li><li class="navelem"><a class="el" href="dir_88c85b95c14969766ecd90e59c5ff4a1.html">lognormal</a></li><li class="navelem"><a class="el" href="a00143.html">lognormalEQMOM.C</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0ecbe6cb5f50223527ce4e1b499bd333.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="dir_58c61e057ed2119d9755c9fdbb448648.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="dir_8db1431bcb360c6bb23f8119e5d3e19f.html">breakupKernels</a></li><li class="navelem"><a class="el" href="dir_fbc137e3cc243de2da002e83dec1881d.html">LuoSvendsen</a></li><li class="navelem"><a class="el" href="a00143.html">LuoSvendsen.C</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Miller.C File Reference</title>
+<title>mixingKernel.C File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,15 +107,15 @@ $(document).ready(function(){initNavTree('a00148.html','');});
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Miller.C File Reference</div>  </div>
+<div class="title">mixingKernel.C File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div class="dynheader">
-Include dependency graph for Miller.C:</div>
+Include dependency graph for mixingKernel.C:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00373.png" border="0" usemap="#Miller_8C" alt=""/></div>
-<map name="Miller_8C" id="Miller_8C">
-<area shape="rect" id="node2" href="a00149.html" title="Miller.H" alt="" coords="5,80,72,107"/>
+<div class="center"><img src="a00374.png" border="0" usemap="#mixingKernel_8C" alt=""/></div>
+<map name="mixingKernel_8C" id="mixingKernel_8C">
+<area shape="rect" id="node2" href="a00149.html" title="mixingKernel.H" alt="" coords="6,80,118,107"/>
 </map>
 </div>
 </div>
@@ -123,30 +123,28 @@ Include dependency graph for Miller.C:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:a00251"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html">Foam</a></td></tr>
+<tr class="memitem:a00249"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00249.html">Foam</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00260"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00260.html">Foam::populationBalanceSubModels</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00266"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00266.html">Foam::populationBalanceSubModels::nucleationModels</a></td></tr>
+<tr class="memitem:a00251"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html">Foam::mixingSubModels</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a21c76019aa3870a37ecf5edfc30fcbdb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00266.html#a21c76019aa3870a37ecf5edfc30fcbdb">defineTypeNameAndDebug</a> (Miller, 0)</td></tr>
-<tr class="separator:a21c76019aa3870a37ecf5edfc30fcbdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2d014bf03b1a0cdaf5ed2889c0bbb2d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00266.html#ad2d014bf03b1a0cdaf5ed2889c0bbb2d">addToRunTimeSelectionTable</a> (nucleationModel, Miller, dictionary)</td></tr>
-<tr class="separator:ad2d014bf03b1a0cdaf5ed2889c0bbb2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf81d58a6669ac3c3505cc7bc83fc3ec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html#abf81d58a6669ac3c3505cc7bc83fc3ec">defineTypeNameAndDebug</a> (mixingKernel, 0)</td></tr>
+<tr class="separator:abf81d58a6669ac3c3505cc7bc83fc3ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefa5f150c6459c5dc6b9dd059c74f912"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html#aefa5f150c6459c5dc6b9dd059c74f912">defineRunTimeSelectionTable</a> (mixingKernel, dictionary)</td></tr>
+<tr class="separator:aefa5f150c6459c5dc6b9dd059c74f912"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/nucleationModels/Miller/Miller.C">Miller.C</a> </p>
+<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/mixingModels/mixingSubModels/mixingKernels/mixingKernel/mixingKernel.C">mixingKernel.C</a> </p>
 
-<p>Definition in file <a class="el" href="a00148_source.html">Miller.C</a>.</p>
+<p>Definition in file <a class="el" href="a00148_source.html">mixingKernel.C</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0ecbe6cb5f50223527ce4e1b499bd333.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="dir_58c61e057ed2119d9755c9fdbb448648.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="dir_deb70e2408b5d543a7b3ca509fad8f1b.html">nucleationModels</a></li><li class="navelem"><a class="el" href="dir_f5e6c39f7e50ea6e3bf0653f77e5e8b2.html">Miller</a></li><li class="navelem"><a class="el" href="a00148.html">Miller.C</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_e33c4094dda42b63bf42ed0cf06ff677.html">mixingModels</a></li><li class="navelem"><a class="el" href="dir_2e6d34bda531f0fb841bc3aac1e0e585.html">mixingSubModels</a></li><li class="navelem"><a class="el" href="dir_59c2c0be88902734948c694706404395.html">mixingKernels</a></li><li class="navelem"><a class="el" href="dir_5b2311dddb8d1d4e27493a6b3d60ef15.html">mixingKernel</a></li><li class="navelem"><a class="el" href="a00148.html">mixingKernel.C</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

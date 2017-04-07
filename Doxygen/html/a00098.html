@@ -107,20 +107,22 @@ $(document).ready(function(){initNavTree('a00098.html','');});
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">buoyantPbePimpleFoam/createFields.H File Reference</div>  </div>
+<div class="title">pbeFoam/createFields.H File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div class="dynheader">
-Include dependency graph for buoyantPbePimpleFoam/createFields.H:</div>
+Include dependency graph for pbeFoam/createFields.H:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00299.png" border="0" usemap="#createFields_8H" alt=""/></div>
+<div class="center"><img src="a00301.png" border="0" usemap="#createFields_8H" alt=""/></div>
+<map name="createFields_8H" id="createFields_8H">
+</map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00300.png" border="0" usemap="#createFields_8Hdep" alt=""/></div>
+<div class="center"><img src="a00302.png" border="0" usemap="#createFields_8Hdep" alt=""/></div>
 <map name="createFields_8Hdep" id="createFields_8Hdep">
-<area shape="rect" id="node2" href="a00088.html" title="Transient solver for buoyant, turbulent flow of compressible fluids with solution of population balan..." alt="" coords="5,80,188,107"/>
+<area shape="rect" id="node2" href="a00199.html" title="Solver for population balance problems. " alt="" coords="14,80,106,107"/>
 </map>
 </div>
 </div>
@@ -128,40 +130,84 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:abe69f56d2542c42d3087a7412902b44a"><td class="memItemLeft" align="right" valign="top">Info&lt;&lt; &quot;Reading thermophysical properties\n&quot;&lt;&lt; endl;autoPtr&lt; rhoThermo &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#abe69f56d2542c42d3087a7412902b44a">pThermo</a> (rhoThermo::New(mesh))</td></tr>
-<tr class="separator:abe69f56d2542c42d3087a7412902b44a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5799e0a833b5865ada8f84d88a03a8c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00101.html#aad0c921770bd26de425cedad0c8ae8be">thermo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#a5799e0a833b5865ada8f84d88a03a8c1">validate</a> (args.executable(),&quot;h&quot;,&quot;e&quot;)</td></tr>
+<tr class="memitem:ab92b9dd4dbbce3fb3ffc8bfbf3552f4e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#ab92b9dd4dbbce3fb3ffc8bfbf3552f4e">if</a> (mesh.nCells()!=1)</td></tr>
+<tr class="separator:ab92b9dd4dbbce3fb3ffc8bfbf3552f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7527b65b79108f3eb3799b88370cd144"><td class="memItemLeft" align="right" valign="top">Info&lt;&lt; nl&lt;&lt; &quot;Reading thermophysical properties\n&quot;&lt;&lt; endl;autoPtr&lt; psiThermo &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#a7527b65b79108f3eb3799b88370cd144">pThermo</a> (psiThermo::New(mesh))</td></tr>
+<tr class="separator:a7527b65b79108f3eb3799b88370cd144"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5799e0a833b5865ada8f84d88a03a8c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00099.html#aad0c921770bd26de425cedad0c8ae8be">thermo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#a5799e0a833b5865ada8f84d88a03a8c1">validate</a> (args.executable(),&quot;h&quot;,&quot;e&quot;)</td></tr>
 <tr class="separator:a5799e0a833b5865ada8f84d88a03a8c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa74838e1f8f89be91e7a5f1d70d08fb1"><td class="memItemLeft" align="right" valign="top">volScalarField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a> (IOobject(                                    &quot;rho&quot;,                                       runTime.timeName(),                                       mesh,                                       IOobject::NO_READ,                                       IOobject::NO_WRITE                       ), thermo.rho())</td></tr>
-<tr class="separator:aa74838e1f8f89be91e7a5f1d70d08fb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac06391579e3bd64067c1f6a8e84e6f35"><td class="memItemLeft" align="right" valign="top">Info&lt;&lt; &quot;Reading field U\n&quot;&lt;&lt; endl;volVectorField <a class="el" href="a00100.html#a2cf53f2d880076e92789c7297fc0423d">U</a>(IOobject(&quot;U&quot;, runTime.timeName(), mesh, IOobject::MUST_READ, IOobject::AUTO_WRITE), mesh);Info&lt;&lt; &quot;Creating turbulence model\n&quot;&lt;&lt; endl;autoPtr&lt; compressible::turbulenceModel &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#ac06391579e3bd64067c1f6a8e84e6f35">turbulence</a> (compressible::turbulenceModel::New(                                       <a class="el" href="a00101.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>,                                       <a class="el" href="a00100.html#a2cf53f2d880076e92789c7297fc0423d">U</a>,                                       phi,                                       <a class="el" href="a00101.html#aad0c921770bd26de425cedad0c8ae8be">thermo</a>                       ))</td></tr>
-<tr class="separator:ac06391579e3bd64067c1f6a8e84e6f35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad64697a7bccdd22d7300f9ff52dcdbfc"><td class="memItemLeft" align="right" valign="top">volScalarField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#ad64697a7bccdd22d7300f9ff52dcdbfc">rho</a> (IOobject(                                    &quot;rho&quot;,                                       runTime.timeName(),                                       mesh,                                       IOobject::NO_READ,                                       IOobject::AUTO_WRITE                       ), thermo.rho())</td></tr>
+<tr class="separator:ad64697a7bccdd22d7300f9ff52dcdbfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cf53f2d880076e92789c7297fc0423d"><td class="memItemLeft" align="right" valign="top">volVectorField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a> (IOobject(                                    &quot;U&quot;,                                       runTime.timeName(),                                       mesh,                                       IOobject::NO_READ,                                       IOobject::NO_WRITE                       ), mesh, dimensionedVector(&quot;zero&quot;, dimVelocity, vector::zero), p.boundaryField().types())</td></tr>
+<tr class="separator:a2cf53f2d880076e92789c7297fc0423d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c429db236c593344360ec76e4a55df6"><td class="memItemLeft" align="right" valign="top">Info&lt;&lt; &quot;Creating turbulence model.\n&quot;&lt;&lt; endl;autoPtr&lt; compressible::turbulenceModel &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#a1c429db236c593344360ec76e4a55df6">turbulence</a> (compressible::turbulenceModel::New(                                       <a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>,                                       <a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a>,                                       phi,                                       <a class="el" href="a00099.html#aad0c921770bd26de425cedad0c8ae8be">thermo</a>                       ))</td></tr>
+<tr class="separator:a1c429db236c593344360ec76e4a55df6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a045663f4195add2d0909fda9391fab6d"><td class="memItemLeft" align="right" valign="top">Info&lt;&lt; &quot;Reading populationBalanceProperties\n&quot;&lt;&lt; endl;IOdictionary populationBalanceProperties(IOobject(&quot;populationBalanceProperties&quot;, runTime.constant(), mesh, IOobject::MUST_READ_IF_MODIFIED, IOobject::NO_WRITE));autoPtr&lt; populationBalanceModel &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#a045663f4195add2d0909fda9391fab6d">populationBalance</a> (populationBalanceModel::New(                                    &quot;populationBalance&quot;,                                       populationBalanceProperties,                                       phi                       ))</td></tr>
+<tr class="separator:a045663f4195add2d0909fda9391fab6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:aad0c921770bd26de425cedad0c8ae8be"><td class="memItemLeft" align="right" valign="top">rhoThermo &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#aad0c921770bd26de425cedad0c8ae8be">thermo</a> = <a class="el" href="a00101.html#abe69f56d2542c42d3087a7412902b44a">pThermo</a>()</td></tr>
-<tr class="separator:aad0c921770bd26de425cedad0c8ae8be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0250ef8e3f4fe4312875a0fc54bf3c37"><td class="memItemLeft" align="right" valign="top">psiThermo &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#a0250ef8e3f4fe4312875a0fc54bf3c37">thermo</a> = <a class="el" href="a00099.html#abe69f56d2542c42d3087a7412902b44a">pThermo</a>()</td></tr>
+<tr class="separator:a0250ef8e3f4fe4312875a0fc54bf3c37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a334650304cdcdff41898bee9eaf2e3db"><td class="memItemLeft" align="right" valign="top">volScalarField &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#a334650304cdcdff41898bee9eaf2e3db">p</a> = thermo.p()</td></tr>
 <tr class="separator:a334650304cdcdff41898bee9eaf2e3db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba679271c41582099c8ccf4827fdf217"><td class="memItemLeft" align="right" valign="top">const volScalarField &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#aba679271c41582099c8ccf4827fdf217">psi</a> = thermo.psi()</td></tr>
-<tr class="separator:aba679271c41582099c8ccf4827fdf217"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af238d5f26618a0393bfdeaa9ca937c61"><td class="memItemLeft" align="right" valign="top">Info&lt;&lt; &quot;Reading field p_rgh\n&quot;&lt;&lt; endl;volScalarField p_rgh(IOobject(&quot;p_rgh&quot;, runTime.timeName(), mesh, IOobject::MUST_READ, IOobject::AUTO_WRITE), mesh);p_rgh=<a class="el" href="a00101.html#a334650304cdcdff41898bee9eaf2e3db">p</a>-<a class="el" href="a00101.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a> *gh;mesh.setFluxRequired(p_rgh.name());Info&lt;&lt; &quot;Creating field dpdt\n&quot;&lt;&lt; endl;volScalarField dpdt(IOobject(&quot;dpdt&quot;, runTime.timeName(), mesh), mesh, dimensionedScalar(&quot;dpdt&quot;, p.dimensions()/dimTime, 0));Info&lt;&lt; &quot;Creating field kinetic energy K\n&quot;&lt;&lt; endl;volScalarField K(&quot;K&quot;, 0.5 *magSqr(<a class="el" href="a00100.html#a2cf53f2d880076e92789c7297fc0423d">U</a>));Info&lt;&lt; &quot;Reading populationBalanceProperties\n&quot;&lt;&lt; endl;IOdictionary populationBalanceProperties(IOobject(&quot;populationBalanceProperties&quot;, runTime.constant(), mesh, IOobject::MUST_READ_IF_MODIFIED, IOobject::NO_WRITE));autoPtr&lt; populationBalanceModel &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#af238d5f26618a0393bfdeaa9ca937c61">populationBalance</a> (populationBalanceModel::New(                                    &quot;populationBalance&quot;, populationBalanceProperties, phi                       ))</td></tr>
-<tr class="separator:af238d5f26618a0393bfdeaa9ca937c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="abe69f56d2542c42d3087a7412902b44a"></a>
+<a class="anchor" id="ab92b9dd4dbbce3fb3ffc8bfbf3552f4e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Info&lt;&lt; &quot;Reading thermophysical properties\n&quot; &lt;&lt; endl; autoPtr&lt;rhoThermo&gt; pThermo </td>
+          <td class="memname">if </td>
           <td>(</td>
-          <td class="paramtype">rhoThermo::New(mesh)&#160;</td>
+          <td class="paramtype">mesh.nCells()!&#160;</td>
+          <td class="paramname"> = <code>1</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00098_source.html#l00001">1</a> of file <a class="el" href="a00098_source.html">pbeFoam/createFields.H</a>.</p>
+
+<p>References <a class="el" href="a00098.html#a7527b65b79108f3eb3799b88370cd144">pThermo()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00098_ab92b9dd4dbbce3fb3ffc8bfbf3552f4e_cgraph.png" border="0" usemap="#a00098_ab92b9dd4dbbce3fb3ffc8bfbf3552f4e_cgraph" alt=""/></div>
+<map name="a00098_ab92b9dd4dbbce3fb3ffc8bfbf3552f4e_cgraph" id="a00098_ab92b9dd4dbbce3fb3ffc8bfbf3552f4e_cgraph">
+<area shape="rect" id="node2" href="a00098.html#a7527b65b79108f3eb3799b88370cd144" title="pThermo" alt="" coords="92,5,169,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a7527b65b79108f3eb3799b88370cd144"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Info&lt;&lt; nl &lt;&lt; &quot;Reading thermophysical properties\n&quot; &lt;&lt; endl; autoPtr&lt;psiThermo&gt; pThermo </td>
+          <td>(</td>
+          <td class="paramtype">psiThermo::New(mesh)&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="a00098_source.html#l00001">if()</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00098_a7527b65b79108f3eb3799b88370cd144_icgraph.png" border="0" usemap="#a00098_a7527b65b79108f3eb3799b88370cd144_icgraph" alt=""/></div>
+<map name="a00098_a7527b65b79108f3eb3799b88370cd144_icgraph" id="a00098_a7527b65b79108f3eb3799b88370cd144_icgraph">
+<area shape="rect" id="node2" href="a00098.html#ab92b9dd4dbbce3fb3ffc8bfbf3552f4e" title="if" alt="" coords="131,5,169,32"/>
+</map>
+</div>
+</p>
 
 </div>
 </div>
@@ -170,7 +216,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00101.html#aad0c921770bd26de425cedad0c8ae8be">thermo</a> validate </td>
+          <td class="memname"><a class="el" href="a00099.html#aad0c921770bd26de425cedad0c8ae8be">thermo</a> validate </td>
           <td>(</td>
           <td class="paramtype">args.&#160;</td>
           <td class="paramname"><em>executable</em>(), </td>
@@ -197,14 +243,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa74838e1f8f89be91e7a5f1d70d08fb1"></a>
+<a class="anchor" id="ad64697a7bccdd22d7300f9ff52dcdbfc"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">volScalarField rho </td>
           <td>(</td>
-          <td class="paramtype">IOobject(                                                                    &quot;rho&quot;,                                                                           runTime.timeName(),                                                                           mesh,                                                                           IOobject::NO_READ,                                                                           IOobject::NO_WRITE                                           )&#160;</td>
+          <td class="paramtype">IOobject(                                                                    &quot;rho&quot;,                                                                           runTime.timeName(),                                                                           mesh,                                                                           IOobject::NO_READ,                                                                           IOobject::AUTO_WRITE                                           )&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -221,63 +267,103 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="a00231_source.html#l00018">if()</a>, and <a class="el" href="a00088_source.html#l00047">main()</a>.</p>
+</div>
+</div>
+<a class="anchor" id="a2cf53f2d880076e92789c7297fc0423d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volVectorField U </td>
+          <td>(</td>
+          <td class="paramtype">IOobject(                                                                    &quot;U&quot;,                                                                           runTime.timeName(),                                                                           mesh,                                                                           IOobject::NO_READ,                                                                           IOobject::NO_WRITE                                           )&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">mesh&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dimensionedVector(&quot;zero&quot;, dimVelocity, vector::zero)&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">p.&#160;</td>
+          <td class="paramname"><em>boundaryField</em>).types(&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="a00229_source.html#l00018">if()</a>, and <a class="el" href="a00203_source.html#l00037">while()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00098_aa74838e1f8f89be91e7a5f1d70d08fb1_icgraph.png" border="0" usemap="#a00098_aa74838e1f8f89be91e7a5f1d70d08fb1_icgraph" alt=""/></div>
-<map name="a00098_aa74838e1f8f89be91e7a5f1d70d08fb1_icgraph" id="a00098_aa74838e1f8f89be91e7a5f1d70d08fb1_icgraph">
-<area shape="rect" id="node2" href="a00231.html#a5340a84918449f06669e13812b90f046" title="if" alt="" coords="101,5,139,32"/>
-<area shape="rect" id="node3" href="a00088.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="95,56,145,83"/>
+<div class="center"><img src="a00098_a2cf53f2d880076e92789c7297fc0423d_icgraph.png" border="0" usemap="#a00098_a2cf53f2d880076e92789c7297fc0423d_icgraph" alt=""/></div>
+<map name="a00098_a2cf53f2d880076e92789c7297fc0423d_icgraph" id="a00098_a2cf53f2d880076e92789c7297fc0423d_icgraph">
+<area shape="rect" id="node2" href="a00229.html#a5340a84918449f06669e13812b90f046" title="if" alt="" coords="99,5,138,32"/>
+<area shape="rect" id="node3" href="a00203.html#ab13470e79e249d04c443bf59be9ff31d" title="while" alt="" coords="92,56,145,83"/>
 </map>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="ac06391579e3bd64067c1f6a8e84e6f35"></a>
+<a class="anchor" id="a1c429db236c593344360ec76e4a55df6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Info&lt;&lt; &quot;Reading field U\n&quot; &lt;&lt; endl; volVectorField <a class="el" href="a00100.html#a2cf53f2d880076e92789c7297fc0423d">U</a> ( IOobject ( &quot;U&quot;, runTime.timeName(), mesh, IOobject::MUST_READ, IOobject::AUTO_WRITE ), mesh ); Info&lt;&lt; &quot;Creating turbulence model\n&quot; &lt;&lt; endl; autoPtr&lt;compressible::turbulenceModel&gt; turbulence </td>
+          <td class="memname">Info&lt;&lt; &quot;Creating turbulence model.\n&quot; &lt;&lt; endl; autoPtr&lt;compressible::turbulenceModel&gt; turbulence </td>
           <td>(</td>
-          <td class="paramtype">compressible::turbulenceModel::New(                                                                           <a class="el" href="a00101.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>,                                                                           <a class="el" href="a00100.html#a2cf53f2d880076e92789c7297fc0423d">U</a>,                                                                           phi,                                                                           <a class="el" href="a00101.html#aad0c921770bd26de425cedad0c8ae8be">thermo</a>                                           )&#160;</td>
+          <td class="paramtype">compressible::turbulenceModel::New(                                                                           <a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>,                                                                           <a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a>,                                                                           phi,                                                                           <a class="el" href="a00099.html#aad0c921770bd26de425cedad0c8ae8be">thermo</a>                                           )&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="a00088_source.html#l00047">main()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00098_ac06391579e3bd64067c1f6a8e84e6f35_icgraph.png" border="0" usemap="#a00098_ac06391579e3bd64067c1f6a8e84e6f35_icgraph" alt=""/></div>
-<map name="a00098_ac06391579e3bd64067c1f6a8e84e6f35_icgraph" id="a00098_ac06391579e3bd64067c1f6a8e84e6f35_icgraph">
-<area shape="rect" id="node2" href="a00088.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="136,5,187,32"/>
-</map>
-</div>
-</p>
-
 </div>
 </div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="aad0c921770bd26de425cedad0c8ae8be"></a>
+<a class="anchor" id="a045663f4195add2d0909fda9391fab6d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">rhoThermo&amp; thermo = <a class="el" href="a00101.html#abe69f56d2542c42d3087a7412902b44a">pThermo</a>()</td>
+          <td class="memname">Info&lt;&lt; &quot;Reading populationBalanceProperties\n&quot; &lt;&lt; endl; IOdictionary populationBalanceProperties ( IOobject ( &quot;populationBalanceProperties&quot;, runTime.constant(), mesh, IOobject::MUST_READ_IF_MODIFIED, IOobject::NO_WRITE ) ); autoPtr&lt;populationBalanceModel&gt; populationBalance </td>
+          <td>(</td>
+          <td class="paramtype">populationBalanceModel::New(                                                                    &quot;populationBalance&quot;,                                                                           populationBalanceProperties,                                                                           phi                                           )&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00098_source.html#l00004">4</a> of file <a class="el" href="a00098_source.html">buoyantPbePimpleFoam/createFields.H</a>.</p>
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="a0250ef8e3f4fe4312875a0fc54bf3c37"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">psiThermo&amp; thermo = <a class="el" href="a00099.html#abe69f56d2542c42d3087a7412902b44a">pThermo</a>()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="a00088_source.html#l00047">main()</a>.</p>
+<p>Definition at line <a class="el" href="a00098_source.html#l00014">14</a> of file <a class="el" href="a00098_source.html">pbeFoam/createFields.H</a>.</p>
 
 </div>
 </div>
@@ -291,39 +377,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00098_source.html#l00020">20</a> of file <a class="el" href="a00098_source.html">buoyantPbePimpleFoam/createFields.H</a>.</p>
-
-<p>Referenced by <a class="el" href="a00131_source.html#l00064">gaussLobattoMomentInversion::correctRecurrence()</a>, <a class="el" href="a00135_source.html#l00064">gaussRadauMomentInversion::correctRecurrence()</a>, and <a class="el" href="a00112_source.html#l00057">eigenSolver::eigenSolver()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aba679271c41582099c8ccf4827fdf217"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const volScalarField&amp; psi = thermo.psi()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00098_source.html#l00021">21</a> of file <a class="el" href="a00098_source.html">buoyantPbePimpleFoam/createFields.H</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af238d5f26618a0393bfdeaa9ca937c61"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Info&lt;&lt; &quot;Reading field p_rgh\n&quot; &lt;&lt; endl; volScalarField p_rgh ( IOobject ( &quot;p_rgh&quot;, runTime.timeName(), mesh, IOobject::MUST_READ, IOobject::AUTO_WRITE ), mesh ); p_rgh = <a class="el" href="a00101.html#a334650304cdcdff41898bee9eaf2e3db">p</a> - <a class="el" href="a00101.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>*gh; mesh.setFluxRequired(p_rgh.name()); Info&lt;&lt; &quot;Creating field dpdt\n&quot; &lt;&lt; endl; volScalarField dpdt ( IOobject ( &quot;dpdt&quot;, runTime.timeName(), mesh ), mesh, dimensionedScalar(&quot;dpdt&quot;, p.dimensions()/dimTime, 0) ); Info&lt;&lt; &quot;Creating field kinetic energy K\n&quot; &lt;&lt; endl; volScalarField K(&quot;K&quot;, 0.5*magSqr(<a class="el" href="a00100.html#a2cf53f2d880076e92789c7297fc0423d">U</a>)); Info&lt;&lt; &quot;Reading populationBalanceProperties\n&quot; &lt;&lt; endl; IOdictionary populationBalanceProperties ( IOobject ( &quot;populationBalanceProperties&quot;, runTime.constant(), mesh, IOobject::MUST_READ_IF_MODIFIED, IOobject::NO_WRITE ) ); autoPtr&lt;populationBalanceModel&gt; populationBalance(populationBalanceModel::New(                    &quot;populationBalance&quot;, populationBalanceProperties, phi             ))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00098_source.html#l00107">107</a> of file <a class="el" href="a00098_source.html">buoyantPbePimpleFoam/createFields.H</a>.</p>
-
-<p>Referenced by <a class="el" href="a00088_source.html#l00047">main()</a>.</p>
+<p>Definition at line <a class="el" href="a00098_source.html#l00030">30</a> of file <a class="el" href="a00098_source.html">pbeFoam/createFields.H</a>.</p>
 
 </div>
 </div>
@@ -332,7 +386,7 @@ Here is the caller graph for this function:</div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html">applications</a></li><li class="navelem"><a class="el" href="dir_2ef2fabd40c7da3d17a848db9671c536.html">buoyantPbePimpleFoam</a></li><li class="navelem"><a class="el" href="a00098.html">createFields.H</a></li>
+    <li class="navelem"><a class="el" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html">applications</a></li><li class="navelem"><a class="el" href="dir_59326b1e51db0de7da27a4fac0cc6e4a.html">pbeFoam</a></li><li class="navelem"><a class="el" href="a00098.html">createFields.H</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

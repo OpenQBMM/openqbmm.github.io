@@ -1,7 +1,7 @@
 var a00050 =
 [
-    [ "noDiffusion", "a00050.html#a790c8815b53962b66948569e5a37601e", null ],
-    [ "~noDiffusion", "a00050.html#ab00319b0bec238d68ee3f4ae6b34b7b6", null ],
+    [ "noNucleation", "a00050.html#ab3dbbe55baf67b8ce526009289270fc8", null ],
+    [ "~noNucleation", "a00050.html#a0590b871d4b962ed8418e27e9f3357ec", null ],
     [ "TypeName", "a00050.html#a660172304dfa1b418cc1bded338b9fd9", null ],
-    [ "momentDiff", "a00050.html#a2607d470834fac9d39bfc0d92f89d41a", null ]
+    [ "nucleationSource", "a00050.html#a1a1beb8cf7e0221ebba90ce5aa341f59", null ]
 ];

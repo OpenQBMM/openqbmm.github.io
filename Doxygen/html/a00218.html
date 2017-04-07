@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>readControls.H File Reference</title>
+<title>sumAggregation.H File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -104,125 +104,56 @@ $(document).ready(function(){initNavTree('a00218.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
-<div class="title">readControls.H File Reference</div>  </div>
+<div class="title">sumAggregation.H File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div class="dynheader">
+Include dependency graph for sumAggregation.H:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00464.png" border="0" usemap="#sumAggregation_8H" alt=""/></div>
+<map name="sumAggregation_8H" id="sumAggregation_8H">
+<area shape="rect" id="node2" href="a00075.html" title="aggregationKernel.H" alt="" coords="5,80,152,107"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00464.png" border="0" usemap="#readControls_8Hdep" alt=""/></div>
-<map name="readControls_8Hdep" id="readControls_8Hdep">
-<area shape="rect" id="node2" href="a00201.html" title="Solver for population balance problems. " alt="" coords="15,80,107,107"/>
+<div class="center"><img src="a00465.png" border="0" usemap="#sumAggregation_8Hdep" alt=""/></div>
+<map name="sumAggregation_8Hdep" id="sumAggregation_8Hdep">
+<area shape="rect" id="node2" href="a00217.html" title="sumAggregation.C" alt="" coords="5,80,140,107"/>
 </map>
 </div>
 </div>
 <p><a href="a00218_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ad9044c3d1d0b8f3ed3e6b9b1f8dbb8cb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00218.html#ad9044c3d1d0b8f3ed3e6b9b1f8dbb8cb">if</a> (runTime.controlDict().lookupOrDefault(&quot;suppressSolverInfo&quot;, false))</td></tr>
-<tr class="separator:ad9044c3d1d0b8f3ed3e6b9b1f8dbb8cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a116d20bd6aa9cc2b5fcf634e3c45bbd5"><td class="memItemLeft" align="right" valign="top">Switch&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00218.html#a116d20bd6aa9cc2b5fcf634e3c45bbd5">adjustTimeStep</a> (runTime.controlDict().lookup(&quot;adjustTimeStep&quot;))</td></tr>
-<tr class="separator:a116d20bd6aa9cc2b5fcf634e3c45bbd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c604fc34158f5108b7ee5d89b95b433"><td class="memItemLeft" align="right" valign="top">scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00218.html#a7c604fc34158f5108b7ee5d89b95b433">maxDeltaT</a> (readScalar(runTime.controlDict().lookup(&quot;maxDeltaT&quot;)))</td></tr>
-<tr class="separator:a7c604fc34158f5108b7ee5d89b95b433"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00059.html">sumAggregation</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sum aggregation kernel with user defined coefficient (default Cagg = 1).  <a href="a00059.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:a00249"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00249.html">Foam</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00258"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00258.html">Foam::populationBalanceSubModels</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00259"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00259.html">Foam::populationBalanceSubModels::aggregationKernels</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="ad9044c3d1d0b8f3ed3e6b9b1f8dbb8cb"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">if </td>
-          <td>(</td>
-          <td class="paramtype">runTime.&#160;</td>
-          <td class="paramname"><em>controlDict</em>).lookupOrDefault(&quot;suppressSolverInfo&quot;, false</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/aggregationKernels/sumAggregation/sumAggregation.H">sumAggregation.H</a> </p>
 
-<p>Definition at line <a class="el" href="a00218_source.html#l00001">1</a> of file <a class="el" href="a00218_source.html">readControls.H</a>.</p>
-
-<p>References <a class="el" href="a00218.html#a116d20bd6aa9cc2b5fcf634e3c45bbd5">adjustTimeStep()</a>, and <a class="el" href="a00218.html#a7c604fc34158f5108b7ee5d89b95b433">maxDeltaT()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00218_ad9044c3d1d0b8f3ed3e6b9b1f8dbb8cb_cgraph.png" border="0" usemap="#a00218_ad9044c3d1d0b8f3ed3e6b9b1f8dbb8cb_cgraph" alt=""/></div>
-<map name="a00218_ad9044c3d1d0b8f3ed3e6b9b1f8dbb8cb_cgraph" id="a00218_ad9044c3d1d0b8f3ed3e6b9b1f8dbb8cb_cgraph">
-<area shape="rect" id="node2" href="a00218.html#a116d20bd6aa9cc2b5fcf634e3c45bbd5" title="adjustTimeStep" alt="" coords="92,5,209,32"/>
-<area shape="rect" id="node3" href="a00218.html#a7c604fc34158f5108b7ee5d89b95b433" title="maxDeltaT" alt="" coords="105,56,196,83"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a116d20bd6aa9cc2b5fcf634e3c45bbd5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Switch adjustTimeStep </td>
-          <td>(</td>
-          <td class="paramtype">runTime.&#160;</td>
-          <td class="paramname"><em>controlDict</em>).lookup(&quot;adjustTimeStep&quot;</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Referenced by <a class="el" href="a00218_source.html#l00001">if()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00218_a116d20bd6aa9cc2b5fcf634e3c45bbd5_icgraph.png" border="0" usemap="#a00218_a116d20bd6aa9cc2b5fcf634e3c45bbd5_icgraph" alt=""/></div>
-<map name="a00218_a116d20bd6aa9cc2b5fcf634e3c45bbd5_icgraph" id="a00218_a116d20bd6aa9cc2b5fcf634e3c45bbd5_icgraph">
-<area shape="rect" id="node2" href="a00218.html#ad9044c3d1d0b8f3ed3e6b9b1f8dbb8cb" title="if" alt="" coords="171,5,209,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a7c604fc34158f5108b7ee5d89b95b433"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">scalar maxDeltaT </td>
-          <td>(</td>
-          <td class="paramtype">readScalar(runTime.controlDict().lookup(&quot;maxDeltaT&quot;))&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Referenced by <a class="el" href="a00218_source.html#l00001">if()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00218_a7c604fc34158f5108b7ee5d89b95b433_icgraph.png" border="0" usemap="#a00218_a7c604fc34158f5108b7ee5d89b95b433_icgraph" alt=""/></div>
-<map name="a00218_a7c604fc34158f5108b7ee5d89b95b433_icgraph" id="a00218_a7c604fc34158f5108b7ee5d89b95b433_icgraph">
-<area shape="rect" id="node2" href="a00218.html#ad9044c3d1d0b8f3ed3e6b9b1f8dbb8cb" title="if" alt="" coords="144,5,183,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-</div><!-- contents -->
+<p>Definition in file <a class="el" href="a00218_source.html">sumAggregation.H</a>.</p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html">applications</a></li><li class="navelem"><a class="el" href="dir_59326b1e51db0de7da27a4fac0cc6e4a.html">pbeFoam</a></li><li class="navelem"><a class="el" href="a00218.html">readControls.H</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0ecbe6cb5f50223527ce4e1b499bd333.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="dir_58c61e057ed2119d9755c9fdbb448648.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="dir_62f86ef0c260ceaf3b93a8b1f701039a.html">aggregationKernels</a></li><li class="navelem"><a class="el" href="dir_96c7237ba7f48be7590b77be5af6541f.html">sumAggregation</a></li><li class="navelem"><a class="el" href="a00218.html">sumAggregation.H</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

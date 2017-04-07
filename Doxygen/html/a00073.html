@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>univariatePopulationBalance Class Reference</title>
+<title>Vandermonde Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -105,31 +105,287 @@ $(document).ready(function(){initNavTree('a00073.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="a00568.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">univariatePopulationBalance Class Reference</div>  </div>
+<div class="title">Vandermonde Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Solve a univariate population balance equation with the extended quadrature method of moments.  
+<p>Stores the second row of a <a class="el" href="a00073.html" title="Stores the second row of a Vandermonde matrix, and solves the associated linear system. ">Vandermonde</a> matrix, and solves the associated linear system.  
  <a href="a00073.html#details">More...</a></p>
+<div class="dynheader">
+Inheritance diagram for Vandermonde:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00569.png" border="0" usemap="#Vandermonde_inherit__map" alt="Inheritance graph"/></div>
+<map name="Vandermonde_inherit__map" id="Vandermonde_inherit__map">
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for Vandermonde:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00570.png" border="0" usemap="#Vandermonde_coll__map" alt="Collaboration graph"/></div>
+<map name="Vandermonde_coll__map" id="Vandermonde_coll__map">
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ad67ccfbb9cade9e7a4af8af247cbc760"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00073.html#ad67ccfbb9cade9e7a4af8af247cbc760">Vandermonde</a> (const scalarDiagonalMatrix &amp;A)</td></tr>
+<tr class="memdesc:ad67ccfbb9cade9e7a4af8af247cbc760"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from a given vector.  <a href="#ad67ccfbb9cade9e7a4af8af247cbc760">More...</a><br /></td></tr>
+<tr class="separator:ad67ccfbb9cade9e7a4af8af247cbc760"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa269448837b597fdbbc600d30d0ee801"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00073.html#aa269448837b597fdbbc600d30d0ee801">Vandermonde</a> (const scalarSquareMatrix &amp;A, const bool checkVandermonde=false)</td></tr>
+<tr class="memdesc:aa269448837b597fdbbc600d30d0ee801"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from a square <a class="el" href="a00073.html" title="Stores the second row of a Vandermonde matrix, and solves the associated linear system. ">Vandermonde</a> matrix.  <a href="#aa269448837b597fdbbc600d30d0ee801">More...</a><br /></td></tr>
+<tr class="separator:aa269448837b597fdbbc600d30d0ee801"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56ad6e00f00ff1794e13eac202ba81dd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00073.html#a56ad6e00f00ff1794e13eac202ba81dd">~Vandermonde</a> ()</td></tr>
+<tr class="memdesc:a56ad6e00f00ff1794e13eac202ba81dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a56ad6e00f00ff1794e13eac202ba81dd">More...</a><br /></td></tr>
+<tr class="separator:a56ad6e00f00ff1794e13eac202ba81dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0501062a3550e6d046dd2dca738ecfa1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00073.html#a0501062a3550e6d046dd2dca738ecfa1">solve</a> (scalarDiagonalMatrix &amp;x, const scalarDiagonalMatrix &amp;source)</td></tr>
+<tr class="memdesc:a0501062a3550e6d046dd2dca738ecfa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve the <a class="el" href="a00073.html" title="Stores the second row of a Vandermonde matrix, and solves the associated linear system. ">Vandermonde</a> linear system with the given source vector.  <a href="#a0501062a3550e6d046dd2dca738ecfa1">More...</a><br /></td></tr>
+<tr class="separator:a0501062a3550e6d046dd2dca738ecfa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41f917babb4e3753f9e48b975cb03b2f"><td class="memItemLeft" align="right" valign="top">scalarSquareMatrix&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00073.html#a41f917babb4e3753f9e48b975cb03b2f">inv</a> ()</td></tr>
+<tr class="memdesc:a41f917babb4e3753f9e48b975cb03b2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invert <a class="el" href="a00073.html" title="Stores the second row of a Vandermonde matrix, and solves the associated linear system. ">Vandermonde</a> matrix.  <a href="#a41f917babb4e3753f9e48b975cb03b2f">More...</a><br /></td></tr>
+<tr class="separator:a41f917babb4e3753f9e48b975cb03b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5abda4d7d3085503b1326c880f77ad36"><td class="memItemLeft" align="right" valign="top">scalarSquareMatrix&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00073.html#a5abda4d7d3085503b1326c880f77ad36">operator()</a> ()</td></tr>
+<tr class="memdesc:a5abda4d7d3085503b1326c880f77ad36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the complete <a class="el" href="a00073.html" title="Stores the second row of a Vandermonde matrix, and solves the associated linear system. ">Vandermonde</a> matrix.  <a href="#a5abda4d7d3085503b1326c880f77ad36">More...</a><br /></td></tr>
+<tr class="separator:a5abda4d7d3085503b1326c880f77ad36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaed018d61a33bd73175c5c1fc3a6fd84"><td class="memItemLeft" align="right" valign="top">scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00073.html#aaed018d61a33bd73175c5c1fc3a6fd84">operator()</a> (label i, label j)</td></tr>
+<tr class="memdesc:aaed018d61a33bd73175c5c1fc3a6fd84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a given component of the <a class="el" href="a00073.html" title="Stores the second row of a Vandermonde matrix, and solves the associated linear system. ">Vandermonde</a> matrix.  <a href="#aaed018d61a33bd73175c5c1fc3a6fd84">More...</a><br /></td></tr>
+<tr class="separator:aaed018d61a33bd73175c5c1fc3a6fd84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Solve a univariate population balance equation with the extended quadrature method of moments. </p>
-<p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
+<div class="textblock"><p>Stores the second row of a <a class="el" href="a00073.html" title="Stores the second row of a Vandermonde matrix, and solves the associated linear system. ">Vandermonde</a> matrix, and solves the associated linear system. </p>
+<p><a class="anchor" id="Description"></a>References </p><pre class="fragment">    William H. Press, Saul A. Teukolsky,
+    William T. Vetterling, and Brian P. Flannery. 1992.
+    "Numerical Recipes in C (2nd Ed.): The Art of Scientific Computing."
+    Cambridge University Press, New York, NY, USA.
+</pre><dl class="section user"><dt>Source files</dt><dd><ul>
 <li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/univariatePopulationBalance/univariatePopulationBalance.H">univariatePopulationBalance.H</a> </li>
+<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/Vandermonde/Vandermonde.H">Vandermonde.H</a> </li>
 <li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/univariatePopulationBalance/univariatePopulationBalance.C">univariatePopulationBalance.C</a> </li>
+<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/Vandermonde/Vandermonde.C">Vandermonde.C</a> </li>
 </ul>
 </dd></dl>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="a00247_source.html">univariatePopulationBalance.H</a></li>
+
+<p>Definition at line <a class="el" href="a00247_source.html#l00058">58</a> of file <a class="el" href="a00247_source.html">Vandermonde.H</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="ad67ccfbb9cade9e7a4af8af247cbc760"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a00073.html">Vandermonde</a> </td>
+          <td>(</td>
+          <td class="paramtype">const scalarDiagonalMatrix &amp;&#160;</td>
+          <td class="paramname"><em>A</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct from a given vector. </p>
+
+<p>Definition at line <a class="el" href="a00246_source.html#l00031">31</a> of file <a class="el" href="a00246_source.html">Vandermonde.C</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa269448837b597fdbbc600d30d0ee801"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a00073.html">Vandermonde</a> </td>
+          <td>(</td>
+          <td class="paramtype">const scalarSquareMatrix &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>checkVandermonde</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct from a square <a class="el" href="a00073.html" title="Stores the second row of a Vandermonde matrix, and solves the associated linear system. ">Vandermonde</a> matrix. </p>
+
+<p>Definition at line <a class="el" href="a00246_source.html#l00041">41</a> of file <a class="el" href="a00246_source.html">Vandermonde.C</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a56ad6e00f00ff1794e13eac202ba81dd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">~<a class="el" href="a00073.html">Vandermonde</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destructor. </p>
+
+<p>Definition at line <a class="el" href="a00246_source.html#l00072">72</a> of file <a class="el" href="a00246_source.html">Vandermonde.C</a>.</p>
+
+<p>References <a class="el" href="a00246_source.html#l00079">Vandermonde::solve()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00073_a56ad6e00f00ff1794e13eac202ba81dd_cgraph.png" border="0" usemap="#a00073_a56ad6e00f00ff1794e13eac202ba81dd_cgraph" alt=""/></div>
+<map name="a00073_a56ad6e00f00ff1794e13eac202ba81dd_cgraph" id="a00073_a56ad6e00f00ff1794e13eac202ba81dd_cgraph">
+<area shape="rect" id="node2" href="a00073.html#a0501062a3550e6d046dd2dca738ecfa1" title="Solve the Vandermonde linear system with the given source vector. " alt="" coords="169,5,224,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a0501062a3550e6d046dd2dca738ecfa1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void solve </td>
+          <td>(</td>
+          <td class="paramtype">scalarDiagonalMatrix &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const scalarDiagonalMatrix &amp;&#160;</td>
+          <td class="paramname"><em>source</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Solve the <a class="el" href="a00073.html" title="Stores the second row of a Vandermonde matrix, and solves the associated linear system. ">Vandermonde</a> linear system with the given source vector. </p>
+
+<p>Definition at line <a class="el" href="a00246_source.html#l00079">79</a> of file <a class="el" href="a00246_source.html">Vandermonde.C</a>.</p>
+
+<p>Referenced by <a class="el" href="a00246_source.html#l00129">Vandermonde::inv()</a>, and <a class="el" href="a00246_source.html#l00072">Vandermonde::~Vandermonde()</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00073_a0501062a3550e6d046dd2dca738ecfa1_icgraph.png" border="0" usemap="#a00073_a0501062a3550e6d046dd2dca738ecfa1_icgraph" alt=""/></div>
+<map name="a00073_a0501062a3550e6d046dd2dca738ecfa1_icgraph" id="a00073_a0501062a3550e6d046dd2dca738ecfa1_icgraph">
+<area shape="rect" id="node2" href="a00073.html#a41f917babb4e3753f9e48b975cb03b2f" title="Invert Vandermonde matrix. " alt="" coords="147,5,185,32"/>
+<area shape="rect" id="node3" href="a00073.html#a56ad6e00f00ff1794e13eac202ba81dd" title="Destructor. " alt="" coords="108,56,224,83"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a41f917babb4e3753f9e48b975cb03b2f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Foam::scalarSquareMatrix inv </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Invert <a class="el" href="a00073.html" title="Stores the second row of a Vandermonde matrix, and solves the associated linear system. ">Vandermonde</a> matrix. </p>
+
+<p>Definition at line <a class="el" href="a00246_source.html#l00129">129</a> of file <a class="el" href="a00246_source.html">Vandermonde.C</a>.</p>
+
+<p>References <a class="el" href="a00246_source.html#l00079">Vandermonde::solve()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00073_a41f917babb4e3753f9e48b975cb03b2f_cgraph.png" border="0" usemap="#a00073_a41f917babb4e3753f9e48b975cb03b2f_cgraph" alt=""/></div>
+<map name="a00073_a41f917babb4e3753f9e48b975cb03b2f_cgraph" id="a00073_a41f917babb4e3753f9e48b975cb03b2f_cgraph">
+<area shape="rect" id="node2" href="a00073.html#a0501062a3550e6d046dd2dca738ecfa1" title="Solve the Vandermonde linear system with the given source vector. " alt="" coords="92,5,147,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a5abda4d7d3085503b1326c880f77ad36"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Foam::scalarSquareMatrix operator() </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the complete <a class="el" href="a00073.html" title="Stores the second row of a Vandermonde matrix, and solves the associated linear system. ">Vandermonde</a> matrix. </p>
+
+<p>Definition at line <a class="el" href="a00248_source.html#l00029">29</a> of file <a class="el" href="a00248_source.html">VandermondeI.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aaed018d61a33bd73175c5c1fc3a6fd84"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Foam::scalar operator() </td>
+          <td>(</td>
+          <td class="paramtype">label&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">label&#160;</td>
+          <td class="paramname"><em>j</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return a given component of the <a class="el" href="a00073.html" title="Stores the second row of a Vandermonde matrix, and solves the associated linear system. ">Vandermonde</a> matrix. </p>
+
+<p>Definition at line <a class="el" href="a00248_source.html#l00044">44</a> of file <a class="el" href="a00248_source.html">VandermondeI.H</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li><a class="el" href="a00247_source.html">Vandermonde.H</a></li>
+<li><a class="el" href="a00246_source.html">Vandermonde.C</a></li>
+<li><a class="el" href="a00248_source.html">VandermondeI.H</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00251.html">Foam</a></li><li class="navelem"><a class="el" href="a00259.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="a00073.html">univariatePopulationBalance</a></li>
+    <li class="navelem"><a class="el" href="a00249.html">Foam</a></li><li class="navelem"><a class="el" href="a00073.html">Vandermonde</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

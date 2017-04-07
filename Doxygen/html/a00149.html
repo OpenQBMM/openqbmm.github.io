@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Miller.H File Reference</title>
+<title>mixingKernel.H File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,23 +107,27 @@ $(document).ready(function(){initNavTree('a00149.html','');});
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
-<div class="title">Miller.H File Reference</div>  </div>
+<div class="title">mixingKernel.H File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div class="dynheader">
-Include dependency graph for Miller.H:</div>
+Include dependency graph for mixingKernel.H:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00374.png" border="0" usemap="#Miller_8H" alt=""/></div>
-<map name="Miller_8H" id="Miller_8H">
-<area shape="rect" id="node2" href="a00197.html" title="nucleationModel.H" alt="" coords="5,80,139,107"/>
+<div class="center"><img src="a00375.png" border="0" usemap="#mixingKernel_8H" alt=""/></div>
+<map name="mixingKernel_8H" id="mixingKernel_8H">
+<area shape="rect" id="node7" href="a00162.html" title="momentFieldSets.H" alt="" coords="546,80,685,107"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00375.png" border="0" usemap="#Miller_8Hdep" alt=""/></div>
-<map name="Miller_8Hdep" id="Miller_8Hdep">
-<area shape="rect" id="node2" href="a00148.html" title="Miller.C" alt="" coords="5,80,72,107"/>
+<div class="center"><img src="a00376.png" border="0" usemap="#mixingKernel_8Hdep" alt=""/></div>
+<map name="mixingKernel_8Hdep" id="mixingKernel_8Hdep">
+<area shape="rect" id="node2" href="a00124.html" title="FokkerPlanck.H" alt="" coords="5,80,123,107"/>
+<area shape="rect" id="node3" href="a00140.html" title="IEM.H" alt="" coords="147,80,203,107"/>
+<area shape="rect" id="node4" href="a00148.html" title="mixingKernel.C" alt="" coords="227,80,341,107"/>
+<area shape="rect" id="node5" href="a00179.html" title="newMixingKernel.C" alt="" coords="365,80,504,107"/>
+<area shape="rect" id="node6" href="a00228.html" title="turbulentMixing.H" alt="" coords="528,80,651,107"/>
 </map>
 </div>
 </div>
@@ -131,29 +135,27 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00037.html">Miller</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="a00037.html" title="Miller nucleation model for soot formation. ">Miller</a> nucleation model for soot formation.  <a href="a00037.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00036.html">mixingKernel</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract class for mixing model kernels.  <a href="a00036.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:a00251"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html">Foam</a></td></tr>
+<tr class="memitem:a00249"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00249.html">Foam</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00260"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00260.html">Foam::populationBalanceSubModels</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00266"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00266.html">Foam::populationBalanceSubModels::nucleationModels</a></td></tr>
+<tr class="memitem:a00251"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html">Foam::mixingSubModels</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/nucleationModels/Miller/Miller.H">Miller.H</a> </p>
+<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/mixingModels/mixingSubModels/mixingKernels/mixingKernel/mixingKernel.H">mixingKernel.H</a> </p>
 
-<p>Definition in file <a class="el" href="a00149_source.html">Miller.H</a>.</p>
+<p>Definition in file <a class="el" href="a00149_source.html">mixingKernel.H</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0ecbe6cb5f50223527ce4e1b499bd333.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="dir_58c61e057ed2119d9755c9fdbb448648.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="dir_deb70e2408b5d543a7b3ca509fad8f1b.html">nucleationModels</a></li><li class="navelem"><a class="el" href="dir_f5e6c39f7e50ea6e3bf0653f77e5e8b2.html">Miller</a></li><li class="navelem"><a class="el" href="a00149.html">Miller.H</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_e33c4094dda42b63bf42ed0cf06ff677.html">mixingModels</a></li><li class="navelem"><a class="el" href="dir_2e6d34bda531f0fb841bc3aac1e0e585.html">mixingSubModels</a></li><li class="navelem"><a class="el" href="dir_59c2c0be88902734948c694706404395.html">mixingKernels</a></li><li class="navelem"><a class="el" href="dir_5b2311dddb8d1d4e27493a6b3d60ef15.html">mixingKernel</a></li><li class="navelem"><a class="el" href="a00149.html">mixingKernel.H</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

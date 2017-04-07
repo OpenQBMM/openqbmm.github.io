@@ -1,5 +1,4 @@
-<map id="extendedMomentInversion" name="extendedMomentInversion">
-<area shape="rect" id="node2" href="$a00005.html" title="Extended quadrature method of moments with beta kernel density functions. " alt="" coords="5,80,104,107"/>
-<area shape="rect" id="node3" href="$a00025.html" title="Extended quadrature method of moments with gamma kernel density functions. " alt="" coords="129,80,247,107"/>
-<area shape="rect" id="node4" href="$a00035.html" title="Extended quadrature method of moments with log&#45;normal kernel density functions. " alt="" coords="271,80,403,107"/>
+<map id="fieldMomentInversion" name="fieldMomentInversion">
+<area shape="rect" id="node2" href="$a00004.html" title="Invert moment a volUnivariateMomentFieldSet using basic quadrature inversion. " alt="" coords="5,80,192,107"/>
+<area shape="rect" id="node3" href="$a00019.html" title="Inverts a volUnivariateMomentFieldSet using the extended quadrature method of moments. " alt="" coords="216,80,427,107"/>
 </map>

@@ -4,5 +4,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node1 [label="Interaction",height=0.2,width=0.4,color="black",URL="$a00034.html",tooltip="Brownian aggregation kernel supplemented kernel for particles in turbulent flows in conditions when t..."];
+  Node1 [label="mixingModels",height=0.2,width=0.4,color="black",URL="$a00038.html",tooltip="Solve a turbulent mixing model. "];
 }

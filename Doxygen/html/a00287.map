@@ -1,7 +1,3 @@
-<map id="conditionalMomentInversion.H" name="conditionalMomentInversion.H">
-<area shape="rect" id="node5" href="$a00241.html" title="univariateMomentSet.H" alt="" coords="310,155,470,181"/>
-<area shape="rect" id="node6" href="$a00238.html" title="univariateMomentInversion.H" alt="" coords="410,80,605,107"/>
-<area shape="rect" id="node7" href="$a00249.html" title="Vandermonde.H" alt="" coords="564,155,684,181"/>
-<area shape="rect" id="node8" href="$a00171.html" title="nDimensionalMappedList.H" alt="" coords="150,80,335,107"/>
-<area shape="rect" id="node9" href="$a00091.html" title="conditionalMomentInversionI.H" alt="" coords="680,80,884,107"/>
+<map id="conditionalMomentInversionI.H" name="conditionalMomentInversionI.H">
+<area shape="rect" id="node2" href="$a00088.html" title="conditionalMomentInversion.H" alt="" coords="7,80,208,107"/>
 </map>

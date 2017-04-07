@@ -1,15 +1,17 @@
-digraph "basicFieldMomentInversion.H"
+digraph "betaEQMOM.C"
 {
   bgcolor="transparent";
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="basicFieldMomentInversion.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 [label="betaEQMOM.C",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
   Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="fieldMomentInversion.H",height=0.2,width=0.4,color="red",URL="$a00123.html"];
-  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="univariateMomentSet.H",height=0.2,width=0.4,color="red",URL="$a00241.html"];
+  Node2 [label="betaEQMOM.H",height=0.2,width=0.4,color="red",URL="$a00081.html"];
   Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="scalar.H",height=0.2,width=0.4,color="grey75"];
   Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node4 [label="univariateMomentInversion.H",height=0.2,width=0.4,color="red",URL="$a00238.html"];
-  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="scalarMatrices.H",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="constants.H",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="addToRunTimeSelectionTable.H",height=0.2,width=0.4,color="grey75"];
 }

@@ -1,7 +1,5 @@
 var a00253 =
 [
-    [ "diffusionModels", "a00254.html", "a00254" ],
-    [ "mixingKernels", "a00255.html", "a00255" ],
-    [ "diffusionModel", "a00014.html", "a00014" ],
-    [ "mixingKernel", "a00038.html", "a00038" ]
+    [ "FokkerPlanck", "a00022.html", "a00022" ],
+    [ "IEM", "a00030.html", "a00030" ]
 ];

@@ -1,6 +1,4 @@
 <map id="support" name="support">
-<area shape="rect" id="node2" href="$a00019.html#a0db254ceb34e9343bebd658750f9312d" title="Invert moments on boundaries. " alt="" coords="396,24,625,65"/>
-<area shape="rect" id="node3" href="$a00004.html#a0db254ceb34e9343bebd658750f9312d" title="Invert moments on boundaries. " alt="" coords="396,115,625,156"/>
-<area shape="rect" id="node4" href="$a00019.html#ae61ce7f3d511855a1d0eaf25c94d648f" title="Invert moments in a single cell. " alt="" coords="131,40,335,81"/>
-<area shape="rect" id="node5" href="$a00004.html#ae61ce7f3d511855a1d0eaf25c94d648f" title="Invert moments in a single cell. " alt="" coords="119,157,348,199"/>
+<area shape="rect" id="node2" href="$a00020.html#a45d56bb3ba42ace7670d4c68707abf5d" title="Invert moments to find weight, abscissae and sigma. " alt="" coords="391,5,615,47"/>
+<area shape="rect" id="node3" href="$a00020.html#a21b737ce5ace3ad03f53c403f8e33127" title="Compute the normalized moment error. " alt="" coords="119,35,343,76"/>
 </map>

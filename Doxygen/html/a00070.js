@@ -1,21 +1,13 @@
 var a00070 =
 [
-    [ "univariateMomentSet", "a00070.html#ad00a756f64fc3a916ed12a28311ca0d8", null ],
-    [ "univariateMomentSet", "a00070.html#ad0210e9bd66f7a47538343809c285336", null ],
-    [ "~univariateMomentSet", "a00070.html#a1d22df074ca1399584587efd06cc562a", null ],
-    [ "alphaRecurrence", "a00070.html#ab8a8796d726d48dc10e6c596e7db6094", null ],
-    [ "alphaRecurrence", "a00070.html#a5d692f80be2fae779e373513e263b6e1", null ],
-    [ "betaRecurrence", "a00070.html#ac28e83c3c38907e738fb554c3e26ba0d", null ],
-    [ "betaRecurrence", "a00070.html#a763a9605b171b40abbf64f0c13054dfe", null ],
-    [ "isDegenerate", "a00070.html#a3049a5df266d0671853f077acf4c6975", null ],
-    [ "isFullyRealizable", "a00070.html#a1955fd1ee1096cb91e27063baf97c4d4", null ],
-    [ "isRealizable", "a00070.html#a58730b945c36dd3aa5042e95e1e9f098", null ],
-    [ "isSubsetRealizable", "a00070.html#a98ab2e587e2ae018f1c7b23a4a20168e", null ],
-    [ "isOnMomentSpaceBoundary", "a00070.html#a54a602fe9e0f6b808bf432ed0326ac46", null ],
-    [ "momentOrders", "a00070.html#a47393a1ebbe34ea66716a08b5a27ce9f", null ],
-    [ "nRealizableMoments", "a00070.html#a2256488242f928209215b0a3221f6bb8", null ],
-    [ "update", "a00070.html#ab2d663e44a31918ddbad847b7894b995", null ],
-    [ "operator[]", "a00070.html#a0630fe677f21cfd14ac34563442adaf9", null ],
-    [ "operator[]", "a00070.html#a534a916eb7080818ddbd292257a17c5c", null ],
-    [ "realizabilityChecked_", "a00070.html#ae90397e9f5eb1ce2b969b6223f3f1ab9", null ]
+    [ "univariatePDFTransportModel", "a00070.html#ac76f0af150281544efbb317164c0075e", null ],
+    [ "~univariatePDFTransportModel", "a00070.html#a7c2fb39b317ec861cc76f8a047fb2e0b", null ],
+    [ "momentDiffusion", "a00070.html#a6dca7ee5f9dcbd74ab958fead1ac05fd", null ],
+    [ "implicitMomentSource", "a00070.html#a984a91bb0f818af9554dbc6805598ea3", null ],
+    [ "explicitMomentSource", "a00070.html#a85b0ae2fdf7934eb3a8fda32f8795fa5", null ],
+    [ "cellMomentSource", "a00070.html#aec57a3aa99ea3029930dc95b50c005e6", null ],
+    [ "quadrature", "a00070.html#a200f5b2e653f07470d4ac4fa1a317779", null ],
+    [ "solve", "a00070.html#af7d39f0eac0af0ed5785935ac72a1e7d", null ],
+    [ "quadrature_", "a00070.html#a4fa4a0f5eac7545eecc523ed6244beba", null ],
+    [ "momentAdvection_", "a00070.html#ae68524f5590b620d61f8e7f0f866cfa0", null ]
 ];

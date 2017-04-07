@@ -1,7 +1,7 @@
 var a00056 =
 [
-    [ "PDFTransportModel", "a00056.html#a7a484ccf0035787e3f0694401128817a", null ],
-    [ "~PDFTransportModel", "a00056.html#aa73779ffb5b8359a6463d7c93864fee6", null ],
-    [ "solve", "a00056.html#aacd6f92a174ec1ebe14983fc21ec498c", null ],
-    [ "mesh_", "a00056.html#a23edeeeecebcef11921a33dd5d990570", null ]
+    [ "powerLawBreakup", "a00056.html#a11045d68f7b22d71a19150334861de52", null ],
+    [ "~powerLawBreakup", "a00056.html#acfdcf8ac936fab910b034c20837198f6", null ],
+    [ "TypeName", "a00056.html#ab1fbb32a962ed7ca607b766ec813333b", null ],
+    [ "Kb", "a00056.html#a1e8a125530058d3c06bc7ca11c10c1e2", null ]
 ];

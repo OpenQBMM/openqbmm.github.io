@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>aggregationKernel.C File Reference</title>
+<title>AyaziShamlou.C File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,15 +107,15 @@ $(document).ready(function(){initNavTree('a00076.html','');});
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">aggregationKernel.C File Reference</div>  </div>
+<div class="title">AyaziShamlou.C File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div class="dynheader">
-Include dependency graph for aggregationKernel.C:</div>
+Include dependency graph for AyaziShamlou.C:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00267.png" border="0" usemap="#aggregationKernel_8C" alt=""/></div>
-<map name="aggregationKernel_8C" id="aggregationKernel_8C">
-<area shape="rect" id="node2" href="a00077.html" title="aggregationKernel.H" alt="" coords="5,80,152,107"/>
+<div class="center"><img src="a00268.png" border="0" usemap="#AyaziShamlou_8C" alt=""/></div>
+<map name="AyaziShamlou_8C" id="AyaziShamlou_8C">
+<area shape="rect" id="node2" href="a00077.html" title="AyaziShamlou.H" alt="" coords="5,80,127,107"/>
 </map>
 </div>
 </div>
@@ -123,28 +123,30 @@ Include dependency graph for aggregationKernel.C:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:a00251"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html">Foam</a></td></tr>
+<tr class="memitem:a00249"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00249.html">Foam</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00260"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00260.html">Foam::populationBalanceSubModels</a></td></tr>
+<tr class="memitem:a00258"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00258.html">Foam::populationBalanceSubModels</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00260"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00260.html">Foam::populationBalanceSubModels::breakupKernels</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:abce02722c305557cb5730a9610ba0d51"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00260.html#abce02722c305557cb5730a9610ba0d51">defineTypeNameAndDebug</a> (aggregationKernel, 0)</td></tr>
-<tr class="separator:abce02722c305557cb5730a9610ba0d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9dd0aa6f3fae81195037437f9fb2042f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00260.html#a9dd0aa6f3fae81195037437f9fb2042f">defineRunTimeSelectionTable</a> (aggregationKernel, dictionary)</td></tr>
-<tr class="separator:a9dd0aa6f3fae81195037437f9fb2042f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee88bb613072a5f64915965fd870f306"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00260.html#aee88bb613072a5f64915965fd870f306">defineTypeNameAndDebug</a> (AyaziShamlou, 0)</td></tr>
+<tr class="separator:aee88bb613072a5f64915965fd870f306"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae91cc006297638cdc5e7a12a87ce8e8d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00260.html#ae91cc006297638cdc5e7a12a87ce8e8d">addToRunTimeSelectionTable</a> (breakupKernel, AyaziShamlou, dictionary)</td></tr>
+<tr class="separator:ae91cc006297638cdc5e7a12a87ce8e8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/aggregationKernels/aggregationKernel/aggregationKernel.C">aggregationKernel.C</a> </p>
+<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/breakupKernels/AyaziShamlou/AyaziShamlou.C">AyaziShamlou.C</a> </p>
 
-<p>Definition in file <a class="el" href="a00076_source.html">aggregationKernel.C</a>.</p>
+<p>Definition in file <a class="el" href="a00076_source.html">AyaziShamlou.C</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0ecbe6cb5f50223527ce4e1b499bd333.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="dir_58c61e057ed2119d9755c9fdbb448648.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="dir_62f86ef0c260ceaf3b93a8b1f701039a.html">aggregationKernels</a></li><li class="navelem"><a class="el" href="dir_a48c39aac25b9d92c13c5141c3503af1.html">aggregationKernel</a></li><li class="navelem"><a class="el" href="a00076.html">aggregationKernel.C</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0ecbe6cb5f50223527ce4e1b499bd333.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="dir_58c61e057ed2119d9755c9fdbb448648.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="dir_8db1431bcb360c6bb23f8119e5d3e19f.html">breakupKernels</a></li><li class="navelem"><a class="el" href="dir_1306103f5437f7f37382e35d6e11531c.html">AyaziShamlou</a></li><li class="navelem"><a class="el" href="a00076.html">AyaziShamlou.C</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

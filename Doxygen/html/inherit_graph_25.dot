@@ -4,5 +4,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node1 [label="univariateMomentAdvection",height=0.2,width=0.4,color="black",URL="$a00068.html",tooltip="Computes advection term for a moment set using a realizable advection scheme. "];
+  Node1 [label="univariatePDFTransportModel",height=0.2,width=0.4,color="black",URL="$a00069.html",tooltip="Solve a univariate PDF transport equation with the extended quadrature method of moments. "];
 }

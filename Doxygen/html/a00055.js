@@ -1,7 +1,10 @@
 var a00055 =
 [
-    [ "oneQuarterMassRatio", "a00055.html#a962d460d76cd33e02cf608ca4beacb77", null ],
-    [ "~oneQuarterMassRatio", "a00055.html#a147fb07ac3fc0d40d665bba9391ef32d", null ],
-    [ "TypeName", "a00055.html#a7fb47156df4cac064c2b90cb0fc81675", null ],
-    [ "mD", "a00055.html#af11d63388088dc9b381b450559526d24", null ]
+    [ "populationBalanceModel", "a00055.html#a31d0f5b4494ff076cb81eed74ba4bce2", null ],
+    [ "~populationBalanceModel", "a00055.html#ae05106936db1115c15304ded19972e3d", null ],
+    [ "TypeName", "a00055.html#a9723503cf97d2ad82b67092a7aa3e1f3", null ],
+    [ "declareRunTimeSelectionTable", "a00055.html#a7f8cc56b3b077604a6644432cf501cda", null ],
+    [ "New", "a00055.html#a9209244e0920b05f98597bf3d105149d", null ],
+    [ "solve", "a00055.html#aacd6f92a174ec1ebe14983fc21ec498c", null ],
+    [ "phi_", "a00055.html#a5828da03a859a3aaa358802cd2daf505", null ]
 ];

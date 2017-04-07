@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>gammaEQMOM.C File Reference</title>
+<title>gaussLobattoMomentInversion.C File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,15 +107,15 @@ $(document).ready(function(){initNavTree('a00129.html','');});
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">gammaEQMOM.C File Reference</div>  </div>
+<div class="title">gaussLobattoMomentInversion.C File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div class="dynheader">
-Include dependency graph for gammaEQMOM.C:</div>
+Include dependency graph for gaussLobattoMomentInversion.C:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00346.png" border="0" usemap="#gammaEQMOM_8C" alt=""/></div>
-<map name="gammaEQMOM_8C" id="gammaEQMOM_8C">
-<area shape="rect" id="node2" href="a00130.html" title="gammaEQMOM.H" alt="" coords="5,80,136,107"/>
+<div class="center"><img src="a00347.png" border="0" usemap="#gaussLobattoMomentInversion_8C" alt=""/></div>
+<map name="gaussLobattoMomentInversion_8C" id="gaussLobattoMomentInversion_8C">
+<area shape="rect" id="node2" href="a00130.html" title="gaussLobattoMomentInversion.H" alt="" coords="5,80,223,107"/>
 </map>
 </div>
 </div>
@@ -123,26 +123,26 @@ Include dependency graph for gammaEQMOM.C:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:a00251"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html">Foam</a></td></tr>
+<tr class="memitem:a00249"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00249.html">Foam</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a5538d367d57069f3187e09fb0a7d2a9d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html#a5538d367d57069f3187e09fb0a7d2a9d">defineTypeNameAndDebug</a> (gammaEQMOM, 0)</td></tr>
-<tr class="separator:a5538d367d57069f3187e09fb0a7d2a9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58f6c31a874dc8c6ef95eb608f2301e0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html#a58f6c31a874dc8c6ef95eb608f2301e0">addToRunTimeSelectionTable</a> (extendedMomentInversion, gammaEQMOM, dictionary)</td></tr>
-<tr class="separator:a58f6c31a874dc8c6ef95eb608f2301e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1870f4400a3553172ddbd7b520d56e70"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00249.html#a1870f4400a3553172ddbd7b520d56e70">defineTypeNameAndDebug</a> (gaussLobattoMomentInversion, 0)</td></tr>
+<tr class="separator:a1870f4400a3553172ddbd7b520d56e70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcbde07469f4b6865f880188dfaaed03"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00249.html#abcbde07469f4b6865f880188dfaaed03">addToRunTimeSelectionTable</a> (univariateMomentInversion, gaussLobattoMomentInversion, dictionary)</td></tr>
+<tr class="separator:abcbde07469f4b6865f880188dfaaed03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/momentInversion/univariate/extended/gamma/gammaEQMOM.C">gammaEQMOM.C</a> </p>
+<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/momentInversion/univariate/basic/gaussLobattoMomentInversion/gaussLobattoMomentInversion.C">gaussLobattoMomentInversion.C</a> </p>
 
-<p>Definition in file <a class="el" href="a00129_source.html">gammaEQMOM.C</a>.</p>
+<p>Definition in file <a class="el" href="a00129_source.html">gaussLobattoMomentInversion.C</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0b9bb76b72c90181149adc55e92e6ea3.html">momentInversion</a></li><li class="navelem"><a class="el" href="dir_224f5f7c837ec5f1a50cf8e5b44c5959.html">univariate</a></li><li class="navelem"><a class="el" href="dir_eab674178c35773c79abc32ac1e64a39.html">extended</a></li><li class="navelem"><a class="el" href="dir_679bb07e57b0ad279d38bc3f66185dd2.html">gamma</a></li><li class="navelem"><a class="el" href="a00129.html">gammaEQMOM.C</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0b9bb76b72c90181149adc55e92e6ea3.html">momentInversion</a></li><li class="navelem"><a class="el" href="dir_224f5f7c837ec5f1a50cf8e5b44c5959.html">univariate</a></li><li class="navelem"><a class="el" href="dir_b57c68eea9442de1941a28876bed1be5.html">basic</a></li><li class="navelem"><a class="el" href="dir_f1f723fe88f1b2bf78e7a2bc53aadd65.html">gaussLobattoMomentInversion</a></li><li class="navelem"><a class="el" href="a00129.html">gaussLobattoMomentInversion.C</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

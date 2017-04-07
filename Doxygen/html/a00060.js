@@ -1,21 +1,7 @@
 var a00060 =
 [
-    [ "iNew", "a00032.html", "a00032" ],
-    [ "quadratureNode", "a00060.html#ab4a87e985dbde8b2a7052ca8e443dd00", null ],
-    [ "quadratureNode", "a00060.html#a5683c102dc4bc1dfdb49072dcf9556d3", null ],
-    [ "~quadratureNode", "a00060.html#ad65970595fbbbcb000b0192eb41d7416", null ],
-    [ "clone", "a00060.html#a44d59e562ac996bdebdb242602452a52", null ],
-    [ "name", "a00060.html#a6d60057c26042eaf7fa1b3b6fb07b582", null ],
-    [ "extended", "a00060.html#a169e93115091615d69838e87c7f96a14", null ],
-    [ "nSecondaryNodes", "a00060.html#a6d3652c06c7d71d67f199d2104465f3a", null ],
-    [ "primaryWeight", "a00060.html#aa0a25e3fbd8098cb359e8e92cafba070", null ],
-    [ "primaryWeight", "a00060.html#a156872933508c1374a01a7abe6ec039c", null ],
-    [ "primaryAbscissa", "a00060.html#a436581ffd72d3ac178b6d3381f0928ce", null ],
-    [ "primaryAbscissa", "a00060.html#a501aa6ae793c60ca18e873cb53c67be9", null ],
-    [ "secondaryWeights", "a00060.html#a225ac587d44fce3f6a523a89784379af", null ],
-    [ "secondaryWeights", "a00060.html#aaa0787d957d3b8ce80ecb60ccf5482d8", null ],
-    [ "secondaryAbscissae", "a00060.html#acf323f4680d96d62aca77b85fab8d25c", null ],
-    [ "secondaryAbscissae", "a00060.html#aaff8cd6e5fbfd9b1c86db4f836f9dc2c", null ],
-    [ "sigma", "a00060.html#ae7ed63986006f100bfc1515291f070cb", null ],
-    [ "sigma", "a00060.html#a211880a026af3ce558c45adc81be4c3d", null ]
+    [ "symmetricFragmentation", "a00060.html#a06ddb9d84a56a2e718822ea145ca1c01", null ],
+    [ "~symmetricFragmentation", "a00060.html#a8d44e31c17c944f6a03e3abea48bbea2", null ],
+    [ "TypeName", "a00060.html#a999a81c4ca2504ee0ffe0b088c09ba85", null ],
+    [ "mD", "a00060.html#af11d63388088dc9b381b450559526d24", null ]
 ];

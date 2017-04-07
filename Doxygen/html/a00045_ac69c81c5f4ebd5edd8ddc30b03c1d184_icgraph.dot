@@ -6,13 +6,8 @@ digraph "support"
   rankdir="LR";
   Node1 [label="support",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="Foam::extendedFieldMoment\lInversion::invertBoundaryMoments",height=0.2,width=0.4,color="red",URL="$a00019.html#a0db254ceb34e9343bebd658750f9312d",tooltip="Invert moments on boundaries. "];
+  Node2 [label="Foam::extendedMomentInversion\l::invert",height=0.2,width=0.4,color="black",URL="$a00020.html#a45d56bb3ba42ace7670d4c68707abf5d",tooltip="Invert moments to find weight, abscissae and sigma. "];
   Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="Foam::basicFieldMomentInversion\l::invertBoundaryMoments",height=0.2,width=0.4,color="red",URL="$a00004.html#a0db254ceb34e9343bebd658750f9312d",tooltip="Invert moments on boundaries. "];
-  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node4 [label="Foam::extendedFieldMoment\lInversion::invertLocalMoments",height=0.2,width=0.4,color="black",URL="$a00019.html#ae61ce7f3d511855a1d0eaf25c94d648f",tooltip="Invert moments in a single cell. "];
-  Node4 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node5 [label="Foam::basicFieldMomentInversion\l::invertLocalMoments",height=0.2,width=0.4,color="black",URL="$a00004.html#ae61ce7f3d511855a1d0eaf25c94d648f",tooltip="Invert moments in a single cell. "];
-  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Foam::extendedMomentInversion\l::normalizedMomentError",height=0.2,width=0.4,color="black",URL="$a00020.html#a21b737ce5ace3ad03f53c403f8e33127",tooltip="Compute the normalized moment error. "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
 }

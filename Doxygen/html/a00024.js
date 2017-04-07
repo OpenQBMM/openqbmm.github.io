@@ -1,7 +1,12 @@
 var a00024 =
 [
-    [ "fullFragmentation", "a00024.html#aa3c53b21095cacbcf34c500cc696a3fa", null ],
-    [ "~fullFragmentation", "a00024.html#adb107a2c005595f4c614a4b15316b0e8", null ],
-    [ "TypeName", "a00024.html#a9605c41753d122821a153bb82d936e9c", null ],
-    [ "mD", "a00024.html#af11d63388088dc9b381b450559526d24", null ]
+    [ "gammaEQMOM", "a00024.html#a41e161473baf15e743b15c1570ae7fee", null ],
+    [ "~gammaEQMOM", "a00024.html#a89b0169394c5e2e3ed2587258b2f6b95", null ],
+    [ "TypeName", "a00024.html#afffec2f7f3e2436504686ee8fe86986f", null ],
+    [ "secondaryAbscissa", "a00024.html#a872602e3d9bce4c696be2c2684a05e5a", null ],
+    [ "momentsStarToMoments", "a00024.html#a1eb2822d55fbaa8060321a24fc197329", null ],
+    [ "momentsToMomentsStar", "a00024.html#a88e521ae957743da06eec8e0ab777e2e", null ],
+    [ "m2N", "a00024.html#abee7f03ce3d0afa1dbc462ff6da2fff9", null ],
+    [ "recurrenceRelation", "a00024.html#a5831aae7a1d440271b5184f59f912503", null ],
+    [ "sigmaMax", "a00024.html#a479ec71576844909c5c0756350c24e2f", null ]
 ];

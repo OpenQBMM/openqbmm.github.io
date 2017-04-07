@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>uniform.H File Reference</title>
+<title>univariateMomentAdvection.H File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,23 +107,28 @@ $(document).ready(function(){initNavTree('a00233.html','');});
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
-<div class="title">uniform.H File Reference</div>  </div>
+<div class="title">univariateMomentAdvection.H File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div class="dynheader">
-Include dependency graph for uniform.H:</div>
+Include dependency graph for univariateMomentAdvection.H:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00485.png" border="0" usemap="#uniform_8H" alt=""/></div>
-<map name="uniform_8H" id="uniform_8H">
-<area shape="rect" id="node2" href="a00104.html" title="daughterDistribution.H" alt="" coords="5,80,157,107"/>
+<div class="center"><img src="a00486.png" border="0" usemap="#univariateMomentAdvection_8H" alt=""/></div>
+<map name="univariateMomentAdvection_8H" id="univariateMomentAdvection_8H">
+<area shape="rect" id="node8" href="a00215.html" title="quadratureNodes.H" alt="" coords="612,229,751,256"/>
+<area shape="rect" id="node9" href="a00162.html" title="momentFieldSets.H" alt="" coords="719,155,857,181"/>
+<area shape="rect" id="node10" href="a00079.html" title="basicFieldMomentInversion.H" alt="" coords="935,80,1134,107"/>
+<area shape="rect" id="node11" href="a00211.html" title="quadratureApproximations.H" alt="" coords="479,80,670,107"/>
+<area shape="rect" id="node12" href="a00234.html" title="univariateMomentAdvectionI.H" alt="" coords="1159,80,1361,107"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00486.png" border="0" usemap="#uniform_8Hdep" alt=""/></div>
-<map name="uniform_8Hdep" id="uniform_8Hdep">
-<area shape="rect" id="node2" href="a00232.html" title="uniform.C" alt="" coords="5,80,84,107"/>
+<div class="center"><img src="a00487.png" border="0" usemap="#univariateMomentAdvection_8Hdep" alt=""/></div>
+<map name="univariateMomentAdvection_8Hdep" id="univariateMomentAdvection_8Hdep">
+<area shape="rect" id="node2" href="a00232.html" title="univariateMomentAdvection.C" alt="" coords="5,80,207,107"/>
+<area shape="rect" id="node3" href="a00242.html" title="univariatePDFTransportModel.H" alt="" coords="231,80,445,107"/>
 </map>
 </div>
 </div>
@@ -131,29 +136,25 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00067.html">uniform</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Daughter distribution of fragments with uniform fragmentation.  <a href="a00067.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00066.html">univariateMomentAdvection</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes advection term for a moment set using a realizable advection scheme.  <a href="a00066.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:a00251"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html">Foam</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00260"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00260.html">Foam::populationBalanceSubModels</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00263"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00263.html">Foam::populationBalanceSubModels::daughterDistributions</a></td></tr>
+<tr class="memitem:a00249"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00249.html">Foam</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/daugtherDistributions/uniform/uniform.H">uniform.H</a> </p>
+<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/momentAdvection/univariateMomentAdvection/univariateMomentAdvection.H">univariateMomentAdvection.H</a> </p>
 
-<p>Definition in file <a class="el" href="a00233_source.html">uniform.H</a>.</p>
+<p>Definition in file <a class="el" href="a00233_source.html">univariateMomentAdvection.H</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0ecbe6cb5f50223527ce4e1b499bd333.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="dir_58c61e057ed2119d9755c9fdbb448648.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="dir_a959301c3cf54322ad2aac04893d37dc.html">daugtherDistributions</a></li><li class="navelem"><a class="el" href="dir_d458f2ad8e865215de6e423075fd659a.html">uniform</a></li><li class="navelem"><a class="el" href="a00233.html">uniform.H</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_1a1d8e7a8fbc26c9783a2a4005a1b47e.html">momentAdvection</a></li><li class="navelem"><a class="el" href="dir_c05ff1c71b12f8c6694221d9f33a3a84.html">univariateMomentAdvection</a></li><li class="navelem"><a class="el" href="a00233.html">univariateMomentAdvection.H</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

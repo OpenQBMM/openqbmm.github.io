@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>breakupKernel.C File Reference</title>
+<title>Brownian.C File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,15 +107,15 @@ $(document).ready(function(){initNavTree('a00084.html','');});
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">breakupKernel.C File Reference</div>  </div>
+<div class="title">Brownian.C File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div class="dynheader">
-Include dependency graph for breakupKernel.C:</div>
+Include dependency graph for Brownian.C:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00279.png" border="0" usemap="#breakupKernel_8C" alt=""/></div>
-<map name="breakupKernel_8C" id="breakupKernel_8C">
-<area shape="rect" id="node2" href="a00085.html" title="breakupKernel.H" alt="" coords="6,80,127,107"/>
+<div class="center"><img src="a00280.png" border="0" usemap="#Brownian_8C" alt=""/></div>
+<map name="Brownian_8C" id="Brownian_8C">
+<area shape="rect" id="node2" href="a00085.html" title="Brownian.H" alt="" coords="5,80,96,107"/>
 </map>
 </div>
 </div>
@@ -123,28 +123,30 @@ Include dependency graph for breakupKernel.C:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:a00251"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html">Foam</a></td></tr>
+<tr class="memitem:a00249"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00249.html">Foam</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00260"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00260.html">Foam::populationBalanceSubModels</a></td></tr>
+<tr class="memitem:a00258"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00258.html">Foam::populationBalanceSubModels</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00259"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00259.html">Foam::populationBalanceSubModels::aggregationKernels</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab205061f0523b0c0145ab52cb5a15fa7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00260.html#ab205061f0523b0c0145ab52cb5a15fa7">defineTypeNameAndDebug</a> (breakupKernel, 0)</td></tr>
-<tr class="separator:ab205061f0523b0c0145ab52cb5a15fa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a226d16ce92fe729b204a751b4b002599"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00260.html#a226d16ce92fe729b204a751b4b002599">defineRunTimeSelectionTable</a> (breakupKernel, dictionary)</td></tr>
-<tr class="separator:a226d16ce92fe729b204a751b4b002599"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a076221bfaf795356aff635f898ab8962"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00259.html#a076221bfaf795356aff635f898ab8962">defineTypeNameAndDebug</a> (Brownian, 0)</td></tr>
+<tr class="separator:a076221bfaf795356aff635f898ab8962"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c6c4b45a7436ec7f10b0bcd7b9d3a75"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00259.html#a4c6c4b45a7436ec7f10b0bcd7b9d3a75">addToRunTimeSelectionTable</a> (aggregationKernel, Brownian, dictionary)</td></tr>
+<tr class="separator:a4c6c4b45a7436ec7f10b0bcd7b9d3a75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/breakupKernels/breakupKernel/breakupKernel.C">breakupKernel.C</a> </p>
+<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/aggregationKernels/Brownian/Brownian.C">Brownian.C</a> </p>
 
-<p>Definition in file <a class="el" href="a00084_source.html">breakupKernel.C</a>.</p>
+<p>Definition in file <a class="el" href="a00084_source.html">Brownian.C</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0ecbe6cb5f50223527ce4e1b499bd333.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="dir_58c61e057ed2119d9755c9fdbb448648.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="dir_8db1431bcb360c6bb23f8119e5d3e19f.html">breakupKernels</a></li><li class="navelem"><a class="el" href="dir_716f5cbb281bc8c04cbc643b875570af.html">breakupKernel</a></li><li class="navelem"><a class="el" href="a00084.html">breakupKernel.C</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0ecbe6cb5f50223527ce4e1b499bd333.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="dir_58c61e057ed2119d9755c9fdbb448648.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="dir_62f86ef0c260ceaf3b93a8b1f701039a.html">aggregationKernels</a></li><li class="navelem"><a class="el" href="dir_71fbc4140e0b22ddf08dacef365d70a4.html">Brownian</a></li><li class="navelem"><a class="el" href="a00084.html">Brownian.C</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>extendedFieldMomentInversion.H File Reference</title>
+<title>extendedMomentInversion.H File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,25 +107,29 @@ $(document).ready(function(){initNavTree('a00119.html','');});
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
-<div class="title">extendedFieldMomentInversion.H File Reference</div>  </div>
+<div class="title">extendedMomentInversion.H File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div class="dynheader">
-Include dependency graph for extendedFieldMomentInversion.H:</div>
+Include dependency graph for extendedMomentInversion.H:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00331.png" border="0" usemap="#extendedFieldMomentInversion_8H" alt=""/></div>
-<map name="extendedFieldMomentInversion_8H" id="extendedFieldMomentInversion_8H">
-<area shape="rect" id="node2" href="a00123.html" title="fieldMomentInversion.H" alt="" coords="5,80,167,107"/>
-<area shape="rect" id="node3" href="a00241.html" title="univariateMomentSet.H" alt="" coords="125,155,285,181"/>
-<area shape="rect" id="node4" href="a00121.html" title="extendedMomentInversion.H" alt="" coords="243,80,436,107"/>
+<div class="center"><img src="a00332.png" border="0" usemap="#extendedMomentInversion_8H" alt=""/></div>
+<map name="extendedMomentInversion_8H" id="extendedMomentInversion_8H">
+<area shape="rect" id="node7" href="a00239.html" title="univariateMomentSet.H" alt="" coords="266,155,426,181"/>
+<area shape="rect" id="node8" href="a00236.html" title="univariateMomentInversion.H" alt="" coords="285,80,479,107"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00332.png" border="0" usemap="#extendedFieldMomentInversion_8Hdep" alt=""/></div>
-<map name="extendedFieldMomentInversion_8Hdep" id="extendedFieldMomentInversion_8Hdep">
-<area shape="rect" id="node2" href="a00118.html" title="extendedFieldMomentInversion.C" alt="" coords="5,80,229,107"/>
+<div class="center"><img src="a00333.png" border="0" usemap="#extendedMomentInversion_8Hdep" alt=""/></div>
+<map name="extendedMomentInversion_8Hdep" id="extendedMomentInversion_8Hdep">
+<area shape="rect" id="node2" href="a00117.html" title="extendedFieldMomentInversion.H" alt="" coords="5,80,228,107"/>
+<area shape="rect" id="node3" href="a00081.html" title="betaEQMOM.H" alt="" coords="252,80,363,107"/>
+<area shape="rect" id="node4" href="a00118.html" title="extendedMomentInversion.C" alt="" coords="387,80,582,107"/>
+<area shape="rect" id="node5" href="a00176.html" title="newExtendedMomentInversion.C" alt="" coords="606,80,825,107"/>
+<area shape="rect" id="node6" href="a00128.html" title="gammaEQMOM.H" alt="" coords="849,80,979,107"/>
+<area shape="rect" id="node7" href="a00142.html" title="lognormalEQMOM.H" alt="" coords="1003,80,1147,107"/>
 </map>
 </div>
 </div>
@@ -133,25 +137,25 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00019.html">extendedFieldMomentInversion</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inverts a volUnivariateMomentFieldSet using the extended quadrature method of moments.  <a href="a00019.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00020.html">extendedMomentInversion</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract class to allow run-time selection of the algorithm to be used for the extended quadrature method of moments.  <a href="a00020.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:a00251"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html">Foam</a></td></tr>
+<tr class="memitem:a00249"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00249.html">Foam</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/fieldMomentInversion/extendedFieldMomentInversion/extendedFieldMomentInversion.H">extendedFieldMomentInversion.H</a> </p>
+<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/momentInversion/univariate/extended/extendedMomentInversion/extendedMomentInversion.H">extendedMomentInversion.H</a> </p>
 
-<p>Definition in file <a class="el" href="a00119_source.html">extendedFieldMomentInversion.H</a>.</p>
+<p>Definition in file <a class="el" href="a00119_source.html">extendedMomentInversion.H</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_db960164ea42c42a422c08f487d84e08.html">fieldMomentInversion</a></li><li class="navelem"><a class="el" href="dir_974837e992f7075392fb3f6492717f79.html">extendedFieldMomentInversion</a></li><li class="navelem"><a class="el" href="a00119.html">extendedFieldMomentInversion.H</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0b9bb76b72c90181149adc55e92e6ea3.html">momentInversion</a></li><li class="navelem"><a class="el" href="dir_224f5f7c837ec5f1a50cf8e5b44c5959.html">univariate</a></li><li class="navelem"><a class="el" href="dir_eab674178c35773c79abc32ac1e64a39.html">extended</a></li><li class="navelem"><a class="el" href="dir_81685f318616eefea0b52e76178bd778.html">extendedMomentInversion</a></li><li class="navelem"><a class="el" href="a00119.html">extendedMomentInversion.H</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

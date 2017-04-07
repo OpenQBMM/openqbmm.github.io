@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>quadratureApproximations.H File Reference</title>
+<title>quadratureNode.H File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -104,60 +104,55 @@ $(document).ready(function(){initNavTree('a00213.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
-<div class="title">quadratureApproximations.H File Reference</div>  </div>
+<div class="title">quadratureNode.H File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div class="dynheader">
-Include dependency graph for quadratureApproximations.H:</div>
+Include dependency graph for quadratureNode.H:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00457.png" border="0" usemap="#quadratureApproximations_8H" alt=""/></div>
-<map name="quadratureApproximations_8H" id="quadratureApproximations_8H">
-<area shape="rect" id="node3" href="a00217.html" title="quadratureNodes.H" alt="" coords="27,155,165,181"/>
-<area shape="rect" id="node4" href="a00164.html" title="momentFieldSets.H" alt="" coords="133,80,272,107"/>
-<area shape="rect" id="node5" href="a00211.html" title="quadratureApproximation.H" alt="" coords="240,155,424,181"/>
+<div class="center"><img src="a00458.png" border="0" usemap="#quadratureNode_8H" alt=""/></div>
+<map name="quadratureNode_8H" id="quadratureNode_8H">
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00458.png" border="0" usemap="#quadratureApproximations_8Hdep" alt=""/></div>
-<map name="quadratureApproximations_8Hdep" id="quadratureApproximations_8Hdep">
-<area shape="rect" id="node2" href="a00235.html" title="univariateMomentAdvection.H" alt="" coords="5,80,205,107"/>
-<area shape="rect" id="node3" href="a00244.html" title="univariatePDFTransportModel.H" alt="" coords="66,155,281,181"/>
+<div class="center"><img src="a00459.png" border="0" usemap="#quadratureNode_8Hdep" alt=""/></div>
+<map name="quadratureNode_8Hdep" id="quadratureNode_8Hdep">
+<area shape="rect" id="node2" href="a00212.html" title="quadratureNode.C" alt="" coords="5,80,139,107"/>
+<area shape="rect" id="node3" href="a00215.html" title="quadratureNodes.H" alt="" coords="163,80,301,107"/>
 </map>
 </div>
 </div>
 <p><a href="a00213_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:a00251"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html">Foam</a></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00058.html">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extended version of the quadrature node, which stores the list of secondary weights and abscissae associated to the primary weight and abscissa, and the sigma parameter.  <a href="a00058.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00031.html">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::iNew</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a pointer to a new quadrature node created on freestore.  <a href="a00031.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a545e54cd8a5ad1ca2192158b263148c5"><td class="memItemLeft" align="right" valign="top">typedef quadratureApproximation&lt; volUnivariateMomentFieldSet, volScalarNode &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html#a545e54cd8a5ad1ca2192158b263148c5">univariateQuadratureApproximation</a></td></tr>
-<tr class="separator:a545e54cd8a5ad1ca2192158b263148c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:a00249"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00249.html">Foam</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/quadratureApproximation/quadratureApproximations.H">quadratureApproximations.H</a></p>
-<p>InClass Foam::quadratureApproximations</p>
-<p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
-<li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/quadratureApproximation/quadratureApproximations.H">quadratureApproximations.H</a></li>
-</ul>
-</dd></dl>
+<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/quadratureNode/quadratureNode.H">quadratureNode.H</a> </p>
 
-<p>Definition in file <a class="el" href="a00213_source.html">quadratureApproximations.H</a>.</p>
+<p>Definition in file <a class="el" href="a00213_source.html">quadratureNode.H</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_9d10a745d1d113d9472c5830c2cbe4f5.html">quadratureApproximation</a></li><li class="navelem"><a class="el" href="a00213.html">quadratureApproximations.H</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_48cba3f3a1194fdbaf1cf859d335accc.html">quadratureNode</a></li><li class="navelem"><a class="el" href="a00213.html">quadratureNode.H</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

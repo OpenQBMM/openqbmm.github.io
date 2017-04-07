@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['sumaggregation',['sumAggregation',['../a00061.html',1,'Foam::populationBalanceSubModels::aggregationKernels']]],
-  ['symmetricfragmentation',['symmetricFragmentation',['../a00062.html',1,'Foam::populationBalanceSubModels::daughterDistributions']]]
+  ['sumaggregation',['sumAggregation',['../a00059.html',1,'Foam::populationBalanceSubModels::aggregationKernels']]],
+  ['symmetricfragmentation',['symmetricFragmentation',['../a00060.html',1,'Foam::populationBalanceSubModels::daughterDistributions']]]
 ];

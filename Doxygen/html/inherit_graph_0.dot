@@ -12,9 +12,9 @@ digraph "Graphical Class Hierarchy"
   Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node4 [label="differentialForceAggregation",height=0.2,width=0.4,color="black",URL="$a00013.html",tooltip="Differential force aggregation kernel with user defined coefficient (default Cagg = 1)..."];
   Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node5 [label="hydrodynamicAggregation",height=0.2,width=0.4,color="black",URL="$a00030.html",tooltip="Hydrodynamic aggregation kernel with user defined coefficient (default Cagg = 1). ..."];
+  Node5 [label="hydrodynamicAggregation",height=0.2,width=0.4,color="black",URL="$a00029.html",tooltip="Hydrodynamic aggregation kernel with user defined coefficient (default Cagg = 1). ..."];
   Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node6 [label="sumAggregation",height=0.2,width=0.4,color="black",URL="$a00061.html",tooltip="Sum aggregation kernel with user defined coefficient (default Cagg = 1). "];
+  Node6 [label="sumAggregation",height=0.2,width=0.4,color="black",URL="$a00059.html",tooltip="Sum aggregation kernel with user defined coefficient (default Cagg = 1). "];
   Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node7 [label="turbulentBrownian",height=0.2,width=0.4,color="black",URL="$a00063.html",tooltip="Brownian aggregation kernel supplemented for particles in turbulent flows in conditions when the part..."];
+  Node7 [label="turbulentBrownian",height=0.2,width=0.4,color="black",URL="$a00061.html",tooltip="Brownian aggregation kernel supplemented for particles in turbulent flows in conditions when the part..."];
 }

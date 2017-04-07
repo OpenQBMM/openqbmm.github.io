@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>output.H File Reference</title>
+<title>pbeTransportFoam.C File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -106,15 +106,19 @@ $(document).ready(function(){initNavTree('a00200.html','');});
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">output.H File Reference</div>  </div>
+<div class="title">pbeTransportFoam.C File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Solver for population balance equation on steady velocity field.  
+<a href="#details">More...</a></p>
 <div class="textblock"><div class="dynheader">
-This graph shows which files directly or indirectly include this file:</div>
+Include dependency graph for pbeTransportFoam.C:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00440.png" border="0" usemap="#output_8Hdep" alt=""/></div>
-<map name="output_8Hdep" id="output_8Hdep">
-<area shape="rect" id="node2" href="a00201.html" title="Solver for population balance problems. " alt="" coords="5,80,97,107"/>
+<div class="center"><img src="a00440.png" border="0" usemap="#pbeTransportFoam_8C" alt=""/></div>
+<map name="pbeTransportFoam_8C" id="pbeTransportFoam_8C">
+<area shape="rect" id="node8" href="a00205.html" title="populationBalanceModel.H" alt="" coords="942,87,1125,114"/>
+<area shape="rect" id="node13" href="a00099.html" title="createFields.H" alt="" coords="1783,87,1892,114"/>
 </map>
 </div>
 </div>
@@ -122,40 +126,43 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8f30b3c2179b03a7acf273e9dea43342"><td class="memItemLeft" align="right" valign="top">runTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00200.html#a8f30b3c2179b03a7acf273e9dea43342">write</a> ()</td></tr>
-<tr class="separator:a8f30b3c2179b03a7acf273e9dea43342"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71d53d6ef9266108a5d094c1554b2792"><td class="memItemLeft" align="right" valign="top">volScalarField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00200.html#a71d53d6ef9266108a5d094c1554b2792">moment0</a> (mesh.lookupObject&lt; volScalarField &gt;(&quot;moment.0.populationBalance&quot;))</td></tr>
-<tr class="separator:a71d53d6ef9266108a5d094c1554b2792"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00200.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
+<tr class="separator:a0ddf1224851353fc92bfbff6f499fa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a8f30b3c2179b03a7acf273e9dea43342"></a>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Solver for population balance equation on steady velocity field. </p>
+<p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/applications/pbeTransportFoam/pbeTransportFoam.C">pbeTransportFoam.C</a></p>
+<p><a class="anchor" id="Description"></a> </p>
+
+<p>Definition in file <a class="el" href="a00200_source.html">pbeTransportFoam.C</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a0ddf1224851353fc92bfbff6f499fa97"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">runTime write </td>
+          <td class="memname">int main </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>argv</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a class="anchor" id="a71d53d6ef9266108a5d094c1554b2792"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">volScalarField moment0 </td>
-          <td>(</td>
-          <td class="paramtype">mesh.lookupObject&lt; volScalarField &gt;&#160;</td>
-          <td class="paramname">&quot;moment.0.populationBalance&quot;</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Definition at line <a class="el" href="a00200_source.html#l00043">43</a> of file <a class="el" href="a00200_source.html">pbeTransportFoam.C</a>.</p>
+
+<p>References <a class="el" href="a00096_source.html#l00107">populationBalance</a>.</p>
 
 </div>
 </div>
@@ -164,7 +171,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html">applications</a></li><li class="navelem"><a class="el" href="dir_59326b1e51db0de7da27a4fac0cc6e4a.html">pbeFoam</a></li><li class="navelem"><a class="el" href="a00200.html">output.H</a></li>
+    <li class="navelem"><a class="el" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html">applications</a></li><li class="navelem"><a class="el" href="dir_a484c31e13a61dcb6440df95177c57b3.html">pbeTransportFoam</a></li><li class="navelem"><a class="el" href="a00200.html">pbeTransportFoam.C</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

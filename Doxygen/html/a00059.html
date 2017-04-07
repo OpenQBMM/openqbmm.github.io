@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>quadratureApproximation&lt; momentFieldSetType, nodeType &gt; Class Template Reference</title>
+<title>sumAggregation Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,124 +107,113 @@ $(document).ready(function(){initNavTree('a00059.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="a00559.html">List of all members</a>  </div>
+<a href="a00629.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">quadratureApproximation&lt; momentFieldSetType, nodeType &gt; Class Template Reference</div>  </div>
+<div class="title">sumAggregation Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Provides storage for the moments and the corresponding quadrature approximation of a univariate distribution function. Methods to update the moments and the quadrature approximation are provided.  
+<p>Sum aggregation kernel with user defined coefficient (default Cagg = 1).  
  <a href="a00059.html#details">More...</a></p>
 <div class="dynheader">
-Inheritance diagram for quadratureApproximation&lt; momentFieldSetType, nodeType &gt;:</div>
+Inheritance diagram for sumAggregation:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00560.png" border="0" usemap="#quadratureApproximation_3_01momentFieldSetType_00_01nodeType_01_4_inherit__map" alt="Inheritance graph"/></div>
-<map name="quadratureApproximation_3_01momentFieldSetType_00_01nodeType_01_4_inherit__map" id="quadratureApproximation_3_01momentFieldSetType_00_01nodeType_01_4_inherit__map">
-<area shape="rect" id="node3" href="a00059.html" title="quadratureApproximation\l\&lt; volUnivariateMomentFieldSet,\l volScalarNode \&gt;" alt="" coords="5,215,220,271"/>
+<div class="center"><img src="a00630.png" border="0" usemap="#sumAggregation_inherit__map" alt="Inheritance graph"/></div>
+<map name="sumAggregation_inherit__map" id="sumAggregation_inherit__map">
+<area shape="rect" id="node2" href="a00002.html" title="Abstract class for aggregation kernels. " alt="" coords="5,5,140,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for quadratureApproximation&lt; momentFieldSetType, nodeType &gt;:</div>
+Collaboration diagram for sumAggregation:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00561.png" border="0" usemap="#quadratureApproximation_3_01momentFieldSetType_00_01nodeType_01_4_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="a00631.png" border="0" usemap="#sumAggregation_coll__map" alt="Collaboration graph"/></div>
+<map name="sumAggregation_coll__map" id="sumAggregation_coll__map">
+<area shape="rect" id="node2" href="a00002.html" title="Abstract class for aggregation kernels. " alt="" coords="5,5,140,32"/>
+</map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a36e6d3192d1872bbc6b0cffd5872d86f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00059.html#a36e6d3192d1872bbc6b0cffd5872d86f">quadratureApproximation</a> (const word &amp;<a class="el" href="a00059.html#a2456166dce07bb1aa57f90fba72ba551">name</a>, const fvMesh &amp;mesh, const word &amp;support, const label <a class="el" href="a00059.html#ae4410b8afdbd8d2d0aef13f1944201a3">nDimensions</a>)</td></tr>
-<tr class="memdesc:a36e6d3192d1872bbc6b0cffd5872d86f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from mesh.  <a href="#a36e6d3192d1872bbc6b0cffd5872d86f">More...</a><br /></td></tr>
-<tr class="separator:a36e6d3192d1872bbc6b0cffd5872d86f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb1b16ba7fd2128342b886ba9fce7537"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00059.html#adb1b16ba7fd2128342b886ba9fce7537">~quadratureApproximation</a> ()</td></tr>
-<tr class="memdesc:adb1b16ba7fd2128342b886ba9fce7537"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#adb1b16ba7fd2128342b886ba9fce7537">More...</a><br /></td></tr>
-<tr class="separator:adb1b16ba7fd2128342b886ba9fce7537"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2456166dce07bb1aa57f90fba72ba551"><td class="memItemLeft" align="right" valign="top">const word&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00059.html#a2456166dce07bb1aa57f90fba72ba551">name</a> () const </td></tr>
-<tr class="memdesc:a2456166dce07bb1aa57f90fba72ba551"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return name.  <a href="#a2456166dce07bb1aa57f90fba72ba551">More...</a><br /></td></tr>
-<tr class="separator:a2456166dce07bb1aa57f90fba72ba551"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab35707f48144b6e8c377d530fda6958e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00021.html">fieldMomentInversion</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00059.html#ab35707f48144b6e8c377d530fda6958e">momentFieldInverter</a> ()</td></tr>
-<tr class="memdesc:ab35707f48144b6e8c377d530fda6958e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extended moment inversion method.  <a href="#ab35707f48144b6e8c377d530fda6958e">More...</a><br /></td></tr>
-<tr class="separator:ab35707f48144b6e8c377d530fda6958e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91c350105601a2749fccc0b46064c670"><td class="memItemLeft" align="right" valign="top">const PtrList&lt; nodeType &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00059.html#a91c350105601a2749fccc0b46064c670">nodes</a> () const </td></tr>
-<tr class="memdesc:a91c350105601a2749fccc0b46064c670"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the nodes.  <a href="#a91c350105601a2749fccc0b46064c670">More...</a><br /></td></tr>
-<tr class="separator:a91c350105601a2749fccc0b46064c670"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abec4ab79350278c1e96c53a7a3211cb2"><td class="memItemLeft" align="right" valign="top">const momentFieldSetType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00059.html#abec4ab79350278c1e96c53a7a3211cb2">moments</a> () const </td></tr>
-<tr class="memdesc:abec4ab79350278c1e96c53a7a3211cb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const access to the moments.  <a href="#abec4ab79350278c1e96c53a7a3211cb2">More...</a><br /></td></tr>
-<tr class="separator:abec4ab79350278c1e96c53a7a3211cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ea917ef655d7358597ba9ef187a6333"><td class="memItemLeft" align="right" valign="top">momentFieldSetType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00059.html#a7ea917ef655d7358597ba9ef187a6333">moments</a> ()</td></tr>
-<tr class="memdesc:a7ea917ef655d7358597ba9ef187a6333"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-const access to the moments.  <a href="#a7ea917ef655d7358597ba9ef187a6333">More...</a><br /></td></tr>
-<tr class="separator:a7ea917ef655d7358597ba9ef187a6333"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4410b8afdbd8d2d0aef13f1944201a3"><td class="memItemLeft" align="right" valign="top">label&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00059.html#ae4410b8afdbd8d2d0aef13f1944201a3">nDimensions</a> () const </td></tr>
-<tr class="memdesc:ae4410b8afdbd8d2d0aef13f1944201a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of dimensions in the distribution.  <a href="#ae4410b8afdbd8d2d0aef13f1944201a3">More...</a><br /></td></tr>
-<tr class="separator:ae4410b8afdbd8d2d0aef13f1944201a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a111ae2fd86df6aa54d903019cd7032f6"><td class="memItemLeft" align="right" valign="top">label&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00059.html#a111ae2fd86df6aa54d903019cd7032f6">nMoments</a> () const </td></tr>
-<tr class="memdesc:a111ae2fd86df6aa54d903019cd7032f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of moments.  <a href="#a111ae2fd86df6aa54d903019cd7032f6">More...</a><br /></td></tr>
-<tr class="separator:a111ae2fd86df6aa54d903019cd7032f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4aec727fcdd873ea78763aaeeb86e14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00059.html#ac4aec727fcdd873ea78763aaeeb86e14">updateQuadrature</a> ()</td></tr>
-<tr class="memdesc:ac4aec727fcdd873ea78763aaeeb86e14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculate the quadrature nodes from the moments.  <a href="#ac4aec727fcdd873ea78763aaeeb86e14">More...</a><br /></td></tr>
-<tr class="separator:ac4aec727fcdd873ea78763aaeeb86e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab46f111920d16a088f2fddf21d658315"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00059.html#ab46f111920d16a088f2fddf21d658315">updateMoments</a> ()</td></tr>
-<tr class="memdesc:ab46f111920d16a088f2fddf21d658315"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculate the moments from the quadrature nodes.  <a href="#ab46f111920d16a088f2fddf21d658315">More...</a><br /></td></tr>
-<tr class="separator:ab46f111920d16a088f2fddf21d658315"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57361ed63aa05333406727264ae648b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00059.html#a57361ed63aa05333406727264ae648b6">updateLocalMoments</a> (label celli)</td></tr>
-<tr class="memdesc:a57361ed63aa05333406727264ae648b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculate moments in the specified cell.  <a href="#a57361ed63aa05333406727264ae648b6">More...</a><br /></td></tr>
-<tr class="separator:a57361ed63aa05333406727264ae648b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a177dde920f33639945218c2c55bc83f8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00059.html#a177dde920f33639945218c2c55bc83f8">updateLocalQuadrature</a> (label celli, bool fatalErrorOnFailedRealizabilityTest=true)</td></tr>
-<tr class="memdesc:a177dde920f33639945218c2c55bc83f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculate the quadrature nodes from the moments in the.  <a href="#a177dde920f33639945218c2c55bc83f8">More...</a><br /></td></tr>
-<tr class="separator:a177dde920f33639945218c2c55bc83f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4175abdc1459fcf6820150c4e2ecf4da"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00059.html#a4175abdc1459fcf6820150c4e2ecf4da">TypeName</a> (&quot;sum&quot;)</td></tr>
+<tr class="memdesc:a4175abdc1459fcf6820150c4e2ecf4da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#a4175abdc1459fcf6820150c4e2ecf4da">More...</a><br /></td></tr>
+<tr class="separator:a4175abdc1459fcf6820150c4e2ecf4da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c16e4ffc6504984bf080838406a8de2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00059.html#a2c16e4ffc6504984bf080838406a8de2">sumAggregation</a> (const dictionary &amp;dict, const fvMesh &amp;mesh)</td></tr>
+<tr class="memdesc:a2c16e4ffc6504984bf080838406a8de2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#a2c16e4ffc6504984bf080838406a8de2">More...</a><br /></td></tr>
+<tr class="separator:a2c16e4ffc6504984bf080838406a8de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e3dea727d5bdc9cd286c349f6dfefff"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00059.html#a8e3dea727d5bdc9cd286c349f6dfefff">~sumAggregation</a> ()</td></tr>
+<tr class="memdesc:a8e3dea727d5bdc9cd286c349f6dfefff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a8e3dea727d5bdc9cd286c349f6dfefff">More...</a><br /></td></tr>
+<tr class="separator:a8e3dea727d5bdc9cd286c349f6dfefff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff545f8602677e85abbb1b6c6d0fb20f"><td class="memItemLeft" align="right" valign="top">virtual scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00059.html#aff545f8602677e85abbb1b6c6d0fb20f">Ka</a> (const scalar &amp;abscissa1, const scalar &amp;abscissa2, const label &amp;celli) const </td></tr>
+<tr class="memdesc:aff545f8602677e85abbb1b6c6d0fb20f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aggregation kernel.  <a href="#aff545f8602677e85abbb1b6c6d0fb20f">More...</a><br /></td></tr>
+<tr class="separator:aff545f8602677e85abbb1b6c6d0fb20f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00002"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00002')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="a00002.html">aggregationKernel</a></td></tr>
+<tr class="memitem:ae635445d544ded93442f8f985f515459 inherit pub_methods_a00002"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00002.html#ae635445d544ded93442f8f985f515459">TypeName</a> (&quot;aggregationKernel&quot;)</td></tr>
+<tr class="memdesc:ae635445d544ded93442f8f985f515459 inherit pub_methods_a00002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#ae635445d544ded93442f8f985f515459">More...</a><br /></td></tr>
+<tr class="separator:ae635445d544ded93442f8f985f515459 inherit pub_methods_a00002"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb6c85ea440716007e16e43747e20a7c inherit pub_methods_a00002"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00002.html#adb6c85ea440716007e16e43747e20a7c">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00002.html">aggregationKernel</a>, dictionary,(                                       const dictionary &amp;dict,                                       const fvMesh &amp;mesh                       ),(dict, mesh))</td></tr>
+<tr class="separator:adb6c85ea440716007e16e43747e20a7c inherit pub_methods_a00002"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62c9e0113594b969e61c76e071b7a79b inherit pub_methods_a00002"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00002.html#a62c9e0113594b969e61c76e071b7a79b">aggregationKernel</a> (const dictionary &amp;dict, const fvMesh &amp;mesh)</td></tr>
+<tr class="memdesc:a62c9e0113594b969e61c76e071b7a79b inherit pub_methods_a00002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#a62c9e0113594b969e61c76e071b7a79b">More...</a><br /></td></tr>
+<tr class="separator:a62c9e0113594b969e61c76e071b7a79b inherit pub_methods_a00002"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad207fdb33ae3b991ec3e94068c03a307 inherit pub_methods_a00002"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00002.html#ad207fdb33ae3b991ec3e94068c03a307">~aggregationKernel</a> ()</td></tr>
+<tr class="memdesc:ad207fdb33ae3b991ec3e94068c03a307 inherit pub_methods_a00002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#ad207fdb33ae3b991ec3e94068c03a307">More...</a><br /></td></tr>
+<tr class="separator:ad207fdb33ae3b991ec3e94068c03a307 inherit pub_methods_a00002"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a1bd8bb0fb60b71d271b25c14b5d66b63"><td class="memItemLeft" align="right" valign="top">static const word&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00059.html#a1bd8bb0fb60b71d271b25c14b5d66b63">propertiesName</a></td></tr>
-<tr class="memdesc:a1bd8bb0fb60b71d271b25c14b5d66b63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default name of the phase properties dictionary.  <a href="#a1bd8bb0fb60b71d271b25c14b5d66b63">More...</a><br /></td></tr>
-<tr class="separator:a1bd8bb0fb60b71d271b25c14b5d66b63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_methods_a00002"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_a00002')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="a00002.html">aggregationKernel</a></td></tr>
+<tr class="memitem:aa4fd05f8720fbd55876a9a023be94855 inherit pub_static_methods_a00002"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00002.html">aggregationKernel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00002.html#aa4fd05f8720fbd55876a9a023be94855">New</a> (const dictionary &amp;dict, const fvMesh &amp;mesh)</td></tr>
+<tr class="separator:aa4fd05f8720fbd55876a9a023be94855 inherit pub_static_methods_a00002"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_a00002"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a00002')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="a00002.html">aggregationKernel</a></td></tr>
+<tr class="memitem:a892ddcb9cba6f50b0396cdb7bf1b4f6a inherit pro_attribs_a00002"><td class="memItemLeft" align="right" valign="top">const dictionary &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00002.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a">dict_</a></td></tr>
+<tr class="memdesc:a892ddcb9cba6f50b0396cdb7bf1b4f6a inherit pro_attribs_a00002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dictionary.  <a href="#a892ddcb9cba6f50b0396cdb7bf1b4f6a">More...</a><br /></td></tr>
+<tr class="separator:a892ddcb9cba6f50b0396cdb7bf1b4f6a inherit pro_attribs_a00002"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23edeeeecebcef11921a33dd5d990570 inherit pro_attribs_a00002"><td class="memItemLeft" align="right" valign="top">const fvMesh &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00002.html#a23edeeeecebcef11921a33dd5d990570">mesh_</a></td></tr>
+<tr class="memdesc:a23edeeeecebcef11921a33dd5d990570 inherit pro_attribs_a00002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mesh.  <a href="#a23edeeeecebcef11921a33dd5d990570">More...</a><br /></td></tr>
+<tr class="separator:a23edeeeecebcef11921a33dd5d990570 inherit pro_attribs_a00002"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7547e6fb837b9ab15b147886567d8cf2 inherit pro_attribs_a00002"><td class="memItemLeft" align="right" valign="top">const dimensionedScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00002.html#a7547e6fb837b9ab15b147886567d8cf2">Ca_</a></td></tr>
+<tr class="memdesc:a7547e6fb837b9ab15b147886567d8cf2 inherit pro_attribs_a00002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coefficient of aggregation kernel.  <a href="#a7547e6fb837b9ab15b147886567d8cf2">More...</a><br /></td></tr>
+<tr class="separator:a7547e6fb837b9ab15b147886567d8cf2 inherit pro_attribs_a00002"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;class momentFieldSetType, class nodeType&gt;<br />
-class Foam::quadratureApproximation&lt; momentFieldSetType, nodeType &gt;</h3>
-
-<p>Provides storage for the moments and the corresponding quadrature approximation of a univariate distribution function. Methods to update the moments and the quadrature approximation are provided. </p>
-<p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
+<div class="textblock"><p>Sum aggregation kernel with user defined coefficient (default Cagg = 1). </p>
+<p><a class="anchor" id="Description"></a> </p><p class="formulaDsp">
+<img class="formulaDsp" alt="\[ K_a = C_a (\xi_i^3 + \xi_j^3) \]" src="form_10.png"/>
+</p>
+<p>where</p>
+<table  border="0">
+<tr>
+<td style="padding-left: 10px"><img class="formulaInl" alt="$ C_a $" src="form_7.png"/> </td><td style="padding-left: 10px; padding-right: 10px;">= </td><td>Aggregation coefficient [1/s]  </td></tr>
+<tr>
+<td style="padding-left: 10px"><img class="formulaInl" alt="$ \xi_i $" src="form_4.png"/> </td><td style="padding-left: 10px; padding-right: 10px;">= </td><td>Abscissa of particle i [m]  </td></tr>
+<tr>
+<td style="padding-left: 10px"><img class="formulaInl" alt="$ \xi_j $" src="form_5.png"/> </td><td style="padding-left: 10px; padding-right: 10px;">= </td><td>Abscissa of particle j [m]  </td></tr>
+</table>
+<dl class="section user"><dt>Source files</dt><dd><ul>
 <li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/quadratureApproximation/quadratureApproximation.H">quadratureApproximation.H</a> </li>
+<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/aggregationKernels/sumAggregation/sumAggregation.H">sumAggregation.H</a> </li>
 <li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/quadratureApproximation/quadratureApproximation.C">quadratureApproximation.C</a> </li>
-<li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/quadratureApproximation/quadratureApproximationI.H">quadratureApproximationI.H</a> </li>
+<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/aggregationKernels/sumAggregation/sumAggregation.C">sumAggregation.C</a> </li>
 </ul>
 </dd></dl>
 
-<p>Definition at line <a class="el" href="a00211_source.html#l00059">59</a> of file <a class="el" href="a00211_source.html">quadratureApproximation.H</a>.</p>
+<p>Definition at line <a class="el" href="a00218_source.html#l00076">76</a> of file <a class="el" href="a00218_source.html">sumAggregation.H</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a36e6d3192d1872bbc6b0cffd5872d86f"></a>
+<a class="anchor" id="a2c16e4ffc6504984bf080838406a8de2"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00059.html">quadratureApproximation</a> </td>
+          <td class="memname"><a class="el" href="a00059.html">sumAggregation</a> </td>
           <td>(</td>
-          <td class="paramtype">const word &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
+          <td class="paramtype">const dictionary &amp;&#160;</td>
+          <td class="paramname"><em>dict</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const fvMesh &amp;&#160;</td>
-          <td class="paramname"><em>mesh</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const word &amp;&#160;</td>
-          <td class="paramname"><em>support</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const label&#160;</td>
-          <td class="paramname"><em>nDimensions</em>&#160;</td>
+          <td class="paramname"><em>mesh</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -232,32 +221,27 @@ class Foam::quadratureApproximation&lt; momentFieldSetType, nodeType &gt;</h3>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Construct from mesh. </p>
+<p>Construct from components. </p>
 
-<p>Definition at line <a class="el" href="a00210_source.html#l00040">40</a> of file <a class="el" href="a00210_source.html">quadratureApproximation.C</a>.</p>
+<p>Definition at line <a class="el" href="a00217_source.html#l00054">54</a> of file <a class="el" href="a00217_source.html">sumAggregation.C</a>.</p>
 
-<p>References <a class="el" href="a00210_source.html#l00111">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::~quadratureApproximation()</a>.</p>
+<p>References <a class="el" href="a00217_source.html#l00067">sumAggregation::~sumAggregation()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00059_a36e6d3192d1872bbc6b0cffd5872d86f_cgraph.png" border="0" usemap="#a00059_a36e6d3192d1872bbc6b0cffd5872d86f_cgraph" alt=""/></div>
-<map name="a00059_a36e6d3192d1872bbc6b0cffd5872d86f_cgraph" id="a00059_a36e6d3192d1872bbc6b0cffd5872d86f_cgraph">
-<area shape="rect" id="node2" href="a00059.html#adb1b16ba7fd2128342b886ba9fce7537" title="Destructor. " alt="" coords="225,5,405,32"/>
+<div class="center"><img src="a00059_a2c16e4ffc6504984bf080838406a8de2_cgraph.png" border="0" usemap="#a00059_a2c16e4ffc6504984bf080838406a8de2_cgraph" alt=""/></div>
+<map name="a00059_a2c16e4ffc6504984bf080838406a8de2_cgraph" id="a00059_a2c16e4ffc6504984bf080838406a8de2_cgraph">
+<area shape="rect" id="node2" href="a00059.html#a8e3dea727d5bdc9cd286c349f6dfefff" title="Destructor. " alt="" coords="175,5,304,32"/>
 </map>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="adb1b16ba7fd2128342b886ba9fce7537"></a>
+<a class="anchor" id="a8e3dea727d5bdc9cd286c349f6dfefff"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -265,7 +249,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">~<a class="el" href="a00059.html">quadratureApproximation</a> </td>
+          <td class="memname">~<a class="el" href="a00059.html">sumAggregation</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -280,18 +264,18 @@ Here is the call graph for this function:</div>
 
 <p>Destructor. </p>
 
-<p>Definition at line <a class="el" href="a00210_source.html#l00111">111</a> of file <a class="el" href="a00210_source.html">quadratureApproximation.C</a>.</p>
+<p>Definition at line <a class="el" href="a00217_source.html#l00067">67</a> of file <a class="el" href="a00217_source.html">sumAggregation.C</a>.</p>
 
-<p>References <a class="el" href="a00210_source.html#l00119">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::updateQuadrature()</a>.</p>
+<p>References <a class="el" href="a00217_source.html#l00075">sumAggregation::Ka()</a>.</p>
 
-<p>Referenced by <a class="el" href="a00210_source.html#l00040">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::quadratureApproximation()</a>.</p>
+<p>Referenced by <a class="el" href="a00217_source.html#l00054">sumAggregation::sumAggregation()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00059_adb1b16ba7fd2128342b886ba9fce7537_cgraph.png" border="0" usemap="#a00059_adb1b16ba7fd2128342b886ba9fce7537_cgraph" alt=""/></div>
-<map name="a00059_adb1b16ba7fd2128342b886ba9fce7537_cgraph" id="a00059_adb1b16ba7fd2128342b886ba9fce7537_cgraph">
-<area shape="rect" id="node2" href="a00059.html#ac4aec727fcdd873ea78763aaeeb86e14" title="Recalculate the quadrature nodes from the moments. " alt="" coords="233,5,364,32"/>
+<div class="center"><img src="a00059_a8e3dea727d5bdc9cd286c349f6dfefff_cgraph.png" border="0" usemap="#a00059_a8e3dea727d5bdc9cd286c349f6dfefff_cgraph" alt=""/></div>
+<map name="a00059_a8e3dea727d5bdc9cd286c349f6dfefff_cgraph" id="a00059_a8e3dea727d5bdc9cd286c349f6dfefff_cgraph">
+<area shape="rect" id="node2" href="a00059.html#aff545f8602677e85abbb1b6c6d0fb20f" title="Aggregation kernel. " alt="" coords="183,5,221,32"/>
 </map>
 </div>
 </p>
@@ -299,9 +283,9 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00059_adb1b16ba7fd2128342b886ba9fce7537_icgraph.png" border="0" usemap="#a00059_adb1b16ba7fd2128342b886ba9fce7537_icgraph" alt=""/></div>
-<map name="a00059_adb1b16ba7fd2128342b886ba9fce7537_icgraph" id="a00059_adb1b16ba7fd2128342b886ba9fce7537_icgraph">
-<area shape="rect" id="node2" href="a00059.html#a36e6d3192d1872bbc6b0cffd5872d86f" title="Construct from mesh. " alt="" coords="233,5,405,32"/>
+<div class="center"><img src="a00059_a8e3dea727d5bdc9cd286c349f6dfefff_icgraph.png" border="0" usemap="#a00059_a8e3dea727d5bdc9cd286c349f6dfefff_icgraph" alt=""/></div>
+<map name="a00059_a8e3dea727d5bdc9cd286c349f6dfefff_icgraph" id="a00059_a8e3dea727d5bdc9cd286c349f6dfefff_icgraph">
+<area shape="rect" id="node2" href="a00059.html#a2c16e4ffc6504984bf080838406a8de2" title="Construct from components. " alt="" coords="183,5,304,32"/>
 </map>
 </div>
 </p>
@@ -309,453 +293,92 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a2456166dce07bb1aa57f90fba72ba551"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const word name </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return name. </p>
-
-<p>Definition at line <a class="el" href="a00212_source.html#l00030">30</a> of file <a class="el" href="a00212_source.html">quadratureApproximationI.H</a>.</p>
-
-<p>References <a class="el" href="a00212_source.html#l00038">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::momentFieldInverter()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00059_a2456166dce07bb1aa57f90fba72ba551_cgraph.png" border="0" usemap="#a00059_a2456166dce07bb1aa57f90fba72ba551_cgraph" alt=""/></div>
-<map name="a00059_a2456166dce07bb1aa57f90fba72ba551_cgraph" id="a00059_a2456166dce07bb1aa57f90fba72ba551_cgraph">
-<area shape="rect" id="node2" href="a00059.html#ab35707f48144b6e8c377d530fda6958e" title="Extended moment inversion method. " alt="" coords="109,5,253,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="ab35707f48144b6e8c377d530fda6958e"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="a00021.html">Foam::fieldMomentInversion</a> &amp; momentFieldInverter </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Extended moment inversion method. </p>
-
-<p>Definition at line <a class="el" href="a00212_source.html#l00038">38</a> of file <a class="el" href="a00212_source.html">quadratureApproximationI.H</a>.</p>
-
-<p>Referenced by <a class="el" href="a00212_source.html#l00030">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::name()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00059_ab35707f48144b6e8c377d530fda6958e_icgraph.png" border="0" usemap="#a00059_ab35707f48144b6e8c377d530fda6958e_icgraph" alt=""/></div>
-<map name="a00059_ab35707f48144b6e8c377d530fda6958e_icgraph" id="a00059_ab35707f48144b6e8c377d530fda6958e_icgraph">
-<area shape="rect" id="node2" href="a00059.html#a2456166dce07bb1aa57f90fba72ba551" title="Return name. " alt="" coords="197,5,253,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a91c350105601a2749fccc0b46064c670"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const Foam::PtrList&lt; nodeType &gt; &amp; nodes </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return the nodes. </p>
-
-<p>Definition at line <a class="el" href="a00212_source.html#l00045">45</a> of file <a class="el" href="a00212_source.html">quadratureApproximationI.H</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="abec4ab79350278c1e96c53a7a3211cb2"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const momentFieldSetType &amp; <a class="el" href="a00046.html">moments</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Const access to the moments. </p>
-
-<p>Definition at line <a class="el" href="a00212_source.html#l00052">52</a> of file <a class="el" href="a00212_source.html">quadratureApproximationI.H</a>.</p>
-
-<p>Referenced by <a class="el" href="a00243_source.html#l00236">univariatePDFTransportModel::solve()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00059_abec4ab79350278c1e96c53a7a3211cb2_icgraph.png" border="0" usemap="#a00059_abec4ab79350278c1e96c53a7a3211cb2_icgraph" alt=""/></div>
-<map name="a00059_abec4ab79350278c1e96c53a7a3211cb2_icgraph" id="a00059_abec4ab79350278c1e96c53a7a3211cb2_icgraph">
-<area shape="rect" id="node2" href="a00072.html#af7d39f0eac0af0ed5785935ac72a1e7d" title="Edit. " alt="" coords="131,5,383,47"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a7ea917ef655d7358597ba9ef187a6333"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">momentFieldSetType &amp; <a class="el" href="a00046.html">moments</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Non-const access to the moments. </p>
-
-<p>Definition at line <a class="el" href="a00212_source.html#l00059">59</a> of file <a class="el" href="a00212_source.html">quadratureApproximationI.H</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae4410b8afdbd8d2d0aef13f1944201a3"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Foam::label nDimensions </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return the number of dimensions in the distribution. </p>
-
-<p>Definition at line <a class="el" href="a00212_source.html#l00066">66</a> of file <a class="el" href="a00212_source.html">quadratureApproximationI.H</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a111ae2fd86df6aa54d903019cd7032f6"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Foam::label nMoments </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return the number of moments. </p>
-
-<p>Definition at line <a class="el" href="a00212_source.html#l00073">73</a> of file <a class="el" href="a00212_source.html">quadratureApproximationI.H</a>.</p>
-
-<p>Referenced by <a class="el" href="a00243_source.html#l00236">univariatePDFTransportModel::solve()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00059_a111ae2fd86df6aa54d903019cd7032f6_icgraph.png" border="0" usemap="#a00059_a111ae2fd86df6aa54d903019cd7032f6_icgraph" alt=""/></div>
-<map name="a00059_a111ae2fd86df6aa54d903019cd7032f6_icgraph" id="a00059_a111ae2fd86df6aa54d903019cd7032f6_icgraph">
-<area shape="rect" id="node2" href="a00072.html#af7d39f0eac0af0ed5785935ac72a1e7d" title="Edit. " alt="" coords="137,5,389,47"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="ac4aec727fcdd873ea78763aaeeb86e14"></a>
+<a class="anchor" id="a4175abdc1459fcf6820150c4e2ecf4da"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void updateQuadrature </td>
+          <td class="memname">TypeName </td>
           <td>(</td>
+          <td class="paramtype">&quot;sum&quot;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Recalculate the quadrature nodes from the moments. </p>
-
-<p>Definition at line <a class="el" href="a00210_source.html#l00119">119</a> of file <a class="el" href="a00210_source.html">quadratureApproximation.C</a>.</p>
-
-<p>References <a class="el" href="a00210_source.html#l00127">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::updateMoments()</a>.</p>
-
-<p>Referenced by <a class="el" href="a00243_source.html#l00236">univariatePDFTransportModel::solve()</a>, and <a class="el" href="a00210_source.html#l00111">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::~quadratureApproximation()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00059_ac4aec727fcdd873ea78763aaeeb86e14_cgraph.png" border="0" usemap="#a00059_ac4aec727fcdd873ea78763aaeeb86e14_cgraph" alt=""/></div>
-<map name="a00059_ac4aec727fcdd873ea78763aaeeb86e14_cgraph" id="a00059_ac4aec727fcdd873ea78763aaeeb86e14_cgraph">
-<area shape="rect" id="node2" href="a00059.html#ab46f111920d16a088f2fddf21d658315" title="Recalculate the moments from the quadrature nodes. " alt="" coords="184,5,303,32"/>
-</map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00059_ac4aec727fcdd873ea78763aaeeb86e14_icgraph.png" border="0" usemap="#a00059_ac4aec727fcdd873ea78763aaeeb86e14_icgraph" alt=""/></div>
-<map name="a00059_ac4aec727fcdd873ea78763aaeeb86e14_icgraph" id="a00059_ac4aec727fcdd873ea78763aaeeb86e14_icgraph">
-<area shape="rect" id="node2" href="a00072.html#af7d39f0eac0af0ed5785935ac72a1e7d" title="Edit. " alt="" coords="184,5,436,47"/>
-<area shape="rect" id="node3" href="a00059.html#adb1b16ba7fd2128342b886ba9fce7537" title="Destructor. " alt="" coords="220,71,400,98"/>
-</map>
-</div>
-</p>
+<p>Runtime type information. </p>
 
 </div>
 </div>
-<a class="anchor" id="ab46f111920d16a088f2fddf21d658315"></a>
+<a class="anchor" id="aff545f8602677e85abbb1b6c6d0fb20f"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void updateMoments </td>
+          <td class="memname">Foam::scalar Ka </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Recalculate the moments from the quadrature nodes. </p>
-
-<p>Definition at line <a class="el" href="a00210_source.html#l00127">127</a> of file <a class="el" href="a00210_source.html">quadratureApproximation.C</a>.</p>
-
-<p>References <a class="el" href="a00210_source.html#l00134">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::updateLocalMoments()</a>.</p>
-
-<p>Referenced by <a class="el" href="a00210_source.html#l00119">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::updateQuadrature()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00059_ab46f111920d16a088f2fddf21d658315_cgraph.png" border="0" usemap="#a00059_ab46f111920d16a088f2fddf21d658315_cgraph" alt=""/></div>
-<map name="a00059_ab46f111920d16a088f2fddf21d658315_cgraph" id="a00059_ab46f111920d16a088f2fddf21d658315_cgraph">
-<area shape="rect" id="node2" href="a00059.html#a57361ed63aa05333406727264ae648b6" title="Recalculate moments in the specified cell. " alt="" coords="172,5,323,32"/>
-</map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00059_ab46f111920d16a088f2fddf21d658315_icgraph.png" border="0" usemap="#a00059_ab46f111920d16a088f2fddf21d658315_icgraph" alt=""/></div>
-<map name="a00059_ab46f111920d16a088f2fddf21d658315_icgraph" id="a00059_ab46f111920d16a088f2fddf21d658315_icgraph">
-<area shape="rect" id="node2" href="a00059.html#ac4aec727fcdd873ea78763aaeeb86e14" title="Recalculate the quadrature nodes from the moments. " alt="" coords="172,5,303,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a57361ed63aa05333406727264ae648b6"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void updateLocalMoments </td>
-          <td>(</td>
-          <td class="paramtype">label&#160;</td>
-          <td class="paramname"><em>celli</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Recalculate moments in the specified cell. </p>
-
-<p>Definition at line <a class="el" href="a00210_source.html#l00134">134</a> of file <a class="el" href="a00210_source.html">quadratureApproximation.C</a>.</p>
-
-<p>References <a class="el" href="a00210_source.html#l00141">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::updateLocalQuadrature()</a>.</p>
-
-<p>Referenced by <a class="el" href="a00210_source.html#l00127">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::updateMoments()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00059_a57361ed63aa05333406727264ae648b6_cgraph.png" border="0" usemap="#a00059_a57361ed63aa05333406727264ae648b6_cgraph" alt=""/></div>
-<map name="a00059_a57361ed63aa05333406727264ae648b6_cgraph" id="a00059_a57361ed63aa05333406727264ae648b6_cgraph">
-<area shape="rect" id="node2" href="a00059.html#a177dde920f33639945218c2c55bc83f8" title="Recalculate the quadrature nodes from the moments in the. " alt="" coords="204,5,367,32"/>
-</map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00059_a57361ed63aa05333406727264ae648b6_icgraph.png" border="0" usemap="#a00059_a57361ed63aa05333406727264ae648b6_icgraph" alt=""/></div>
-<map name="a00059_a57361ed63aa05333406727264ae648b6_icgraph" id="a00059_a57361ed63aa05333406727264ae648b6_icgraph">
-<area shape="rect" id="node2" href="a00059.html#ab46f111920d16a088f2fddf21d658315" title="Recalculate the moments from the quadrature nodes. " alt="" coords="204,5,323,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a177dde920f33639945218c2c55bc83f8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool updateLocalQuadrature </td>
-          <td>(</td>
-          <td class="paramtype">label&#160;</td>
-          <td class="paramname"><em>celli</em>, </td>
+          <td class="paramtype">const scalar &amp;&#160;</td>
+          <td class="paramname"><em>abscissa1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>fatalErrorOnFailedRealizabilityTest</em> = <code>true</code>&#160;</td>
+          <td class="paramtype">const scalar &amp;&#160;</td>
+          <td class="paramname"><em>abscissa2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label &amp;&#160;</td>
+          <td class="paramname"><em>celli</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Recalculate the quadrature nodes from the moments in the. </p>
-<p>specified cell </p>
+<p>Aggregation kernel. </p>
 
-<p>Definition at line <a class="el" href="a00210_source.html#l00141">141</a> of file <a class="el" href="a00210_source.html">quadratureApproximation.C</a>.</p>
+<p>Implements <a class="el" href="a00002.html#a46a8f0d3e7dd0bddc15c4e1a3deaf08e">aggregationKernel</a>.</p>
 
-<p>Referenced by <a class="el" href="a00210_source.html#l00134">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::updateLocalMoments()</a>.</p>
+<p>Definition at line <a class="el" href="a00217_source.html#l00075">75</a> of file <a class="el" href="a00217_source.html">sumAggregation.C</a>.</p>
+
+<p>Referenced by <a class="el" href="a00217_source.html#l00067">sumAggregation::~sumAggregation()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00059_a177dde920f33639945218c2c55bc83f8_icgraph.png" border="0" usemap="#a00059_a177dde920f33639945218c2c55bc83f8_icgraph" alt=""/></div>
-<map name="a00059_a177dde920f33639945218c2c55bc83f8_icgraph" id="a00059_a177dde920f33639945218c2c55bc83f8_icgraph">
-<area shape="rect" id="node2" href="a00059.html#a57361ed63aa05333406727264ae648b6" title="Recalculate moments in the specified cell. " alt="" coords="216,5,367,32"/>
+<div class="center"><img src="a00059_aff545f8602677e85abbb1b6c6d0fb20f_icgraph.png" border="0" usemap="#a00059_aff545f8602677e85abbb1b6c6d0fb20f_icgraph" alt=""/></div>
+<map name="a00059_aff545f8602677e85abbb1b6c6d0fb20f_icgraph" id="a00059_aff545f8602677e85abbb1b6c6d0fb20f_icgraph">
+<area shape="rect" id="node2" href="a00059.html#a8e3dea727d5bdc9cd286c349f6dfefff" title="Destructor. " alt="" coords="92,5,221,32"/>
 </map>
 </div>
 </p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a1bd8bb0fb60b71d271b25c14b5d66b63"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const Foam::word propertiesName</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Default name of the phase properties dictionary. </p>
-
-<p>Definition at line <a class="el" href="a00211_source.html#l00096">96</a> of file <a class="el" href="a00211_source.html">quadratureApproximation.H</a>.</p>
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="a00211_source.html">quadratureApproximation.H</a></li>
-<li><a class="el" href="a00210_source.html">quadratureApproximation.C</a></li>
-<li><a class="el" href="a00212_source.html">quadratureApproximationI.H</a></li>
+<li><a class="el" href="a00218_source.html">sumAggregation.H</a></li>
+<li><a class="el" href="a00217_source.html">sumAggregation.C</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00251.html">Foam</a></li><li class="navelem"><a class="el" href="a00059.html">quadratureApproximation</a></li>
+    <li class="navelem"><a class="el" href="a00249.html">Foam</a></li><li class="navelem"><a class="el" href="a00258.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="a00259.html">aggregationKernels</a></li><li class="navelem"><a class="el" href="a00059.html">sumAggregation</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

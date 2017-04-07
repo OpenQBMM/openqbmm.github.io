@@ -1,7 +1,5 @@
 var a00031 =
 [
-    [ "IEM", "a00031.html#a0889eb4694ebdfaf84d6835f64d09606", null ],
-    [ "~IEM", "a00031.html#a997e52c6e4e36862421a083fced3f78b", null ],
-    [ "TypeName", "a00031.html#a1aa74a2a8e1a424bcbf1e400e8a4c504", null ],
-    [ "K", "a00031.html#ac39375448f36ddee2cac96a50dd6a0a9", null ]
+    [ "iNew", "a00031.html#add8e7db560379dd410d39d795968758a", null ],
+    [ "operator()", "a00031.html#a7cf4b421db9b97300525a415cbae6d2c", null ]
 ];

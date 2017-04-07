@@ -1,9 +1,8 @@
 var a00261 =
 [
-    [ "Brownian", "a00007.html", "a00007" ],
-    [ "constantAggregation", "a00009.html", "a00009" ],
-    [ "differentialForceAggregation", "a00013.html", "a00013" ],
-    [ "hydrodynamicAggregation", "a00030.html", "a00030" ],
-    [ "sumAggregation", "a00061.html", "a00061" ],
-    [ "turbulentBrownian", "a00063.html", "a00063" ]
+    [ "erosion", "a00017.html", "a00017" ],
+    [ "fullFragmentation", "a00023.html", "a00023" ],
+    [ "oneQuarterMassRatio", "a00053.html", "a00053" ],
+    [ "symmetricFragmentation", "a00060.html", "a00060" ],
+    [ "uniform", "a00065.html", "a00065" ]
 ];

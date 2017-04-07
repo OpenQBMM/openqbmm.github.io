@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>hydrodynamicAggregation.C File Reference</title>
+<title>IEM.C File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,15 +107,15 @@ $(document).ready(function(){initNavTree('a00139.html','');});
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">hydrodynamicAggregation.C File Reference</div>  </div>
+<div class="title">IEM.C File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div class="dynheader">
-Include dependency graph for hydrodynamicAggregation.C:</div>
+Include dependency graph for IEM.C:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00361.png" border="0" usemap="#hydrodynamicAggregation_8C" alt=""/></div>
-<map name="hydrodynamicAggregation_8C" id="hydrodynamicAggregation_8C">
-<area shape="rect" id="node2" href="a00140.html" title="hydrodynamicAggregation.H" alt="" coords="5,80,199,107"/>
+<div class="center"><img src="a00362.png" border="0" usemap="#IEM_8C" alt=""/></div>
+<map name="IEM_8C" id="IEM_8C">
+<area shape="rect" id="node2" href="a00140.html" title="IEM.H" alt="" coords="5,80,61,107"/>
 </map>
 </div>
 </div>
@@ -123,30 +123,30 @@ Include dependency graph for hydrodynamicAggregation.C:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:a00251"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html">Foam</a></td></tr>
+<tr class="memitem:a00249"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00249.html">Foam</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00260"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00260.html">Foam::populationBalanceSubModels</a></td></tr>
+<tr class="memitem:a00251"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00251.html">Foam::mixingSubModels</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00261"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00261.html">Foam::populationBalanceSubModels::aggregationKernels</a></td></tr>
+<tr class="memitem:a00253"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00253.html">Foam::mixingSubModels::mixingKernels</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a636ec3d763c8c887602ea04a51fad475"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00261.html#a636ec3d763c8c887602ea04a51fad475">defineTypeNameAndDebug</a> (hydrodynamicAggregation, 0)</td></tr>
-<tr class="separator:a636ec3d763c8c887602ea04a51fad475"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af83bce581ea73f24b1228b0fff351b56"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00261.html#af83bce581ea73f24b1228b0fff351b56">addToRunTimeSelectionTable</a> (aggregationKernel, hydrodynamicAggregation, dictionary)</td></tr>
-<tr class="separator:af83bce581ea73f24b1228b0fff351b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17d0080ebb72975f91a6424916c1cb24"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00253.html#a17d0080ebb72975f91a6424916c1cb24">defineTypeNameAndDebug</a> (IEM, 0)</td></tr>
+<tr class="separator:a17d0080ebb72975f91a6424916c1cb24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9226eeb16fbe06bac390688bc780c047"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00253.html#a9226eeb16fbe06bac390688bc780c047">addToRunTimeSelectionTable</a> (mixingKernel, IEM, dictionary)</td></tr>
+<tr class="separator:a9226eeb16fbe06bac390688bc780c047"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/aggregationKernels/hydrodynamicAggregation/hydrodynamicAggregation.C">hydrodynamicAggregation.C</a> </p>
+<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/mixingModels/mixingSubModels/mixingKernels/IEM/IEM.C">IEM.C</a> </p>
 
-<p>Definition in file <a class="el" href="a00139_source.html">hydrodynamicAggregation.C</a>.</p>
+<p>Definition in file <a class="el" href="a00139_source.html">IEM.C</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0ecbe6cb5f50223527ce4e1b499bd333.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="dir_58c61e057ed2119d9755c9fdbb448648.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="dir_62f86ef0c260ceaf3b93a8b1f701039a.html">aggregationKernels</a></li><li class="navelem"><a class="el" href="dir_80f5a8988a3207453ee47742f441b6c1.html">hydrodynamicAggregation</a></li><li class="navelem"><a class="el" href="a00139.html">hydrodynamicAggregation.C</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_e33c4094dda42b63bf42ed0cf06ff677.html">mixingModels</a></li><li class="navelem"><a class="el" href="dir_2e6d34bda531f0fb841bc3aac1e0e585.html">mixingSubModels</a></li><li class="navelem"><a class="el" href="dir_59c2c0be88902734948c694706404395.html">mixingKernels</a></li><li class="navelem"><a class="el" href="dir_044ce33e76c3206ee6cfd9fffb2276e9.html">IEM</a></li><li class="navelem"><a class="el" href="a00139.html">IEM.C</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

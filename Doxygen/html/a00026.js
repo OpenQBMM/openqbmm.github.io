@@ -1,8 +1,8 @@
 var a00026 =
 [
-    [ "gaussLobattoMomentInversion", "a00026.html#a19f132e2fe6d20faf1a5a05768990c4b", null ],
-    [ "~gaussLobattoMomentInversion", "a00026.html#ae6b87c401ec282458f44cea51931b47c", null ],
-    [ "TypeName", "a00026.html#a82afeb74ebccf942227542383440ade1", null ],
+    [ "gaussMomentInversion", "a00026.html#ab84059e01757095681a772d0021f9aac", null ],
+    [ "~gaussMomentInversion", "a00026.html#a45dd9dc55811f1ddc792a320c2a283af", null ],
+    [ "TypeName", "a00026.html#ab64427407045477aab2eb45b9f9efe1e", null ],
     [ "correctRecurrence", "a00026.html#adb8044c0e431e0fe1005a4395fff5478", null ],
     [ "calcNQuadratureNodes", "a00026.html#ae11f16abe217f76d4e7b5e98e47b3ae1", null ]
 ];

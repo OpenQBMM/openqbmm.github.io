@@ -1,6 +1,5 @@
 var a00264 =
 [
-    [ "molecularDiffusion", "a00042.html", "a00042" ],
-    [ "noDiffusion", "a00050.html", "a00050" ],
-    [ "turbulentDiffusion", "a00065.html", "a00065" ]
+    [ "Miller", "a00035.html", "a00035" ],
+    [ "noNucleation", "a00050.html", "a00050" ]
 ];
