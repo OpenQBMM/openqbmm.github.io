@@ -1,11 +1,7 @@
 var a00028 =
 [
-    [ "growthModel", "a00028.html#aa383495cbbb616e5138b6b5ce8a2630b", null ],
-    [ "~growthModel", "a00028.html#a2cbcf75a5aa3c9f8e8b9d40904732c29", null ],
-    [ "TypeName", "a00028.html#ab1ef5bca2c86ba9151614ebeaffed754", null ],
-    [ "declareRunTimeSelectionTable", "a00028.html#aa9d98df3c14edfe3a1ac5bbfb9e2b10b", null ],
-    [ "New", "a00028.html#a7da088e2d1463d28793d9e080bf244a6", null ],
-    [ "Kg", "a00028.html#ab7fb4ac29c00f426780bcdfebae822de", null ],
-    [ "dict_", "a00028.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a", null ],
-    [ "Cg_", "a00028.html#a77eb6079970cf46157d09f0370132b38", null ]
+    [ "cosine", "a00028.html#a883947a3b0e074dba07fd97db34d8bb4", null ],
+    [ "~cosine", "a00028.html#aa683640bc4d1d53d242dc4f36e7c6337", null ],
+    [ "limiter", "a00028.html#ad826c52960e65cba81f05f76e5ba771c", null ],
+    [ "TypeName", "a00028.html#a5ca8cd4cc19cd02aad3f320c04f1d02c", null ]
 ];

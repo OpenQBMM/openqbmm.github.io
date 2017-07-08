@@ -1,13 +1,10 @@
 var a00070 =
 [
-    [ "univariatePDFTransportModel", "a00070.html#ac76f0af150281544efbb317164c0075e", null ],
-    [ "~univariatePDFTransportModel", "a00070.html#a7c2fb39b317ec861cc76f8a047fb2e0b", null ],
-    [ "momentDiffusion", "a00070.html#a6dca7ee5f9dcbd74ab958fead1ac05fd", null ],
-    [ "implicitMomentSource", "a00070.html#a984a91bb0f818af9554dbc6805598ea3", null ],
-    [ "explicitMomentSource", "a00070.html#a85b0ae2fdf7934eb3a8fda32f8795fa5", null ],
-    [ "cellMomentSource", "a00070.html#aec57a3aa99ea3029930dc95b50c005e6", null ],
-    [ "quadrature", "a00070.html#a200f5b2e653f07470d4ac4fa1a317779", null ],
-    [ "solve", "a00070.html#af7d39f0eac0af0ed5785935ac72a1e7d", null ],
-    [ "quadrature_", "a00070.html#a4fa4a0f5eac7545eecc523ed6244beba", null ],
-    [ "momentAdvection_", "a00070.html#ae68524f5590b620d61f8e7f0f866cfa0", null ]
+    [ "JohnsonJackson", "a00070.html#a7296bb86fc5f0eb4a870ac1887ad077d", null ],
+    [ "~JohnsonJackson", "a00070.html#a08dcf02c1cbca1f0acd83f74af2a3cbc", null ],
+    [ "TypeName", "a00070.html#ae1c4d53d4973b0f037e5b53bba3d5533", null ],
+    [ "frictionalPressure", "a00070.html#a2fc1dda5901ee9cb4c70a6ba2301884b", null ],
+    [ "frictionalPressurePrime", "a00070.html#adfefae1dab0fb12943207676bf26dce8", null ],
+    [ "nu", "a00070.html#ae429d57404660fbf93f53dbcd90c9e49", null ],
+    [ "read", "a00070.html#abcf7aafd601a940195284bc91610bb08", null ]
 ];

@@ -1,5 +1,8 @@
 var a00143 =
 [
-    [ "defineTypeNameAndDebug", "a00143.html#a56da0846e22fec8b96568c9df45a9ff0", null ],
-    [ "addToRunTimeSelectionTable", "a00143.html#ab0446f84d3f857ce06af2d4d1e5c4303", null ]
+    [ "SinclairJackson", "a00143.html#a5305a7ba15e1d04d5bbb14529b1650e3", null ],
+    [ "~SinclairJackson", "a00143.html#ad223aad70fde71fd367770b4699981c7", null ],
+    [ "TypeName", "a00143.html#ae4f5e0722f1373329b3e5d6ecd305901", null ],
+    [ "g0", "a00143.html#a77181c36b117cab1999c37a2c4ae392f", null ],
+    [ "g0prime", "a00143.html#a76068a5c111e6a71f9d5011c78d97346", null ]
 ];

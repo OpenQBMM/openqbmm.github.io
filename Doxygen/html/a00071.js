@@ -1,21 +1,15 @@
 var a00071 =
 [
-    [ "univariateMomentSet", "a00071.html#ad00a756f64fc3a916ed12a28311ca0d8", null ],
-    [ "univariateMomentSet", "a00071.html#ad0210e9bd66f7a47538343809c285336", null ],
-    [ "~univariateMomentSet", "a00071.html#a1d22df074ca1399584587efd06cc562a", null ],
-    [ "alphaRecurrence", "a00071.html#ab8a8796d726d48dc10e6c596e7db6094", null ],
-    [ "alphaRecurrence", "a00071.html#a5d692f80be2fae779e373513e263b6e1", null ],
-    [ "betaRecurrence", "a00071.html#ac28e83c3c38907e738fb554c3e26ba0d", null ],
-    [ "betaRecurrence", "a00071.html#a763a9605b171b40abbf64f0c13054dfe", null ],
-    [ "isDegenerate", "a00071.html#a3049a5df266d0671853f077acf4c6975", null ],
-    [ "isFullyRealizable", "a00071.html#a1955fd1ee1096cb91e27063baf97c4d4", null ],
-    [ "isRealizable", "a00071.html#a58730b945c36dd3aa5042e95e1e9f098", null ],
-    [ "isSubsetRealizable", "a00071.html#a98ab2e587e2ae018f1c7b23a4a20168e", null ],
-    [ "isOnMomentSpaceBoundary", "a00071.html#a54a602fe9e0f6b808bf432ed0326ac46", null ],
-    [ "momentOrders", "a00071.html#a47393a1ebbe34ea66716a08b5a27ce9f", null ],
-    [ "nRealizableMoments", "a00071.html#a2256488242f928209215b0a3221f6bb8", null ],
-    [ "update", "a00071.html#ab2d663e44a31918ddbad847b7894b995", null ],
-    [ "operator[]", "a00071.html#a0630fe677f21cfd14ac34563442adaf9", null ],
-    [ "operator[]", "a00071.html#a534a916eb7080818ddbd292257a17c5c", null ],
-    [ "realizabilityChecked_", "a00071.html#ae90397e9f5eb1ce2b969b6223f3f1ab9", null ]
+    [ "JohnsonJacksonParticleSlipFvPatchVectorField", "a00071.html#a42f0f792754bdd67df4cc8567525793b", null ],
+    [ "JohnsonJacksonParticleSlipFvPatchVectorField", "a00071.html#a0ec0ca4edd9b40d033bd3ebb91f0b4e0", null ],
+    [ "JohnsonJacksonParticleSlipFvPatchVectorField", "a00071.html#aa97cbe08f1accba351481e330fce7ebd", null ],
+    [ "JohnsonJacksonParticleSlipFvPatchVectorField", "a00071.html#a4308424ef4850dd6ced3b97e4203eb0b", null ],
+    [ "JohnsonJacksonParticleSlipFvPatchVectorField", "a00071.html#a91cb111fe011fb94983f881c454deaaf", null ],
+    [ "TypeName", "a00071.html#a2c785b359de0e5b11cdbe7c4c49d0469", null ],
+    [ "clone", "a00071.html#a40a4fa5adfca92c7ac14e855f302bf5d", null ],
+    [ "clone", "a00071.html#ab6f6b734c9ed464a2b63ba05b86aafd0", null ],
+    [ "autoMap", "a00071.html#a14e8e75907d10256d8a4ab61520e7e08", null ],
+    [ "rmap", "a00071.html#a63e5d4ac1533d321010cd6f25fe08385", null ],
+    [ "updateCoeffs", "a00071.html#a578f7c989cf81854d45213ec3ee3062a", null ],
+    [ "write", "a00071.html#a8485e769c905e0174ac3bc1970eac328", null ]
 ];

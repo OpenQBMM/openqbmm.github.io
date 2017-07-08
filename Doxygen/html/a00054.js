@@ -1,7 +1,7 @@
 var a00054 =
 [
-    [ "PDFTransportModel", "a00054.html#a7a484ccf0035787e3f0694401128817a", null ],
-    [ "~PDFTransportModel", "a00054.html#aa73779ffb5b8359a6463d7c93864fee6", null ],
-    [ "solve", "a00054.html#aacd6f92a174ec1ebe14983fc21ec498c", null ],
-    [ "mesh_", "a00054.html#a23edeeeecebcef11921a33dd5d990570", null ]
+    [ "GidaspowErgunWenYu", "a00054.html#a62faf9144f49c46a463ca1c4c49c2430", null ],
+    [ "~GidaspowErgunWenYu", "a00054.html#aefbf4c46366cc226cc69a611e96a52c0", null ],
+    [ "TypeName", "a00054.html#af9db2b83459be6cbcd78981faa4ecc7e", null ],
+    [ "CdRe", "a00054.html#a710c9ce4df6a34eec87c435ea332a761", null ]
 ];

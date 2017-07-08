@@ -1,7 +1,10 @@
 var a00029 =
 [
-    [ "hydrodynamicAggregation", "a00029.html#ac2d59e2e1b480844473b8c9e80544658", null ],
-    [ "~hydrodynamicAggregation", "a00029.html#aa892ea992f56afc113c78780d52f9d9c", null ],
-    [ "TypeName", "a00029.html#a40ce4cef678e15a0f33624e28b824edf", null ],
-    [ "Ka", "a00029.html#aff545f8602677e85abbb1b6c6d0fb20f", null ]
+    [ "daughterDistribution", "a00029.html#a24ef98904209a2fdb76d456f36fb7433", null ],
+    [ "~daughterDistribution", "a00029.html#a82d94b9042834125e095b863b9b1d2b2", null ],
+    [ "TypeName", "a00029.html#a82911bf276379ac9d1978f3e59b5a2da", null ],
+    [ "declareRunTimeSelectionTable", "a00029.html#a233d1b6be37d99eb2ef9e3f3431d6e18", null ],
+    [ "New", "a00029.html#aae6ec3b92070a02ab63d7193760e4cb4", null ],
+    [ "mD", "a00029.html#af9150e5e771caf94839759d56d04e458", null ],
+    [ "dict_", "a00029.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a", null ]
 ];

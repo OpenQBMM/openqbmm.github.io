@@ -1,7 +1,8 @@
 var a00063 =
 [
-    [ "turbulentDiffusion", "a00063.html#a53a87c43578f29144d9faa8a85d38ae0", null ],
-    [ "~turbulentDiffusion", "a00063.html#a4c6867b84e9f2bae67c952fe4e59c0b9", null ],
-    [ "TypeName", "a00063.html#a7ed8525205e60ab2350365229650b6c9", null ],
-    [ "momentDiff", "a00063.html#a2607d470834fac9d39bfc0d92f89d41a", null ]
+    [ "hyperbolic", "a00063.html#aff47927a8a4c30d803dc782683ad2b9c", null ],
+    [ "~hyperbolic", "a00063.html#aea3d7726a8ee88ac083cf73de5e2b74a", null ],
+    [ "TypeName", "a00063.html#a023b41fe28b3789813386427d8a0fd77", null ],
+    [ "f1", "a00063.html#ae56b0556a3fde6a2538ef45a21ad8597", null ],
+    [ "f2", "a00063.html#af623e0c066be77b88c66229c02b9bbf1", null ]
 ];

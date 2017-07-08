@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Foam::populationBalanceSubModels::nucleationModels Namespace Reference</title>
+<title>dragModel.C File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -46,9 +46,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li class="current"><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
-      <li><a href="files.html"><span>Files</span></a></li>
+      <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -69,8 +69,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="namespaces.html"><span>Namespace&#160;List</span></a></li>
-      <li><a href="namespacemembers.html"><span>Namespace&#160;Members</span></a></li>
+      <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -103,157 +103,22 @@ $(document).ready(function(){initNavTree('a00268.html','');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Foam::populationBalanceSubModels::nucleationModels Namespace Reference</div>  </div>
+<div class="title">dragModel.C File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00038.html">Miller</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="a00038.html" title="Miller nucleation model for soot formation. ">Miller</a> nucleation model for soot formation.  <a href="a00038.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00053.html">noNucleation</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">No nucleation model.  <a href="a00053.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a21c76019aa3870a37ecf5edfc30fcbdb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00268.html#a21c76019aa3870a37ecf5edfc30fcbdb">defineTypeNameAndDebug</a> (<a class="el" href="a00038.html">Miller</a>, 0)</td></tr>
-<tr class="separator:a21c76019aa3870a37ecf5edfc30fcbdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2d014bf03b1a0cdaf5ed2889c0bbb2d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00268.html#ad2d014bf03b1a0cdaf5ed2889c0bbb2d">addToRunTimeSelectionTable</a> (<a class="el" href="a00055.html">nucleationModel</a>, <a class="el" href="a00038.html">Miller</a>, dictionary)</td></tr>
-<tr class="separator:ad2d014bf03b1a0cdaf5ed2889c0bbb2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57836ace29d15e34f15b8b253e40611f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00268.html#a57836ace29d15e34f15b8b253e40611f">defineTypeNameAndDebug</a> (<a class="el" href="a00053.html">noNucleation</a>, 0)</td></tr>
-<tr class="separator:a57836ace29d15e34f15b8b253e40611f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0ae238b7a248326a8c9c736e41b078e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00268.html#aa0ae238b7a248326a8c9c736e41b078e">addToRunTimeSelectionTable</a> (<a class="el" href="a00055.html">nucleationModel</a>, <a class="el" href="a00053.html">noNucleation</a>, dictionary)</td></tr>
-<tr class="separator:aa0ae238b7a248326a8c9c736e41b078e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a21c76019aa3870a37ecf5edfc30fcbdb"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Foam::populationBalanceSubModels::nucleationModels::defineTypeNameAndDebug </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="a00038.html">Miller</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">0&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
-</div>
-</div>
-<a class="anchor" id="ad2d014bf03b1a0cdaf5ed2889c0bbb2d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Foam::populationBalanceSubModels::nucleationModels::addToRunTimeSelectionTable </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="a00055.html">nucleationModel</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="a00038.html">Miller</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">dictionary&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p><a href="a00268_source.html">Go to the source code of this file.</a></p>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><b>Original source file</b> <a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/interfacialModels/dragModels/dragModel/dragModel.C">dragModel.C</a> </p>
 
-</div>
-</div>
-<a class="anchor" id="a57836ace29d15e34f15b8b253e40611f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Foam::populationBalanceSubModels::nucleationModels::defineTypeNameAndDebug </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="a00053.html">noNucleation</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">0&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aa0ae238b7a248326a8c9c736e41b078e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Foam::populationBalanceSubModels::nucleationModels::addToRunTimeSelectionTable </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="a00055.html">nucleationModel</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="a00053.html">noNucleation</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">dictionary&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-</div><!-- contents -->
+<p>Definition in file <a class="el" href="a00268_source.html">dragModel.C</a>.</p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00252.html">Foam</a></li><li class="navelem"><a class="el" href="a00262.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="a00268.html">nucleationModels</a></li>
+    <li class="navelem"><a class="el" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html">applications</a></li><li class="navelem"><a class="el" href="dir_fdd174abb8ada244b49e98779c87ac3c.html">solvers</a></li><li class="navelem"><a class="el" href="dir_40ef2584a0ec6d8ca6a91d700a2af4ea.html">polydisperseBubbleFoam</a></li><li class="navelem"><a class="el" href="dir_a67881d67603c1140e6c8a3150cfe24f.html">interfacialModels</a></li><li class="navelem"><a class="el" href="dir_c12715deda8d46eba24a898350c37162.html">dragModels</a></li><li class="navelem"><a class="el" href="dir_c9718ac6a53fe2aa2c810e65c693ba50.html">dragModel</a></li><li class="navelem"><a class="el" href="a00268.html">dragModel.C</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

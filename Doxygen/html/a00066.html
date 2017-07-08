@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>univariateMomentAdvection Class Reference</title>
+<title>quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::iNew Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,72 +107,79 @@ $(document).ready(function(){initNavTree('a00066.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="a00562.html">List of all members</a>  </div>
+<a href="a01116.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">univariateMomentAdvection Class Reference</div>  </div>
+<div class="title">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::iNew Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Computes advection term for a moment set using a realizable advection scheme.  
+<p>Return a pointer to a new quadrature node created on freestore.  
  <a href="a00066.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa8fe5fcf476070644d7d052644ba021a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00066.html#aa8fe5fcf476070644d7d052644ba021a">univariateMomentAdvection</a> (const <a class="el" href="a00249.html#a545e54cd8a5ad1ca2192158b263148c5">univariateQuadratureApproximation</a> &amp;quadrature, const surfaceScalarField &amp;phi, const word &amp;support)</td></tr>
-<tr class="memdesc:aa8fe5fcf476070644d7d052644ba021a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from quadrature approximation.  <a href="#aa8fe5fcf476070644d7d052644ba021a">More...</a><br /></td></tr>
-<tr class="separator:aa8fe5fcf476070644d7d052644ba021a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7558438bb9fa34ba37ed51735b3a2e2"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00066.html#af7558438bb9fa34ba37ed51735b3a2e2">~univariateMomentAdvection</a> ()</td></tr>
-<tr class="memdesc:af7558438bb9fa34ba37ed51735b3a2e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#af7558438bb9fa34ba37ed51735b3a2e2">More...</a><br /></td></tr>
-<tr class="separator:af7558438bb9fa34ba37ed51735b3a2e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e42ed478eefece586b6bfb013468be1"><td class="memItemLeft" align="right" valign="top">const PtrList&lt; volScalarField &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00066.html#a1e42ed478eefece586b6bfb013468be1">divMoments</a> () const </td></tr>
-<tr class="memdesc:a1e42ed478eefece586b6bfb013468be1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the advection term for the moment transport equation.  <a href="#a1e42ed478eefece586b6bfb013468be1">More...</a><br /></td></tr>
-<tr class="separator:a1e42ed478eefece586b6bfb013468be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5c54df7ed3b930268c8d7752c101725"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00066.html#ac5c54df7ed3b930268c8d7752c101725">update</a> ()</td></tr>
-<tr class="memdesc:ac5c54df7ed3b930268c8d7752c101725"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update advection.  <a href="#ac5c54df7ed3b930268c8d7752c101725">More...</a><br /></td></tr>
-<tr class="separator:ac5c54df7ed3b930268c8d7752c101725"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:aee1fc78125838d352f1209c771319fe7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00066.html#aee1fc78125838d352f1209c771319fe7">interpolateNodes</a> ()</td></tr>
-<tr class="memdesc:aee1fc78125838d352f1209c771319fe7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Protected member functions.  <a href="#aee1fc78125838d352f1209c771319fe7">More...</a><br /></td></tr>
-<tr class="separator:aee1fc78125838d352f1209c771319fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add8e7db560379dd410d39d795968758a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00066.html#add8e7db560379dd410d39d795968758a">iNew</a> (const word &amp;distributionName, const fvMesh &amp;mesh, const dimensionSet &amp;weightDimensions, const dimensionSet &amp;abscissaDimensions, const wordList &amp;boundaryTypes, const bool <a class="el" href="a00137.html#a169e93115091615d69838e87c7f96a14">extended</a>, const label <a class="el" href="a00137.html#a6d3652c06c7d71d67f199d2104465f3a">nSecondaryNodes</a>)</td></tr>
+<tr class="separator:add8e7db560379dd410d39d795968758a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cf4b421db9b97300525a415cbae6d2c"><td class="memItemLeft" align="right" valign="top">autoPtr&lt; <a class="el" href="a00137.html">quadratureNode</a>&lt; weightType, abscissaType, sigmaType &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00066.html#a7cf4b421db9b97300525a415cbae6d2c">operator()</a> (Istream &amp;is) const </td></tr>
+<tr class="separator:a7cf4b421db9b97300525a415cbae6d2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Computes advection term for a moment set using a realizable advection scheme. </p>
-<p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
-<li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/momentAdvection/univariateMomentAdvection/univariateMomentAdvection.H">univariateMomentAdvection.H</a> </li>
-<li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/momentAdvection/univariateMomentAdvection/univariateMomentAdvection.C">univariateMomentAdvection.C</a> </li>
-<li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/momentAdvection/univariateMomentAdvection/univariateMomentAdvectionI.H">univariateMomentAdvectionI.H</a> </li>
-</ul>
-</dd></dl>
+<div class="textblock"><h3>template&lt;class weightType, class abscissaType, class sigmaType&gt;<br />
+class Foam::quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::iNew</h3>
 
-<p>Definition at line <a class="el" href="a00233_source.html#l00059">59</a> of file <a class="el" href="a00233_source.html">univariateMomentAdvection.H</a>.</p>
+<p>Return a pointer to a new quadrature node created on freestore. </p>
+<p>from Istream </p>
+
+<p>Definition at line <a class="el" href="a00503_source.html#l00121">121</a> of file <a class="el" href="a00503_source.html">quadratureNode.H</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aa8fe5fcf476070644d7d052644ba021a"></a>
+<a class="anchor" id="add8e7db560379dd410d39d795968758a"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00066.html">univariateMomentAdvection</a> </td>
+          <td class="memname"><a class="el" href="a00066.html">iNew</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="a00249.html#a545e54cd8a5ad1ca2192158b263148c5">univariateQuadratureApproximation</a> &amp;&#160;</td>
-          <td class="paramname"><em>quadrature</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const surfaceScalarField &amp;&#160;</td>
-          <td class="paramname"><em>phi</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">const word &amp;&#160;</td>
-          <td class="paramname"><em>support</em>&#160;</td>
+          <td class="paramname"><em>distributionName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const fvMesh &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dimensionSet &amp;&#160;</td>
+          <td class="paramname"><em>weightDimensions</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dimensionSet &amp;&#160;</td>
+          <td class="paramname"><em>abscissaDimensions</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const wordList &amp;&#160;</td>
+          <td class="paramname"><em>boundaryTypes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>extended</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nSecondaryNodes</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -180,43 +187,19 @@ Protected Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-<p>Construct from quadrature approximation. </p>
-
-<p>Definition at line <a class="el" href="a00232_source.html#l00034">34</a> of file <a class="el" href="a00232_source.html">univariateMomentAdvection.C</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af7558438bb9fa34ba37ed51735b3a2e2"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">~<a class="el" href="a00066.html">univariateMomentAdvection</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Destructor. </p>
-
-<p>Definition at line <a class="el" href="a00232_source.html#l00227">227</a> of file <a class="el" href="a00232_source.html">univariateMomentAdvection.C</a>.</p>
+<p>Definition at line <a class="el" href="a00503_source.html#l00134">134</a> of file <a class="el" href="a00503_source.html">quadratureNode.H</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aee1fc78125838d352f1209c771319fe7"></a>
+<a class="anchor" id="a7cf4b421db9b97300525a415cbae6d2c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -224,61 +207,10 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void interpolateNodes </td>
+          <td class="memname">autoPtr&lt; <a class="el" href="a00137.html">quadratureNode</a>&lt;weightType, abscissaType, sigmaType&gt; &gt; operator() </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Protected member functions. </p>
-
-<p>Definition at line <a class="el" href="a00232_source.html#l00233">233</a> of file <a class="el" href="a00232_source.html">univariateMomentAdvection.C</a>.</p>
-
-<p>References <a class="el" href="a00214_source.html#l00067">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::primaryAbscissa()</a>, and <a class="el" href="a00214_source.html#l00052">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::primaryWeight()</a>.</p>
-
-<p>Referenced by <a class="el" href="a00232_source.html#l00271">univariateMomentAdvection::update()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00066_aee1fc78125838d352f1209c771319fe7_cgraph.png" border="0" usemap="#a00066_aee1fc78125838d352f1209c771319fe7_cgraph" alt=""/></div>
-<map name="a00066_aee1fc78125838d352f1209c771319fe7_cgraph" id="a00066_aee1fc78125838d352f1209c771319fe7_cgraph">
-<area shape="rect" id="node2" href="a00058.html#a436581ffd72d3ac178b6d3381f0928ce" title="Const access to the abscissa of the node. " alt="" coords="177,5,340,47"/>
-<area shape="rect" id="node3" href="a00058.html#aa0a25e3fbd8098cb359e8e92cafba070" title="Const access to the weight of the node. " alt="" coords="177,71,340,112"/>
-</map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00066_aee1fc78125838d352f1209c771319fe7_icgraph.png" border="0" usemap="#a00066_aee1fc78125838d352f1209c771319fe7_icgraph" alt=""/></div>
-<map name="a00066_aee1fc78125838d352f1209c771319fe7_icgraph" id="a00066_aee1fc78125838d352f1209c771319fe7_icgraph">
-<area shape="rect" id="node2" href="a00066.html#ac5c54df7ed3b930268c8d7752c101725" title="Update advection. " alt="" coords="177,5,240,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a1e42ed478eefece586b6bfb013468be1"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const Foam::PtrList&lt; Foam::volScalarField &gt; &amp; divMoments </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">Istream &amp;&#160;</td>
+          <td class="paramname"><em>is</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -289,79 +221,39 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Return the advection term for the moment transport equation. </p>
+<p>Definition at line <a class="el" href="a00503_source.html#l00158">158</a> of file <a class="el" href="a00503_source.html">quadratureNode.H</a>.</p>
 
-<p>Definition at line <a class="el" href="a00234_source.html#l00029">29</a> of file <a class="el" href="a00234_source.html">univariateMomentAdvectionI.H</a>.</p>
-
-<p>Referenced by <a class="el" href="a00241_source.html#l00236">univariatePDFTransportModel::solve()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00066_a1e42ed478eefece586b6bfb013468be1_icgraph.png" border="0" usemap="#a00066_a1e42ed478eefece586b6bfb013468be1_icgraph" alt=""/></div>
-<map name="a00066_a1e42ed478eefece586b6bfb013468be1_icgraph" id="a00066_a1e42ed478eefece586b6bfb013468be1_icgraph">
-<area shape="rect" id="node2" href="a00070.html#af7d39f0eac0af0ed5785935ac72a1e7d" title="Edit. " alt="" coords="148,5,400,47"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="ac5c54df7ed3b930268c8d7752c101725"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void update </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Update advection. </p>
-
-<p>Definition at line <a class="el" href="a00232_source.html#l00271">271</a> of file <a class="el" href="a00232_source.html">univariateMomentAdvection.C</a>.</p>
-
-<p>References <a class="el" href="a00232_source.html#l00233">univariateMomentAdvection::interpolateNodes()</a>, and <a class="el" href="a00159_source.html#l00102">momentFieldSet&lt; momentType, nodeType &gt;::update()</a>.</p>
-
-<p>Referenced by <a class="el" href="a00241_source.html#l00236">univariatePDFTransportModel::solve()</a>.</p>
+<p>References <a class="el" href="a00504_source.html#l00036">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::extended()</a>, <a class="el" href="a00504_source.html#l00029">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::name()</a>, <a class="el" href="a00504_source.html#l00044">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::nSecondaryNodes()</a>, <a class="el" href="a00504_source.html#l00067">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::primaryAbscissa()</a>, <a class="el" href="a00504_source.html#l00052">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::primaryWeight()</a>, <a class="el" href="a00504_source.html#l00113">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::secondaryAbscissae()</a>, <a class="el" href="a00504_source.html#l00082">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::secondaryWeights()</a>, <a class="el" href="a00504_source.html#l00145">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::sigma()</a>, and <a class="el" href="a00502_source.html#l00330">quadratureNode&lt; weightType, abscissaType, sigmaType &gt;::~quadratureNode()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00066_ac5c54df7ed3b930268c8d7752c101725_cgraph.png" border="0" usemap="#a00066_ac5c54df7ed3b930268c8d7752c101725_cgraph" alt=""/></div>
-<map name="a00066_ac5c54df7ed3b930268c8d7752c101725_cgraph" id="a00066_ac5c54df7ed3b930268c8d7752c101725_cgraph">
-<area shape="rect" id="node2" href="a00066.html#aee1fc78125838d352f1209c771319fe7" title="Protected member functions. " alt="" coords="135,5,259,32"/>
-<area shape="rect" id="node3" href="a00042.html#ac5c54df7ed3b930268c8d7752c101725" title="Recalculate the moments from the quadrature nodes. " alt="" coords="116,57,279,98"/>
+<div class="center"><img src="a00066_a7cf4b421db9b97300525a415cbae6d2c_cgraph.png" border="0" usemap="#a00066_a7cf4b421db9b97300525a415cbae6d2c_cgraph" alt=""/></div>
+<map name="a00066_a7cf4b421db9b97300525a415cbae6d2c_cgraph" id="a00066_a7cf4b421db9b97300525a415cbae6d2c_cgraph">
+<area shape="rect" id="node2" href="a00137.html#a169e93115091615d69838e87c7f96a14" title="Foam::quadratureNode\l::extended" alt="" coords="344,43,507,84"/>
+<area shape="rect" id="node3" href="a00137.html#a6d3652c06c7d71d67f199d2104465f3a" title="Returns the number of secondary nodes. " alt="" coords="555,94,717,135"/>
+<area shape="rect" id="node4" href="a00137.html#aa0a25e3fbd8098cb359e8e92cafba070" title="Const access to the weight of the node. " alt="" coords="765,123,928,164"/>
+<area shape="rect" id="node5" href="a00137.html#a6d60057c26042eaf7fa1b3b6fb07b582" title="Return the name of the node. " alt="" coords="133,43,296,84"/>
+<area shape="rect" id="node6" href="a00137.html#a436581ffd72d3ac178b6d3381f0928ce" title="Const access to the abscissa of the node. " alt="" coords="133,211,296,252"/>
+<area shape="rect" id="node7" href="a00137.html#acf323f4680d96d62aca77b85fab8d25c" title="Const access to the list of secondary abscissae of the node. " alt="" coords="133,276,296,318"/>
+<area shape="rect" id="node8" href="a00137.html#a225ac587d44fce3f6a523a89784379af" title="Const access to the secondary weights of the node. " alt="" coords="133,342,296,383"/>
+<area shape="rect" id="node9" href="a00137.html#ae7ed63986006f100bfc1515291f070cb" title="Const access to sigma. " alt="" coords="133,407,296,448"/>
+<area shape="rect" id="node10" href="a00137.html#ad65970595fbbbcb000b0192eb41d7416" title="Destructor. " alt="" coords="133,472,296,514"/>
 </map>
 </div>
 </p>
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00066_ac5c54df7ed3b930268c8d7752c101725_icgraph.png" border="0" usemap="#a00066_ac5c54df7ed3b930268c8d7752c101725_icgraph" alt=""/></div>
-<map name="a00066_ac5c54df7ed3b930268c8d7752c101725_icgraph" id="a00066_ac5c54df7ed3b930268c8d7752c101725_icgraph">
-<area shape="rect" id="node2" href="a00070.html#af7d39f0eac0af0ed5785935ac72a1e7d" title="Edit. " alt="" coords="116,5,368,47"/>
-</map>
-</div>
-</p>
-
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="a00233_source.html">univariateMomentAdvection.H</a></li>
-<li><a class="el" href="a00232_source.html">univariateMomentAdvection.C</a></li>
-<li><a class="el" href="a00234_source.html">univariateMomentAdvectionI.H</a></li>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="a00503_source.html">quadratureNode.H</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00249.html">Foam</a></li><li class="navelem"><a class="el" href="a00066.html">univariateMomentAdvection</a></li>
+    <li class="navelem"><a class="el" href="a00605.html">Foam</a></li><li class="navelem"><a class="el" href="a00137.html">quadratureNode</a></li><li class="navelem"><a class="el" href="a00066.html">iNew</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

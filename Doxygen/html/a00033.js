@@ -1,12 +1,10 @@
 var a00033 =
 [
-    [ "lognormalEQMOM", "a00033.html#a041c92a009ff5d815d4114f739c90671", null ],
-    [ "~lognormalEQMOM", "a00033.html#a5eae814d9bdd2c784867bb2fbd1fbb58", null ],
-    [ "TypeName", "a00033.html#a3a34900882fe6c779674da9f3acabe2b", null ],
-    [ "secondaryAbscissa", "a00033.html#a872602e3d9bce4c696be2c2684a05e5a", null ],
-    [ "momentsStarToMoments", "a00033.html#a1eb2822d55fbaa8060321a24fc197329", null ],
-    [ "momentsToMomentsStar", "a00033.html#a88e521ae957743da06eec8e0ab777e2e", null ],
-    [ "m2N", "a00033.html#abee7f03ce3d0afa1dbc462ff6da2fff9", null ],
-    [ "recurrenceRelation", "a00033.html#a5831aae7a1d440271b5184f59f912503", null ],
-    [ "sigmaMax", "a00033.html#a479ec71576844909c5c0756350c24e2f", null ]
+    [ "diffusionModel", "a00033.html#a9ddf42daebca521ed9b1836083a7c90a", null ],
+    [ "~diffusionModel", "a00033.html#af2348e708346160fd55cb63f0a48dfa7", null ],
+    [ "TypeName", "a00033.html#aac5e53b16b5d306f767a3ac9c82018fe", null ],
+    [ "declareRunTimeSelectionTable", "a00033.html#aa29c65576a34ab15da2f135cfb51cd12", null ],
+    [ "New", "a00033.html#a4979734dfbad3055a0ebcb03224a6cf3", null ],
+    [ "momentDiff", "a00033.html#a5b7c21e0d26e0f2c3f207a1a6929fd6d", null ],
+    [ "dict_", "a00033.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a", null ]
 ];

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>moment.H File Reference</title>
+<title>TomiyamaSwarm Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -47,8 +47,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
-      <li class="current"><a href="files.html"><span>Files</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -69,8 +69,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="files.html"><span>File&#160;List</span></a></li>
-      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -103,57 +105,36 @@ $(document).ready(function(){initNavTree('a00158.html','');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
-<div class="title">moment.H File Reference</div>  </div>
+<div class="title">TomiyamaSwarm Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div class="dynheader">
-Include dependency graph for moment.H:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00388.png" border="0" usemap="#moment_8H" alt=""/></div>
-<map name="moment_8H" id="moment_8H">
-<area shape="rect" id="node3" href="a00215.html" title="quadratureNodes.H" alt="" coords="101,80,239,107"/>
-</map>
-</div>
-</div><div class="textblock"><div class="dynheader">
-This graph shows which files directly or indirectly include this file:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00389.png" border="0" usemap="#moment_8Hdep" alt=""/></div>
-<map name="moment_8Hdep" id="moment_8Hdep">
-<area shape="rect" id="node2" href="a00157.html" title="moment.C" alt="" coords="5,80,88,107"/>
-<area shape="rect" id="node3" href="a00164.html" title="moments.H" alt="" coords="113,80,202,107"/>
-</map>
-</div>
-</div>
-<p><a href="a00158_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00041.html">moment&lt; fieldType, nodeType &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores a moment of a distribution function with arbitrary dimensionality.  <a href="a00041.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00032.html">moment&lt; fieldType, nodeType &gt;::iNew</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a pointer to a new moment created on freestore.  <a href="a00032.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:a00249"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00249.html">Foam</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/moments/moment.H">moment.H</a> </p>
 
-<p>Definition in file <a class="el" href="a00158_source.html">moment.H</a>.</p>
-</div></div><!-- contents -->
+<p>Swarm correction of Tomiyama et al.  
+ <a href="a00158.html#details">More...</a></p>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Swarm correction of Tomiyama et al. </p>
+<p><a class="anchor" id="Description"></a>Reference: </p><pre class="fragment">    "Drag Coefficients of Bubbles. 2nd Report. Drag Coefficient for a Swarm
+     of Bubbles and its Applicability to Transient Flow."
+    Tomiyama, A., Kataoka, I., Fukuda, T., and Sakaguchi, T.,
+    Nippon Kikai Gakkai Ronbunshu
+    Volume 61, Issue 588, 1995, pp. 2810-2817
+</pre><dl class="section user"><dt>Source files</dt><dd><ul>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/interfacialModels/swarmCorrections/TomiyamaSwarm/TomiyamaSwarm.H">TomiyamaSwarm.H</a> </li>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/interfacialModels/swarmCorrections/TomiyamaSwarm/TomiyamaSwarm.C">TomiyamaSwarm.C</a> </li>
+</ul>
+</dd></dl>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="a00544_source.html">TomiyamaSwarm.H</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_17a6c3d0f5fde6543c26c10fa938ae5d.html">moments</a></li><li class="navelem"><a class="el" href="a00158.html">moment.H</a></li>
+    <li class="navelem"><a class="el" href="a00605.html">Foam</a></li><li class="navelem"><a class="el" href="a00158.html">TomiyamaSwarm</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

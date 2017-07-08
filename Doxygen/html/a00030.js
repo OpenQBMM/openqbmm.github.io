@@ -1,7 +1,7 @@
 var a00030 =
 [
-    [ "IEM", "a00030.html#a0889eb4694ebdfaf84d6835f64d09606", null ],
-    [ "~IEM", "a00030.html#a997e52c6e4e36862421a083fced3f78b", null ],
-    [ "TypeName", "a00030.html#a1aa74a2a8e1a424bcbf1e400e8a4c504", null ],
-    [ "K", "a00030.html#ac39375448f36ddee2cac96a50dd6a0a9", null ]
+    [ "Davidson", "a00030.html#ad5245e0c74d2dbc5984f7716038c3ce6", null ],
+    [ "~Davidson", "a00030.html#a8b91468d395275ec67deb3eb84fb54e2", null ],
+    [ "TypeName", "a00030.html#a10ea756adf27fc1db4cbefca872e46b6", null ],
+    [ "D", "a00030.html#aaf1922308183e59d85b4ad6dfad616fd", null ]
 ];

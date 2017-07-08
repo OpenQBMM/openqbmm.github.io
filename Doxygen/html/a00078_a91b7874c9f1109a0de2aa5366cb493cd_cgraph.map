@@ -1,7 +1,0 @@
-<map id="~univariatePopulationBalance" name="~univariatePopulationBalance">
-<area shape="rect" id="node2" href="$a00063.html#a436581ffd72d3ac178b6d3381f0928ce" title="Const access to the abscissa of the node. " alt="" coords="255,5,417,47"/>
-<area shape="rect" id="node3" href="$a00063.html#aa0a25e3fbd8098cb359e8e92cafba070" title="Const access to the weight of the node. " alt="" coords="255,71,417,112"/>
-<area shape="rect" id="node4" href="$a00063.html#acf323f4680d96d62aca77b85fab8d25c" title="Const access to the list of secondary abscissae of the node. " alt="" coords="255,136,417,177"/>
-<area shape="rect" id="node5" href="$a00063.html#a225ac587d44fce3f6a523a89784379af" title="Const access to the secondary weights of the node. " alt="" coords="255,201,417,243"/>
-<area shape="rect" id="node6" href="$a00078.html#af7d39f0eac0af0ed5785935ac72a1e7d" title="Solve population balance equation. " alt="" coords="309,267,363,294"/>
-</map>

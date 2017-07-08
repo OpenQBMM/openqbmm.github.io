@@ -1,8 +1,7 @@
 var a00026 =
 [
-    [ "gaussMomentInversion", "a00026.html#ab84059e01757095681a772d0021f9aac", null ],
-    [ "~gaussMomentInversion", "a00026.html#a45dd9dc55811f1ddc792a320c2a283af", null ],
-    [ "TypeName", "a00026.html#ab64427407045477aab2eb45b9f9efe1e", null ],
-    [ "correctRecurrence", "a00026.html#adb8044c0e431e0fe1005a4395fff5478", null ],
-    [ "calcNQuadratureNodes", "a00026.html#ae11f16abe217f76d4e7b5e98e47b3ae1", null ]
+    [ "constantTurbulentDispersionCoefficient", "a00026.html#abff9dc535a1b0ff0fc04db1844ccdea3", null ],
+    [ "~constantTurbulentDispersionCoefficient", "a00026.html#a3bc61581d3b3fe2a3c1a1e7a2bab81ed", null ],
+    [ "TypeName", "a00026.html#aafe31ab21b510f2d502d4058cf65e7bd", null ],
+    [ "D", "a00026.html#aaf1922308183e59d85b4ad6dfad616fd", null ]
 ];

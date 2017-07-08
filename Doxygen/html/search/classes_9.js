@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['lognormaleqmom',['lognormalEQMOM',['../a00033.html',1,'Foam']]],
-  ['luosvendsen',['LuoSvendsen',['../a00034.html',1,'Foam::populationBalanceSubModels::breakupKernels']]]
+  ['johnsonjackson',['JohnsonJackson',['../a00070.html',1,'Foam::kineticTheoryModels::frictionalStressModels']]],
+  ['johnsonjacksonparticleslipfvpatchvectorfield',['JohnsonJacksonParticleSlipFvPatchVectorField',['../a00071.html',1,'Foam']]],
+  ['johnsonjacksonparticlethetafvpatchscalarfield',['JohnsonJacksonParticleThetaFvPatchScalarField',['../a00072.html',1,'Foam']]],
+  ['johnsonjacksonschaeffer',['JohnsonJacksonSchaeffer',['../a00073.html',1,'Foam::kineticTheoryModels::frictionalStressModels']]]
 ];

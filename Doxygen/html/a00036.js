@@ -1,12 +1,7 @@
 var a00036 =
 [
-    [ "mixingKernel", "a00036.html#aaca5d9c330f9d405dbba4c0a005e67b2", null ],
-    [ "~mixingKernel", "a00036.html#a8187a8529b4c0530e7d8b8e65f567ae2", null ],
-    [ "TypeName", "a00036.html#a3b42ca04bac2225aebf334ca0d1930d3", null ],
-    [ "declareRunTimeSelectionTable", "a00036.html#aae2fd47362b83e744693764fac06c525", null ],
-    [ "New", "a00036.html#add8b3288d1baf0dccf98ad50e9c1a689", null ],
-    [ "K", "a00036.html#a6ab81f0139b713a05fb0ebe91fc54ed5", null ],
-    [ "dict_", "a00036.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a", null ],
-    [ "Cphi_", "a00036.html#a88b4336f953c90f0d28a80db8fa28857", null ],
-    [ "Cmixing_", "a00036.html#a1807597980604a41ccdbd2b34f9f4479", null ]
+    [ "Ergun", "a00036.html#a2fb55814ce118e53613e2ff701062d98", null ],
+    [ "~Ergun", "a00036.html#a734bd321f41560ef9ac31f5bcb811e83", null ],
+    [ "TypeName", "a00036.html#a08cc9411f50e6db63438ac6d642b7a26", null ],
+    [ "CdRe", "a00036.html#a710c9ce4df6a34eec87c435ea332a761", null ]
 ];

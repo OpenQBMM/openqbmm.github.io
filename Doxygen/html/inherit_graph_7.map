@@ -1,6 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$a00020.html" title="Abstract class to allow run&#45;time selection of the algorithm to be used for the extended quadrature me..." alt="" coords="5,56,187,83"/>
-<area shape="rect" id="node2" href="$a00005.html" title="Extended quadrature method of moments with beta kernel density functions. " alt="" coords="251,5,350,32"/>
-<area shape="rect" id="node3" href="$a00024.html" title="Extended quadrature method of moments with gamma kernel density functions. " alt="" coords="241,56,360,83"/>
-<area shape="rect" id="node4" href="$a00033.html" title="Extended quadrature method of moments with log&#45;normal kernel density functions. " alt="" coords="235,107,367,133"/>
+<area shape="rect" id="node1" href="$a00019.html" title="conductivityModel" alt="" coords="5,56,136,83"/>
+<area shape="rect" id="node2" href="$a00052.html" title="Gidaspow" alt="" coords="197,5,281,32"/>
+<area shape="rect" id="node3" href="$a00060.html" title="HrenyaSinclair" alt="" coords="184,56,293,83"/>
+<area shape="rect" id="node4" href="$a00147.html" title="Syamlal" alt="" coords="203,107,274,133"/>
 </map>

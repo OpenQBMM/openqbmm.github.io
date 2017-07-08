@@ -1,6 +1,7 @@
 var a00102 =
 [
-    [ "patches", "a00102.html#a36a9f0467bdd55ece250a2d8e21bfdab", null ],
-    [ "addFvPatches", "a00102.html#aba98bd4bf2ae6ad20eaee4b756080d6f", null ],
-    [ "patches", "a00102.html#a6eea546b8fab7318f4d0d67e4ff28fde", null ]
+    [ "Moraga", "a00102.html#a2d4a2239141964d0bcffe226c7f6f70e", null ],
+    [ "~Moraga", "a00102.html#a5a9ba12b8cd36d1cca9fbcba962d9391", null ],
+    [ "TypeName", "a00102.html#a1ac95a1f554c83fd0790e927c225ab71", null ],
+    [ "Cl", "a00102.html#a7ca2eeaa963ec216ce5478271a682ea5", null ]
 ];

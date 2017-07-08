@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>turbulentBrownian.H File Reference</title>
+<title>conditionalMomentInversion.H File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,23 +107,27 @@ $(document).ready(function(){initNavTree('a00222.html','');});
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
-<div class="title">turbulentBrownian.H File Reference</div>  </div>
+<div class="title">conditionalMomentInversion.H File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div class="dynheader">
-Include dependency graph for turbulentBrownian.H:</div>
+Include dependency graph for conditionalMomentInversion.H:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00470.png" border="0" usemap="#turbulentBrownian_8H" alt=""/></div>
-<map name="turbulentBrownian_8H" id="turbulentBrownian_8H">
-<area shape="rect" id="node2" href="a00075.html" title="aggregationKernel.H" alt="" coords="5,80,152,107"/>
+<div class="center"><img src="a00670.png" border="0" usemap="#conditionalMomentInversion_8H" alt=""/></div>
+<map name="conditionalMomentInversion_8H" id="conditionalMomentInversion_8H">
+<area shape="rect" id="node5" href="a00571.html" title="univariateMomentSet.H" alt="" coords="310,155,470,181"/>
+<area shape="rect" id="node6" href="a00568.html" title="univariateMomentInversion.H" alt="" coords="410,80,605,107"/>
+<area shape="rect" id="node7" href="a00581.html" title="Vandermonde.H" alt="" coords="564,155,684,181"/>
+<area shape="rect" id="node8" href="a00399.html" title="nDimensionalMappedList.H" alt="" coords="150,80,335,107"/>
+<area shape="rect" id="node9" href="a00223.html" title="conditionalMomentInversionI.H" alt="" coords="680,80,884,107"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00471.png" border="0" usemap="#turbulentBrownian_8Hdep" alt=""/></div>
-<map name="turbulentBrownian_8Hdep" id="turbulentBrownian_8Hdep">
-<area shape="rect" id="node2" href="a00221.html" title="turbulentBrownian.C" alt="" coords="5,80,145,107"/>
+<div class="center"><img src="a00671.png" border="0" usemap="#conditionalMomentInversion_8Hdep" alt=""/></div>
+<map name="conditionalMomentInversion_8Hdep" id="conditionalMomentInversion_8Hdep">
+<area shape="rect" id="node2" href="a00221.html" title="conditionalMomentInversion.C" alt="" coords="5,80,208,107"/>
 </map>
 </div>
 </div>
@@ -131,29 +135,25 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00061.html">turbulentBrownian</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="a00007.html" title="Brownian aggregation kernel. ">Brownian</a> aggregation kernel supplemented for particles in turbulent flows in conditions when the particle size is smaller than the local Kolmogorov scale.  <a href="a00061.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00018.html">conditionalMomentInversion</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of the conditional quadrature method of moments.  <a href="a00018.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:a00249"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00249.html">Foam</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00258"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00258.html">Foam::populationBalanceSubModels</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00259"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00259.html">Foam::populationBalanceSubModels::aggregationKernels</a></td></tr>
+<tr class="memitem:a00605"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00605.html">Foam</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/aggregationKernels/turbulentBrownian/turbulentBrownian.H">turbulentBrownian.H</a> </p>
+<div class="textblock"><p><b>Original source file</b> <a href="/home/alberto/Desktop/OpenQBMM/src/quadratureMethods/momentInversion/multivariate/conditional/conditionalMomentInversion.H">conditionalMomentInversion.H</a> </p>
 
-<p>Definition in file <a class="el" href="a00222_source.html">turbulentBrownian.H</a>.</p>
+<p>Definition in file <a class="el" href="a00222_source.html">conditionalMomentInversion.H</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0ecbe6cb5f50223527ce4e1b499bd333.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="dir_58c61e057ed2119d9755c9fdbb448648.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="dir_62f86ef0c260ceaf3b93a8b1f701039a.html">aggregationKernels</a></li><li class="navelem"><a class="el" href="dir_f2cff93ce85fb5d1cb25d558030a0a5c.html">turbulentBrownian</a></li><li class="navelem"><a class="el" href="a00222.html">turbulentBrownian.H</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0b9bb76b72c90181149adc55e92e6ea3.html">momentInversion</a></li><li class="navelem"><a class="el" href="dir_a727253ad871f360830950009662c355.html">multivariate</a></li><li class="navelem"><a class="el" href="dir_6dbc55ca455559e84eebcb8a457f4a11.html">conditional</a></li><li class="navelem"><a class="el" href="a00222.html">conditionalMomentInversion.H</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

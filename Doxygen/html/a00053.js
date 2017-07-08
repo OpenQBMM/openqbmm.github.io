@@ -1,7 +1,7 @@
 var a00053 =
 [
-    [ "oneQuarterMassRatio", "a00053.html#a962d460d76cd33e02cf608ca4beacb77", null ],
-    [ "~oneQuarterMassRatio", "a00053.html#a147fb07ac3fc0d40d665bba9391ef32d", null ],
-    [ "TypeName", "a00053.html#a7fb47156df4cac064c2b90cb0fc81675", null ],
-    [ "mD", "a00053.html#af11d63388088dc9b381b450559526d24", null ]
+    [ "Gidaspow", "a00053.html#a99a6cb9080f3159e7fc35cfa77f2f372", null ],
+    [ "~Gidaspow", "a00053.html#a9d1f845bcd7f32e6ac377ae81236f8c6", null ],
+    [ "TypeName", "a00053.html#ad2d65d02154bc44c919f16232a8a9b04", null ],
+    [ "nu", "a00053.html#a3127d9484a13bfb2bb2090956c1f8836", null ]
 ];

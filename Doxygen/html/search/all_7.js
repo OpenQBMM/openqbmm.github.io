@@ -1,8 +1,23 @@
 var searchData=
 [
-  ['hbya',['HbyA',['../a00203.html#a84b1887f789e3bce2e0381c047a98de9',1,'pEqn.H']]],
-  ['hydrodynamicaggregation',['hydrodynamicAggregation',['../a00029.html#ac2d59e2e1b480844473b8c9e80544658',1,'Foam::populationBalanceSubModels::aggregationKernels::hydrodynamicAggregation']]],
-  ['hydrodynamicaggregation',['hydrodynamicAggregation',['../a00029.html',1,'Foam::populationBalanceSubModels::aggregationKernels']]],
-  ['hydrodynamicaggregation_2ec',['hydrodynamicAggregation.C',['../a00137.html',1,'']]],
-  ['hydrodynamicaggregation_2eh',['hydrodynamicAggregation.H',['../a00138.html',1,'']]]
+  ['hash',['hash',['../a00059.html',1,'Foam::phasePairKey']]],
+  ['hash',['hash',['../a00059.html#af5d527ef2a6e3f43563ad4cb15872140',1,'Foam::phasePairKey::hash']]],
+  ['hasmodel',['hasModel',['../a00011.html#aa432da371c98eef8cb9bd3838b773a7a',1,'Foam::BlendedInterfacialModel']]],
+  ['hbya',['HbyA',['../a00478.html#a84b1887f789e3bce2e0381c047a98de9',1,'pEqn.H']]],
+  ['hrenyasinclair',['HrenyaSinclair',['../a00060.html',1,'Foam::kineticTheoryModels::conductivityModels']]],
+  ['hrenyasinclair',['HrenyaSinclair',['../a00060.html#a355f9db3b98cb68e9fcfede9c56d12be',1,'Foam::kineticTheoryModels::conductivityModels::HrenyaSinclair::HrenyaSinclair()'],['../a00061.html#a355f9db3b98cb68e9fcfede9c56d12be',1,'Foam::kineticTheoryModels::viscosityModels::HrenyaSinclair::HrenyaSinclair()']]],
+  ['hrenyasinclair',['HrenyaSinclair',['../a00061.html',1,'Foam::kineticTheoryModels::viscosityModels']]],
+  ['hrenyasinclairconductivity_2ec',['HrenyaSinclairConductivity.C',['../a00321.html',1,'']]],
+  ['hrenyasinclairconductivity_2eh',['HrenyaSinclairConductivity.H',['../a00322.html',1,'']]],
+  ['hrenyasinclairviscosity_2ec',['HrenyaSinclairViscosity.C',['../a00323.html',1,'']]],
+  ['hrenyasinclairviscosity_2eh',['HrenyaSinclairViscosity.H',['../a00324.html',1,'']]],
+  ['hydrodynamicaggregation',['hydrodynamicAggregation',['../a00062.html#ac2d59e2e1b480844473b8c9e80544658',1,'Foam::populationBalanceSubModels::aggregationKernels::hydrodynamicAggregation']]],
+  ['hydrodynamicaggregation',['hydrodynamicAggregation',['../a00062.html',1,'Foam::populationBalanceSubModels::aggregationKernels']]],
+  ['hydrodynamicaggregation_2ec',['hydrodynamicAggregation.C',['../a00325.html',1,'']]],
+  ['hydrodynamicaggregation_2eh',['hydrodynamicAggregation.H',['../a00326.html',1,'']]],
+  ['hyperbolic',['hyperbolic',['../a00064.html',1,'Foam']]],
+  ['hyperbolic',['hyperbolic',['../a00063.html#aff47927a8a4c30d803dc782683ad2b9c',1,'Foam::blendingMethods::hyperbolic']]],
+  ['hyperbolic',['hyperbolic',['../a00063.html',1,'Foam::blendingMethods']]],
+  ['hyperbolic_2ec',['hyperbolic.C',['../a00327.html',1,'']]],
+  ['hyperbolic_2eh',['hyperbolic.H',['../a00328.html',1,'']]]
 ];

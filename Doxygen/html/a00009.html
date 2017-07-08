@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>constantAggregation Class Reference</title>
+<title>BeisheuvelBubblePressure Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -105,276 +105,35 @@ $(document).ready(function(){initNavTree('a00009.html','');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="a00620.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">constantAggregation Class Reference</div>  </div>
+<div class="title">BeisheuvelBubblePressure Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Constant aggregation kernel. The value of the kernel is read from dictionary or assumed equal to 1.  
+<p>Wall lubrication model of Tomiyama.  
  <a href="a00009.html#details">More...</a></p>
-<div class="dynheader">
-Inheritance diagram for constantAggregation:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00621.png" border="0" usemap="#constantAggregation_inherit__map" alt="Inheritance graph"/></div>
-<map name="constantAggregation_inherit__map" id="constantAggregation_inherit__map">
-<area shape="rect" id="node2" href="a00002.html" title="Abstract class for aggregation kernels. " alt="" coords="11,5,146,32"/>
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for constantAggregation:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00622.png" border="0" usemap="#constantAggregation_coll__map" alt="Collaboration graph"/></div>
-<map name="constantAggregation_coll__map" id="constantAggregation_coll__map">
-<area shape="rect" id="node2" href="a00002.html" title="Abstract class for aggregation kernels. " alt="" coords="11,5,146,32"/>
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ac2a86ba46d157b053e4a28a9483a48f5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00009.html#ac2a86ba46d157b053e4a28a9483a48f5">TypeName</a> (&quot;constant&quot;)</td></tr>
-<tr class="memdesc:ac2a86ba46d157b053e4a28a9483a48f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#ac2a86ba46d157b053e4a28a9483a48f5">More...</a><br /></td></tr>
-<tr class="separator:ac2a86ba46d157b053e4a28a9483a48f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d9eab6d02320111723f0725a2ef06fd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00009.html#a3d9eab6d02320111723f0725a2ef06fd">constantAggregation</a> (const dictionary &amp;dict, const fvMesh &amp;mesh)</td></tr>
-<tr class="memdesc:a3d9eab6d02320111723f0725a2ef06fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#a3d9eab6d02320111723f0725a2ef06fd">More...</a><br /></td></tr>
-<tr class="separator:a3d9eab6d02320111723f0725a2ef06fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f95da283d65bcd70fad3f015ff2dfd5"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00009.html#a8f95da283d65bcd70fad3f015ff2dfd5">~constantAggregation</a> ()</td></tr>
-<tr class="memdesc:a8f95da283d65bcd70fad3f015ff2dfd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a8f95da283d65bcd70fad3f015ff2dfd5">More...</a><br /></td></tr>
-<tr class="separator:a8f95da283d65bcd70fad3f015ff2dfd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff545f8602677e85abbb1b6c6d0fb20f"><td class="memItemLeft" align="right" valign="top">virtual scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00009.html#aff545f8602677e85abbb1b6c6d0fb20f">Ka</a> (const scalar &amp;abscissa1, const scalar &amp;abscissa2, const label &amp;celli) const </td></tr>
-<tr class="memdesc:aff545f8602677e85abbb1b6c6d0fb20f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aggregation kernel.  <a href="#aff545f8602677e85abbb1b6c6d0fb20f">More...</a><br /></td></tr>
-<tr class="separator:aff545f8602677e85abbb1b6c6d0fb20f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a00002"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00002')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="a00002.html">aggregationKernel</a></td></tr>
-<tr class="memitem:ae635445d544ded93442f8f985f515459 inherit pub_methods_a00002"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00002.html#ae635445d544ded93442f8f985f515459">TypeName</a> (&quot;aggregationKernel&quot;)</td></tr>
-<tr class="memdesc:ae635445d544ded93442f8f985f515459 inherit pub_methods_a00002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#ae635445d544ded93442f8f985f515459">More...</a><br /></td></tr>
-<tr class="separator:ae635445d544ded93442f8f985f515459 inherit pub_methods_a00002"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb6c85ea440716007e16e43747e20a7c inherit pub_methods_a00002"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00002.html#adb6c85ea440716007e16e43747e20a7c">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00002.html">aggregationKernel</a>, dictionary,(                                       const dictionary &amp;dict,                                       const fvMesh &amp;mesh                       ),(dict, mesh))</td></tr>
-<tr class="separator:adb6c85ea440716007e16e43747e20a7c inherit pub_methods_a00002"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62c9e0113594b969e61c76e071b7a79b inherit pub_methods_a00002"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00002.html#a62c9e0113594b969e61c76e071b7a79b">aggregationKernel</a> (const dictionary &amp;dict, const fvMesh &amp;mesh)</td></tr>
-<tr class="memdesc:a62c9e0113594b969e61c76e071b7a79b inherit pub_methods_a00002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#a62c9e0113594b969e61c76e071b7a79b">More...</a><br /></td></tr>
-<tr class="separator:a62c9e0113594b969e61c76e071b7a79b inherit pub_methods_a00002"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad207fdb33ae3b991ec3e94068c03a307 inherit pub_methods_a00002"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00002.html#ad207fdb33ae3b991ec3e94068c03a307">~aggregationKernel</a> ()</td></tr>
-<tr class="memdesc:ad207fdb33ae3b991ec3e94068c03a307 inherit pub_methods_a00002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#ad207fdb33ae3b991ec3e94068c03a307">More...</a><br /></td></tr>
-<tr class="separator:ad207fdb33ae3b991ec3e94068c03a307 inherit pub_methods_a00002"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_static_methods_a00002"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_a00002')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="a00002.html">aggregationKernel</a></td></tr>
-<tr class="memitem:aa4fd05f8720fbd55876a9a023be94855 inherit pub_static_methods_a00002"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00002.html">aggregationKernel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00002.html#aa4fd05f8720fbd55876a9a023be94855">New</a> (const dictionary &amp;dict, const fvMesh &amp;mesh)</td></tr>
-<tr class="separator:aa4fd05f8720fbd55876a9a023be94855 inherit pub_static_methods_a00002"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_a00002"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a00002')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="a00002.html">aggregationKernel</a></td></tr>
-<tr class="memitem:a892ddcb9cba6f50b0396cdb7bf1b4f6a inherit pro_attribs_a00002"><td class="memItemLeft" align="right" valign="top">const dictionary &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00002.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a">dict_</a></td></tr>
-<tr class="memdesc:a892ddcb9cba6f50b0396cdb7bf1b4f6a inherit pro_attribs_a00002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dictionary.  <a href="#a892ddcb9cba6f50b0396cdb7bf1b4f6a">More...</a><br /></td></tr>
-<tr class="separator:a892ddcb9cba6f50b0396cdb7bf1b4f6a inherit pro_attribs_a00002"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23edeeeecebcef11921a33dd5d990570 inherit pro_attribs_a00002"><td class="memItemLeft" align="right" valign="top">const fvMesh &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00002.html#a23edeeeecebcef11921a33dd5d990570">mesh_</a></td></tr>
-<tr class="memdesc:a23edeeeecebcef11921a33dd5d990570 inherit pro_attribs_a00002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mesh.  <a href="#a23edeeeecebcef11921a33dd5d990570">More...</a><br /></td></tr>
-<tr class="separator:a23edeeeecebcef11921a33dd5d990570 inherit pro_attribs_a00002"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7547e6fb837b9ab15b147886567d8cf2 inherit pro_attribs_a00002"><td class="memItemLeft" align="right" valign="top">const dimensionedScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00002.html#a7547e6fb837b9ab15b147886567d8cf2">Ca_</a></td></tr>
-<tr class="memdesc:a7547e6fb837b9ab15b147886567d8cf2 inherit pro_attribs_a00002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coefficient of aggregation kernel.  <a href="#a7547e6fb837b9ab15b147886567d8cf2">More...</a><br /></td></tr>
-<tr class="separator:a7547e6fb837b9ab15b147886567d8cf2 inherit pro_attribs_a00002"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Constant aggregation kernel. The value of the kernel is read from dictionary or assumed equal to 1. </p>
-<p><a class="anchor" id="Description"></a> </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ K_a = C_a \]" src="form_6.png"/>
-</p>
-<p>where</p>
-<table  border="0">
-<tr>
-<td style="padding-left: 10px"><img class="formulaInl" alt="$ C_a $" src="form_7.png"/> </td><td style="padding-left: 10px; padding-right: 10px;">= </td><td>Aggregation coefficient [1/s]  </td></tr>
-</table>
-<dl class="section user"><dt>Source files</dt><dd><ul>
+<div class="textblock"><p>Wall lubrication model of Tomiyama. </p>
+<p><a class="anchor" id="Description"></a>References: </p><pre class="fragment">    "Implementation and Comparison of Correlations for interfacial Forces
+     in a Gas-Liquid System within an Euler-Euler Framework"
+    Otromke, M.
+    PhD Thesis, April 2013
+</pre><dl class="section user"><dt>Source files</dt><dd><ul>
 <li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/aggregationKernels/constantAggregation/constantAggregation.H">constantAggregation.H</a> </li>
+<a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/interfacialModels/bubblePressureModels/BeisheuvelBubblePressure/BeisheuvelBubblePressure.H">BeisheuvelBubblePressure.H</a> </li>
 <li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/aggregationKernels/constantAggregation/constantAggregation.C">constantAggregation.C</a> </li>
+<a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/interfacialModels/bubblePressureModels/BeisheuvelBubblePressure/BeisheuvelBubblePressure.C">BeisheuvelBubblePressure.C</a> </li>
 </ul>
 </dd></dl>
-
-<p>Definition at line <a class="el" href="a00091_source.html#l00067">67</a> of file <a class="el" href="a00091_source.html">constantAggregation.H</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a3d9eab6d02320111723f0725a2ef06fd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="a00009.html">constantAggregation</a> </td>
-          <td>(</td>
-          <td class="paramtype">const dictionary &amp;&#160;</td>
-          <td class="paramname"><em>dict</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const fvMesh &amp;&#160;</td>
-          <td class="paramname"><em>mesh</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Construct from components. </p>
-
-<p>Definition at line <a class="el" href="a00090_source.html#l00054">54</a> of file <a class="el" href="a00090_source.html">constantAggregation.C</a>.</p>
-
-<p>References <a class="el" href="a00090_source.html#l00066">constantAggregation::~constantAggregation()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00009_a3d9eab6d02320111723f0725a2ef06fd_cgraph.png" border="0" usemap="#a00009_a3d9eab6d02320111723f0725a2ef06fd_cgraph" alt=""/></div>
-<map name="a00009_a3d9eab6d02320111723f0725a2ef06fd_cgraph" id="a00009_a3d9eab6d02320111723f0725a2ef06fd_cgraph">
-<area shape="rect" id="node2" href="a00009.html#a8f95da283d65bcd70fad3f015ff2dfd5" title="Destructor. " alt="" coords="200,5,355,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a8f95da283d65bcd70fad3f015ff2dfd5"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">~<a class="el" href="a00009.html">constantAggregation</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Destructor. </p>
-
-<p>Definition at line <a class="el" href="a00090_source.html#l00066">66</a> of file <a class="el" href="a00090_source.html">constantAggregation.C</a>.</p>
-
-<p>References <a class="el" href="a00090_source.html#l00074">constantAggregation::Ka()</a>.</p>
-
-<p>Referenced by <a class="el" href="a00090_source.html#l00054">constantAggregation::constantAggregation()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00009_a8f95da283d65bcd70fad3f015ff2dfd5_cgraph.png" border="0" usemap="#a00009_a8f95da283d65bcd70fad3f015ff2dfd5_cgraph" alt=""/></div>
-<map name="a00009_a8f95da283d65bcd70fad3f015ff2dfd5_cgraph" id="a00009_a8f95da283d65bcd70fad3f015ff2dfd5_cgraph">
-<area shape="rect" id="node2" href="a00009.html#aff545f8602677e85abbb1b6c6d0fb20f" title="Aggregation kernel. " alt="" coords="208,5,247,32"/>
-</map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00009_a8f95da283d65bcd70fad3f015ff2dfd5_icgraph.png" border="0" usemap="#a00009_a8f95da283d65bcd70fad3f015ff2dfd5_icgraph" alt=""/></div>
-<map name="a00009_a8f95da283d65bcd70fad3f015ff2dfd5_icgraph" id="a00009_a8f95da283d65bcd70fad3f015ff2dfd5_icgraph">
-<area shape="rect" id="node2" href="a00009.html#a3d9eab6d02320111723f0725a2ef06fd" title="Construct from components. " alt="" coords="208,5,355,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ac2a86ba46d157b053e4a28a9483a48f5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">TypeName </td>
-          <td>(</td>
-          <td class="paramtype">&quot;constant&quot;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Runtime type information. </p>
-
-</div>
-</div>
-<a class="anchor" id="aff545f8602677e85abbb1b6c6d0fb20f"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Foam::scalar Ka </td>
-          <td>(</td>
-          <td class="paramtype">const scalar &amp;&#160;</td>
-          <td class="paramname"><em>abscissa1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const scalar &amp;&#160;</td>
-          <td class="paramname"><em>abscissa2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const label &amp;&#160;</td>
-          <td class="paramname"><em>celli</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Aggregation kernel. </p>
-
-<p>Implements <a class="el" href="a00002.html#a46a8f0d3e7dd0bddc15c4e1a3deaf08e">aggregationKernel</a>.</p>
-
-<p>Definition at line <a class="el" href="a00090_source.html#l00074">74</a> of file <a class="el" href="a00090_source.html">constantAggregation.C</a>.</p>
-
-<p>Referenced by <a class="el" href="a00090_source.html#l00066">constantAggregation::~constantAggregation()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00009_aff545f8602677e85abbb1b6c6d0fb20f_icgraph.png" border="0" usemap="#a00009_aff545f8602677e85abbb1b6c6d0fb20f_icgraph" alt=""/></div>
-<map name="a00009_aff545f8602677e85abbb1b6c6d0fb20f_icgraph" id="a00009_aff545f8602677e85abbb1b6c6d0fb20f_icgraph">
-<area shape="rect" id="node2" href="a00009.html#a8f95da283d65bcd70fad3f015ff2dfd5" title="Destructor. " alt="" coords="92,5,247,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="a00091_source.html">constantAggregation.H</a></li>
-<li><a class="el" href="a00090_source.html">constantAggregation.C</a></li>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="a00203_source.html">BeisheuvelBubblePressure.H</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00249.html">Foam</a></li><li class="navelem"><a class="el" href="a00258.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="a00259.html">aggregationKernels</a></li><li class="navelem"><a class="el" href="a00009.html">constantAggregation</a></li>
+    <li class="navelem"><a class="el" href="a00605.html">Foam</a></li><li class="navelem"><a class="el" href="a00608.html">bubblePressureModels</a></li><li class="navelem"><a class="el" href="a00009.html">BeisheuvelBubblePressure</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

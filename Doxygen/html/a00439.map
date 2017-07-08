@@ -1,7 +1,0 @@
-<map id="pbeFoam.C" name="pbeFoam.C">
-<area shape="rect" id="node7" href="$a00205.html" title="populationBalanceModel.H" alt="" coords="697,80,879,107"/>
-<area shape="rect" id="node11" href="$a00100.html" title="createSingleCellMesh.H" alt="" coords="1305,80,1471,107"/>
-<area shape="rect" id="node12" href="$a00098.html" title="createFields.H" alt="" coords="1496,80,1605,107"/>
-<area shape="rect" id="node13" href="$a00216.html" title="readControls.H" alt="" coords="1629,80,1741,107"/>
-<area shape="rect" id="node14" href="$a00198.html" title="output.H" alt="" coords="1765,80,1835,107"/>
-</map>

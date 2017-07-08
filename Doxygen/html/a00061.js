@@ -1,7 +1,8 @@
 var a00061 =
 [
-    [ "turbulentBrownian", "a00061.html#a69313e09fe86ca111b470eff033b395d", null ],
-    [ "~turbulentBrownian", "a00061.html#a870db0e339e84ac084658eea637e60a0", null ],
-    [ "TypeName", "a00061.html#ad85b05c960956edb395072e9c0879d23", null ],
-    [ "Ka", "a00061.html#aff545f8602677e85abbb1b6c6d0fb20f", null ]
+    [ "HrenyaSinclair", "a00061.html#a355f9db3b98cb68e9fcfede9c56d12be", null ],
+    [ "~HrenyaSinclair", "a00061.html#ae22c53ae3cb16feeb82adb0e4c8f8c33", null ],
+    [ "TypeName", "a00061.html#ac3738c27abc025a4d3ae9b60733d519e", null ],
+    [ "nu", "a00061.html#a3127d9484a13bfb2bb2090956c1f8836", null ],
+    [ "read", "a00061.html#abcf7aafd601a940195284bc91610bb08", null ]
 ];

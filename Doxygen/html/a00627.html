@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Member List</title>
+<title>Foam::populationBalanceSubModels::aggregationKernels Namespace Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -46,8 +46,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -69,10 +69,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="namespaces.html"><span>Namespace&#160;List</span></a></li>
+      <li><a href="namespacemembers.html"><span>Namespace&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -87,7 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a00013.html','');});
+$(document).ready(function(){initNavTree('a00627.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -105,30 +103,417 @@ $(document).ready(function(){initNavTree('a00013.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">differentialForceAggregation Member List</div>  </div>
+<div class="title">Foam::populationBalanceSubModels::aggregationKernels Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00014.html">Brownian</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="a00014.html" title="Brownian aggregation kernel. ">Brownian</a> aggregation kernel.  <a href="a00014.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00020.html">constantAggregation</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant aggregation kernel. The value of the kernel is read from dictionary or assumed equal to 1.  <a href="a00020.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00031.html">differentialForceAggregation</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Differential force aggregation kernel with user defined coefficient (default Cagg = 1).  <a href="a00031.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00062.html">hydrodynamicAggregation</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hydrodynamic aggregation kernel with user defined coefficient (default Cagg = 1).  <a href="a00062.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00145.html">sumAggregation</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sum aggregation kernel with user defined coefficient (default Cagg = 1).  <a href="a00145.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00161.html">turbulentBrownian</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="a00014.html" title="Brownian aggregation kernel. ">Brownian</a> aggregation kernel supplemented for particles in turbulent flows in conditions when the particle size is smaller than the local Kolmogorov scale.  <a href="a00161.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a076221bfaf795356aff635f898ab8962"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00627.html#a076221bfaf795356aff635f898ab8962">defineTypeNameAndDebug</a> (<a class="el" href="a00014.html">Brownian</a>, 0)</td></tr>
+<tr class="separator:a076221bfaf795356aff635f898ab8962"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c6c4b45a7436ec7f10b0bcd7b9d3a75"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00627.html#a4c6c4b45a7436ec7f10b0bcd7b9d3a75">addToRunTimeSelectionTable</a> (<a class="el" href="a00002.html">aggregationKernel</a>, <a class="el" href="a00014.html">Brownian</a>, dictionary)</td></tr>
+<tr class="separator:a4c6c4b45a7436ec7f10b0bcd7b9d3a75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af835c9d013a20a975c6f4e57ee9149c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00627.html#af835c9d013a20a975c6f4e57ee9149c8">defineTypeNameAndDebug</a> (<a class="el" href="a00020.html">constantAggregation</a>, 0)</td></tr>
+<tr class="separator:af835c9d013a20a975c6f4e57ee9149c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace2c634a7ff538fbb4744268b13a2c6a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00627.html#ace2c634a7ff538fbb4744268b13a2c6a">addToRunTimeSelectionTable</a> (<a class="el" href="a00002.html">aggregationKernel</a>, <a class="el" href="a00020.html">constantAggregation</a>, dictionary)</td></tr>
+<tr class="separator:ace2c634a7ff538fbb4744268b13a2c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a901fe18b45ba8ca91a036e0ca43a3916"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00627.html#a901fe18b45ba8ca91a036e0ca43a3916">defineTypeNameAndDebug</a> (<a class="el" href="a00031.html">differentialForceAggregation</a>, 0)</td></tr>
+<tr class="separator:a901fe18b45ba8ca91a036e0ca43a3916"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61b52f2b3984830ce75e98417e4a1503"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00627.html#a61b52f2b3984830ce75e98417e4a1503">addToRunTimeSelectionTable</a> (<a class="el" href="a00002.html">aggregationKernel</a>, <a class="el" href="a00031.html">differentialForceAggregation</a>, dictionary)</td></tr>
+<tr class="separator:a61b52f2b3984830ce75e98417e4a1503"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a636ec3d763c8c887602ea04a51fad475"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00627.html#a636ec3d763c8c887602ea04a51fad475">defineTypeNameAndDebug</a> (<a class="el" href="a00062.html">hydrodynamicAggregation</a>, 0)</td></tr>
+<tr class="separator:a636ec3d763c8c887602ea04a51fad475"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af83bce581ea73f24b1228b0fff351b56"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00627.html#af83bce581ea73f24b1228b0fff351b56">addToRunTimeSelectionTable</a> (<a class="el" href="a00002.html">aggregationKernel</a>, <a class="el" href="a00062.html">hydrodynamicAggregation</a>, dictionary)</td></tr>
+<tr class="separator:af83bce581ea73f24b1228b0fff351b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae400872a78a4a9234d740ae66c007114"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00627.html#ae400872a78a4a9234d740ae66c007114">defineTypeNameAndDebug</a> (<a class="el" href="a00145.html">sumAggregation</a>, 0)</td></tr>
+<tr class="separator:ae400872a78a4a9234d740ae66c007114"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60fb21d09528d9baad4a0d418f4b125f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00627.html#a60fb21d09528d9baad4a0d418f4b125f">addToRunTimeSelectionTable</a> (<a class="el" href="a00002.html">aggregationKernel</a>, <a class="el" href="a00145.html">sumAggregation</a>, dictionary)</td></tr>
+<tr class="separator:a60fb21d09528d9baad4a0d418f4b125f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8aea8aa81c72d6cc9339bc773860a063"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00627.html#a8aea8aa81c72d6cc9339bc773860a063">defineTypeNameAndDebug</a> (<a class="el" href="a00161.html">turbulentBrownian</a>, 0)</td></tr>
+<tr class="separator:a8aea8aa81c72d6cc9339bc773860a063"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4425f03c0f3a6b57d979366a338cda40"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00627.html#a4425f03c0f3a6b57d979366a338cda40">addToRunTimeSelectionTable</a> (<a class="el" href="a00002.html">aggregationKernel</a>, <a class="el" href="a00161.html">turbulentBrownian</a>, dictionary)</td></tr>
+<tr class="separator:a4425f03c0f3a6b57d979366a338cda40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a076221bfaf795356aff635f898ab8962"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Foam::populationBalanceSubModels::aggregationKernels::defineTypeNameAndDebug </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00014.html">Brownian</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">0&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
-<p>This is the complete list of members for <a class="el" href="a00013.html">differentialForceAggregation</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="a00002.html#a62c9e0113594b969e61c76e071b7a79b">aggregationKernel</a>(const dictionary &amp;dict, const fvMesh &amp;mesh)</td><td class="entry"><a class="el" href="a00002.html">aggregationKernel</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a00002.html#a7547e6fb837b9ab15b147886567d8cf2">Ca_</a></td><td class="entry"><a class="el" href="a00002.html">aggregationKernel</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a00002.html#adb6c85ea440716007e16e43747e20a7c">declareRunTimeSelectionTable</a>(autoPtr, aggregationKernel, dictionary,(                                       const dictionary &amp;dict,                                       const fvMesh &amp;mesh                       ),(dict, mesh))</td><td class="entry"><a class="el" href="a00002.html">aggregationKernel</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a00002.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a">dict_</a></td><td class="entry"><a class="el" href="a00002.html">aggregationKernel</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a00013.html#a05c80bd86eb232b2d727b7a7d6656e7e">differentialForceAggregation</a>(const dictionary &amp;dict, const fvMesh &amp;mesh)</td><td class="entry"><a class="el" href="a00013.html">differentialForceAggregation</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a00013.html#aff545f8602677e85abbb1b6c6d0fb20f">Ka</a>(const scalar &amp;abscissa1, const scalar &amp;abscissa2, const label &amp;celli) const </td><td class="entry"><a class="el" href="a00013.html">differentialForceAggregation</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a00002.html#a23edeeeecebcef11921a33dd5d990570">mesh_</a></td><td class="entry"><a class="el" href="a00002.html">aggregationKernel</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a00002.html#aa4fd05f8720fbd55876a9a023be94855">New</a>(const dictionary &amp;dict, const fvMesh &amp;mesh)</td><td class="entry"><a class="el" href="a00002.html">aggregationKernel</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a00013.html#a36b4b16775fb11ddc9dc3aa051f015d1">TypeName</a>(&quot;differentialForce&quot;)</td><td class="entry"><a class="el" href="a00013.html">differentialForceAggregation</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a00002.html#ae635445d544ded93442f8f985f515459">Foam::populationBalanceSubModels::aggregationKernel::TypeName</a>(&quot;aggregationKernel&quot;)</td><td class="entry"><a class="el" href="a00002.html">aggregationKernel</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a00002.html#ad207fdb33ae3b991ec3e94068c03a307">~aggregationKernel</a>()</td><td class="entry"><a class="el" href="a00002.html">aggregationKernel</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a00013.html#ab500dc560ba25bcea373d41739d6429b">~differentialForceAggregation</a>()</td><td class="entry"><a class="el" href="a00013.html">differentialForceAggregation</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+</div>
+</div>
+<a class="anchor" id="a4c6c4b45a7436ec7f10b0bcd7b9d3a75"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Foam::populationBalanceSubModels::aggregationKernels::addToRunTimeSelectionTable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00002.html">aggregationKernel</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="a00014.html">Brownian</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dictionary&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af835c9d013a20a975c6f4e57ee9149c8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Foam::populationBalanceSubModels::aggregationKernels::defineTypeNameAndDebug </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00020.html">constantAggregation</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">0&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ace2c634a7ff538fbb4744268b13a2c6a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Foam::populationBalanceSubModels::aggregationKernels::addToRunTimeSelectionTable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00002.html">aggregationKernel</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="a00020.html">constantAggregation</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dictionary&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a901fe18b45ba8ca91a036e0ca43a3916"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Foam::populationBalanceSubModels::aggregationKernels::defineTypeNameAndDebug </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00031.html">differentialForceAggregation</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">0&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a61b52f2b3984830ce75e98417e4a1503"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Foam::populationBalanceSubModels::aggregationKernels::addToRunTimeSelectionTable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00002.html">aggregationKernel</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="a00031.html">differentialForceAggregation</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dictionary&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a636ec3d763c8c887602ea04a51fad475"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Foam::populationBalanceSubModels::aggregationKernels::defineTypeNameAndDebug </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00062.html">hydrodynamicAggregation</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">0&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af83bce581ea73f24b1228b0fff351b56"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Foam::populationBalanceSubModels::aggregationKernels::addToRunTimeSelectionTable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00002.html">aggregationKernel</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="a00062.html">hydrodynamicAggregation</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dictionary&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae400872a78a4a9234d740ae66c007114"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Foam::populationBalanceSubModels::aggregationKernels::defineTypeNameAndDebug </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00145.html">sumAggregation</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">0&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a60fb21d09528d9baad4a0d418f4b125f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Foam::populationBalanceSubModels::aggregationKernels::addToRunTimeSelectionTable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00002.html">aggregationKernel</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="a00145.html">sumAggregation</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dictionary&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8aea8aa81c72d6cc9339bc773860a063"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Foam::populationBalanceSubModels::aggregationKernels::defineTypeNameAndDebug </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00161.html">turbulentBrownian</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">0&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4425f03c0f3a6b57d979366a338cda40"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Foam::populationBalanceSubModels::aggregationKernels::addToRunTimeSelectionTable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00002.html">aggregationKernel</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="a00161.html">turbulentBrownian</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dictionary&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="a00605.html">Foam</a></li><li class="navelem"><a class="el" href="a00626.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="a00627.html">aggregationKernels</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

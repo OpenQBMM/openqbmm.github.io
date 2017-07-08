@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$a00073.html" title="Stores the second row of a Vandermonde matrix, and solves the associated linear system. " alt="" coords="204,5,312,32"/>
+<area shape="rect" id="node1" href="$a00090.html" title="Abstract class for mixing model kernels. " alt="" coords="5,31,105,57"/>
+<area shape="rect" id="node2" href="$a00043.html" title="Fokker&#45;Planck mixing model. " alt="" coords="153,5,259,32"/>
+<area shape="rect" id="node3" href="$a00065.html" title="Interaction by exchange with the mean mixing model. " alt="" coords="184,56,228,83"/>
 </map>

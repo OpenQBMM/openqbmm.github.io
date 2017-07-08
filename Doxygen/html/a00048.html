@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>noDiffusion Class Reference</title>
+<title>gaussLobattoMomentInversion Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,85 +107,116 @@ $(document).ready(function(){initNavTree('a00048.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="a00668.html">List of all members</a>  </div>
+<a href="a01046.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">noDiffusion Class Reference</div>  </div>
+<div class="title">gaussLobattoMomentInversion Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>No diffusion model.  
+<p>Performs Gauss-Lobatto quadrature on a moment set with an even number of moments.  
  <a href="a00048.html#details">More...</a></p>
 <div class="dynheader">
-Inheritance diagram for noDiffusion:</div>
+Inheritance diagram for gaussLobattoMomentInversion:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00669.png" border="0" usemap="#noDiffusion_inherit__map" alt="Inheritance graph"/></div>
-<map name="noDiffusion_inherit__map" id="noDiffusion_inherit__map">
-<area shape="rect" id="node2" href="a00015.html" title="Abstract class for turbulent diffusion models. " alt="" coords="5,5,115,32"/>
+<div class="center"><img src="a01047.png" border="0" usemap="#gaussLobattoMomentInversion_inherit__map" alt="Inheritance graph"/></div>
+<map name="gaussLobattoMomentInversion_inherit__map" id="gaussLobattoMomentInversion_inherit__map">
+<area shape="rect" id="node2" href="a00169.html" title="Abstract class for univariate quadrature on a moment set. " alt="" coords="17,5,199,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for noDiffusion:</div>
+Collaboration diagram for gaussLobattoMomentInversion:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00670.png" border="0" usemap="#noDiffusion_coll__map" alt="Collaboration graph"/></div>
-<map name="noDiffusion_coll__map" id="noDiffusion_coll__map">
-<area shape="rect" id="node2" href="a00015.html" title="Abstract class for turbulent diffusion models. " alt="" coords="5,5,115,32"/>
+<div class="center"><img src="a01048.png" border="0" usemap="#gaussLobattoMomentInversion_coll__map" alt="Collaboration graph"/></div>
+<map name="gaussLobattoMomentInversion_coll__map" id="gaussLobattoMomentInversion_coll__map">
+<area shape="rect" id="node2" href="a00169.html" title="Abstract class for univariate quadrature on a moment set. " alt="" coords="17,5,199,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a660172304dfa1b418cc1bded338b9fd9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00048.html#a660172304dfa1b418cc1bded338b9fd9">TypeName</a> (&quot;none&quot;)</td></tr>
-<tr class="memdesc:a660172304dfa1b418cc1bded338b9fd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#a660172304dfa1b418cc1bded338b9fd9">More...</a><br /></td></tr>
-<tr class="separator:a660172304dfa1b418cc1bded338b9fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a790c8815b53962b66948569e5a37601e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00048.html#a790c8815b53962b66948569e5a37601e">noDiffusion</a> (const dictionary &amp;dict)</td></tr>
-<tr class="memdesc:a790c8815b53962b66948569e5a37601e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#a790c8815b53962b66948569e5a37601e">More...</a><br /></td></tr>
-<tr class="separator:a790c8815b53962b66948569e5a37601e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab00319b0bec238d68ee3f4ae6b34b7b6"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00048.html#ab00319b0bec238d68ee3f4ae6b34b7b6">~noDiffusion</a> ()</td></tr>
-<tr class="memdesc:ab00319b0bec238d68ee3f4ae6b34b7b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#ab00319b0bec238d68ee3f4ae6b34b7b6">More...</a><br /></td></tr>
-<tr class="separator:ab00319b0bec238d68ee3f4ae6b34b7b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2607d470834fac9d39bfc0d92f89d41a"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; fvScalarMatrix &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00048.html#a2607d470834fac9d39bfc0d92f89d41a">momentDiff</a> (const volScalarField &amp;<a class="el" href="a00041.html">moment</a>) const </td></tr>
-<tr class="memdesc:a2607d470834fac9d39bfc0d92f89d41a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moments of the daughter distribution.  <a href="#a2607d470834fac9d39bfc0d92f89d41a">More...</a><br /></td></tr>
-<tr class="separator:a2607d470834fac9d39bfc0d92f89d41a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a00015"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00015')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="a00015.html">diffusionModel</a></td></tr>
-<tr class="memitem:aac5e53b16b5d306f767a3ac9c82018fe inherit pub_methods_a00015"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#aac5e53b16b5d306f767a3ac9c82018fe">TypeName</a> (&quot;diffusionModel&quot;)</td></tr>
-<tr class="memdesc:aac5e53b16b5d306f767a3ac9c82018fe inherit pub_methods_a00015"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#aac5e53b16b5d306f767a3ac9c82018fe">More...</a><br /></td></tr>
-<tr class="separator:aac5e53b16b5d306f767a3ac9c82018fe inherit pub_methods_a00015"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa29c65576a34ab15da2f135cfb51cd12 inherit pub_methods_a00015"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#aa29c65576a34ab15da2f135cfb51cd12">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00015.html">diffusionModel</a>, dictionary,(                                       const dictionary &amp;dict                       ),(dict))</td></tr>
-<tr class="separator:aa29c65576a34ab15da2f135cfb51cd12 inherit pub_methods_a00015"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ddf42daebca521ed9b1836083a7c90a inherit pub_methods_a00015"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#a9ddf42daebca521ed9b1836083a7c90a">diffusionModel</a> (const dictionary &amp;dict)</td></tr>
-<tr class="memdesc:a9ddf42daebca521ed9b1836083a7c90a inherit pub_methods_a00015"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#a9ddf42daebca521ed9b1836083a7c90a">More...</a><br /></td></tr>
-<tr class="separator:a9ddf42daebca521ed9b1836083a7c90a inherit pub_methods_a00015"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2348e708346160fd55cb63f0a48dfa7 inherit pub_methods_a00015"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#af2348e708346160fd55cb63f0a48dfa7">~diffusionModel</a> ()</td></tr>
-<tr class="memdesc:af2348e708346160fd55cb63f0a48dfa7 inherit pub_methods_a00015"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#af2348e708346160fd55cb63f0a48dfa7">More...</a><br /></td></tr>
-<tr class="separator:af2348e708346160fd55cb63f0a48dfa7 inherit pub_methods_a00015"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82afeb74ebccf942227542383440ade1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00048.html#a82afeb74ebccf942227542383440ade1">TypeName</a> (&quot;GaussLobatto&quot;)</td></tr>
+<tr class="memdesc:a82afeb74ebccf942227542383440ade1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#a82afeb74ebccf942227542383440ade1">More...</a><br /></td></tr>
+<tr class="separator:a82afeb74ebccf942227542383440ade1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19f132e2fe6d20faf1a5a05768990c4b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00048.html#a19f132e2fe6d20faf1a5a05768990c4b">gaussLobattoMomentInversion</a> (const dictionary &amp;dict)</td></tr>
+<tr class="memdesc:a19f132e2fe6d20faf1a5a05768990c4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from <a class="el" href="a00170.html" title="Stores a generic moment set with the corresponding list of orders. ">univariateMomentSet</a>.  <a href="#a19f132e2fe6d20faf1a5a05768990c4b">More...</a><br /></td></tr>
+<tr class="separator:a19f132e2fe6d20faf1a5a05768990c4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6b87c401ec282458f44cea51931b47c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00048.html#ae6b87c401ec282458f44cea51931b47c">~gaussLobattoMomentInversion</a> ()</td></tr>
+<tr class="memdesc:ae6b87c401ec282458f44cea51931b47c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#ae6b87c401ec282458f44cea51931b47c">More...</a><br /></td></tr>
+<tr class="separator:ae6b87c401ec282458f44cea51931b47c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb8044c0e431e0fe1005a4395fff5478"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00048.html#adb8044c0e431e0fe1005a4395fff5478">correctRecurrence</a> (<a class="el" href="a00170.html">univariateMomentSet</a> &amp;<a class="el" href="a00099.html">moments</a>, scalarList &amp;alpha, scalarList &amp;beta, const scalar minKnownAbscissa=0, const scalar maxKnownAbscissa=0)</td></tr>
+<tr class="memdesc:adb8044c0e431e0fe1005a4395fff5478"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modify the recurrence relation for fixed-point quadrature.  <a href="#adb8044c0e431e0fe1005a4395fff5478">More...</a><br /></td></tr>
+<tr class="separator:adb8044c0e431e0fe1005a4395fff5478"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae11f16abe217f76d4e7b5e98e47b3ae1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00048.html#ae11f16abe217f76d4e7b5e98e47b3ae1">calcNQuadratureNodes</a> (<a class="el" href="a00170.html">univariateMomentSet</a> &amp;<a class="el" href="a00099.html">moments</a>)</td></tr>
+<tr class="memdesc:ae11f16abe217f76d4e7b5e98e47b3ae1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the number of quadrature nodes.  <a href="#ae11f16abe217f76d4e7b5e98e47b3ae1">More...</a><br /></td></tr>
+<tr class="separator:ae11f16abe217f76d4e7b5e98e47b3ae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00169"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00169')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="a00169.html">univariateMomentInversion</a></td></tr>
+<tr class="memitem:ab4091ef353bbb2f6fc1c9b8bf3bb06ca inherit pub_methods_a00169"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00169.html#ab4091ef353bbb2f6fc1c9b8bf3bb06ca">TypeName</a> (&quot;univariateMomentInversion&quot;)</td></tr>
+<tr class="memdesc:ab4091ef353bbb2f6fc1c9b8bf3bb06ca inherit pub_methods_a00169"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#ab4091ef353bbb2f6fc1c9b8bf3bb06ca">More...</a><br /></td></tr>
+<tr class="separator:ab4091ef353bbb2f6fc1c9b8bf3bb06ca inherit pub_methods_a00169"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3fb26c63be494fef81fc98b96df07bb inherit pub_methods_a00169"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00169.html#ac3fb26c63be494fef81fc98b96df07bb">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00169.html">univariateMomentInversion</a>, dictionary,(                                                       const dictionary &amp;dict                                       ),(dict))</td></tr>
+<tr class="separator:ac3fb26c63be494fef81fc98b96df07bb inherit pub_methods_a00169"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f27635231d56cc368aaa0f2cbdbf8e6 inherit pub_methods_a00169"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00169.html#a2f27635231d56cc368aaa0f2cbdbf8e6">univariateMomentInversion</a> (const dictionary &amp;dict)</td></tr>
+<tr class="memdesc:a2f27635231d56cc368aaa0f2cbdbf8e6 inherit pub_methods_a00169"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from <a class="el" href="a00170.html" title="Stores a generic moment set with the corresponding list of orders. ">univariateMomentSet</a>.  <a href="#a2f27635231d56cc368aaa0f2cbdbf8e6">More...</a><br /></td></tr>
+<tr class="separator:a2f27635231d56cc368aaa0f2cbdbf8e6 inherit pub_methods_a00169"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d81ad6e9bef5d0e56c866331fea31a8 inherit pub_methods_a00169"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00169.html#a3d81ad6e9bef5d0e56c866331fea31a8">~univariateMomentInversion</a> ()</td></tr>
+<tr class="memdesc:a3d81ad6e9bef5d0e56c866331fea31a8 inherit pub_methods_a00169"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a3d81ad6e9bef5d0e56c866331fea31a8">More...</a><br /></td></tr>
+<tr class="separator:a3d81ad6e9bef5d0e56c866331fea31a8 inherit pub_methods_a00169"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2d72953108395e48c42760a2f79fa5b inherit pub_methods_a00169"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00169.html#af2d72953108395e48c42760a2f79fa5b">invert</a> (<a class="el" href="a00170.html">univariateMomentSet</a> &amp;<a class="el" href="a00099.html">moments</a>, const scalar minKnownAbscissa=0, const scalar maxKnownAbscissa=0)</td></tr>
+<tr class="memdesc:af2d72953108395e48c42760a2f79fa5b inherit pub_methods_a00169"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invert the set of moments to compute weights and abscissae.  <a href="#af2d72953108395e48c42760a2f79fa5b">More...</a><br /></td></tr>
+<tr class="separator:af2d72953108395e48c42760a2f79fa5b inherit pub_methods_a00169"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25742f47f6927a75ac22cde118b03bde inherit pub_methods_a00169"><td class="memItemLeft" align="right" valign="top">const scalarList &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00169.html#a25742f47f6927a75ac22cde118b03bde">abscissae</a> () const </td></tr>
+<tr class="memdesc:a25742f47f6927a75ac22cde118b03bde inherit pub_methods_a00169"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return quadrature abscissae.  <a href="#a25742f47f6927a75ac22cde118b03bde">More...</a><br /></td></tr>
+<tr class="separator:a25742f47f6927a75ac22cde118b03bde inherit pub_methods_a00169"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9e8c6ca4d7acb4aeb67a55cbc012286 inherit pub_methods_a00169"><td class="memItemLeft" align="right" valign="top">label&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00169.html#ab9e8c6ca4d7acb4aeb67a55cbc012286">nNodes</a> () const </td></tr>
+<tr class="memdesc:ab9e8c6ca4d7acb4aeb67a55cbc012286 inherit pub_methods_a00169"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of nodes.  <a href="#ab9e8c6ca4d7acb4aeb67a55cbc012286">More...</a><br /></td></tr>
+<tr class="separator:ab9e8c6ca4d7acb4aeb67a55cbc012286 inherit pub_methods_a00169"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4405ee79c70e650e18641bbf7c8dd743 inherit pub_methods_a00169"><td class="memItemLeft" align="right" valign="top">const scalarList &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00169.html#a4405ee79c70e650e18641bbf7c8dd743">weights</a> () const </td></tr>
+<tr class="memdesc:a4405ee79c70e650e18641bbf7c8dd743 inherit pub_methods_a00169"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return quadrature weigths.  <a href="#a4405ee79c70e650e18641bbf7c8dd743">More...</a><br /></td></tr>
+<tr class="separator:a4405ee79c70e650e18641bbf7c8dd743 inherit pub_methods_a00169"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_static_methods_a00015"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_a00015')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="a00015.html">diffusionModel</a></td></tr>
-<tr class="memitem:a4979734dfbad3055a0ebcb03224a6cf3 inherit pub_static_methods_a00015"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00015.html">diffusionModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#a4979734dfbad3055a0ebcb03224a6cf3">New</a> (const dictionary &amp;dict)</td></tr>
-<tr class="separator:a4979734dfbad3055a0ebcb03224a6cf3 inherit pub_static_methods_a00015"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_a00015"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a00015')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="a00015.html">diffusionModel</a></td></tr>
-<tr class="memitem:a892ddcb9cba6f50b0396cdb7bf1b4f6a inherit pro_attribs_a00015"><td class="memItemLeft" align="right" valign="top">const dictionary &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a">dict_</a></td></tr>
-<tr class="separator:a892ddcb9cba6f50b0396cdb7bf1b4f6a inherit pro_attribs_a00015"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_methods_a00169"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_a00169')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="a00169.html">univariateMomentInversion</a></td></tr>
+<tr class="memitem:ad4fa6d0402a347ca7a48217bbebed6af inherit pub_static_methods_a00169"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00169.html">univariateMomentInversion</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00169.html#ad4fa6d0402a347ca7a48217bbebed6af">New</a> (const dictionary &amp;dict)</td></tr>
+<tr class="separator:ad4fa6d0402a347ca7a48217bbebed6af inherit pub_static_methods_a00169"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_a00169"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_a00169')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="a00169.html">univariateMomentInversion</a></td></tr>
+<tr class="memitem:a7e65cdc9e809cd6a315bb1cc38135e3c inherit pro_methods_a00169"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00169.html#a7e65cdc9e809cd6a315bb1cc38135e3c">JacobiMatrix</a> (<a class="el" href="a00170.html">univariateMomentSet</a> &amp;<a class="el" href="a00099.html">moments</a>, scalarSquareMatrix &amp;z, const scalar minKnownAbscissa=0, const scalar maxKnownAbscissa=0)</td></tr>
+<tr class="memdesc:a7e65cdc9e809cd6a315bb1cc38135e3c inherit pro_methods_a00169"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create Jacobi matrix.  <a href="#a7e65cdc9e809cd6a315bb1cc38135e3c">More...</a><br /></td></tr>
+<tr class="separator:a7e65cdc9e809cd6a315bb1cc38135e3c inherit pro_methods_a00169"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_a00169"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a00169')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="a00169.html">univariateMomentInversion</a></td></tr>
+<tr class="memitem:a042d2903aac945d2246df06b46bb8a0a inherit pro_attribs_a00169"><td class="memItemLeft" align="right" valign="top">label&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00169.html#a042d2903aac945d2246df06b46bb8a0a">nInvertibleMoments_</a></td></tr>
+<tr class="memdesc:a042d2903aac945d2246df06b46bb8a0a inherit pro_attribs_a00169"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of invertible moments for the user-selected quadrature.  <a href="#a042d2903aac945d2246df06b46bb8a0a">More...</a><br /></td></tr>
+<tr class="separator:a042d2903aac945d2246df06b46bb8a0a inherit pro_attribs_a00169"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0005b63850c8da82cb91f341a25ffd3 inherit pro_attribs_a00169"><td class="memItemLeft" align="right" valign="top">label&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00169.html#ac0005b63850c8da82cb91f341a25ffd3">nNodes_</a></td></tr>
+<tr class="memdesc:ac0005b63850c8da82cb91f341a25ffd3 inherit pro_attribs_a00169"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of quadrature nodes.  <a href="#ac0005b63850c8da82cb91f341a25ffd3">More...</a><br /></td></tr>
+<tr class="separator:ac0005b63850c8da82cb91f341a25ffd3 inherit pro_attribs_a00169"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bfebb14fe9a3d5c7a1293f6d92d1bac inherit pro_attribs_a00169"><td class="memItemLeft" align="right" valign="top">scalarList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00169.html#a0bfebb14fe9a3d5c7a1293f6d92d1bac">abscissae_</a></td></tr>
+<tr class="memdesc:a0bfebb14fe9a3d5c7a1293f6d92d1bac inherit pro_attribs_a00169"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quadrature abscissae.  <a href="#a0bfebb14fe9a3d5c7a1293f6d92d1bac">More...</a><br /></td></tr>
+<tr class="separator:a0bfebb14fe9a3d5c7a1293f6d92d1bac inherit pro_attribs_a00169"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af51ecc158e56aaae1fc774d6658e9b6d inherit pro_attribs_a00169"><td class="memItemLeft" align="right" valign="top">scalarList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00169.html#af51ecc158e56aaae1fc774d6658e9b6d">weights_</a></td></tr>
+<tr class="memdesc:af51ecc158e56aaae1fc774d6658e9b6d inherit pro_attribs_a00169"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quadrature weights.  <a href="#af51ecc158e56aaae1fc774d6658e9b6d">More...</a><br /></td></tr>
+<tr class="separator:af51ecc158e56aaae1fc774d6658e9b6d inherit pro_attribs_a00169"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>No diffusion model. </p>
+<div class="textblock"><p>Performs Gauss-Lobatto quadrature on a moment set with an even number of moments. </p>
 <p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
 <li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/diffusionModels/noDiffusion/noDiffusion.H">noDiffusion.H</a> </li>
+<a href="/home/alberto/Desktop/OpenQBMM/src/quadratureMethods/momentInversion/univariate/basic/gaussLobattoMomentInversion/gaussLobattoMomentInversion.H">gaussLobattoMomentInversion.H</a> </li>
 <li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/diffusionModels/noDiffusion/noDiffusion.C">noDiffusion.C</a> </li>
+<a href="/home/alberto/Desktop/OpenQBMM/src/quadratureMethods/momentInversion/univariate/basic/gaussLobattoMomentInversion/gaussLobattoMomentInversion.C">gaussLobattoMomentInversion.C</a> </li>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM/src/quadratureMethods/momentInversion/univariate/basic/gaussLobattoMomentInversion/gaussLobattoMomentInversionI.H">gaussLobattoMomentInversionI.H</a> </li>
 </ul>
 </dd></dl>
 
-<p>Definition at line <a class="el" href="a00187_source.html#l00052">52</a> of file <a class="el" href="a00187_source.html">populationBalanceModels/populationBalanceSubModels/diffusionModels/noDiffusion/noDiffusion.H</a>.</p>
+<p>Definition at line <a class="el" href="a00299_source.html#l00051">51</a> of file <a class="el" href="a00299_source.html">gaussLobattoMomentInversion.H</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a790c8815b53962b66948569e5a37601e"></a>
+<a class="anchor" id="a19f132e2fe6d20faf1a5a05768990c4b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00048.html">noDiffusion</a> </td>
+          <td class="memname"><a class="el" href="a00048.html">gaussLobattoMomentInversion</a> </td>
           <td>(</td>
           <td class="paramtype">const dictionary &amp;&#160;</td>
           <td class="paramname"><em>dict</em></td><td>)</td>
@@ -194,25 +225,13 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Construct from components. </p>
+<p>Construct from <a class="el" href="a00170.html" title="Stores a generic moment set with the corresponding list of orders. ">univariateMomentSet</a>. </p>
 
-<p>Definition at line <a class="el" href="a00185_source.html#l00056">56</a> of file <a class="el" href="a00185_source.html">populationBalanceModels/populationBalanceSubModels/diffusionModels/noDiffusion/noDiffusion.C</a>.</p>
-
-<p>References <a class="el" href="a00185_source.html#l00067">noDiffusion::~noDiffusion()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00048_a790c8815b53962b66948569e5a37601e_cgraph.png" border="0" usemap="#a00048_a790c8815b53962b66948569e5a37601e_cgraph" alt=""/></div>
-<map name="a00048_a790c8815b53962b66948569e5a37601e_cgraph" id="a00048_a790c8815b53962b66948569e5a37601e_cgraph">
-<area shape="rect" id="node2" href="a00048.html#ab00319b0bec238d68ee3f4ae6b34b7b6" title="Destructor. " alt="" coords="141,5,237,32"/>
-</map>
-</div>
-</p>
+<p>Definition at line <a class="el" href="a00298_source.html#l00046">46</a> of file <a class="el" href="a00298_source.html">gaussLobattoMomentInversion.C</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab00319b0bec238d68ee3f4ae6b34b7b6"></a>
+<a class="anchor" id="ae6b87c401ec282458f44cea51931b47c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -220,7 +239,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">~<a class="el" href="a00048.html">noDiffusion</a> </td>
+          <td class="memname">~<a class="el" href="a00048.html">gaussLobattoMomentInversion</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -235,28 +254,16 @@ Here is the call graph for this function:</div>
 
 <p>Destructor. </p>
 
-<p>Definition at line <a class="el" href="a00185_source.html#l00067">67</a> of file <a class="el" href="a00185_source.html">populationBalanceModels/populationBalanceSubModels/diffusionModels/noDiffusion/noDiffusion.C</a>.</p>
+<p>Definition at line <a class="el" href="a00298_source.html#l00057">57</a> of file <a class="el" href="a00298_source.html">gaussLobattoMomentInversion.C</a>.</p>
 
-<p>References <a class="el" href="a00185_source.html#l00076">noDiffusion::momentDiff()</a>.</p>
-
-<p>Referenced by <a class="el" href="a00185_source.html#l00056">noDiffusion::noDiffusion()</a>.</p>
+<p>References <a class="el" href="a00298_source.html#l00064">gaussLobattoMomentInversion::correctRecurrence()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00048_ab00319b0bec238d68ee3f4ae6b34b7b6_cgraph.png" border="0" usemap="#a00048_ab00319b0bec238d68ee3f4ae6b34b7b6_cgraph" alt=""/></div>
-<map name="a00048_ab00319b0bec238d68ee3f4ae6b34b7b6_cgraph" id="a00048_ab00319b0bec238d68ee3f4ae6b34b7b6_cgraph">
-<area shape="rect" id="node2" href="a00048.html#a2607d470834fac9d39bfc0d92f89d41a" title="Moments of the daughter distribution. " alt="" coords="149,5,239,32"/>
-</map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00048_ab00319b0bec238d68ee3f4ae6b34b7b6_icgraph.png" border="0" usemap="#a00048_ab00319b0bec238d68ee3f4ae6b34b7b6_icgraph" alt=""/></div>
-<map name="a00048_ab00319b0bec238d68ee3f4ae6b34b7b6_icgraph" id="a00048_ab00319b0bec238d68ee3f4ae6b34b7b6_icgraph">
-<area shape="rect" id="node2" href="a00048.html#a790c8815b53962b66948569e5a37601e" title="Construct from components. " alt="" coords="149,5,237,32"/>
+<div class="center"><img src="a00048_ae6b87c401ec282458f44cea51931b47c_cgraph.png" border="0" usemap="#a00048_ae6b87c401ec282458f44cea51931b47c_cgraph" alt=""/></div>
+<map name="a00048_ae6b87c401ec282458f44cea51931b47c_cgraph" id="a00048_ae6b87c401ec282458f44cea51931b47c_cgraph">
+<area shape="rect" id="node2" href="a00048.html#adb8044c0e431e0fe1005a4395fff5478" title="Modify the recurrence relation for fixed&#45;point quadrature. " alt="" coords="267,5,399,32"/>
 </map>
 </div>
 </p>
@@ -264,14 +271,14 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a660172304dfa1b418cc1bded338b9fd9"></a>
+<a class="anchor" id="a82afeb74ebccf942227542383440ade1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">TypeName </td>
           <td>(</td>
-          <td class="paramtype">&quot;none&quot;&#160;</td>
+          <td class="paramtype">&quot;GaussLobatto&quot;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -282,7 +289,7 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a2607d470834fac9d39bfc0d92f89d41a"></a>
+<a class="anchor" id="adb8044c0e431e0fe1005a4395fff5478"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -290,11 +297,39 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Foam::tmp&lt; Foam::fvScalarMatrix &gt; momentDiff </td>
+          <td class="memname">void correctRecurrence </td>
           <td>(</td>
-          <td class="paramtype">const volScalarField &amp;&#160;</td>
-          <td class="paramname"><em>moment</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype"><a class="el" href="a00170.html">univariateMomentSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>moments</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">scalarList &amp;&#160;</td>
+          <td class="paramname"><em>alpha</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">scalarList &amp;&#160;</td>
+          <td class="paramname"><em>beta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const scalar&#160;</td>
+          <td class="paramname"><em>minKnownAbscissa</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const scalar&#160;</td>
+          <td class="paramname"><em>maxKnownAbscissa</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -304,20 +339,86 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Moments of the daughter distribution. </p>
+<p>Modify the recurrence relation for fixed-point quadrature. </p>
 
-<p>Implements <a class="el" href="a00015.html#a5b7c21e0d26e0f2c3f207a1a6929fd6d">diffusionModel</a>.</p>
+<p>Implements <a class="el" href="a00169.html#abc58435d4d523225c2de1f627315e1e5">univariateMomentInversion</a>.</p>
 
-<p>Definition at line <a class="el" href="a00185_source.html#l00076">76</a> of file <a class="el" href="a00185_source.html">populationBalanceModels/populationBalanceSubModels/diffusionModels/noDiffusion/noDiffusion.C</a>.</p>
+<p>Definition at line <a class="el" href="a00298_source.html#l00064">64</a> of file <a class="el" href="a00298_source.html">gaussLobattoMomentInversion.C</a>.</p>
 
-<p>Referenced by <a class="el" href="a00185_source.html#l00067">noDiffusion::~noDiffusion()</a>.</p>
+<p>References <a class="el" href="a00298_source.html#l00127">gaussLobattoMomentInversion::calcNQuadratureNodes()</a>, and <a class="el" href="a00250_source.html#l00020">p</a>.</p>
+
+<p>Referenced by <a class="el" href="a00298_source.html#l00057">gaussLobattoMomentInversion::~gaussLobattoMomentInversion()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00048_adb8044c0e431e0fe1005a4395fff5478_cgraph.png" border="0" usemap="#a00048_adb8044c0e431e0fe1005a4395fff5478_cgraph" alt=""/></div>
+<map name="a00048_adb8044c0e431e0fe1005a4395fff5478_cgraph" id="a00048_adb8044c0e431e0fe1005a4395fff5478_cgraph">
+<area shape="rect" id="node2" href="a00048.html#ae11f16abe217f76d4e7b5e98e47b3ae1" title="Calculates the number of quadrature nodes. " alt="" coords="185,5,348,32"/>
+</map>
+</div>
+</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00048_a2607d470834fac9d39bfc0d92f89d41a_icgraph.png" border="0" usemap="#a00048_a2607d470834fac9d39bfc0d92f89d41a_icgraph" alt=""/></div>
-<map name="a00048_a2607d470834fac9d39bfc0d92f89d41a_icgraph" id="a00048_a2607d470834fac9d39bfc0d92f89d41a_icgraph">
-<area shape="rect" id="node2" href="a00048.html#ab00319b0bec238d68ee3f4ae6b34b7b6" title="Destructor. " alt="" coords="143,5,239,32"/>
+<div class="center"><img src="a00048_adb8044c0e431e0fe1005a4395fff5478_icgraph.png" border="0" usemap="#a00048_adb8044c0e431e0fe1005a4395fff5478_icgraph" alt=""/></div>
+<map name="a00048_adb8044c0e431e0fe1005a4395fff5478_icgraph" id="a00048_adb8044c0e431e0fe1005a4395fff5478_icgraph">
+<area shape="rect" id="node2" href="a00048.html#ae6b87c401ec282458f44cea51931b47c" title="Destructor. " alt="" coords="185,5,399,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ae11f16abe217f76d4e7b5e98e47b3ae1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void calcNQuadratureNodes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00170.html">univariateMomentSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>moments</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculates the number of quadrature nodes. </p>
+
+<p>Implements <a class="el" href="a00169.html#a5b1a824ce74e64ee48d854d74ac8a305">univariateMomentInversion</a>.</p>
+
+<p>Definition at line <a class="el" href="a00298_source.html#l00127">127</a> of file <a class="el" href="a00298_source.html">gaussLobattoMomentInversion.C</a>.</p>
+
+<p>References <a class="el" href="a00572_source.html#l00143">univariateMomentSet::nRealizableMoments()</a>.</p>
+
+<p>Referenced by <a class="el" href="a00298_source.html#l00064">gaussLobattoMomentInversion::correctRecurrence()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00048_ae11f16abe217f76d4e7b5e98e47b3ae1_cgraph.png" border="0" usemap="#a00048_ae11f16abe217f76d4e7b5e98e47b3ae1_cgraph" alt=""/></div>
+<map name="a00048_ae11f16abe217f76d4e7b5e98e47b3ae1_cgraph" id="a00048_ae11f16abe217f76d4e7b5e98e47b3ae1_cgraph">
+<area shape="rect" id="node2" href="a00170.html#a2256488242f928209215b0a3221f6bb8" title="Return the number of realizable moments. " alt="" coords="216,5,407,47"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00048_ae11f16abe217f76d4e7b5e98e47b3ae1_icgraph.png" border="0" usemap="#a00048_ae11f16abe217f76d4e7b5e98e47b3ae1_icgraph" alt=""/></div>
+<map name="a00048_ae11f16abe217f76d4e7b5e98e47b3ae1_icgraph" id="a00048_ae11f16abe217f76d4e7b5e98e47b3ae1_icgraph">
+<area shape="rect" id="node2" href="a00048.html#adb8044c0e431e0fe1005a4395fff5478" title="Modify the recurrence relation for fixed&#45;point quadrature. " alt="" coords="216,5,348,32"/>
 </map>
 </div>
 </p>
@@ -325,15 +426,15 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="a00187_source.html">populationBalanceModels/populationBalanceSubModels/diffusionModels/noDiffusion/noDiffusion.H</a></li>
-<li><a class="el" href="a00185_source.html">populationBalanceModels/populationBalanceSubModels/diffusionModels/noDiffusion/noDiffusion.C</a></li>
+<li><a class="el" href="a00299_source.html">gaussLobattoMomentInversion.H</a></li>
+<li><a class="el" href="a00298_source.html">gaussLobattoMomentInversion.C</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00249.html">Foam</a></li><li class="navelem"><a class="el" href="a00258.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="a00262.html">diffusionModels</a></li><li class="navelem"><a class="el" href="a00048.html">noDiffusion</a></li>
+    <li class="navelem"><a class="el" href="a00605.html">Foam</a></li><li class="navelem"><a class="el" href="a00048.html">gaussLobattoMomentInversion</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

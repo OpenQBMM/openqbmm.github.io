@@ -1,8 +1,7 @@
 var a00027 =
 [
-    [ "gaussRadauMomentInversion", "a00027.html#aaa249ea77e932779c48df02a6ee4e382", null ],
-    [ "~gaussRadauMomentInversion", "a00027.html#a1c10e28cb0b50ad94bb183aa98afcf05", null ],
-    [ "TypeName", "a00027.html#af30711ded5ffb0a9c4feae46a978cc98", null ],
-    [ "correctRecurrence", "a00027.html#adb8044c0e431e0fe1005a4395fff5478", null ],
-    [ "calcNQuadratureNodes", "a00027.html#ae11f16abe217f76d4e7b5e98e47b3ae1", null ]
+    [ "constantVirtualMassCoefficient", "a00027.html#afeb16f652c46330b455d29bb90bd36ac", null ],
+    [ "~constantVirtualMassCoefficient", "a00027.html#a54ae44e71e4c68181d6f27f0c134f53b", null ],
+    [ "TypeName", "a00027.html#aafe31ab21b510f2d502d4058cf65e7bd", null ],
+    [ "Cvm", "a00027.html#a5eb86a943fb9eba9a9d253787e7ca82c", null ]
 ];

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>noDiffusion.C File Reference</title>
+<title>weightsAndAbscissae Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -47,8 +47,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
-      <li class="current"><a href="files.html"><span>Files</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -69,8 +69,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="files.html"><span>File&#160;List</span></a></li>
-      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -104,49 +106,241 @@ $(document).ready(function(){initNavTree('a00185.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="a01315.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">populationBalanceModels/populationBalanceSubModels/diffusionModels/noDiffusion/noDiffusion.C File Reference</div>  </div>
+<div class="title">weightsAndAbscissae Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div class="dynheader">
-Include dependency graph for populationBalanceModels/populationBalanceSubModels/diffusionModels/noDiffusion/noDiffusion.C:</div>
+
+<p>Moment generation done using volume fraction, density, and bubble diameter.  
+ <a href="a00185.html#details">More...</a></p>
+<div class="dynheader">
+Inheritance diagram for weightsAndAbscissae:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00418.png" border="0" usemap="#noDiffusion_8C" alt=""/></div>
-<map name="noDiffusion_8C" id="noDiffusion_8C">
-<area shape="rect" id="node2" href="a00187.html" title="noDiffusion.H" alt="" coords="5,80,105,107"/>
+<div class="center"><img src="a01316.png" border="0" usemap="#weightsAndAbscissae_inherit__map" alt="Inheritance graph"/></div>
+<map name="weightsAndAbscissae_inherit__map" id="weightsAndAbscissae_inherit__map">
+<area shape="rect" id="node2" href="a00098.html" title="Base class for runtime selection for moment generation. One object is used for all node..." alt="" coords="5,5,180,32"/>
 </map>
-</div>
-</div>
-<p><a href="a00185_source.html">Go to the source code of this file.</a></p>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for weightsAndAbscissae:</div>
+<div class="dyncontent">
+<div class="center"><img src="a01317.png" border="0" usemap="#weightsAndAbscissae_coll__map" alt="Collaboration graph"/></div>
+<map name="weightsAndAbscissae_coll__map" id="weightsAndAbscissae_coll__map">
+<area shape="rect" id="node2" href="a00098.html" title="Base class for runtime selection for moment generation. One object is used for all node..." alt="" coords="5,5,180,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:a00249"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00249.html">Foam</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00258"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00258.html">Foam::populationBalanceSubModels</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00262"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00262.html">Foam::populationBalanceSubModels::diffusionModels</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ac700992118ba0b92b222db17f572e5e8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00185.html#ac700992118ba0b92b222db17f572e5e8">TypeName</a> (&quot;weightsAndAbscissae&quot;)</td></tr>
+<tr class="memdesc:ac700992118ba0b92b222db17f572e5e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#ac700992118ba0b92b222db17f572e5e8">More...</a><br /></td></tr>
+<tr class="separator:ac700992118ba0b92b222db17f572e5e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a023ea546e10bc014336740806f7f0e0c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00185.html#a023ea546e10bc014336740806f7f0e0c">weightsAndAbscissae</a> (const dictionary &amp;dict, const label nNodes, const bool extended, const bool Radau)</td></tr>
+<tr class="memdesc:a023ea546e10bc014336740806f7f0e0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#a023ea546e10bc014336740806f7f0e0c">More...</a><br /></td></tr>
+<tr class="separator:a023ea546e10bc014336740806f7f0e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30eac4d9699c8a485d61ae9bc47987cb"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00185.html#a30eac4d9699c8a485d61ae9bc47987cb">~weightsAndAbscissae</a> ()</td></tr>
+<tr class="memdesc:a30eac4d9699c8a485d61ae9bc47987cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a30eac4d9699c8a485d61ae9bc47987cb">More...</a><br /></td></tr>
+<tr class="separator:a30eac4d9699c8a485d61ae9bc47987cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc360d2f5d50c09bb0f88dcf0dc26d99"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00185.html#acc360d2f5d50c09bb0f88dcf0dc26d99">updateQuadrature</a> (const dictionary &amp;)</td></tr>
+<tr class="memdesc:acc360d2f5d50c09bb0f88dcf0dc26d99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update quadrature given a dictionary.  <a href="#acc360d2f5d50c09bb0f88dcf0dc26d99">More...</a><br /></td></tr>
+<tr class="separator:acc360d2f5d50c09bb0f88dcf0dc26d99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00098"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00098')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="a00098.html">momentGenerationModel</a></td></tr>
+<tr class="memitem:a224beab0055b0782bb91e469d8041e05 inherit pub_methods_a00098"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#a224beab0055b0782bb91e469d8041e05">TypeName</a> (&quot;momentGenerationModel&quot;)</td></tr>
+<tr class="memdesc:a224beab0055b0782bb91e469d8041e05 inherit pub_methods_a00098"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime information.  <a href="#a224beab0055b0782bb91e469d8041e05">More...</a><br /></td></tr>
+<tr class="separator:a224beab0055b0782bb91e469d8041e05 inherit pub_methods_a00098"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b72175416fe80816b02fe132ccda607 inherit pub_methods_a00098"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#a2b72175416fe80816b02fe132ccda607">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00098.html">momentGenerationModel</a>, dictionary,(                                       const dictionary &amp;dict,                                       const label nNodes,                                       const bool extended,                                       const bool Radau                       ),(dict, nNodes, extended, Radau))</td></tr>
+<tr class="memdesc:a2b72175416fe80816b02fe132ccda607 inherit pub_methods_a00098"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declare runtime constructor selection table.  <a href="#a2b72175416fe80816b02fe132ccda607">More...</a><br /></td></tr>
+<tr class="separator:a2b72175416fe80816b02fe132ccda607 inherit pub_methods_a00098"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a155bddd425b7ee9784816c7bbffc44d1 inherit pub_methods_a00098"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#a155bddd425b7ee9784816c7bbffc44d1">momentGenerationModel</a> (const dictionary &amp;, const label, const bool extended, const bool Radau)</td></tr>
+<tr class="memdesc:a155bddd425b7ee9784816c7bbffc44d1 inherit pub_methods_a00098"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct from dictionary and number of nodes  <a href="#a155bddd425b7ee9784816c7bbffc44d1">More...</a><br /></td></tr>
+<tr class="separator:a155bddd425b7ee9784816c7bbffc44d1 inherit pub_methods_a00098"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a350da45c7a0a2dfc9022a4874e9db15d inherit pub_methods_a00098"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#a350da45c7a0a2dfc9022a4874e9db15d">~momentGenerationModel</a> ()</td></tr>
+<tr class="memdesc:a350da45c7a0a2dfc9022a4874e9db15d inherit pub_methods_a00098"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a350da45c7a0a2dfc9022a4874e9db15d">More...</a><br /></td></tr>
+<tr class="separator:a350da45c7a0a2dfc9022a4874e9db15d inherit pub_methods_a00098"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7be733eae4aa2322b4e5611082082fae inherit pub_methods_a00098"><td class="memItemLeft" align="right" valign="top">const List&lt; dimensionedScalar &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#a7be733eae4aa2322b4e5611082082fae">moments</a> () const </td></tr>
+<tr class="memdesc:a7be733eae4aa2322b4e5611082082fae inherit pub_methods_a00098"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return constant access to moments.  <a href="#a7be733eae4aa2322b4e5611082082fae">More...</a><br /></td></tr>
+<tr class="separator:a7be733eae4aa2322b4e5611082082fae inherit pub_methods_a00098"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a842aff0e85dca97889ae993504b45e78"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00262.html#a842aff0e85dca97889ae993504b45e78">defineTypeNameAndDebug</a> (noDiffusion, 0)</td></tr>
-<tr class="separator:a842aff0e85dca97889ae993504b45e78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fe185b9482c07be061d5601a474029b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00262.html#a6fe185b9482c07be061d5601a474029b">addToRunTimeSelectionTable</a> (diffusionModel, noDiffusion, dictionary)</td></tr>
-<tr class="separator:a6fe185b9482c07be061d5601a474029b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_methods_a00098"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_a00098')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="a00098.html">momentGenerationModel</a></td></tr>
+<tr class="memitem:a2d9b12f3a655b16c6642befc7ba9aa25 inherit pub_static_methods_a00098"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00098.html">momentGenerationModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#a2d9b12f3a655b16c6642befc7ba9aa25">New</a> (const dictionary &amp;dict, const label nNodes, const bool extended, const bool Radau)</td></tr>
+<tr class="separator:a2d9b12f3a655b16c6642befc7ba9aa25 inherit pub_static_methods_a00098"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_a00098"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_a00098')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="a00098.html">momentGenerationModel</a></td></tr>
+<tr class="memitem:ab46f111920d16a088f2fddf21d658315 inherit pro_methods_a00098"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#ab46f111920d16a088f2fddf21d658315">updateMoments</a> ()</td></tr>
+<tr class="memdesc:ab46f111920d16a088f2fddf21d658315 inherit pro_methods_a00098"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update moments.  <a href="#ab46f111920d16a088f2fddf21d658315">More...</a><br /></td></tr>
+<tr class="separator:ab46f111920d16a088f2fddf21d658315 inherit pro_methods_a00098"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_a00098"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a00098')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="a00098.html">momentGenerationModel</a></td></tr>
+<tr class="memitem:a892ddcb9cba6f50b0396cdb7bf1b4f6a inherit pro_attribs_a00098"><td class="memItemLeft" align="right" valign="top">const dictionary &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a">dict_</a></td></tr>
+<tr class="memdesc:a892ddcb9cba6f50b0396cdb7bf1b4f6a inherit pro_attribs_a00098"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant refrence to dictionary.  <a href="#a892ddcb9cba6f50b0396cdb7bf1b4f6a">More...</a><br /></td></tr>
+<tr class="separator:a892ddcb9cba6f50b0396cdb7bf1b4f6a inherit pro_attribs_a00098"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab135301eefe7e9f9123fed12009ea50 inherit pro_attribs_a00098"><td class="memItemLeft" align="right" valign="top">const label&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#aab135301eefe7e9f9123fed12009ea50">nNodes_</a></td></tr>
+<tr class="memdesc:aab135301eefe7e9f9123fed12009ea50 inherit pro_attribs_a00098"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of nodes.  <a href="#aab135301eefe7e9f9123fed12009ea50">More...</a><br /></td></tr>
+<tr class="separator:aab135301eefe7e9f9123fed12009ea50 inherit pro_attribs_a00098"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e897a153fd991bd6a4b54dbe380d8c3 inherit pro_attribs_a00098"><td class="memItemLeft" align="right" valign="top">const label&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#a1e897a153fd991bd6a4b54dbe380d8c3">nMoments_</a></td></tr>
+<tr class="memdesc:a1e897a153fd991bd6a4b54dbe380d8c3 inherit pro_attribs_a00098"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of moments.  <a href="#a1e897a153fd991bd6a4b54dbe380d8c3">More...</a><br /></td></tr>
+<tr class="separator:a1e897a153fd991bd6a4b54dbe380d8c3 inherit pro_attribs_a00098"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a379499271378a2cbda384a08ecd8ec7e inherit pro_attribs_a00098"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#a379499271378a2cbda384a08ecd8ec7e">extended_</a></td></tr>
+<tr class="memdesc:a379499271378a2cbda384a08ecd8ec7e inherit pro_attribs_a00098"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does the quadrature use EQMOM.  <a href="#a379499271378a2cbda384a08ecd8ec7e">More...</a><br /></td></tr>
+<tr class="separator:a379499271378a2cbda384a08ecd8ec7e inherit pro_attribs_a00098"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7f5babd6577d319d9d49fc9b57d7178 inherit pro_attribs_a00098"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#aa7f5babd6577d319d9d49fc9b57d7178">Radau_</a></td></tr>
+<tr class="memdesc:aa7f5babd6577d319d9d49fc9b57d7178 inherit pro_attribs_a00098"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is a Radau quadrature used.  <a href="#aa7f5babd6577d319d9d49fc9b57d7178">More...</a><br /></td></tr>
+<tr class="separator:aa7f5babd6577d319d9d49fc9b57d7178 inherit pro_attribs_a00098"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3fc7db728a224e60db7cc1c5a11983f inherit pro_attribs_a00098"><td class="memItemLeft" align="right" valign="top">List&lt; dimensionedScalar &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#aa3fc7db728a224e60db7cc1c5a11983f">weights_</a></td></tr>
+<tr class="memdesc:aa3fc7db728a224e60db7cc1c5a11983f inherit pro_attribs_a00098"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of weights.  <a href="#aa3fc7db728a224e60db7cc1c5a11983f">More...</a><br /></td></tr>
+<tr class="separator:aa3fc7db728a224e60db7cc1c5a11983f inherit pro_attribs_a00098"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96f719ab89da67b3a861054f9c9445b5 inherit pro_attribs_a00098"><td class="memItemLeft" align="right" valign="top">List&lt; dimensionedScalar &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#a96f719ab89da67b3a861054f9c9445b5">abscissae_</a></td></tr>
+<tr class="memdesc:a96f719ab89da67b3a861054f9c9445b5 inherit pro_attribs_a00098"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of abscissae.  <a href="#a96f719ab89da67b3a861054f9c9445b5">More...</a><br /></td></tr>
+<tr class="separator:a96f719ab89da67b3a861054f9c9445b5 inherit pro_attribs_a00098"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ec1cafde07d42253f85761903381944 inherit pro_attribs_a00098"><td class="memItemLeft" align="right" valign="top">List&lt; dimensionedScalar &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00098.html#a0ec1cafde07d42253f85761903381944">moments_</a></td></tr>
+<tr class="memdesc:a0ec1cafde07d42253f85761903381944 inherit pro_attribs_a00098"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of moments.  <a href="#a0ec1cafde07d42253f85761903381944">More...</a><br /></td></tr>
+<tr class="separator:a0ec1cafde07d42253f85761903381944 inherit pro_attribs_a00098"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/diffusionModels/noDiffusion/noDiffusion.C">noDiffusion.C</a> </p>
+<div class="textblock"><p>Moment generation done using volume fraction, density, and bubble diameter. </p>
+<p>Constructs moments given weights and abscissae.</p>
+<p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM/applications/utilities/generateMoments/momentGenerationModels/alphaAndDiameter/alphaAndDiameter.H">alphaAndDiameter.H</a> </li>
+<li>
+<p class="startli"><a href="/home/alberto/Desktop/OpenQBMM/applications/utilities/generateMoments/momentGenerationModels/alphaAndDiameter/weightsAndAbscissae.C">weightsAndAbscissae.C</a></p>
+<p class="endli"><a class="anchor" id="Description"></a></p>
+</li>
+</ul>
+</dd></dl>
+<dl class="section user"><dt>Source files</dt><dd><ul>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM/applications/utilities/generateMoments/momentGenerationModels/weightsAndAbscissae/weightsAndAbscissae.H">weightsAndAbscissae.H</a> </li>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM/applications/utilities/generateMoments/momentGenerationModels/weightsAndAbscissae/weightsAndAbscissae.C">weightsAndAbscissae.C</a> </li>
+</ul>
+</dd></dl>
 
-<p>Definition in file <a class="el" href="a00185_source.html">populationBalanceModels/populationBalanceSubModels/diffusionModels/noDiffusion/noDiffusion.C</a>.</p>
-</div></div><!-- contents -->
+<p>Definition at line <a class="el" href="a00596_source.html#l00046">46</a> of file <a class="el" href="a00596_source.html">weightsAndAbscissae.H</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a023ea546e10bc014336740806f7f0e0c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a00185.html">weightsAndAbscissae</a> </td>
+          <td>(</td>
+          <td class="paramtype">const dictionary &amp;&#160;</td>
+          <td class="paramname"><em>dict</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nNodes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>extended</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>Radau</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct from components. </p>
+
+</div>
+</div>
+<a class="anchor" id="a30eac4d9699c8a485d61ae9bc47987cb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual ~<a class="el" href="a00185.html">weightsAndAbscissae</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Destructor. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ac700992118ba0b92b222db17f572e5e8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TypeName </td>
+          <td>(</td>
+          <td class="paramtype">&quot;weightsAndAbscissae&quot;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Runtime type information. </p>
+
+</div>
+</div>
+<a class="anchor" id="acc360d2f5d50c09bb0f88dcf0dc26d99"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void updateQuadrature </td>
+          <td>(</td>
+          <td class="paramtype">const dictionary &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update quadrature given a dictionary. </p>
+
+<p>Implements <a class="el" href="a00098.html#a1f025254fb71bdfa468a5372cf42f68e">momentGenerationModel</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="a00596_source.html">weightsAndAbscissae.H</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0ecbe6cb5f50223527ce4e1b499bd333.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="dir_58c61e057ed2119d9755c9fdbb448648.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="dir_6ec2bdb0f036663acb1a5a50d7b40959.html">diffusionModels</a></li><li class="navelem"><a class="el" href="dir_d4d91edf1a0c32688486e48957041eea.html">noDiffusion</a></li><li class="navelem"><a class="el" href="a00185.html">noDiffusion.C</a></li>
+    <li class="navelem"><a class="el" href="a00605.html">Foam</a></li><li class="navelem"><a class="el" href="a00621.html">momentGenerationSubModels</a></li><li class="navelem"><a class="el" href="a00185.html">weightsAndAbscissae</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

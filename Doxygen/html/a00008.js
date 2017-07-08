@@ -1,10 +1,7 @@
 var a00008 =
 [
-    [ "conditionalMomentInversion", "a00008.html#aea8708169fa153ae734bde9a7be848e0", null ],
-    [ "~conditionalMomentInversion", "a00008.html#a58b463b7150f954828f65cb99d9f7ec0", null ],
-    [ "invert", "a00008.html#a8d1ea4c567d75c1d1fc0b882a5c4ac29", null ],
-    [ "nMoments", "a00008.html#ac1e97a89c526e32fc5ef143d6bcef361", null ],
-    [ "nNodes", "a00008.html#af0c9dfde6f2aa1caa3d94853d6fd7fa5", null ],
-    [ "weights", "a00008.html#a74dc9a46ed55bdd3419033108410c0fc", null ],
-    [ "abscissae", "a00008.html#a82e42b64483b51fcf767d9709206c1ef", null ]
+    [ "Beisheuvel", "a00008.html#ac379b6335cddfa2283aa5385160f867c", null ],
+    [ "~Beisheuvel", "a00008.html#a91bfb9c374d238a7138ba74d00bfc1a6", null ],
+    [ "TypeName", "a00008.html#a384da6caa2f8744544b10d3f9141c99a", null ],
+    [ "pb", "a00008.html#a6e37365b47da4d25a0771d4b47b131dd", null ]
 ];

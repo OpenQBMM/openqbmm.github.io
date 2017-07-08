@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Foam::populationBalanceSubModels::growthModels Namespace Reference</title>
+<title>EEqn.H File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -46,9 +46,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li class="current"><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
-      <li><a href="files.html"><span>Files</span></a></li>
+      <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -69,8 +69,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="namespaces.html"><span>Namespace&#160;List</span></a></li>
-      <li><a href="namespacemembers.html"><span>Namespace&#160;Members</span></a></li>
+      <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -104,79 +104,130 @@ $(document).ready(function(){initNavTree('a00270.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Foam::populationBalanceSubModels::growthModels Namespace Reference</div>  </div>
+<div class="title">EEqn.H File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><a href="a00270_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00011.html">constantGrowth</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant growth model. The value of the constant is read from dictionary or assumed equal to 1. The minimum and maximum value of the abscissa to which the model is applied can be defined by the user or it is assumed to be 1.0e-10 and 1.0e10.  <a href="a00011.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a05800d31989e6a63a1927724fcce12e4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00270.html#a05800d31989e6a63a1927724fcce12e4">defineTypeNameAndDebug</a> (<a class="el" href="a00011.html">constantGrowth</a>, 0)</td></tr>
-<tr class="separator:a05800d31989e6a63a1927724fcce12e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ad7bf9e04f9a2619c1348631b695132"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00270.html#a6ad7bf9e04f9a2619c1348631b695132">addToRunTimeSelectionTable</a> (<a class="el" href="a00031.html">growthModel</a>, <a class="el" href="a00011.html">constantGrowth</a>, dictionary)</td></tr>
-<tr class="separator:a6ad7bf9e04f9a2619c1348631b695132"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5430a617ae14331f7560c9f112309bc"><td class="memItemLeft" align="right" valign="top">fvScalarMatrix&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00270.html#af5430a617ae14331f7560c9f112309bc">EEqn</a> (fvm::ddt(<a class="el" href="a00253.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>, he)+fvm::div(<a class="el" href="a00249.html#a1a97abcf6c141f539994c8a21c8daca7">phi</a>, he)+fvc::ddt(<a class="el" href="a00253.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>, K)+fvc::div(<a class="el" href="a00249.html#a1a97abcf6c141f539994c8a21c8daca7">phi</a>, K)+(                                       he.name()==&quot;e&quot;                               ?fvc::div                                       (                                                       fvc::absolute(<a class="el" href="a00249.html#a1a97abcf6c141f539994c8a21c8daca7">phi</a>/fvc::interpolate(<a class="el" href="a00253.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>), <a class="el" href="a00252.html#a2cf53f2d880076e92789c7297fc0423d">U</a>),                                                       <a class="el" href="a00253.html#a334650304cdcdff41898bee9eaf2e3db">p</a>,                                                    &quot;div(phiv,<a class="el" href="a00253.html#a334650304cdcdff41898bee9eaf2e3db">p</a>)&quot;                                       )                               :-dpdt                       )-fvm::laplacian(<a class="el" href="a00253.html#ac06391579e3bd64067c1f6a8e84e6f35">turbulence</a>-&gt;alphaEff(), he)==radiation-&gt;Sh(<a class="el" href="a00253.html#aad0c921770bd26de425cedad0c8ae8be">thermo</a>, he)+fvOptions(<a class="el" href="a00253.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>, he))</td></tr>
+<tr class="separator:af5430a617ae14331f7560c9f112309bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b1e3cf7921c1d57830a6970779f3d24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00270.html#af5430a617ae14331f7560c9f112309bc">EEqn</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00270.html#a9b1e3cf7921c1d57830a6970779f3d24">relax</a> ()</td></tr>
+<tr class="separator:a9b1e3cf7921c1d57830a6970779f3d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99e52b6aa83a3087ae81ccb1030aceef"><td class="memItemLeft" align="right" valign="top">fvOptions&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00270.html#a99e52b6aa83a3087ae81ccb1030aceef">constrain</a> (<a class="el" href="a00270.html#af5430a617ae14331f7560c9f112309bc">EEqn</a>)</td></tr>
+<tr class="separator:a99e52b6aa83a3087ae81ccb1030aceef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac123867940006fb14e8346d9bdc38f8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00270.html#af5430a617ae14331f7560c9f112309bc">EEqn</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00270.html#ac123867940006fb14e8346d9bdc38f8d">solve</a> ()</td></tr>
+<tr class="separator:ac123867940006fb14e8346d9bdc38f8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45936480b8c1b0bb71ede46b78d0269d"><td class="memItemLeft" align="right" valign="top">fvOptions&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00270.html#a45936480b8c1b0bb71ede46b78d0269d">correct</a> (he)</td></tr>
+<tr class="separator:a45936480b8c1b0bb71ede46b78d0269d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f2ec7df0ad2ec79360a5d964f55de87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00253.html#aad0c921770bd26de425cedad0c8ae8be">thermo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00270.html#a8f2ec7df0ad2ec79360a5d964f55de87">correct</a> ()</td></tr>
+<tr class="separator:a8f2ec7df0ad2ec79360a5d964f55de87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a05800d31989e6a63a1927724fcce12e4"></a>
+<a class="anchor" id="af5430a617ae14331f7560c9f112309bc"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Foam::populationBalanceSubModels::growthModels::defineTypeNameAndDebug </td>
+          <td class="memname">fvScalarMatrix EEqn </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="a00011.html">constantGrowth</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">fvm::ddt(<a class="el" href="a00253.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>, he)+fvm::div(<a class="el" href="a00249.html#a1a97abcf6c141f539994c8a21c8daca7">phi</a>, he)+fvc::ddt(<a class="el" href="a00253.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>, K)+fvc::div(<a class="el" href="a00249.html#a1a97abcf6c141f539994c8a21c8daca7">phi</a>, K)+(                                                                           he.name()==&quot;e&quot;                                                           ?fvc::div                                                                           (                                                                                                           fvc::absolute(<a class="el" href="a00249.html#a1a97abcf6c141f539994c8a21c8daca7">phi</a>/fvc::interpolate(<a class="el" href="a00253.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>), <a class="el" href="a00252.html#a2cf53f2d880076e92789c7297fc0423d">U</a>),                                                                                                           <a class="el" href="a00253.html#a334650304cdcdff41898bee9eaf2e3db">p</a>,                                                                                                    &quot;div(phiv,<a class="el" href="a00253.html#a334650304cdcdff41898bee9eaf2e3db">p</a>)&quot;                                                                           )                                                           :-dpdt                                           )-fvm::laplacian(<a class="el" href="a00253.html#ac06391579e3bd64067c1f6a8e84e6f35">turbulence</a>-&gt;alphaEff(), he)&#160;</td>
+          <td class="paramname"> = <code>=radiation-&gt;Sh(<a class="el" href="a00253.html#aad0c921770bd26de425cedad0c8ae8be">thermo</a>,&#160;he)+fvOptions(<a class="el" href="a00253.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>,&#160;he)</code></td><td>)</td>
           <td></td>
-          <td class="paramtype">0&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a6ad7bf9e04f9a2619c1348631b695132"></a>
+<a class="anchor" id="a9b1e3cf7921c1d57830a6970779f3d24"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Foam::populationBalanceSubModels::growthModels::addToRunTimeSelectionTable </td>
+          <td class="memname"><a class="el" href="a00270.html#af5430a617ae14331f7560c9f112309bc">EEqn</a> relax </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="a00031.html">growthModel</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00011.html">constantGrowth</a>&#160;</td>
-          <td class="paramname">, </td>
         </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a99e52b6aa83a3087ae81ccb1030aceef"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
         <tr>
-          <td class="paramkey"></td>
+          <td class="memname">fvOptions constrain </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a00270.html#af5430a617ae14331f7560c9f112309bc">EEqn</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">dictionary&#160;</td>
-          <td class="paramname">&#160;</td>
         </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac123867940006fb14e8346d9bdc38f8d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
         <tr>
+          <td class="memname"><a class="el" href="a00270.html#af5430a617ae14331f7560c9f112309bc">EEqn</a> solve </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td>)</td>
-          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="a00560_source.html#l00018">if()</a>, and <a class="el" href="a00479_source.html#l00104">while()</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00270_ac123867940006fb14e8346d9bdc38f8d_icgraph.png" border="0" usemap="#a00270_ac123867940006fb14e8346d9bdc38f8d_icgraph" alt=""/></div>
+<map name="a00270_ac123867940006fb14e8346d9bdc38f8d_icgraph" id="a00270_ac123867940006fb14e8346d9bdc38f8d_icgraph">
+<area shape="rect" id="node2" href="a00560.html#a5340a84918449f06669e13812b90f046" title="if" alt="" coords="115,5,154,32"/>
+<area shape="rect" id="node3" href="a00479.html#a0b9d5d8b1ecc0bf63b4c35f41598a500" title="while" alt="" coords="108,56,161,83"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a45936480b8c1b0bb71ede46b78d0269d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">fvOptions correct </td>
+          <td>(</td>
+          <td class="paramtype">he&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8f2ec7df0ad2ec79360a5d964f55de87"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">radiation correct </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -188,7 +239,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00255.html">Foam</a></li><li class="navelem"><a class="el" href="a00265.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="a00270.html">growthModels</a></li>
+    <li class="navelem"><a class="el" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html">applications</a></li><li class="navelem"><a class="el" href="dir_fdd174abb8ada244b49e98779c87ac3c.html">solvers</a></li><li class="navelem"><a class="el" href="dir_09b2b32de79e912887de09bb8e364db4.html">buoyantPbePimpleFoam</a></li><li class="navelem"><a class="el" href="a00270.html">EEqn.H</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

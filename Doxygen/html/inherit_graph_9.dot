@@ -4,7 +4,15 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node1 [label="growthModel",height=0.2,width=0.4,color="black",URL="$a00028.html",tooltip="Abstract class for growth model. "];
+  Node1 [label="daughterDistribution",height=0.2,width=0.4,color="black",URL="$a00029.html",tooltip="Abstract class for the daughter distribution of fragments in breakup processes. "];
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="constantGrowth",height=0.2,width=0.4,color="black",URL="$a00011.html",tooltip="Constant growth model. The value of the constant is read from dictionary or assumed equal to 1..."];
+  Node2 [label="erosion",height=0.2,width=0.4,color="black",URL="$a00037.html",tooltip="Daughter distribution of fragments for erosion. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="fullFragmentation",height=0.2,width=0.4,color="black",URL="$a00046.html",tooltip="Daughter distribution of fragments with full fragmentation. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="oneQuarterMassRatio",height=0.2,width=0.4,color="black",URL="$a00123.html",tooltip="Daughter distribution of fragments with one quarter mass ratio fragmentation. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="symmetricFragmentation",height=0.2,width=0.4,color="black",URL="$a00152.html",tooltip="Daughter distribution of fragments with symmetric fragmentation. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="uniform",height=0.2,width=0.4,color="black",URL="$a00167.html",tooltip="Daughter distribution of fragments with uniform fragmentation. "];
 }

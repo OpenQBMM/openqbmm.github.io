@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>newGrowthModel.C File Reference</title>
+<title>virtualMassModel Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -47,8 +47,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
-      <li class="current"><a href="files.html"><span>Files</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -69,8 +69,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="files.html"><span>File&#160;List</span></a></li>
-      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -103,30 +105,505 @@ $(document).ready(function(){initNavTree('a00178.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="a01137.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">newGrowthModel.C File Reference</div>  </div>
+<div class="title">virtualMassModel Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div class="dynheader">
-Include dependency graph for newGrowthModel.C:</div>
+<div class="dynheader">
+Inheritance diagram for virtualMassModel:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00411.png" border="0" usemap="#newGrowthModel_8C" alt=""/></div>
-<map name="newGrowthModel_8C" id="newGrowthModel_8C">
-<area shape="rect" id="node2" href="a00136.html" title="growthModel.H" alt="" coords="20,80,132,107"/>
+<div class="center"><img src="a01138.png" border="0" usemap="#virtualMassModel_inherit__map" alt="Inheritance graph"/></div>
+<map name="virtualMassModel_inherit__map" id="virtualMassModel_inherit__map">
+<area shape="rect" id="node3" href="a00027.html" title="Constant coefficient virtual mass model. " alt="" coords="5,155,211,181"/>
+<area shape="rect" id="node4" href="a00077.html" title="Virtual mass model of Lamb. " alt="" coords="235,155,290,181"/>
+<area shape="rect" id="node5" href="a00119.html" title="noVirtualMass" alt="" coords="315,155,421,181"/>
+<area shape="rect" id="node6" href="a00189.html" title="Virtual mass model of Zuber. " alt="" coords="446,155,503,181"/>
 </map>
-</div>
-</div>
-<p><a href="a00178_source.html">Go to the source code of this file.</a></p>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for virtualMassModel:</div>
+<div class="dyncontent">
+<div class="center"><img src="a01139.png" border="0" usemap="#virtualMassModel_coll__map" alt="Collaboration graph"/></div>
+<map name="virtualMassModel_coll__map" id="virtualMassModel_coll__map">
+<area shape="rect" id="node3" href="a00130.html" title="phasePair" alt="" coords="120,5,203,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:af034dba881d47fe5ed61842254c7c908"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00178.html#af034dba881d47fe5ed61842254c7c908">TypeName</a> (&quot;virtualMassModel&quot;)</td></tr>
+<tr class="memdesc:af034dba881d47fe5ed61842254c7c908"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#af034dba881d47fe5ed61842254c7c908">More...</a><br /></td></tr>
+<tr class="separator:af034dba881d47fe5ed61842254c7c908"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c78695080bafb740c2456ce646900fd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00178.html#a6c78695080bafb740c2456ce646900fd">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00178.html">virtualMassModel</a>, dictionary,(                                                       const dictionary &amp;dict,                                                       const <a class="el" href="a00130.html">phasePair</a> &amp;pair,                                                       const bool registerObject                                       ),(dict, pair, registerObject))</td></tr>
+<tr class="separator:a6c78695080bafb740c2456ce646900fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4522f0c8070d7390b8b6f99036c251a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00178.html#ad4522f0c8070d7390b8b6f99036c251a">virtualMassModel</a> (const dictionary &amp;dict, const <a class="el" href="a00130.html">phasePair</a> &amp;pair, const bool registerObject)</td></tr>
+<tr class="memdesc:ad4522f0c8070d7390b8b6f99036c251a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from a dictionary and a phase pair.  <a href="#ad4522f0c8070d7390b8b6f99036c251a">More...</a><br /></td></tr>
+<tr class="separator:ad4522f0c8070d7390b8b6f99036c251a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a14c57de6b037531d91d65e1a360372"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00178.html#a6a14c57de6b037531d91d65e1a360372">~virtualMassModel</a> ()</td></tr>
+<tr class="memdesc:a6a14c57de6b037531d91d65e1a360372"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a6a14c57de6b037531d91d65e1a360372">More...</a><br /></td></tr>
+<tr class="separator:a6a14c57de6b037531d91d65e1a360372"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5713c8eca00191981796a431164a9bd8"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00178.html#a5713c8eca00191981796a431164a9bd8">Cvm</a> (const label, const label) const  =0</td></tr>
+<tr class="memdesc:a5713c8eca00191981796a431164a9bd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the virtual mass coefficient.  <a href="#a5713c8eca00191981796a431164a9bd8">More...</a><br /></td></tr>
+<tr class="separator:a5713c8eca00191981796a431164a9bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfd8d3f3726ebad0d66f65237e29136b"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00178.html#abfd8d3f3726ebad0d66f65237e29136b">Cvm</a> () const </td></tr>
+<tr class="memdesc:abfd8d3f3726ebad0d66f65237e29136b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the virtual mass coefficient based on all nodes.  <a href="#abfd8d3f3726ebad0d66f65237e29136b">More...</a><br /></td></tr>
+<tr class="separator:abfd8d3f3726ebad0d66f65237e29136b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81a1934b2689a0f8f0c6a19121199a7b"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00178.html#a81a1934b2689a0f8f0c6a19121199a7b">Ki</a> (const label, const label) const </td></tr>
+<tr class="memdesc:a81a1934b2689a0f8f0c6a19121199a7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the phase-intensive virtual mass coefficient Ki.  <a href="#a81a1934b2689a0f8f0c6a19121199a7b">More...</a><br /></td></tr>
+<tr class="separator:a81a1934b2689a0f8f0c6a19121199a7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf0bef05c6c97208195a12f283cd19d6"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00178.html#acf0bef05c6c97208195a12f283cd19d6">K</a> (const label, const label) const </td></tr>
+<tr class="memdesc:acf0bef05c6c97208195a12f283cd19d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the virtual mass coefficient K.  <a href="#acf0bef05c6c97208195a12f283cd19d6">More...</a><br /></td></tr>
+<tr class="separator:acf0bef05c6c97208195a12f283cd19d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a173fb5ba73726414ccf92217686cef54"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; surfaceScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00178.html#a173fb5ba73726414ccf92217686cef54">Kf</a> (const label, const label) const </td></tr>
+<tr class="memdesc:a173fb5ba73726414ccf92217686cef54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the virtual mass coefficient Kf.  <a href="#a173fb5ba73726414ccf92217686cef54">More...</a><br /></td></tr>
+<tr class="separator:a173fb5ba73726414ccf92217686cef54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8636852e37dd7a5d68b3c25ee656f778"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00178.html#a8636852e37dd7a5d68b3c25ee656f778">writeData</a> (Ostream &amp;os) const </td></tr>
+<tr class="separator:a8636852e37dd7a5d68b3c25ee656f778"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:af6db7b8775ec18e56eb3c961c1be3866"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00178.html">virtualMassModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00178.html#af6db7b8775ec18e56eb3c961c1be3866">New</a> (const dictionary &amp;dict, const <a class="el" href="a00130.html">phasePair</a> &amp;pair)</td></tr>
+<tr class="separator:af6db7b8775ec18e56eb3c961c1be3866"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:af5135bc8dd5edb6b0037af125aa01e7c"><td class="memItemLeft" align="right" valign="top">static const dimensionSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00178.html#af5135bc8dd5edb6b0037af125aa01e7c">dimK</a></td></tr>
+<tr class="memdesc:af5135bc8dd5edb6b0037af125aa01e7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Force coefficient dimensions.  <a href="#af5135bc8dd5edb6b0037af125aa01e7c">More...</a><br /></td></tr>
+<tr class="separator:af5135bc8dd5edb6b0037af125aa01e7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:afd0567a30e2ea4703b446fd80ca5ec0b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00130.html">phasePair</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00178.html#afd0567a30e2ea4703b446fd80ca5ec0b">pair_</a></td></tr>
+<tr class="memdesc:afd0567a30e2ea4703b446fd80ca5ec0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phase pair.  <a href="#afd0567a30e2ea4703b446fd80ca5ec0b">More...</a><br /></td></tr>
+<tr class="separator:afd0567a30e2ea4703b446fd80ca5ec0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/growthModels/growthModel/newGrowthModel.C">newGrowthModel.C</a> </p>
+<div class="textblock"><p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/interfacialModels/virtualMassModels/virtualMassModel/virtualMassModel.H">virtualMassModel.H</a> </li>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/interfacialModels/virtualMassModels/virtualMassModel/virtualMassModel.C">virtualMassModel.C</a> </li>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/interfacialModels/virtualMassModels/virtualMassModel/newVirtualMassModel.C">newVirtualMassModel.C</a> </li>
+</ul>
+</dd></dl>
 
-<p>Definition in file <a class="el" href="a00178_source.html">newGrowthModel.C</a>.</p>
-</div></div><!-- contents -->
+<p>Definition at line <a class="el" href="a00584_source.html#l00054">54</a> of file <a class="el" href="a00584_source.html">virtualMassModel.H</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="ad4522f0c8070d7390b8b6f99036c251a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a00178.html">virtualMassModel</a> </td>
+          <td>(</td>
+          <td class="paramtype">const dictionary &amp;&#160;</td>
+          <td class="paramname"><em>dict</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="a00130.html">phasePair</a> &amp;&#160;</td>
+          <td class="paramname"><em>pair</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>registerObject</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct from a dictionary and a phase pair. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6a14c57de6b037531d91d65e1a360372"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual ~<a class="el" href="a00178.html">virtualMassModel</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Destructor. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="af034dba881d47fe5ed61842254c7c908"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TypeName </td>
+          <td>(</td>
+          <td class="paramtype">&quot;virtualMassModel&quot;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Runtime type information. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6c78695080bafb740c2456ce646900fd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">declareRunTimeSelectionTable </td>
+          <td>(</td>
+          <td class="paramtype">autoPtr&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="a00178.html">virtualMassModel</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dictionary&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">(                                                                                                           const dictionary &amp;dict,                                                                                                           const <a class="el" href="a00130.html">phasePair</a> &amp;pair,                                                                                                           const bool registerObject                                                                           )&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">(dict, pair, registerObject)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af6db7b8775ec18e56eb3c961c1be3866"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static autoPtr&lt;<a class="el" href="a00178.html">virtualMassModel</a>&gt; New </td>
+          <td>(</td>
+          <td class="paramtype">const dictionary &amp;&#160;</td>
+          <td class="paramname"><em>dict</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="a00130.html">phasePair</a> &amp;&#160;</td>
+          <td class="paramname"><em>pair</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5713c8eca00191981796a431164a9bd8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual tmp&lt;volScalarField&gt; Cvm </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the virtual mass coefficient. </p>
+
+<p>Implemented in <a class="el" href="a00189.html#a5eb86a943fb9eba9a9d253787e7ca82c">Zuber</a>, <a class="el" href="a00077.html#a5eb86a943fb9eba9a9d253787e7ca82c">Lamb</a>, <a class="el" href="a00027.html#a5eb86a943fb9eba9a9d253787e7ca82c">constantVirtualMassCoefficient</a>, and <a class="el" href="a00119.html#a5eb86a943fb9eba9a9d253787e7ca82c">noVirtualMass</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abfd8d3f3726ebad0d66f65237e29136b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual tmp&lt;volScalarField&gt; Cvm </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the virtual mass coefficient based on all nodes. </p>
+
+<p>Reimplemented in <a class="el" href="a00119.html#abfd8d3f3726ebad0d66f65237e29136b">noVirtualMass</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a81a1934b2689a0f8f0c6a19121199a7b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual tmp&lt;volScalarField&gt; Ki </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the phase-intensive virtual mass coefficient Ki. </p>
+<p>used in the momentum equation ddt(alpha1*rho1*U1) + ... = ... alphad*K*(DU1_Dt - DU2_Dt) ddt(alpha2*rho2*U2) + ... = ... alphad*K*(DU1_Dt - DU2_Dt) </p>
+
+</div>
+</div>
+<a class="anchor" id="acf0bef05c6c97208195a12f283cd19d6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual tmp&lt;volScalarField&gt; K </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the virtual mass coefficient K. </p>
+<p>used in the momentum equation ddt(alpha1*rho1*U1) + ... = ... K*(DU1_Dt - DU2_Dt) ddt(alpha2*rho2*U2) + ... = ... K*(DU1_Dt - DU2_Dt) </p>
+
+<p>Reimplemented in <a class="el" href="a00119.html#acf0bef05c6c97208195a12f283cd19d6">noVirtualMass</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a173fb5ba73726414ccf92217686cef54"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual tmp&lt;surfaceScalarField&gt; Kf </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the virtual mass coefficient Kf. </p>
+<p>used in the face-momentum equations </p>
+
+</div>
+</div>
+<a class="anchor" id="a8636852e37dd7a5d68b3c25ee656f778"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool writeData </td>
+          <td>(</td>
+          <td class="paramtype">Ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="afd0567a30e2ea4703b446fd80ca5ec0b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="a00130.html">phasePair</a>&amp; pair_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Phase pair. </p>
+
+<p>Definition at line <a class="el" href="a00584_source.html#l00063">63</a> of file <a class="el" href="a00584_source.html">virtualMassModel.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af5135bc8dd5edb6b0037af125aa01e7c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const dimensionSet dimK</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Force coefficient dimensions. </p>
+
+<p>Definition at line <a class="el" href="a00584_source.html#l00091">91</a> of file <a class="el" href="a00584_source.html">virtualMassModel.H</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="a00584_source.html">virtualMassModel.H</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0ecbe6cb5f50223527ce4e1b499bd333.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="dir_58c61e057ed2119d9755c9fdbb448648.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="dir_6940a7f58037034d8426ca1ed1224859.html">growthModels</a></li><li class="navelem"><a class="el" href="dir_ec684823dce04113314ce54695e567a3.html">growthModel</a></li><li class="navelem"><a class="el" href="a00178.html">newGrowthModel.C</a></li>
+    <li class="navelem"><a class="el" href="a00605.html">Foam</a></li><li class="navelem"><a class="el" href="a00178.html">virtualMassModel</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

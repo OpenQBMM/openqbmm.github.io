@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>gaussRadauMomentInversion.C File Reference</title>
+<title>phasePressureModel Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -47,8 +47,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
-      <li class="current"><a href="files.html"><span>Files</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -69,8 +69,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="files.html"><span>File&#160;List</span></a></li>
-      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -103,46 +105,40 @@ $(document).ready(function(){initNavTree('a00133.html','');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">gaussRadauMomentInversion.C File Reference</div>  </div>
+<div class="title">phasePressureModel Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div class="dynheader">
-Include dependency graph for gaussRadauMomentInversion.C:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00353.png" border="0" usemap="#gaussRadauMomentInversion_8C" alt=""/></div>
-<map name="gaussRadauMomentInversion_8C" id="gaussRadauMomentInversion_8C">
-<area shape="rect" id="node2" href="a00134.html" title="gaussRadauMomentInversion.H" alt="" coords="5,80,219,107"/>
-</map>
-</div>
-</div>
-<p><a href="a00133_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:a00249"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00249.html">Foam</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ae28a8693ec96aa0ce2f10a129012de21"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00249.html#ae28a8693ec96aa0ce2f10a129012de21">defineTypeNameAndDebug</a> (gaussRadauMomentInversion, 0)</td></tr>
-<tr class="separator:ae28a8693ec96aa0ce2f10a129012de21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b3e4d883035d960f7255cc8bed29329"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00249.html#a0b3e4d883035d960f7255cc8bed29329">addToRunTimeSelectionTable</a> (univariateMomentInversion, gaussRadauMomentInversion, dictionary)</td></tr>
-<tr class="separator:a0b3e4d883035d960f7255cc8bed29329"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/momentInversion/univariate/basic/gaussRadauMomentInversion/gaussRadauMomentInversion.C">gaussRadauMomentInversion.C</a> </p>
 
-<p>Definition in file <a class="el" href="a00133_source.html">gaussRadauMomentInversion.C</a>.</p>
-</div></div><!-- contents -->
+<p>Particle-particle phase-pressure RAS model.  
+ <a href="a00133.html#details">More...</a></p>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Particle-particle phase-pressure RAS model. </p>
+<p><a class="anchor" id="Description"></a>The derivative of the phase-pressure with respect to the phase-fraction is evaluated as</p>
+<p>g0*min(exp(preAlphaExp*(alpha - alphaMax)), expMax)</p>
+<p>The default model coefficients correspond to the following: </p><pre class="fragment">    phasePressureCoeffs
+    {
+        preAlphaExp     500;
+        expMax          1000;
+        alphaMax        0.62;
+        g0              1000;
+    }
+</pre><dl class="section user"><dt>Source files</dt><dd><ul>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/phaseCompressibleTurbulenceModels/phasePressureModel/phasePressureModel.H">phasePressureModel.H</a> </li>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/phaseCompressibleTurbulenceModels/phasePressureModel/phasePressureModel.C">phasePressureModel.C</a> </li>
+</ul>
+</dd></dl>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="a00492_source.html">phasePressureModel.H</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0b9bb76b72c90181149adc55e92e6ea3.html">momentInversion</a></li><li class="navelem"><a class="el" href="dir_224f5f7c837ec5f1a50cf8e5b44c5959.html">univariate</a></li><li class="navelem"><a class="el" href="dir_b57c68eea9442de1941a28876bed1be5.html">basic</a></li><li class="navelem"><a class="el" href="dir_f6b83f958e94be02670b20c6320e1d43.html">gaussRadauMomentInversion</a></li><li class="navelem"><a class="el" href="a00133.html">gaussRadauMomentInversion.C</a></li>
+    <li class="navelem"><a class="el" href="a00605.html">Foam</a></li><li class="navelem"><a class="el" href="a00133.html">phasePressureModel</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

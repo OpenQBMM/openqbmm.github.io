@@ -1,8 +1,4 @@
 var a00261 =
 [
-    [ "erosion", "a00017.html", "a00017" ],
-    [ "fullFragmentation", "a00023.html", "a00023" ],
-    [ "oneQuarterMassRatio", "a00053.html", "a00053" ],
-    [ "symmetricFragmentation", "a00060.html", "a00060" ],
-    [ "uniform", "a00065.html", "a00065" ]
+    [ "DDtU2", "a00261.html#a7016e96187a175bd23898ceae72d1f55", null ]
 ];

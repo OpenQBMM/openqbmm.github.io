@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['turbulentbrownian',['turbulentBrownian',['../a00061.html',1,'Foam::populationBalanceSubModels::aggregationKernels']]],
-  ['turbulentdiffusion',['turbulentDiffusion',['../a00062.html',1,'Foam::mixingSubModels::diffusionModels']]],
-  ['turbulentdiffusion',['turbulentDiffusion',['../a00063.html',1,'Foam::populationBalanceSubModels::diffusionModels']]],
-  ['turbulentmixing',['turbulentMixing',['../a00064.html',1,'Foam::PDFTransportModels::mixingModels']]]
+  ['quadratureapproximation',['quadratureApproximation',['../a00136.html',1,'Foam']]],
+  ['quadratureapproximation_3c_20volunivariatemomentfieldset_2c_20volscalarnode_20_3e',['quadratureApproximation&lt; volUnivariateMomentFieldSet, volScalarNode &gt;',['../a00136.html',1,'Foam']]],
+  ['quadraturenode',['quadratureNode',['../a00137.html',1,'Foam']]]
 ];

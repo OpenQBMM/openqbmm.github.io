@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>createFields.H File Reference</title>
+<title>momentFieldSet&lt; momentType, nodeType &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -47,8 +47,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
-      <li class="current"><a href="files.html"><span>Files</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -69,8 +69,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="files.html"><span>File&#160;List</span></a></li>
-      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -104,90 +106,138 @@ $(document).ready(function(){initNavTree('a00096.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="a01073.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">buoyantPbePimpleFoam/createFields.H File Reference</div>  </div>
+<div class="title">momentFieldSet&lt; momentType, nodeType &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div class="dynheader">
-Include dependency graph for buoyantPbePimpleFoam/createFields.H:</div>
+
+<p>Stores a list of moments, with a Map&lt;label&gt; that takes a label key and returns the index into the list of moments.  
+ <a href="a00096.html#details">More...</a></p>
+<div class="dynheader">
+Inheritance diagram for momentFieldSet&lt; momentType, nodeType &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00297.png" border="0" usemap="#createFields_8H" alt=""/></div>
-<map name="createFields_8H" id="createFields_8H">
+<div class="center"><img src="a01074.png" border="0" usemap="#momentFieldSet_3_01momentType_00_01nodeType_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="momentFieldSet_3_01momentType_00_01nodeType_01_4_inherit__map" id="momentFieldSet_3_01momentType_00_01nodeType_01_4_inherit__map">
+<area shape="rect" id="node3" href="a00096.html" title="momentFieldSet\&lt; surfaceUnivariate\lMoment, surfaceScalarNode \&gt;" alt="" coords="5,200,241,241"/>
 </map>
-</div>
-</div><div class="textblock"><div class="dynheader">
-This graph shows which files directly or indirectly include this file:</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for momentFieldSet&lt; momentType, nodeType &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00298.png" border="0" usemap="#createFields_8Hdep" alt=""/></div>
-<map name="createFields_8Hdep" id="createFields_8Hdep">
-<area shape="rect" id="node2" href="a00086.html" title="Transient solver for buoyant, turbulent flow of compressible fluids with solution of population balan..." alt="" coords="5,80,188,107"/>
+<div class="center"><img src="a01075.png" border="0" usemap="#momentFieldSet_3_01momentType_00_01nodeType_01_4_coll__map" alt="Collaboration graph"/></div>
+<map name="momentFieldSet_3_01momentType_00_01nodeType_01_4_coll__map" id="momentFieldSet_3_01momentType_00_01nodeType_01_4_coll__map">
 </map>
-</div>
-</div>
-<p><a href="a00096_source.html">Go to the source code of this file.</a></p>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:abe69f56d2542c42d3087a7412902b44a"><td class="memItemLeft" align="right" valign="top">Info&lt;&lt; &quot;Reading thermophysical properties\n&quot;&lt;&lt; endl;autoPtr&lt; rhoThermo &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00096.html#abe69f56d2542c42d3087a7412902b44a">pThermo</a> (rhoThermo::New(mesh))</td></tr>
-<tr class="separator:abe69f56d2542c42d3087a7412902b44a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5799e0a833b5865ada8f84d88a03a8c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00099.html#aad0c921770bd26de425cedad0c8ae8be">thermo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00096.html#a5799e0a833b5865ada8f84d88a03a8c1">validate</a> (args.executable(),&quot;h&quot;,&quot;e&quot;)</td></tr>
-<tr class="separator:a5799e0a833b5865ada8f84d88a03a8c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa74838e1f8f89be91e7a5f1d70d08fb1"><td class="memItemLeft" align="right" valign="top">volScalarField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00096.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a> (IOobject(                                    &quot;rho&quot;,                                       runTime.timeName(),                                       mesh,                                       IOobject::NO_READ,                                       IOobject::NO_WRITE                       ), thermo.rho())</td></tr>
-<tr class="separator:aa74838e1f8f89be91e7a5f1d70d08fb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac06391579e3bd64067c1f6a8e84e6f35"><td class="memItemLeft" align="right" valign="top">Info&lt;&lt; &quot;Reading field U\n&quot;&lt;&lt; endl;volVectorField <a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a>(IOobject(&quot;U&quot;, runTime.timeName(), mesh, IOobject::MUST_READ, IOobject::AUTO_WRITE), mesh);Info&lt;&lt; &quot;Creating turbulence model\n&quot;&lt;&lt; endl;autoPtr&lt; compressible::turbulenceModel &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00096.html#ac06391579e3bd64067c1f6a8e84e6f35">turbulence</a> (compressible::turbulenceModel::New(                                       <a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>,                                       <a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a>,                                       phi,                                       <a class="el" href="a00099.html#aad0c921770bd26de425cedad0c8ae8be">thermo</a>                       ))</td></tr>
-<tr class="separator:ac06391579e3bd64067c1f6a8e84e6f35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:aad0c921770bd26de425cedad0c8ae8be"><td class="memItemLeft" align="right" valign="top">rhoThermo &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00096.html#aad0c921770bd26de425cedad0c8ae8be">thermo</a> = <a class="el" href="a00099.html#abe69f56d2542c42d3087a7412902b44a">pThermo</a>()</td></tr>
-<tr class="separator:aad0c921770bd26de425cedad0c8ae8be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a334650304cdcdff41898bee9eaf2e3db"><td class="memItemLeft" align="right" valign="top">volScalarField &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00096.html#a334650304cdcdff41898bee9eaf2e3db">p</a> = thermo.p()</td></tr>
-<tr class="separator:a334650304cdcdff41898bee9eaf2e3db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba679271c41582099c8ccf4827fdf217"><td class="memItemLeft" align="right" valign="top">const volScalarField &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00096.html#aba679271c41582099c8ccf4827fdf217">psi</a> = thermo.psi()</td></tr>
-<tr class="separator:aba679271c41582099c8ccf4827fdf217"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af238d5f26618a0393bfdeaa9ca937c61"><td class="memItemLeft" align="right" valign="top">Info&lt;&lt; &quot;Reading field p_rgh\n&quot;&lt;&lt; endl;volScalarField p_rgh(IOobject(&quot;p_rgh&quot;, runTime.timeName(), mesh, IOobject::MUST_READ, IOobject::AUTO_WRITE), mesh);p_rgh=<a class="el" href="a00099.html#a334650304cdcdff41898bee9eaf2e3db">p</a>-<a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a> *gh;mesh.setFluxRequired(p_rgh.name());Info&lt;&lt; &quot;Creating field dpdt\n&quot;&lt;&lt; endl;volScalarField dpdt(IOobject(&quot;dpdt&quot;, runTime.timeName(), mesh), mesh, dimensionedScalar(&quot;dpdt&quot;, p.dimensions()/dimTime, 0));Info&lt;&lt; &quot;Creating field kinetic energy K\n&quot;&lt;&lt; endl;volScalarField K(&quot;K&quot;, 0.5 *magSqr(<a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a>));Info&lt;&lt; &quot;Reading populationBalanceProperties\n&quot;&lt;&lt; endl;IOdictionary populationBalanceProperties(IOobject(&quot;populationBalanceProperties&quot;, runTime.constant(), mesh, IOobject::MUST_READ_IF_MODIFIED, IOobject::NO_WRITE));autoPtr&lt; populationBalanceModel &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00096.html#af238d5f26618a0393bfdeaa9ca937c61">populationBalance</a> (populationBalanceModel::New(                                    &quot;populationBalance&quot;, populationBalanceProperties, phi                       ))</td></tr>
-<tr class="separator:af238d5f26618a0393bfdeaa9ca937c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a349fa5253e53dd0dc9e0400cdb11f383"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00096.html#a349fa5253e53dd0dc9e0400cdb11f383">momentFieldSet</a> (const word &amp;distributionName, const dictionary &amp;dict, const fvMesh &amp;mesh, const autoPtr&lt; PtrList&lt; nodeType &gt;&gt; &amp;nodes, const word &amp;<a class="el" href="a00096.html#ac69c81c5f4ebd5edd8ddc30b03c1d184">support</a>)</td></tr>
+<tr class="memdesc:a349fa5253e53dd0dc9e0400cdb11f383"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from dictionary and the quadrature nodes.  <a href="#a349fa5253e53dd0dc9e0400cdb11f383">More...</a><br /></td></tr>
+<tr class="separator:a349fa5253e53dd0dc9e0400cdb11f383"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acde0580c77dcc8835d0dac0798299f8d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00096.html#acde0580c77dcc8835d0dac0798299f8d">momentFieldSet</a> (const word &amp;distributionName, const label nMoments, const autoPtr&lt; PtrList&lt; nodeType &gt;&gt; &amp;nodes, const label <a class="el" href="a00096.html#ae4410b8afdbd8d2d0aef13f1944201a3">nDimensions</a>, const Map&lt; label &gt; &amp;<a class="el" href="a00096.html#a35c85d2483436bc2f872bfb5ab3203a6">momentMap</a>, const word &amp;<a class="el" href="a00096.html#ac69c81c5f4ebd5edd8ddc30b03c1d184">support</a>)</td></tr>
+<tr class="memdesc:acde0580c77dcc8835d0dac0798299f8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from size, quadrature nodes, dimensions and moment map.  <a href="#acde0580c77dcc8835d0dac0798299f8d">More...</a><br /></td></tr>
+<tr class="separator:acde0580c77dcc8835d0dac0798299f8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f005e83e4a818bb3704da88fbe068b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00096.html#a2f005e83e4a818bb3704da88fbe068b6">~momentFieldSet</a> ()</td></tr>
+<tr class="memdesc:a2f005e83e4a818bb3704da88fbe068b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a2f005e83e4a818bb3704da88fbe068b6">More...</a><br /></td></tr>
+<tr class="separator:a2f005e83e4a818bb3704da88fbe068b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b84520bcbeeefa531bcd011d279b994"><td class="memItemLeft" align="right" valign="top">const momentType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00096.html#a5b84520bcbeeefa531bcd011d279b994">operator()</a> () const </td></tr>
+<tr class="memdesc:a5b84520bcbeeefa531bcd011d279b994"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const access to the zeroth moment.  <a href="#a5b84520bcbeeefa531bcd011d279b994">More...</a><br /></td></tr>
+<tr class="separator:a5b84520bcbeeefa531bcd011d279b994"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b8f956a65d5b7c3292f28f8b45a4665"><td class="memItemLeft" align="right" valign="top">momentType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00096.html#a5b8f956a65d5b7c3292f28f8b45a4665">operator()</a> ()</td></tr>
+<tr class="memdesc:a5b8f956a65d5b7c3292f28f8b45a4665"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-const access to the zeroth moment.  <a href="#a5b8f956a65d5b7c3292f28f8b45a4665">More...</a><br /></td></tr>
+<tr class="separator:a5b8f956a65d5b7c3292f28f8b45a4665"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a515db69ce884936810e537f8bb03fa44"><td class="memItemLeft" align="right" valign="top">const momentType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00096.html#a515db69ce884936810e537f8bb03fa44">operator()</a> (label a) const </td></tr>
+<tr class="memdesc:a515db69ce884936810e537f8bb03fa44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const access to the first order moment in dimension a.  <a href="#a515db69ce884936810e537f8bb03fa44">More...</a><br /></td></tr>
+<tr class="separator:a515db69ce884936810e537f8bb03fa44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afffa93ab2aafb32ad9e414f00b6f6273"><td class="memItemLeft" align="right" valign="top">momentType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00096.html#afffa93ab2aafb32ad9e414f00b6f6273">operator()</a> (label a)</td></tr>
+<tr class="memdesc:afffa93ab2aafb32ad9e414f00b6f6273"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-const access to the first order moment in dimension a.  <a href="#afffa93ab2aafb32ad9e414f00b6f6273">More...</a><br /></td></tr>
+<tr class="separator:afffa93ab2aafb32ad9e414f00b6f6273"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a367ff26b2bc074d64f159bb54691f4fe"><td class="memItemLeft" align="right" valign="top">const momentType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00096.html#a367ff26b2bc074d64f159bb54691f4fe">operator()</a> (label a, label b) const </td></tr>
+<tr class="memdesc:a367ff26b2bc074d64f159bb54691f4fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const access to the second order moment in dimension a+b.  <a href="#a367ff26b2bc074d64f159bb54691f4fe">More...</a><br /></td></tr>
+<tr class="separator:a367ff26b2bc074d64f159bb54691f4fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6c20c419c596228f72623615e9b0e27"><td class="memItemLeft" align="right" valign="top">momentType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00096.html#ad6c20c419c596228f72623615e9b0e27">operator()</a> (label a, label b)</td></tr>
+<tr class="memdesc:ad6c20c419c596228f72623615e9b0e27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-const access to the second order moment in dimension a+b.  <a href="#ad6c20c419c596228f72623615e9b0e27">More...</a><br /></td></tr>
+<tr class="separator:ad6c20c419c596228f72623615e9b0e27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7daae9cebc6beb9c9379ee84bf46810b"><td class="memItemLeft" align="right" valign="top">const momentType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00096.html#a7daae9cebc6beb9c9379ee84bf46810b">operator()</a> (label a, label b, label c) const </td></tr>
+<tr class="memdesc:a7daae9cebc6beb9c9379ee84bf46810b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const access to the third order moment in dimension a+b+c.  <a href="#a7daae9cebc6beb9c9379ee84bf46810b">More...</a><br /></td></tr>
+<tr class="separator:a7daae9cebc6beb9c9379ee84bf46810b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab428c717d588ca3af99b57b8e04ab85d"><td class="memItemLeft" align="right" valign="top">momentType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00096.html#ab428c717d588ca3af99b57b8e04ab85d">operator()</a> (label a, label b, label c)</td></tr>
+<tr class="memdesc:ab428c717d588ca3af99b57b8e04ab85d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-const access to the third order moment in dimension a+b+c.  <a href="#ab428c717d588ca3af99b57b8e04ab85d">More...</a><br /></td></tr>
+<tr class="separator:ab428c717d588ca3af99b57b8e04ab85d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35c85d2483436bc2f872bfb5ab3203a6"><td class="memItemLeft" align="right" valign="top">const Map&lt; label &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00096.html#a35c85d2483436bc2f872bfb5ab3203a6">momentMap</a> () const </td></tr>
+<tr class="memdesc:a35c85d2483436bc2f872bfb5ab3203a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns const access to the moment map.  <a href="#a35c85d2483436bc2f872bfb5ab3203a6">More...</a><br /></td></tr>
+<tr class="separator:a35c85d2483436bc2f872bfb5ab3203a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4410b8afdbd8d2d0aef13f1944201a3"><td class="memItemLeft" align="right" valign="top">label&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00096.html#ae4410b8afdbd8d2d0aef13f1944201a3">nDimensions</a> () const </td></tr>
+<tr class="memdesc:ae4410b8afdbd8d2d0aef13f1944201a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the dimensionality of the distribution.  <a href="#ae4410b8afdbd8d2d0aef13f1944201a3">More...</a><br /></td></tr>
+<tr class="separator:ae4410b8afdbd8d2d0aef13f1944201a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac69c81c5f4ebd5edd8ddc30b03c1d184"><td class="memItemLeft" align="right" valign="top">const word&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00096.html#ac69c81c5f4ebd5edd8ddc30b03c1d184">support</a> () const </td></tr>
+<tr class="memdesc:ac69c81c5f4ebd5edd8ddc30b03c1d184"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return support of the measure associated to the moment set.  <a href="#ac69c81c5f4ebd5edd8ddc30b03c1d184">More...</a><br /></td></tr>
+<tr class="separator:ac69c81c5f4ebd5edd8ddc30b03c1d184"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5c54df7ed3b930268c8d7752c101725"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00096.html#ac5c54df7ed3b930268c8d7752c101725">update</a> ()</td></tr>
+<tr class="memdesc:ac5c54df7ed3b930268c8d7752c101725"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculate the moments from the quadrature nodes.  <a href="#ac5c54df7ed3b930268c8d7752c101725">More...</a><br /></td></tr>
+<tr class="separator:ac5c54df7ed3b930268c8d7752c101725"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca46b3594884357388d4178490fb14e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00096.html#aca46b3594884357388d4178490fb14e9">updateLocalMoments</a> (label elemi)</td></tr>
+<tr class="memdesc:aca46b3594884357388d4178490fb14e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculate the moments from the quadrature nodes in an element.  <a href="#aca46b3594884357388d4178490fb14e9">More...</a><br /></td></tr>
+<tr class="separator:aca46b3594884357388d4178490fb14e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8675a91008242f25ed80030311d807e9"><td class="memItemLeft" align="right" valign="top">label&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00096.html#a8675a91008242f25ed80030311d807e9">map</a> (label a, label b, label c) const </td></tr>
+<tr class="memdesc:a8675a91008242f25ed80030311d807e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the map label of a moment.  <a href="#a8675a91008242f25ed80030311d807e9">More...</a><br /></td></tr>
+<tr class="separator:a8675a91008242f25ed80030311d807e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="abe69f56d2542c42d3087a7412902b44a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Info&lt;&lt; &quot;Reading thermophysical properties\n&quot; &lt;&lt; endl; autoPtr&lt;rhoThermo&gt; pThermo </td>
-          <td>(</td>
-          <td class="paramtype">rhoThermo::New(mesh)&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;class momentType, class nodeType&gt;<br />
+class Foam::momentFieldSet&lt; momentType, nodeType &gt;</h3>
 
-</div>
-</div>
-<a class="anchor" id="a5799e0a833b5865ada8f84d88a03a8c1"></a>
+<p>Stores a list of moments, with a Map&lt;label&gt; that takes a label key and returns the index into the list of moments. </p>
+<p><a class="anchor" id="Description"></a>Example</p>
+<p>Moment | Label Key | Index 0 0 0 0 0 1 0 0 100 1 0 1 0 10 2 0 0 1 1 3 2 0 0 200 4 2 1 0 210 5</p>
+<p>operator() is overloaded in order to hide the above mapping.</p>
+<dl class="section user"><dt>Source files</dt><dd><ul>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM/src/quadratureMethods/moments/momentFieldSet.H">momentFieldSet.H</a> </li>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM/src/quadratureMethods/moments/momentFieldSetI.H">momentFieldSetI.H</a> </li>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM/src/quadratureMethods/moments/momentFieldSet.C">momentFieldSet.C</a> </li>
+</ul>
+</dd></dl>
+
+<p>Definition at line <a class="el" href="a00382_source.html#l00072">72</a> of file <a class="el" href="a00382_source.html">momentFieldSet.H</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a349fa5253e53dd0dc9e0400cdb11f383"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00099.html#aad0c921770bd26de425cedad0c8ae8be">thermo</a> validate </td>
+          <td class="memname"><a class="el" href="a00096.html">momentFieldSet</a> </td>
           <td>(</td>
-          <td class="paramtype">args.&#160;</td>
-          <td class="paramname"><em>executable</em>(), </td>
+          <td class="paramtype">const word &amp;&#160;</td>
+          <td class="paramname"><em>distributionName</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">&quot;h&quot;&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramtype">const dictionary &amp;&#160;</td>
+          <td class="paramname"><em>dict</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">&quot;e&quot;&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramtype">const fvMesh &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const autoPtr&lt; PtrList&lt; nodeType &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>nodes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const word &amp;&#160;</td>
+          <td class="paramname"><em>support</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -197,23 +247,51 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Construct from dictionary and the quadrature nodes. </p>
+
+<p>Definition at line <a class="el" href="a00381_source.html#l00037">37</a> of file <a class="el" href="a00381_source.html">momentFieldSet.C</a>.</p>
+
 </div>
 </div>
-<a class="anchor" id="aa74838e1f8f89be91e7a5f1d70d08fb1"></a>
+<a class="anchor" id="acde0580c77dcc8835d0dac0798299f8d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volScalarField rho </td>
+          <td class="memname"><a class="el" href="a00096.html">momentFieldSet</a> </td>
           <td>(</td>
-          <td class="paramtype">IOobject(                                                                    &quot;rho&quot;,                                                                           runTime.timeName(),                                                                           mesh,                                                                           IOobject::NO_READ,                                                                           IOobject::NO_WRITE                                           )&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramtype">const word &amp;&#160;</td>
+          <td class="paramname"><em>distributionName</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">thermo.&#160;</td>
-          <td class="paramname"><em>rho</em>()&#160;</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nMoments</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const autoPtr&lt; PtrList&lt; nodeType &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>nodes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nDimensions</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Map&lt; label &gt; &amp;&#160;</td>
+          <td class="paramname"><em>momentMap</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const word &amp;&#160;</td>
+          <td class="paramname"><em>support</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -223,118 +301,521 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="a00229_source.html#l00018">if()</a>, and <a class="el" href="a00086_source.html#l00047">main()</a>.</p>
+<p>Construct from size, quadrature nodes, dimensions and moment map. </p>
+<p>The list of moments is initialised but moment fields are not automatically allocated. </p>
 
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00096_aa74838e1f8f89be91e7a5f1d70d08fb1_icgraph.png" border="0" usemap="#a00096_aa74838e1f8f89be91e7a5f1d70d08fb1_icgraph" alt=""/></div>
-<map name="a00096_aa74838e1f8f89be91e7a5f1d70d08fb1_icgraph" id="a00096_aa74838e1f8f89be91e7a5f1d70d08fb1_icgraph">
-<area shape="rect" id="node2" href="a00229.html#a5340a84918449f06669e13812b90f046" title="if" alt="" coords="101,5,139,32"/>
-<area shape="rect" id="node3" href="a00086.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="95,56,145,83"/>
-</map>
-</div>
-</p>
+<p>Definition at line <a class="el" href="a00381_source.html#l00074">74</a> of file <a class="el" href="a00381_source.html">momentFieldSet.C</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ac06391579e3bd64067c1f6a8e84e6f35"></a>
+<a class="anchor" id="a2f005e83e4a818bb3704da88fbe068b6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Info&lt;&lt; &quot;Reading field U\n&quot; &lt;&lt; endl; volVectorField <a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a> ( IOobject ( &quot;U&quot;, runTime.timeName(), mesh, IOobject::MUST_READ, IOobject::AUTO_WRITE ), mesh ); Info&lt;&lt; &quot;Creating turbulence model\n&quot; &lt;&lt; endl; autoPtr&lt;compressible::turbulenceModel&gt; turbulence </td>
+          <td class="memname">~<a class="el" href="a00096.html">momentFieldSet</a> </td>
           <td>(</td>
-          <td class="paramtype">compressible::turbulenceModel::New(                                                                           <a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>,                                                                           <a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a>,                                                                           phi,                                                                           <a class="el" href="a00099.html#aad0c921770bd26de425cedad0c8ae8be">thermo</a>                                           )&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="a00086_source.html#l00047">main()</a>.</p>
+<p>Destructor. </p>
+
+<p>Definition at line <a class="el" href="a00381_source.html#l00095">95</a> of file <a class="el" href="a00381_source.html">momentFieldSet.C</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a5b84520bcbeeefa531bcd011d279b994"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const momentType &amp; operator() </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Const access to the zeroth moment. </p>
+
+<p>Definition at line <a class="el" href="a00383_source.html#l00039">39</a> of file <a class="el" href="a00383_source.html">momentFieldSetI.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5b8f956a65d5b7c3292f28f8b45a4665"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">momentType &amp; operator() </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Non-const access to the zeroth moment. </p>
+
+<p>Definition at line <a class="el" href="a00383_source.html#l00032">32</a> of file <a class="el" href="a00383_source.html">momentFieldSetI.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a515db69ce884936810e537f8bb03fa44"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const momentType &amp; operator() </td>
+          <td>(</td>
+          <td class="paramtype">label&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Const access to the first order moment in dimension a. </p>
+
+<p>Definition at line <a class="el" href="a00383_source.html#l00052">52</a> of file <a class="el" href="a00383_source.html">momentFieldSetI.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afffa93ab2aafb32ad9e414f00b6f6273"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">momentType &amp; operator() </td>
+          <td>(</td>
+          <td class="paramtype">label&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Non-const access to the first order moment in dimension a. </p>
+
+<p>Definition at line <a class="el" href="a00383_source.html#l00045">45</a> of file <a class="el" href="a00383_source.html">momentFieldSetI.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a367ff26b2bc074d64f159bb54691f4fe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const momentType &amp; operator() </td>
+          <td>(</td>
+          <td class="paramtype">label&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">label&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Const access to the second order moment in dimension a+b. </p>
+
+<p>Definition at line <a class="el" href="a00383_source.html#l00069">69</a> of file <a class="el" href="a00383_source.html">momentFieldSetI.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad6c20c419c596228f72623615e9b0e27"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">momentType &amp; operator() </td>
+          <td>(</td>
+          <td class="paramtype">label&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">label&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Non-const access to the second order moment in dimension a+b. </p>
+
+<p>Definition at line <a class="el" href="a00383_source.html#l00059">59</a> of file <a class="el" href="a00383_source.html">momentFieldSetI.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7daae9cebc6beb9c9379ee84bf46810b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const momentType &amp; operator() </td>
+          <td>(</td>
+          <td class="paramtype">label&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">label&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">label&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Const access to the third order moment in dimension a+b+c. </p>
+
+<p>Definition at line <a class="el" href="a00383_source.html#l00090">90</a> of file <a class="el" href="a00383_source.html">momentFieldSetI.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab428c717d588ca3af99b57b8e04ab85d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">momentType &amp; operator() </td>
+          <td>(</td>
+          <td class="paramtype">label&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">label&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">label&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Non-const access to the third order moment in dimension a+b+c. </p>
+
+<p>Definition at line <a class="el" href="a00383_source.html#l00079">79</a> of file <a class="el" href="a00383_source.html">momentFieldSetI.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a35c85d2483436bc2f872bfb5ab3203a6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const Foam::Map&lt; Foam::label &gt; &amp; momentMap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns const access to the moment map. </p>
+
+<p>Definition at line <a class="el" href="a00383_source.html#l00101">101</a> of file <a class="el" href="a00383_source.html">momentFieldSetI.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae4410b8afdbd8d2d0aef13f1944201a3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Foam::label nDimensions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the dimensionality of the distribution. </p>
+
+<p>Definition at line <a class="el" href="a00383_source.html#l00108">108</a> of file <a class="el" href="a00383_source.html">momentFieldSetI.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac69c81c5f4ebd5edd8ddc30b03c1d184"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const Foam::word support </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return support of the measure associated to the moment set. </p>
+
+<p>Definition at line <a class="el" href="a00383_source.html#l00114">114</a> of file <a class="el" href="a00383_source.html">momentFieldSetI.H</a>.</p>
+
+<p>Referenced by <a class="el" href="a00279_source.html#l00092">extendedFieldMomentInversion::invertBoundaryMoments()</a>, <a class="el" href="a00200_source.html#l00099">basicFieldMomentInversion::invertBoundaryMoments()</a>, <a class="el" href="a00279_source.html#l00156">extendedFieldMomentInversion::invertLocalMoments()</a>, and <a class="el" href="a00200_source.html#l00169">basicFieldMomentInversion::invertLocalMoments()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00096_ac06391579e3bd64067c1f6a8e84e6f35_icgraph.png" border="0" usemap="#a00096_ac06391579e3bd64067c1f6a8e84e6f35_icgraph" alt=""/></div>
-<map name="a00096_ac06391579e3bd64067c1f6a8e84e6f35_icgraph" id="a00096_ac06391579e3bd64067c1f6a8e84e6f35_icgraph">
-<area shape="rect" id="node2" href="a00086.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="136,5,187,32"/>
+<div class="center"><img src="a00096_ac69c81c5f4ebd5edd8ddc30b03c1d184_icgraph.png" border="0" usemap="#a00096_ac69c81c5f4ebd5edd8ddc30b03c1d184_icgraph" alt=""/></div>
+<map name="a00096_ac69c81c5f4ebd5edd8ddc30b03c1d184_icgraph" id="a00096_ac69c81c5f4ebd5edd8ddc30b03c1d184_icgraph">
+<area shape="rect" id="node2" href="a00039.html#a0db254ceb34e9343bebd658750f9312d" title="Invert moments on boundaries. " alt="" coords="396,24,625,65"/>
+<area shape="rect" id="node3" href="a00007.html#a0db254ceb34e9343bebd658750f9312d" title="Invert moments on boundaries. " alt="" coords="396,115,625,156"/>
+<area shape="rect" id="node4" href="a00039.html#ae61ce7f3d511855a1d0eaf25c94d648f" title="Invert moments in a single cell. " alt="" coords="131,40,335,81"/>
+<area shape="rect" id="node5" href="a00007.html#ae61ce7f3d511855a1d0eaf25c94d648f" title="Invert moments in a single cell. " alt="" coords="119,157,348,199"/>
 </map>
 </div>
 </p>
 
 </div>
 </div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="aad0c921770bd26de425cedad0c8ae8be"></a>
+<a class="anchor" id="ac5c54df7ed3b930268c8d7752c101725"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">rhoThermo&amp; thermo = <a class="el" href="a00099.html#abe69f56d2542c42d3087a7412902b44a">pThermo</a>()</td>
+          <td class="memname">void update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00096_source.html#l00004">4</a> of file <a class="el" href="a00096_source.html">buoyantPbePimpleFoam/createFields.H</a>.</p>
+<p>Recalculate the moments from the quadrature nodes. </p>
 
-<p>Referenced by <a class="el" href="a00086_source.html#l00047">main()</a>.</p>
+<p>Definition at line <a class="el" href="a00381_source.html#l00102">102</a> of file <a class="el" href="a00381_source.html">momentFieldSet.C</a>.</p>
+
+<p>References <a class="el" href="a00381_source.html#l00112">momentFieldSet&lt; momentType, nodeType &gt;::updateLocalMoments()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00096_ac5c54df7ed3b930268c8d7752c101725_cgraph.png" border="0" usemap="#a00096_ac5c54df7ed3b930268c8d7752c101725_cgraph" alt=""/></div>
+<map name="a00096_ac5c54df7ed3b930268c8d7752c101725_cgraph" id="a00096_ac5c54df7ed3b930268c8d7752c101725_cgraph">
+<area shape="rect" id="node2" href="a00096.html#aca46b3594884357388d4178490fb14e9" title="Recalculate the moments from the quadrature nodes in an element. " alt="" coords="116,5,267,32"/>
+</map>
+</div>
+</p>
 
 </div>
 </div>
-<a class="anchor" id="a334650304cdcdff41898bee9eaf2e3db"></a>
+<a class="anchor" id="aca46b3594884357388d4178490fb14e9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volScalarField&amp; p = thermo.p()</td>
+          <td class="memname">void updateLocalMoments </td>
+          <td>(</td>
+          <td class="paramtype">label&#160;</td>
+          <td class="paramname"><em>elemi</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00096_source.html#l00020">20</a> of file <a class="el" href="a00096_source.html">buoyantPbePimpleFoam/createFields.H</a>.</p>
+<p>Recalculate the moments from the quadrature nodes in an element. </p>
 
-<p>Referenced by <a class="el" href="a00129_source.html#l00064">gaussLobattoMomentInversion::correctRecurrence()</a>, <a class="el" href="a00133_source.html#l00064">gaussRadauMomentInversion::correctRecurrence()</a>, and <a class="el" href="a00110_source.html#l00057">eigenSolver::eigenSolver()</a>.</p>
+<p>Definition at line <a class="el" href="a00381_source.html#l00112">112</a> of file <a class="el" href="a00381_source.html">momentFieldSet.C</a>.</p>
+
+<p>Referenced by <a class="el" href="a00381_source.html#l00102">momentFieldSet&lt; momentType, nodeType &gt;::update()</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00096_aca46b3594884357388d4178490fb14e9_icgraph.png" border="0" usemap="#a00096_aca46b3594884357388d4178490fb14e9_icgraph" alt=""/></div>
+<map name="a00096_aca46b3594884357388d4178490fb14e9_icgraph" id="a00096_aca46b3594884357388d4178490fb14e9_icgraph">
+<area shape="rect" id="node2" href="a00096.html#ac5c54df7ed3b930268c8d7752c101725" title="Recalculate the moments from the quadrature nodes. " alt="" coords="204,5,267,32"/>
+</map>
+</div>
+</p>
 
 </div>
 </div>
-<a class="anchor" id="aba679271c41582099c8ccf4827fdf217"></a>
+<a class="anchor" id="a8675a91008242f25ed80030311d807e9"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const volScalarField&amp; psi = thermo.psi()</td>
+          <td class="memname">label map </td>
+          <td>(</td>
+          <td class="paramtype">label&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
         </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00096_source.html#l00021">21</a> of file <a class="el" href="a00096_source.html">buoyantPbePimpleFoam/createFields.H</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af238d5f26618a0393bfdeaa9ca937c61"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
         <tr>
-          <td class="memname">Info&lt;&lt; &quot;Reading field p_rgh\n&quot; &lt;&lt; endl; volScalarField p_rgh ( IOobject ( &quot;p_rgh&quot;, runTime.timeName(), mesh, IOobject::MUST_READ, IOobject::AUTO_WRITE ), mesh ); p_rgh = <a class="el" href="a00099.html#a334650304cdcdff41898bee9eaf2e3db">p</a> - <a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>*gh; mesh.setFluxRequired(p_rgh.name()); Info&lt;&lt; &quot;Creating field dpdt\n&quot; &lt;&lt; endl; volScalarField dpdt ( IOobject ( &quot;dpdt&quot;, runTime.timeName(), mesh ), mesh, dimensionedScalar(&quot;dpdt&quot;, p.dimensions()/dimTime, 0) ); Info&lt;&lt; &quot;Creating field kinetic energy K\n&quot; &lt;&lt; endl; volScalarField K(&quot;K&quot;, 0.5*magSqr(<a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a>)); Info&lt;&lt; &quot;Reading populationBalanceProperties\n&quot; &lt;&lt; endl; IOdictionary populationBalanceProperties ( IOobject ( &quot;populationBalanceProperties&quot;, runTime.constant(), mesh, IOobject::MUST_READ_IF_MODIFIED, IOobject::NO_WRITE ) ); autoPtr&lt;populationBalanceModel&gt; populationBalance(populationBalanceModel::New(                    &quot;populationBalance&quot;, populationBalanceProperties, phi             ))</td>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">label&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">label&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00096_source.html#l00107">107</a> of file <a class="el" href="a00096_source.html">buoyantPbePimpleFoam/createFields.H</a>.</p>
+<p>Return the map label of a moment. </p>
 
-<p>Referenced by <a class="el" href="a00086_source.html#l00047">main()</a>.</p>
+<p>Definition at line <a class="el" href="a00382_source.html#l00195">195</a> of file <a class="el" href="a00382_source.html">momentFieldSet.H</a>.</p>
 
 </div>
 </div>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li><a class="el" href="a00382_source.html">momentFieldSet.H</a></li>
+<li><a class="el" href="a00381_source.html">momentFieldSet.C</a></li>
+<li><a class="el" href="a00383_source.html">momentFieldSetI.H</a></li>
+</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html">applications</a></li><li class="navelem"><a class="el" href="dir_2ef2fabd40c7da3d17a848db9671c536.html">buoyantPbePimpleFoam</a></li><li class="navelem"><a class="el" href="a00096.html">createFields.H</a></li>
+    <li class="navelem"><a class="el" href="a00605.html">Foam</a></li><li class="navelem"><a class="el" href="a00096.html">momentFieldSet</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

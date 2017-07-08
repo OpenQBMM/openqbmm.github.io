@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>UEqn.H File Reference</title>
+<title>constantAspectRatio.H File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -104,150 +104,45 @@ $(document).ready(function(){initNavTree('a00229.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
-<div class="title">UEqn.H File Reference</div>  </div>
+<div class="title">constantAspectRatio.H File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div class="dynheader">
-This graph shows which files directly or indirectly include this file:</div>
+Include dependency graph for constantAspectRatio.H:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00481.png" border="0" usemap="#UEqn_8Hdep" alt=""/></div>
-<map name="UEqn_8Hdep" id="UEqn_8Hdep">
-<area shape="rect" id="node2" href="a00086.html" title="Transient solver for buoyant, turbulent flow of compressible fluids with solution of population balan..." alt="" coords="5,80,188,107"/>
+<div class="center"><img src="a00678.png" border="0" usemap="#constantAspectRatio_8H" alt=""/></div>
+<map name="constantAspectRatio_8H" id="constantAspectRatio_8H">
+<area shape="rect" id="node2" href="a00197.html" title="aspectRatioModel.H" alt="" coords="12,80,155,107"/>
 </map>
 </div>
 </div>
 <p><a href="a00229_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a3d8a3fae539731d0068343d8b35d062c"><td class="memItemLeft" align="right" valign="top">MRF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00229.html#a3d8a3fae539731d0068343d8b35d062c">correctBoundaryVelocity</a> (<a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a>)</td></tr>
-<tr class="separator:a3d8a3fae539731d0068343d8b35d062c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca6be8f7ed14e8582a0811cfe8a2d205"><td class="memItemLeft" align="right" valign="top">fvVectorMatrix&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00229.html#aca6be8f7ed14e8582a0811cfe8a2d205">UEqn</a> (fvm::ddt(<a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>, <a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a>)+fvm::div(phi, <a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a>)+MRF.DDt(<a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>, <a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a>)+<a class="el" href="a00099.html#ac06391579e3bd64067c1f6a8e84e6f35">turbulence</a>-&gt;divDevRhoReff(<a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a>)==fvOptions(<a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>, <a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a>))</td></tr>
-<tr class="separator:aca6be8f7ed14e8582a0811cfe8a2d205"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a717d2a556132c73a6bb389a9de48bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00229.html#aca6be8f7ed14e8582a0811cfe8a2d205">UEqn</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00229.html#a9a717d2a556132c73a6bb389a9de48bf">relax</a> ()</td></tr>
-<tr class="separator:a9a717d2a556132c73a6bb389a9de48bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9a6816dbc9c62129d40af3784545b31"><td class="memItemLeft" align="right" valign="top">fvOptions&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00229.html#ad9a6816dbc9c62129d40af3784545b31">constrain</a> (<a class="el" href="a00229.html#aca6be8f7ed14e8582a0811cfe8a2d205">UEqn</a>)</td></tr>
-<tr class="separator:ad9a6816dbc9c62129d40af3784545b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5340a84918449f06669e13812b90f046"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00229.html#a5340a84918449f06669e13812b90f046">if</a> (pimple.momentumPredictor())</td></tr>
-<tr class="separator:a5340a84918449f06669e13812b90f046"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html">constantAspectRatio</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:a00605"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00605.html">Foam</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00606"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00606.html">Foam::aspectRatioModels</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a3d8a3fae539731d0068343d8b35d062c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRF correctBoundaryVelocity </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a>&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><b>Original source file</b> <a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/interfacialModels/aspectRatioModels/constantAspectRatio/constantAspectRatio.H">constantAspectRatio.H</a> </p>
 
-</div>
-</div>
-<a class="anchor" id="aca6be8f7ed14e8582a0811cfe8a2d205"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">fvVectorMatrix UEqn </td>
-          <td>(</td>
-          <td class="paramtype">fvm::ddt(<a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>, <a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a>)+fvm::div(phi, <a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a>)+MRF.DDt(<a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>, <a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a>)+<a class="el" href="a00099.html#ac06391579e3bd64067c1f6a8e84e6f35">turbulence</a>-&gt;divDevRhoReff(<a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a>)&#160;</td>
-          <td class="paramname"> = <code>=fvOptions(<a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>,&#160;<a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a>)</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Referenced by <a class="el" href="a00229_source.html#l00018">if()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00229_aca6be8f7ed14e8582a0811cfe8a2d205_icgraph.png" border="0" usemap="#a00229_aca6be8f7ed14e8582a0811cfe8a2d205_icgraph" alt=""/></div>
-<map name="a00229_aca6be8f7ed14e8582a0811cfe8a2d205_icgraph" id="a00229_aca6be8f7ed14e8582a0811cfe8a2d205_icgraph">
-<area shape="rect" id="node2" href="a00229.html#a5340a84918449f06669e13812b90f046" title="if" alt="" coords="108,5,147,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a9a717d2a556132c73a6bb389a9de48bf"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="a00229.html#aca6be8f7ed14e8582a0811cfe8a2d205">UEqn</a> relax </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ad9a6816dbc9c62129d40af3784545b31"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">fvOptions constrain </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="a00229.html#aca6be8f7ed14e8582a0811cfe8a2d205">UEqn</a>&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a5340a84918449f06669e13812b90f046"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">if </td>
-          <td>(</td>
-          <td class="paramtype">pimple.&#160;</td>
-          <td class="paramname"><em>momentumPredictor</em>()</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00229_source.html#l00018">18</a> of file <a class="el" href="a00229_source.html">UEqn.H</a>.</p>
-
-<p>References <a class="el" href="a00096.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho()</a>, <a class="el" href="a00109.html#ac123867940006fb14e8346d9bdc38f8d">solve()</a>, <a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U()</a>, and <a class="el" href="a00229.html#aca6be8f7ed14e8582a0811cfe8a2d205">UEqn()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00229_a5340a84918449f06669e13812b90f046_cgraph.png" border="0" usemap="#a00229_a5340a84918449f06669e13812b90f046_cgraph" alt=""/></div>
-<map name="a00229_a5340a84918449f06669e13812b90f046_cgraph" id="a00229_a5340a84918449f06669e13812b90f046_cgraph">
-<area shape="rect" id="node2" href="a00096.html#aa74838e1f8f89be91e7a5f1d70d08fb1" title="rho" alt="" coords="99,5,140,32"/>
-<area shape="rect" id="node3" href="a00109.html#ac123867940006fb14e8346d9bdc38f8d" title="solve" alt="" coords="92,56,147,83"/>
-<area shape="rect" id="node4" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d" title="U" alt="" coords="100,107,139,133"/>
-<area shape="rect" id="node5" href="a00229.html#aca6be8f7ed14e8582a0811cfe8a2d205" title="UEqn" alt="" coords="92,157,147,184"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-</div><!-- contents -->
+<p>Definition in file <a class="el" href="a00229_source.html">constantAspectRatio.H</a>.</p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html">applications</a></li><li class="navelem"><a class="el" href="dir_2ef2fabd40c7da3d17a848db9671c536.html">buoyantPbePimpleFoam</a></li><li class="navelem"><a class="el" href="a00229.html">UEqn.H</a></li>
+    <li class="navelem"><a class="el" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html">applications</a></li><li class="navelem"><a class="el" href="dir_fdd174abb8ada244b49e98779c87ac3c.html">solvers</a></li><li class="navelem"><a class="el" href="dir_40ef2584a0ec6d8ca6a91d700a2af4ea.html">polydisperseBubbleFoam</a></li><li class="navelem"><a class="el" href="dir_a67881d67603c1140e6c8a3150cfe24f.html">interfacialModels</a></li><li class="navelem"><a class="el" href="dir_59d90556c1e3b97d9ebc5928eb1b9511.html">aspectRatioModels</a></li><li class="navelem"><a class="el" href="dir_50cd43cd9c7867b98d929baddbb33d15.html">constantAspectRatio</a></li><li class="navelem"><a class="el" href="a00229.html">constantAspectRatio.H</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

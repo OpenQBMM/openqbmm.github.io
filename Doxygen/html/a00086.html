@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>buoyantPbePimpleFoam.C File Reference</title>
+<title>Lun Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -47,8 +47,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
-      <li class="current"><a href="files.html"><span>Files</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -69,8 +69,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="files.html"><span>File&#160;List</span></a></li>
-      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -103,89 +105,27 @@ $(document).ready(function(){initNavTree('a00086.html','');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">buoyantPbePimpleFoam.C File Reference</div>  </div>
+<div class="title">Lun Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Transient solver for buoyant, turbulent flow of compressible fluids with solution of population balance.  
-<a href="#details">More...</a></p>
-<div class="textblock"><div class="dynheader">
-Include dependency graph for buoyantPbePimpleFoam.C:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00283.png" border="0" usemap="#buoyantPbePimpleFoam_8C" alt=""/></div>
-<map name="buoyantPbePimpleFoam_8C" id="buoyantPbePimpleFoam_8C">
-<area shape="rect" id="node9" href="a00205.html" title="populationBalanceModel.H" alt="" coords="1055,87,1238,114"/>
-<area shape="rect" id="node13" href="a00096.html" title="createFields.H" alt="" coords="1659,87,1768,114"/>
-<area shape="rect" id="node23" href="a00229.html" title="UEqn.H" alt="" coords="3119,87,3185,114"/>
-<area shape="rect" id="node24" href="a00109.html" title="EEqn.H" alt="" coords="3210,87,3275,114"/>
-<area shape="rect" id="node25" href="a00203.html" title="pEqn.H" alt="" coords="3300,87,3364,114"/>
-</map>
-</div>
-</div>
-<p><a href="a00086_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00086.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
-<tr class="separator:a0ddf1224851353fc92bfbff6f499fa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Transient solver for buoyant, turbulent flow of compressible fluids with solution of population balance. </p>
-<p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/applications/buoyantPbePimpleFoam/buoyantPbePimpleFoam.C">buoyantPbePimpleFoam.C</a></p>
-<p><a class="anchor" id="Description"></a>Turbulence is modelled using a run-time selectable compressible RAS or LES model. </p>
-
-<p>Definition in file <a class="el" href="a00086_source.html">buoyantPbePimpleFoam.C</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a0ddf1224851353fc92bfbff6f499fa97"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int main </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>argc</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>argv</em>[]&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00086_source.html#l00047">47</a> of file <a class="el" href="a00086_source.html">buoyantPbePimpleFoam.C</a>.</p>
-
-<p>References <a class="el" href="a00096_source.html#l00107">populationBalance</a>, <a class="el" href="a00096.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho()</a>, <a class="el" href="a00096_source.html#l00004">thermo</a>, and <a class="el" href="a00096.html#ac06391579e3bd64067c1f6a8e84e6f35">turbulence()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00086_a0ddf1224851353fc92bfbff6f499fa97_cgraph.png" border="0" usemap="#a00086_a0ddf1224851353fc92bfbff6f499fa97_cgraph" alt=""/></div>
-<map name="a00086_a0ddf1224851353fc92bfbff6f499fa97_cgraph" id="a00086_a0ddf1224851353fc92bfbff6f499fa97_cgraph">
-<area shape="rect" id="node2" href="a00096.html#aa74838e1f8f89be91e7a5f1d70d08fb1" title="rho" alt="" coords="125,5,166,32"/>
-<area shape="rect" id="node3" href="a00096.html#ac06391579e3bd64067c1f6a8e84e6f35" title="turbulence" alt="" coords="104,56,187,83"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
+<div class="textblock"><p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/phaseCompressibleTurbulenceModels/kineticTheoryModels/granularPressureModel/Lun/LunPressure.H">LunPressure.H</a> </li>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/phaseCompressibleTurbulenceModels/kineticTheoryModels/granularPressureModel/Lun/LunPressure.C">LunPressure.C</a> </li>
+</ul>
+</dd></dl>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="a00362_source.html">LunPressure.H</a></li>
+</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html">applications</a></li><li class="navelem"><a class="el" href="dir_2ef2fabd40c7da3d17a848db9671c536.html">buoyantPbePimpleFoam</a></li><li class="navelem"><a class="el" href="a00086.html">buoyantPbePimpleFoam.C</a></li>
+    <li class="navelem"><a class="el" href="a00605.html">Foam</a></li><li class="navelem"><a class="el" href="a00086.html">Lun</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

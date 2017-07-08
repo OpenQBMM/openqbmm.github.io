@@ -1,10 +1,7 @@
 var a00014 =
 [
-    [ "diffusionModel", "a00014.html#a9ddf42daebca521ed9b1836083a7c90a", null ],
-    [ "~diffusionModel", "a00014.html#af2348e708346160fd55cb63f0a48dfa7", null ],
-    [ "TypeName", "a00014.html#aac5e53b16b5d306f767a3ac9c82018fe", null ],
-    [ "declareRunTimeSelectionTable", "a00014.html#aa29c65576a34ab15da2f135cfb51cd12", null ],
-    [ "New", "a00014.html#a9f9abf14e0f01fcbeb8b64ab565b8df5", null ],
-    [ "momentDiff", "a00014.html#a5b7c21e0d26e0f2c3f207a1a6929fd6d", null ],
-    [ "dict_", "a00014.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a", null ]
+    [ "Brownian", "a00014.html#abd4a2157ea96052400820ceafb702b91", null ],
+    [ "~Brownian", "a00014.html#a1494ac836158c04e01bf0d61faab3e0e", null ],
+    [ "TypeName", "a00014.html#ab79c0cace563122099e6ab3516ef4f1f", null ],
+    [ "Ka", "a00014.html#aff545f8602677e85abbb1b6c6d0fb20f", null ]
 ];

@@ -1,9 +1,7 @@
 var a00109 =
 [
-    [ "EEqn", "a00109.html#ab891d614aa8b3eff1a21297f22e90bfc", null ],
-    [ "relax", "a00109.html#a9b1e3cf7921c1d57830a6970779f3d24", null ],
-    [ "constrain", "a00109.html#a99e52b6aa83a3087ae81ccb1030aceef", null ],
-    [ "solve", "a00109.html#ac123867940006fb14e8346d9bdc38f8d", null ],
-    [ "correct", "a00109.html#a45936480b8c1b0bb71ede46b78d0269d", null ],
-    [ "correct", "a00109.html#a8f2ec7df0ad2ec79360a5d964f55de87", null ]
+    [ "noDiffusion", "a00109.html#a790c8815b53962b66948569e5a37601e", null ],
+    [ "~noDiffusion", "a00109.html#ab00319b0bec238d68ee3f4ae6b34b7b6", null ],
+    [ "TypeName", "a00109.html#a660172304dfa1b418cc1bded338b9fd9", null ],
+    [ "momentDiff", "a00109.html#a2607d470834fac9d39bfc0d92f89d41a", null ]
 ];

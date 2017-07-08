@@ -1,12 +1,10 @@
 var a00005 =
 [
-    [ "betaEQMOM", "a00005.html#adf5c9d013afeed0207b5030f2de12c28", null ],
-    [ "~betaEQMOM", "a00005.html#a493e12f42c3d28984ef116da6b21ad73", null ],
-    [ "TypeName", "a00005.html#a352af176e65dc7b012299c16c31a38b3", null ],
-    [ "secondaryAbscissa", "a00005.html#a872602e3d9bce4c696be2c2684a05e5a", null ],
-    [ "momentsStarToMoments", "a00005.html#a1eb2822d55fbaa8060321a24fc197329", null ],
-    [ "momentsToMomentsStar", "a00005.html#a88e521ae957743da06eec8e0ab777e2e", null ],
-    [ "m2N", "a00005.html#abee7f03ce3d0afa1dbc462ff6da2fff9", null ],
-    [ "recurrenceRelation", "a00005.html#a5831aae7a1d440271b5184f59f912503", null ],
-    [ "sigmaMax", "a00005.html#a479ec71576844909c5c0756350c24e2f", null ]
+    [ "aspectRatioModel", "a00005.html#abbfb973190ee67e9e285cc3c58b28de3", null ],
+    [ "~aspectRatioModel", "a00005.html#a751ad20c22e2a967561f84836821642f", null ],
+    [ "TypeName", "a00005.html#ad760a9f6c9d80c4dc8fbe3a00f2a2812", null ],
+    [ "declareRunTimeSelectionTable", "a00005.html#a96ec7da603e19c3fc6efb8fc60bc91e5", null ],
+    [ "New", "a00005.html#a6b9f57269b1c53c59b04cd962ae9656f", null ],
+    [ "E", "a00005.html#a6bf4f313b66c62c0e36073b5141687dc", null ],
+    [ "pair_", "a00005.html#afd0567a30e2ea4703b446fd80ca5ec0b", null ]
 ];

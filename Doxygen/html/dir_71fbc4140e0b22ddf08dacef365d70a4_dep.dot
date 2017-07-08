@@ -8,5 +8,5 @@ digraph "Brownian" {
   dir_71fbc4140e0b22ddf08dacef365d70a4 [shape=box, label="Brownian", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_71fbc4140e0b22ddf08dacef365d70a4.html"];
   }
   dir_a48c39aac25b9d92c13c5141c3503af1 [shape=box label="aggregationKernel" URL="dir_a48c39aac25b9d92c13c5141c3503af1.html"];
-  dir_71fbc4140e0b22ddf08dacef365d70a4->dir_a48c39aac25b9d92c13c5141c3503af1 [headlabel="1", labeldistance=1.5 headhref="dir_000015_000005.html"];
+  dir_71fbc4140e0b22ddf08dacef365d70a4->dir_a48c39aac25b9d92c13c5141c3503af1 [headlabel="1", labeldistance=1.5 headhref="dir_000033_000005.html"];
 }

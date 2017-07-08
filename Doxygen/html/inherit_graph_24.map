@@ -1,6 +1,9 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$a00067.html" title="Abstract class for univariate quadrature on a moment set. " alt="" coords="5,56,188,83"/>
-<area shape="rect" id="node2" href="$a00025.html" title="Performs Gauss&#45;Lobatto quadrature on a moment set with an even number of moments. ..." alt="" coords="236,5,441,32"/>
-<area shape="rect" id="node3" href="$a00026.html" title="Performs Gaussian quadrature on a moment set with an even numer of moments. " alt="" coords="258,56,419,83"/>
-<area shape="rect" id="node4" href="$a00027.html" title="Performs Gauss&#45;Lobatto quadrature on a moment set with an even number of moments. ..." alt="" coords="238,107,439,133"/>
+<area shape="rect" id="node1" href="$a00079.html" title="liftModel" alt="" coords="5,132,77,159"/>
+<area shape="rect" id="node2" href="$a00025.html" title="Constant coefficient lift model. " alt="" coords="125,5,276,32"/>
+<area shape="rect" id="node3" href="$a00078.html" title="Lift model of Legendre and Magnaudet. " alt="" coords="127,56,275,83"/>
+<area shape="rect" id="node4" href="$a00102.html" title="Lift model of Moraga et al. " alt="" coords="166,107,235,133"/>
+<area shape="rect" id="node5" href="$a00110.html" title="noLift" alt="" coords="174,157,227,184"/>
+<area shape="rect" id="node6" href="$a00157.html" title="Lift model of Tomiyama et al. " alt="" coords="149,208,253,235"/>
+<area shape="rect" id="node7" href="$a00181.html" title="wallDamped" alt="" coords="151,259,250,285"/>
 </map>

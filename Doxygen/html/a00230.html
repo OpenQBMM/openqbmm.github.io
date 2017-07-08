@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>uniform.C File Reference</title>
+<title>constantBreakup.C File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,15 +107,15 @@ $(document).ready(function(){initNavTree('a00230.html','');});
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">uniform.C File Reference</div>  </div>
+<div class="title">constantBreakup.C File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div class="dynheader">
-Include dependency graph for uniform.C:</div>
+Include dependency graph for constantBreakup.C:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00482.png" border="0" usemap="#uniform_8C" alt=""/></div>
-<map name="uniform_8C" id="uniform_8C">
-<area shape="rect" id="node2" href="a00231.html" title="uniform.H" alt="" coords="5,80,83,107"/>
+<div class="center"><img src="a00679.png" border="0" usemap="#constantBreakup_8C" alt=""/></div>
+<map name="constantBreakup_8C" id="constantBreakup_8C">
+<area shape="rect" id="node2" href="a00231.html" title="constantBreakup.H" alt="" coords="5,80,140,107"/>
 </map>
 </div>
 </div>
@@ -123,30 +123,30 @@ Include dependency graph for uniform.C:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:a00249"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00249.html">Foam</a></td></tr>
+<tr class="memitem:a00605"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00605.html">Foam</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00258"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00258.html">Foam::populationBalanceSubModels</a></td></tr>
+<tr class="memitem:a00626"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00626.html">Foam::populationBalanceSubModels</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00261"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00261.html">Foam::populationBalanceSubModels::daughterDistributions</a></td></tr>
+<tr class="memitem:a00628"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00628.html">Foam::populationBalanceSubModels::breakupKernels</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6cfc6fde57688830e91aa5900a2a3b0b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00261.html#a6cfc6fde57688830e91aa5900a2a3b0b">defineTypeNameAndDebug</a> (uniform, 0)</td></tr>
-<tr class="separator:a6cfc6fde57688830e91aa5900a2a3b0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4645290635a7726786f906917fa5138"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00261.html#ad4645290635a7726786f906917fa5138">addToRunTimeSelectionTable</a> (daughterDistribution, uniform, dictionary)</td></tr>
-<tr class="separator:ad4645290635a7726786f906917fa5138"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4338754b0aa20aed5a47b1d88f7fa364"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00628.html#a4338754b0aa20aed5a47b1d88f7fa364">defineTypeNameAndDebug</a> (constantBreakup, 0)</td></tr>
+<tr class="separator:a4338754b0aa20aed5a47b1d88f7fa364"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7337b8a9505305ea7461d4aa5aee0c6f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00628.html#a7337b8a9505305ea7461d4aa5aee0c6f">addToRunTimeSelectionTable</a> (breakupKernel, constantBreakup, dictionary)</td></tr>
+<tr class="separator:a7337b8a9505305ea7461d4aa5aee0c6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/daugtherDistributions/uniform/uniform.C">uniform.C</a> </p>
+<div class="textblock"><p><b>Original source file</b> <a href="/home/alberto/Desktop/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/breakupKernels/constantBreakup/constantBreakup.C">constantBreakup.C</a> </p>
 
-<p>Definition in file <a class="el" href="a00230_source.html">uniform.C</a>.</p>
+<p>Definition in file <a class="el" href="a00230_source.html">constantBreakup.C</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0ecbe6cb5f50223527ce4e1b499bd333.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="dir_58c61e057ed2119d9755c9fdbb448648.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="dir_a959301c3cf54322ad2aac04893d37dc.html">daugtherDistributions</a></li><li class="navelem"><a class="el" href="dir_d458f2ad8e865215de6e423075fd659a.html">uniform</a></li><li class="navelem"><a class="el" href="a00230.html">uniform.C</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0ecbe6cb5f50223527ce4e1b499bd333.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="dir_58c61e057ed2119d9755c9fdbb448648.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="dir_8db1431bcb360c6bb23f8119e5d3e19f.html">breakupKernels</a></li><li class="navelem"><a class="el" href="dir_ec962048887fbe66c5ce5954e7dd257a.html">constantBreakup</a></li><li class="navelem"><a class="el" href="a00230.html">constantBreakup.C</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

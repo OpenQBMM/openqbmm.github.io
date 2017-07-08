@@ -1,10 +1,7 @@
 var a00055 =
 [
-    [ "populationBalanceModel", "a00055.html#a31d0f5b4494ff076cb81eed74ba4bce2", null ],
-    [ "~populationBalanceModel", "a00055.html#ae05106936db1115c15304ded19972e3d", null ],
-    [ "TypeName", "a00055.html#a9723503cf97d2ad82b67092a7aa3e1f3", null ],
-    [ "declareRunTimeSelectionTable", "a00055.html#a7f8cc56b3b077604a6644432cf501cda", null ],
-    [ "New", "a00055.html#a9209244e0920b05f98597bf3d105149d", null ],
-    [ "solve", "a00055.html#aacd6f92a174ec1ebe14983fc21ec498c", null ],
-    [ "phi_", "a00055.html#a5828da03a859a3aaa358802cd2daf505", null ]
+    [ "GidaspowSchillerNaumann", "a00055.html#abe030f4c056ca260d3fcb73543ca85de", null ],
+    [ "~GidaspowSchillerNaumann", "a00055.html#ab5d9d775fdc888b815b3300f91ff9cdc", null ],
+    [ "TypeName", "a00055.html#ae3e11a25058a3ce2460b9a0a33191e6f", null ],
+    [ "CdRe", "a00055.html#a710c9ce4df6a34eec87c435ea332a761", null ]
 ];

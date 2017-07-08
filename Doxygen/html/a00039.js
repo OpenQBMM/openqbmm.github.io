@@ -1,7 +1,9 @@
 var a00039 =
 [
-    [ "molecularDiffusion", "a00039.html#a41d71a49f9ceacb5bcf471d389c4a71e", null ],
-    [ "~molecularDiffusion", "a00039.html#a092563f81ebe7ddd529901dccc7c9728", null ],
-    [ "TypeName", "a00039.html#acccd9d711a961de8b7ddaa1f6582763a", null ],
-    [ "momentDiff", "a00039.html#a2607d470834fac9d39bfc0d92f89d41a", null ]
+    [ "extendedFieldMomentInversion", "a00039.html#a694ee9b046a29d6d51bce94e2d5f9193", null ],
+    [ "~extendedFieldMomentInversion", "a00039.html#abcb2345daaefe093eab65b6cf91ad9c8", null ],
+    [ "TypeName", "a00039.html#a92d1d2c620a5376ba8e67121739b9a96", null ],
+    [ "invert", "a00039.html#a81fbc0b024ab994e1e665273b7b7268b", null ],
+    [ "invertBoundaryMoments", "a00039.html#a0db254ceb34e9343bebd658750f9312d", null ],
+    [ "invertLocalMoments", "a00039.html#ae61ce7f3d511855a1d0eaf25c94d648f", null ]
 ];

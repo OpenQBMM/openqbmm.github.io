@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>momentSet Class Reference</title>
+<title>frictionalStressModel Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -107,157 +107,87 @@ $(document).ready(function(){initNavTree('a00045.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="a00547.html">List of all members</a>  </div>
+<a href="a01216.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">momentSet Class Reference</div>  </div>
+<div class="title">frictionalStressModel Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Stores a generic moment set with the corresponding list of orders.  
- <a href="a00045.html#details">More...</a></p>
 <div class="dynheader">
-Inheritance diagram for momentSet:</div>
+Inheritance diagram for frictionalStressModel:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00548.png" border="0" usemap="#momentSet_inherit__map" alt="Inheritance graph"/></div>
-<map name="momentSet_inherit__map" id="momentSet_inherit__map">
-<area shape="rect" id="node3" href="a00068.html" title="Stores a generic moment set with the corresponding list of orders. " alt="" coords="5,155,153,181"/>
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for momentSet:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00549.png" border="0" usemap="#momentSet_coll__map" alt="Collaboration graph"/></div>
-<map name="momentSet_coll__map" id="momentSet_coll__map">
+<div class="center"><img src="a01217.png" border="0" usemap="#frictionalStressModel_inherit__map" alt="Inheritance graph"/></div>
+<map name="frictionalStressModel_inherit__map" id="frictionalStressModel_inherit__map">
+<area shape="rect" id="node2" href="a00070.html" title="JohnsonJackson" alt="" coords="5,80,129,107"/>
+<area shape="rect" id="node3" href="a00073.html" title="JohnsonJacksonSchaeffer" alt="" coords="154,80,335,107"/>
+<area shape="rect" id="node4" href="a00139.html" title="Schaeffer" alt="" coords="360,80,439,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:afa5ff5026de594029768150956bb1cd4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00045.html#afa5ff5026de594029768150956bb1cd4">momentSet</a> (const label <a class="el" href="a00045.html#a111ae2fd86df6aa54d903019cd7032f6">nMoments</a>, const labelListList &amp;<a class="el" href="a00045.html#ac0e55cb78e4e838aa1b439585442d439">momentOrders</a>, const word &amp;<a class="el" href="a00045.html#ac69c81c5f4ebd5edd8ddc30b03c1d184">support</a>, const scalar initValue=0)</td></tr>
-<tr class="memdesc:afa5ff5026de594029768150956bb1cd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from number of moments and initial value.  <a href="#afa5ff5026de594029768150956bb1cd4">More...</a><br /></td></tr>
-<tr class="separator:afa5ff5026de594029768150956bb1cd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a220ccb97e171f09caa8dbb7a7e99bcca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00045.html#a220ccb97e171f09caa8dbb7a7e99bcca">momentSet</a> (const scalarList &amp;m, const labelListList &amp;<a class="el" href="a00045.html#ac0e55cb78e4e838aa1b439585442d439">momentOrders</a>, const word &amp;<a class="el" href="a00045.html#ac69c81c5f4ebd5edd8ddc30b03c1d184">support</a>)</td></tr>
-<tr class="memdesc:a220ccb97e171f09caa8dbb7a7e99bcca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from scalarList.  <a href="#a220ccb97e171f09caa8dbb7a7e99bcca">More...</a><br /></td></tr>
-<tr class="separator:a220ccb97e171f09caa8dbb7a7e99bcca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d461e8178aaecce7fc02ab43bee1230"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00045.html#a2d461e8178aaecce7fc02ab43bee1230">~momentSet</a> ()</td></tr>
-<tr class="memdesc:a2d461e8178aaecce7fc02ab43bee1230"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a2d461e8178aaecce7fc02ab43bee1230">More...</a><br /></td></tr>
-<tr class="separator:a2d461e8178aaecce7fc02ab43bee1230"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0e55cb78e4e838aa1b439585442d439"><td class="memItemLeft" align="right" valign="top">const labelListList &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00045.html#ac0e55cb78e4e838aa1b439585442d439">momentOrders</a> () const </td></tr>
-<tr class="memdesc:ac0e55cb78e4e838aa1b439585442d439"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return moment orders.  <a href="#ac0e55cb78e4e838aa1b439585442d439">More...</a><br /></td></tr>
-<tr class="separator:ac0e55cb78e4e838aa1b439585442d439"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a111ae2fd86df6aa54d903019cd7032f6"><td class="memItemLeft" align="right" valign="top">label&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00045.html#a111ae2fd86df6aa54d903019cd7032f6">nMoments</a> () const </td></tr>
-<tr class="memdesc:a111ae2fd86df6aa54d903019cd7032f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of moments.  <a href="#a111ae2fd86df6aa54d903019cd7032f6">More...</a><br /></td></tr>
-<tr class="separator:a111ae2fd86df6aa54d903019cd7032f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac69c81c5f4ebd5edd8ddc30b03c1d184"><td class="memItemLeft" align="right" valign="top">const word&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00045.html#ac69c81c5f4ebd5edd8ddc30b03c1d184">support</a> () const </td></tr>
-<tr class="memdesc:ac69c81c5f4ebd5edd8ddc30b03c1d184"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return support.  <a href="#ac69c81c5f4ebd5edd8ddc30b03c1d184">More...</a><br /></td></tr>
-<tr class="separator:ac69c81c5f4ebd5edd8ddc30b03c1d184"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af94b60ff3239fa81ced4741c546de289"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00045.html#af94b60ff3239fa81ced4741c546de289">TypeName</a> (&quot;frictionalStressModel&quot;)</td></tr>
+<tr class="memdesc:af94b60ff3239fa81ced4741c546de289"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#af94b60ff3239fa81ced4741c546de289">More...</a><br /></td></tr>
+<tr class="separator:af94b60ff3239fa81ced4741c546de289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2741be6f2501ad67d012f86baff59c92"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00045.html#a2741be6f2501ad67d012f86baff59c92">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00045.html">frictionalStressModel</a>, dictionary,(                                       const dictionary &amp;dict                       ),(dict))</td></tr>
+<tr class="separator:a2741be6f2501ad67d012f86baff59c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10a490ec2de060d40877d7cd26f6577d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00045.html#a10a490ec2de060d40877d7cd26f6577d">frictionalStressModel</a> (const dictionary &amp;dict)</td></tr>
+<tr class="memdesc:a10a490ec2de060d40877d7cd26f6577d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#a10a490ec2de060d40877d7cd26f6577d">More...</a><br /></td></tr>
+<tr class="separator:a10a490ec2de060d40877d7cd26f6577d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f71b430053e2a10283db3dc6b8b96ac"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00045.html#a1f71b430053e2a10283db3dc6b8b96ac">~frictionalStressModel</a> ()</td></tr>
+<tr class="memdesc:a1f71b430053e2a10283db3dc6b8b96ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a1f71b430053e2a10283db3dc6b8b96ac">More...</a><br /></td></tr>
+<tr class="separator:a1f71b430053e2a10283db3dc6b8b96ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ea985dd666b633e603e6f2a84ff4afe"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00045.html#a6ea985dd666b633e603e6f2a84ff4afe">frictionalPressure</a> (const <a class="el" href="a00129.html">phaseModel</a> &amp;phase, const dimensionedScalar &amp;alphaMinFriction, const dimensionedScalar &amp;alphaMax) const  =0</td></tr>
+<tr class="separator:a6ea985dd666b633e603e6f2a84ff4afe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8949243dd1fb635cd5afd452f6b7f06b"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00045.html#a8949243dd1fb635cd5afd452f6b7f06b">frictionalPressurePrime</a> (const <a class="el" href="a00129.html">phaseModel</a> &amp;phase, const dimensionedScalar &amp;alphaMinFriction, const dimensionedScalar &amp;alphaMax) const  =0</td></tr>
+<tr class="separator:a8949243dd1fb635cd5afd452f6b7f06b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5035d13518e7cefd211c8f47e9f9a8d3"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00045.html#a5035d13518e7cefd211c8f47e9f9a8d3">nu</a> (const <a class="el" href="a00129.html">phaseModel</a> &amp;phase, const dimensionedScalar &amp;alphaMinFriction, const dimensionedScalar &amp;alphaMax, const volScalarField &amp;pf, const volSymmTensorField &amp;D) const  =0</td></tr>
+<tr class="separator:a5035d13518e7cefd211c8f47e9f9a8d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eeeaebe7e52f5d842385ce0b177150d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00045.html#a2eeeaebe7e52f5d842385ce0b177150d">read</a> ()=0</td></tr>
+<tr class="separator:a2eeeaebe7e52f5d842385ce0b177150d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:af4b073000c3b3d6bba3ee4023f40aa98"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00045.html">frictionalStressModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00045.html#af4b073000c3b3d6bba3ee4023f40aa98">New</a> (const dictionary &amp;dict)</td></tr>
+<tr class="separator:af4b073000c3b3d6bba3ee4023f40aa98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a2241219aa524be91ffd4ded3f42f582a"><td class="memItemLeft" align="right" valign="top">label&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00045.html#a2241219aa524be91ffd4ded3f42f582a">nMoments_</a></td></tr>
-<tr class="memdesc:a2241219aa524be91ffd4ded3f42f582a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of moments.  <a href="#a2241219aa524be91ffd4ded3f42f582a">More...</a><br /></td></tr>
-<tr class="separator:a2241219aa524be91ffd4ded3f42f582a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0e2d1fe30234c743b258634abc400a5"><td class="memItemLeft" align="right" valign="top">labelListList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00045.html#ab0e2d1fe30234c743b258634abc400a5">momentOrders_</a></td></tr>
-<tr class="memdesc:ab0e2d1fe30234c743b258634abc400a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of moment orders.  <a href="#ab0e2d1fe30234c743b258634abc400a5">More...</a><br /></td></tr>
-<tr class="separator:ab0e2d1fe30234c743b258634abc400a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97745e65ea5305313a9cc8919a99b621"><td class="memItemLeft" align="right" valign="top">word&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00045.html#a97745e65ea5305313a9cc8919a99b621">support_</a></td></tr>
-<tr class="memdesc:a97745e65ea5305313a9cc8919a99b621"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of support of the measure associated to the moment set.  <a href="#a97745e65ea5305313a9cc8919a99b621">More...</a><br /></td></tr>
-<tr class="separator:a97745e65ea5305313a9cc8919a99b621"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a892ddcb9cba6f50b0396cdb7bf1b4f6a"><td class="memItemLeft" align="right" valign="top">const dictionary &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00045.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a">dict_</a></td></tr>
+<tr class="memdesc:a892ddcb9cba6f50b0396cdb7bf1b4f6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to higher-level dictionary for re-read.  <a href="#a892ddcb9cba6f50b0396cdb7bf1b4f6a">More...</a><br /></td></tr>
+<tr class="separator:a892ddcb9cba6f50b0396cdb7bf1b4f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Stores a generic moment set with the corresponding list of orders. </p>
-<p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
+<div class="textblock"><dl class="section user"><dt>Source files</dt><dd><ul>
 <li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/momentSets/momentSet/momentSet.H">momentSet.H</a> </li>
+<a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/phaseCompressibleTurbulenceModels/kineticTheoryModels/frictionalStressModel/frictionalStressModel/frictionalStressModel.H">frictionalStressModel.H</a> </li>
 <li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/momentSets/momentSet/momentSet.C">momentSet.C</a> </li>
-<li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/momentSets/momentSet/momentSetI.H">momentSetI.H</a> </li>
+<a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/phaseCompressibleTurbulenceModels/kineticTheoryModels/frictionalStressModel/frictionalStressModel/frictionalStressModel.C">frictionalStressModel.C</a> </li>
 </ul>
 </dd></dl>
 
-<p>Definition at line <a class="el" href="a00166_source.html#l00050">50</a> of file <a class="el" href="a00166_source.html">momentSet.H</a>.</p>
+<p>Definition at line <a class="el" href="a00293_source.html#l00051">51</a> of file <a class="el" href="a00293_source.html">frictionalStressModel.H</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="afa5ff5026de594029768150956bb1cd4"></a>
+<a class="anchor" id="a10a490ec2de060d40877d7cd26f6577d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00045.html">momentSet</a> </td>
+          <td class="memname"><a class="el" href="a00045.html">frictionalStressModel</a> </td>
           <td>(</td>
-          <td class="paramtype">const label&#160;</td>
-          <td class="paramname"><em>nMoments</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const dictionary &amp;&#160;</td>
+          <td class="paramname"><em>dict</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">const labelListList &amp;&#160;</td>
-          <td class="paramname"><em>momentOrders</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const word &amp;&#160;</td>
-          <td class="paramname"><em>support</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const scalar&#160;</td>
-          <td class="paramname"><em>initValue</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Construct from number of moments and initial value. </p>
-
-<p>Definition at line <a class="el" href="a00165_source.html#l00031">31</a> of file <a class="el" href="a00165_source.html">momentSet.C</a>.</p>
+<p>Construct from components. </p>
 
 </div>
 </div>
-<a class="anchor" id="a220ccb97e171f09caa8dbb7a7e99bcca"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="a00045.html">momentSet</a> </td>
-          <td>(</td>
-          <td class="paramtype">const scalarList &amp;&#160;</td>
-          <td class="paramname"><em>m</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const labelListList &amp;&#160;</td>
-          <td class="paramname"><em>momentOrders</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const word &amp;&#160;</td>
-          <td class="paramname"><em>support</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Construct from scalarList. </p>
-
-<p>Definition at line <a class="el" href="a00165_source.html#l00054">54</a> of file <a class="el" href="a00165_source.html">momentSet.C</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a2d461e8178aaecce7fc02ab43bee1230"></a>
+<a class="anchor" id="a1f71b430053e2a10283db3dc6b8b96ac"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -265,7 +195,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">~<a class="el" href="a00045.html">momentSet</a> </td>
+          <td class="memname">virtual ~<a class="el" href="a00045.html">frictionalStressModel</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -280,12 +210,72 @@ Protected Attributes</h2></td></tr>
 
 <p>Destructor. </p>
 
-<p>Definition at line <a class="el" href="a00165_source.html#l00077">77</a> of file <a class="el" href="a00165_source.html">momentSet.C</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ac0e55cb78e4e838aa1b439585442d439"></a>
+<a class="anchor" id="af94b60ff3239fa81ced4741c546de289"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TypeName </td>
+          <td>(</td>
+          <td class="paramtype">&quot;frictionalStressModel&quot;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Runtime type information. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2741be6f2501ad67d012f86baff59c92"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">declareRunTimeSelectionTable </td>
+          <td>(</td>
+          <td class="paramtype">autoPtr&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="a00045.html">frictionalStressModel</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dictionary&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">(                                                                           const dictionary &amp;dict                                           )&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">(dict)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af4b073000c3b3d6bba3ee4023f40aa98"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -293,28 +283,23 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const Foam::labelListList &amp; momentOrders </td>
+          <td class="memname">static autoPtr&lt;<a class="el" href="a00045.html">frictionalStressModel</a>&gt; New </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">const dictionary &amp;&#160;</td>
+          <td class="paramname"><em>dict</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Return moment orders. </p>
-
-<p>Definition at line <a class="el" href="a00167_source.html#l00028">28</a> of file <a class="el" href="a00167_source.html">momentSetI.H</a>.</p>
-
-<p>References <a class="el" href="a00166_source.html#l00061">momentSet::momentOrders_</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="a111ae2fd86df6aa54d903019cd7032f6"></a>
+<a class="anchor" id="a6ea985dd666b633e603e6f2a84ff4afe"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -322,28 +307,41 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Foam::label nMoments </td>
+          <td class="memname">virtual tmp&lt;volScalarField&gt; frictionalPressure </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">const <a class="el" href="a00129.html">phaseModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>phase</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dimensionedScalar &amp;&#160;</td>
+          <td class="paramname"><em>alphaMinFriction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dimensionedScalar &amp;&#160;</td>
+          <td class="paramname"><em>alphaMax</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Return the number of moments. </p>
-
-<p>Definition at line <a class="el" href="a00167_source.html#l00033">33</a> of file <a class="el" href="a00167_source.html">momentSetI.H</a>.</p>
-
-<p>References <a class="el" href="a00166_source.html#l00058">momentSet::nMoments_</a>.</p>
+<p>Implemented in <a class="el" href="a00070.html#a2fc1dda5901ee9cb4c70a6ba2301884b">JohnsonJackson</a>, <a class="el" href="a00073.html#a2fc1dda5901ee9cb4c70a6ba2301884b">JohnsonJacksonSchaeffer</a>, and <a class="el" href="a00139.html#a2fc1dda5901ee9cb4c70a6ba2301884b">Schaeffer</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ac69c81c5f4ebd5edd8ddc30b03c1d184"></a>
+<a class="anchor" id="a8949243dd1fb635cd5afd452f6b7f06b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -351,42 +349,121 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const Foam::word support </td>
+          <td class="memname">virtual tmp&lt;volScalarField&gt; frictionalPressurePrime </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">const <a class="el" href="a00129.html">phaseModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>phase</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dimensionedScalar &amp;&#160;</td>
+          <td class="paramname"><em>alphaMinFriction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dimensionedScalar &amp;&#160;</td>
+          <td class="paramname"><em>alphaMax</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Return support. </p>
+<p>Implemented in <a class="el" href="a00070.html#adfefae1dab0fb12943207676bf26dce8">JohnsonJackson</a>, <a class="el" href="a00073.html#adfefae1dab0fb12943207676bf26dce8">JohnsonJacksonSchaeffer</a>, and <a class="el" href="a00139.html#adfefae1dab0fb12943207676bf26dce8">Schaeffer</a>.</p>
 
-<p>Definition at line <a class="el" href="a00167_source.html#l00038">38</a> of file <a class="el" href="a00167_source.html">momentSetI.H</a>.</p>
-
-<p>References <a class="el" href="a00166_source.html#l00064">momentSet::support_</a>.</p>
-
-<p>Referenced by <a class="el" href="a00118_source.html#l00078">extendedMomentInversion::invert()</a>, and <a class="el" href="a00118_source.html#l00429">extendedMomentInversion::normalizedMomentError()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00045_ac69c81c5f4ebd5edd8ddc30b03c1d184_icgraph.png" border="0" usemap="#a00045_ac69c81c5f4ebd5edd8ddc30b03c1d184_icgraph" alt=""/></div>
-<map name="a00045_ac69c81c5f4ebd5edd8ddc30b03c1d184_icgraph" id="a00045_ac69c81c5f4ebd5edd8ddc30b03c1d184_icgraph">
-<area shape="rect" id="node2" href="a00020.html#a45d56bb3ba42ace7670d4c68707abf5d" title="Invert moments to find weight, abscissae and sigma. " alt="" coords="391,5,615,47"/>
-<area shape="rect" id="node3" href="a00020.html#a21b737ce5ace3ad03f53c403f8e33127" title="Compute the normalized moment error. " alt="" coords="119,35,343,76"/>
-</map>
 </div>
-</p>
+</div>
+<a class="anchor" id="a5035d13518e7cefd211c8f47e9f9a8d3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual tmp&lt;volScalarField&gt; nu </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="a00129.html">phaseModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>phase</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dimensionedScalar &amp;&#160;</td>
+          <td class="paramname"><em>alphaMinFriction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dimensionedScalar &amp;&#160;</td>
+          <td class="paramname"><em>alphaMax</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const volScalarField &amp;&#160;</td>
+          <td class="paramname"><em>pf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const volSymmTensorField &amp;&#160;</td>
+          <td class="paramname"><em>D</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="a00070.html#ae429d57404660fbf93f53dbcd90c9e49">JohnsonJackson</a>, <a class="el" href="a00073.html#ae429d57404660fbf93f53dbcd90c9e49">JohnsonJacksonSchaeffer</a>, and <a class="el" href="a00139.html#ae429d57404660fbf93f53dbcd90c9e49">Schaeffer</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2eeeaebe7e52f5d842385ce0b177150d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool read </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="a00070.html#abcf7aafd601a940195284bc91610bb08">JohnsonJackson</a>, <a class="el" href="a00073.html#abcf7aafd601a940195284bc91610bb08">JohnsonJacksonSchaeffer</a>, and <a class="el" href="a00139.html#abcf7aafd601a940195284bc91610bb08">Schaeffer</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a2241219aa524be91ffd4ded3f42f582a"></a>
+<a class="anchor" id="a892ddcb9cba6f50b0396cdb7bf1b4f6a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -394,7 +471,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">label nMoments_</td>
+          <td class="memname">const dictionary&amp; dict_</td>
         </tr>
       </table>
   </td>
@@ -404,77 +481,21 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Number of moments. </p>
+<p>Reference to higher-level dictionary for re-read. </p>
 
-<p>Definition at line <a class="el" href="a00166_source.html#l00058">58</a> of file <a class="el" href="a00166_source.html">momentSet.H</a>.</p>
-
-<p>Referenced by <a class="el" href="a00238_source.html#l00143">univariateMomentSet::betaRecurrence()</a>, <a class="el" href="a00167_source.html#l00033">momentSet::nMoments()</a>, and <a class="el" href="a00238_source.html#l00672">univariateMomentSet::update()</a>.</p>
+<p>Definition at line <a class="el" href="a00293_source.html#l00067">67</a> of file <a class="el" href="a00293_source.html">frictionalStressModel.H</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab0e2d1fe30234c743b258634abc400a5"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">labelListList momentOrders_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>List of moment orders. </p>
-
-<p>Definition at line <a class="el" href="a00166_source.html#l00061">61</a> of file <a class="el" href="a00166_source.html">momentSet.H</a>.</p>
-
-<p>Referenced by <a class="el" href="a00167_source.html#l00028">momentSet::momentOrders()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a97745e65ea5305313a9cc8919a99b621"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">word support_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Type of support of the measure associated to the moment set. </p>
-
-<p>Definition at line <a class="el" href="a00166_source.html#l00064">64</a> of file <a class="el" href="a00166_source.html">momentSet.H</a>.</p>
-
-<p>Referenced by <a class="el" href="a00238_source.html#l00143">univariateMomentSet::betaRecurrence()</a>, and <a class="el" href="a00167_source.html#l00038">momentSet::support()</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="a00166_source.html">momentSet.H</a></li>
-<li><a class="el" href="a00165_source.html">momentSet.C</a></li>
-<li><a class="el" href="a00167_source.html">momentSetI.H</a></li>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="a00293_source.html">frictionalStressModel.H</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00249.html">Foam</a></li><li class="navelem"><a class="el" href="a00045.html">momentSet</a></li>
+    <li class="navelem"><a class="el" href="a00605.html">Foam</a></li><li class="navelem"><a class="el" href="a00610.html">kineticTheoryModels</a></li><li class="navelem"><a class="el" href="a00045.html">frictionalStressModel</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

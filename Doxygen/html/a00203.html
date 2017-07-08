@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>pEqn.H File Reference</title>
+<title>BeisheuvelBubblePressure.H File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -104,406 +104,45 @@ $(document).ready(function(){initNavTree('a00203.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
-<div class="title">pEqn.H File Reference</div>  </div>
+<div class="title">BeisheuvelBubblePressure.H File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div class="dynheader">
-Include dependency graph for pEqn.H:</div>
+Include dependency graph for BeisheuvelBubblePressure.H:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00444.png" border="0" usemap="#pEqn_8H" alt=""/></div>
-<map name="pEqn_8H" id="pEqn_8H">
-</map>
-</div>
-</div><div class="textblock"><div class="dynheader">
-This graph shows which files directly or indirectly include this file:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00445.png" border="0" usemap="#pEqn_8Hdep" alt=""/></div>
-<map name="pEqn_8Hdep" id="pEqn_8Hdep">
-<area shape="rect" id="node2" href="a00086.html" title="Transient solver for buoyant, turbulent flow of compressible fluids with solution of population balan..." alt="" coords="5,80,188,107"/>
+<div class="center"><img src="a00652.png" border="0" usemap="#BeisheuvelBubblePressure_8H" alt=""/></div>
+<map name="BeisheuvelBubblePressure_8H" id="BeisheuvelBubblePressure_8H">
+<area shape="rect" id="node2" href="a00215.html" title="bubblePressureModel.H" alt="" coords="21,80,186,107"/>
 </map>
 </div>
 </div>
 <p><a href="a00203_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a4586f3949f258271620eb374532e2ac8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00099.html#aad0c921770bd26de425cedad0c8ae8be">thermo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00203.html#a4586f3949f258271620eb374532e2ac8">rho</a> ()- = <a class="el" href="a00096.html#aba679271c41582099c8ccf4827fdf217">psi</a>*p_rgh</td></tr>
-<tr class="separator:a4586f3949f258271620eb374532e2ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ae3ff6f0732a8a206a641d7ff2d9f7d"><td class="memItemLeft" align="right" valign="top">volScalarField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00203.html#a4ae3ff6f0732a8a206a641d7ff2d9f7d">rAU</a> (1.0/UEqn.A())</td></tr>
-<tr class="separator:a4ae3ff6f0732a8a206a641d7ff2d9f7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd8c4e61a2e39cb5143264971d9c72b8"><td class="memItemLeft" align="right" valign="top">surfaceScalarField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00203.html#afd8c4e61a2e39cb5143264971d9c72b8">rhorAUf</a> (&quot;rhorAUf&quot;, fvc::interpolate(<a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a> *<a class="el" href="a00203.html#a4ae3ff6f0732a8a206a641d7ff2d9f7d">rAU</a>))</td></tr>
-<tr class="separator:afd8c4e61a2e39cb5143264971d9c72b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84b1887f789e3bce2e0381c047a98de9"><td class="memItemLeft" align="right" valign="top">volVectorField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00203.html#a84b1887f789e3bce2e0381c047a98de9">HbyA</a> (constrainHbyA(<a class="el" href="a00203.html#a4ae3ff6f0732a8a206a641d7ff2d9f7d">rAU</a> *UEqn.H(), <a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a>, p_rgh))</td></tr>
-<tr class="separator:a84b1887f789e3bce2e0381c047a98de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a556bb449d809ee40ca35cc2ee766b26d"><td class="memItemLeft" align="right" valign="top">surfaceScalarField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00203.html#a556bb449d809ee40ca35cc2ee766b26d">phig</a> (-<a class="el" href="a00203.html#afd8c4e61a2e39cb5143264971d9c72b8">rhorAUf</a> *ghf *fvc::snGrad(<a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>)*mesh.magSf())</td></tr>
-<tr class="separator:a556bb449d809ee40ca35cc2ee766b26d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef792bafd9bea2bf7d0483270574a775"><td class="memItemLeft" align="right" valign="top">surfaceScalarField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00203.html#aef792bafd9bea2bf7d0483270574a775">phiHbyA</a> (&quot;phiHbyA&quot;,(                                       fvc::flux(<a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a> *<a class="el" href="a00203.html#a84b1887f789e3bce2e0381c047a98de9">HbyA</a>)                               +<a class="el" href="a00203.html#afd8c4e61a2e39cb5143264971d9c72b8">rhorAUf</a> *fvc::ddtCorr(<a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>, <a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a>, phi)                       )+<a class="el" href="a00203.html#a556bb449d809ee40ca35cc2ee766b26d">phig</a>)</td></tr>
-<tr class="separator:aef792bafd9bea2bf7d0483270574a775"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1091d12f90202cefb0487730316abd8c"><td class="memItemLeft" align="right" valign="top">MRF&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00203.html#a1091d12f90202cefb0487730316abd8c">makeRelative</a> (fvc::interpolate(<a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>), <a class="el" href="a00203.html#aef792bafd9bea2bf7d0483270574a775">phiHbyA</a>)</td></tr>
-<tr class="separator:a1091d12f90202cefb0487730316abd8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a797aefb4095dcdddbfb2b67948fc3cbc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00203.html#a797aefb4095dcdddbfb2b67948fc3cbc">constrainPressure</a> (p_rgh, <a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>, <a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a>, <a class="el" href="a00203.html#aef792bafd9bea2bf7d0483270574a775">phiHbyA</a>, <a class="el" href="a00203.html#afd8c4e61a2e39cb5143264971d9c72b8">rhorAUf</a>, MRF)</td></tr>
-<tr class="separator:a797aefb4095dcdddbfb2b67948fc3cbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab86021ac402de18529ad363d829f1b3"><td class="memItemLeft" align="right" valign="top">fvScalarMatrix&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00203.html#aab86021ac402de18529ad363d829f1b3">p_rghDDtEqn</a> (fvc::ddt(<a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>)+<a class="el" href="a00096.html#aba679271c41582099c8ccf4827fdf217">psi</a> *correction(fvm::ddt(p_rgh))+fvc::div(<a class="el" href="a00203.html#aef792bafd9bea2bf7d0483270574a775">phiHbyA</a>)==fvOptions(<a class="el" href="a00096.html#aba679271c41582099c8ccf4827fdf217">psi</a>, p_rgh, rho.name()))</td></tr>
-<tr class="separator:aab86021ac402de18529ad363d829f1b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab13470e79e249d04c443bf59be9ff31d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00203.html#ab13470e79e249d04c443bf59be9ff31d">while</a> (pimple.correctNonOrthogonal())</td></tr>
-<tr class="separator:ab13470e79e249d04c443bf59be9ff31d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a782599467f113a731d85df5c3b1e70"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00203.html#a3a782599467f113a731d85df5c3b1e70">if</a> (thermo.dpdt())</td></tr>
-<tr class="separator:a3a782599467f113a731d85df5c3b1e70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00008.html">Beisheuvel</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ac483f6ce851c9ecd9fb835ff7551737c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00203.html#ac483f6ce851c9ecd9fb835ff7551737c">p</a> = p_rgh + <a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>*gh</td></tr>
-<tr class="separator:ac483f6ce851c9ecd9fb835ff7551737c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:a00605"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00605.html">Foam</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00608"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00608.html">Foam::bubblePressureModels</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a4586f3949f258271620eb374532e2ac8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="a00099.html#aad0c921770bd26de425cedad0c8ae8be">thermo</a> rho </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> = <a class="el" href="a00096.html#aba679271c41582099c8ccf4827fdf217">psi</a>*p_rgh</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><b>Original source file</b> <a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/interfacialModels/bubblePressureModels/BeisheuvelBubblePressure/BeisheuvelBubblePressure.H">BeisheuvelBubblePressure.H</a> </p>
 
-</div>
-</div>
-<a class="anchor" id="a4ae3ff6f0732a8a206a641d7ff2d9f7d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">volScalarField rAU </td>
-          <td>(</td>
-          <td class="paramtype">1.0/UEqn.&#160;</td>
-          <td class="paramname"><em>A</em>()</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Referenced by <a class="el" href="a00203_source.html#l00037">while()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00203_a4ae3ff6f0732a8a206a641d7ff2d9f7d_icgraph.png" border="0" usemap="#a00203_a4ae3ff6f0732a8a206a641d7ff2d9f7d_icgraph" alt=""/></div>
-<map name="a00203_a4ae3ff6f0732a8a206a641d7ff2d9f7d_icgraph" id="a00203_a4ae3ff6f0732a8a206a641d7ff2d9f7d_icgraph">
-<area shape="rect" id="node2" href="a00203.html#ab13470e79e249d04c443bf59be9ff31d" title="while" alt="" coords="97,5,151,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="afd8c4e61a2e39cb5143264971d9c72b8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">surfaceScalarField rhorAUf </td>
-          <td>(</td>
-          <td class="paramtype">&quot;rhorAUf&quot;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fvc::interpolate(<a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a> *<a class="el" href="a00203.html#a4ae3ff6f0732a8a206a641d7ff2d9f7d">rAU</a>)&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Referenced by <a class="el" href="a00203_source.html#l00037">while()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00203_afd8c4e61a2e39cb5143264971d9c72b8_icgraph.png" border="0" usemap="#a00203_afd8c4e61a2e39cb5143264971d9c72b8_icgraph" alt=""/></div>
-<map name="a00203_afd8c4e61a2e39cb5143264971d9c72b8_icgraph" id="a00203_afd8c4e61a2e39cb5143264971d9c72b8_icgraph">
-<area shape="rect" id="node2" href="a00203.html#ab13470e79e249d04c443bf59be9ff31d" title="while" alt="" coords="120,5,173,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a84b1887f789e3bce2e0381c047a98de9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">volVectorField HbyA </td>
-          <td>(</td>
-          <td class="paramtype">constrainHbyA(<a class="el" href="a00203.html#a4ae3ff6f0732a8a206a641d7ff2d9f7d">rAU</a> *UEqn.H(), <a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a>, p_rgh)&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a556bb449d809ee40ca35cc2ee766b26d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">surfaceScalarField phig </td>
-          <td>(</td>
-          <td class="paramtype">-<a class="el" href="a00203.html#afd8c4e61a2e39cb5143264971d9c72b8">rhorAUf</a> *ghf *&#160;</td>
-          <td class="paramname"><em>fvc::snGrad</em>rho)*mesh.magSf(</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Referenced by <a class="el" href="a00203_source.html#l00037">while()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00203_a556bb449d809ee40ca35cc2ee766b26d_icgraph.png" border="0" usemap="#a00203_a556bb449d809ee40ca35cc2ee766b26d_icgraph" alt=""/></div>
-<map name="a00203_a556bb449d809ee40ca35cc2ee766b26d_icgraph" id="a00203_a556bb449d809ee40ca35cc2ee766b26d_icgraph">
-<area shape="rect" id="node2" href="a00203.html#ab13470e79e249d04c443bf59be9ff31d" title="while" alt="" coords="100,5,153,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="aef792bafd9bea2bf7d0483270574a775"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">surfaceScalarField phiHbyA </td>
-          <td>(</td>
-          <td class="paramtype">&quot;phiHbyA&quot;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">(                                                                                                                                                   fvc::flux(<a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a> *<a class="el" href="a00203.html#a84b1887f789e3bce2e0381c047a98de9">HbyA</a>)                                                                                                                   +<a class="el" href="a00203.html#afd8c4e61a2e39cb5143264971d9c72b8">rhorAUf</a> *fvc::ddtCorr(<a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>, <a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a>, phi)                                                                                   )+&#160;</td>
-          <td class="paramname"><em>phig</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Referenced by <a class="el" href="a00203_source.html#l00037">while()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00203_aef792bafd9bea2bf7d0483270574a775_icgraph.png" border="0" usemap="#a00203_aef792bafd9bea2bf7d0483270574a775_icgraph" alt=""/></div>
-<map name="a00203_aef792bafd9bea2bf7d0483270574a775_icgraph" id="a00203_aef792bafd9bea2bf7d0483270574a775_icgraph">
-<area shape="rect" id="node2" href="a00203.html#ab13470e79e249d04c443bf59be9ff31d" title="while" alt="" coords="124,5,177,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a1091d12f90202cefb0487730316abd8c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRF makeRelative </td>
-          <td>(</td>
-          <td class="paramtype">fvc::interpolate(<a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>)&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="a00203.html#aef792bafd9bea2bf7d0483270574a775">phiHbyA</a>&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a797aefb4095dcdddbfb2b67948fc3cbc"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">constrainPressure </td>
-          <td>(</td>
-          <td class="paramtype">p_rgh&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="a00203.html#aef792bafd9bea2bf7d0483270574a775">phiHbyA</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="a00203.html#afd8c4e61a2e39cb5143264971d9c72b8">rhorAUf</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">MRF&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aab86021ac402de18529ad363d829f1b3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">fvScalarMatrix p_rghDDtEqn </td>
-          <td>(</td>
-          <td class="paramtype">fvc::ddt(<a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>)+<a class="el" href="a00096.html#aba679271c41582099c8ccf4827fdf217">psi</a> *correction(fvm::ddt(p_rgh))+fvc::div(<a class="el" href="a00203.html#aef792bafd9bea2bf7d0483270574a775">phiHbyA</a>)&#160;</td>
-          <td class="paramname"> = <code>=fvOptions(<a class="el" href="a00096.html#aba679271c41582099c8ccf4827fdf217">psi</a>,&#160;p_rgh,&#160;rho.name())</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Referenced by <a class="el" href="a00203_source.html#l00037">while()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00203_aab86021ac402de18529ad363d829f1b3_icgraph.png" border="0" usemap="#a00203_aab86021ac402de18529ad363d829f1b3_icgraph" alt=""/></div>
-<map name="a00203_aab86021ac402de18529ad363d829f1b3_icgraph" id="a00203_aab86021ac402de18529ad363d829f1b3_icgraph">
-<area shape="rect" id="node2" href="a00203.html#ab13470e79e249d04c443bf59be9ff31d" title="while" alt="" coords="155,5,208,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="ab13470e79e249d04c443bf59be9ff31d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">while </td>
-          <td>(</td>
-          <td class="paramtype">pimple.&#160;</td>
-          <td class="paramname"><em>correctNonOrthogonal</em>()</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00203_source.html#l00037">37</a> of file <a class="el" href="a00203_source.html">pEqn.H</a>.</p>
-
-<p>References <a class="el" href="a00203.html#aab86021ac402de18529ad363d829f1b3">p_rghDDtEqn()</a>, <a class="el" href="a00203.html#a556bb449d809ee40ca35cc2ee766b26d">phig()</a>, <a class="el" href="a00203.html#aef792bafd9bea2bf7d0483270574a775">phiHbyA()</a>, <a class="el" href="a00203.html#a4ae3ff6f0732a8a206a641d7ff2d9f7d">rAU()</a>, <a class="el" href="a00203.html#afd8c4e61a2e39cb5143264971d9c72b8">rhorAUf()</a>, and <a class="el" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d">U()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00203_ab13470e79e249d04c443bf59be9ff31d_cgraph.png" border="0" usemap="#a00203_ab13470e79e249d04c443bf59be9ff31d_cgraph" alt=""/></div>
-<map name="a00203_ab13470e79e249d04c443bf59be9ff31d_cgraph" id="a00203_ab13470e79e249d04c443bf59be9ff31d_cgraph">
-<area shape="rect" id="node2" href="a00203.html#aab86021ac402de18529ad363d829f1b3" title="p_rghDDtEqn" alt="" coords="107,5,208,32"/>
-<area shape="rect" id="node3" href="a00203.html#a556bb449d809ee40ca35cc2ee766b26d" title="phig" alt="" coords="134,56,181,83"/>
-<area shape="rect" id="node4" href="a00203.html#aef792bafd9bea2bf7d0483270574a775" title="phiHbyA" alt="" coords="122,107,193,133"/>
-<area shape="rect" id="node5" href="a00203.html#a4ae3ff6f0732a8a206a641d7ff2d9f7d" title="rAU" alt="" coords="135,157,179,184"/>
-<area shape="rect" id="node6" href="a00203.html#afd8c4e61a2e39cb5143264971d9c72b8" title="rhorAUf" alt="" coords="124,208,191,235"/>
-<area shape="rect" id="node7" href="a00098.html#a2cf53f2d880076e92789c7297fc0423d" title="U" alt="" coords="138,259,177,285"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a3a782599467f113a731d85df5c3b1e70"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">if </td>
-          <td>(</td>
-          <td class="paramtype">thermo.&#160;</td>
-          <td class="paramname"><em>dpdt</em>()</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00203_source.html#l00069">69</a> of file <a class="el" href="a00203_source.html">pEqn.H</a>.</p>
-
-<p>References <a class="el" href="a00203_source.html#l00064">p</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="ac483f6ce851c9ecd9fb835ff7551737c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">p = p_rgh + <a class="el" href="a00099.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho</a>*gh</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00203_source.html#l00064">64</a> of file <a class="el" href="a00203_source.html">pEqn.H</a>.</p>
-
-<p>Referenced by <a class="el" href="a00203_source.html#l00069">if()</a>.</p>
-
-</div>
-</div>
-</div><!-- contents -->
+<p>Definition in file <a class="el" href="a00203_source.html">BeisheuvelBubblePressure.H</a>.</p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html">applications</a></li><li class="navelem"><a class="el" href="dir_2ef2fabd40c7da3d17a848db9671c536.html">buoyantPbePimpleFoam</a></li><li class="navelem"><a class="el" href="a00203.html">pEqn.H</a></li>
+    <li class="navelem"><a class="el" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html">applications</a></li><li class="navelem"><a class="el" href="dir_fdd174abb8ada244b49e98779c87ac3c.html">solvers</a></li><li class="navelem"><a class="el" href="dir_40ef2584a0ec6d8ca6a91d700a2af4ea.html">polydisperseBubbleFoam</a></li><li class="navelem"><a class="el" href="dir_a67881d67603c1140e6c8a3150cfe24f.html">interfacialModels</a></li><li class="navelem"><a class="el" href="dir_1f08bf1264399e680198cb2f3f243c84.html">bubblePressureModels</a></li><li class="navelem"><a class="el" href="dir_a68a237ebfe72dc017c4c402bdd34e43.html">BeisheuvelBubblePressure</a></li><li class="navelem"><a class="el" href="a00203.html">BeisheuvelBubblePressure.H</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

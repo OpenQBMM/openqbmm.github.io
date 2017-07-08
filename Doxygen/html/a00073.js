@@ -1,10 +1,10 @@
 var a00073 =
 [
-    [ "Vandermonde", "a00073.html#ad67ccfbb9cade9e7a4af8af247cbc760", null ],
-    [ "Vandermonde", "a00073.html#aa269448837b597fdbbc600d30d0ee801", null ],
-    [ "~Vandermonde", "a00073.html#a56ad6e00f00ff1794e13eac202ba81dd", null ],
-    [ "solve", "a00073.html#a0501062a3550e6d046dd2dca738ecfa1", null ],
-    [ "inv", "a00073.html#a41f917babb4e3753f9e48b975cb03b2f", null ],
-    [ "operator()", "a00073.html#a5abda4d7d3085503b1326c880f77ad36", null ],
-    [ "operator()", "a00073.html#aaed018d61a33bd73175c5c1fc3a6fd84", null ]
+    [ "JohnsonJacksonSchaeffer", "a00073.html#a00b7ef071ba9887dfd03409ab651af01", null ],
+    [ "~JohnsonJacksonSchaeffer", "a00073.html#a6b3e0a63ccb76de652e667f189df185f", null ],
+    [ "TypeName", "a00073.html#ab83eda930b6195a385f23bec86134a83", null ],
+    [ "frictionalPressure", "a00073.html#a2fc1dda5901ee9cb4c70a6ba2301884b", null ],
+    [ "frictionalPressurePrime", "a00073.html#adfefae1dab0fb12943207676bf26dce8", null ],
+    [ "nu", "a00073.html#ae429d57404660fbf93f53dbcd90c9e49", null ],
+    [ "read", "a00073.html#abcf7aafd601a940195284bc91610bb08", null ]
 ];

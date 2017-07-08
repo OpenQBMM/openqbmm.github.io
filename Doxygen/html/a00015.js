@@ -1,10 +1,17 @@
 var a00015 =
 [
-    [ "diffusionModel", "a00015.html#a9ddf42daebca521ed9b1836083a7c90a", null ],
-    [ "~diffusionModel", "a00015.html#af2348e708346160fd55cb63f0a48dfa7", null ],
-    [ "TypeName", "a00015.html#aac5e53b16b5d306f767a3ac9c82018fe", null ],
-    [ "declareRunTimeSelectionTable", "a00015.html#aa29c65576a34ab15da2f135cfb51cd12", null ],
-    [ "New", "a00015.html#a4979734dfbad3055a0ebcb03224a6cf3", null ],
-    [ "momentDiff", "a00015.html#a5b7c21e0d26e0f2c3f207a1a6929fd6d", null ],
-    [ "dict_", "a00015.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a", null ]
+    [ "bubblePressureModel", "a00015.html#ab6e3ff5715905bfdcc970e95775727a2", null ],
+    [ "~bubblePressureModel", "a00015.html#aefde78cb0940fb7f4a42a5fdd24cb208", null ],
+    [ "TypeName", "a00015.html#ad013020947e5554096573c24be1d944e", null ],
+    [ "declareRunTimeSelectionTable", "a00015.html#ac93c73f7c2c9048d93311a980c9083df", null ],
+    [ "New", "a00015.html#acf4740ee4f554effa2e90422a382ac39", null ],
+    [ "pb", "a00015.html#a95a8c7df427dab81b9f83b443c2d5c20", null ],
+    [ "nuEff", "a00015.html#aadd53ef7c544d13f6759b3c6a812bc16", null ],
+    [ "divDevRhoReff", "a00015.html#a7b9a37db32e696f706a41defea918d88", null ],
+    [ "Fi", "a00015.html#a5c93cd0a04c3670c4213435e65985612", null ],
+    [ "F", "a00015.html#a8e0215a73ed9f69baeea60de4cddff0d", null ],
+    [ "Ff", "a00015.html#a738f1f0dcfedfed552dc8a9aa6c89c5e", null ],
+    [ "pair_", "a00015.html#afd0567a30e2ea4703b446fd80ca5ec0b", null ],
+    [ "Cbp_", "a00015.html#aa4d44b3a345947baaa1c1eecf923e07a", null ],
+    [ "dimF", "a00015.html#a6307eb221338d4af3a7880e0540b6ffc", null ]
 ];

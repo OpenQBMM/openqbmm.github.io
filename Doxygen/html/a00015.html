@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>diffusionModel Class Reference</title>
+<title>bubblePressureModel Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -108,86 +108,124 @@ $(document).ready(function(){initNavTree('a00015.html','');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="a00611.html">List of all members</a>  </div>
+<a href="a01025.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">diffusionModel Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">bubblePressureModel Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Abstract class for turbulent diffusion models.  
- <a href="a00015.html#details">More...</a></p>
 <div class="dynheader">
-Inheritance diagram for diffusionModel:</div>
+Inheritance diagram for bubblePressureModel:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00612.png" border="0" usemap="#diffusionModel_inherit__map" alt="Inheritance graph"/></div>
-<map name="diffusionModel_inherit__map" id="diffusionModel_inherit__map">
-<area shape="rect" id="node2" href="a00040.html" title="Molecular diffusion model. " alt="" coords="5,80,137,107"/>
-<area shape="rect" id="node3" href="a00048.html" title="No diffusion model. " alt="" coords="162,80,250,107"/>
-<area shape="rect" id="node4" href="a00063.html" title="Turbulent diffusion model. " alt="" coords="274,80,397,107"/>
+<div class="center"><img src="a01026.png" border="0" usemap="#bubblePressureModel_inherit__map" alt="Inheritance graph"/></div>
+<map name="bubblePressureModel_inherit__map" id="bubblePressureModel_inherit__map">
+<area shape="rect" id="node2" href="a00008.html" title="Beisheuvel" alt="" coords="37,80,127,107"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for bubblePressureModel:</div>
+<div class="dyncontent">
+<div class="center"><img src="a01027.png" border="0" usemap="#bubblePressureModel_coll__map" alt="Collaboration graph"/></div>
+<map name="bubblePressureModel_coll__map" id="bubblePressureModel_coll__map">
+<area shape="rect" id="node2" href="a00130.html" title="phasePair" alt="" coords="41,5,123,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aac5e53b16b5d306f767a3ac9c82018fe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#aac5e53b16b5d306f767a3ac9c82018fe">TypeName</a> (&quot;diffusionModel&quot;)</td></tr>
-<tr class="memdesc:aac5e53b16b5d306f767a3ac9c82018fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#aac5e53b16b5d306f767a3ac9c82018fe">More...</a><br /></td></tr>
-<tr class="separator:aac5e53b16b5d306f767a3ac9c82018fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa29c65576a34ab15da2f135cfb51cd12"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#aa29c65576a34ab15da2f135cfb51cd12">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00015.html">diffusionModel</a>, dictionary,(                                       const dictionary &amp;dict                       ),(dict))</td></tr>
-<tr class="separator:aa29c65576a34ab15da2f135cfb51cd12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ddf42daebca521ed9b1836083a7c90a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#a9ddf42daebca521ed9b1836083a7c90a">diffusionModel</a> (const dictionary &amp;dict)</td></tr>
-<tr class="memdesc:a9ddf42daebca521ed9b1836083a7c90a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#a9ddf42daebca521ed9b1836083a7c90a">More...</a><br /></td></tr>
-<tr class="separator:a9ddf42daebca521ed9b1836083a7c90a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2348e708346160fd55cb63f0a48dfa7"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#af2348e708346160fd55cb63f0a48dfa7">~diffusionModel</a> ()</td></tr>
-<tr class="memdesc:af2348e708346160fd55cb63f0a48dfa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#af2348e708346160fd55cb63f0a48dfa7">More...</a><br /></td></tr>
-<tr class="separator:af2348e708346160fd55cb63f0a48dfa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b7c21e0d26e0f2c3f207a1a6929fd6d"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; fvScalarMatrix &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#a5b7c21e0d26e0f2c3f207a1a6929fd6d">momentDiff</a> (const volScalarField &amp;<a class="el" href="a00041.html">moment</a>) const  =0</td></tr>
-<tr class="memdesc:a5b7c21e0d26e0f2c3f207a1a6929fd6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the source term for diffusion term in the moment equation.  <a href="#a5b7c21e0d26e0f2c3f207a1a6929fd6d">More...</a><br /></td></tr>
-<tr class="separator:a5b7c21e0d26e0f2c3f207a1a6929fd6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad013020947e5554096573c24be1d944e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#ad013020947e5554096573c24be1d944e">TypeName</a> (&quot;bubblePressureModel&quot;)</td></tr>
+<tr class="memdesc:ad013020947e5554096573c24be1d944e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#ad013020947e5554096573c24be1d944e">More...</a><br /></td></tr>
+<tr class="separator:ad013020947e5554096573c24be1d944e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac93c73f7c2c9048d93311a980c9083df"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#ac93c73f7c2c9048d93311a980c9083df">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00015.html">bubblePressureModel</a>, dictionary,(                                                       const dictionary &amp;dict,                                                       const <a class="el" href="a00130.html">phasePair</a> &amp;pair                                       ),(dict, pair))</td></tr>
+<tr class="separator:ac93c73f7c2c9048d93311a980c9083df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6e3ff5715905bfdcc970e95775727a2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#ab6e3ff5715905bfdcc970e95775727a2">bubblePressureModel</a> (const dictionary &amp;dict, const <a class="el" href="a00130.html">phasePair</a> &amp;pair)</td></tr>
+<tr class="memdesc:ab6e3ff5715905bfdcc970e95775727a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#ab6e3ff5715905bfdcc970e95775727a2">More...</a><br /></td></tr>
+<tr class="separator:ab6e3ff5715905bfdcc970e95775727a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefde78cb0940fb7f4a42a5fdd24cb208"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#aefde78cb0940fb7f4a42a5fdd24cb208">~bubblePressureModel</a> ()</td></tr>
+<tr class="memdesc:aefde78cb0940fb7f4a42a5fdd24cb208"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#aefde78cb0940fb7f4a42a5fdd24cb208">More...</a><br /></td></tr>
+<tr class="separator:aefde78cb0940fb7f4a42a5fdd24cb208"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95a8c7df427dab81b9f83b443c2d5c20"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#a95a8c7df427dab81b9f83b443c2d5c20">pb</a> (const label, const label) const  =0</td></tr>
+<tr class="memdesc:a95a8c7df427dab81b9f83b443c2d5c20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return bubble pressure.  <a href="#a95a8c7df427dab81b9f83b443c2d5c20">More...</a><br /></td></tr>
+<tr class="separator:a95a8c7df427dab81b9f83b443c2d5c20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadd53ef7c544d13f6759b3c6a812bc16"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#aadd53ef7c544d13f6759b3c6a812bc16">nuEff</a> (const label, const label) const </td></tr>
+<tr class="memdesc:aadd53ef7c544d13f6759b3c6a812bc16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return effective viscosity dues to dispersed phase.  <a href="#aadd53ef7c544d13f6759b3c6a812bc16">More...</a><br /></td></tr>
+<tr class="separator:aadd53ef7c544d13f6759b3c6a812bc16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b9a37db32e696f706a41defea918d88"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volVectorField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#a7b9a37db32e696f706a41defea918d88">divDevRhoReff</a> (const label, const label) const </td></tr>
+<tr class="memdesc:a7b9a37db32e696f706a41defea918d88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return continuous phase viscous stress.  <a href="#a7b9a37db32e696f706a41defea918d88">More...</a><br /></td></tr>
+<tr class="separator:a7b9a37db32e696f706a41defea918d88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c93cd0a04c3670c4213435e65985612"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volVectorField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#a5c93cd0a04c3670c4213435e65985612">Fi</a> (const label, const label) const </td></tr>
+<tr class="memdesc:a5c93cd0a04c3670c4213435e65985612"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return phase-intensive bubble pressure force.  <a href="#a5c93cd0a04c3670c4213435e65985612">More...</a><br /></td></tr>
+<tr class="separator:a5c93cd0a04c3670c4213435e65985612"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e0215a73ed9f69baeea60de4cddff0d"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volVectorField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#a8e0215a73ed9f69baeea60de4cddff0d">F</a> (const label, const label) const </td></tr>
+<tr class="memdesc:a8e0215a73ed9f69baeea60de4cddff0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return bubble pressure force.  <a href="#a8e0215a73ed9f69baeea60de4cddff0d">More...</a><br /></td></tr>
+<tr class="separator:a8e0215a73ed9f69baeea60de4cddff0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a738f1f0dcfedfed552dc8a9aa6c89c5e"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; surfaceScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#a738f1f0dcfedfed552dc8a9aa6c89c5e">Ff</a> (const label, const label) const </td></tr>
+<tr class="memdesc:a738f1f0dcfedfed552dc8a9aa6c89c5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return face bubble pressure force.  <a href="#a738f1f0dcfedfed552dc8a9aa6c89c5e">More...</a><br /></td></tr>
+<tr class="separator:a738f1f0dcfedfed552dc8a9aa6c89c5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a4979734dfbad3055a0ebcb03224a6cf3"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00015.html">diffusionModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#a4979734dfbad3055a0ebcb03224a6cf3">New</a> (const dictionary &amp;dict)</td></tr>
-<tr class="separator:a4979734dfbad3055a0ebcb03224a6cf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf4740ee4f554effa2e90422a382ac39"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00015.html">bubblePressureModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#acf4740ee4f554effa2e90422a382ac39">New</a> (const dictionary &amp;dict, const <a class="el" href="a00130.html">phasePair</a> &amp;pair)</td></tr>
+<tr class="separator:acf4740ee4f554effa2e90422a382ac39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a6307eb221338d4af3a7880e0540b6ffc"><td class="memItemLeft" align="right" valign="top">static const dimensionSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#a6307eb221338d4af3a7880e0540b6ffc">dimF</a></td></tr>
+<tr class="memdesc:a6307eb221338d4af3a7880e0540b6ffc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Force dimensions.  <a href="#a6307eb221338d4af3a7880e0540b6ffc">More...</a><br /></td></tr>
+<tr class="separator:a6307eb221338d4af3a7880e0540b6ffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a892ddcb9cba6f50b0396cdb7bf1b4f6a"><td class="memItemLeft" align="right" valign="top">const dictionary &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a">dict_</a></td></tr>
-<tr class="separator:a892ddcb9cba6f50b0396cdb7bf1b4f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd0567a30e2ea4703b446fd80ca5ec0b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00130.html">phasePair</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#afd0567a30e2ea4703b446fd80ca5ec0b">pair_</a></td></tr>
+<tr class="memdesc:afd0567a30e2ea4703b446fd80ca5ec0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phase pair.  <a href="#afd0567a30e2ea4703b446fd80ca5ec0b">More...</a><br /></td></tr>
+<tr class="separator:afd0567a30e2ea4703b446fd80ca5ec0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4d44b3a345947baaa1c1eecf923e07a"><td class="memItemLeft" align="right" valign="top">dimensionedScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00015.html#aa4d44b3a345947baaa1c1eecf923e07a">Cbp_</a></td></tr>
+<tr class="memdesc:aa4d44b3a345947baaa1c1eecf923e07a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coefficient of bubble pressure.  <a href="#aa4d44b3a345947baaa1c1eecf923e07a">More...</a><br /></td></tr>
+<tr class="separator:aa4d44b3a345947baaa1c1eecf923e07a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Abstract class for turbulent diffusion models. </p>
-<p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
+<div class="textblock"><p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
 <li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/diffusionModels/diffusionModel/diffusionModel.H">diffusionModel.H</a> </li>
+<a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/interfacialModels/bubblePressureModels/bubblePressureModel/bubblePressureModel.H">bubblePressureModel.H</a> </li>
 <li>
-<a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/diffusionModels/diffusionModel/diffusionModel.C">diffusionModel.C</a> </li>
+<a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/interfacialModels/bubblePressureModels/bubblePressureModel/bubblePressureModel.C">bubblePressureModel.C</a> </li>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/interfacialModels/bubblePressureModels/bubblePressureModel/newWallLubricationModel.C">newWallLubricationModel.C</a> </li>
 </ul>
 </dd></dl>
 
-<p>Definition at line <a class="el" href="a00108_source.html#l00054">54</a> of file <a class="el" href="a00108_source.html">populationBalanceModels/populationBalanceSubModels/diffusionModels/diffusionModel/diffusionModel.H</a>.</p>
+<p>Definition at line <a class="el" href="a00215_source.html#l00055">55</a> of file <a class="el" href="a00215_source.html">bubblePressureModel.H</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a9ddf42daebca521ed9b1836083a7c90a"></a>
+<a class="anchor" id="ab6e3ff5715905bfdcc970e95775727a2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00015.html">diffusionModel</a> </td>
+          <td class="memname"><a class="el" href="a00015.html">bubblePressureModel</a> </td>
           <td>(</td>
           <td class="paramtype">const dictionary &amp;&#160;</td>
-          <td class="paramname"><em>dict</em></td><td>)</td>
+          <td class="paramname"><em>dict</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="a00130.html">phasePair</a> &amp;&#160;</td>
+          <td class="paramname"><em>pair</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Construct from components. </p>
 
-<p>Definition at line <a class="el" href="a00106_source.html#l00044">44</a> of file <a class="el" href="a00106_source.html">populationBalanceModels/populationBalanceSubModels/diffusionModels/diffusionModel/diffusionModel.C</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="af2348e708346160fd55cb63f0a48dfa7"></a>
+<a class="anchor" id="aefde78cb0940fb7f4a42a5fdd24cb208"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -195,7 +233,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">~<a class="el" href="a00015.html">diffusionModel</a> </td>
+          <td class="memname">virtual ~<a class="el" href="a00015.html">bubblePressureModel</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -210,19 +248,17 @@ Protected Attributes</h2></td></tr>
 
 <p>Destructor. </p>
 
-<p>Definition at line <a class="el" href="a00106_source.html#l00054">54</a> of file <a class="el" href="a00106_source.html">populationBalanceModels/populationBalanceSubModels/diffusionModels/diffusionModel/diffusionModel.C</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aac5e53b16b5d306f767a3ac9c82018fe"></a>
+<a class="anchor" id="ad013020947e5554096573c24be1d944e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">TypeName </td>
           <td>(</td>
-          <td class="paramtype">&quot;diffusionModel&quot;&#160;</td>
+          <td class="paramtype">&quot;bubblePressureModel&quot;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -233,7 +269,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa29c65576a34ab15da2f135cfb51cd12"></a>
+<a class="anchor" id="ac93c73f7c2c9048d93311a980c9083df"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -246,7 +282,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00015.html">diffusionModel</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="a00015.html">bubblePressureModel</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -258,13 +294,13 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">(                                                                           const dictionary &amp;dict                                           )&#160;</td>
+          <td class="paramtype">(                                                                                                           const dictionary &amp;dict,                                                                                                           const <a class="el" href="a00130.html">phasePair</a> &amp;pair                                                                           )&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">(dict)&#160;</td>
+          <td class="paramtype">(dict, pair)&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -277,7 +313,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4979734dfbad3055a0ebcb03224a6cf3"></a>
+<a class="anchor" id="acf4740ee4f554effa2e90422a382ac39"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -285,11 +321,21 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Foam::autoPtr&lt; <a class="el" href="a00015.html">Foam::populationBalanceSubModels::diffusionModel</a> &gt; New </td>
+          <td class="memname">static autoPtr&lt;<a class="el" href="a00015.html">bubblePressureModel</a>&gt; New </td>
           <td>(</td>
           <td class="paramtype">const dictionary &amp;&#160;</td>
-          <td class="paramname"><em>dict</em></td><td>)</td>
+          <td class="paramname"><em>dict</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="a00130.html">phasePair</a> &amp;&#160;</td>
+          <td class="paramname"><em>pair</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -299,11 +345,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00175_source.html#l00032">32</a> of file <a class="el" href="a00175_source.html">populationBalanceModels/populationBalanceSubModels/diffusionModels/diffusionModel/newDiffusionModel.C</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="a5b7c21e0d26e0f2c3f207a1a6929fd6d"></a>
+<a class="anchor" id="a95a8c7df427dab81b9f83b443c2d5c20"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -311,11 +355,21 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual tmp&lt;fvScalarMatrix&gt; momentDiff </td>
+          <td class="memname">virtual tmp&lt;volScalarField&gt; pb </td>
           <td>(</td>
-          <td class="paramtype">const volScalarField &amp;&#160;</td>
-          <td class="paramname"><em>moment</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -325,14 +379,13 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Return the source term for diffusion term in the moment equation. </p>
+<p>Return bubble pressure. </p>
 
-<p>Implemented in <a class="el" href="a00063.html#a2607d470834fac9d39bfc0d92f89d41a">turbulentDiffusion</a>, <a class="el" href="a00040.html#a2607d470834fac9d39bfc0d92f89d41a">molecularDiffusion</a>, and <a class="el" href="a00048.html#a2607d470834fac9d39bfc0d92f89d41a">noDiffusion</a>.</p>
+<p>Implemented in <a class="el" href="a00008.html#a6e37365b47da4d25a0771d4b47b131dd">Beisheuvel</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a892ddcb9cba6f50b0396cdb7bf1b4f6a"></a>
+<a class="anchor" id="aadd53ef7c544d13f6759b3c6a812bc16"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -340,7 +393,188 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const dictionary&amp; dict_</td>
+          <td class="memname">virtual tmp&lt;volScalarField&gt; nuEff </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return effective viscosity dues to dispersed phase. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7b9a37db32e696f706a41defea918d88"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual tmp&lt;volVectorField&gt; divDevRhoReff </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return continuous phase viscous stress. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5c93cd0a04c3670c4213435e65985612"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual tmp&lt;volVectorField&gt; Fi </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return phase-intensive bubble pressure force. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8e0215a73ed9f69baeea60de4cddff0d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual tmp&lt;volVectorField&gt; F </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return bubble pressure force. </p>
+
+</div>
+</div>
+<a class="anchor" id="a738f1f0dcfedfed552dc8a9aa6c89c5e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual tmp&lt;surfaceScalarField&gt; Ff </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return face bubble pressure force. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="afd0567a30e2ea4703b446fd80ca5ec0b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="a00130.html">phasePair</a>&amp; pair_</td>
         </tr>
       </table>
   </td>
@@ -350,21 +584,69 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00108_source.html#l00069">69</a> of file <a class="el" href="a00108_source.html">populationBalanceModels/populationBalanceSubModels/diffusionModels/diffusionModel/diffusionModel.H</a>.</p>
+<p>Phase pair. </p>
+
+<p>Definition at line <a class="el" href="a00215_source.html#l00062">62</a> of file <a class="el" href="a00215_source.html">bubblePressureModel.H</a>.</p>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="a00108_source.html">populationBalanceModels/populationBalanceSubModels/diffusionModels/diffusionModel/diffusionModel.H</a></li>
-<li><a class="el" href="a00106_source.html">populationBalanceModels/populationBalanceSubModels/diffusionModels/diffusionModel/diffusionModel.C</a></li>
-<li><a class="el" href="a00175_source.html">populationBalanceModels/populationBalanceSubModels/diffusionModels/diffusionModel/newDiffusionModel.C</a></li>
+<a class="anchor" id="aa4d44b3a345947baaa1c1eecf923e07a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">dimensionedScalar Cbp_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Coefficient of bubble pressure. </p>
+
+<p>Definition at line <a class="el" href="a00215_source.html#l00065">65</a> of file <a class="el" href="a00215_source.html">bubblePressureModel.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6307eb221338d4af3a7880e0540b6ffc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const dimensionSet dimF</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Force dimensions. </p>
+
+<p>Definition at line <a class="el" href="a00215_source.html#l00092">92</a> of file <a class="el" href="a00215_source.html">bubblePressureModel.H</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="a00215_source.html">bubblePressureModel.H</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00249.html">Foam</a></li><li class="navelem"><a class="el" href="a00258.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="a00015.html">diffusionModel</a></li>
+    <li class="navelem"><a class="el" href="a00605.html">Foam</a></li><li class="navelem"><a class="el" href="a00015.html">bubblePressureModel</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

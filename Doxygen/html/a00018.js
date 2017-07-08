@@ -1,7 +1,10 @@
 var a00018 =
 [
-    [ "exponentialBreakup", "a00018.html#ab8c18aa51a2edf305a6043ff25a8e675", null ],
-    [ "~exponentialBreakup", "a00018.html#a3805c5cd8e532366720e40ab89e2d01d", null ],
-    [ "TypeName", "a00018.html#a86ff92ca0beb621157b91eba8601746d", null ],
-    [ "Kb", "a00018.html#a1e8a125530058d3c06bc7ca11c10c1e2", null ]
+    [ "conditionalMomentInversion", "a00018.html#aea8708169fa153ae734bde9a7be848e0", null ],
+    [ "~conditionalMomentInversion", "a00018.html#a58b463b7150f954828f65cb99d9f7ec0", null ],
+    [ "invert", "a00018.html#a8d1ea4c567d75c1d1fc0b882a5c4ac29", null ],
+    [ "nMoments", "a00018.html#ac1e97a89c526e32fc5ef143d6bcef361", null ],
+    [ "nNodes", "a00018.html#af0c9dfde6f2aa1caa3d94853d6fd7fa5", null ],
+    [ "weights", "a00018.html#a74dc9a46ed55bdd3419033108410c0fc", null ],
+    [ "abscissae", "a00018.html#a82e42b64483b51fcf767d9709206c1ef", null ]
 ];

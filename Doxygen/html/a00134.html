@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>gaussRadauMomentInversion.H File Reference</title>
+<title>populationBalanceModel Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -47,8 +47,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
-      <li class="current"><a href="files.html"><span>Files</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -69,8 +69,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="files.html"><span>File&#160;List</span></a></li>
-      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -104,52 +106,333 @@ $(document).ready(function(){initNavTree('a00134.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="a01110.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">gaussRadauMomentInversion.H File Reference</div>  </div>
+<div class="title">populationBalanceModel Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div class="dynheader">
-Include dependency graph for gaussRadauMomentInversion.H:</div>
+
+<p>Abstract class for the run-time selection of the population balance model.  
+ <a href="a00134.html#details">More...</a></p>
+<div class="dynheader">
+Inheritance diagram for populationBalanceModel:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00354.png" border="0" usemap="#gaussRadauMomentInversion_8H" alt=""/></div>
-<map name="gaussRadauMomentInversion_8H" id="gaussRadauMomentInversion_8H">
-<area shape="rect" id="node2" href="a00236.html" title="univariateMomentInversion.H" alt="" coords="15,80,209,107"/>
+<div class="center"><img src="a01111.png" border="0" usemap="#populationBalanceModel_inherit__map" alt="Inheritance graph"/></div>
+<map name="populationBalanceModel_inherit__map" id="populationBalanceModel_inherit__map">
+<area shape="rect" id="node2" href="a00174.html" title="univariatePopulationBalance" alt="" coords="5,80,199,107"/>
+<area shape="rect" id="node3" href="a00116.html" title="Disables the solution of the population balance model. " alt="" coords="223,80,373,107"/>
 </map>
-</div>
-</div><div class="textblock"><div class="dynheader">
-This graph shows which files directly or indirectly include this file:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00355.png" border="0" usemap="#gaussRadauMomentInversion_8Hdep" alt=""/></div>
-<map name="gaussRadauMomentInversion_8Hdep" id="gaussRadauMomentInversion_8Hdep">
-<area shape="rect" id="node2" href="a00133.html" title="gaussRadauMomentInversion.C" alt="" coords="5,80,220,107"/>
-</map>
-</div>
-</div>
-<p><a href="a00134_source.html">Go to the source code of this file.</a></p>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00027.html">gaussRadauMomentInversion</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs Gauss-Lobatto quadrature on a moment set with an even number of moments.  <a href="a00027.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a9723503cf97d2ad82b67092a7aa3e1f3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00134.html#a9723503cf97d2ad82b67092a7aa3e1f3">TypeName</a> (&quot;populationBalanceModel&quot;)</td></tr>
+<tr class="memdesc:a9723503cf97d2ad82b67092a7aa3e1f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#a9723503cf97d2ad82b67092a7aa3e1f3">More...</a><br /></td></tr>
+<tr class="separator:a9723503cf97d2ad82b67092a7aa3e1f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f8cc56b3b077604a6644432cf501cda"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00134.html#a7f8cc56b3b077604a6644432cf501cda">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00134.html">populationBalanceModel</a>, dictionary,(                                       const word &amp;name,                                       const dictionary &amp;dict,                                       const surfaceScalarField &amp;<a class="el" href="a00249.html#a1a97abcf6c141f539994c8a21c8daca7">phi</a>                       ),(name, dict, <a class="el" href="a00249.html#a1a97abcf6c141f539994c8a21c8daca7">phi</a>))</td></tr>
+<tr class="separator:a7f8cc56b3b077604a6644432cf501cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31d0f5b4494ff076cb81eed74ba4bce2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00134.html#a31d0f5b4494ff076cb81eed74ba4bce2">populationBalanceModel</a> (const word &amp;name, const dictionary &amp;dict, const surfaceScalarField &amp;<a class="el" href="a00249.html#a1a97abcf6c141f539994c8a21c8daca7">phi</a>)</td></tr>
+<tr class="memdesc:a31d0f5b4494ff076cb81eed74ba4bce2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#a31d0f5b4494ff076cb81eed74ba4bce2">More...</a><br /></td></tr>
+<tr class="separator:a31d0f5b4494ff076cb81eed74ba4bce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae05106936db1115c15304ded19972e3d"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00134.html#ae05106936db1115c15304ded19972e3d">~populationBalanceModel</a> ()</td></tr>
+<tr class="memdesc:ae05106936db1115c15304ded19972e3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#ae05106936db1115c15304ded19972e3d">More...</a><br /></td></tr>
+<tr class="separator:ae05106936db1115c15304ded19972e3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf73b8eb8622b96b9a7af30fcfe4544a"><td class="memItemLeft" align="right" valign="top">virtual scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00134.html#acf73b8eb8622b96b9a7af30fcfe4544a">realizableCo</a> ()=0</td></tr>
+<tr class="memdesc:acf73b8eb8622b96b9a7af30fcfe4544a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the maximum Courant number ensuring moment realizability.  <a href="#acf73b8eb8622b96b9a7af30fcfe4544a">More...</a><br /></td></tr>
+<tr class="separator:acf73b8eb8622b96b9a7af30fcfe4544a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacd6f92a174ec1ebe14983fc21ec498c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00134.html#aacd6f92a174ec1ebe14983fc21ec498c">solve</a> ()=0</td></tr>
+<tr class="memdesc:aacd6f92a174ec1ebe14983fc21ec498c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve population balance equation.  <a href="#aacd6f92a174ec1ebe14983fc21ec498c">More...</a><br /></td></tr>
+<tr class="separator:aacd6f92a174ec1ebe14983fc21ec498c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:a00249"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00249.html">Foam</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a9209244e0920b05f98597bf3d105149d"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00134.html">populationBalanceModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00134.html#a9209244e0920b05f98597bf3d105149d">New</a> (const word &amp;name, const dictionary &amp;dict, const surfaceScalarField &amp;<a class="el" href="a00249.html#a1a97abcf6c141f539994c8a21c8daca7">phi</a>)</td></tr>
+<tr class="memdesc:a9209244e0920b05f98597bf3d105149d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select null constructed.  <a href="#a9209244e0920b05f98597bf3d105149d">More...</a><br /></td></tr>
+<tr class="separator:a9209244e0920b05f98597bf3d105149d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a5828da03a859a3aaa358802cd2daf505"><td class="memItemLeft" align="right" valign="top">const surfaceScalarField &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00134.html#a5828da03a859a3aaa358802cd2daf505">phi_</a></td></tr>
+<tr class="memdesc:a5828da03a859a3aaa358802cd2daf505"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fluid-phase face-normal velocity.  <a href="#a5828da03a859a3aaa358802cd2daf505">More...</a><br /></td></tr>
+<tr class="separator:a5828da03a859a3aaa358802cd2daf505"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/momentInversion/univariate/basic/gaussRadauMomentInversion/gaussRadauMomentInversion.H">gaussRadauMomentInversion.H</a> </p>
+<div class="textblock"><p>Abstract class for the run-time selection of the population balance model. </p>
+<p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceModel/populationBalanceModel.H">populationBalanceModel.H</a> </li>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceModel/populationBalanceModel.C">populationBalanceModel.C</a> </li>
+</ul>
+</dd></dl>
 
-<p>Definition in file <a class="el" href="a00134_source.html">gaussRadauMomentInversion.H</a>.</p>
-</div></div><!-- contents -->
+<p>Definition at line <a class="el" href="a00495_source.html#l00051">51</a> of file <a class="el" href="a00495_source.html">populationBalanceModel.H</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a31d0f5b4494ff076cb81eed74ba4bce2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a00134.html">populationBalanceModel</a> </td>
+          <td>(</td>
+          <td class="paramtype">const word &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dictionary &amp;&#160;</td>
+          <td class="paramname"><em>dict</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const surfaceScalarField &amp;&#160;</td>
+          <td class="paramname"><em>phi</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct from components. </p>
+
+<p>Definition at line <a class="el" href="a00494_source.html#l00040">40</a> of file <a class="el" href="a00494_source.html">populationBalanceModel.C</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae05106936db1115c15304ded19972e3d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">~<a class="el" href="a00134.html">populationBalanceModel</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Destructor. </p>
+
+<p>Definition at line <a class="el" href="a00494_source.html#l00053">53</a> of file <a class="el" href="a00494_source.html">populationBalanceModel.C</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a9723503cf97d2ad82b67092a7aa3e1f3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TypeName </td>
+          <td>(</td>
+          <td class="paramtype">&quot;populationBalanceModel&quot;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Runtime type information. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7f8cc56b3b077604a6644432cf501cda"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">declareRunTimeSelectionTable </td>
+          <td>(</td>
+          <td class="paramtype">autoPtr&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="a00134.html">populationBalanceModel</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dictionary&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">(                                                                           const word &amp;name,                                                                           const dictionary &amp;dict,                                                                           const surfaceScalarField &amp;<a class="el" href="a00249.html#a1a97abcf6c141f539994c8a21c8daca7">phi</a>                                           )&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">(name, dict, <a class="el" href="a00249.html#a1a97abcf6c141f539994c8a21c8daca7">phi</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9209244e0920b05f98597bf3d105149d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Foam::autoPtr&lt; <a class="el" href="a00134.html">Foam::populationBalanceModel</a> &gt; New </td>
+          <td>(</td>
+          <td class="paramtype">const word &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dictionary &amp;&#160;</td>
+          <td class="paramname"><em>dict</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const surfaceScalarField &amp;&#160;</td>
+          <td class="paramname"><em>phi</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Select null constructed. </p>
+
+<p>Definition at line <a class="el" href="a00421_source.html#l00032">32</a> of file <a class="el" href="a00421_source.html">newPopulationBalanceModel.C</a>.</p>
+
+<p>References <a class="el" href="a00249_source.html#l00011">phi</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acf73b8eb8622b96b9a7af30fcfe4544a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual scalar realizableCo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the maximum Courant number ensuring moment realizability. </p>
+
+<p>Implemented in <a class="el" href="a00174.html#a5bb437cbddedbf3f4b27f0e5de4e442d">univariatePopulationBalance</a>, and <a class="el" href="a00116.html#a5bb437cbddedbf3f4b27f0e5de4e442d">noPopulationBalance</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aacd6f92a174ec1ebe14983fc21ec498c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void solve </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Solve population balance equation. </p>
+
+<p>Implemented in <a class="el" href="a00174.html#af7d39f0eac0af0ed5785935ac72a1e7d">univariatePopulationBalance</a>, and <a class="el" href="a00116.html#af7d39f0eac0af0ed5785935ac72a1e7d">noPopulationBalance</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a5828da03a859a3aaa358802cd2daf505"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const surfaceScalarField&amp; phi_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Fluid-phase face-normal velocity. </p>
+
+<p>Definition at line <a class="el" href="a00495_source.html#l00072">72</a> of file <a class="el" href="a00495_source.html">populationBalanceModel.H</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li><a class="el" href="a00495_source.html">populationBalanceModel.H</a></li>
+<li><a class="el" href="a00421_source.html">newPopulationBalanceModel.C</a></li>
+<li><a class="el" href="a00494_source.html">populationBalanceModel.C</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0b9bb76b72c90181149adc55e92e6ea3.html">momentInversion</a></li><li class="navelem"><a class="el" href="dir_224f5f7c837ec5f1a50cf8e5b44c5959.html">univariate</a></li><li class="navelem"><a class="el" href="dir_b57c68eea9442de1941a28876bed1be5.html">basic</a></li><li class="navelem"><a class="el" href="dir_f6b83f958e94be02670b20c6320e1d43.html">gaussRadauMomentInversion</a></li><li class="navelem"><a class="el" href="a00134.html">gaussRadauMomentInversion.H</a></li>
+    <li class="navelem"><a class="el" href="a00605.html">Foam</a></li><li class="navelem"><a class="el" href="a00134.html">populationBalanceModel</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

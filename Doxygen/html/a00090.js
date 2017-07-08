@@ -1,5 +1,12 @@
 var a00090 =
 [
-    [ "defineTypeNameAndDebug", "a00090.html#af835c9d013a20a975c6f4e57ee9149c8", null ],
-    [ "addToRunTimeSelectionTable", "a00090.html#ace2c634a7ff538fbb4744268b13a2c6a", null ]
+    [ "mixingKernel", "a00090.html#aaca5d9c330f9d405dbba4c0a005e67b2", null ],
+    [ "~mixingKernel", "a00090.html#a8187a8529b4c0530e7d8b8e65f567ae2", null ],
+    [ "TypeName", "a00090.html#a3b42ca04bac2225aebf334ca0d1930d3", null ],
+    [ "declareRunTimeSelectionTable", "a00090.html#aae2fd47362b83e744693764fac06c525", null ],
+    [ "New", "a00090.html#add8b3288d1baf0dccf98ad50e9c1a689", null ],
+    [ "K", "a00090.html#a6ab81f0139b713a05fb0ebe91fc54ed5", null ],
+    [ "dict_", "a00090.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a", null ],
+    [ "Cphi_", "a00090.html#a88b4336f953c90f0d28a80db8fa28857", null ],
+    [ "Cmixing_", "a00090.html#a1807597980604a41ccdbd2b34f9f4479", null ]
 ];

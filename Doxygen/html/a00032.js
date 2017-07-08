@@ -1,5 +1,10 @@
 var a00032 =
 [
-    [ "iNew", "a00032.html#a0378f00790de3521807ef30a7b9cd294", null ],
-    [ "operator()", "a00032.html#a70e096bade6ebcd0162ee21bb0c74507", null ]
+    [ "diffusionModel", "a00032.html#a9ddf42daebca521ed9b1836083a7c90a", null ],
+    [ "~diffusionModel", "a00032.html#af2348e708346160fd55cb63f0a48dfa7", null ],
+    [ "TypeName", "a00032.html#aac5e53b16b5d306f767a3ac9c82018fe", null ],
+    [ "declareRunTimeSelectionTable", "a00032.html#aa29c65576a34ab15da2f135cfb51cd12", null ],
+    [ "New", "a00032.html#a9f9abf14e0f01fcbeb8b64ab565b8df5", null ],
+    [ "momentDiff", "a00032.html#a5b7c21e0d26e0f2c3f207a1a6929fd6d", null ],
+    [ "dict_", "a00032.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a", null ]
 ];

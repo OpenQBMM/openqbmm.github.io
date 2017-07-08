@@ -1,5 +1,7 @@
 var a00135 =
 [
-    [ "defineTypeNameAndDebug", "a00135.html#a808c3e596bb1cee3b5e795d38419b367", null ],
-    [ "defineRunTimeSelectionTable", "a00135.html#a7fcd4c8a5852e11ff67830a07a4cfe7b", null ]
+    [ "powerLawBreakup", "a00135.html#a11045d68f7b22d71a19150334861de52", null ],
+    [ "~powerLawBreakup", "a00135.html#acfdcf8ac936fab910b034c20837198f6", null ],
+    [ "TypeName", "a00135.html#ab1fbb32a962ed7ca607b766ec813333b", null ],
+    [ "Kb", "a00135.html#a1e8a125530058d3c06bc7ca11c10c1e2", null ]
 ];

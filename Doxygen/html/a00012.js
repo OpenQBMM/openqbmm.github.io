@@ -1,10 +1,10 @@
 var a00012 =
 [
-    [ "daughterDistribution", "a00012.html#a24ef98904209a2fdb76d456f36fb7433", null ],
-    [ "~daughterDistribution", "a00012.html#a82d94b9042834125e095b863b9b1d2b2", null ],
-    [ "TypeName", "a00012.html#a82911bf276379ac9d1978f3e59b5a2da", null ],
-    [ "declareRunTimeSelectionTable", "a00012.html#a233d1b6be37d99eb2ef9e3f3431d6e18", null ],
-    [ "New", "a00012.html#aae6ec3b92070a02ab63d7193760e4cb4", null ],
-    [ "mD", "a00012.html#af9150e5e771caf94839759d56d04e458", null ],
-    [ "dict_", "a00012.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a", null ]
+    [ "blendingMethod", "a00012.html#af1b1094fa2a867b01c841ea956905237", null ],
+    [ "~blendingMethod", "a00012.html#abf63a6ef76e444442518963896048ef8", null ],
+    [ "TypeName", "a00012.html#a1c3033ffacce094c1fe820f53f80a6e0", null ],
+    [ "declareRunTimeSelectionTable", "a00012.html#a1119d7765ea87401108c8fcc62ba7b19", null ],
+    [ "New", "a00012.html#afbdcce2767aca7cef1b3dbc9d16af6e8", null ],
+    [ "f1", "a00012.html#aab087ff1857371ba71a25fc1c29f4f80", null ],
+    [ "f2", "a00012.html#ae81535e367de29715b8493aa1ed61b1d", null ]
 ];

@@ -1,17 +1,12 @@
 var a00057 =
 [
-    [ "quadratureApproximation", "a00057.html#a36e6d3192d1872bbc6b0cffd5872d86f", null ],
-    [ "~quadratureApproximation", "a00057.html#adb1b16ba7fd2128342b886ba9fce7537", null ],
-    [ "name", "a00057.html#a2456166dce07bb1aa57f90fba72ba551", null ],
-    [ "momentFieldInverter", "a00057.html#ab35707f48144b6e8c377d530fda6958e", null ],
-    [ "nodes", "a00057.html#a91c350105601a2749fccc0b46064c670", null ],
-    [ "moments", "a00057.html#abec4ab79350278c1e96c53a7a3211cb2", null ],
-    [ "moments", "a00057.html#a7ea917ef655d7358597ba9ef187a6333", null ],
-    [ "nDimensions", "a00057.html#ae4410b8afdbd8d2d0aef13f1944201a3", null ],
-    [ "nMoments", "a00057.html#a111ae2fd86df6aa54d903019cd7032f6", null ],
-    [ "updateQuadrature", "a00057.html#ac4aec727fcdd873ea78763aaeeb86e14", null ],
-    [ "updateMoments", "a00057.html#ab46f111920d16a088f2fddf21d658315", null ],
-    [ "updateLocalMoments", "a00057.html#a57361ed63aa05333406727264ae648b6", null ],
-    [ "updateLocalQuadrature", "a00057.html#a177dde920f33639945218c2c55bc83f8", null ],
-    [ "propertiesName", "a00057.html#a1bd8bb0fb60b71d271b25c14b5d66b63", null ]
+    [ "granularPressureModel", "a00057.html#a5bf40c505c80f8322a78fe9318dec694", null ],
+    [ "~granularPressureModel", "a00057.html#af438d46cca49e7b2ba5ac4705820ac64", null ],
+    [ "TypeName", "a00057.html#a2aba49360c7f76bb36eb0020006414c4", null ],
+    [ "declareRunTimeSelectionTable", "a00057.html#af356215ceaf906c7c7a07fc6449f9314", null ],
+    [ "New", "a00057.html#a930e3faa668f26dba20a832ed632f12a", null ],
+    [ "granularPressureCoeff", "a00057.html#aaf24def5ff309c8873a3c69d6dd62edf", null ],
+    [ "granularPressureCoeffPrime", "a00057.html#afd267a65982e82b749a6e5029fd4c9ce", null ],
+    [ "read", "a00057.html#abcf7aafd601a940195284bc91610bb08", null ],
+    [ "dict_", "a00057.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a", null ]
 ];

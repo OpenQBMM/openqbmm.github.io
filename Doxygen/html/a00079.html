@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>basicFieldMomentInversion.H File Reference</title>
+<title>liftModel Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -47,8 +47,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
-      <li class="current"><a href="files.html"><span>Files</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -69,8 +69,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="files.html"><span>File&#160;List</span></a></li>
-      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -104,55 +106,453 @@ $(document).ready(function(){initNavTree('a00079.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="a01061.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">basicFieldMomentInversion.H File Reference</div>  </div>
+<div class="title">liftModel Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div class="dynheader">
-Include dependency graph for basicFieldMomentInversion.H:</div>
+<div class="dynheader">
+Inheritance diagram for liftModel:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00272.png" border="0" usemap="#basicFieldMomentInversion_8H" alt=""/></div>
-<map name="basicFieldMomentInversion_8H" id="basicFieldMomentInversion_8H">
-<area shape="rect" id="node2" href="a00121.html" title="fieldMomentInversion.H" alt="" coords="5,80,167,107"/>
-<area shape="rect" id="node3" href="a00239.html" title="univariateMomentSet.H" alt="" coords="125,155,285,181"/>
-<area shape="rect" id="node4" href="a00236.html" title="univariateMomentInversion.H" alt="" coords="242,80,437,107"/>
+<div class="center"><img src="a01062.png" border="0" usemap="#liftModel_inherit__map" alt="Inheritance graph"/></div>
+<map name="liftModel_inherit__map" id="liftModel_inherit__map">
+<area shape="rect" id="node2" href="a00025.html" title="Constant coefficient lift model. " alt="" coords="5,80,156,107"/>
+<area shape="rect" id="node3" href="a00078.html" title="Lift model of Legendre and Magnaudet. " alt="" coords="180,80,328,107"/>
+<area shape="rect" id="node4" href="a00102.html" title="Lift model of Moraga et al. " alt="" coords="353,80,422,107"/>
+<area shape="rect" id="node5" href="a00110.html" title="noLift" alt="" coords="446,80,499,107"/>
+<area shape="rect" id="node6" href="a00157.html" title="Lift model of Tomiyama et al. " alt="" coords="523,80,627,107"/>
+<area shape="rect" id="node7" href="a00181.html" title="wallDamped" alt="" coords="651,80,750,107"/>
 </map>
-</div>
-</div><div class="textblock"><div class="dynheader">
-This graph shows which files directly or indirectly include this file:</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for liftModel:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00273.png" border="0" usemap="#basicFieldMomentInversion_8Hdep" alt=""/></div>
-<map name="basicFieldMomentInversion_8Hdep" id="basicFieldMomentInversion_8Hdep">
-<area shape="rect" id="node2" href="a00078.html" title="basicFieldMomentInversion.C" alt="" coords="5,80,204,107"/>
-<area shape="rect" id="node3" href="a00233.html" title="univariateMomentAdvection.H" alt="" coords="227,80,427,107"/>
+<div class="center"><img src="a01063.png" border="0" usemap="#liftModel_coll__map" alt="Collaboration graph"/></div>
+<map name="liftModel_coll__map" id="liftModel_coll__map">
+<area shape="rect" id="node2" href="a00130.html" title="phasePair" alt="" coords="5,5,88,32"/>
 </map>
-</div>
-</div>
-<p><a href="a00079_source.html">Go to the source code of this file.</a></p>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00004.html">basicFieldMomentInversion</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invert moment a volUnivariateMomentFieldSet using basic quadrature inversion.  <a href="a00004.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a84a6419c00a3e5ce648c4a205646990d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00079.html#a84a6419c00a3e5ce648c4a205646990d">TypeName</a> (&quot;liftModel&quot;)</td></tr>
+<tr class="memdesc:a84a6419c00a3e5ce648c4a205646990d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#a84a6419c00a3e5ce648c4a205646990d">More...</a><br /></td></tr>
+<tr class="separator:a84a6419c00a3e5ce648c4a205646990d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a248d27182d78249da56e16a1caded99c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00079.html#a248d27182d78249da56e16a1caded99c">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00079.html">liftModel</a>, dictionary,(                                                       const dictionary &amp;dict,                                                       const <a class="el" href="a00130.html">phasePair</a> &amp;pair                                       ),(dict, pair))</td></tr>
+<tr class="separator:a248d27182d78249da56e16a1caded99c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abebc651db42a156f1d5510f17d220e12"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00079.html#abebc651db42a156f1d5510f17d220e12">liftModel</a> (const dictionary &amp;dict, const <a class="el" href="a00130.html">phasePair</a> &amp;pair)</td></tr>
+<tr class="memdesc:abebc651db42a156f1d5510f17d220e12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from a dictionary and a phase pair.  <a href="#abebc651db42a156f1d5510f17d220e12">More...</a><br /></td></tr>
+<tr class="separator:abebc651db42a156f1d5510f17d220e12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e3eccdec8e6ad676b2bb5c71250c4ce"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00079.html#a2e3eccdec8e6ad676b2bb5c71250c4ce">~liftModel</a> ()</td></tr>
+<tr class="memdesc:a2e3eccdec8e6ad676b2bb5c71250c4ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a2e3eccdec8e6ad676b2bb5c71250c4ce">More...</a><br /></td></tr>
+<tr class="separator:a2e3eccdec8e6ad676b2bb5c71250c4ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acddbc179131057c799faf232a8c540d7"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00079.html#acddbc179131057c799faf232a8c540d7">Cl</a> (const label nodei, const label nodej) const  =0</td></tr>
+<tr class="memdesc:acddbc179131057c799faf232a8c540d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return lift coefficient.  <a href="#acddbc179131057c799faf232a8c540d7">More...</a><br /></td></tr>
+<tr class="separator:acddbc179131057c799faf232a8c540d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d6e8048fc3bc74a8bae988791e3caef"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volVectorField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00079.html#a9d6e8048fc3bc74a8bae988791e3caef">Fi</a> (const label nodei, const label nodej) const </td></tr>
+<tr class="memdesc:a9d6e8048fc3bc74a8bae988791e3caef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return phase-intensive lift force.  <a href="#a9d6e8048fc3bc74a8bae988791e3caef">More...</a><br /></td></tr>
+<tr class="separator:a9d6e8048fc3bc74a8bae988791e3caef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c0431dc66188725d8eb8e4522f38822"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volVectorField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00079.html#a2c0431dc66188725d8eb8e4522f38822">F</a> (const label nodei, const label nodej) const </td></tr>
+<tr class="memdesc:a2c0431dc66188725d8eb8e4522f38822"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return lift force.  <a href="#a2c0431dc66188725d8eb8e4522f38822">More...</a><br /></td></tr>
+<tr class="separator:a2c0431dc66188725d8eb8e4522f38822"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa75a4e92f8330437da8589c553c83a25"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; surfaceScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00079.html#aa75a4e92f8330437da8589c553c83a25">Ff</a> (const label nodei, const label nodej) const </td></tr>
+<tr class="memdesc:aa75a4e92f8330437da8589c553c83a25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return face lift force.  <a href="#aa75a4e92f8330437da8589c553c83a25">More...</a><br /></td></tr>
+<tr class="separator:aa75a4e92f8330437da8589c553c83a25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:a00249"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00249.html">Foam</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a15fc4d77eaee8828fa7f32cab598e0e9"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00079.html">liftModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00079.html#a15fc4d77eaee8828fa7f32cab598e0e9">New</a> (const dictionary &amp;dict, const <a class="el" href="a00130.html">phasePair</a> &amp;pair)</td></tr>
+<tr class="separator:a15fc4d77eaee8828fa7f32cab598e0e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a6307eb221338d4af3a7880e0540b6ffc"><td class="memItemLeft" align="right" valign="top">static const dimensionSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00079.html#a6307eb221338d4af3a7880e0540b6ffc">dimF</a></td></tr>
+<tr class="memdesc:a6307eb221338d4af3a7880e0540b6ffc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Force dimensions.  <a href="#a6307eb221338d4af3a7880e0540b6ffc">More...</a><br /></td></tr>
+<tr class="separator:a6307eb221338d4af3a7880e0540b6ffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:afd0567a30e2ea4703b446fd80ca5ec0b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00130.html">phasePair</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00079.html#afd0567a30e2ea4703b446fd80ca5ec0b">pair_</a></td></tr>
+<tr class="memdesc:afd0567a30e2ea4703b446fd80ca5ec0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phase pair.  <a href="#afd0567a30e2ea4703b446fd80ca5ec0b">More...</a><br /></td></tr>
+<tr class="separator:afd0567a30e2ea4703b446fd80ca5ec0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="https://github.com/OpenQBMM/OpenQBMM/tree/development/OpenQBMM/src/quadratureMethods/fieldMomentInversion/basicFieldMomentInversion/basicFieldMomentInversion.H">basicFieldMomentInversion.H</a> </p>
+<div class="textblock"><p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/interfacialModels/liftModels/liftModel/liftModel.H">liftModel.H</a> </li>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/interfacialModels/liftModels/liftModel/liftModel.C">liftModel.C</a> </li>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/interfacialModels/liftModels/liftModel/newLiftModel.C">newLiftModel.C</a> </li>
+</ul>
+</dd></dl>
 
-<p>Definition in file <a class="el" href="a00079_source.html">basicFieldMomentInversion.H</a>.</p>
-</div></div><!-- contents -->
+<p>Definition at line <a class="el" href="a00352_source.html#l00054">54</a> of file <a class="el" href="a00352_source.html">liftModel.H</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="abebc651db42a156f1d5510f17d220e12"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a00079.html">liftModel</a> </td>
+          <td>(</td>
+          <td class="paramtype">const dictionary &amp;&#160;</td>
+          <td class="paramname"><em>dict</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="a00130.html">phasePair</a> &amp;&#160;</td>
+          <td class="paramname"><em>pair</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct from a dictionary and a phase pair. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2e3eccdec8e6ad676b2bb5c71250c4ce"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual ~<a class="el" href="a00079.html">liftModel</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Destructor. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a84a6419c00a3e5ce648c4a205646990d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TypeName </td>
+          <td>(</td>
+          <td class="paramtype">&quot;liftModel&quot;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Runtime type information. </p>
+
+</div>
+</div>
+<a class="anchor" id="a248d27182d78249da56e16a1caded99c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">declareRunTimeSelectionTable </td>
+          <td>(</td>
+          <td class="paramtype">autoPtr&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="a00079.html">liftModel</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dictionary&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">(                                                                                                           const dictionary &amp;dict,                                                                                                           const <a class="el" href="a00130.html">phasePair</a> &amp;pair                                                                           )&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">(dict, pair)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a15fc4d77eaee8828fa7f32cab598e0e9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static autoPtr&lt;<a class="el" href="a00079.html">liftModel</a>&gt; New </td>
+          <td>(</td>
+          <td class="paramtype">const dictionary &amp;&#160;</td>
+          <td class="paramname"><em>dict</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="a00130.html">phasePair</a> &amp;&#160;</td>
+          <td class="paramname"><em>pair</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acddbc179131057c799faf232a8c540d7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual tmp&lt;volScalarField&gt; Cl </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodei</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodej</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return lift coefficient. </p>
+
+<p>Implemented in <a class="el" href="a00078.html#a7ca2eeaa963ec216ce5478271a682ea5">LegendreMagnaudet</a>, <a class="el" href="a00102.html#a7ca2eeaa963ec216ce5478271a682ea5">Moraga</a>, <a class="el" href="a00157.html#a7ca2eeaa963ec216ce5478271a682ea5">TomiyamaLift</a>, <a class="el" href="a00181.html#a7ca2eeaa963ec216ce5478271a682ea5">wallDamped</a>, <a class="el" href="a00025.html#a7ca2eeaa963ec216ce5478271a682ea5">constantLiftCoefficient</a>, and <a class="el" href="a00110.html#a7ca2eeaa963ec216ce5478271a682ea5">noLift</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9d6e8048fc3bc74a8bae988791e3caef"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual tmp&lt;volVectorField&gt; Fi </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodei</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodej</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return phase-intensive lift force. </p>
+
+<p>Reimplemented in <a class="el" href="a00181.html#a5c93cd0a04c3670c4213435e65985612">wallDamped</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2c0431dc66188725d8eb8e4522f38822"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual tmp&lt;volVectorField&gt; F </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodei</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodej</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return lift force. </p>
+
+<p>Reimplemented in <a class="el" href="a00181.html#a8e0215a73ed9f69baeea60de4cddff0d">wallDamped</a>, and <a class="el" href="a00110.html#a8e0215a73ed9f69baeea60de4cddff0d">noLift</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa75a4e92f8330437da8589c553c83a25"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual tmp&lt;surfaceScalarField&gt; Ff </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodei</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodej</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return face lift force. </p>
+
+<p>Reimplemented in <a class="el" href="a00181.html#a738f1f0dcfedfed552dc8a9aa6c89c5e">wallDamped</a>, and <a class="el" href="a00110.html#a738f1f0dcfedfed552dc8a9aa6c89c5e">noLift</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="afd0567a30e2ea4703b446fd80ca5ec0b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="a00130.html">phasePair</a>&amp; pair_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Phase pair. </p>
+
+<p>Definition at line <a class="el" href="a00352_source.html#l00061">61</a> of file <a class="el" href="a00352_source.html">liftModel.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6307eb221338d4af3a7880e0540b6ffc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const dimensionSet dimF</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Force dimensions. </p>
+
+<p>Definition at line <a class="el" href="a00352_source.html#l00088">88</a> of file <a class="el" href="a00352_source.html">liftModel.H</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="a00352_source.html">liftModel.H</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_db960164ea42c42a422c08f487d84e08.html">fieldMomentInversion</a></li><li class="navelem"><a class="el" href="dir_bc753f497ce40b0e1177248f168089de.html">basicFieldMomentInversion</a></li><li class="navelem"><a class="el" href="a00079.html">basicFieldMomentInversion.H</a></li>
+    <li class="navelem"><a class="el" href="a00605.html">Foam</a></li><li class="navelem"><a class="el" href="a00079.html">liftModel</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
