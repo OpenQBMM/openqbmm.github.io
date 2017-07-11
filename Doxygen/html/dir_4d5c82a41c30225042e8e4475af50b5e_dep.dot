@@ -1,0 +1,12 @@
+digraph "Zuber" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_67633925abda52132b1de32dfb52dccd {
+    graph [ bgcolor="#ddddee", pencolor="black", label="virtualMassModels" fontname="Helvetica", fontsize="10", URL="dir_67633925abda52132b1de32dfb52dccd.html"]
+  dir_4d5c82a41c30225042e8e4475af50b5e [shape=box, label="Zuber", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_4d5c82a41c30225042e8e4475af50b5e.html"];
+  }
+  dir_82372d258176b921c12c1576275e49ce [shape=box label="virtualMassModel" URL="dir_82372d258176b921c12c1576275e49ce.html"];
+  dir_4d5c82a41c30225042e8e4475af50b5e->dir_82372d258176b921c12c1576275e49ce [headlabel="1", labeldistance=1.5 headhref="dir_000217_000152.html"];
+}

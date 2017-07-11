@@ -1,0 +1,13 @@
+<map id="nRealizableMoments" name="nRealizableMoments">
+<area shape="rect" id="node2" href="$a00049.html#ae11f16abe217f76d4e7b5e98e47b3ae1" title="Calculates the number of quadrature nodes. " alt="" coords="221,5,425,47"/>
+<area shape="rect" id="node3" href="$a00048.html#ae11f16abe217f76d4e7b5e98e47b3ae1" title="Calculates the number of quadrature nodes. " alt="" coords="211,71,436,112"/>
+<area shape="rect" id="node4" href="$a00050.html#ae11f16abe217f76d4e7b5e98e47b3ae1" title="Calculates the number of quadrature nodes. " alt="" coords="201,136,445,177"/>
+<area shape="rect" id="node5" href="$a00188.html#a2ff1f21f64db3ca3c70b31e7c3a15025" title="Reconstructs zeta_k. " alt="" coords="224,202,423,229"/>
+<area shape="rect" id="node6" href="$a00040.html#a45d56bb3ba42ace7670d4c68707abf5d" title="Invert moments to find weight, abscissae and sigma. " alt="" coords="493,271,717,312"/>
+<area shape="rect" id="node7" href="$a00170.html#a54a602fe9e0f6b808bf432ed0326ac46" title="Return true if the moment set is on the boundary of the moment space. " alt="" coords="226,303,421,330"/>
+<area shape="rect" id="node8" href="$a00188.html#a57ca278410d45b803a532bfc4a1e99e5" title="Applies additional limitation to zeta_k, if needed. " alt="" coords="245,354,402,381"/>
+<area shape="rect" id="node9" href="$a00047.html#abee7f03ce3d0afa1dbc462ff6da2fff9" title="Compute the last moment from starred moments. " alt="" coords="225,405,422,431"/>
+<area shape="rect" id="node10" href="$a00010.html#abee7f03ce3d0afa1dbc462ff6da2fff9" title="Compute the last moment from starred moments. " alt="" coords="235,455,412,482"/>
+<area shape="rect" id="node11" href="$a00083.html#abee7f03ce3d0afa1dbc462ff6da2fff9" title="Compute the last moment from starred moments. " alt="" coords="218,506,429,533"/>
+<area shape="rect" id="node12" href="$a00083.html#a479ec71576844909c5c0756350c24e2f" title="Compute maximum value of sigma to ensure realizability. " alt="" coords="236,557,411,599"/>
+</map>

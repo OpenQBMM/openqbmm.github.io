@@ -1,0 +1,12 @@
+digraph "VakhrushevEfremov" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_59d90556c1e3b97d9ebc5928eb1b9511 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="aspectRatioModels" fontname="Helvetica", fontsize="10", URL="dir_59d90556c1e3b97d9ebc5928eb1b9511.html"]
+  dir_867229523d1829e2dc8c1c7b3970daa6 [shape=box, label="VakhrushevEfremov", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_867229523d1829e2dc8c1c7b3970daa6.html"];
+  }
+  dir_4601ad272827fecfb5af68df5b31db5d [shape=box label="aspectRatioModel" URL="dir_4601ad272827fecfb5af68df5b31db5d.html"];
+  dir_867229523d1829e2dc8c1c7b3970daa6->dir_4601ad272827fecfb5af68df5b31db5d [headlabel="1", labeldistance=1.5 headhref="dir_000209_000017.html"];
+}

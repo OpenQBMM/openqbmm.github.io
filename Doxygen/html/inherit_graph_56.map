@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$a00168.html" title="Abstract class for the advection of a univariate moment set. " alt="" coords="5,56,193,83"/>
+<area shape="rect" id="node2" href="$a00042.html" title="First&#45;order univariate moment advection with kinetic scheme. " alt="" coords="241,5,357,32"/>
+<area shape="rect" id="node3" href="$a00104.html" title="Empty scheme for cases without moment advection. " alt="" coords="251,56,348,83"/>
+<area shape="rect" id="node4" href="$a00188.html" title="Second&#45;order univariate moment advection with zeta kinetic scheme. " alt="" coords="275,107,323,133"/>
+</map>

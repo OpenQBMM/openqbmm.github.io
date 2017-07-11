@@ -1,0 +1,12 @@
+digraph "Lamb" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_67633925abda52132b1de32dfb52dccd {
+    graph [ bgcolor="#ddddee", pencolor="black", label="virtualMassModels" fontname="Helvetica", fontsize="10", URL="dir_67633925abda52132b1de32dfb52dccd.html"]
+  dir_14da37c10f0eb0351f9d543571ce18af [shape=box, label="Lamb", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_14da37c10f0eb0351f9d543571ce18af.html"];
+  }
+  dir_82372d258176b921c12c1576275e49ce [shape=box label="virtualMassModel" URL="dir_82372d258176b921c12c1576275e49ce.html"];
+  dir_14da37c10f0eb0351f9d543571ce18af->dir_82372d258176b921c12c1576275e49ce [headlabel="1", labeldistance=1.5 headhref="dir_000118_000152.html"];
+}

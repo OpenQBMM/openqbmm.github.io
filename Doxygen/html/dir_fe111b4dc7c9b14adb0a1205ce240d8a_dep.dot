@@ -1,0 +1,12 @@
+digraph "SchillerNaumann" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c12715deda8d46eba24a898350c37162 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="dragModels" fontname="Helvetica", fontsize="10", URL="dir_c12715deda8d46eba24a898350c37162.html"]
+  dir_fe111b4dc7c9b14adb0a1205ce240d8a [shape=box, label="SchillerNaumann", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_fe111b4dc7c9b14adb0a1205ce240d8a.html"];
+  }
+  dir_c9718ac6a53fe2aa2c810e65c693ba50 [shape=box label="dragModel" URL="dir_c9718ac6a53fe2aa2c810e65c693ba50.html"];
+  dir_fe111b4dc7c9b14adb0a1205ce240d8a->dir_c9718ac6a53fe2aa2c810e65c693ba50 [headlabel="1", labeldistance=1.5 headhref="dir_000185_000073.html"];
+}

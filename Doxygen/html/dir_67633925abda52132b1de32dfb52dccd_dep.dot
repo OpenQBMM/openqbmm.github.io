@@ -1,0 +1,22 @@
+digraph "virtualMassModels" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a67881d67603c1140e6c8a3150cfe24f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="interfacialModels" fontname="Helvetica", fontsize="10", URL="dir_a67881d67603c1140e6c8a3150cfe24f.html"]
+  subgraph clusterdir_67633925abda52132b1de32dfb52dccd {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_67633925abda52132b1de32dfb52dccd.html"];
+    dir_67633925abda52132b1de32dfb52dccd [shape=plaintext label="virtualMassModels"];
+    dir_c265bdf716b6d0e7dec0e129d7838fda [shape=box label="constantVirtualMassCoefficient" color="black" fillcolor="white" style="filled" URL="dir_c265bdf716b6d0e7dec0e129d7838fda.html"];
+    dir_14da37c10f0eb0351f9d543571ce18af [shape=box label="Lamb" color="black" fillcolor="white" style="filled" URL="dir_14da37c10f0eb0351f9d543571ce18af.html"];
+    dir_b71bccbf15aae6d3e9b21bbdbe2e8be4 [shape=box label="noVirtualMass" color="black" fillcolor="white" style="filled" URL="dir_b71bccbf15aae6d3e9b21bbdbe2e8be4.html"];
+    dir_82372d258176b921c12c1576275e49ce [shape=box label="virtualMassModel" color="black" fillcolor="white" style="filled" URL="dir_82372d258176b921c12c1576275e49ce.html"];
+    dir_4d5c82a41c30225042e8e4475af50b5e [shape=box label="Zuber" color="black" fillcolor="white" style="filled" URL="dir_4d5c82a41c30225042e8e4475af50b5e.html"];
+  }
+  }
+  dir_14da37c10f0eb0351f9d543571ce18af->dir_82372d258176b921c12c1576275e49ce [headlabel="1", labeldistance=1.5 headhref="dir_000118_000152.html"];
+  dir_b71bccbf15aae6d3e9b21bbdbe2e8be4->dir_82372d258176b921c12c1576275e49ce [headlabel="1", labeldistance=1.5 headhref="dir_000169_000152.html"];
+  dir_c265bdf716b6d0e7dec0e129d7838fda->dir_82372d258176b921c12c1576275e49ce [headlabel="1", labeldistance=1.5 headhref="dir_000055_000152.html"];
+  dir_4d5c82a41c30225042e8e4475af50b5e->dir_82372d258176b921c12c1576275e49ce [headlabel="1", labeldistance=1.5 headhref="dir_000217_000152.html"];
+}

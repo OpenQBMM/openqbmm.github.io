@@ -1,0 +1,28 @@
+digraph "liftModels" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a67881d67603c1140e6c8a3150cfe24f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="interfacialModels" fontname="Helvetica", fontsize="10", URL="dir_a67881d67603c1140e6c8a3150cfe24f.html"]
+  subgraph clusterdir_9ef57d7ea63aa964b2b216d2f1462035 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_9ef57d7ea63aa964b2b216d2f1462035.html"];
+    dir_9ef57d7ea63aa964b2b216d2f1462035 [shape=plaintext label="liftModels"];
+    dir_bb91c3bb28565dc73e7964313e38b4c6 [shape=box label="constantLiftCoefficient" color="black" fillcolor="white" style="filled" URL="dir_bb91c3bb28565dc73e7964313e38b4c6.html"];
+    dir_17e4c03e73b617950c6c03a66faeab7b [shape=box label="LegendreMagnaudet" color="black" fillcolor="white" style="filled" URL="dir_17e4c03e73b617950c6c03a66faeab7b.html"];
+    dir_d58027bd0287182b59a4669c44a2f50c [shape=box label="liftModel" color="black" fillcolor="white" style="filled" URL="dir_d58027bd0287182b59a4669c44a2f50c.html"];
+    dir_087883fef61783ba9953f7ac8782fd6e [shape=box label="Moraga" color="black" fillcolor="white" style="filled" URL="dir_087883fef61783ba9953f7ac8782fd6e.html"];
+    dir_84fe602234aa6b3441b1710e689bc434 [shape=box label="noLift" color="black" fillcolor="white" style="filled" URL="dir_84fe602234aa6b3441b1710e689bc434.html"];
+    dir_9820ea6ac13e93385ebb011bc9f33c2c [shape=box label="TomiyamaLift" color="black" fillcolor="white" style="filled" URL="dir_9820ea6ac13e93385ebb011bc9f33c2c.html"];
+    dir_4973ef30a1450d77e57497887341b6d1 [shape=box label="wallDampedLift" color="black" fillcolor="white" style="filled" URL="dir_4973ef30a1450d77e57497887341b6d1.html"];
+  }
+  }
+  dir_6c6a5dff9952f963c677507000142762 [shape=box label="wallDampingModels" color="red" URL="dir_6c6a5dff9952f963c677507000142762.html"];
+  dir_4973ef30a1450d77e57497887341b6d1->dir_6c6a5dff9952f963c677507000142762 [headlabel="1", labeldistance=1.5 headhref="dir_000211_000056.html"];
+  dir_4973ef30a1450d77e57497887341b6d1->dir_d58027bd0287182b59a4669c44a2f50c [headlabel="1", labeldistance=1.5 headhref="dir_000211_000120.html"];
+  dir_17e4c03e73b617950c6c03a66faeab7b->dir_d58027bd0287182b59a4669c44a2f50c [headlabel="1", labeldistance=1.5 headhref="dir_000119_000120.html"];
+  dir_84fe602234aa6b3441b1710e689bc434->dir_d58027bd0287182b59a4669c44a2f50c [headlabel="1", labeldistance=1.5 headhref="dir_000161_000120.html"];
+  dir_087883fef61783ba9953f7ac8782fd6e->dir_d58027bd0287182b59a4669c44a2f50c [headlabel="1", labeldistance=1.5 headhref="dir_000140_000120.html"];
+  dir_bb91c3bb28565dc73e7964313e38b4c6->dir_d58027bd0287182b59a4669c44a2f50c [headlabel="1", labeldistance=1.5 headhref="dir_000052_000120.html"];
+  dir_9820ea6ac13e93385ebb011bc9f33c2c->dir_d58027bd0287182b59a4669c44a2f50c [headlabel="1", labeldistance=1.5 headhref="dir_000198_000120.html"];
+}

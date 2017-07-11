@@ -1,0 +1,5 @@
+<map id="wallDampingModel" name="wallDampingModel">
+<area shape="rect" id="node3" href="$a00068.html" title="interpolated" alt="" coords="5,155,97,181"/>
+<area shape="rect" id="node4" href="$a00120.html" title="noWallDamping" alt="" coords="121,155,240,181"/>
+<area shape="rect" id="node2" href="$a00183.html" title="A class which provides on&#45;demand creation and caching of wall distance and wall normal fields for use..." alt="" coords="40,5,191,32"/>
+</map>

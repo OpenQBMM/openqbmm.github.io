@@ -1,0 +1,24 @@
+digraph "aspectRatioModels" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a67881d67603c1140e6c8a3150cfe24f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="interfacialModels" fontname="Helvetica", fontsize="10", URL="dir_a67881d67603c1140e6c8a3150cfe24f.html"]
+  subgraph clusterdir_59d90556c1e3b97d9ebc5928eb1b9511 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_59d90556c1e3b97d9ebc5928eb1b9511.html"];
+    dir_59d90556c1e3b97d9ebc5928eb1b9511 [shape=plaintext label="aspectRatioModels"];
+    dir_4601ad272827fecfb5af68df5b31db5d [shape=box label="aspectRatioModel" color="black" fillcolor="white" style="filled" URL="dir_4601ad272827fecfb5af68df5b31db5d.html"];
+    dir_50cd43cd9c7867b98d929baddbb33d15 [shape=box label="constantAspectRatio" color="black" fillcolor="white" style="filled" URL="dir_50cd43cd9c7867b98d929baddbb33d15.html"];
+    dir_392713a651c03d26e7715372f21bbd7a [shape=box label="TomiyamaAspectRatio" color="black" fillcolor="white" style="filled" URL="dir_392713a651c03d26e7715372f21bbd7a.html"];
+    dir_867229523d1829e2dc8c1c7b3970daa6 [shape=box label="VakhrushevEfremov" color="black" fillcolor="white" style="filled" URL="dir_867229523d1829e2dc8c1c7b3970daa6.html"];
+    dir_d9944119f0840737b36e62b433360951 [shape=box label="Wellek" color="black" fillcolor="white" style="filled" URL="dir_d9944119f0840737b36e62b433360951.html"];
+  }
+  }
+  dir_c87ebd68b8c9cebbee78253a22e7f57c [shape=box label="wallDependentModel" URL="dir_c87ebd68b8c9cebbee78253a22e7f57c.html"];
+  dir_392713a651c03d26e7715372f21bbd7a->dir_867229523d1829e2dc8c1c7b3970daa6 [headlabel="1", labeldistance=1.5 headhref="dir_000196_000209.html"];
+  dir_392713a651c03d26e7715372f21bbd7a->dir_c87ebd68b8c9cebbee78253a22e7f57c [headlabel="1", labeldistance=1.5 headhref="dir_000196_000212.html"];
+  dir_d9944119f0840737b36e62b433360951->dir_4601ad272827fecfb5af68df5b31db5d [headlabel="1", labeldistance=1.5 headhref="dir_000214_000017.html"];
+  dir_867229523d1829e2dc8c1c7b3970daa6->dir_4601ad272827fecfb5af68df5b31db5d [headlabel="1", labeldistance=1.5 headhref="dir_000209_000017.html"];
+  dir_50cd43cd9c7867b98d929baddbb33d15->dir_4601ad272827fecfb5af68df5b31db5d [headlabel="1", labeldistance=1.5 headhref="dir_000047_000017.html"];
+}

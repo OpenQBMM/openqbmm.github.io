@@ -1,0 +1,24 @@
+digraph "wallLubricationModels" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a67881d67603c1140e6c8a3150cfe24f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="interfacialModels" fontname="Helvetica", fontsize="10", URL="dir_a67881d67603c1140e6c8a3150cfe24f.html"]
+  subgraph clusterdir_1a12e3e88fc4e3db840e93c07d652d42 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_1a12e3e88fc4e3db840e93c07d652d42.html"];
+    dir_1a12e3e88fc4e3db840e93c07d652d42 [shape=plaintext label="wallLubricationModels"];
+    dir_c6f04935932c8150e2bbefbc235a7f09 [shape=box label="Antal" color="black" fillcolor="white" style="filled" URL="dir_c6f04935932c8150e2bbefbc235a7f09.html"];
+    dir_e3883645a2c3d7c6a227196fb24bea5e [shape=box label="Frank" color="black" fillcolor="white" style="filled" URL="dir_e3883645a2c3d7c6a227196fb24bea5e.html"];
+    dir_99f62df2e41d1a6f6ba7b358ef293b01 [shape=box label="noWallLubrication" color="black" fillcolor="white" style="filled" URL="dir_99f62df2e41d1a6f6ba7b358ef293b01.html"];
+    dir_244a8025c50dba7d02975f49720477d2 [shape=box label="TomiyamaWallLubrication" color="black" fillcolor="white" style="filled" URL="dir_244a8025c50dba7d02975f49720477d2.html"];
+    dir_3d649760e23cfb07ad95640df7b87e9e [shape=box label="wallLubricationModel" color="black" fillcolor="white" style="filled" URL="dir_3d649760e23cfb07ad95640df7b87e9e.html"];
+  }
+  }
+  dir_c87ebd68b8c9cebbee78253a22e7f57c [shape=box label="wallDependentModel" URL="dir_c87ebd68b8c9cebbee78253a22e7f57c.html"];
+  dir_c6f04935932c8150e2bbefbc235a7f09->dir_3d649760e23cfb07ad95640df7b87e9e [headlabel="1", labeldistance=1.5 headhref="dir_000015_000155.html"];
+  dir_e3883645a2c3d7c6a227196fb24bea5e->dir_3d649760e23cfb07ad95640df7b87e9e [headlabel="1", labeldistance=1.5 headhref="dir_000085_000155.html"];
+  dir_3d649760e23cfb07ad95640df7b87e9e->dir_c87ebd68b8c9cebbee78253a22e7f57c [headlabel="1", labeldistance=1.5 headhref="dir_000155_000212.html"];
+  dir_99f62df2e41d1a6f6ba7b358ef293b01->dir_3d649760e23cfb07ad95640df7b87e9e [headlabel="1", labeldistance=1.5 headhref="dir_000171_000155.html"];
+  dir_244a8025c50dba7d02975f49720477d2->dir_3d649760e23cfb07ad95640df7b87e9e [headlabel="1", labeldistance=1.5 headhref="dir_000200_000155.html"];
+}

@@ -1,0 +1,6 @@
+<map id="invert" name="invert">
+<area shape="rect" id="node2" href="$a00170.html#a54a602fe9e0f6b808bf432ed0326ac46" title="Return true if the moment set is on the boundary of the moment space. " alt="" coords="108,5,311,47"/>
+<area shape="rect" id="node3" href="$a00170.html#a2256488242f928209215b0a3221f6bb8" title="Return the number of realizable moments. " alt="" coords="359,49,549,91"/>
+<area shape="rect" id="node4" href="$a00040.html#a21b737ce5ace3ad03f53c403f8e33127" title="Compute the normalized moment error. " alt="" coords="127,122,292,149"/>
+<area shape="rect" id="node5" href="$a00100.html#ac69c81c5f4ebd5edd8ddc30b03c1d184" title="Return support. " alt="" coords="362,137,546,163"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="wallDampingModel.H" name="wallDampingModel.H">
+<area shape="rect" id="node2" href="$a00588.html" title="wallDampedLift.H" alt="" coords="5,80,132,107"/>
+<area shape="rect" id="node3" href="$a00332.html" title="interpolatedWallDamping.H" alt="" coords="156,80,341,107"/>
+<area shape="rect" id="node4" href="$a00460.html" title="noWallDamping.H" alt="" coords="366,80,497,107"/>
+</map>
