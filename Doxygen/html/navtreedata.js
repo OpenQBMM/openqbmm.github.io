@@ -1,11 +1,9 @@
 var NAVTREE =
 [
-  [ "My Project", "index.html", [
-    [ "OpenQBMM", "index.html", [
-      [ "Introduction", "index.html#intro_sec", null ],
-      [ "Contact information", "index.html#contact_sec", null ],
-      [ "Copyright", "index.html#copyright_sec", null ]
-    ] ],
+  [ "OpenQBMM", "index.html", [
+    [ "Introduction", "index.html#intro_sec", null ],
+    [ "Contact information", "index.html#contact_sec", null ],
+    [ "Copyright", "index.html#copyright_sec", null ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
