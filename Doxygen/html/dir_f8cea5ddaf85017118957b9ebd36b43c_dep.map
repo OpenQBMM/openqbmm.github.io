@@ -1,0 +1,21 @@
+<map id="coalescenceEfficiencyKernels" name="coalescenceEfficiencyKernels">
+<area shape="rect" id="node2" href="dir_4953d782508ef221269bc26c11ecaee5.html" title="Chesters" alt="" coords="345,63,421,111"/>
+<area shape="rect" id="node3" href="dir_64201f64a97ea2db4703a1fa734f7314.html" title="coalescenceEfficiencyKernel" alt="" coords="285,159,480,207"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000054_000055.html" title="1" alt="" coords="386,133,396,148"/>
+<area shape="rect" id="node8" href="dir_c8dd8d838525102dfd397a50c2714810.html" title="twoPhaseSystem" alt="" coords="926,159,1053,207"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000054_000038.html" title="2" alt="" coords="905,143,915,157"/>
+<area shape="rect" id="node4" href="dir_4376dac621611d14eb6b7f21481afab6.html" title="constant" alt="" coords="248,63,320,111"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000062_000055.html" title="1" alt="" coords="347,133,356,147"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000062_000038.html" title="2" alt="" coords="905,143,915,157"/>
+<area shape="rect" id="node5" href="dir_2f5cb1c5939ef71911e5f95444158861.html" title="CoulaloglouAndTavlarides" alt="" coords="38,63,223,111"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000076_000055.html" title="1" alt="" coords="302,137,312,152"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000076_000038.html" title="2" alt="" coords="905,143,915,157"/>
+<area shape="rect" id="node6" href="dir_dc7395aa39b66078ddce205df3e4fb6a.html" title="Lehr" alt="" coords="595,63,667,111"/>
+<area shape="rect" id="edge10-headlabel" href="dir_000147_000055.html" title="1" alt="" coords="468,153,477,168"/>
+<area shape="rect" id="edge9-headlabel" href="dir_000147_000038.html" title="2" alt="" coords="906,143,915,157"/>
+<area shape="rect" id="node7" href="dir_7379af5461510646c41055338721d69c.html" title="PrinceAndBlanch" alt="" coords="445,63,571,111"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000217_000055.html" title="1" alt="" coords="428,147,438,162"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000217_000038.html" title="2" alt="" coords="905,143,915,157"/>
+<area shape="rect" id="clust2" href="dir_f8cea5ddaf85017118957b9ebd36b43c.html" alt="" coords="27,52,904,217"/>
+<area shape="rect" id="clust1" href="dir_8f2ae065d706742e7732d935e797e22a.html" title="coalescenceKernels" alt="" coords="16,16,915,228"/>
+</map>

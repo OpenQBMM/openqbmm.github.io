@@ -1,0 +1,22 @@
+digraph "virtualMassModels" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_917add706488739a95df57895f4aaf2a {
+    graph [ bgcolor="#ddddee", pencolor="black", label="interfacialModels" fontname="Helvetica", fontsize="10", URL="dir_917add706488739a95df57895f4aaf2a.html"]
+  subgraph clusterdir_77e6d190c0f90647ad709ff98b045afa {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_77e6d190c0f90647ad709ff98b045afa.html"];
+    dir_77e6d190c0f90647ad709ff98b045afa [shape=plaintext label="virtualMassModels"];
+    dir_fcd6540864b58a5300880e28192be631 [shape=box label="constantVirtualMassCoefficient" color="black" fillcolor="white" style="filled" URL="dir_fcd6540864b58a5300880e28192be631.html"];
+    dir_8087d3966078a9a723eae256d7d89f5e [shape=box label="Lamb" color="black" fillcolor="white" style="filled" URL="dir_8087d3966078a9a723eae256d7d89f5e.html"];
+    dir_457991248f02b0f729c79b47dd4f004c [shape=box label="noVirtualMass" color="black" fillcolor="white" style="filled" URL="dir_457991248f02b0f729c79b47dd4f004c.html"];
+    dir_108817ad1a499204bbeb7e7655e8fa98 [shape=box label="virtualMassModel" color="black" fillcolor="white" style="filled" URL="dir_108817ad1a499204bbeb7e7655e8fa98.html"];
+    dir_72bb9316e212e246fca7a6e7da1ff0d8 [shape=box label="Zuber" color="black" fillcolor="white" style="filled" URL="dir_72bb9316e212e246fca7a6e7da1ff0d8.html"];
+  }
+  }
+  dir_72bb9316e212e246fca7a6e7da1ff0d8->dir_108817ad1a499204bbeb7e7655e8fa98 [headlabel="1", labeldistance=1.5 headhref="dir_000254_000181.html"];
+  dir_457991248f02b0f729c79b47dd4f004c->dir_108817ad1a499204bbeb7e7655e8fa98 [headlabel="1", labeldistance=1.5 headhref="dir_000199_000181.html"];
+  dir_8087d3966078a9a723eae256d7d89f5e->dir_108817ad1a499204bbeb7e7655e8fa98 [headlabel="1", labeldistance=1.5 headhref="dir_000145_000181.html"];
+  dir_fcd6540864b58a5300880e28192be631->dir_108817ad1a499204bbeb7e7655e8fa98 [headlabel="1", labeldistance=1.5 headhref="dir_000072_000181.html"];
+}

@@ -1,8 +1,10 @@
 var a00087 =
 [
-    [ "LunSavage", "a00087.html#a7bce5061b72bd157fe880f9dbe40a463", null ],
-    [ "~LunSavage", "a00087.html#a75468dcca744cce43224d29b1835f02a", null ],
-    [ "TypeName", "a00087.html#aa7326a112256126f745e25a13b058971", null ],
-    [ "g0", "a00087.html#a77181c36b117cab1999c37a2c4ae392f", null ],
-    [ "g0prime", "a00087.html#a76068a5c111e6a71f9d5011c78d97346", null ]
+    [ "hermiteQuadrature", "a00087.html#a54fda1eff92961a4338bb81d11e3eac7", null ],
+    [ "calcHermiteQuadrature", "a00087.html#a34322b582d3e8a8ffe6326d70f188fe7", null ],
+    [ "hermiteWeights", "a00087.html#a7e3241dcdafc319eac0d7c5a5778349f", null ],
+    [ "hermiteAbscissas", "a00087.html#a2ef2f4726b03f26f47348dac3d94976c", null ],
+    [ "hermiteAbscissas", "a00087.html#ae6bc6d9ffd3f3130f843fdbe7aa3fb0d", null ],
+    [ "hermiteOriginalAbscissas", "a00087.html#ac81d7cb7b6dca92340bdfefe15c7c892", null ],
+    [ "maxAbs", "a00087.html#a27760f129292b8c57596094117bb410e", null ]
 ];

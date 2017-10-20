@@ -1,7 +1,7 @@
 var a00027 =
 [
-    [ "constantVirtualMassCoefficient", "a00027.html#afeb16f652c46330b455d29bb90bd36ac", null ],
-    [ "~constantVirtualMassCoefficient", "a00027.html#a54ae44e71e4c68181d6f27f0c134f53b", null ],
-    [ "TypeName", "a00027.html#aafe31ab21b510f2d502d4058cf65e7bd", null ],
-    [ "Cvm", "a00027.html#a5eb86a943fb9eba9a9d253787e7ca82c", null ]
+    [ "Chesters", "a00027.html#a71ab90661d29cbc1a57f7846f4187772", null ],
+    [ "~Chesters", "a00027.html#ad8a82ffca55c9da6393d332c88cc060d", null ],
+    [ "TypeName", "a00027.html#a5e7fe3e846793f3cbb5c66dd9b9d248e", null ],
+    [ "Pc", "a00027.html#aae65dbd472f784f6173f4fac16f795f8", null ]
 ];

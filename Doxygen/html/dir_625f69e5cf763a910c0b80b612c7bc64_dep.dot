@@ -1,0 +1,12 @@
+digraph "hermiteQuadrature" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_259a5a6e928303d9988273e835fb5828 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="quadratureMethods" fontname="Helvetica", fontsize="10", URL="dir_259a5a6e928303d9988273e835fb5828.html"]
+  dir_625f69e5cf763a910c0b80b612c7bc64 [shape=box, label="hermiteQuadrature", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_625f69e5cf763a910c0b80b612c7bc64.html"];
+  }
+  dir_9c0e92409a33848bf66dccc8c0cdc400 [shape=box label="eigenSolver" URL="dir_9c0e92409a33848bf66dccc8c0cdc400.html"];
+  dir_625f69e5cf763a910c0b80b612c7bc64->dir_9c0e92409a33848bf66dccc8c0cdc400 [headlabel="1", labeldistance=1.5 headhref="dir_000127_000095.html"];
+}

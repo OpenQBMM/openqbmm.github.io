@@ -1,9 +1,11 @@
 var NAVTREE =
 [
-  [ "OpenQBMM", "index.html", [
-    [ "Introduction", "index.html#intro_sec", null ],
-    [ "Contact information", "index.html#contact_sec", null ],
-    [ "Copyright", "index.html#copyright_sec", null ],
+  [ "My Project", "index.html", [
+    [ "OpenQBMM", "index.html", [
+      [ "Introduction", "index.html#intro_sec", null ],
+      [ "Contact information", "index.html#contact_sec", null ],
+      [ "Copyright", "index.html#copyright_sec", null ]
+    ] ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -38,16 +40,18 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "a00002.html",
-"a00039.html#a92d1d2c620a5376ba8e67121739b9a96",
-"a00073.html#a2fc1dda5901ee9cb4c70a6ba2301884b",
-"a00107.html#a640a29db0c39a64a92ad14f3af628785",
-"a00135.html#acfdcf8ac936fab910b034c20837198f6",
-"a00168.html#af7558438bb9fa34ba37ed51735b3a2e2",
-"a00226.html#ace2c634a7ff538fbb4744268b13a2c6a",
-"a00301.html",
-"a00414.html",
-"a00508.html#a116d20bd6aa9cc2b5fcf634e3c45bbd5",
-"a00614.html"
+"a00045.html#aafe31ab21b510f2d502d4058cf65e7bd",
+"a00080.html#a9d1f845bcd7f32e6ac377ae81236f8c6",
+"a00113.html#a6307eb221338d4af3a7880e0540b6ffc",
+"a00150.html#a292a3944ebf0a4acba8c14844ddfe780",
+"a00175.html#a9209244e0920b05f98597bf3d105149d",
+"a00211.html#a94d56cf5402312283e2182a3766592b7",
+"a00245_source.html",
+"a00330.html#ad64697a7bccdd22d7300f9ff52dcdbfc",
+"a00425.html",
+"a00540.html",
+"a00628.html",
+"a00735.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

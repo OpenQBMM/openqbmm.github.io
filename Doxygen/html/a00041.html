@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>fieldMomentInversion Class Reference</title>
+<title>My Project: constantAspectRatio Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,9 +31,12 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
-    <td style="padding-left: 0.5em;">
-    <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
-    </td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   &#160;<span id="projectnumber">-dev</span>
+   </div>
+   <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
+  </td>
  </tr>
  </tbody>
 </table>
@@ -105,441 +108,31 @@ $(document).ready(function(){initNavTree('a00041.html','');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="a01038.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">fieldMomentInversion Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">constantAspectRatio Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Abstract class for run-time selection of field moment inversion.  
+<p>Constant value aspect ratio model.  
  <a href="a00041.html#details">More...</a></p>
-<div class="dynheader">
-Inheritance diagram for fieldMomentInversion:</div>
-<div class="dyncontent">
-<div class="center"><img src="a01039.png" border="0" usemap="#fieldMomentInversion_inherit__map" alt="Inheritance graph"/></div>
-<map name="fieldMomentInversion_inherit__map" id="fieldMomentInversion_inherit__map">
-<area shape="rect" id="node2" href="a00007.html" title="Invert moment a volUnivariateMomentFieldSet using basic quadrature inversion. " alt="" coords="5,80,192,107"/>
-<area shape="rect" id="node3" href="a00039.html" title="Inverts a volUnivariateMomentFieldSet using the extended quadrature method of moments. " alt="" coords="216,80,427,107"/>
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a78518bc7cbbbdd3e08d024a5776e9d2d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00041.html#a78518bc7cbbbdd3e08d024a5776e9d2d">TypeName</a> (&quot;fieldMomentInversion&quot;)</td></tr>
-<tr class="memdesc:a78518bc7cbbbdd3e08d024a5776e9d2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#a78518bc7cbbbdd3e08d024a5776e9d2d">More...</a><br /></td></tr>
-<tr class="separator:a78518bc7cbbbdd3e08d024a5776e9d2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc3d49bf06efee7e67b10d62808f0153"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00041.html#acc3d49bf06efee7e67b10d62808f0153">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00041.html">fieldMomentInversion</a>, dictionary,(                                                       const dictionary &amp;dict,                                                       const label nMoments,                                                       const label nSecondaryNodes                                       ),(dict, nMoments, nSecondaryNodes))</td></tr>
-<tr class="separator:acc3d49bf06efee7e67b10d62808f0153"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0c968ddf570d99079f6013c38e6366a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00041.html#ab0c968ddf570d99079f6013c38e6366a">fieldMomentInversion</a> (const dictionary &amp;dict, const label nMoments, const label nSecondaryNodes)</td></tr>
-<tr class="memdesc:ab0c968ddf570d99079f6013c38e6366a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from <a class="el" href="a00170.html" title="Stores a generic moment set with the corresponding list of orders. ">univariateMomentSet</a>.  <a href="#ab0c968ddf570d99079f6013c38e6366a">More...</a><br /></td></tr>
-<tr class="separator:ab0c968ddf570d99079f6013c38e6366a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9514bda7486d306d89ac080c6b48a52"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00041.html#ac9514bda7486d306d89ac080c6b48a52">~fieldMomentInversion</a> ()</td></tr>
-<tr class="memdesc:ac9514bda7486d306d89ac080c6b48a52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#ac9514bda7486d306d89ac080c6b48a52">More...</a><br /></td></tr>
-<tr class="separator:ac9514bda7486d306d89ac080c6b48a52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1ce49a928b14da3dbc18b8c7a3b2061"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00041.html#af1ce49a928b14da3dbc18b8c7a3b2061">invert</a> (const <a class="el" href="a00605.html#ad3c4993319e0afd86f19cfc10dc05503">volUnivariateMomentFieldSet</a> &amp;<a class="el" href="a00099.html">moments</a>, PtrList&lt; <a class="el" href="a00605.html#a498baa35a7b2a08cd1c0fe85a3017d9a">volScalarNode</a> &gt; &amp;nodes)=0</td></tr>
-<tr class="memdesc:af1ce49a928b14da3dbc18b8c7a3b2061"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invert moments in the entire computational domain.  <a href="#af1ce49a928b14da3dbc18b8c7a3b2061">More...</a><br /></td></tr>
-<tr class="separator:af1ce49a928b14da3dbc18b8c7a3b2061"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ab57be96e140a67b8f4762fc67c2a1b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00041.html#a6ab57be96e140a67b8f4762fc67c2a1b">invertBoundaryMoments</a> (const <a class="el" href="a00605.html#ad3c4993319e0afd86f19cfc10dc05503">volUnivariateMomentFieldSet</a> &amp;<a class="el" href="a00099.html">moments</a>, PtrList&lt; <a class="el" href="a00605.html#a498baa35a7b2a08cd1c0fe85a3017d9a">volScalarNode</a> &gt; &amp;nodes)=0</td></tr>
-<tr class="memdesc:a6ab57be96e140a67b8f4762fc67c2a1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invert moments on boundaries.  <a href="#a6ab57be96e140a67b8f4762fc67c2a1b">More...</a><br /></td></tr>
-<tr class="separator:a6ab57be96e140a67b8f4762fc67c2a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07e40a68be917a3b4910abca074f30db"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00041.html#a07e40a68be917a3b4910abca074f30db">invertLocalMoments</a> (const <a class="el" href="a00605.html#ad3c4993319e0afd86f19cfc10dc05503">volUnivariateMomentFieldSet</a> &amp;<a class="el" href="a00099.html">moments</a>, PtrList&lt; <a class="el" href="a00605.html#a498baa35a7b2a08cd1c0fe85a3017d9a">volScalarNode</a> &gt; &amp;nodes, const label celli, const bool fatalErrorOnFailedRealizabilityTest=true)=0</td></tr>
-<tr class="memdesc:a07e40a68be917a3b4910abca074f30db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invert moments in a single cell.  <a href="#a07e40a68be917a3b4910abca074f30db">More...</a><br /></td></tr>
-<tr class="separator:a07e40a68be917a3b4910abca074f30db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7b9ffa2fac0589fccaf727ecc4bf8ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00041.html#ab7b9ffa2fac0589fccaf727ecc4bf8ed">extended</a> ()</td></tr>
-<tr class="memdesc:ab7b9ffa2fac0589fccaf727ecc4bf8ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return extended type.  <a href="#ab7b9ffa2fac0589fccaf727ecc4bf8ed">More...</a><br /></td></tr>
-<tr class="separator:ab7b9ffa2fac0589fccaf727ecc4bf8ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aaa7a60bdf0d7425ae1a922520de47637"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00041.html">fieldMomentInversion</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00041.html#aaa7a60bdf0d7425ae1a922520de47637">New</a> (const dictionary &amp;dict, const label nMoments, const label nSecondaryNodes)</td></tr>
-<tr class="separator:aaa7a60bdf0d7425ae1a922520de47637"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a4bb40947fbadb3a714e5e3beb2824193"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00041.html#a4bb40947fbadb3a714e5e3beb2824193">extended_</a></td></tr>
-<tr class="memdesc:a4bb40947fbadb3a714e5e3beb2824193"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boolean flag to indicate extended type of inversion.  <a href="#a4bb40947fbadb3a714e5e3beb2824193">More...</a><br /></td></tr>
-<tr class="separator:a4bb40947fbadb3a714e5e3beb2824193"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Abstract class for run-time selection of field moment inversion. </p>
+<div class="textblock"><p>Constant value aspect ratio model. </p>
 <p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
 <li>
-<a href="/home/alberto/Desktop/OpenQBMM/src/quadratureMethods/fieldMomentInversion/fieldMomentInversion/fieldMomentInversion.H">fieldMomentInversion.H</a> </li>
+<a href="/home/alberto/Desktop/OpenQBMM-Test/OpenQBMM/applications/solvers/multiphase/interfacialModels/aspectRatioModels/constantAspectRatio/constantAspectRatio.H">constantAspectRatio.H</a> </li>
 <li>
-<a href="/home/alberto/Desktop/OpenQBMM/src/quadratureMethods/fieldMomentInversion/fieldMomentInversion/fieldMomentInversion.C">fieldMomentInversion.C</a> </li>
-<li>
-<a href="/home/alberto/Desktop/OpenQBMM/src/quadratureMethods/fieldMomentInversion/fieldMomentInversion/fieldMomentInversionI.H">fieldMomentInversionI.H</a> </li>
+<a href="/home/alberto/Desktop/OpenQBMM-Test/OpenQBMM/applications/solvers/multiphase/interfacialModels/aspectRatioModels/constantAspectRatio/constantAspectRatio.C">constantAspectRatio.C</a> </li>
 </ul>
 </dd></dl>
-
-<p>Definition at line <a class="el" href="a00284_source.html#l00051">51</a> of file <a class="el" href="a00284_source.html">fieldMomentInversion.H</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ab0c968ddf570d99079f6013c38e6366a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="a00041.html">fieldMomentInversion</a> </td>
-          <td>(</td>
-          <td class="paramtype">const dictionary &amp;&#160;</td>
-          <td class="paramname"><em>dict</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const label&#160;</td>
-          <td class="paramname"><em>nMoments</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const label&#160;</td>
-          <td class="paramname"><em>nSecondaryNodes</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Construct from <a class="el" href="a00170.html" title="Stores a generic moment set with the corresponding list of orders. ">univariateMomentSet</a>. </p>
-
-<p>Definition at line <a class="el" href="a00283_source.html#l00040">40</a> of file <a class="el" href="a00283_source.html">fieldMomentInversion.C</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ac9514bda7486d306d89ac080c6b48a52"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">~<a class="el" href="a00041.html">fieldMomentInversion</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Destructor. </p>
-
-<p>Definition at line <a class="el" href="a00283_source.html#l00052">52</a> of file <a class="el" href="a00283_source.html">fieldMomentInversion.C</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a78518bc7cbbbdd3e08d024a5776e9d2d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">TypeName </td>
-          <td>(</td>
-          <td class="paramtype">&quot;fieldMomentInversion&quot;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Runtime type information. </p>
-
-</div>
-</div>
-<a class="anchor" id="acc3d49bf06efee7e67b10d62808f0153"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">declareRunTimeSelectionTable </td>
-          <td>(</td>
-          <td class="paramtype">autoPtr&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="a00041.html">fieldMomentInversion</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">dictionary&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">(                                                                                                           const dictionary &amp;dict,                                                                                                           const label nMoments,                                                                                                           const label nSecondaryNodes                                                                           )&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">(dict, nMoments, nSecondaryNodes)&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aaa7a60bdf0d7425ae1a922520de47637"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Foam::autoPtr&lt; <a class="el" href="a00041.html">Foam::fieldMomentInversion</a> &gt; New </td>
-          <td>(</td>
-          <td class="paramtype">const dictionary &amp;&#160;</td>
-          <td class="paramname"><em>dict</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const label&#160;</td>
-          <td class="paramname"><em>nMoments</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const label&#160;</td>
-          <td class="paramname"><em>nSecondaryNodes</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00412_source.html#l00031">31</a> of file <a class="el" href="a00412_source.html">newFieldMomentInversion.C</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af1ce49a928b14da3dbc18b8c7a3b2061"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void invert </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="a00605.html#ad3c4993319e0afd86f19cfc10dc05503">volUnivariateMomentFieldSet</a> &amp;&#160;</td>
-          <td class="paramname"><em>moments</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PtrList&lt; <a class="el" href="a00605.html#a498baa35a7b2a08cd1c0fe85a3017d9a">volScalarNode</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>nodes</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Invert moments in the entire computational domain. </p>
-
-<p>Implemented in <a class="el" href="a00007.html#a81fbc0b024ab994e1e665273b7b7268b">basicFieldMomentInversion</a>, and <a class="el" href="a00039.html#a81fbc0b024ab994e1e665273b7b7268b">extendedFieldMomentInversion</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a6ab57be96e140a67b8f4762fc67c2a1b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void invertBoundaryMoments </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="a00605.html#ad3c4993319e0afd86f19cfc10dc05503">volUnivariateMomentFieldSet</a> &amp;&#160;</td>
-          <td class="paramname"><em>moments</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PtrList&lt; <a class="el" href="a00605.html#a498baa35a7b2a08cd1c0fe85a3017d9a">volScalarNode</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>nodes</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Invert moments on boundaries. </p>
-
-<p>Implemented in <a class="el" href="a00007.html#a0db254ceb34e9343bebd658750f9312d">basicFieldMomentInversion</a>, and <a class="el" href="a00039.html#a0db254ceb34e9343bebd658750f9312d">extendedFieldMomentInversion</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a07e40a68be917a3b4910abca074f30db"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool invertLocalMoments </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="a00605.html#ad3c4993319e0afd86f19cfc10dc05503">volUnivariateMomentFieldSet</a> &amp;&#160;</td>
-          <td class="paramname"><em>moments</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PtrList&lt; <a class="el" href="a00605.html#a498baa35a7b2a08cd1c0fe85a3017d9a">volScalarNode</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>nodes</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const label&#160;</td>
-          <td class="paramname"><em>celli</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const bool&#160;</td>
-          <td class="paramname"><em>fatalErrorOnFailedRealizabilityTest</em> = <code>true</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Invert moments in a single cell. </p>
-
-<p>Implemented in <a class="el" href="a00007.html#ae61ce7f3d511855a1d0eaf25c94d648f">basicFieldMomentInversion</a>, and <a class="el" href="a00039.html#ae61ce7f3d511855a1d0eaf25c94d648f">extendedFieldMomentInversion</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ab7b9ffa2fac0589fccaf727ecc4bf8ed"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool extended </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return extended type. </p>
-
-<p>Definition at line <a class="el" href="a00285_source.html#l00028">28</a> of file <a class="el" href="a00285_source.html">fieldMomentInversionI.H</a>.</p>
-
-<p>References <a class="el" href="a00284_source.html#l00067">fieldMomentInversion::extended_</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a4bb40947fbadb3a714e5e3beb2824193"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool extended_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Boolean flag to indicate extended type of inversion. </p>
-
-<p>Definition at line <a class="el" href="a00284_source.html#l00067">67</a> of file <a class="el" href="a00284_source.html">fieldMomentInversion.H</a>.</p>
-
-<p>Referenced by <a class="el" href="a00285_source.html#l00028">fieldMomentInversion::extended()</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="a00284_source.html">fieldMomentInversion.H</a></li>
-<li><a class="el" href="a00283_source.html">fieldMomentInversion.C</a></li>
-<li><a class="el" href="a00285_source.html">fieldMomentInversionI.H</a></li>
-<li><a class="el" href="a00412_source.html">newFieldMomentInversion.C</a></li>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="a00296_source.html">constantAspectRatio.H</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00605.html">Foam</a></li><li class="navelem"><a class="el" href="a00041.html">fieldMomentInversion</a></li>
+    <li class="navelem"><a class="el" href="a00723.html">Foam</a></li><li class="navelem"><a class="el" href="a00041.html">constantAspectRatio</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

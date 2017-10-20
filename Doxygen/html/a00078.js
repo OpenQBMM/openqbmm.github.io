@@ -1,7 +1,8 @@
 var a00078 =
 [
-    [ "LegendreMagnaudet", "a00078.html#acc53debfcea5371b060430124fce95a1", null ],
-    [ "~LegendreMagnaudet", "a00078.html#a724cb76c34f9e6efb9180c387cd2042f", null ],
-    [ "TypeName", "a00078.html#abbb7ed6dfd12f682709bd4b2f2b59e87", null ],
-    [ "Cl", "a00078.html#a7ca2eeaa963ec216ce5478271a682ea5", null ]
+    [ "Gibilaro", "a00078.html#a7f4e3a8e5971a338fb56462eb6ff0170", null ],
+    [ "~Gibilaro", "a00078.html#aaeb037bce5e7e24c2575f49d961ab996", null ],
+    [ "TypeName", "a00078.html#ab851bee6b3b0651f2957394fc183e00c", null ],
+    [ "CdRe", "a00078.html#a710c9ce4df6a34eec87c435ea332a761", null ],
+    [ "CdRe", "a00078.html#aeea45f46f7f282a9ef8f5091a2152635", null ]
 ];

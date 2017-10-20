@@ -1,12 +1,7 @@
 var a00188 =
 [
-    [ "zeta", "a00188.html#a1e9ed4ce631e1a99a7acfe8e88524d8e", null ],
-    [ "~zeta", "a00188.html#ae5e0d10ed48b4a3daaa8e1fa571651a1", null ],
-    [ "countFacesWithOutgoingFlux", "a00188.html#a8f7211cddf3661038d4eadb0a5015d58", null ],
-    [ "limiter", "a00188.html#a5758241c9b969d6b3a1a96971aaf3e50", null ],
-    [ "interpolateFields", "a00188.html#a2ff1f21f64db3ca3c70b31e7c3a15025", null ],
-    [ "limitZetas", "a00188.html#a57ca278410d45b803a532bfc4a1e99e5", null ],
-    [ "TypeName", "a00188.html#a7114c2f3d02cd6865ec5e6f05de73b5c", null ],
-    [ "realizableCo", "a00188.html#a5bb437cbddedbf3f4b27f0e5de4e442d", null ],
-    [ "update", "a00188.html#ac5c54df7ed3b930268c8d7752c101725", null ]
+    [ "sine", "a00188.html#afbbd095848d37a8fd1b8aa033667dfb4", null ],
+    [ "~sine", "a00188.html#aa1c45d97c843bcc584b269b6a527e6fa", null ],
+    [ "limiter", "a00188.html#ad826c52960e65cba81f05f76e5ba771c", null ],
+    [ "TypeName", "a00188.html#a33c7be900b7642a50de9fe3539ee19d7", null ]
 ];

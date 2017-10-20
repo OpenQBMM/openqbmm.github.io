@@ -1,8 +1,7 @@
 var a00063 =
 [
-    [ "hyperbolic", "a00063.html#aff47927a8a4c30d803dc782683ad2b9c", null ],
-    [ "~hyperbolic", "a00063.html#aea3d7726a8ee88ac083cf73de5e2b74a", null ],
-    [ "TypeName", "a00063.html#a023b41fe28b3789813386427d8a0fd77", null ],
-    [ "f1", "a00063.html#ae56b0556a3fde6a2538ef45a21ad8597", null ],
-    [ "f2", "a00063.html#af623e0c066be77b88c66229c02b9bbf1", null ]
+    [ "exponentialBreakup", "a00063.html#ab8c18aa51a2edf305a6043ff25a8e675", null ],
+    [ "~exponentialBreakup", "a00063.html#a3805c5cd8e532366720e40ab89e2d01d", null ],
+    [ "TypeName", "a00063.html#a86ff92ca0beb621157b91eba8601746d", null ],
+    [ "Kb", "a00063.html#ac8057d8c4cbb6846d2f28e305caa5d78", null ]
 ];

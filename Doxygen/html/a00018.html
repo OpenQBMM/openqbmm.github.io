@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>conditionalMomentInversion Class Reference</title>
+<title>My Project: BlendedInterfacialModel&lt; modelType &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,9 +31,12 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
-    <td style="padding-left: 0.5em;">
-    <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
-    </td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   &#160;<span id="projectnumber">-dev</span>
+   </div>
+   <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
+  </td>
  </tr>
  </tbody>
 </table>
@@ -107,90 +110,112 @@ $(document).ready(function(){initNavTree('a00018.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="a01028.html">List of all members</a>  </div>
+<a href="a01189.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">conditionalMomentInversion Class Reference</div>  </div>
+<div class="title">BlendedInterfacialModel&lt; modelType &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Implementation of the conditional quadrature method of moments.  
- <a href="a00018.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aea8708169fa153ae734bde9a7be848e0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00018.html#aea8708169fa153ae734bde9a7be848e0">conditionalMomentInversion</a> (const dictionary &amp;dict, const label <a class="el" href="a00018.html#ac1e97a89c526e32fc5ef143d6bcef361">nMoments</a>, const Map&lt; label &gt; map, const labelList &amp;<a class="el" href="a00018.html#af0c9dfde6f2aa1caa3d94853d6fd7fa5">nNodes</a>, const List&lt; word &gt; &amp;support)</td></tr>
-<tr class="memdesc:aea8708169fa153ae734bde9a7be848e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disallow default bitwise copy construct.  <a href="#aea8708169fa153ae734bde9a7be848e0">More...</a><br /></td></tr>
-<tr class="separator:aea8708169fa153ae734bde9a7be848e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58b463b7150f954828f65cb99d9f7ec0"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00018.html#a58b463b7150f954828f65cb99d9f7ec0">~conditionalMomentInversion</a> ()</td></tr>
-<tr class="memdesc:a58b463b7150f954828f65cb99d9f7ec0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a58b463b7150f954828f65cb99d9f7ec0">More...</a><br /></td></tr>
-<tr class="separator:a58b463b7150f954828f65cb99d9f7ec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d1ea4c567d75c1d1fc0b882a5c4ac29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00018.html#a8d1ea4c567d75c1d1fc0b882a5c4ac29">invert</a> (const <a class="el" href="a00103.html">nDimensionalMappedList</a>&lt; scalar &gt; &amp;<a class="el" href="a00099.html">moments</a>)</td></tr>
-<tr class="memdesc:a8d1ea4c567d75c1d1fc0b882a5c4ac29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invert moments to find weights and abscissae.  <a href="#a8d1ea4c567d75c1d1fc0b882a5c4ac29">More...</a><br /></td></tr>
-<tr class="separator:a8d1ea4c567d75c1d1fc0b882a5c4ac29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1e97a89c526e32fc5ef143d6bcef361"><td class="memItemLeft" align="right" valign="top">label&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00018.html#ac1e97a89c526e32fc5ef143d6bcef361">nMoments</a> ()</td></tr>
-<tr class="memdesc:ac1e97a89c526e32fc5ef143d6bcef361"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return number of moments.  <a href="#ac1e97a89c526e32fc5ef143d6bcef361">More...</a><br /></td></tr>
-<tr class="separator:ac1e97a89c526e32fc5ef143d6bcef361"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0c9dfde6f2aa1caa3d94853d6fd7fa5"><td class="memItemLeft" align="right" valign="top">const labelList &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00018.html#af0c9dfde6f2aa1caa3d94853d6fd7fa5">nNodes</a> ()</td></tr>
-<tr class="memdesc:af0c9dfde6f2aa1caa3d94853d6fd7fa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return number of number of nodes in each dimension.  <a href="#af0c9dfde6f2aa1caa3d94853d6fd7fa5">More...</a><br /></td></tr>
-<tr class="separator:af0c9dfde6f2aa1caa3d94853d6fd7fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74dc9a46ed55bdd3419033108410c0fc"><td class="memItemLeft" align="right" valign="top">const PtrList&lt; <a class="el" href="a00103.html">nDimensionalMappedList</a>&lt; scalar &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00018.html#a74dc9a46ed55bdd3419033108410c0fc">weights</a> () const </td></tr>
-<tr class="memdesc:a74dc9a46ed55bdd3419033108410c0fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return mapped quadrature weights for each dimension.  <a href="#a74dc9a46ed55bdd3419033108410c0fc">More...</a><br /></td></tr>
-<tr class="separator:a74dc9a46ed55bdd3419033108410c0fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82e42b64483b51fcf767d9709206c1ef"><td class="memItemLeft" align="right" valign="top">const PtrList&lt; <a class="el" href="a00103.html">nDimensionalMappedList</a>&lt; scalar &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00018.html#a82e42b64483b51fcf767d9709206c1ef">abscissae</a> () const </td></tr>
-<tr class="memdesc:a82e42b64483b51fcf767d9709206c1ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return mapped quadrature abscissae for each dimension.  <a href="#a82e42b64483b51fcf767d9709206c1ef">More...</a><br /></td></tr>
-<tr class="separator:a82e42b64483b51fcf767d9709206c1ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0e40976200303629f374a9a871d0178"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00018.html#aa0e40976200303629f374a9a871d0178">BlendedInterfacialModel</a> (const <a class="el" href="a00171.html#af363db3b15b36bf4fa7997d250543a18">phasePair::dictTable</a> &amp;modelTable, const <a class="el" href="a00019.html">blendingMethod</a> &amp;blending, const <a class="el" href="a00171.html">phasePair</a> &amp;pair, const <a class="el" href="a00162.html">orderedPhasePair</a> &amp;pair1In2, const <a class="el" href="a00162.html">orderedPhasePair</a> &amp;pair2In1, const bool correctFixedFluxBCs=true)</td></tr>
+<tr class="memdesc:aa0e40976200303629f374a9a871d0178"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from the model table, dictionary and pairs.  <a href="#aa0e40976200303629f374a9a871d0178">More...</a><br /></td></tr>
+<tr class="separator:aa0e40976200303629f374a9a871d0178"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af965d40a66a82b4475329a9a4614a902"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00018.html#af965d40a66a82b4475329a9a4614a902">~BlendedInterfacialModel</a> ()</td></tr>
+<tr class="memdesc:af965d40a66a82b4475329a9a4614a902"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#af965d40a66a82b4475329a9a4614a902">More...</a><br /></td></tr>
+<tr class="separator:af965d40a66a82b4475329a9a4614a902"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa432da371c98eef8cb9bd3838b773a7a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00018.html#aa432da371c98eef8cb9bd3838b773a7a">hasModel</a> (const <a class="el" href="a00170.html">phaseModel</a> &amp;phase) const </td></tr>
+<tr class="memdesc:aa432da371c98eef8cb9bd3838b773a7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if a model is specified for the supplied phase.  <a href="#aa432da371c98eef8cb9bd3838b773a7a">More...</a><br /></td></tr>
+<tr class="separator:aa432da371c98eef8cb9bd3838b773a7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d34d00d8841842d1634132672f2fcc1"><td class="memItemLeft" align="right" valign="top">const modelType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00018.html#a8d34d00d8841842d1634132672f2fcc1">phaseModel</a> (const <a class="el" href="a00170.html">phaseModel</a> &amp;phase) const </td></tr>
+<tr class="memdesc:a8d34d00d8841842d1634132672f2fcc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the model for the supplied phase.  <a href="#a8d34d00d8841842d1634132672f2fcc1">More...</a><br /></td></tr>
+<tr class="separator:a8d34d00d8841842d1634132672f2fcc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35e0efa93e512a85662abb41bb63bfc3"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00018.html#a35e0efa93e512a85662abb41bb63bfc3">K</a> (const label, const label) const </td></tr>
+<tr class="memdesc:a35e0efa93e512a85662abb41bb63bfc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the blended force coefficient.  <a href="#a35e0efa93e512a85662abb41bb63bfc3">More...</a><br /></td></tr>
+<tr class="separator:a35e0efa93e512a85662abb41bb63bfc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f97e679211ae7ceed61a1df1694f5a3"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00018.html#a5f97e679211ae7ceed61a1df1694f5a3">K</a> () const </td></tr>
+<tr class="memdesc:a5f97e679211ae7ceed61a1df1694f5a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the mean blended force coefficient.  <a href="#a5f97e679211ae7ceed61a1df1694f5a3">More...</a><br /></td></tr>
+<tr class="separator:a5f97e679211ae7ceed61a1df1694f5a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0b59b15c1414e498d72553b6de07df7"><td class="memItemLeft" align="right" valign="top">tmp&lt; surfaceScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00018.html#ac0b59b15c1414e498d72553b6de07df7">Kf</a> (const label, const label) const </td></tr>
+<tr class="memdesc:ac0b59b15c1414e498d72553b6de07df7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the face blended force coefficient.  <a href="#ac0b59b15c1414e498d72553b6de07df7">More...</a><br /></td></tr>
+<tr class="separator:ac0b59b15c1414e498d72553b6de07df7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5657690105b6fbb0ea7fac56c6f709a"><td class="memItemLeft" align="right" valign="top">tmp&lt; surfaceScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00018.html#ae5657690105b6fbb0ea7fac56c6f709a">Kf</a> () const </td></tr>
+<tr class="memdesc:ae5657690105b6fbb0ea7fac56c6f709a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the mean face blended force coefficient.  <a href="#ae5657690105b6fbb0ea7fac56c6f709a">More...</a><br /></td></tr>
+<tr class="separator:ae5657690105b6fbb0ea7fac56c6f709a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9afb4ce093c6b658309a3e2bd8d42be4"><td class="memTemplParams" colspan="2">template&lt;class Type &gt; </td></tr>
+<tr class="memitem:a9afb4ce093c6b658309a3e2bd8d42be4"><td class="memTemplItemLeft" align="right" valign="top">tmp&lt; GeometricField&lt; Type, fvPatchField, volMesh &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="a00018.html#a9afb4ce093c6b658309a3e2bd8d42be4">F</a> (const label, const label) const </td></tr>
+<tr class="memdesc:a9afb4ce093c6b658309a3e2bd8d42be4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the blended force.  <a href="#a9afb4ce093c6b658309a3e2bd8d42be4">More...</a><br /></td></tr>
+<tr class="separator:a9afb4ce093c6b658309a3e2bd8d42be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec062438907d89f3fe872dfe9ba75570"><td class="memTemplParams" colspan="2">template&lt;class Type &gt; </td></tr>
+<tr class="memitem:aec062438907d89f3fe872dfe9ba75570"><td class="memTemplItemLeft" align="right" valign="top">tmp&lt; GeometricField&lt; Type, fvPatchField, volMesh &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="a00018.html#aec062438907d89f3fe872dfe9ba75570">F</a> () const </td></tr>
+<tr class="memdesc:aec062438907d89f3fe872dfe9ba75570"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the mean blended force.  <a href="#aec062438907d89f3fe872dfe9ba75570">More...</a><br /></td></tr>
+<tr class="separator:aec062438907d89f3fe872dfe9ba75570"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae05bf466318f1d8d2f95f55280857e0c"><td class="memItemLeft" align="right" valign="top">tmp&lt; surfaceScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00018.html#ae05bf466318f1d8d2f95f55280857e0c">Ff</a> (const label, const label) const </td></tr>
+<tr class="memdesc:ae05bf466318f1d8d2f95f55280857e0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the face blended force.  <a href="#ae05bf466318f1d8d2f95f55280857e0c">More...</a><br /></td></tr>
+<tr class="separator:ae05bf466318f1d8d2f95f55280857e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7690853988ed2296d58bfbf5e5c9e9b"><td class="memItemLeft" align="right" valign="top">tmp&lt; surfaceScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00018.html#ab7690853988ed2296d58bfbf5e5c9e9b">Ff</a> () const </td></tr>
+<tr class="memdesc:ab7690853988ed2296d58bfbf5e5c9e9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the mean face blended force.  <a href="#ab7690853988ed2296d58bfbf5e5c9e9b">More...</a><br /></td></tr>
+<tr class="separator:ab7690853988ed2296d58bfbf5e5c9e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0442f055ef3354c8dbb92b32cfcd983"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00018.html#af0442f055ef3354c8dbb92b32cfcd983">D</a> (const label, const label) const </td></tr>
+<tr class="memdesc:af0442f055ef3354c8dbb92b32cfcd983"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the blended diffusivity.  <a href="#af0442f055ef3354c8dbb92b32cfcd983">More...</a><br /></td></tr>
+<tr class="separator:af0442f055ef3354c8dbb92b32cfcd983"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d384a93addc6500bfda47d220a0bbfd"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00018.html#a2d384a93addc6500bfda47d220a0bbfd">D</a> () const </td></tr>
+<tr class="memdesc:a2d384a93addc6500bfda47d220a0bbfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the mean blended diffusivity.  <a href="#a2d384a93addc6500bfda47d220a0bbfd">More...</a><br /></td></tr>
+<tr class="separator:a2d384a93addc6500bfda47d220a0bbfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Implementation of the conditional quadrature method of moments. </p>
-<p><a class="anchor" id="Description"></a>References </p><pre class="fragment">    "Conditional quadrature method of moments for kinetic equations"
-    C Yuan, R O Fox
-    Journal of Computational Physics
-    Volume 230, Pages 8216-8246, 2011
-</pre><dl class="section user"><dt>Source files</dt><dd><ul>
+<div class="textblock"><h3>template&lt;class modelType&gt;<br />
+class Foam::BlendedInterfacialModel&lt; modelType &gt;</h3>
+
+<p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
 <li>
-<a href="/home/alberto/Desktop/OpenQBMM/src/quadratureMethods/momentInversion/multivariate/conditional/conditionalMomentInversion.H">conditionalMomentInversion.H</a> </li>
+<a href="/home/alberto/Desktop/OpenQBMM-Test/OpenQBMM/applications/solvers/multiphase/twoPhaseSystem/BlendedInterfacialModel/BlendedInterfacialModel.H">BlendedInterfacialModel.H</a> </li>
 <li>
-<a href="/home/alberto/Desktop/OpenQBMM/src/quadratureMethods/momentInversion/multivariate/conditional/conditionalMomentInversion.C">conditionalMomentInversion.C</a> </li>
-<li>
-<a href="/home/alberto/Desktop/OpenQBMM/src/quadratureMethods/momentInversion/multivariate/conditional/conditionalMomentInversionI.C">conditionalMomentInversionI.C</a> </li>
+<a href="/home/alberto/Desktop/OpenQBMM-Test/OpenQBMM/applications/solvers/multiphase/twoPhaseSystem/BlendedInterfacialModel/BlendedInterfacialModel.C">BlendedInterfacialModel.C</a> </li>
 </ul>
 </dd></dl>
 
-<p>Definition at line <a class="el" href="a00222_source.html#l00063">63</a> of file <a class="el" href="a00222_source.html">conditionalMomentInversion.H</a>.</p>
+<p>Definition at line <a class="el" href="a00262_source.html#l00055">55</a> of file <a class="el" href="a00262_source.html">BlendedInterfacialModel.H</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aea8708169fa153ae734bde9a7be848e0"></a>
+<a class="anchor" id="aa0e40976200303629f374a9a871d0178"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00018.html">conditionalMomentInversion</a> </td>
+          <td class="memname"><a class="el" href="a00018.html">BlendedInterfacialModel</a> </td>
           <td>(</td>
-          <td class="paramtype">const dictionary &amp;&#160;</td>
-          <td class="paramname"><em>dict</em>, </td>
+          <td class="paramtype">const <a class="el" href="a00171.html#af363db3b15b36bf4fa7997d250543a18">phasePair::dictTable</a> &amp;&#160;</td>
+          <td class="paramname"><em>modelTable</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const label&#160;</td>
-          <td class="paramname"><em>nMoments</em>, </td>
+          <td class="paramtype">const <a class="el" href="a00019.html">blendingMethod</a> &amp;&#160;</td>
+          <td class="paramname"><em>blending</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Map&lt; label &gt;&#160;</td>
-          <td class="paramname"><em>map</em>, </td>
+          <td class="paramtype">const <a class="el" href="a00171.html">phasePair</a> &amp;&#160;</td>
+          <td class="paramname"><em>pair</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const labelList &amp;&#160;</td>
-          <td class="paramname"><em>nNodes</em>, </td>
+          <td class="paramtype">const <a class="el" href="a00162.html">orderedPhasePair</a> &amp;&#160;</td>
+          <td class="paramname"><em>pair1In2</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const List&lt; word &gt; &amp;&#160;</td>
-          <td class="paramname"><em>support</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="a00162.html">orderedPhasePair</a> &amp;&#160;</td>
+          <td class="paramname"><em>pair2In1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>correctFixedFluxBCs</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -200,233 +225,298 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Disallow default bitwise copy construct. </p>
-<p>conditionalMomentInversion(const conditionalMomentInversion&amp;);Disallow default bitwise assignment</p>
-<p>void operator=(const conditionalMomentInversion&amp;); </p>
-
-<p>Definition at line <a class="el" href="a00221_source.html#l00032">32</a> of file <a class="el" href="a00221_source.html">conditionalMomentInversion.C</a>.</p>
+<p>Construct from the model table, dictionary and pairs. </p>
 
 </div>
 </div>
-<a class="anchor" id="a58b463b7150f954828f65cb99d9f7ec0"></a>
+<a class="anchor" id="af965d40a66a82b4475329a9a4614a902"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">~<a class="el" href="a00018.html">conditionalMomentInversion</a> </td>
+          <td class="memname">~<a class="el" href="a00018.html">BlendedInterfacialModel</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Destructor. </p>
 
-<p>Definition at line <a class="el" href="a00221_source.html#l00133">133</a> of file <a class="el" href="a00221_source.html">conditionalMomentInversion.C</a>.</p>
-
-<p>References <a class="el" href="a00221_source.html#l00140">conditionalMomentInversion::invert()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00018_a58b463b7150f954828f65cb99d9f7ec0_cgraph.png" border="0" usemap="#a00018_a58b463b7150f954828f65cb99d9f7ec0_cgraph" alt=""/></div>
-<map name="a00018_a58b463b7150f954828f65cb99d9f7ec0_cgraph" id="a00018_a58b463b7150f954828f65cb99d9f7ec0_cgraph">
-<area shape="rect" id="node2" href="a00018.html#a8d1ea4c567d75c1d1fc0b882a5c4ac29" title="Invert moments to find weights and abscissae. " alt="" coords="251,5,305,32"/>
-</map>
-</div>
-</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a8d1ea4c567d75c1d1fc0b882a5c4ac29"></a>
+<a class="anchor" id="aa432da371c98eef8cb9bd3838b773a7a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void invert </td>
+          <td class="memname">bool hasModel </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="a00103.html">nDimensionalMappedList</a>&lt; scalar &gt; &amp;&#160;</td>
-          <td class="paramname"><em>moments</em></td><td>)</td>
-          <td></td>
+          <td class="paramtype">const <a class="el" href="a00170.html">phaseModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>phase</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Invert moments to find weights and abscissae. </p>
-
-<p>Definition at line <a class="el" href="a00221_source.html#l00140">140</a> of file <a class="el" href="a00221_source.html">conditionalMomentInversion.C</a>.</p>
-
-<p>References <a class="el" href="a00223_source.html#l00036">conditionalMomentInversion::nNodes()</a>.</p>
-
-<p>Referenced by <a class="el" href="a00221_source.html#l00133">conditionalMomentInversion::~conditionalMomentInversion()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00018_a8d1ea4c567d75c1d1fc0b882a5c4ac29_cgraph.png" border="0" usemap="#a00018_a8d1ea4c567d75c1d1fc0b882a5c4ac29_cgraph" alt=""/></div>
-<map name="a00018_a8d1ea4c567d75c1d1fc0b882a5c4ac29_cgraph" id="a00018_a8d1ea4c567d75c1d1fc0b882a5c4ac29_cgraph">
-<area shape="rect" id="node2" href="a00018.html#af0c9dfde6f2aa1caa3d94853d6fd7fa5" title="Return number of number of nodes in each dimension. " alt="" coords="108,5,177,32"/>
-</map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00018_a8d1ea4c567d75c1d1fc0b882a5c4ac29_icgraph.png" border="0" usemap="#a00018_a8d1ea4c567d75c1d1fc0b882a5c4ac29_icgraph" alt=""/></div>
-<map name="a00018_a8d1ea4c567d75c1d1fc0b882a5c4ac29_icgraph" id="a00018_a8d1ea4c567d75c1d1fc0b882a5c4ac29_icgraph">
-<area shape="rect" id="node2" href="a00018.html#a58b463b7150f954828f65cb99d9f7ec0" title="Destructor. " alt="" coords="108,5,305,32"/>
-</map>
-</div>
-</p>
+<p>Return true if a model is specified for the supplied phase. </p>
 
 </div>
 </div>
-<a class="anchor" id="ac1e97a89c526e32fc5ef143d6bcef361"></a>
+<a class="anchor" id="a8d34d00d8841842d1634132672f2fcc1"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Foam::label nMoments </td>
+          <td class="memname">const modelType&amp; <a class="el" href="a00170.html">phaseModel</a> </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="paramtype">const <a class="el" href="a00170.html">phaseModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>phase</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Return number of moments. </p>
-<p>Return the total number of moments. </p>
-
-<p>Definition at line <a class="el" href="a00223_source.html#l00030">30</a> of file <a class="el" href="a00223_source.html">conditionalMomentInversionI.H</a>.</p>
+<p>Return the model for the supplied phase. </p>
 
 </div>
 </div>
-<a class="anchor" id="af0c9dfde6f2aa1caa3d94853d6fd7fa5"></a>
+<a class="anchor" id="a35e0efa93e512a85662abb41bb63bfc3"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const Foam::labelList &amp; nNodes </td>
+          <td class="memname">tmp&lt;volScalarField&gt; K </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Return number of number of nodes in each dimension. </p>
-<p>Return the list of nNodes. </p>
-
-<p>Definition at line <a class="el" href="a00223_source.html#l00036">36</a> of file <a class="el" href="a00223_source.html">conditionalMomentInversionI.H</a>.</p>
-
-<p>Referenced by <a class="el" href="a00221_source.html#l00140">conditionalMomentInversion::invert()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00018_af0c9dfde6f2aa1caa3d94853d6fd7fa5_icgraph.png" border="0" usemap="#a00018_af0c9dfde6f2aa1caa3d94853d6fd7fa5_icgraph" alt=""/></div>
-<map name="a00018_af0c9dfde6f2aa1caa3d94853d6fd7fa5_icgraph" id="a00018_af0c9dfde6f2aa1caa3d94853d6fd7fa5_icgraph">
-<area shape="rect" id="node2" href="a00018.html#a8d1ea4c567d75c1d1fc0b882a5c4ac29" title="Invert moments to find weights and abscissae. " alt="" coords="123,5,177,32"/>
-</map>
-</div>
-</p>
+<p>Return the blended force coefficient. </p>
 
 </div>
 </div>
-<a class="anchor" id="a74dc9a46ed55bdd3419033108410c0fc"></a>
+<a class="anchor" id="a5f97e679211ae7ceed61a1df1694f5a3"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const Foam::PtrList&lt; <a class="el" href="a00103.html">Foam::nDimensionalMappedList</a>&lt; Foam::scalar &gt; &gt; &amp; weights </td>
+          <td class="memname">tmp&lt;volScalarField&gt; K </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Return mapped quadrature weights for each dimension. </p>
-<p>Return mapped list of weights. </p>
-
-<p>Definition at line <a class="el" href="a00223_source.html#l00043">43</a> of file <a class="el" href="a00223_source.html">conditionalMomentInversionI.H</a>.</p>
+<p>Return the mean blended force coefficient. </p>
 
 </div>
 </div>
-<a class="anchor" id="a82e42b64483b51fcf767d9709206c1ef"></a>
+<a class="anchor" id="ac0b59b15c1414e498d72553b6de07df7"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const Foam::PtrList&lt; <a class="el" href="a00103.html">Foam::nDimensionalMappedList</a>&lt; Foam::scalar &gt; &gt; &amp; abscissae </td>
+          <td class="memname">tmp&lt;surfaceScalarField&gt; Kf </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the face blended force coefficient. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae5657690105b6fbb0ea7fac56c6f709a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tmp&lt;surfaceScalarField&gt; Kf </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Return mapped quadrature abscissae for each dimension. </p>
-<p>Return mapped list of abscissae. </p>
-
-<p>Definition at line <a class="el" href="a00223_source.html#l00050">50</a> of file <a class="el" href="a00223_source.html">conditionalMomentInversionI.H</a>.</p>
+<p>Return the mean face blended force coefficient. </p>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="a00222_source.html">conditionalMomentInversion.H</a></li>
-<li><a class="el" href="a00221_source.html">conditionalMomentInversion.C</a></li>
-<li><a class="el" href="a00223_source.html">conditionalMomentInversionI.H</a></li>
+<a class="anchor" id="a9afb4ce093c6b658309a3e2bd8d42be4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tmp&lt;GeometricField&lt;Type, fvPatchField, volMesh&gt; &gt; F </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the blended force. </p>
+
+</div>
+</div>
+<a class="anchor" id="aec062438907d89f3fe872dfe9ba75570"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tmp&lt;GeometricField&lt;Type, fvPatchField, volMesh&gt; &gt; F </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the mean blended force. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae05bf466318f1d8d2f95f55280857e0c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tmp&lt;surfaceScalarField&gt; Ff </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the face blended force. </p>
+
+</div>
+</div>
+<a class="anchor" id="ab7690853988ed2296d58bfbf5e5c9e9b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tmp&lt;surfaceScalarField&gt; Ff </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the mean face blended force. </p>
+
+</div>
+</div>
+<a class="anchor" id="af0442f055ef3354c8dbb92b32cfcd983"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tmp&lt;volScalarField&gt; D </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the blended diffusivity. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2d384a93addc6500bfda47d220a0bbfd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tmp&lt;volScalarField&gt; D </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the mean blended diffusivity. </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="a00262_source.html">BlendedInterfacialModel.H</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00605.html">Foam</a></li><li class="navelem"><a class="el" href="a00018.html">conditionalMomentInversion</a></li>
+    <li class="navelem"><a class="el" href="a00723.html">Foam</a></li><li class="navelem"><a class="el" href="a00018.html">BlendedInterfacialModel</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

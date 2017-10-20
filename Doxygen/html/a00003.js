@@ -1,7 +1,8 @@
 var a00003 =
 [
-    [ "alphaAndDiameter", "a00003.html#afc335551063aa677948931a2d85c67cb", null ],
-    [ "~alphaAndDiameter", "a00003.html#aae4b1815ca8535bfcf9fd8770973a928", null ],
-    [ "TypeName", "a00003.html#a74cb709dface36220c56934feb4f20a7", null ],
-    [ "updateQuadrature", "a00003.html#acc360d2f5d50c09bb0f88dcf0dc26d99", null ]
+    [ "AGmomentTransportModel", "a00003.html#ae39de365470198ad92e7143adca3df8c", null ],
+    [ "~AGmomentTransportModel", "a00003.html#a52042bbe2c4bdd18371fdaff22925279", null ],
+    [ "solve", "a00003.html#aecaadd801e2f3fc52c9a0b229cef34b8", null ],
+    [ "ddtAlphaDilute", "a00003.html#a16b58303ab4b70610d7667f69ee37cb7", null ],
+    [ "maxUxDx", "a00003.html#a8f02fc565f2e626ceae2b1798f4fa5a1", null ]
 ];

@@ -1,5 +1,5 @@
-<map id="univariatePDFTransportModel.H" name="univariatePDFTransportModel.H">
-<area shape="rect" id="node2" href="$a00556.html" title="turbulentMixing.H" alt="" coords="5,80,128,107"/>
-<area shape="rect" id="node3" href="$a00573.html" title="univariatePDFTransportModel.C" alt="" coords="152,80,368,107"/>
-<area shape="rect" id="node4" href="$a00577.html" title="univariatePopulationBalance.H" alt="" coords="392,80,597,107"/>
+<map id="momentGenerationModel.H" name="momentGenerationModel.H">
+<area shape="rect" id="node2" href="$a00242.html" title="alphaAndDiameter.H" alt="" coords="5,80,152,107"/>
+<area shape="rect" id="node3" href="$a00548.html" title="noMomentGeneration.H" alt="" coords="177,80,341,107"/>
+<area shape="rect" id="node4" href="$a00714.html" title="weightsAndAbscissae.H" alt="" coords="365,80,531,107"/>
 </map>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>output.H File Reference</title>
+<title>My Project: mixingModel.C File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,9 +31,12 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
-    <td style="padding-left: 0.5em;">
-    <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
-    </td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   &#160;<span id="projectnumber">-dev</span>
+   </div>
+   <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
+  </td>
  </tr>
  </tbody>
 </table>
@@ -104,59 +107,45 @@ $(document).ready(function(){initNavTree('a00469.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">output.H File Reference</div>  </div>
+<div class="title">mixingModel.C File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><div class="dynheader">
+Include dependency graph for mixingModel.C:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00966.png" border="0" usemap="#mixingModel_8C" alt=""/></div>
+<map name="mixingModel_8C" id="mixingModel_8C">
+<area shape="rect" id="node2" href="a00470.html" title="mixingModel.H" alt="" coords="6,80,117,107"/>
+</map>
+</div>
+</div>
 <p><a href="a00469_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:a00723"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00723.html">Foam</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8f30b3c2179b03a7acf273e9dea43342"><td class="memItemLeft" align="right" valign="top">runTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00469.html#a8f30b3c2179b03a7acf273e9dea43342">write</a> ()</td></tr>
-<tr class="separator:a8f30b3c2179b03a7acf273e9dea43342"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71d53d6ef9266108a5d094c1554b2792"><td class="memItemLeft" align="right" valign="top">volScalarField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00469.html#a71d53d6ef9266108a5d094c1554b2792">moment0</a> (mesh.lookupObject&lt; volScalarField &gt;(&quot;moment.0.populationBalance&quot;))</td></tr>
-<tr class="separator:a71d53d6ef9266108a5d094c1554b2792"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfa73918fc77af1ed8be0d92e9ee1703"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00723.html#adfa73918fc77af1ed8be0d92e9ee1703">defineTypeNameAndDebug</a> (mixingModel, 0)</td></tr>
+<tr class="separator:adfa73918fc77af1ed8be0d92e9ee1703"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a147adac4350a271380c85ada44c2559e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00723.html#a147adac4350a271380c85ada44c2559e">defineRunTimeSelectionTable</a> (mixingModel, dictionary)</td></tr>
+<tr class="separator:a147adac4350a271380c85ada44c2559e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a8f30b3c2179b03a7acf273e9dea43342"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">runTime write </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><b>Original source file</b> <a href="/home/alberto/Desktop/OpenQBMM-Test/OpenQBMM/src/quadratureMethods/mixingModels/mixingModel/mixingModel.C">mixingModel.C</a> </p>
 
-</div>
-</div>
-<a class="anchor" id="a71d53d6ef9266108a5d094c1554b2792"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">volScalarField moment0 </td>
-          <td>(</td>
-          <td class="paramtype">mesh.lookupObject&lt; volScalarField &gt;&#160;</td>
-          <td class="paramname">&quot;moment.0.populationBalance&quot;</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-</div><!-- contents -->
+<p>Definition in file <a class="el" href="a00469_source.html">mixingModel.C</a>.</p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html">applications</a></li><li class="navelem"><a class="el" href="dir_fdd174abb8ada244b49e98779c87ac3c.html">solvers</a></li><li class="navelem"><a class="el" href="dir_74f6d3f7ad03918913a31b65bbfab520.html">pbeFoam</a></li><li class="navelem"><a class="el" href="a00469.html">output.H</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_e33c4094dda42b63bf42ed0cf06ff677.html">mixingModels</a></li><li class="navelem"><a class="el" href="dir_e6d6a79088559f691bb042cec800b315.html">mixingModel</a></li><li class="navelem"><a class="el" href="a00469.html">mixingModel.C</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

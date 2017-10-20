@@ -1,0 +1,12 @@
+digraph "equilibrium" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_ed2d56e502992d65035ff68b2a9a1135 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="kineticTheoryModels" fontname="Helvetica", fontsize="10", URL="dir_ed2d56e502992d65035ff68b2a9a1135.html"]
+  dir_d1913197eb336b21677b9a178d95e7ad [shape=box, label="equilibrium", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d1913197eb336b21677b9a178d95e7ad.html"];
+  }
+  dir_44c13c9e29fecf045ec0d93a50553a5e [shape=box label="kineticTheoryModel" URL="dir_44c13c9e29fecf045ec0d93a50553a5e.html"];
+  dir_d1913197eb336b21677b9a178d95e7ad->dir_44c13c9e29fecf045ec0d93a50553a5e [headlabel="1", labeldistance=1.5 headhref="dir_000096_000140.html"];
+}

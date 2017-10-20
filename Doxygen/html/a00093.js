@@ -1,7 +1,7 @@
 var a00093 =
 [
-    [ "molecularDiffusion", "a00093.html#a41d71a49f9ceacb5bcf471d389c4a71e", null ],
-    [ "~molecularDiffusion", "a00093.html#a092563f81ebe7ddd529901dccc7c9728", null ],
-    [ "TypeName", "a00093.html#acccd9d711a961de8b7ddaa1f6582763a", null ],
-    [ "momentDiff", "a00093.html#a2607d470834fac9d39bfc0d92f89d41a", null ]
+    [ "IEM", "a00093.html#a0889eb4694ebdfaf84d6835f64d09606", null ],
+    [ "~IEM", "a00093.html#a997e52c6e4e36862421a083fced3f78b", null ],
+    [ "TypeName", "a00093.html#a1aa74a2a8e1a424bcbf1e400e8a4c504", null ],
+    [ "K", "a00093.html#ac39375448f36ddee2cac96a50dd6a0a9", null ]
 ];

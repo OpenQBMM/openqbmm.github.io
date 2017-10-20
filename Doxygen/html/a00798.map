@@ -1,3 +1,4 @@
-<map id="LunPressure.H" name="LunPressure.H">
-<area shape="rect" id="node2" href="$a00318.html" title="granularPressureModel.H" alt="" coords="5,80,180,107"/>
+<map id="bubblePressureModel.H" name="bubblePressureModel.H">
+<area shape="rect" id="node2" href="$a00258.html" title="BeisheuvelBubblePressure.H" alt="" coords="5,80,201,107"/>
+<area shape="rect" id="node3" href="$a00538.html" title="noBubblePressure.H" alt="" coords="226,80,370,107"/>
 </map>

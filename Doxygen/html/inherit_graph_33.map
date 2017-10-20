@@ -1,2 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$a00066.html" title="Abstract class for run&#45;time selection of field moment inversion. " alt="" coords="5,31,155,57"/>
+<area shape="rect" id="node2" href="$a00014.html" title="Invert moment a volUnivariateMomentFieldSet using basic quadrature inversion. " alt="" coords="215,5,401,32"/>
+<area shape="rect" id="node3" href="$a00064.html" title="Inverts a volUnivariateMomentFieldSet using the extended quadrature method of moments. " alt="" coords="203,56,413,83"/>
 </map>

@@ -1,7 +1,0 @@
-<map id="interpolateNodes" name="interpolateNodes">
-<area shape="rect" id="node2" href="$a00136.html#a91c350105601a2749fccc0b46064c670" title="Return the nodes. " alt="" coords="177,5,392,61"/>
-<area shape="rect" id="node3" href="$a00101.html#a173823a263ae34208a1e9c256037d74a" title="Const access to the interpolated moments (neighbour) " alt="" coords="245,85,325,112"/>
-<area shape="rect" id="node4" href="$a00101.html#aed39d8c979af39431a75e73107a80e81" title="Const access to the interpolated moments (owner) " alt="" coords="241,136,328,163"/>
-<area shape="rect" id="node5" href="$a00137.html#a436581ffd72d3ac178b6d3381f0928ce" title="Const access to the abscissa of the node. " alt="" coords="203,187,366,229"/>
-<area shape="rect" id="node6" href="$a00137.html#aa0a25e3fbd8098cb359e8e92cafba070" title="Const access to the weight of the node. " alt="" coords="203,253,366,294"/>
-</map>

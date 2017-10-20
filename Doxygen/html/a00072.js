@@ -1,15 +1,13 @@
 var a00072 =
 [
-    [ "JohnsonJacksonParticleThetaFvPatchScalarField", "a00072.html#ab4de2b6aeef0cd5aed0a94d42a80ca16", null ],
-    [ "JohnsonJacksonParticleThetaFvPatchScalarField", "a00072.html#ad896ebd47fc1f2f92971dcefbdda839a", null ],
-    [ "JohnsonJacksonParticleThetaFvPatchScalarField", "a00072.html#aa297c89153786acaae10e1c2710a3928", null ],
-    [ "JohnsonJacksonParticleThetaFvPatchScalarField", "a00072.html#a7a91158a3117d8fcfab3cb29cc279b48", null ],
-    [ "JohnsonJacksonParticleThetaFvPatchScalarField", "a00072.html#a4cf6a9245c7d534d37bb0232004d294a", null ],
-    [ "TypeName", "a00072.html#a3503fab13eb0a7226df1231951df6089", null ],
-    [ "clone", "a00072.html#afdeceecb1c75e9ccc98c2f489fe8fa00", null ],
-    [ "clone", "a00072.html#a8a53cadd8227f307947ec9c8750e5f11", null ],
-    [ "autoMap", "a00072.html#a14e8e75907d10256d8a4ab61520e7e08", null ],
-    [ "rmap", "a00072.html#a1a69c2588e34c53c0a08a60930c964bc", null ],
-    [ "updateCoeffs", "a00072.html#a578f7c989cf81854d45213ec3ee3062a", null ],
-    [ "write", "a00072.html#a8485e769c905e0174ac3bc1970eac328", null ]
+    [ "frictionalStressModel", "a00072.html#a10a490ec2de060d40877d7cd26f6577d", null ],
+    [ "~frictionalStressModel", "a00072.html#a1f71b430053e2a10283db3dc6b8b96ac", null ],
+    [ "TypeName", "a00072.html#af94b60ff3239fa81ced4741c546de289", null ],
+    [ "declareRunTimeSelectionTable", "a00072.html#a2741be6f2501ad67d012f86baff59c92", null ],
+    [ "New", "a00072.html#af4b073000c3b3d6bba3ee4023f40aa98", null ],
+    [ "frictionalPressure", "a00072.html#a6ea985dd666b633e603e6f2a84ff4afe", null ],
+    [ "frictionalPressurePrime", "a00072.html#a8949243dd1fb635cd5afd452f6b7f06b", null ],
+    [ "nu", "a00072.html#a5035d13518e7cefd211c8f47e9f9a8d3", null ],
+    [ "read", "a00072.html#a2eeeaebe7e52f5d842385ce0b177150d", null ],
+    [ "dict_", "a00072.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a", null ]
 ];

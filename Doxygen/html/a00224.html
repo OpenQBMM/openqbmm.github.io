@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>conductivityModel.C File Reference</title>
+<title>My Project: viscosityModel Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,9 +31,12 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
-    <td style="padding-left: 0.5em;">
-    <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
-    </td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   &#160;<span id="projectnumber">-dev</span>
+   </div>
+   <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
+  </td>
  </tr>
  </tbody>
 </table>
@@ -47,8 +50,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
-      <li class="current"><a href="files.html"><span>Files</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -69,8 +72,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="files.html"><span>File&#160;List</span></a></li>
-      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -103,22 +108,309 @@ $(document).ready(function(){initNavTree('a00224.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="a01453.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">conductivityModel.C File Reference</div>  </div>
+<div class="title">viscosityModel Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p><a href="a00224_source.html">Go to the source code of this file.</a></p>
+<div class="dynheader">
+Inheritance diagram for viscosityModel:</div>
+<div class="dyncontent">
+<div class="center"><img src="a01454.png" border="0" usemap="#viscosityModel_inherit__map" alt="Inheritance graph"/></div>
+<map name="viscosityModel_inherit__map" id="viscosityModel_inherit__map">
+<area shape="rect" id="node2" href="a00107.html" title="KongFox" alt="" coords="5,80,83,107"/>
+<area shape="rect" id="node3" href="a00151.html" title="noneViscosity" alt="" coords="107,80,213,107"/>
+<area shape="rect" id="node4" href="a00080.html" title="Gidaspow" alt="" coords="238,80,322,107"/>
+<area shape="rect" id="node5" href="a00089.html" title="HrenyaSinclair" alt="" coords="347,80,456,107"/>
+<area shape="rect" id="node6" href="a00192.html" title="Syamlal" alt="" coords="481,80,551,107"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ac0e08eba1e7a69731b23fbe94d2d9aa7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00224.html#ac0e08eba1e7a69731b23fbe94d2d9aa7">TypeName</a> (&quot;viscosityModel&quot;)</td></tr>
+<tr class="memdesc:ac0e08eba1e7a69731b23fbe94d2d9aa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#ac0e08eba1e7a69731b23fbe94d2d9aa7">More...</a><br /></td></tr>
+<tr class="separator:ac0e08eba1e7a69731b23fbe94d2d9aa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50922703861a77b97ff4ae6f38c8d833"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00224.html#a50922703861a77b97ff4ae6f38c8d833">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00224.html">viscosityModel</a>, dictionary,(                                       const dictionary &amp;dict                       ),(dict))</td></tr>
+<tr class="separator:a50922703861a77b97ff4ae6f38c8d833"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67b2e2df07af44cb61c2c8c7eafeb52b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00224.html#a67b2e2df07af44cb61c2c8c7eafeb52b">viscosityModel</a> (const dictionary &amp;dict)</td></tr>
+<tr class="memdesc:a67b2e2df07af44cb61c2c8c7eafeb52b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#a67b2e2df07af44cb61c2c8c7eafeb52b">More...</a><br /></td></tr>
+<tr class="separator:a67b2e2df07af44cb61c2c8c7eafeb52b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3453f72f3e991f44922b1ccffde8c22"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00224.html#aa3453f72f3e991f44922b1ccffde8c22">~viscosityModel</a> ()</td></tr>
+<tr class="memdesc:aa3453f72f3e991f44922b1ccffde8c22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#aa3453f72f3e991f44922b1ccffde8c22">More...</a><br /></td></tr>
+<tr class="separator:aa3453f72f3e991f44922b1ccffde8c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a442b4540d92a940093fcf3cd2153c826"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00224.html#a442b4540d92a940093fcf3cd2153c826">nu</a> (const <a class="el" href="a00170.html">phaseModel</a> &amp;alpha1, const volScalarField &amp;Theta, const volScalarField &amp;g0, const volScalarField &amp;<a class="el" href="a00325.html#af72fd2ce0bf948096cadebf34827046a">rho1</a>, const volScalarField &amp;da, const dimensionedScalar &amp;e) const  =0</td></tr>
+<tr class="separator:a442b4540d92a940093fcf3cd2153c826"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcf7aafd601a940195284bc91610bb08"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00224.html#abcf7aafd601a940195284bc91610bb08">read</a> ()</td></tr>
+<tr class="separator:abcf7aafd601a940195284bc91610bb08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a8e424f01eae19c718d22a9268198f8f8"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00224.html">viscosityModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00224.html#a8e424f01eae19c718d22a9268198f8f8">New</a> (const dictionary &amp;dict)</td></tr>
+<tr class="separator:a8e424f01eae19c718d22a9268198f8f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a892ddcb9cba6f50b0396cdb7bf1b4f6a"><td class="memItemLeft" align="right" valign="top">const dictionary &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00224.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a">dict_</a></td></tr>
+<tr class="separator:a892ddcb9cba6f50b0396cdb7bf1b4f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/phaseCompressibleTurbulenceModels/kineticTheoryModels/conductivityModel/conductivityModel/conductivityModel.C">conductivityModel.C</a> </p>
+<div class="textblock">
+<p>Definition at line <a class="el" href="a00704_source.html#l00056">56</a> of file <a class="el" href="a00704_source.html">viscosityModel.H</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a67b2e2df07af44cb61c2c8c7eafeb52b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a00224.html">viscosityModel</a> </td>
+          <td>(</td>
+          <td class="paramtype">const dictionary &amp;&#160;</td>
+          <td class="paramname"><em>dict</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
-<p>Definition in file <a class="el" href="a00224_source.html">conductivityModel.C</a>.</p>
-</div></div><!-- contents -->
+<p>Construct from components. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa3453f72f3e991f44922b1ccffde8c22"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual ~<a class="el" href="a00224.html">viscosityModel</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Destructor. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ac0e08eba1e7a69731b23fbe94d2d9aa7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TypeName </td>
+          <td>(</td>
+          <td class="paramtype">&quot;viscosityModel&quot;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Runtime type information. </p>
+
+</div>
+</div>
+<a class="anchor" id="a50922703861a77b97ff4ae6f38c8d833"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">declareRunTimeSelectionTable </td>
+          <td>(</td>
+          <td class="paramtype">autoPtr&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="a00224.html">viscosityModel</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dictionary&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">(                                                                           const dictionary &amp;dict                                           )&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">(dict)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8e424f01eae19c718d22a9268198f8f8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static autoPtr&lt;<a class="el" href="a00224.html">viscosityModel</a>&gt; New </td>
+          <td>(</td>
+          <td class="paramtype">const dictionary &amp;&#160;</td>
+          <td class="paramname"><em>dict</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a442b4540d92a940093fcf3cd2153c826"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual tmp&lt;volScalarField&gt; nu </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="a00170.html">phaseModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>alpha1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const volScalarField &amp;&#160;</td>
+          <td class="paramname"><em>Theta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const volScalarField &amp;&#160;</td>
+          <td class="paramname"><em>g0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const volScalarField &amp;&#160;</td>
+          <td class="paramname"><em>rho1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const volScalarField &amp;&#160;</td>
+          <td class="paramname"><em>da</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dimensionedScalar &amp;&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="a00089.html#af4c864586110e879869d1be6131f326e">HrenyaSinclair</a>, <a class="el" href="a00192.html#af4c864586110e879869d1be6131f326e">Syamlal</a>, <a class="el" href="a00080.html#af4c864586110e879869d1be6131f326e">Gidaspow</a>, <a class="el" href="a00151.html#af4c864586110e879869d1be6131f326e">noneViscosity</a>, and <a class="el" href="a00107.html#af4c864586110e879869d1be6131f326e">KongFox</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abcf7aafd601a940195284bc91610bb08"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool read </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="a00089.html#abcf7aafd601a940195284bc91610bb08">HrenyaSinclair</a>.</p>
+
+<p>Definition at line <a class="el" href="a00704_source.html#l00122">122</a> of file <a class="el" href="a00704_source.html">viscosityModel.H</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a892ddcb9cba6f50b0396cdb7bf1b4f6a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const dictionary&amp; dict_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00704_source.html#l00071">71</a> of file <a class="el" href="a00704_source.html">viscosityModel.H</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="a00704_source.html">viscosityModel.H</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html">applications</a></li><li class="navelem"><a class="el" href="dir_fdd174abb8ada244b49e98779c87ac3c.html">solvers</a></li><li class="navelem"><a class="el" href="dir_40ef2584a0ec6d8ca6a91d700a2af4ea.html">polydisperseBubbleFoam</a></li><li class="navelem"><a class="el" href="dir_e82341946789e4965af2c3527c7e2605.html">phaseCompressibleTurbulenceModels</a></li><li class="navelem"><a class="el" href="dir_8f844cb110652cb6a9dbedd7596b1b01.html">kineticTheoryModels</a></li><li class="navelem"><a class="el" href="dir_d347a84a7717ac1fabf2089a33186e34.html">conductivityModel</a></li><li class="navelem"><a class="el" href="dir_d9f1a5642a551c9e150de21f29d7da20.html">conductivityModel</a></li><li class="navelem"><a class="el" href="a00224.html">conductivityModel.C</a></li>
+    <li class="navelem"><a class="el" href="a00723.html">Foam</a></li><li class="navelem"><a class="el" href="a00733.html">kineticTheoryModels</a></li><li class="navelem"><a class="el" href="a00224.html">viscosityModel</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Lun Class Reference</title>
+<title>My Project: growthModel Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,9 +31,12 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
-    <td style="padding-left: 0.5em;">
-    <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
-    </td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   &#160;<span id="projectnumber">-dev</span>
+   </div>
+   <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
+  </td>
  </tr>
  </tbody>
 </table>
@@ -107,79 +110,73 @@ $(document).ready(function(){initNavTree('a00085.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="a01245.html">List of all members</a>  </div>
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="a01578.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Lun Class Reference</div>  </div>
+<div class="title">growthModel Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Abstract class for growth model.  
+ <a href="a00085.html#details">More...</a></p>
 <div class="dynheader">
-Inheritance diagram for Lun:</div>
+Inheritance diagram for growthModel:</div>
 <div class="dyncontent">
-<div class="center"><img src="a01246.png" border="0" usemap="#Lun_inherit__map" alt="Inheritance graph"/></div>
-<map name="Lun_inherit__map" id="Lun_inherit__map">
-<area shape="rect" id="node2" href="a00057.html" title="granularPressureModel" alt="" coords="5,5,168,32"/>
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for Lun:</div>
-<div class="dyncontent">
-<div class="center"><img src="a01247.png" border="0" usemap="#Lun_coll__map" alt="Collaboration graph"/></div>
-<map name="Lun_coll__map" id="Lun_coll__map">
-<area shape="rect" id="node2" href="a00057.html" title="granularPressureModel" alt="" coords="5,5,168,32"/>
+<div class="center"><img src="a01579.png" border="0" usemap="#growthModel_inherit__map" alt="Inheritance graph"/></div>
+<map name="growthModel_inherit__map" id="growthModel_inherit__map">
+<area shape="rect" id="node2" href="a00043.html" title="Constant growth model. The value of the constant is read from dictionary or assumed equal to 1..." alt="" coords="5,80,120,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a71ac58eefea271425c68a5b19fe89d5b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00085.html#a71ac58eefea271425c68a5b19fe89d5b">TypeName</a> (&quot;Lun&quot;)</td></tr>
-<tr class="memdesc:a71ac58eefea271425c68a5b19fe89d5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#a71ac58eefea271425c68a5b19fe89d5b">More...</a><br /></td></tr>
-<tr class="separator:a71ac58eefea271425c68a5b19fe89d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23ee449d6527b7755a1da51eae89e357"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00085.html#a23ee449d6527b7755a1da51eae89e357">Lun</a> (const dictionary &amp;dict)</td></tr>
-<tr class="memdesc:a23ee449d6527b7755a1da51eae89e357"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#a23ee449d6527b7755a1da51eae89e357">More...</a><br /></td></tr>
-<tr class="separator:a23ee449d6527b7755a1da51eae89e357"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9195da2539df648c03a1538ca2e95854"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00085.html#a9195da2539df648c03a1538ca2e95854">~Lun</a> ()</td></tr>
-<tr class="memdesc:a9195da2539df648c03a1538ca2e95854"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a9195da2539df648c03a1538ca2e95854">More...</a><br /></td></tr>
-<tr class="separator:a9195da2539df648c03a1538ca2e95854"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab385b192bdf96fe50901cf94cadcccb2"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00085.html#ab385b192bdf96fe50901cf94cadcccb2">granularPressureCoeff</a> (const volScalarField &amp;alpha1, const volScalarField &amp;g0, const volScalarField &amp;<a class="el" href="a00249.html#af72fd2ce0bf948096cadebf34827046a">rho1</a>, const dimensionedScalar &amp;e) const </td></tr>
-<tr class="memdesc:ab385b192bdf96fe50901cf94cadcccb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Granular pressure coefficient.  <a href="#ab385b192bdf96fe50901cf94cadcccb2">More...</a><br /></td></tr>
-<tr class="separator:ab385b192bdf96fe50901cf94cadcccb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7477040e4bebb305b8dba787382d97e0"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00085.html#a7477040e4bebb305b8dba787382d97e0">granularPressureCoeffPrime</a> (const volScalarField &amp;alpha1, const volScalarField &amp;g0, const volScalarField &amp;g0prime, const volScalarField &amp;<a class="el" href="a00249.html#af72fd2ce0bf948096cadebf34827046a">rho1</a>, const dimensionedScalar &amp;e) const </td></tr>
-<tr class="memdesc:a7477040e4bebb305b8dba787382d97e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivative of the granular pressure coefficient.  <a href="#a7477040e4bebb305b8dba787382d97e0">More...</a><br /></td></tr>
-<tr class="separator:a7477040e4bebb305b8dba787382d97e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a00057"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00057')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="a00057.html">granularPressureModel</a></td></tr>
-<tr class="memitem:a2aba49360c7f76bb36eb0020006414c4 inherit pub_methods_a00057"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00057.html#a2aba49360c7f76bb36eb0020006414c4">TypeName</a> (&quot;granularPressureModel&quot;)</td></tr>
-<tr class="memdesc:a2aba49360c7f76bb36eb0020006414c4 inherit pub_methods_a00057"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#a2aba49360c7f76bb36eb0020006414c4">More...</a><br /></td></tr>
-<tr class="separator:a2aba49360c7f76bb36eb0020006414c4 inherit pub_methods_a00057"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af356215ceaf906c7c7a07fc6449f9314 inherit pub_methods_a00057"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00057.html#af356215ceaf906c7c7a07fc6449f9314">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00057.html">granularPressureModel</a>, dictionary,(                                       const dictionary &amp;dict                       ),(dict))</td></tr>
-<tr class="separator:af356215ceaf906c7c7a07fc6449f9314 inherit pub_methods_a00057"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bf40c505c80f8322a78fe9318dec694 inherit pub_methods_a00057"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00057.html#a5bf40c505c80f8322a78fe9318dec694">granularPressureModel</a> (const dictionary &amp;dict)</td></tr>
-<tr class="memdesc:a5bf40c505c80f8322a78fe9318dec694 inherit pub_methods_a00057"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#a5bf40c505c80f8322a78fe9318dec694">More...</a><br /></td></tr>
-<tr class="separator:a5bf40c505c80f8322a78fe9318dec694 inherit pub_methods_a00057"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af438d46cca49e7b2ba5ac4705820ac64 inherit pub_methods_a00057"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00057.html#af438d46cca49e7b2ba5ac4705820ac64">~granularPressureModel</a> ()</td></tr>
-<tr class="memdesc:af438d46cca49e7b2ba5ac4705820ac64 inherit pub_methods_a00057"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#af438d46cca49e7b2ba5ac4705820ac64">More...</a><br /></td></tr>
-<tr class="separator:af438d46cca49e7b2ba5ac4705820ac64 inherit pub_methods_a00057"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcf7aafd601a940195284bc91610bb08 inherit pub_methods_a00057"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00057.html#abcf7aafd601a940195284bc91610bb08">read</a> ()</td></tr>
-<tr class="separator:abcf7aafd601a940195284bc91610bb08 inherit pub_methods_a00057"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1ef5bca2c86ba9151614ebeaffed754"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00085.html#ab1ef5bca2c86ba9151614ebeaffed754">TypeName</a> (&quot;growthModel&quot;)</td></tr>
+<tr class="memdesc:ab1ef5bca2c86ba9151614ebeaffed754"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#ab1ef5bca2c86ba9151614ebeaffed754">More...</a><br /></td></tr>
+<tr class="separator:ab1ef5bca2c86ba9151614ebeaffed754"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9d98df3c14edfe3a1ac5bbfb9e2b10b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00085.html#aa9d98df3c14edfe3a1ac5bbfb9e2b10b">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00085.html">growthModel</a>, dictionary,(                                       const dictionary &amp;dict                       ),(dict))</td></tr>
+<tr class="separator:aa9d98df3c14edfe3a1ac5bbfb9e2b10b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa383495cbbb616e5138b6b5ce8a2630b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00085.html#aa383495cbbb616e5138b6b5ce8a2630b">growthModel</a> (const dictionary &amp;dict)</td></tr>
+<tr class="memdesc:aa383495cbbb616e5138b6b5ce8a2630b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#aa383495cbbb616e5138b6b5ce8a2630b">More...</a><br /></td></tr>
+<tr class="separator:aa383495cbbb616e5138b6b5ce8a2630b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cbcf75a5aa3c9f8e8b9d40904732c29"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00085.html#a2cbcf75a5aa3c9f8e8b9d40904732c29">~growthModel</a> ()</td></tr>
+<tr class="memdesc:a2cbcf75a5aa3c9f8e8b9d40904732c29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a2cbcf75a5aa3c9f8e8b9d40904732c29">More...</a><br /></td></tr>
+<tr class="separator:a2cbcf75a5aa3c9f8e8b9d40904732c29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7fb4ac29c00f426780bcdfebae822de"><td class="memItemLeft" align="right" valign="top">virtual scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00085.html#ab7fb4ac29c00f426780bcdfebae822de">Kg</a> (const scalar &amp;abscissa) const  =0</td></tr>
+<tr class="memdesc:ab7fb4ac29c00f426780bcdfebae822de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Growth model.  <a href="#ab7fb4ac29c00f426780bcdfebae822de">More...</a><br /></td></tr>
+<tr class="separator:ab7fb4ac29c00f426780bcdfebae822de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_static_methods_a00057"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_a00057')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="a00057.html">granularPressureModel</a></td></tr>
-<tr class="memitem:a930e3faa668f26dba20a832ed632f12a inherit pub_static_methods_a00057"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00057.html">granularPressureModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00057.html#a930e3faa668f26dba20a832ed632f12a">New</a> (const dictionary &amp;dict)</td></tr>
-<tr class="separator:a930e3faa668f26dba20a832ed632f12a inherit pub_static_methods_a00057"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_a00057"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a00057')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="a00057.html">granularPressureModel</a></td></tr>
-<tr class="memitem:a892ddcb9cba6f50b0396cdb7bf1b4f6a inherit pro_attribs_a00057"><td class="memItemLeft" align="right" valign="top">const dictionary &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00057.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a">dict_</a></td></tr>
-<tr class="separator:a892ddcb9cba6f50b0396cdb7bf1b4f6a inherit pro_attribs_a00057"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a7da088e2d1463d28793d9e080bf244a6"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00085.html">growthModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00085.html#a7da088e2d1463d28793d9e080bf244a6">New</a> (const dictionary &amp;dict)</td></tr>
+<tr class="separator:a7da088e2d1463d28793d9e080bf244a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a892ddcb9cba6f50b0396cdb7bf1b4f6a"><td class="memItemLeft" align="right" valign="top">const dictionary &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00085.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a">dict_</a></td></tr>
+<tr class="separator:a892ddcb9cba6f50b0396cdb7bf1b4f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77eb6079970cf46157d09f0370132b38"><td class="memItemLeft" align="right" valign="top">const dimensionedScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00085.html#a77eb6079970cf46157d09f0370132b38">Cg_</a></td></tr>
+<tr class="memdesc:a77eb6079970cf46157d09f0370132b38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coefficient of aggregation kernel.  <a href="#a77eb6079970cf46157d09f0370132b38">More...</a><br /></td></tr>
+<tr class="separator:a77eb6079970cf46157d09f0370132b38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="a00362_source.html#l00051">51</a> of file <a class="el" href="a00362_source.html">LunPressure.H</a>.</p>
+<div class="textblock"><p>Abstract class for growth model. </p>
+<p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM-Test/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/growthModels/growthModel/growthModel.H">growthModel.H</a> </li>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM-Test/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/growthModels/growthModel/growthModel.C">growthModel.C</a> </li>
+</ul>
+</dd></dl>
+
+<p>Definition at line <a class="el" href="a00403_source.html#l00053">53</a> of file <a class="el" href="a00403_source.html">growthModel.H</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a23ee449d6527b7755a1da51eae89e357"></a>
+<a class="anchor" id="aa383495cbbb616e5138b6b5ce8a2630b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00085.html">Lun</a> </td>
+          <td class="memname"><a class="el" href="a00085.html">growthModel</a> </td>
           <td>(</td>
           <td class="paramtype">const dictionary &amp;&#160;</td>
           <td class="paramname"><em>dict</em></td><td>)</td>
@@ -190,9 +187,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Construct from components. </p>
 
+<p>Definition at line <a class="el" href="a00402_source.html#l00044">44</a> of file <a class="el" href="a00402_source.html">growthModel.C</a>.</p>
+
 </div>
 </div>
-<a class="anchor" id="a9195da2539df648c03a1538ca2e95854"></a>
+<a class="anchor" id="a2cbcf75a5aa3c9f8e8b9d40904732c29"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -200,7 +199,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual ~<a class="el" href="a00085.html">Lun</a> </td>
+          <td class="memname">~<a class="el" href="a00085.html">growthModel</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -215,17 +214,19 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Destructor. </p>
 
+<p>Definition at line <a class="el" href="a00402_source.html#l00062">62</a> of file <a class="el" href="a00402_source.html">growthModel.C</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a71ac58eefea271425c68a5b19fe89d5b"></a>
+<a class="anchor" id="ab1ef5bca2c86ba9151614ebeaffed754"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">TypeName </td>
           <td>(</td>
-          <td class="paramtype">&quot;Lun&quot;&#160;</td>
+          <td class="paramtype">&quot;growthModel&quot;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -236,7 +237,51 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab385b192bdf96fe50901cf94cadcccb2"></a>
+<a class="anchor" id="aa9d98df3c14edfe3a1ac5bbfb9e2b10b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">declareRunTimeSelectionTable </td>
+          <td>(</td>
+          <td class="paramtype">autoPtr&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="a00085.html">growthModel</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dictionary&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">(                                                                           const dictionary &amp;dict                                           )&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">(dict)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7da088e2d1463d28793d9e080bf244a6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -244,49 +289,25 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">tmp&lt;volScalarField&gt; granularPressureCoeff </td>
+          <td class="memname">Foam::autoPtr&lt; <a class="el" href="a00085.html">Foam::populationBalanceSubModels::growthModel</a> &gt; New </td>
           <td>(</td>
-          <td class="paramtype">const volScalarField &amp;&#160;</td>
-          <td class="paramname"><em>alpha1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const dictionary &amp;&#160;</td>
+          <td class="paramname"><em>dict</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">const volScalarField &amp;&#160;</td>
-          <td class="paramname"><em>g0</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const volScalarField &amp;&#160;</td>
-          <td class="paramname"><em>rho1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const dimensionedScalar &amp;&#160;</td>
-          <td class="paramname"><em>e</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Granular pressure coefficient. </p>
-
-<p>Implements <a class="el" href="a00057.html#aaf24def5ff309c8873a3c69d6dd62edf">granularPressureModel</a>.</p>
+<p>Definition at line <a class="el" href="a00516_source.html#l00032">32</a> of file <a class="el" href="a00516_source.html">newGrowthModel.C</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a7477040e4bebb305b8dba787382d97e0"></a>
+<a class="anchor" id="ab7fb4ac29c00f426780bcdfebae822de"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -294,63 +315,84 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">tmp&lt;volScalarField&gt; granularPressureCoeffPrime </td>
+          <td class="memname">virtual scalar Kg </td>
           <td>(</td>
-          <td class="paramtype">const volScalarField &amp;&#160;</td>
-          <td class="paramname"><em>alpha1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const volScalarField &amp;&#160;</td>
-          <td class="paramname"><em>g0</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const volScalarField &amp;&#160;</td>
-          <td class="paramname"><em>g0prime</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const volScalarField &amp;&#160;</td>
-          <td class="paramname"><em>rho1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const dimensionedScalar &amp;&#160;</td>
-          <td class="paramname"><em>e</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
+          <td class="paramtype">const scalar &amp;&#160;</td>
+          <td class="paramname"><em>abscissa</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Derivative of the granular pressure coefficient. </p>
+<p>Growth model. </p>
 
-<p>Implements <a class="el" href="a00057.html#afd267a65982e82b749a6e5029fd4c9ce">granularPressureModel</a>.</p>
+<p>Implemented in <a class="el" href="a00043.html#a9949ef95294d428e299b22c78783df34">constantGrowth</a>.</p>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="a00362_source.html">LunPressure.H</a></li>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a892ddcb9cba6f50b0396cdb7bf1b4f6a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const dictionary&amp; dict_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00403_source.html#l00068">68</a> of file <a class="el" href="a00403_source.html">growthModel.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a77eb6079970cf46157d09f0370132b38"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const dimensionedScalar Cg_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Coefficient of aggregation kernel. </p>
+
+<p>Definition at line <a class="el" href="a00403_source.html#l00071">71</a> of file <a class="el" href="a00403_source.html">growthModel.H</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li><a class="el" href="a00403_source.html">growthModel.H</a></li>
+<li><a class="el" href="a00402_source.html">growthModel.C</a></li>
+<li><a class="el" href="a00516_source.html">newGrowthModel.C</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00605.html">Foam</a></li><li class="navelem"><a class="el" href="a00610.html">kineticTheoryModels</a></li><li class="navelem"><a class="el" href="a00613.html">granularPressureModels</a></li><li class="navelem"><a class="el" href="a00085.html">Lun</a></li>
+    <li class="navelem"><a class="el" href="a00723.html">Foam</a></li><li class="navelem"><a class="el" href="a00750.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="a00085.html">growthModel</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

@@ -1,0 +1,18 @@
+digraph "fluxSplittingFunctions" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_20f0deba41ea973f19d31e362ab6c4a7 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="anisotropicGaussian" fontname="Helvetica", fontsize="10", URL="dir_20f0deba41ea973f19d31e362ab6c4a7.html"]
+  subgraph clusterdir_bfa457a5bbe03a8ba254d7f5a396e99c {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_bfa457a5bbe03a8ba254d7f5a396e99c.html"];
+    dir_bfa457a5bbe03a8ba254d7f5a396e99c [shape=plaintext label="fluxSplittingFunctions"];
+    dir_9812716dfa1258023d1461d2d0ac7201 [shape=box label="alphaG0" color="black" fillcolor="white" style="filled" URL="dir_9812716dfa1258023d1461d2d0ac7201.html"];
+    dir_6df547eaebe8a085945fc77bb5940322 [shape=box label="fluxSplittingFunction" color="black" fillcolor="white" style="filled" URL="dir_6df547eaebe8a085945fc77bb5940322.html"];
+    dir_6013787b8a41faf6329dc3c041f01cab [shape=box label="particlePressure" color="black" fillcolor="white" style="filled" URL="dir_6013787b8a41faf6329dc3c041f01cab.html"];
+  }
+  }
+  dir_9812716dfa1258023d1461d2d0ac7201->dir_6df547eaebe8a085945fc77bb5940322 [headlabel="1", labeldistance=1.5 headhref="dir_000023_000105.html"];
+  dir_6013787b8a41faf6329dc3c041f01cab->dir_6df547eaebe8a085945fc77bb5940322 [headlabel="1", labeldistance=1.5 headhref="dir_000206_000105.html"];
+}

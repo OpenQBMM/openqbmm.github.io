@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>turbulentBrownian.H File Reference</title>
+<title>My Project: noMomentGeneration.H File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,9 +31,12 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
-    <td style="padding-left: 0.5em;">
-    <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
-    </td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   &#160;<span id="projectnumber">-dev</span>
+   </div>
+   <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
+  </td>
  </tr>
  </tbody>
 </table>
@@ -107,23 +110,15 @@ $(document).ready(function(){initNavTree('a00548.html','');});
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
-<div class="title">turbulentBrownian.H File Reference</div>  </div>
+<div class="title">noMomentGeneration.H File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div class="dynheader">
-Include dependency graph for turbulentBrownian.H:</div>
+Include dependency graph for noMomentGeneration.H:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00952.png" border="0" usemap="#turbulentBrownian_8H" alt=""/></div>
-<map name="turbulentBrownian_8H" id="turbulentBrownian_8H">
-<area shape="rect" id="node2" href="a00191.html" title="aggregationKernel.H" alt="" coords="5,80,152,107"/>
-</map>
-</div>
-</div><div class="textblock"><div class="dynheader">
-This graph shows which files directly or indirectly include this file:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00953.png" border="0" usemap="#turbulentBrownian_8Hdep" alt=""/></div>
-<map name="turbulentBrownian_8Hdep" id="turbulentBrownian_8Hdep">
-<area shape="rect" id="node2" href="a00547.html" title="turbulentBrownian.C" alt="" coords="5,80,145,107"/>
+<div class="center"><img src="a01028.png" border="0" usemap="#noMomentGeneration_8H" alt=""/></div>
+<map name="noMomentGeneration_8H" id="noMomentGeneration_8H">
+<area shape="rect" id="node2" href="a00483.html" title="momentGenerationModel.H" alt="" coords="5,80,192,107"/>
 </map>
 </div>
 </div>
@@ -131,29 +126,27 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00161.html">turbulentBrownian</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="a00014.html" title="Brownian aggregation kernel. ">Brownian</a> aggregation kernel supplemented for particles in turbulent flows in conditions when the particle size is smaller than the local Kolmogorov scale.  <a href="a00161.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00148.html">noMomentGeneration</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moments are read directly from the dictionary to create the moment fields.  <a href="a00148.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:a00605"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00605.html">Foam</a></td></tr>
+<tr class="memitem:a00723"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00723.html">Foam</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00626"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00626.html">Foam::populationBalanceSubModels</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00627"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00627.html">Foam::populationBalanceSubModels::aggregationKernels</a></td></tr>
+<tr class="memitem:a00745"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00745.html">Foam::momentGenerationSubModels</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="/home/alberto/Desktop/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/aggregationKernels/turbulentBrownian/turbulentBrownian.H">turbulentBrownian.H</a> </p>
+<div class="textblock"><p><b>Original source file</b> <a href="/home/alberto/Desktop/OpenQBMM-Test/OpenQBMM/applications/utilities/generateMoments/momentGenerationModels/noMomentGeneration/noMomentGeneration.H">noMomentGeneration.H</a> </p>
 
-<p>Definition in file <a class="el" href="a00548_source.html">turbulentBrownian.H</a>.</p>
+<p>Definition in file <a class="el" href="a00548_source.html">noMomentGeneration.H</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0ecbe6cb5f50223527ce4e1b499bd333.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="dir_58c61e057ed2119d9755c9fdbb448648.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="dir_62f86ef0c260ceaf3b93a8b1f701039a.html">aggregationKernels</a></li><li class="navelem"><a class="el" href="dir_f2cff93ce85fb5d1cb25d558030a0a5c.html">turbulentBrownian</a></li><li class="navelem"><a class="el" href="a00548.html">turbulentBrownian.H</a></li>
+    <li class="navelem"><a class="el" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html">applications</a></li><li class="navelem"><a class="el" href="dir_a740ba71acc8f57051af57c325cf1aa6.html">utilities</a></li><li class="navelem"><a class="el" href="dir_c1a7d52594e9fc42fe1c630af0bab07c.html">generateMoments</a></li><li class="navelem"><a class="el" href="dir_538b51c5cb33798fc1532c9c9bb5db7b.html">momentGenerationModels</a></li><li class="navelem"><a class="el" href="dir_9f5bf62dfded041cdc59c97e7cee3139.html">noMomentGeneration</a></li><li class="navelem"><a class="el" href="a00548.html">noMomentGeneration.H</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

@@ -1,6 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$a00040.html" title="Abstract class to allow run&#45;time selection of the algorithm to be used for the extended quadrature me..." alt="" coords="5,56,187,83"/>
-<area shape="rect" id="node2" href="$a00010.html" title="Extended quadrature method of moments with beta kernel density functions. " alt="" coords="251,5,350,32"/>
-<area shape="rect" id="node3" href="$a00047.html" title="Extended quadrature method of moments with gamma kernel density functions. " alt="" coords="241,56,360,83"/>
-<area shape="rect" id="node4" href="$a00083.html" title="Extended quadrature method of moments with log&#45;normal kernel density functions. " alt="" coords="235,107,367,133"/>
+<area shape="rect" id="node1" href="$a00029.html" title="coalescenceEfficiencyKernel" alt="" coords="5,107,200,133"/>
+<area shape="rect" id="node2" href="$a00027.html" title="Chesters" alt="" coords="303,5,379,32"/>
+<area shape="rect" id="node3" href="$a00037.html" title="constant" alt="" coords="305,56,377,83"/>
+<area shape="rect" id="node4" href="$a00048.html" title="CoulaloglouAndTavlarides" alt="" coords="248,107,433,133"/>
+<area shape="rect" id="node5" href="$a00112.html" title="Coalesence efficiency based on film drainage and rupture times. " alt="" coords="317,157,365,184"/>
+<area shape="rect" id="node6" href="$a00177.html" title="Coalesence efficiency based on film drainage and rupture times. " alt="" coords="278,208,403,235"/>
 </map>

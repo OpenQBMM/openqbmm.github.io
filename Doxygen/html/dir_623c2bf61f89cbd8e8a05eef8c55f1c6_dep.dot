@@ -8,5 +8,5 @@ digraph "weightsAndAbscissae" {
   dir_623c2bf61f89cbd8e8a05eef8c55f1c6 [shape=box, label="weightsAndAbscissae", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_623c2bf61f89cbd8e8a05eef8c55f1c6.html"];
   }
   dir_c522a2727a33630ac0f643330a5dc48c [shape=box label="momentGenerationModel" URL="dir_c522a2727a33630ac0f643330a5dc48c.html"];
-  dir_623c2bf61f89cbd8e8a05eef8c55f1c6->dir_c522a2727a33630ac0f643330a5dc48c [headlabel="1", labeldistance=1.5 headhref="dir_000213_000135.html"];
+  dir_623c2bf61f89cbd8e8a05eef8c55f1c6->dir_c522a2727a33630ac0f643330a5dc48c [headlabel="1", labeldistance=1.5 headhref="dir_000250_000164.html"];
 }

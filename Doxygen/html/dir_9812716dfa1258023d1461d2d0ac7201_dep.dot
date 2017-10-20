@@ -1,0 +1,12 @@
+digraph "alphaG0" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bfa457a5bbe03a8ba254d7f5a396e99c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="fluxSplittingFunctions" fontname="Helvetica", fontsize="10", URL="dir_bfa457a5bbe03a8ba254d7f5a396e99c.html"]
+  dir_9812716dfa1258023d1461d2d0ac7201 [shape=box, label="alphaG0", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_9812716dfa1258023d1461d2d0ac7201.html"];
+  }
+  dir_6df547eaebe8a085945fc77bb5940322 [shape=box label="fluxSplittingFunction" URL="dir_6df547eaebe8a085945fc77bb5940322.html"];
+  dir_9812716dfa1258023d1461d2d0ac7201->dir_6df547eaebe8a085945fc77bb5940322 [headlabel="1", labeldistance=1.5 headhref="dir_000023_000105.html"];
+}

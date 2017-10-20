@@ -1,7 +1,5 @@
 var a00094 =
 [
-    [ "molecularDiffusion", "a00094.html#a41d71a49f9ceacb5bcf471d389c4a71e", null ],
-    [ "~molecularDiffusion", "a00094.html#a092563f81ebe7ddd529901dccc7c9728", null ],
-    [ "TypeName", "a00094.html#acccd9d711a961de8b7ddaa1f6582763a", null ],
-    [ "momentDiff", "a00094.html#a2607d470834fac9d39bfc0d92f89d41a", null ]
+    [ "iNew", "a00094.html#add8e7db560379dd410d39d795968758a", null ],
+    [ "operator()", "a00094.html#a7cf4b421db9b97300525a415cbae6d2c", null ]
 ];

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>diffusionModel Class Reference</title>
+<title>My Project: coalescenceKernel Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,9 +31,12 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
-    <td style="padding-left: 0.5em;">
-    <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
-    </td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   &#160;<span id="projectnumber">-dev</span>
+   </div>
+   <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
+  </td>
  </tr>
  </tbody>
 </table>
@@ -107,87 +110,54 @@ $(document).ready(function(){initNavTree('a00033.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="a01336.html">List of all members</a>  </div>
+<a href="a01201.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">diffusionModel Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">coalescenceKernel Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Abstract class for turbulent diffusion models.  
- <a href="a00033.html#details">More...</a></p>
-<div class="dynheader">
-Inheritance diagram for diffusionModel:</div>
-<div class="dyncontent">
-<div class="center"><img src="a01337.png" border="0" usemap="#diffusionModel_inherit__map" alt="Inheritance graph"/></div>
-<map name="diffusionModel_inherit__map" id="diffusionModel_inherit__map">
-<area shape="rect" id="node2" href="a00094.html" title="Molecular diffusion model. " alt="" coords="5,80,137,107"/>
-<area shape="rect" id="node3" href="a00109.html" title="No diffusion model. " alt="" coords="162,80,250,107"/>
-<area shape="rect" id="node4" href="a00162.html" title="Turbulent diffusion model. " alt="" coords="274,80,397,107"/>
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aac5e53b16b5d306f767a3ac9c82018fe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#aac5e53b16b5d306f767a3ac9c82018fe">TypeName</a> (&quot;diffusionModel&quot;)</td></tr>
-<tr class="memdesc:aac5e53b16b5d306f767a3ac9c82018fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#aac5e53b16b5d306f767a3ac9c82018fe">More...</a><br /></td></tr>
-<tr class="separator:aac5e53b16b5d306f767a3ac9c82018fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa29c65576a34ab15da2f135cfb51cd12"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#aa29c65576a34ab15da2f135cfb51cd12">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00033.html">diffusionModel</a>, dictionary,(                                       const dictionary &amp;dict                       ),(dict))</td></tr>
-<tr class="separator:aa29c65576a34ab15da2f135cfb51cd12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ddf42daebca521ed9b1836083a7c90a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a9ddf42daebca521ed9b1836083a7c90a">diffusionModel</a> (const dictionary &amp;dict)</td></tr>
-<tr class="memdesc:a9ddf42daebca521ed9b1836083a7c90a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#a9ddf42daebca521ed9b1836083a7c90a">More...</a><br /></td></tr>
-<tr class="separator:a9ddf42daebca521ed9b1836083a7c90a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2348e708346160fd55cb63f0a48dfa7"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#af2348e708346160fd55cb63f0a48dfa7">~diffusionModel</a> ()</td></tr>
-<tr class="memdesc:af2348e708346160fd55cb63f0a48dfa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#af2348e708346160fd55cb63f0a48dfa7">More...</a><br /></td></tr>
-<tr class="separator:af2348e708346160fd55cb63f0a48dfa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b7c21e0d26e0f2c3f207a1a6929fd6d"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; fvScalarMatrix &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a5b7c21e0d26e0f2c3f207a1a6929fd6d">momentDiff</a> (const volScalarField &amp;<a class="el" href="a00095.html">moment</a>) const  =0</td></tr>
-<tr class="memdesc:a5b7c21e0d26e0f2c3f207a1a6929fd6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the source term for diffusion term in the moment equation.  <a href="#a5b7c21e0d26e0f2c3f207a1a6929fd6d">More...</a><br /></td></tr>
-<tr class="separator:a5b7c21e0d26e0f2c3f207a1a6929fd6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a4979734dfbad3055a0ebcb03224a6cf3"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00033.html">diffusionModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a4979734dfbad3055a0ebcb03224a6cf3">New</a> (const dictionary &amp;dict)</td></tr>
-<tr class="separator:a4979734dfbad3055a0ebcb03224a6cf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a892ddcb9cba6f50b0396cdb7bf1b4f6a"><td class="memItemLeft" align="right" valign="top">const dictionary &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a">dict_</a></td></tr>
-<tr class="separator:a892ddcb9cba6f50b0396cdb7bf1b4f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa87620c766d257dd9b08a9a78f0478e0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#aa87620c766d257dd9b08a9a78f0478e0">coalescenceKernel</a> (const dictionary &amp;dict, const fvMesh &amp;mesh)</td></tr>
+<tr class="separator:aa87620c766d257dd9b08a9a78f0478e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73d07f539bb7ba68d7fa8558a34105af"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a73d07f539bb7ba68d7fa8558a34105af">~coalescenceKernel</a> ()</td></tr>
+<tr class="memdesc:a73d07f539bb7ba68d7fa8558a34105af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a73d07f539bb7ba68d7fa8558a34105af">More...</a><br /></td></tr>
+<tr class="separator:a73d07f539bb7ba68d7fa8558a34105af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a641e4152ba866445e16a54d3c71f2e14"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00033.html#a641e4152ba866445e16a54d3c71f2e14">Ka</a> (const label nodei, const label nodej) const </td></tr>
+<tr class="memdesc:a641e4152ba866445e16a54d3c71f2e14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coalescence kernel.  <a href="#a641e4152ba866445e16a54d3c71f2e14">More...</a><br /></td></tr>
+<tr class="separator:a641e4152ba866445e16a54d3c71f2e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Abstract class for turbulent diffusion models. </p>
-<p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
-<li>
-<a href="/home/alberto/Desktop/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/diffusionModels/diffusionModel/diffusionModel.H">diffusionModel.H</a> </li>
-<li>
-<a href="/home/alberto/Desktop/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/diffusionModels/diffusionModel/diffusionModel.C">diffusionModel.C</a> </li>
-</ul>
-</dd></dl>
-
-<p>Definition at line <a class="el" href="a00267_source.html#l00054">54</a> of file <a class="el" href="a00267_source.html">populationBalanceModels/populationBalanceSubModels/diffusionModels/diffusionModel/diffusionModel.H</a>.</p>
+<div class="textblock">
+<p>Definition at line <a class="el" href="a00285_source.html#l00053">53</a> of file <a class="el" href="a00285_source.html">coalescenceKernel.H</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a9ddf42daebca521ed9b1836083a7c90a"></a>
+<a class="anchor" id="aa87620c766d257dd9b08a9a78f0478e0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00033.html">diffusionModel</a> </td>
+          <td class="memname"><a class="el" href="a00033.html">coalescenceKernel</a> </td>
           <td>(</td>
           <td class="paramtype">const dictionary &amp;&#160;</td>
-          <td class="paramname"><em>dict</em></td><td>)</td>
+          <td class="paramname"><em>dict</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const fvMesh &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Construct from components. </p>
-
-<p>Definition at line <a class="el" href="a00265_source.html#l00044">44</a> of file <a class="el" href="a00265_source.html">populationBalanceModels/populationBalanceSubModels/diffusionModels/diffusionModel/diffusionModel.C</a>.</p>
-
 </div>
 </div>
-<a class="anchor" id="af2348e708346160fd55cb63f0a48dfa7"></a>
+<a class="anchor" id="a73d07f539bb7ba68d7fa8558a34105af"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -195,7 +165,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">~<a class="el" href="a00033.html">diffusionModel</a> </td>
+          <td class="memname">virtual ~<a class="el" href="a00033.html">coalescenceKernel</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -210,161 +180,46 @@ Protected Attributes</h2></td></tr>
 
 <p>Destructor. </p>
 
-<p>Definition at line <a class="el" href="a00265_source.html#l00054">54</a> of file <a class="el" href="a00265_source.html">populationBalanceModels/populationBalanceSubModels/diffusionModels/diffusionModel/diffusionModel.C</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aac5e53b16b5d306f767a3ac9c82018fe"></a>
+<a class="anchor" id="a641e4152ba866445e16a54d3c71f2e14"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">TypeName </td>
+          <td class="memname">tmp&lt;volScalarField&gt; Ka </td>
           <td>(</td>
-          <td class="paramtype">&quot;diffusionModel&quot;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Runtime type information. </p>
-
-</div>
-</div>
-<a class="anchor" id="aa29c65576a34ab15da2f135cfb51cd12"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">declareRunTimeSelectionTable </td>
-          <td>(</td>
-          <td class="paramtype">autoPtr&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodei</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00033.html">diffusionModel</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">dictionary&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">(                                                                           const dictionary &amp;dict                                           )&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">(dict)&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodej</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a class="anchor" id="a4979734dfbad3055a0ebcb03224a6cf3"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Foam::autoPtr&lt; <a class="el" href="a00033.html">Foam::populationBalanceSubModels::diffusionModel</a> &gt; New </td>
-          <td>(</td>
-          <td class="paramtype">const dictionary &amp;&#160;</td>
-          <td class="paramname"><em>dict</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00409_source.html#l00032">32</a> of file <a class="el" href="a00409_source.html">populationBalanceModels/populationBalanceSubModels/diffusionModels/diffusionModel/newDiffusionModel.C</a>.</p>
+<p>Coalescence kernel. </p>
 
 </div>
 </div>
-<a class="anchor" id="a5b7c21e0d26e0f2c3f207a1a6929fd6d"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual tmp&lt;fvScalarMatrix&gt; momentDiff </td>
-          <td>(</td>
-          <td class="paramtype">const volScalarField &amp;&#160;</td>
-          <td class="paramname"><em>moment</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return the source term for diffusion term in the moment equation. </p>
-
-<p>Implemented in <a class="el" href="a00162.html#a2607d470834fac9d39bfc0d92f89d41a">turbulentDiffusion</a>, <a class="el" href="a00094.html#a2607d470834fac9d39bfc0d92f89d41a">molecularDiffusion</a>, and <a class="el" href="a00109.html#a2607d470834fac9d39bfc0d92f89d41a">noDiffusion</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a892ddcb9cba6f50b0396cdb7bf1b4f6a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const dictionary&amp; dict_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00267_source.html#l00069">69</a> of file <a class="el" href="a00267_source.html">populationBalanceModels/populationBalanceSubModels/diffusionModels/diffusionModel/diffusionModel.H</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="a00267_source.html">populationBalanceModels/populationBalanceSubModels/diffusionModels/diffusionModel/diffusionModel.H</a></li>
-<li><a class="el" href="a00265_source.html">populationBalanceModels/populationBalanceSubModels/diffusionModels/diffusionModel/diffusionModel.C</a></li>
-<li><a class="el" href="a00409_source.html">populationBalanceModels/populationBalanceSubModels/diffusionModels/diffusionModel/newDiffusionModel.C</a></li>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="a00285_source.html">coalescenceKernel.H</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00605.html">Foam</a></li><li class="navelem"><a class="el" href="a00626.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="a00033.html">diffusionModel</a></li>
+    <li class="navelem"><a class="el" href="a00723.html">Foam</a></li><li class="navelem"><a class="el" href="a00033.html">coalescenceKernel</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

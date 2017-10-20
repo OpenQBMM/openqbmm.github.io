@@ -8,5 +8,5 @@ digraph "alphaAndDiameter" {
   dir_4db504fa6f281cbc61ad7ede1836b92f [shape=box, label="alphaAndDiameter", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_4db504fa6f281cbc61ad7ede1836b92f.html"];
   }
   dir_c522a2727a33630ac0f643330a5dc48c [shape=box label="momentGenerationModel" URL="dir_c522a2727a33630ac0f643330a5dc48c.html"];
-  dir_4db504fa6f281cbc61ad7ede1836b92f->dir_c522a2727a33630ac0f643330a5dc48c [headlabel="1", labeldistance=1.5 headhref="dir_000010_000135.html"];
+  dir_4db504fa6f281cbc61ad7ede1836b92f->dir_c522a2727a33630ac0f643330a5dc48c [headlabel="1", labeldistance=1.5 headhref="dir_000020_000164.html"];
 }

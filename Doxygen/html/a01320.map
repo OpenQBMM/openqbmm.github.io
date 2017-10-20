@@ -1,4 +1,4 @@
-<map id="univariatePDFTransportModel" name="univariatePDFTransportModel">
-<area shape="rect" id="node2" href="$a00126.html" title="Abstract class for the run&#45;time selection of the PDF transport model. " alt="" coords="40,5,185,32"/>
-<area shape="rect" id="node3" href="$a00136.html" title="quadratureApproximation\l\&lt; volUnivariateMomentFieldSet,\l volScalarNode \&gt;" alt="" coords="5,56,220,112"/>
+<map id="wallDampingModel" name="wallDampingModel">
+<area shape="rect" id="node2" href="$a00228.html" title="A class which provides on&#45;demand creation and caching of wall distance and wall normal fields for use..." alt="" coords="5,5,156,32"/>
+<area shape="rect" id="node3" href="$a00171.html" title="phasePair" alt="" coords="181,5,263,32"/>
 </map>

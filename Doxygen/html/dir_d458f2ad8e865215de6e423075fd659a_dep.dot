@@ -8,5 +8,5 @@ digraph "uniform" {
   dir_d458f2ad8e865215de6e423075fd659a [shape=box, label="uniform", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d458f2ad8e865215de6e423075fd659a.html"];
   }
   dir_6107ce464e8bb2e0d96560c02a662c14 [shape=box label="daughterDistribution" URL="dir_6107ce464e8bb2e0d96560c02a662c14.html"];
-  dir_d458f2ad8e865215de6e423075fd659a->dir_6107ce464e8bb2e0d96560c02a662c14 [headlabel="1", labeldistance=1.5 headhref="dir_000205_000063.html"];
+  dir_d458f2ad8e865215de6e423075fd659a->dir_6107ce464e8bb2e0d96560c02a662c14 [headlabel="1", labeldistance=1.5 headhref="dir_000242_000084.html"];
 }

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>viscosityModel.C File Reference</title>
+<title>My Project: pEqn.H File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,9 +31,12 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
-    <td style="padding-left: 0.5em;">
-    <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
-    </td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   &#160;<span id="projectnumber">-dev</span>
+   </div>
+   <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
+  </td>
  </tr>
  </tbody>
 </table>
@@ -103,22 +106,473 @@ $(document).ready(function(){initNavTree('a00585.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">viscosityModel.C File Reference</div>  </div>
+<div class="title">multiphase/denseAGFoam/pU/pEqn.H File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><div class="dynheader">
+Include dependency graph for multiphase/denseAGFoam/pU/pEqn.H:</div>
+<div class="dyncontent">
+<div class="center"><img src="a01057.png" border="0" usemap="#pEqn_8H" alt=""/></div>
+<map name="pEqn_8H" id="pEqn_8H">
+</map>
+</div>
+</div>
 <p><a href="a00585_source.html">Go to the source code of this file.</a></p>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/phaseCompressibleTurbulenceModels/kineticTheoryModels/viscosityModel/viscosityModel/viscosityModel.C">viscosityModel.C</a> </p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a56ffcaedadad19bec661b0b110fea575"><td class="memItemLeft" align="right" valign="top">surfaceScalarField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00585.html#a56ffcaedadad19bec661b0b110fea575">alphaf1</a> (&quot;alphaf1&quot;, fvc::interpolate(alpha1))</td></tr>
+<tr class="separator:a56ffcaedadad19bec661b0b110fea575"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab75560d8f7fca946379806e8582e0fff"><td class="memItemLeft" align="right" valign="top">surfaceScalarField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00585.html#ab75560d8f7fca946379806e8582e0fff">alphaf2</a> (&quot;alphaf2&quot;, scalar(1)-<a class="el" href="a00586.html#a56ffcaedadad19bec661b0b110fea575">alphaf1</a>)</td></tr>
+<tr class="separator:ab75560d8f7fca946379806e8582e0fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a482b6c42bdc6748eff2090cd701aca19"><td class="memItemLeft" align="right" valign="top">surfaceScalarField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00585.html#a482b6c42bdc6748eff2090cd701aca19">alpharAUf1</a> (fvc::interpolate(max(alpha1, phase1.residualAlpha())*<a class="el" href="a00586.html#a2c9f9b40ebdf731cc37c38eab8977d44">rAU1</a>))</td></tr>
+<tr class="separator:a482b6c42bdc6748eff2090cd701aca19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e4e0fa3d286b5acfc8c6e298ac0040e"><td class="memItemLeft" align="right" valign="top">surfaceScalarField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00585.html#a9e4e0fa3d286b5acfc8c6e298ac0040e">alpharAUf2</a> (fvc::interpolate(max(<a class="el" href="a00325.html#ac9dc1cee1e8f17d03b9593718fce9c1b">alpha2</a>, phase2.residualAlpha())*<a class="el" href="a00586.html#a980a98cf85cda183ad754b3d45380f15">rAU2</a>))</td></tr>
+<tr class="separator:a9e4e0fa3d286b5acfc8c6e298ac0040e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ca8b668b50fe9b47473f25f3651d287"><td class="memItemLeft" align="right" valign="top">surfaceScalarField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00585.html#a4ca8b668b50fe9b47473f25f3651d287">Df2</a> (fvc::interpolate(                                       <a class="el" href="a00586.html#a980a98cf85cda183ad754b3d45380f15">rAU2</a> *(<a class="el" href="a00331.html#ac06391579e3bd64067c1f6a8e84e6f35">phase2.turbulence</a>().pPrime())                       ))</td></tr>
+<tr class="separator:a4ca8b668b50fe9b47473f25f3651d287"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3d6c064055ba2de516e5bb5fe6ec5d0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00585.html#aa3d6c064055ba2de516e5bb5fe6ec5d0">if</a> (implicitPhasePressure)</td></tr>
+<tr class="separator:aa3d6c064055ba2de516e5bb5fe6ec5d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fd6c680e7914ea17e626bbef00299f1"><td class="memItemLeft" align="right" valign="top">volVectorField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00585.html#a0fd6c680e7914ea17e626bbef00299f1">F</a> (fluid.F())</td></tr>
+<tr class="separator:a0fd6c680e7914ea17e626bbef00299f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ad08a93fd578a856c12ac94a7cf1f0d"><td class="memItemLeft" align="right" valign="top">surfaceScalarField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00585.html#a9ad08a93fd578a856c12ac94a7cf1f0d">snGradAlpha1</a> (fvc::snGrad(alpha1)*mesh.magSf())</td></tr>
+<tr class="separator:a9ad08a93fd578a856c12ac94a7cf1f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b9d5d8b1ecc0bf63b4c35f41598a500"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00585.html#a0b9d5d8b1ecc0bf63b4c35f41598a500">while</a> (<a class="el" href="a00349.html#a8f2ec7df0ad2ec79360a5d964f55de87">pimple.correct</a>())</td></tr>
+<tr class="separator:a0b9d5d8b1ecc0bf63b4c35f41598a500"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b001df98f4ca694c2202fb716464002"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00585.html#a8b001df98f4ca694c2202fb716464002">if</a> (thermo1.dpdt()||thermo2.dpdt())</td></tr>
+<tr class="separator:a8b001df98f4ca694c2202fb716464002"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a7698e6686eee6f60c694b523624b49ca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00585.html#a7698e6686eee6f60c694b523624b49ca">rAU1</a></td></tr>
+<tr class="separator:a7698e6686eee6f60c694b523624b49ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d63de5d9df1b8308e01328c1fce2e30"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00585.html#a2d63de5d9df1b8308e01328c1fce2e30">rAU2</a></td></tr>
+<tr class="separator:a2d63de5d9df1b8308e01328c1fce2e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedd16305da3cfdbea19ba23daed10d9a"><td class="memItemLeft" align="right" valign="top">tmp&lt; surfaceScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00585.html#aedd16305da3cfdbea19ba23daed10d9a">phiF1</a> = Df1*<a class="el" href="a00586.html#a9ad08a93fd578a856c12ac94a7cf1f0d">snGradAlpha1</a> + fvc::flux(<a class="el" href="a00586.html#a2c9f9b40ebdf731cc37c38eab8977d44">rAU1</a>*<a class="el" href="a00585.html#a0fd6c680e7914ea17e626bbef00299f1">F</a>)</td></tr>
+<tr class="separator:aedd16305da3cfdbea19ba23daed10d9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6646a332531432477318e632c7e962c2"><td class="memItemLeft" align="right" valign="top">tmp&lt; surfaceScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00585.html#a6646a332531432477318e632c7e962c2">phiF2</a> = - <a class="el" href="a00585.html#a4ca8b668b50fe9b47473f25f3651d287">Df2</a>*<a class="el" href="a00586.html#a9ad08a93fd578a856c12ac94a7cf1f0d">snGradAlpha1</a> - fvc::flux(<a class="el" href="a00586.html#a980a98cf85cda183ad754b3d45380f15">rAU2</a>*<a class="el" href="a00585.html#a0fd6c680e7914ea17e626bbef00299f1">F</a>)</td></tr>
+<tr class="separator:a6646a332531432477318e632c7e962c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b8d5903796d011867096f16bcfe4efd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00585.html#a6b8d5903796d011867096f16bcfe4efd">K1</a> = 0.5*magSqr(U1)</td></tr>
+<tr class="separator:a6b8d5903796d011867096f16bcfe4efd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cc87dc0dca3d6104d8094986f6b852a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00585.html#a2cc87dc0dca3d6104d8094986f6b852a">K2</a> = 0.5*magSqr(U2)</td></tr>
+<tr class="separator:a2cc87dc0dca3d6104d8094986f6b852a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a56ffcaedadad19bec661b0b110fea575"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">surfaceScalarField alphaf1 </td>
+          <td>(</td>
+          <td class="paramtype">&quot;alphaf1&quot;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">fvc::interpolate(alpha1)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
-<p>Definition in file <a class="el" href="a00585_source.html">viscosityModel.C</a>.</p>
-</div></div><!-- contents -->
+<p>Referenced by <a class="el" href="a00585_source.html#l00080">while()</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00585_a56ffcaedadad19bec661b0b110fea575_icgraph.png" border="0" usemap="#a00585_a56ffcaedadad19bec661b0b110fea575_icgraph" alt=""/></div>
+<map name="a00585_a56ffcaedadad19bec661b0b110fea575_icgraph" id="a00585_a56ffcaedadad19bec661b0b110fea575_icgraph">
+<area shape="rect" id="node2" href="a00585.html#a0b9d5d8b1ecc0bf63b4c35f41598a500" title="while" alt="" coords="120,5,173,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ab75560d8f7fca946379806e8582e0fff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">surfaceScalarField alphaf2 </td>
+          <td>(</td>
+          <td class="paramtype">&quot;alphaf2&quot;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">scalar(1)-&#160;</td>
+          <td class="paramname"><em>alphaf1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="a00585_source.html#l00080">while()</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00585_ab75560d8f7fca946379806e8582e0fff_icgraph.png" border="0" usemap="#a00585_ab75560d8f7fca946379806e8582e0fff_icgraph" alt=""/></div>
+<map name="a00585_ab75560d8f7fca946379806e8582e0fff_icgraph" id="a00585_ab75560d8f7fca946379806e8582e0fff_icgraph">
+<area shape="rect" id="node2" href="a00585.html#a0b9d5d8b1ecc0bf63b4c35f41598a500" title="while" alt="" coords="120,5,173,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a482b6c42bdc6748eff2090cd701aca19"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">surfaceScalarField alpharAUf1 </td>
+          <td>(</td>
+          <td class="paramtype">fvc::interpolate(max(alpha1, phase1.residualAlpha())*<a class="el" href="a00586.html#a2c9f9b40ebdf731cc37c38eab8977d44">rAU1</a>)&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="a00585_source.html#l00080">while()</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00585_a482b6c42bdc6748eff2090cd701aca19_icgraph.png" border="0" usemap="#a00585_a482b6c42bdc6748eff2090cd701aca19_icgraph" alt=""/></div>
+<map name="a00585_a482b6c42bdc6748eff2090cd701aca19_icgraph" id="a00585_a482b6c42bdc6748eff2090cd701aca19_icgraph">
+<area shape="rect" id="node2" href="a00585.html#a0b9d5d8b1ecc0bf63b4c35f41598a500" title="while" alt="" coords="141,5,195,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a9e4e0fa3d286b5acfc8c6e298ac0040e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">surfaceScalarField alpharAUf2 </td>
+          <td>(</td>
+          <td class="paramtype">fvc::interpolate(max(<a class="el" href="a00325.html#ac9dc1cee1e8f17d03b9593718fce9c1b">alpha2</a>, phase2.residualAlpha())*<a class="el" href="a00586.html#a980a98cf85cda183ad754b3d45380f15">rAU2</a>)&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="a00585_source.html#l00080">while()</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00585_a9e4e0fa3d286b5acfc8c6e298ac0040e_icgraph.png" border="0" usemap="#a00585_a9e4e0fa3d286b5acfc8c6e298ac0040e_icgraph" alt=""/></div>
+<map name="a00585_a9e4e0fa3d286b5acfc8c6e298ac0040e_icgraph" id="a00585_a9e4e0fa3d286b5acfc8c6e298ac0040e_icgraph">
+<area shape="rect" id="node2" href="a00585.html#a0b9d5d8b1ecc0bf63b4c35f41598a500" title="while" alt="" coords="141,5,195,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a4ca8b668b50fe9b47473f25f3651d287"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">surfaceScalarField Df2 </td>
+          <td>(</td>
+          <td class="paramtype">fvc::interpolate(                                                                           <a class="el" href="a00586.html#a980a98cf85cda183ad754b3d45380f15">rAU2</a> *(<a class="el" href="a00331.html#ac06391579e3bd64067c1f6a8e84e6f35">phase2.turbulence</a>().pPrime())                                           )&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="a00586_source.html#l00075">for()</a>, and <a class="el" href="a00585_source.html#l00060">if()</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00585_a4ca8b668b50fe9b47473f25f3651d287_icgraph.png" border="0" usemap="#a00585_a4ca8b668b50fe9b47473f25f3651d287_icgraph" alt=""/></div>
+<map name="a00585_a4ca8b668b50fe9b47473f25f3651d287_icgraph" id="a00585_a4ca8b668b50fe9b47473f25f3651d287_icgraph">
+<area shape="rect" id="node2" href="a00586.html#ace353e990d7324b8758018469470d239" title="for" alt="" coords="96,5,135,32"/>
+<area shape="rect" id="node3" href="a00585.html#aa3d6c064055ba2de516e5bb5fe6ec5d0" title="if" alt="" coords="96,56,135,83"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aa3d6c064055ba2de516e5bb5fe6ec5d0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">if </td>
+          <td>(</td>
+          <td class="paramtype">implicitPhasePressure&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00585_source.html#l00060">60</a> of file <a class="el" href="a00585_source.html">multiphase/denseAGFoam/pU/pEqn.H</a>.</p>
+
+<p>References <a class="el" href="a00585.html#a4ca8b668b50fe9b47473f25f3651d287">Df2()</a>, <a class="el" href="a00585.html#a0fd6c680e7914ea17e626bbef00299f1">F()</a>, <a class="el" href="a00585_source.html#l00004">rAU1</a>, <a class="el" href="a00585_source.html#l00014">rAU2</a>, and <a class="el" href="a00585.html#a9ad08a93fd578a856c12ac94a7cf1f0d">snGradAlpha1()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00585_aa3d6c064055ba2de516e5bb5fe6ec5d0_cgraph.png" border="0" usemap="#a00585_aa3d6c064055ba2de516e5bb5fe6ec5d0_cgraph" alt=""/></div>
+<map name="a00585_aa3d6c064055ba2de516e5bb5fe6ec5d0_cgraph" id="a00585_aa3d6c064055ba2de516e5bb5fe6ec5d0_cgraph">
+<area shape="rect" id="node2" href="a00585.html#a4ca8b668b50fe9b47473f25f3651d287" title="Df2" alt="" coords="125,5,168,32"/>
+<area shape="rect" id="node3" href="a00585.html#a0fd6c680e7914ea17e626bbef00299f1" title="F" alt="" coords="127,56,166,83"/>
+<area shape="rect" id="node4" href="a00585.html#a9ad08a93fd578a856c12ac94a7cf1f0d" title="snGradAlpha1" alt="" coords="92,107,201,133"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a0fd6c680e7914ea17e626bbef00299f1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volVectorField F </td>
+          <td>(</td>
+          <td class="paramtype">fluid.&#160;</td>
+          <td class="paramname"><em>F</em>()</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="a00585_source.html#l00060">if()</a>, and <a class="el" href="a00253_source.html#l00088">AyaziShamlou::Kb()</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00585_a0fd6c680e7914ea17e626bbef00299f1_icgraph.png" border="0" usemap="#a00585_a0fd6c680e7914ea17e626bbef00299f1_icgraph" alt=""/></div>
+<map name="a00585_a0fd6c680e7914ea17e626bbef00299f1_icgraph" id="a00585_a0fd6c680e7914ea17e626bbef00299f1_icgraph">
+<area shape="rect" id="node2" href="a00585.html#aa3d6c064055ba2de516e5bb5fe6ec5d0" title="if" alt="" coords="172,5,211,32"/>
+<area shape="rect" id="node3" href="a00013.html#ac8057d8c4cbb6846d2f28e305caa5d78" title="Breakup kernel. " alt="" coords="92,56,291,112"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a9ad08a93fd578a856c12ac94a7cf1f0d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">surfaceScalarField snGradAlpha1 </td>
+          <td>(</td>
+          <td class="paramtype">fvc::snGrad(alpha1)*mesh.magSf()&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="a00585_source.html#l00060">if()</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00585_a9ad08a93fd578a856c12ac94a7cf1f0d_icgraph.png" border="0" usemap="#a00585_a9ad08a93fd578a856c12ac94a7cf1f0d_icgraph" alt=""/></div>
+<map name="a00585_a9ad08a93fd578a856c12ac94a7cf1f0d_icgraph" id="a00585_a9ad08a93fd578a856c12ac94a7cf1f0d_icgraph">
+<area shape="rect" id="node2" href="a00585.html#aa3d6c064055ba2de516e5bb5fe6ec5d0" title="if" alt="" coords="163,5,201,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a0b9d5d8b1ecc0bf63b4c35f41598a500"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">while </td>
+          <td>(</td>
+          <td class="paramtype">pimple.&#160;</td>
+          <td class="paramname"><em>correct</em>()</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00585_source.html#l00080">80</a> of file <a class="el" href="a00585_source.html">multiphase/denseAGFoam/pU/pEqn.H</a>.</p>
+
+<p>References <a class="el" href="a00324_source.html#l00023">AGmodel</a>, <a class="el" href="a00324_source.html#l00001">alpha2</a>, <a class="el" href="a00585.html#a56ffcaedadad19bec661b0b110fea575">alphaf1()</a>, <a class="el" href="a00585.html#ab75560d8f7fca946379806e8582e0fff">alphaf2()</a>, <a class="el" href="a00324_source.html#l00004">alphaPhi1</a>, <a class="el" href="a00324_source.html#l00008">alphaPhi2</a>, <a class="el" href="a00585.html#a482b6c42bdc6748eff2090cd701aca19">alpharAUf1()</a>, <a class="el" href="a00585.html#a9e4e0fa3d286b5acfc8c6e298ac0040e">alpharAUf2()</a>, <a class="el" href="a00309_source.html#l00001">contErr1</a>, <a class="el" href="a00309_source.html#l00005">contErr2</a>, <a class="el" href="a00332.html#a5b7f53d1619a8564c620d6d6ab79f4f0">MRF()</a>, <a class="el" href="a00326_source.html#l00020">p</a>, <a class="el" href="a00324_source.html#l00011">phi</a>, <a class="el" href="a00324_source.html#l00003">phi1</a>, <a class="el" href="a00324_source.html#l00007">phi2</a>, <a class="el" href="a00585_source.html#l00034">phiF1</a>, <a class="el" href="a00585_source.html#l00035">phiF2</a>, <a class="el" href="a00584.html#aef792bafd9bea2bf7d0483270574a775">phiHbyA()</a>, <a class="el" href="a00243.html#acb4079cbeb693866d699763e256896f1">phir()</a>, <a class="el" href="a00324_source.html#l00017">psi1</a>, <a class="el" href="a00324_source.html#l00020">psi2</a>, <a class="el" href="a00585_source.html#l00004">rAU1</a>, <a class="el" href="a00585_source.html#l00014">rAU2</a>, <a class="el" href="a00326.html#aa74838e1f8f89be91e7a5f1d70d08fb1">rho()</a>, <a class="el" href="a00324_source.html#l00016">rho1</a>, <a class="el" href="a00324_source.html#l00019">rho2</a>, <a class="el" href="a00349.html#ac123867940006fb14e8346d9bdc38f8d">solve()</a>, and <a class="el" href="a00330.html#a2cf53f2d880076e92789c7297fc0423d">U()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00585_a0b9d5d8b1ecc0bf63b4c35f41598a500_cgraph.png" border="0" usemap="#a00585_a0b9d5d8b1ecc0bf63b4c35f41598a500_cgraph" alt=""/></div>
+<map name="a00585_a0b9d5d8b1ecc0bf63b4c35f41598a500_cgraph" id="a00585_a0b9d5d8b1ecc0bf63b4c35f41598a500_cgraph">
+<area shape="rect" id="node2" href="a00585.html#a56ffcaedadad19bec661b0b110fea575" title="alphaf1" alt="" coords="117,5,184,32"/>
+<area shape="rect" id="node3" href="a00585.html#ab75560d8f7fca946379806e8582e0fff" title="alphaf2" alt="" coords="117,56,184,83"/>
+<area shape="rect" id="node4" href="a00585.html#a482b6c42bdc6748eff2090cd701aca19" title="alpharAUf1" alt="" coords="107,107,195,133"/>
+<area shape="rect" id="node5" href="a00585.html#a9e4e0fa3d286b5acfc8c6e298ac0040e" title="alpharAUf2" alt="" coords="107,157,195,184"/>
+<area shape="rect" id="node6" href="a00332.html#a5b7f53d1619a8564c620d6d6ab79f4f0" title="MRF" alt="" coords="125,208,176,235"/>
+<area shape="rect" id="node7" href="a00584.html#aef792bafd9bea2bf7d0483270574a775" title="phiHbyA" alt="" coords="115,259,186,285"/>
+<area shape="rect" id="node8" href="a00243.html#acb4079cbeb693866d699763e256896f1" title="phir" alt="" coords="129,309,172,336"/>
+<area shape="rect" id="node9" href="a00326.html#aa74838e1f8f89be91e7a5f1d70d08fb1" title="rho" alt="" coords="130,360,171,387"/>
+<area shape="rect" id="node10" href="a00349.html#ac123867940006fb14e8346d9bdc38f8d" title="solve" alt="" coords="123,411,178,437"/>
+<area shape="rect" id="node11" href="a00330.html#a2cf53f2d880076e92789c7297fc0423d" title="U" alt="" coords="131,461,170,488"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a8b001df98f4ca694c2202fb716464002"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">if </td>
+          <td>(</td>
+          <td class="paramtype">thermo1.&#160;</td>
+          <td class="paramname"><em>dpdt</em>)||thermo2.dpdt(</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00585_source.html#l00420">420</a> of file <a class="el" href="a00585_source.html">multiphase/denseAGFoam/pU/pEqn.H</a>.</p>
+
+<p>References <a class="el" href="a00326_source.html#l00020">p</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="a7698e6686eee6f60c694b523624b49ca"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rAU1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">(</div><div class="line">    1.0</div><div class="line">   /(</div><div class="line">        U1Eqn.A()</div><div class="line">      + max(phase1.residualAlpha() - alpha1, scalar(0))</div><div class="line">       *<a class="code" href="a00324.html#af72fd2ce0bf948096cadebf34827046a">rho1</a>/runTime.deltaT()</div><div class="line">    )</div><div class="line">)</div><div class="ttc" id="a00324_html_af72fd2ce0bf948096cadebf34827046a"><div class="ttname"><a href="a00324.html#af72fd2ce0bf948096cadebf34827046a">rho1</a></div><div class="ttdeci">volScalarField &amp; rho1</div><div class="ttdef"><b>Definition:</b> <a href="a00324_source.html#l00016">denseAGFoam/createFieldRefs.H:16</a></div></div>
+</div><!-- fragment -->
+<p>Definition at line <a class="el" href="a00585_source.html#l00004">4</a> of file <a class="el" href="a00585_source.html">multiphase/denseAGFoam/pU/pEqn.H</a>.</p>
+
+<p>Referenced by <a class="el" href="a00585_source.html#l00060">if()</a>, and <a class="el" href="a00585_source.html#l00080">while()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2d63de5d9df1b8308e01328c1fce2e30"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">rAU2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">(</div><div class="line">    1.0</div><div class="line">   /(</div><div class="line">        U2Eqn.A()</div><div class="line">      + max(phase2.residualAlpha() - <a class="code" href="a00324.html#ac9dc1cee1e8f17d03b9593718fce9c1b">alpha2</a>, scalar(0))</div><div class="line">       *<a class="code" href="a00324.html#a9ec8b063b6caffe2a2f6778c078f2fb1">rho2</a>/runTime.deltaT()</div><div class="line">    )</div><div class="line">)</div><div class="ttc" id="a00324_html_a9ec8b063b6caffe2a2f6778c078f2fb1"><div class="ttname"><a href="a00324.html#a9ec8b063b6caffe2a2f6778c078f2fb1">rho2</a></div><div class="ttdeci">volScalarField &amp; rho2</div><div class="ttdef"><b>Definition:</b> <a href="a00324_source.html#l00019">denseAGFoam/createFieldRefs.H:19</a></div></div>
+<div class="ttc" id="a00324_html_ac9dc1cee1e8f17d03b9593718fce9c1b"><div class="ttname"><a href="a00324.html#ac9dc1cee1e8f17d03b9593718fce9c1b">alpha2</a></div><div class="ttdeci">volScalarField &amp; alpha2</div><div class="ttdef"><b>Definition:</b> <a href="a00324_source.html#l00001">denseAGFoam/createFieldRefs.H:1</a></div></div>
+</div><!-- fragment -->
+<p>Definition at line <a class="el" href="a00585_source.html#l00014">14</a> of file <a class="el" href="a00585_source.html">multiphase/denseAGFoam/pU/pEqn.H</a>.</p>
+
+<p>Referenced by <a class="el" href="a00585_source.html#l00060">if()</a>, and <a class="el" href="a00585_source.html#l00080">while()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aedd16305da3cfdbea19ba23daed10d9a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">phiF1 = Df1*<a class="el" href="a00586.html#a9ad08a93fd578a856c12ac94a7cf1f0d">snGradAlpha1</a> + fvc::flux(<a class="el" href="a00586.html#a2c9f9b40ebdf731cc37c38eab8977d44">rAU1</a>*<a class="el" href="a00585.html#a0fd6c680e7914ea17e626bbef00299f1">F</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00585_source.html#l00034">34</a> of file <a class="el" href="a00585_source.html">multiphase/denseAGFoam/pU/pEqn.H</a>.</p>
+
+<p>Referenced by <a class="el" href="a00585_source.html#l00080">while()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6646a332531432477318e632c7e962c2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">phiF2 = - <a class="el" href="a00585.html#a4ca8b668b50fe9b47473f25f3651d287">Df2</a>*<a class="el" href="a00586.html#a9ad08a93fd578a856c12ac94a7cf1f0d">snGradAlpha1</a> - fvc::flux(<a class="el" href="a00586.html#a980a98cf85cda183ad754b3d45380f15">rAU2</a>*<a class="el" href="a00585.html#a0fd6c680e7914ea17e626bbef00299f1">F</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00585_source.html#l00035">35</a> of file <a class="el" href="a00585_source.html">multiphase/denseAGFoam/pU/pEqn.H</a>.</p>
+
+<p>Referenced by <a class="el" href="a00585_source.html#l00080">while()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6b8d5903796d011867096f16bcfe4efd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">K1 = 0.5*magSqr(U1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00585_source.html#l00416">416</a> of file <a class="el" href="a00585_source.html">multiphase/denseAGFoam/pU/pEqn.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2cc87dc0dca3d6104d8094986f6b852a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">K2 = 0.5*magSqr(U2)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00585_source.html#l00417">417</a> of file <a class="el" href="a00585_source.html">multiphase/denseAGFoam/pU/pEqn.H</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html">applications</a></li><li class="navelem"><a class="el" href="dir_fdd174abb8ada244b49e98779c87ac3c.html">solvers</a></li><li class="navelem"><a class="el" href="dir_40ef2584a0ec6d8ca6a91d700a2af4ea.html">polydisperseBubbleFoam</a></li><li class="navelem"><a class="el" href="dir_e82341946789e4965af2c3527c7e2605.html">phaseCompressibleTurbulenceModels</a></li><li class="navelem"><a class="el" href="dir_8f844cb110652cb6a9dbedd7596b1b01.html">kineticTheoryModels</a></li><li class="navelem"><a class="el" href="dir_01e7462b89742fa6adc149c5efeaeeaf.html">viscosityModel</a></li><li class="navelem"><a class="el" href="dir_37c0fc02583019b5ef03f0175efaf51c.html">viscosityModel</a></li><li class="navelem"><a class="el" href="a00585.html">viscosityModel.C</a></li>
+    <li class="navelem"><a class="el" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html">applications</a></li><li class="navelem"><a class="el" href="dir_fdd174abb8ada244b49e98779c87ac3c.html">solvers</a></li><li class="navelem"><a class="el" href="dir_d62a5a20700de1cb9696e405d497a576.html">multiphase</a></li><li class="navelem"><a class="el" href="dir_fbf46af2d993e4f57d56cdda57485ece.html">denseAGFoam</a></li><li class="navelem"><a class="el" href="dir_f1c7a9f7e789f8840713dce6972ebd82.html">pU</a></li><li class="navelem"><a class="el" href="a00585.html">pEqn.H</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

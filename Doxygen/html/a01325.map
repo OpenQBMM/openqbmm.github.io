@@ -1,4 +1,4 @@
-<map id="univariatePopulationBalance" name="univariatePopulationBalance">
-<area shape="rect" id="node2" href="$a00171.html" title="univariatePDFTransportModel" alt="" coords="5,5,208,32"/>
-<area shape="rect" id="node3" href="$a00134.html" title="Abstract class for the run&#45;time selection of the population balance model. " alt="" coords="232,5,403,32"/>
+<map id="wallLubricationModel" name="wallLubricationModel">
+<area shape="rect" id="node2" href="$a00228.html" title="A class which provides on&#45;demand creation and caching of wall distance and wall normal fields for use..." alt="" coords="5,5,156,32"/>
+<area shape="rect" id="node3" href="$a00171.html" title="phasePair" alt="" coords="181,5,263,32"/>
 </map>

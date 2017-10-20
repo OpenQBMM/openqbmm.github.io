@@ -1,8 +1,7 @@
 var a00049 =
 [
-    [ "gaussMomentInversion", "a00049.html#ab84059e01757095681a772d0021f9aac", null ],
-    [ "~gaussMomentInversion", "a00049.html#a45dd9dc55811f1ddc792a320c2a283af", null ],
-    [ "TypeName", "a00049.html#ab64427407045477aab2eb45b9f9efe1e", null ],
-    [ "correctRecurrence", "a00049.html#adb8044c0e431e0fe1005a4395fff5478", null ],
-    [ "calcNQuadratureNodes", "a00049.html#ae11f16abe217f76d4e7b5e98e47b3ae1", null ]
+    [ "CoulaloglouAndTavlarides", "a00049.html#a79756fc7435c51c83c8b008a83460cc2", null ],
+    [ "~CoulaloglouAndTavlarides", "a00049.html#a9d875e26330ba097bc6c8dcfd6a54f82", null ],
+    [ "TypeName", "a00049.html#aba55be5b4edeb385df3e073c0aa47839", null ],
+    [ "omega", "a00049.html#a6225f776f7bb65b371979c9cee288c44", null ]
 ];

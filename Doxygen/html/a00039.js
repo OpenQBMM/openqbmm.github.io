@@ -1,9 +1,7 @@
 var a00039 =
 [
-    [ "extendedFieldMomentInversion", "a00039.html#a694ee9b046a29d6d51bce94e2d5f9193", null ],
-    [ "~extendedFieldMomentInversion", "a00039.html#abcb2345daaefe093eab65b6cf91ad9c8", null ],
-    [ "TypeName", "a00039.html#a92d1d2c620a5376ba8e67121739b9a96", null ],
-    [ "invert", "a00039.html#a81fbc0b024ab994e1e665273b7b7268b", null ],
-    [ "invertBoundaryMoments", "a00039.html#a0db254ceb34e9343bebd658750f9312d", null ],
-    [ "invertLocalMoments", "a00039.html#ae61ce7f3d511855a1d0eaf25c94d648f", null ]
+    [ "constantAggregation", "a00039.html#a3d9eab6d02320111723f0725a2ef06fd", null ],
+    [ "~constantAggregation", "a00039.html#a8f95da283d65bcd70fad3f015ff2dfd5", null ],
+    [ "TypeName", "a00039.html#ac2a86ba46d157b053e4a28a9483a48f5", null ],
+    [ "Ka", "a00039.html#ab7307c8c0a54778fb8ea6b85421c0a63", null ]
 ];

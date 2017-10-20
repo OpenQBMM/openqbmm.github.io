@@ -1,8 +1,12 @@
 var a00017 =
 [
-    [ "CarnahanStarling", "a00017.html#a20a8ec8a04a7980cc50a82f26b36e24f", null ],
-    [ "~CarnahanStarling", "a00017.html#a5f7fbca20ba93e2ec320ab06b57fc08c", null ],
-    [ "TypeName", "a00017.html#a7d4db64d4725848e9d99c78da6995f3c", null ],
-    [ "g0", "a00017.html#a77181c36b117cab1999c37a2c4ae392f", null ],
-    [ "g0prime", "a00017.html#a76068a5c111e6a71f9d5011c78d97346", null ]
+    [ "betaEQMOM", "a00017.html#adf5c9d013afeed0207b5030f2de12c28", null ],
+    [ "~betaEQMOM", "a00017.html#a493e12f42c3d28984ef116da6b21ad73", null ],
+    [ "TypeName", "a00017.html#a352af176e65dc7b012299c16c31a38b3", null ],
+    [ "secondaryAbscissa", "a00017.html#a872602e3d9bce4c696be2c2684a05e5a", null ],
+    [ "momentsStarToMoments", "a00017.html#a1eb2822d55fbaa8060321a24fc197329", null ],
+    [ "momentsToMomentsStar", "a00017.html#a88e521ae957743da06eec8e0ab777e2e", null ],
+    [ "m2N", "a00017.html#abee7f03ce3d0afa1dbc462ff6da2fff9", null ],
+    [ "recurrenceRelation", "a00017.html#a5831aae7a1d440271b5184f59f912503", null ],
+    [ "sigmaMax", "a00017.html#a479ec71576844909c5c0756350c24e2f", null ]
 ];

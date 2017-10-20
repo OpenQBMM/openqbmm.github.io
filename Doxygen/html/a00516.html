@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>setRDeltaT.H File Reference</title>
+<title>My Project: newGrowthModel.C File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,9 +31,12 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
-    <td style="padding-left: 0.5em;">
-    <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
-    </td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   &#160;<span id="projectnumber">-dev</span>
+   </div>
+   <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
+  </td>
  </tr>
  </tbody>
 </table>
@@ -103,219 +106,30 @@ $(document).ready(function(){initNavTree('a00516.html','');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">setRDeltaT.H File Reference</div>  </div>
+<div class="title">newGrowthModel.C File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><div class="dynheader">
+Include dependency graph for newGrowthModel.C:</div>
+<div class="dyncontent">
+<div class="center"><img src="a01006.png" border="0" usemap="#newGrowthModel_8C" alt=""/></div>
+<map name="newGrowthModel_8C" id="newGrowthModel_8C">
+<area shape="rect" id="node2" href="a00403.html" title="growthModel.H" alt="" coords="20,80,132,107"/>
+</map>
+</div>
+</div>
 <p><a href="a00516_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a264b38a3a95d5704c2b3488251919fa3"><td class="memItemLeft" align="right" valign="top">scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00516.html#a264b38a3a95d5704c2b3488251919fa3">maxCo</a> (pimpleDict.lookupOrDefault&lt; scalar &gt;(&quot;maxCo&quot;, 0.2))</td></tr>
-<tr class="separator:a264b38a3a95d5704c2b3488251919fa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1aada085edc1cf94f00a3b9ada46e58a"><td class="memItemLeft" align="right" valign="top">scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00516.html#a1aada085edc1cf94f00a3b9ada46e58a">maxDeltaT</a> (pimpleDict.lookupOrDefault&lt; scalar &gt;(&quot;maxDeltaT&quot;, GREAT))</td></tr>
-<tr class="separator:a1aada085edc1cf94f00a3b9ada46e58a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae107aec848899790f5df3e9104271144"><td class="memItemLeft" align="right" valign="top">scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00516.html#ae107aec848899790f5df3e9104271144">rDeltaTSmoothingCoeff</a> (pimpleDict.lookupOrDefault&lt; scalar &gt;(&quot;rDeltaTSmoothingCoeff&quot;, 0.02))</td></tr>
-<tr class="separator:ae107aec848899790f5df3e9104271144"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ba077ea50f77271f9de1a93fd2ac7ec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00516.html#a5ba077ea50f77271f9de1a93fd2ac7ec">for</a> (label nodeI=0;nodeI&lt; nNodes;nodeI++)</td></tr>
-<tr class="separator:a5ba077ea50f77271f9de1a93fd2ac7ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f770d65eab4a3a56807178d2277f713"><td class="memItemLeft" align="right" valign="top">rDeltaT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00516.html#a2f770d65eab4a3a56807178d2277f713">ref</a> ()</td></tr>
-<tr class="separator:a2f770d65eab4a3a56807178d2277f713"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8cac904ca049553c4c43b8f59834108"><td class="memItemLeft" align="right" valign="top">rDeltaT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00516.html#ab8cac904ca049553c4c43b8f59834108">correctBoundaryConditions</a> ()</td></tr>
-<tr class="separator:ab8cac904ca049553c4c43b8f59834108"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:aa656ebf7e2eda7d1f7c5d3975ac55a9c"><td class="memItemLeft" align="right" valign="top">const dictionary &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00516.html#aa656ebf7e2eda7d1f7c5d3975ac55a9c">pimpleDict</a> = pimple.dict()</td></tr>
-<tr class="separator:aa656ebf7e2eda7d1f7c5d3975ac55a9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05aac0da8a34d5b02fce1ae19a88b930"><td class="memItemLeft" align="right" valign="top">surfaceScalarField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00516.html#a05aac0da8a34d5b02fce1ae19a88b930">maxPhi</a> = max(mag(<a class="el" href="a00249.html#aaafa68dab09410efefed1b712990703c">phi1</a>), mag(<a class="el" href="a00249.html#a8401107915808b316cc7b5ef0ae2a858">phi2</a>))</td></tr>
-<tr class="separator:a05aac0da8a34d5b02fce1ae19a88b930"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a264b38a3a95d5704c2b3488251919fa3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">scalar maxCo </td>
-          <td>(</td>
-          <td class="paramtype">pimpleDict.lookupOrDefault&lt; scalar &gt;&#160;</td>
-          <td class="paramname">&quot;maxCo&quot;, 0.2</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><b>Original source file</b> <a href="/home/alberto/Desktop/OpenQBMM-Test/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/growthModels/growthModel/newGrowthModel.C">newGrowthModel.C</a> </p>
 
-<p>Referenced by <a class="el" href="a00516_source.html#l00023">for()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00516_a264b38a3a95d5704c2b3488251919fa3_icgraph.png" border="0" usemap="#a00516_a264b38a3a95d5704c2b3488251919fa3_icgraph" alt=""/></div>
-<map name="a00516_a264b38a3a95d5704c2b3488251919fa3_icgraph" id="a00516_a264b38a3a95d5704c2b3488251919fa3_icgraph">
-<area shape="rect" id="node2" href="a00516.html#a5ba077ea50f77271f9de1a93fd2ac7ec" title="for" alt="" coords="120,5,159,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a1aada085edc1cf94f00a3b9ada46e58a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">scalar maxDeltaT </td>
-          <td>(</td>
-          <td class="paramtype">pimpleDict.lookupOrDefault&lt; scalar &gt;&#160;</td>
-          <td class="paramname">&quot;maxDeltaT&quot;, GREAT</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Referenced by <a class="el" href="a00516_source.html#l00023">for()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00516_a1aada085edc1cf94f00a3b9ada46e58a_icgraph.png" border="0" usemap="#a00516_a1aada085edc1cf94f00a3b9ada46e58a_icgraph" alt=""/></div>
-<map name="a00516_a1aada085edc1cf94f00a3b9ada46e58a_icgraph" id="a00516_a1aada085edc1cf94f00a3b9ada46e58a_icgraph">
-<area shape="rect" id="node2" href="a00516.html#a5ba077ea50f77271f9de1a93fd2ac7ec" title="for" alt="" coords="144,5,183,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="ae107aec848899790f5df3e9104271144"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">scalar rDeltaTSmoothingCoeff </td>
-          <td>(</td>
-          <td class="paramtype">pimpleDict.lookupOrDefault&lt; scalar &gt;&#160;</td>
-          <td class="paramname">&quot;rDeltaTSmoothingCoeff&quot;, 0.02</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Referenced by <a class="el" href="a00516_source.html#l00023">for()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00516_ae107aec848899790f5df3e9104271144_icgraph.png" border="0" usemap="#a00516_ae107aec848899790f5df3e9104271144_icgraph" alt=""/></div>
-<map name="a00516_ae107aec848899790f5df3e9104271144_icgraph" id="a00516_ae107aec848899790f5df3e9104271144_icgraph">
-<area shape="rect" id="node2" href="a00516.html#a5ba077ea50f77271f9de1a93fd2ac7ec" title="for" alt="" coords="217,5,256,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a5ba077ea50f77271f9de1a93fd2ac7ec"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">for </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00516_source.html#l00023">23</a> of file <a class="el" href="a00516_source.html">setRDeltaT.H</a>.</p>
-
-<p>References <a class="el" href="a00516.html#a264b38a3a95d5704c2b3488251919fa3">maxCo()</a>, <a class="el" href="a00516.html#a1aada085edc1cf94f00a3b9ada46e58a">maxDeltaT()</a>, and <a class="el" href="a00516.html#ae107aec848899790f5df3e9104271144">rDeltaTSmoothingCoeff()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00516_a5ba077ea50f77271f9de1a93fd2ac7ec_cgraph.png" border="0" usemap="#a00516_a5ba077ea50f77271f9de1a93fd2ac7ec_cgraph" alt=""/></div>
-<map name="a00516_a5ba077ea50f77271f9de1a93fd2ac7ec_cgraph" id="a00516_a5ba077ea50f77271f9de1a93fd2ac7ec_cgraph">
-<area shape="rect" id="node2" href="a00516.html#a264b38a3a95d5704c2b3488251919fa3" title="maxCo" alt="" coords="141,5,207,32"/>
-<area shape="rect" id="node3" href="a00516.html#a1aada085edc1cf94f00a3b9ada46e58a" title="maxDeltaT" alt="" coords="129,56,219,83"/>
-<area shape="rect" id="node4" href="a00516.html#ae107aec848899790f5df3e9104271144" title="rDeltaTSmoothingCoeff" alt="" coords="92,107,256,133"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a2f770d65eab4a3a56807178d2277f713"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">rDeltaT ref </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ab8cac904ca049553c4c43b8f59834108"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">rDeltaT correctBoundaryConditions </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="aa656ebf7e2eda7d1f7c5d3975ac55a9c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const dictionary&amp; pimpleDict = pimple.dict()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00516_source.html#l00004">4</a> of file <a class="el" href="a00516_source.html">setRDeltaT.H</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a05aac0da8a34d5b02fce1ae19a88b930"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">surfaceScalarField maxPhi = max(mag(<a class="el" href="a00249.html#aaafa68dab09410efefed1b712990703c">phi1</a>), mag(<a class="el" href="a00249.html#a8401107915808b316cc7b5ef0ae2a858">phi2</a>))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="a00516_source.html#l00022">22</a> of file <a class="el" href="a00516_source.html">setRDeltaT.H</a>.</p>
-
-</div>
-</div>
-</div><!-- contents -->
+<p>Definition in file <a class="el" href="a00516_source.html">newGrowthModel.C</a>.</p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html">applications</a></li><li class="navelem"><a class="el" href="dir_fdd174abb8ada244b49e98779c87ac3c.html">solvers</a></li><li class="navelem"><a class="el" href="dir_40ef2584a0ec6d8ca6a91d700a2af4ea.html">polydisperseBubbleFoam</a></li><li class="navelem"><a class="el" href="a00516.html">setRDeltaT.H</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0ecbe6cb5f50223527ce4e1b499bd333.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="dir_58c61e057ed2119d9755c9fdbb448648.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="dir_6940a7f58037034d8426ca1ed1224859.html">growthModels</a></li><li class="navelem"><a class="el" href="dir_ec684823dce04113314ce54695e567a3.html">growthModel</a></li><li class="navelem"><a class="el" href="a00516.html">newGrowthModel.C</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

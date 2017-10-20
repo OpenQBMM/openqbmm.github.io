@@ -1,0 +1,12 @@
+digraph "LegendreMagnaudet" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c67964259d33ee0cfbe5ccad3f7aacf0 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="liftModels" fontname="Helvetica", fontsize="10", URL="dir_c67964259d33ee0cfbe5ccad3f7aacf0.html"]
+  dir_56b7765367acf83fdaf37bf952e95d65 [shape=box, label="LegendreMagnaudet", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_56b7765367acf83fdaf37bf952e95d65.html"];
+  }
+  dir_2395b722035c52e2e4891462bbbc85be [shape=box label="liftModel" URL="dir_2395b722035c52e2e4891462bbbc85be.html"];
+  dir_56b7765367acf83fdaf37bf952e95d65->dir_2395b722035c52e2e4891462bbbc85be [headlabel="1", labeldistance=1.5 headhref="dir_000146_000148.html"];
+}

@@ -1,11 +1,10 @@
 var a00019 =
 [
-    [ "conductivityModel", "a00019.html#a6e10d6d049c82c8a16079f7606131d78", null ],
-    [ "~conductivityModel", "a00019.html#a27922e15045f2be7cf059bf87e8fc9bb", null ],
-    [ "TypeName", "a00019.html#a89ef7b0434555578ece218c438ff74fe", null ],
-    [ "declareRunTimeSelectionTable", "a00019.html#a91190e56730ca9fbb8329c36b616da50", null ],
-    [ "New", "a00019.html#a69b9489f71079b9c7e7c6c01c2a30547", null ],
-    [ "kappa", "a00019.html#ad736a9b98eec5b0eb5417327cc0dc881", null ],
-    [ "read", "a00019.html#abcf7aafd601a940195284bc91610bb08", null ],
-    [ "dict_", "a00019.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a", null ]
+    [ "blendingMethod", "a00019.html#af1b1094fa2a867b01c841ea956905237", null ],
+    [ "~blendingMethod", "a00019.html#abf63a6ef76e444442518963896048ef8", null ],
+    [ "TypeName", "a00019.html#a1c3033ffacce094c1fe820f53f80a6e0", null ],
+    [ "declareRunTimeSelectionTable", "a00019.html#a1119d7765ea87401108c8fcc62ba7b19", null ],
+    [ "New", "a00019.html#afbdcce2767aca7cef1b3dbc9d16af6e8", null ],
+    [ "f1", "a00019.html#aab087ff1857371ba71a25fc1c29f4f80", null ],
+    [ "f2", "a00019.html#ae81535e367de29715b8493aa1ed61b1d", null ]
 ];

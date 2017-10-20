@@ -1,7 +1,8 @@
 var a00186 =
 [
-    [ "Wellek", "a00186.html#a9636e6a11a60ed15222181bbf2b210c3", null ],
-    [ "~Wellek", "a00186.html#ae0253b67464bd0dcd5397ca371faa272", null ],
-    [ "TypeName", "a00186.html#a1d49d0dbd35da09d5d7787cf12fcce67", null ],
-    [ "E", "a00186.html#a972dcd8e78e1967782a127bf17bd2eb4", null ]
+    [ "SinclairJackson", "a00186.html#a5305a7ba15e1d04d5bbb14529b1650e3", null ],
+    [ "~SinclairJackson", "a00186.html#ad223aad70fde71fd367770b4699981c7", null ],
+    [ "TypeName", "a00186.html#ae4f5e0722f1373329b3e5d6ecd305901", null ],
+    [ "g0", "a00186.html#a77181c36b117cab1999c37a2c4ae392f", null ],
+    [ "g0prime", "a00186.html#a76068a5c111e6a71f9d5011c78d97346", null ]
 ];

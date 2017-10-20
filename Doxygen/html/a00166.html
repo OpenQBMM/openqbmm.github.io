@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>twoPhaseSystem Class Reference</title>
+<title>My Project: pdPhaseModel Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,9 +31,12 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
-    <td style="padding-left: 0.5em;">
-    <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
-    </td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   &#160;<span id="projectnumber">-dev</span>
+   </div>
+   <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
+  </td>
  </tr>
  </tbody>
 </table>
@@ -107,172 +110,276 @@ $(document).ready(function(){initNavTree('a00166.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="a01123.html">List of all members</a>  </div>
+<a href="a01273.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">twoPhaseSystem Class Reference</div>  </div>
+<div class="title">pdPhaseModel Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class for a polydisperse phase model. Each bubble size hase a unique mean velocity. Size and velocity moments are stored in quadrature.  
+ <a href="a00166.html#details">More...</a></p>
 <div class="dynheader">
-Inheritance diagram for twoPhaseSystem:</div>
+Inheritance diagram for pdPhaseModel:</div>
 <div class="dyncontent">
-<div class="center"><img src="a01124.png" border="0" usemap="#twoPhaseSystem_inherit__map" alt="Inheritance graph"/></div>
-<map name="twoPhaseSystem_inherit__map" id="twoPhaseSystem_inherit__map">
+<div class="center"><img src="a01274.png" border="0" usemap="#pdPhaseModel_inherit__map" alt="Inheritance graph"/></div>
+<map name="pdPhaseModel_inherit__map" id="pdPhaseModel_inherit__map">
+<area shape="rect" id="node2" href="a00170.html" title="Base class for a moving phase model. Functions are made so that the class can be abstracted to a poly..." alt="" coords="14,5,111,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for twoPhaseSystem:</div>
+Collaboration diagram for pdPhaseModel:</div>
 <div class="dyncontent">
-<div class="center"><img src="a01125.png" border="0" usemap="#twoPhaseSystem_coll__map" alt="Collaboration graph"/></div>
-<map name="twoPhaseSystem_coll__map" id="twoPhaseSystem_coll__map">
+<div class="center"><img src="a01275.png" border="0" usemap="#pdPhaseModel_coll__map" alt="Collaboration graph"/></div>
+<map name="pdPhaseModel_coll__map" id="pdPhaseModel_coll__map">
+<area shape="rect" id="node2" href="a00170.html" title="Base class for a moving phase model. Functions are made so that the class can be abstracted to a poly..." alt="" coords="14,5,111,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a38db7d4d3cda2cfe382cc379b1f6b370"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a38db7d4d3cda2cfe382cc379b1f6b370">twoPhaseSystem</a> (const fvMesh &amp;, const dimensionedVector &amp;g)</td></tr>
-<tr class="memdesc:a38db7d4d3cda2cfe382cc379b1f6b370"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from fvMesh.  <a href="#a38db7d4d3cda2cfe382cc379b1f6b370">More...</a><br /></td></tr>
-<tr class="separator:a38db7d4d3cda2cfe382cc379b1f6b370"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a299eb4cf30ad9b42eb5bdd8e7e1e1e26"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a299eb4cf30ad9b42eb5bdd8e7e1e1e26">~twoPhaseSystem</a> ()</td></tr>
-<tr class="memdesc:a299eb4cf30ad9b42eb5bdd8e7e1e1e26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a299eb4cf30ad9b42eb5bdd8e7e1e1e26">More...</a><br /></td></tr>
-<tr class="separator:a299eb4cf30ad9b42eb5bdd8e7e1e1e26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94d56cf5402312283e2182a3766592b7"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a94d56cf5402312283e2182a3766592b7">rho</a> () const </td></tr>
-<tr class="memdesc:a94d56cf5402312283e2182a3766592b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the mixture density.  <a href="#a94d56cf5402312283e2182a3766592b7">More...</a><br /></td></tr>
-<tr class="separator:a94d56cf5402312283e2182a3766592b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab80ab0ac522b14ad87b25ebfb86bd0bf"><td class="memItemLeft" align="right" valign="top">tmp&lt; volVectorField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#ab80ab0ac522b14ad87b25ebfb86bd0bf">U</a> () const </td></tr>
-<tr class="memdesc:ab80ab0ac522b14ad87b25ebfb86bd0bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the mixture velocity.  <a href="#ab80ab0ac522b14ad87b25ebfb86bd0bf">More...</a><br /></td></tr>
-<tr class="separator:ab80ab0ac522b14ad87b25ebfb86bd0bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0fa8beb41983aa37e4e2a2c33f1eb77"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#aa0fa8beb41983aa37e4e2a2c33f1eb77">Kd</a> (const label) const </td></tr>
-<tr class="memdesc:aa0fa8beb41983aa37e4e2a2c33f1eb77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the drag coefficient.  <a href="#aa0fa8beb41983aa37e4e2a2c33f1eb77">More...</a><br /></td></tr>
-<tr class="separator:aa0fa8beb41983aa37e4e2a2c33f1eb77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adcf717d06000ab763119e6b0457dd1bc"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#adcf717d06000ab763119e6b0457dd1bc">Kd</a> () const </td></tr>
-<tr class="memdesc:adcf717d06000ab763119e6b0457dd1bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the drag coefficient.  <a href="#adcf717d06000ab763119e6b0457dd1bc">More...</a><br /></td></tr>
-<tr class="separator:adcf717d06000ab763119e6b0457dd1bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9e139641c6ef9efb7314431458e75ab"><td class="memItemLeft" align="right" valign="top">tmp&lt; surfaceScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#ab9e139641c6ef9efb7314431458e75ab">Kdf</a> (const label) const </td></tr>
-<tr class="memdesc:ab9e139641c6ef9efb7314431458e75ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the face drag coefficient.  <a href="#ab9e139641c6ef9efb7314431458e75ab">More...</a><br /></td></tr>
-<tr class="separator:ab9e139641c6ef9efb7314431458e75ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a2afa7246da74096f96d7680e926b23"><td class="memItemLeft" align="right" valign="top">tmp&lt; surfaceScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a1a2afa7246da74096f96d7680e926b23">Kdf</a> () const </td></tr>
-<tr class="memdesc:a1a2afa7246da74096f96d7680e926b23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the face drag coefficient.  <a href="#a1a2afa7246da74096f96d7680e926b23">More...</a><br /></td></tr>
-<tr class="separator:a1a2afa7246da74096f96d7680e926b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93afb2680285d685105e4edd229f3505"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a93afb2680285d685105e4edd229f3505">Vm</a> (const label) const </td></tr>
-<tr class="memdesc:a93afb2680285d685105e4edd229f3505"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the virtual mass coefficient.  <a href="#a93afb2680285d685105e4edd229f3505">More...</a><br /></td></tr>
-<tr class="separator:a93afb2680285d685105e4edd229f3505"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac516c0db42b8af6212002e052f361bea"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#ac516c0db42b8af6212002e052f361bea">Vm</a> () const </td></tr>
-<tr class="memdesc:ac516c0db42b8af6212002e052f361bea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the virtual mass coefficient.  <a href="#ac516c0db42b8af6212002e052f361bea">More...</a><br /></td></tr>
-<tr class="separator:ac516c0db42b8af6212002e052f361bea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ab92a7d875655abe3d7b1287b288f55"><td class="memItemLeft" align="right" valign="top">tmp&lt; surfaceScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a8ab92a7d875655abe3d7b1287b288f55">Vmf</a> (const label) const </td></tr>
-<tr class="memdesc:a8ab92a7d875655abe3d7b1287b288f55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the face virtual mass coefficient.  <a href="#a8ab92a7d875655abe3d7b1287b288f55">More...</a><br /></td></tr>
-<tr class="separator:a8ab92a7d875655abe3d7b1287b288f55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6451365674b77555bf191a02e2a3e2e"><td class="memItemLeft" align="right" valign="top">tmp&lt; surfaceScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#ae6451365674b77555bf191a02e2a3e2e">Vmf</a> () const </td></tr>
-<tr class="memdesc:ae6451365674b77555bf191a02e2a3e2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the face virtual mass coefficient.  <a href="#ae6451365674b77555bf191a02e2a3e2e">More...</a><br /></td></tr>
-<tr class="separator:ae6451365674b77555bf191a02e2a3e2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae019770dec2616b45ac04705eeeb7fc0"><td class="memItemLeft" align="right" valign="top">tmp&lt; volVectorField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#ae019770dec2616b45ac04705eeeb7fc0">F</a> (const label) const </td></tr>
-<tr class="memdesc:ae019770dec2616b45ac04705eeeb7fc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the combined force (lift + wall-lubrication)  <a href="#ae019770dec2616b45ac04705eeeb7fc0">More...</a><br /></td></tr>
-<tr class="separator:ae019770dec2616b45ac04705eeeb7fc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a994670250a2ccd1ac0c73bb9a02a404e"><td class="memItemLeft" align="right" valign="top">tmp&lt; volVectorField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a994670250a2ccd1ac0c73bb9a02a404e">F</a> () const </td></tr>
-<tr class="memdesc:a994670250a2ccd1ac0c73bb9a02a404e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the combined force (lift + wall-lubrication)  <a href="#a994670250a2ccd1ac0c73bb9a02a404e">More...</a><br /></td></tr>
-<tr class="separator:a994670250a2ccd1ac0c73bb9a02a404e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae149cefcacc87d6bf5401c23eea7f65f"><td class="memItemLeft" align="right" valign="top">tmp&lt; surfaceScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#ae149cefcacc87d6bf5401c23eea7f65f">Ff</a> (const label) const </td></tr>
-<tr class="memdesc:ae149cefcacc87d6bf5401c23eea7f65f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the combined face-force (lift + wall-lubrication)  <a href="#ae149cefcacc87d6bf5401c23eea7f65f">More...</a><br /></td></tr>
-<tr class="separator:ae149cefcacc87d6bf5401c23eea7f65f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7690853988ed2296d58bfbf5e5c9e9b"><td class="memItemLeft" align="right" valign="top">tmp&lt; surfaceScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#ab7690853988ed2296d58bfbf5e5c9e9b">Ff</a> () const </td></tr>
-<tr class="memdesc:ab7690853988ed2296d58bfbf5e5c9e9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the combined face-force (lift + wall-lubrication)  <a href="#ab7690853988ed2296d58bfbf5e5c9e9b">More...</a><br /></td></tr>
-<tr class="separator:ab7690853988ed2296d58bfbf5e5c9e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a407e1102f9a2a9306b93af737da99862"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a407e1102f9a2a9306b93af737da99862">D</a> (const label) const </td></tr>
-<tr class="memdesc:a407e1102f9a2a9306b93af737da99862"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the turbulent diffusivity.  <a href="#a407e1102f9a2a9306b93af737da99862">More...</a><br /></td></tr>
-<tr class="separator:a407e1102f9a2a9306b93af737da99862"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d1fc873e6391857383050bf9d60c8eb"><td class="memItemLeft" align="right" valign="top">tmp&lt; fvVectorMatrix &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a8d1fc873e6391857383050bf9d60c8eb">divDevRhoReff1</a> ()</td></tr>
-<tr class="memdesc:a8d1fc873e6391857383050bf9d60c8eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return viscous stress matrix for phase 1.  <a href="#a8d1fc873e6391857383050bf9d60c8eb">More...</a><br /></td></tr>
-<tr class="separator:a8d1fc873e6391857383050bf9d60c8eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f1a3797019f72b2a3c720e83df6b91f"><td class="memItemLeft" align="right" valign="top">tmp&lt; fvVectorMatrix &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a5f1a3797019f72b2a3c720e83df6b91f">divDevRhoReff2</a> ()</td></tr>
-<tr class="memdesc:a5f1a3797019f72b2a3c720e83df6b91f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return viscous stress matrix for phase 2.  <a href="#a5f1a3797019f72b2a3c720e83df6b91f">More...</a><br /></td></tr>
-<tr class="separator:a5f1a3797019f72b2a3c720e83df6b91f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7d39f0eac0af0ed5785935ac72a1e7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#af7d39f0eac0af0ed5785935ac72a1e7d">solve</a> ()</td></tr>
-<tr class="memdesc:af7d39f0eac0af0ed5785935ac72a1e7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve for the two-phase-fractions.  <a href="#af7d39f0eac0af0ed5785935ac72a1e7d">More...</a><br /></td></tr>
-<tr class="separator:af7d39f0eac0af0ed5785935ac72a1e7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a132d9471a477e405edccc8072f747673"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a132d9471a477e405edccc8072f747673">averageTransport</a> ()</td></tr>
-<tr class="memdesc:a132d9471a477e405edccc8072f747673"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve average transport of moments.  <a href="#a132d9471a477e405edccc8072f747673">More...</a><br /></td></tr>
-<tr class="separator:a132d9471a477e405edccc8072f747673"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ad2b66dfc25f442a9df3f8bccd4e681"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a7ad2b66dfc25f442a9df3f8bccd4e681">relativeTransport</a> ()</td></tr>
-<tr class="memdesc:a7ad2b66dfc25f442a9df3f8bccd4e681"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advect moments with deviation from mean flux.  <a href="#a7ad2b66dfc25f442a9df3f8bccd4e681">More...</a><br /></td></tr>
-<tr class="separator:a7ad2b66dfc25f442a9df3f8bccd4e681"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ae44b28050c3aa494c1d8e18cf618c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a3ae44b28050c3aa494c1d8e18cf618c1">correct</a> ()</td></tr>
-<tr class="memdesc:a3ae44b28050c3aa494c1d8e18cf618c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Correct two-phase properties other than turbulence.  <a href="#a3ae44b28050c3aa494c1d8e18cf618c1">More...</a><br /></td></tr>
-<tr class="separator:a3ae44b28050c3aa494c1d8e18cf618c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a894a3fecb5f9a994d803680e6ee51075"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a894a3fecb5f9a994d803680e6ee51075">correctTurbulence</a> ()</td></tr>
-<tr class="memdesc:a894a3fecb5f9a994d803680e6ee51075"><td class="mdescLeft">&#160;</td><td class="mdescRight">Correct two-phase turbulence.  <a href="#a894a3fecb5f9a994d803680e6ee51075">More...</a><br /></td></tr>
-<tr class="separator:a894a3fecb5f9a994d803680e6ee51075"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af816873151ddb0126e98bb2f914d8ed5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#af816873151ddb0126e98bb2f914d8ed5">read</a> ()</td></tr>
-<tr class="memdesc:af816873151ddb0126e98bb2f914d8ed5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read base phaseProperties dictionary.  <a href="#af816873151ddb0126e98bb2f914d8ed5">More...</a><br /></td></tr>
-<tr class="separator:af816873151ddb0126e98bb2f914d8ed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa735ba2c73cbe8644fea9091cf54518e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00034.html">dragModel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#aa735ba2c73cbe8644fea9091cf54518e">drag</a> (const <a class="el" href="a00129.html">phaseModel</a> &amp;phase) const </td></tr>
-<tr class="memdesc:aa735ba2c73cbe8644fea9091cf54518e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the drag model for the given phase.  <a href="#aa735ba2c73cbe8644fea9091cf54518e">More...</a><br /></td></tr>
-<tr class="separator:aa735ba2c73cbe8644fea9091cf54518e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6375042d7a49d0e06aae79f59d39ca92"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00178.html">virtualMassModel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a6375042d7a49d0e06aae79f59d39ca92">virtualMass</a> (const <a class="el" href="a00129.html">phaseModel</a> &amp;phase) const </td></tr>
-<tr class="memdesc:a6375042d7a49d0e06aae79f59d39ca92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the virtual mass model for the given phase.  <a href="#a6375042d7a49d0e06aae79f59d39ca92">More...</a><br /></td></tr>
-<tr class="separator:a6375042d7a49d0e06aae79f59d39ca92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad928f838c64269ac9c89e92c2eb7d9c"><td class="memItemLeft" align="right" valign="top">const dimensionedScalar &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#aad928f838c64269ac9c89e92c2eb7d9c">sigma</a> () const </td></tr>
-<tr class="memdesc:aad928f838c64269ac9c89e92c2eb7d9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the surface tension coefficient.  <a href="#aad928f838c64269ac9c89e92c2eb7d9c">More...</a><br /></td></tr>
-<tr class="separator:aad928f838c64269ac9c89e92c2eb7d9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a628df3d8f239d8393610d6310eb56ad1"><td class="memItemLeft" align="right" valign="top">const fvMesh &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a628df3d8f239d8393610d6310eb56ad1">mesh</a> () const </td></tr>
-<tr class="memdesc:a628df3d8f239d8393610d6310eb56ad1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the mesh.  <a href="#a628df3d8f239d8393610d6310eb56ad1">More...</a><br /></td></tr>
-<tr class="separator:a628df3d8f239d8393610d6310eb56ad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafa87466cebd9ebda4a09ea338673568"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00129.html">phaseModel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#aafa87466cebd9ebda4a09ea338673568">phase1</a> () const </td></tr>
-<tr class="memdesc:aafa87466cebd9ebda4a09ea338673568"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return phase model 1.  <a href="#aafa87466cebd9ebda4a09ea338673568">More...</a><br /></td></tr>
-<tr class="separator:aafa87466cebd9ebda4a09ea338673568"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae2393c9a021227c42f0e5b557fd5539"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00129.html">phaseModel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#aae2393c9a021227c42f0e5b557fd5539">phase1</a> ()</td></tr>
-<tr class="memdesc:aae2393c9a021227c42f0e5b557fd5539"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return non-const access to phase model 1.  <a href="#aae2393c9a021227c42f0e5b557fd5539">More...</a><br /></td></tr>
-<tr class="separator:aae2393c9a021227c42f0e5b557fd5539"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace6dda1224b634f41045415a3ba6089d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00129.html">phaseModel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#ace6dda1224b634f41045415a3ba6089d">phase2</a> () const </td></tr>
-<tr class="memdesc:ace6dda1224b634f41045415a3ba6089d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return phase model 2.  <a href="#ace6dda1224b634f41045415a3ba6089d">More...</a><br /></td></tr>
-<tr class="separator:ace6dda1224b634f41045415a3ba6089d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28e5bc97bd0ce70b75636a70bd141c06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00129.html">phaseModel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a28e5bc97bd0ce70b75636a70bd141c06">phase2</a> ()</td></tr>
-<tr class="memdesc:a28e5bc97bd0ce70b75636a70bd141c06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return non-const access to phase model 2.  <a href="#a28e5bc97bd0ce70b75636a70bd141c06">More...</a><br /></td></tr>
-<tr class="separator:a28e5bc97bd0ce70b75636a70bd141c06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a66222af4865209cd410d77cd196fe6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00129.html">phaseModel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a7a66222af4865209cd410d77cd196fe6">otherPhase</a> (const <a class="el" href="a00129.html">phaseModel</a> &amp;phase) const </td></tr>
-<tr class="memdesc:a7a66222af4865209cd410d77cd196fe6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the phase not given as an argument.  <a href="#a7a66222af4865209cd410d77cd196fe6">More...</a><br /></td></tr>
-<tr class="separator:a7a66222af4865209cd410d77cd196fe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a445e7dcdb6ef86dc28308939486c49a9"><td class="memItemLeft" align="right" valign="top">const surfaceScalarField &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a445e7dcdb6ef86dc28308939486c49a9">phi</a> () const </td></tr>
-<tr class="memdesc:a445e7dcdb6ef86dc28308939486c49a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the mixture flux.  <a href="#a445e7dcdb6ef86dc28308939486c49a9">More...</a><br /></td></tr>
-<tr class="separator:a445e7dcdb6ef86dc28308939486c49a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ccfa750ea7a0623efe7790b5cfc955d"><td class="memItemLeft" align="right" valign="top">surfaceScalarField &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a7ccfa750ea7a0623efe7790b5cfc955d">phi</a> ()</td></tr>
-<tr class="memdesc:a7ccfa750ea7a0623efe7790b5cfc955d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return non-const access to the the mixture flux.  <a href="#a7ccfa750ea7a0623efe7790b5cfc955d">More...</a><br /></td></tr>
-<tr class="separator:a7ccfa750ea7a0623efe7790b5cfc955d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0289a01379f7ea2a41c119071d375bef"><td class="memItemLeft" align="right" valign="top">const volScalarField &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a0289a01379f7ea2a41c119071d375bef">dgdt</a> () const </td></tr>
-<tr class="memdesc:a0289a01379f7ea2a41c119071d375bef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the dilatation term.  <a href="#a0289a01379f7ea2a41c119071d375bef">More...</a><br /></td></tr>
-<tr class="separator:a0289a01379f7ea2a41c119071d375bef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd8c71f42e894434170427a613ea4a06"><td class="memItemLeft" align="right" valign="top">volScalarField &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#acd8c71f42e894434170427a613ea4a06">dgdt</a> ()</td></tr>
-<tr class="memdesc:acd8c71f42e894434170427a613ea4a06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return non-const access to the dilatation parameter.  <a href="#acd8c71f42e894434170427a613ea4a06">More...</a><br /></td></tr>
-<tr class="separator:acd8c71f42e894434170427a613ea4a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7890c3eaebf550c6caf7706678ca2199"><td class="memItemLeft" align="right" valign="top">tmp&lt; surfaceScalarField &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a7890c3eaebf550c6caf7706678ca2199">pPrimeByA</a> ()</td></tr>
-<tr class="memdesc:a7890c3eaebf550c6caf7706678ca2199"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return non-const access to the dispersion diffusivity.  <a href="#a7890c3eaebf550c6caf7706678ca2199">More...</a><br /></td></tr>
-<tr class="separator:a7890c3eaebf550c6caf7706678ca2199"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad467fb49dd378320ef051d9845ec987a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#ad467fb49dd378320ef051d9845ec987a">pdPhaseModel</a> (const <a class="el" href="a00211.html">twoPhaseSystem</a> &amp;<a class="el" href="a00170.html#ad6ca9dde5a3f592b8b994b502adc6d4f">fluid</a>, const dictionary &amp;phaseProperties, const word &amp;phaseName)</td></tr>
+<tr class="separator:ad467fb49dd378320ef051d9845ec987a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a2d08bd77a965511a2e2b688d4e46cc"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a2a2d08bd77a965511a2e2b688d4e46cc">~pdPhaseModel</a> ()</td></tr>
+<tr class="memdesc:a2a2d08bd77a965511a2e2b688d4e46cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a2a2d08bd77a965511a2e2b688d4e46cc">More...</a><br /></td></tr>
+<tr class="separator:a2a2d08bd77a965511a2e2b688d4e46cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4633605230a1db182bc866a94e66cc76"><td class="memItemLeft" align="right" valign="top">virtual label&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a4633605230a1db182bc866a94e66cc76">nNodes</a> () const </td></tr>
+<tr class="memdesc:a4633605230a1db182bc866a94e66cc76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of nodes.  <a href="#a4633605230a1db182bc866a94e66cc76">More...</a><br /></td></tr>
+<tr class="separator:a4633605230a1db182bc866a94e66cc76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a826bd2342fde6c38821a3746fba7c98c"><td class="memItemLeft" align="right" valign="top">virtual const volScalarField &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a826bd2342fde6c38821a3746fba7c98c">alphas</a> (const label nodei) const </td></tr>
+<tr class="memdesc:a826bd2342fde6c38821a3746fba7c98c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return alpha field for nodei.  <a href="#a826bd2342fde6c38821a3746fba7c98c">More...</a><br /></td></tr>
+<tr class="separator:a826bd2342fde6c38821a3746fba7c98c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4263b72d31ab6b16f672ebdac11d34e"><td class="memItemLeft" align="right" valign="top">virtual volScalarField &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#ab4263b72d31ab6b16f672ebdac11d34e">alphas</a> (const label nodei)</td></tr>
+<tr class="memdesc:ab4263b72d31ab6b16f672ebdac11d34e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return non-constant access to alpha field for nodei.  <a href="#ab4263b72d31ab6b16f672ebdac11d34e">More...</a><br /></td></tr>
+<tr class="separator:ab4263b72d31ab6b16f672ebdac11d34e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69d1f0a659f83d6d9908d63c9e117801"><td class="memItemLeft" align="right" valign="top">virtual const volScalarField &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a69d1f0a659f83d6d9908d63c9e117801">ds</a> (const label nodei) const </td></tr>
+<tr class="memdesc:a69d1f0a659f83d6d9908d63c9e117801"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the diameter for nodei.  <a href="#a69d1f0a659f83d6d9908d63c9e117801">More...</a><br /></td></tr>
+<tr class="separator:a69d1f0a659f83d6d9908d63c9e117801"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4955544d9a2bf4b40aadecc03d76717f"><td class="memItemLeft" align="right" valign="top">virtual const volVectorField &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a4955544d9a2bf4b40aadecc03d76717f">Us</a> (const label nodei) const </td></tr>
+<tr class="memdesc:a4955544d9a2bf4b40aadecc03d76717f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the velocity for nodei.  <a href="#a4955544d9a2bf4b40aadecc03d76717f">More...</a><br /></td></tr>
+<tr class="separator:a4955544d9a2bf4b40aadecc03d76717f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84e13a2ef3cff4ca530bc85559d4e1ef"><td class="memItemLeft" align="right" valign="top">virtual volVectorField &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a84e13a2ef3cff4ca530bc85559d4e1ef">Us</a> (const label nodei)</td></tr>
+<tr class="memdesc:a84e13a2ef3cff4ca530bc85559d4e1ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return non-const access to the velocity for nodei.  <a href="#a84e13a2ef3cff4ca530bc85559d4e1ef">More...</a><br /></td></tr>
+<tr class="separator:a84e13a2ef3cff4ca530bc85559d4e1ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb2c18aec76e4c667cf5185caa8e1c13"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volVectorField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#aeb2c18aec76e4c667cf5185caa8e1c13">Vs</a> (const label nodei) const </td></tr>
+<tr class="memdesc:aeb2c18aec76e4c667cf5185caa8e1c13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return deviation velocity for nodei.  <a href="#aeb2c18aec76e4c667cf5185caa8e1c13">More...</a><br /></td></tr>
+<tr class="separator:aeb2c18aec76e4c667cf5185caa8e1c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa40b482ba81fd8de31bdba348c184074"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#aa40b482ba81fd8de31bdba348c184074">correct</a> ()</td></tr>
+<tr class="memdesc:aa40b482ba81fd8de31bdba348c184074"><td class="mdescLeft">&#160;</td><td class="mdescRight">Correct the phase properties.  <a href="#aa40b482ba81fd8de31bdba348c184074">More...</a><br /></td></tr>
+<tr class="separator:aa40b482ba81fd8de31bdba348c184074"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98b8459f24c250f47616cdc5ce2f708f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a98b8459f24c250f47616cdc5ce2f708f">relativeTransport</a> ()</td></tr>
+<tr class="memdesc:a98b8459f24c250f47616cdc5ce2f708f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Relative transport of moments.  <a href="#a98b8459f24c250f47616cdc5ce2f708f">More...</a><br /></td></tr>
+<tr class="separator:a98b8459f24c250f47616cdc5ce2f708f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05a00dd35d1744a056754b601c117136"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00166.html#a05a00dd35d1744a056754b601c117136">averageTransport</a> (const PtrList&lt; fvVectorMatrix &gt; &amp;AEqns)</td></tr>
+<tr class="memdesc:a05a00dd35d1744a056754b601c117136"><td class="mdescLeft">&#160;</td><td class="mdescRight">Average transport of moments.  <a href="#a05a00dd35d1744a056754b601c117136">More...</a><br /></td></tr>
+<tr class="separator:a05a00dd35d1744a056754b601c117136"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00170"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00170')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="a00170.html">phaseModel</a></td></tr>
+<tr class="memitem:a17b426901c5e18365faeb5e668bbe75f inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a17b426901c5e18365faeb5e668bbe75f">ClassName</a> (&quot;phaseModel&quot;)</td></tr>
+<tr class="memdesc:a17b426901c5e18365faeb5e668bbe75f inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#a17b426901c5e18365faeb5e668bbe75f">More...</a><br /></td></tr>
+<tr class="separator:a17b426901c5e18365faeb5e668bbe75f inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3c7356c7d6301a2e6660b61dd76cab3 inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#ae3c7356c7d6301a2e6660b61dd76cab3">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00170.html">phaseModel</a>, dictionary,(                                                       const <a class="el" href="a00211.html">twoPhaseSystem</a> &amp;<a class="el" href="a00170.html#ad6ca9dde5a3f592b8b994b502adc6d4f">fluid</a>,                                                       const dictionary &amp;dict,                                                       const word &amp;phaseName                                       ),(<a class="el" href="a00170.html#ad6ca9dde5a3f592b8b994b502adc6d4f">fluid</a>, dict, phaseName))</td></tr>
+<tr class="separator:ae3c7356c7d6301a2e6660b61dd76cab3 inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab251d077781c02756c40997105ae6ec5 inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#ab251d077781c02756c40997105ae6ec5">phaseModel</a> (const <a class="el" href="a00211.html">twoPhaseSystem</a> &amp;<a class="el" href="a00170.html#ad6ca9dde5a3f592b8b994b502adc6d4f">fluid</a>, const dictionary &amp;dict, const word &amp;phaseName)</td></tr>
+<tr class="separator:ab251d077781c02756c40997105ae6ec5 inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a750779778a87424940ba9b5ddfd22c95 inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">autoPtr&lt; <a class="el" href="a00170.html">phaseModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a750779778a87424940ba9b5ddfd22c95">clone</a> () const </td></tr>
+<tr class="memdesc:a750779778a87424940ba9b5ddfd22c95 inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return clone.  <a href="#a750779778a87424940ba9b5ddfd22c95">More...</a><br /></td></tr>
+<tr class="separator:a750779778a87424940ba9b5ddfd22c95 inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add1670642cf0f4f12bbe2ed571ed6926 inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#add1670642cf0f4f12bbe2ed571ed6926">~phaseModel</a> ()</td></tr>
+<tr class="memdesc:add1670642cf0f4f12bbe2ed571ed6926 inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#add1670642cf0f4f12bbe2ed571ed6926">More...</a><br /></td></tr>
+<tr class="separator:add1670642cf0f4f12bbe2ed571ed6926 inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75b72488d2e82151b025744974919d5d inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">const word &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a75b72488d2e82151b025744974919d5d">name</a> () const </td></tr>
+<tr class="memdesc:a75b72488d2e82151b025744974919d5d inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the name of this phase.  <a href="#a75b72488d2e82151b025744974919d5d">More...</a><br /></td></tr>
+<tr class="separator:a75b72488d2e82151b025744974919d5d inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45d545f56b390c896503598a3ba42b65 inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a45d545f56b390c896503598a3ba42b65">BGviscosity</a> () const </td></tr>
+<tr class="memdesc:a45d545f56b390c896503598a3ba42b65 inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return if B&amp;G viscosity model is used.  <a href="#a45d545f56b390c896503598a3ba42b65">More...</a><br /></td></tr>
+<tr class="separator:a45d545f56b390c896503598a3ba42b65 inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6ca9dde5a3f592b8b994b502adc6d4f inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00211.html">twoPhaseSystem</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#ad6ca9dde5a3f592b8b994b502adc6d4f">fluid</a> () const </td></tr>
+<tr class="memdesc:ad6ca9dde5a3f592b8b994b502adc6d4f inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the <a class="el" href="a00211.html">twoPhaseSystem</a>.  <a href="#ad6ca9dde5a3f592b8b994b502adc6d4f">More...</a><br /></td></tr>
+<tr class="separator:ad6ca9dde5a3f592b8b994b502adc6d4f inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dc9f8dc7d393dba38ae636bf3686d10 inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00170.html">phaseModel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a0dc9f8dc7d393dba38ae636bf3686d10">otherPhase</a> () const </td></tr>
+<tr class="memdesc:a0dc9f8dc7d393dba38ae636bf3686d10 inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the other phase in this two-phase system.  <a href="#a0dc9f8dc7d393dba38ae636bf3686d10">More...</a><br /></td></tr>
+<tr class="separator:a0dc9f8dc7d393dba38ae636bf3686d10 inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a200f987c61f5fe9c1b6d505deefd6fad inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">const dimensionedScalar &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a200f987c61f5fe9c1b6d505deefd6fad">residualAlpha</a> () const </td></tr>
+<tr class="memdesc:a200f987c61f5fe9c1b6d505deefd6fad inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the residual phase-fraction for given phase.  <a href="#a200f987c61f5fe9c1b6d505deefd6fad">More...</a><br /></td></tr>
+<tr class="separator:a200f987c61f5fe9c1b6d505deefd6fad inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1713e6f24722fddfa3838493eac724f8 inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">const volScalarField &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a1713e6f24722fddfa3838493eac724f8">d</a> () const </td></tr>
+<tr class="memdesc:a1713e6f24722fddfa3838493eac724f8 inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the mean diameter.  <a href="#a1713e6f24722fddfa3838493eac724f8">More...</a><br /></td></tr>
+<tr class="separator:a1713e6f24722fddfa3838493eac724f8 inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a736066a90b6edeff6ebf38d57f49f14e inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a736066a90b6edeff6ebf38d57f49f14e">alphaMax</a> () const </td></tr>
+<tr class="memdesc:a736066a90b6edeff6ebf38d57f49f14e inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional maximum phase-fraction (e.g. packing limit)  <a href="#a736066a90b6edeff6ebf38d57f49f14e">More...</a><br /></td></tr>
+<tr class="separator:a736066a90b6edeff6ebf38d57f49f14e inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa28c6278324909b9707aeb580ba072b inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00168.html">PhaseCompressibleTurbulenceModel</a>&lt; <a class="el" href="a00170.html">phaseModel</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#afa28c6278324909b9707aeb580ba072b">turbulence</a> () const </td></tr>
+<tr class="memdesc:afa28c6278324909b9707aeb580ba072b inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the turbulence model.  <a href="#afa28c6278324909b9707aeb580ba072b">More...</a><br /></td></tr>
+<tr class="separator:afa28c6278324909b9707aeb580ba072b inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77ee4b87429ae81027f55c0dd846e853 inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00168.html">PhaseCompressibleTurbulenceModel</a>&lt; <a class="el" href="a00170.html">phaseModel</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a77ee4b87429ae81027f55c0dd846e853">turbulence</a> ()</td></tr>
+<tr class="memdesc:a77ee4b87429ae81027f55c0dd846e853 inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return non-const access to the turbulence model.  <a href="#a77ee4b87429ae81027f55c0dd846e853">More...</a><br /></td></tr>
+<tr class="separator:a77ee4b87429ae81027f55c0dd846e853 inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a122a4985ee3c1862c1d229c3cba022ec inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">const rhoThermo &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a122a4985ee3c1862c1d229c3cba022ec">thermo</a> () const </td></tr>
+<tr class="memdesc:a122a4985ee3c1862c1d229c3cba022ec inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the thermophysical model.  <a href="#a122a4985ee3c1862c1d229c3cba022ec">More...</a><br /></td></tr>
+<tr class="separator:a122a4985ee3c1862c1d229c3cba022ec inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86ee829ee4c3ae48c2641b8938dabd4d inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">rhoThermo &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a86ee829ee4c3ae48c2641b8938dabd4d">thermo</a> ()</td></tr>
+<tr class="memdesc:a86ee829ee4c3ae48c2641b8938dabd4d inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return non-const access to the thermophysical model.  <a href="#a86ee829ee4c3ae48c2641b8938dabd4d">More...</a><br /></td></tr>
+<tr class="separator:a86ee829ee4c3ae48c2641b8938dabd4d inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9594b4c7eef2955bc2449e4d1a4fff27 inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a9594b4c7eef2955bc2449e4d1a4fff27">nu</a> () const </td></tr>
+<tr class="memdesc:a9594b4c7eef2955bc2449e4d1a4fff27 inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the laminar viscosity.  <a href="#a9594b4c7eef2955bc2449e4d1a4fff27">More...</a><br /></td></tr>
+<tr class="separator:a9594b4c7eef2955bc2449e4d1a4fff27 inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fec494e61b1551180a70c3196d2da84 inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">tmp&lt; scalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a5fec494e61b1551180a70c3196d2da84">nu</a> (const label patchi) const </td></tr>
+<tr class="memdesc:a5fec494e61b1551180a70c3196d2da84 inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the laminar viscosity for patch.  <a href="#a5fec494e61b1551180a70c3196d2da84">More...</a><br /></td></tr>
+<tr class="separator:a5fec494e61b1551180a70c3196d2da84 inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c3c920f447a8999a7bcc1dbbf40f07b inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a2c3c920f447a8999a7bcc1dbbf40f07b">mu</a> () const </td></tr>
+<tr class="memdesc:a2c3c920f447a8999a7bcc1dbbf40f07b inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the laminar dynamic viscosity.  <a href="#a2c3c920f447a8999a7bcc1dbbf40f07b">More...</a><br /></td></tr>
+<tr class="separator:a2c3c920f447a8999a7bcc1dbbf40f07b inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47ee3be7d59aa843475344aed2a6fcda inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">tmp&lt; scalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a47ee3be7d59aa843475344aed2a6fcda">mu</a> (const label patchi) const </td></tr>
+<tr class="memdesc:a47ee3be7d59aa843475344aed2a6fcda inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the laminar dynamic viscosity for patch.  <a href="#a47ee3be7d59aa843475344aed2a6fcda">More...</a><br /></td></tr>
+<tr class="separator:a47ee3be7d59aa843475344aed2a6fcda inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab47170f46fbbbcaa2ece1fb9e1f9c3e4 inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">tmp&lt; scalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#ab47170f46fbbbcaa2ece1fb9e1f9c3e4">kappa</a> (const label patchi) const </td></tr>
+<tr class="memdesc:ab47170f46fbbbcaa2ece1fb9e1f9c3e4 inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the thermal conductivity on a patch.  <a href="#ab47170f46fbbbcaa2ece1fb9e1f9c3e4">More...</a><br /></td></tr>
+<tr class="separator:ab47170f46fbbbcaa2ece1fb9e1f9c3e4 inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80aa74587c7f701d9069d66898f6fcb7 inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a80aa74587c7f701d9069d66898f6fcb7">kappa</a> () const </td></tr>
+<tr class="memdesc:a80aa74587c7f701d9069d66898f6fcb7 inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the thermal conductivity.  <a href="#a80aa74587c7f701d9069d66898f6fcb7">More...</a><br /></td></tr>
+<tr class="separator:a80aa74587c7f701d9069d66898f6fcb7 inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a109745eff5659146b48bfc9d1aacb82c inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a109745eff5659146b48bfc9d1aacb82c">kappaEff</a> (const volScalarField &amp;alphat) const </td></tr>
+<tr class="memdesc:a109745eff5659146b48bfc9d1aacb82c inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the laminar thermal conductivity.  <a href="#a109745eff5659146b48bfc9d1aacb82c">More...</a><br /></td></tr>
+<tr class="separator:a109745eff5659146b48bfc9d1aacb82c inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d544cc0f8b91fc995152e28d99aa7e9 inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">tmp&lt; scalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a7d544cc0f8b91fc995152e28d99aa7e9">kappaEff</a> (const scalarField &amp;alphat, const label patchi) const </td></tr>
+<tr class="memdesc:a7d544cc0f8b91fc995152e28d99aa7e9 inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the laminar thermal conductivity on a patch.  <a href="#a7d544cc0f8b91fc995152e28d99aa7e9">More...</a><br /></td></tr>
+<tr class="separator:a7d544cc0f8b91fc995152e28d99aa7e9 inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3ff1caa1971892a24c13c4c52bc28d9 inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#ac3ff1caa1971892a24c13c4c52bc28d9">alpha</a> () const </td></tr>
+<tr class="memdesc:ac3ff1caa1971892a24c13c4c52bc28d9 inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the laminar thermal diffusivity for enthalpy.  <a href="#ac3ff1caa1971892a24c13c4c52bc28d9">More...</a><br /></td></tr>
+<tr class="separator:ac3ff1caa1971892a24c13c4c52bc28d9 inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a845bd1d5821cc3bff875316da37c84b4 inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">tmp&lt; scalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a845bd1d5821cc3bff875316da37c84b4">alpha</a> (const label patchi) const </td></tr>
+<tr class="memdesc:a845bd1d5821cc3bff875316da37c84b4 inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the laminar thermal diffusivity for enthalpy on a patch.  <a href="#a845bd1d5821cc3bff875316da37c84b4">More...</a><br /></td></tr>
+<tr class="separator:a845bd1d5821cc3bff875316da37c84b4 inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa516d5f071612d6ccfcec0b1a74964c4 inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#aa516d5f071612d6ccfcec0b1a74964c4">alphaEff</a> (const volScalarField &amp;alphat) const </td></tr>
+<tr class="memdesc:aa516d5f071612d6ccfcec0b1a74964c4 inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the effective thermal diffusivity for enthalpy.  <a href="#aa516d5f071612d6ccfcec0b1a74964c4">More...</a><br /></td></tr>
+<tr class="separator:aa516d5f071612d6ccfcec0b1a74964c4 inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a603af410e0d67e4f12a27de0d8b634f2 inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">tmp&lt; scalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a603af410e0d67e4f12a27de0d8b634f2">alphaEff</a> (const scalarField &amp;alphat, const label patchi) const </td></tr>
+<tr class="memdesc:a603af410e0d67e4f12a27de0d8b634f2 inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the effective thermal diffusivity for enthalpy on a patch.  <a href="#a603af410e0d67e4f12a27de0d8b634f2">More...</a><br /></td></tr>
+<tr class="separator:a603af410e0d67e4f12a27de0d8b634f2 inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ef006c3423545a301ae780c4647603c inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a4ef006c3423545a301ae780c4647603c">Cp</a> () const </td></tr>
+<tr class="memdesc:a4ef006c3423545a301ae780c4647603c inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the specific heat capacity.  <a href="#a4ef006c3423545a301ae780c4647603c">More...</a><br /></td></tr>
+<tr class="separator:a4ef006c3423545a301ae780c4647603c inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cc58ca827e928ad616c8c8b46082e7f inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">const volScalarField &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a6cc58ca827e928ad616c8c8b46082e7f">rho</a> () const </td></tr>
+<tr class="memdesc:a6cc58ca827e928ad616c8c8b46082e7f inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the density.  <a href="#a6cc58ca827e928ad616c8c8b46082e7f">More...</a><br /></td></tr>
+<tr class="separator:a6cc58ca827e928ad616c8c8b46082e7f inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b0f7927917d51eb0331cdda095aa21f inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">const volVectorField &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a0b0f7927917d51eb0331cdda095aa21f">U</a> () const </td></tr>
+<tr class="memdesc:a0b0f7927917d51eb0331cdda095aa21f inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant access to the mean velocity.  <a href="#a0b0f7927917d51eb0331cdda095aa21f">More...</a><br /></td></tr>
+<tr class="separator:a0b0f7927917d51eb0331cdda095aa21f inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9152a436c08509f3f18e0298a7239d13 inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">volVectorField &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a9152a436c08509f3f18e0298a7239d13">U</a> ()</td></tr>
+<tr class="memdesc:a9152a436c08509f3f18e0298a7239d13 inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-const access to the mean velocity.  <a href="#a9152a436c08509f3f18e0298a7239d13">More...</a><br /></td></tr>
+<tr class="separator:a9152a436c08509f3f18e0298a7239d13 inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7a78ce066b04bb1d93e8a1d9335900d inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">const surfaceScalarField &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#ae7a78ce066b04bb1d93e8a1d9335900d">phi</a> () const </td></tr>
+<tr class="memdesc:ae7a78ce066b04bb1d93e8a1d9335900d inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant access to the volumetric flux.  <a href="#ae7a78ce066b04bb1d93e8a1d9335900d">More...</a><br /></td></tr>
+<tr class="separator:ae7a78ce066b04bb1d93e8a1d9335900d inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66289cf9ede32ce672bb3c21f02ded40 inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">surfaceScalarField &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a66289cf9ede32ce672bb3c21f02ded40">phi</a> ()</td></tr>
+<tr class="memdesc:a66289cf9ede32ce672bb3c21f02ded40 inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-const access to the volumetric flux.  <a href="#a66289cf9ede32ce672bb3c21f02ded40">More...</a><br /></td></tr>
+<tr class="separator:a66289cf9ede32ce672bb3c21f02ded40 inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad38205f722710c048191c5bc87609f9f inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">const surfaceScalarField &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#ad38205f722710c048191c5bc87609f9f">alphaPhi</a> () const </td></tr>
+<tr class="memdesc:ad38205f722710c048191c5bc87609f9f inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the volumetric flux of the phase.  <a href="#ad38205f722710c048191c5bc87609f9f">More...</a><br /></td></tr>
+<tr class="separator:ad38205f722710c048191c5bc87609f9f inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4fa7eb1a78a64edddbfdefe090ffac0 inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">surfaceScalarField &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#ad4fa7eb1a78a64edddbfdefe090ffac0">alphaPhi</a> ()</td></tr>
+<tr class="memdesc:ad4fa7eb1a78a64edddbfdefe090ffac0 inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return non-const access to the volumetric flux of the phase.  <a href="#ad4fa7eb1a78a64edddbfdefe090ffac0">More...</a><br /></td></tr>
+<tr class="separator:ad4fa7eb1a78a64edddbfdefe090ffac0 inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11e78116eb05c7c1a3aabc6c68f00680 inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">const surfaceScalarField &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a11e78116eb05c7c1a3aabc6c68f00680">alphaRhoPhi</a> () const </td></tr>
+<tr class="memdesc:a11e78116eb05c7c1a3aabc6c68f00680 inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the mass flux of the phase.  <a href="#a11e78116eb05c7c1a3aabc6c68f00680">More...</a><br /></td></tr>
+<tr class="separator:a11e78116eb05c7c1a3aabc6c68f00680 inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac84568157c5a273492634b3211bf990d inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">surfaceScalarField &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#ac84568157c5a273492634b3211bf990d">alphaRhoPhi</a> ()</td></tr>
+<tr class="memdesc:ac84568157c5a273492634b3211bf990d inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return non-const access to the mass flux of the phase.  <a href="#ac84568157c5a273492634b3211bf990d">More...</a><br /></td></tr>
+<tr class="separator:ac84568157c5a273492634b3211bf990d inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6718217a48b5a1e81b5c167b128de999 inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a6718217a48b5a1e81b5c167b128de999">correctInflowOutflow</a> (surfaceScalarField &amp;<a class="el" href="a00170.html#ad38205f722710c048191c5bc87609f9f">alphaPhi</a>) const </td></tr>
+<tr class="memdesc:a6718217a48b5a1e81b5c167b128de999 inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ensure that the flux at inflow BCs is preserved.  <a href="#a6718217a48b5a1e81b5c167b128de999">More...</a><br /></td></tr>
+<tr class="separator:a6718217a48b5a1e81b5c167b128de999 inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdfe3d449f8ed343ff890abde7af140e inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#afdfe3d449f8ed343ff890abde7af140e">transportAlpha</a> ()</td></tr>
+<tr class="memdesc:afdfe3d449f8ed343ff890abde7af140e inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Average transport of first size moment.  <a href="#afdfe3d449f8ed343ff890abde7af140e">More...</a><br /></td></tr>
+<tr class="separator:afdfe3d449f8ed343ff890abde7af140e inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cb018ffd99f8b65963abd5eddd8c824 inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a5cb018ffd99f8b65963abd5eddd8c824">solveBreakupCoalesence</a> ()</td></tr>
+<tr class="memdesc:a5cb018ffd99f8b65963abd5eddd8c824 inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solve change in size moments based on breakup and coalesence.  <a href="#a5cb018ffd99f8b65963abd5eddd8c824">More...</a><br /></td></tr>
+<tr class="separator:a5cb018ffd99f8b65963abd5eddd8c824 inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a74613347b54feed9fb14f3b2fe2108 inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a1a74613347b54feed9fb14f3b2fe2108">read</a> (const dictionary &amp;phaseProperties)</td></tr>
+<tr class="memdesc:a1a74613347b54feed9fb14f3b2fe2108 inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read phaseProperties dictionary.  <a href="#a1a74613347b54feed9fb14f3b2fe2108">More...</a><br /></td></tr>
+<tr class="separator:a1a74613347b54feed9fb14f3b2fe2108 inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcf7aafd601a940195284bc91610bb08 inherit pub_methods_a00170"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#abcf7aafd601a940195284bc91610bb08">read</a> ()</td></tr>
+<tr class="memdesc:abcf7aafd601a940195284bc91610bb08 inherit pub_methods_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dummy Read for transportModel.  <a href="#abcf7aafd601a940195284bc91610bb08">More...</a><br /></td></tr>
+<tr class="separator:abcf7aafd601a940195284bc91610bb08 inherit pub_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_methods_a00170"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_a00170')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="a00170.html">phaseModel</a></td></tr>
+<tr class="memitem:aa7a2a90e594c47c3dee9c675e62667a7 inherit pub_static_methods_a00170"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00170.html">phaseModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#aa7a2a90e594c47c3dee9c675e62667a7">New</a> (const <a class="el" href="a00211.html">twoPhaseSystem</a> &amp;<a class="el" href="a00170.html#ad6ca9dde5a3f592b8b994b502adc6d4f">fluid</a>, const dictionary &amp;dict, const word &amp;phaseName)</td></tr>
+<tr class="separator:aa7a2a90e594c47c3dee9c675e62667a7 inherit pub_static_methods_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_a00170"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a00170')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="a00170.html">phaseModel</a></td></tr>
+<tr class="memitem:a9a52eaf98a079f7b3b2e33ba12d2961d inherit pro_attribs_a00170"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00211.html">twoPhaseSystem</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a9a52eaf98a079f7b3b2e33ba12d2961d">fluid_</a></td></tr>
+<tr class="memdesc:a9a52eaf98a079f7b3b2e33ba12d2961d inherit pro_attribs_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to mesh.  <a href="#a9a52eaf98a079f7b3b2e33ba12d2961d">More...</a><br /></td></tr>
+<tr class="separator:a9a52eaf98a079f7b3b2e33ba12d2961d inherit pro_attribs_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50fd7d13a0f7a6007ca5027b3bb8765a inherit pro_attribs_a00170"><td class="memItemLeft" align="right" valign="top">word&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a50fd7d13a0f7a6007ca5027b3bb8765a">name_</a></td></tr>
+<tr class="memdesc:a50fd7d13a0f7a6007ca5027b3bb8765a inherit pro_attribs_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of phase.  <a href="#a50fd7d13a0f7a6007ca5027b3bb8765a">More...</a><br /></td></tr>
+<tr class="separator:a50fd7d13a0f7a6007ca5027b3bb8765a inherit pro_attribs_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2550b891719ee4e38bd9a30f9f31dc55 inherit pro_attribs_a00170"><td class="memItemLeft" align="right" valign="top">dictionary&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a2550b891719ee4e38bd9a30f9f31dc55">phaseDict_</a></td></tr>
+<tr class="memdesc:a2550b891719ee4e38bd9a30f9f31dc55 inherit pro_attribs_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phase dictionary.  <a href="#a2550b891719ee4e38bd9a30f9f31dc55">More...</a><br /></td></tr>
+<tr class="separator:a2550b891719ee4e38bd9a30f9f31dc55 inherit pro_attribs_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e788d53e0135b25ac6f5f81da5ed251 inherit pro_attribs_a00170"><td class="memItemLeft" align="right" valign="top">dimensionedScalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a9e788d53e0135b25ac6f5f81da5ed251">residualAlpha_</a></td></tr>
+<tr class="memdesc:a9e788d53e0135b25ac6f5f81da5ed251 inherit pro_attribs_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the residual phase-fraction for given phase.  <a href="#a9e788d53e0135b25ac6f5f81da5ed251">More...</a><br /></td></tr>
+<tr class="separator:a9e788d53e0135b25ac6f5f81da5ed251 inherit pro_attribs_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95bfda06070cd51f98da6bbd3d452243 inherit pro_attribs_a00170"><td class="memItemLeft" align="right" valign="top">scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a95bfda06070cd51f98da6bbd3d452243">alphaMax_</a></td></tr>
+<tr class="memdesc:a95bfda06070cd51f98da6bbd3d452243 inherit pro_attribs_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional maximum phase-fraction (e.g. packing limit)  <a href="#a95bfda06070cd51f98da6bbd3d452243">More...</a><br /></td></tr>
+<tr class="separator:a95bfda06070cd51f98da6bbd3d452243 inherit pro_attribs_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad173fb21276c83d27a4c569fb5790674 inherit pro_attribs_a00170"><td class="memItemLeft" align="right" valign="top">autoPtr&lt; rhoThermo &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#ad173fb21276c83d27a4c569fb5790674">thermo_</a></td></tr>
+<tr class="memdesc:ad173fb21276c83d27a4c569fb5790674 inherit pro_attribs_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Thermophysical properties.  <a href="#ad173fb21276c83d27a4c569fb5790674">More...</a><br /></td></tr>
+<tr class="separator:ad173fb21276c83d27a4c569fb5790674 inherit pro_attribs_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a188c58d01aed5b71cf5711278581adeb inherit pro_attribs_a00170"><td class="memItemLeft" align="right" valign="top">volVectorField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a188c58d01aed5b71cf5711278581adeb">U_</a></td></tr>
+<tr class="memdesc:a188c58d01aed5b71cf5711278581adeb inherit pro_attribs_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mean velocity.  <a href="#a188c58d01aed5b71cf5711278581adeb">More...</a><br /></td></tr>
+<tr class="separator:a188c58d01aed5b71cf5711278581adeb inherit pro_attribs_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa2a802e735d9dedd24961db740458b7 inherit pro_attribs_a00170"><td class="memItemLeft" align="right" valign="top">surfaceScalarField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#aaa2a802e735d9dedd24961db740458b7">alphaPhi_</a></td></tr>
+<tr class="memdesc:aaa2a802e735d9dedd24961db740458b7 inherit pro_attribs_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Volumetric flux of the phase.  <a href="#aaa2a802e735d9dedd24961db740458b7">More...</a><br /></td></tr>
+<tr class="separator:aaa2a802e735d9dedd24961db740458b7 inherit pro_attribs_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83a48ecb73896b66725a1ecdbd5c2b64 inherit pro_attribs_a00170"><td class="memItemLeft" align="right" valign="top">surfaceScalarField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a83a48ecb73896b66725a1ecdbd5c2b64">alphaRhoPhi_</a></td></tr>
+<tr class="memdesc:a83a48ecb73896b66725a1ecdbd5c2b64 inherit pro_attribs_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mass flux of the phase.  <a href="#a83a48ecb73896b66725a1ecdbd5c2b64">More...</a><br /></td></tr>
+<tr class="separator:a83a48ecb73896b66725a1ecdbd5c2b64 inherit pro_attribs_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a497673767745b44b26977e35496c55df inherit pro_attribs_a00170"><td class="memItemLeft" align="right" valign="top">autoPtr&lt; surfaceScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a497673767745b44b26977e35496c55df">phiPtr_</a></td></tr>
+<tr class="memdesc:a497673767745b44b26977e35496c55df inherit pro_attribs_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Volumetric flux of the phase.  <a href="#a497673767745b44b26977e35496c55df">More...</a><br /></td></tr>
+<tr class="separator:a497673767745b44b26977e35496c55df inherit pro_attribs_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa844997362d9152966806ee2fe5fa115 inherit pro_attribs_a00170"><td class="memItemLeft" align="right" valign="top">volScalarField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#aa844997362d9152966806ee2fe5fa115">d_</a></td></tr>
+<tr class="memdesc:aa844997362d9152966806ee2fe5fa115 inherit pro_attribs_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Diameter (alpha weighted diameter for polydisperse)  <a href="#aa844997362d9152966806ee2fe5fa115">More...</a><br /></td></tr>
+<tr class="separator:aa844997362d9152966806ee2fe5fa115 inherit pro_attribs_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8125d20d26a49f0db207d17223fbce3d inherit pro_attribs_a00170"><td class="memItemLeft" align="right" valign="top">autoPtr&lt; <a class="el" href="a00168.html">PhaseCompressibleTurbulenceModel</a>&lt; <a class="el" href="a00170.html">phaseModel</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a8125d20d26a49f0db207d17223fbce3d">turbulence_</a></td></tr>
+<tr class="memdesc:a8125d20d26a49f0db207d17223fbce3d inherit pro_attribs_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turbulence model.  <a href="#a8125d20d26a49f0db207d17223fbce3d">More...</a><br /></td></tr>
+<tr class="separator:a8125d20d26a49f0db207d17223fbce3d inherit pro_attribs_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94b0a37b5250844caacf14b29255ca24 inherit pro_attribs_a00170"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00170.html#a94b0a37b5250844caacf14b29255ca24">BGviscosity_</a></td></tr>
+<tr class="memdesc:a94b0a37b5250844caacf14b29255ca24 inherit pro_attribs_a00170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bool to use B&amp;G bubble pressure based viscosity.  <a href="#a94b0a37b5250844caacf14b29255ca24">More...</a><br /></td></tr>
+<tr class="separator:a94b0a37b5250844caacf14b29255ca24 inherit pro_attribs_a00170"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
+<div class="textblock"><p>Class for a polydisperse phase model. Each bubble size hase a unique mean velocity. Size and velocity moments are stored in quadrature. </p>
+<p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
 <li>
-<a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/twoPhaseSystem/twoPhaseSystem.H">twoPhaseSystem.H</a> </li>
+<a href="/home/alberto/Desktop/OpenQBMM-Test/OpenQBMM/applications/solvers/multiphase/twoPhaseSystem/phaseModels/pdPhaseModel/pdPhaseModel.H">pdPhaseModel.H</a> </li>
 <li>
-<a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/twoPhaseSystem/twoPhaseSystem.C">twoPhaseSystem.C</a> </li>
+<a href="/home/alberto/Desktop/OpenQBMM-Test/OpenQBMM/applications/solvers/multiphase/twoPhaseSystem/phaseModels/pdPhaseModel/pdPhaseModel.C">pdPhaseModel.C</a> </li>
 </ul>
 </dd></dl>
 
-<p>Definition at line <a class="el" href="a00558_source.html#l00065">65</a> of file <a class="el" href="a00558_source.html">twoPhaseSystem.H</a>.</p>
+<p>Definition at line <a class="el" href="a00583_source.html#l00057">57</a> of file <a class="el" href="a00583_source.html">pdPhaseModel.H</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a38db7d4d3cda2cfe382cc379b1f6b370"></a>
+<a class="anchor" id="ad467fb49dd378320ef051d9845ec987a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00166.html">twoPhaseSystem</a> </td>
+          <td class="memname"><a class="el" href="a00166.html">pdPhaseModel</a> </td>
           <td>(</td>
-          <td class="paramtype">const fvMesh &amp;&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramtype">const <a class="el" href="a00211.html">twoPhaseSystem</a> &amp;&#160;</td>
+          <td class="paramname"><em>fluid</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const dimensionedVector &amp;&#160;</td>
-          <td class="paramname"><em>g</em>&#160;</td>
+          <td class="paramtype">const dictionary &amp;&#160;</td>
+          <td class="paramname"><em>phaseProperties</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const word &amp;&#160;</td>
+          <td class="paramname"><em>phaseName</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -282,11 +389,9 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Construct from fvMesh. </p>
-
 </div>
 </div>
-<a class="anchor" id="a299eb4cf30ad9b42eb5bdd8e7e1e1e26"></a>
+<a class="anchor" id="a2a2d08bd77a965511a2e2b688d4e46cc"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -294,7 +399,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual ~<a class="el" href="a00166.html">twoPhaseSystem</a> </td>
+          <td class="memname">virtual ~<a class="el" href="a00166.html">pdPhaseModel</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -312,461 +417,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a94d56cf5402312283e2182a3766592b7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">tmp&lt;volScalarField&gt; rho </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return the mixture density. </p>
-
-</div>
-</div>
-<a class="anchor" id="ab80ab0ac522b14ad87b25ebfb86bd0bf"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">tmp&lt;volVectorField&gt; U </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return the mixture velocity. </p>
-
-</div>
-</div>
-<a class="anchor" id="aa0fa8beb41983aa37e4e2a2c33f1eb77"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">tmp&lt;volScalarField&gt; Kd </td>
-          <td>(</td>
-          <td class="paramtype">const label&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return the drag coefficient. </p>
-
-</div>
-</div>
-<a class="anchor" id="adcf717d06000ab763119e6b0457dd1bc"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">tmp&lt;volScalarField&gt; Kd </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return the drag coefficient. </p>
-
-</div>
-</div>
-<a class="anchor" id="ab9e139641c6ef9efb7314431458e75ab"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">tmp&lt;surfaceScalarField&gt; Kdf </td>
-          <td>(</td>
-          <td class="paramtype">const label&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return the face drag coefficient. </p>
-
-</div>
-</div>
-<a class="anchor" id="a1a2afa7246da74096f96d7680e926b23"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">tmp&lt;surfaceScalarField&gt; Kdf </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return the face drag coefficient. </p>
-
-</div>
-</div>
-<a class="anchor" id="a93afb2680285d685105e4edd229f3505"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">tmp&lt;volScalarField&gt; Vm </td>
-          <td>(</td>
-          <td class="paramtype">const label&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return the virtual mass coefficient. </p>
-
-</div>
-</div>
-<a class="anchor" id="ac516c0db42b8af6212002e052f361bea"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">tmp&lt;volScalarField&gt; Vm </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return the virtual mass coefficient. </p>
-
-</div>
-</div>
-<a class="anchor" id="a8ab92a7d875655abe3d7b1287b288f55"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">tmp&lt;surfaceScalarField&gt; Vmf </td>
-          <td>(</td>
-          <td class="paramtype">const label&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return the face virtual mass coefficient. </p>
-
-</div>
-</div>
-<a class="anchor" id="ae6451365674b77555bf191a02e2a3e2e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">tmp&lt;surfaceScalarField&gt; Vmf </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return the face virtual mass coefficient. </p>
-
-</div>
-</div>
-<a class="anchor" id="ae019770dec2616b45ac04705eeeb7fc0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">tmp&lt;volVectorField&gt; F </td>
-          <td>(</td>
-          <td class="paramtype">const label&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return the combined force (lift + wall-lubrication) </p>
-
-</div>
-</div>
-<a class="anchor" id="a994670250a2ccd1ac0c73bb9a02a404e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">tmp&lt;volVectorField&gt; F </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return the combined force (lift + wall-lubrication) </p>
-
-</div>
-</div>
-<a class="anchor" id="ae149cefcacc87d6bf5401c23eea7f65f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">tmp&lt;surfaceScalarField&gt; Ff </td>
-          <td>(</td>
-          <td class="paramtype">const label&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return the combined face-force (lift + wall-lubrication) </p>
-
-</div>
-</div>
-<a class="anchor" id="ab7690853988ed2296d58bfbf5e5c9e9b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">tmp&lt;surfaceScalarField&gt; Ff </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return the combined face-force (lift + wall-lubrication) </p>
-
-</div>
-</div>
-<a class="anchor" id="a407e1102f9a2a9306b93af737da99862"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">tmp&lt;volScalarField&gt; D </td>
-          <td>(</td>
-          <td class="paramtype">const label&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return the turbulent diffusivity. </p>
-<p>Multiplies the phase-fraction gradient </p>
-
-</div>
-</div>
-<a class="anchor" id="a8d1fc873e6391857383050bf9d60c8eb"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">tmp&lt;fvVectorMatrix&gt; divDevRhoReff1 </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return viscous stress matrix for phase 1. </p>
-<p>Either standard or B&amp;G based on bubble pressure </p>
-
-</div>
-</div>
-<a class="anchor" id="a5f1a3797019f72b2a3c720e83df6b91f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">tmp&lt;fvVectorMatrix&gt; divDevRhoReff2 </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return viscous stress matrix for phase 2. </p>
-<p>Either standard or B&amp;G based on bubble pressure </p>
-
-</div>
-</div>
-<a class="anchor" id="af7d39f0eac0af0ed5785935ac72a1e7d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void solve </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Solve for the two-phase-fractions. </p>
-
-</div>
-</div>
-<a class="anchor" id="a132d9471a477e405edccc8072f747673"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void averageTransport </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Solve average transport of moments. </p>
-
-</div>
-</div>
-<a class="anchor" id="a7ad2b66dfc25f442a9df3f8bccd4e681"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void relativeTransport </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Advect moments with deviation from mean flux. </p>
-
-</div>
-</div>
-<a class="anchor" id="a3ae44b28050c3aa494c1d8e18cf618c1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void correct </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Correct two-phase properties other than turbulence. </p>
-
-</div>
-</div>
-<a class="anchor" id="a894a3fecb5f9a994d803680e6ee51075"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void correctTurbulence </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Correct two-phase turbulence. </p>
-
-</div>
-</div>
-<a class="anchor" id="af816873151ddb0126e98bb2f914d8ed5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool read </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Read base phaseProperties dictionary. </p>
-
-</div>
-</div>
-<a class="anchor" id="aa735ba2c73cbe8644fea9091cf54518e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="a00034.html">dragModel</a>&amp; drag </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="a00129.html">phaseModel</a> &amp;&#160;</td>
-          <td class="paramname"><em>phase</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return the drag model for the given phase. </p>
-
-</div>
-</div>
-<a class="anchor" id="a6375042d7a49d0e06aae79f59d39ca92"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="a00178.html">virtualMassModel</a>&amp; virtualMass </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="a00129.html">phaseModel</a> &amp;&#160;</td>
-          <td class="paramname"><em>phase</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return the virtual mass model for the given phase. </p>
-
-</div>
-</div>
-<a class="anchor" id="aad928f838c64269ac9c89e92c2eb7d9c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const dimensionedScalar&amp; sigma </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return the surface tension coefficient. </p>
-
-</div>
-</div>
-<a class="anchor" id="a628df3d8f239d8393610d6310eb56ad1"></a>
+<a class="anchor" id="a4633605230a1db182bc866a94e66cc76"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -774,7 +425,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const Foam::fvMesh &amp; mesh </td>
+          <td class="memname">virtual label nNodes </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -782,18 +433,20 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Return the mesh. </p>
+<p>Return the number of nodes. </p>
 
-<p>Definition at line <a class="el" href="a00559_source.html#l00028">28</a> of file <a class="el" href="a00559_source.html">twoPhaseSystemI.H</a>.</p>
+<p>Reimplemented from <a class="el" href="a00170.html#a4633605230a1db182bc866a94e66cc76">phaseModel</a>.</p>
+
+<p>Definition at line <a class="el" href="a00583_source.html#l00159">159</a> of file <a class="el" href="a00583_source.html">pdPhaseModel.H</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aafa87466cebd9ebda4a09ea338673568"></a>
+<a class="anchor" id="a826bd2342fde6c38821a3746fba7c98c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -801,26 +454,29 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="a00129.html">Foam::phaseModel</a> &amp; phase1 </td>
+          <td class="memname">virtual const volScalarField&amp; alphas </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodei</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Return phase model 1. </p>
+<p>Return alpha field for nodei. </p>
 
-<p>Definition at line <a class="el" href="a00559_source.html#l00034">34</a> of file <a class="el" href="a00559_source.html">twoPhaseSystemI.H</a>.</p>
+<p>Reimplemented from <a class="el" href="a00170.html#a826bd2342fde6c38821a3746fba7c98c">phaseModel</a>.</p>
+
+<p>Definition at line <a class="el" href="a00583_source.html#l00165">165</a> of file <a class="el" href="a00583_source.html">pdPhaseModel.H</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aae2393c9a021227c42f0e5b557fd5539"></a>
+<a class="anchor" id="ab4263b72d31ab6b16f672ebdac11d34e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -828,26 +484,29 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00129.html">Foam::phaseModel</a> &amp; phase1 </td>
+          <td class="memname">virtual volScalarField&amp; alphas </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodei</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Return non-const access to phase model 1. </p>
+<p>Return non-constant access to alpha field for nodei. </p>
 
-<p>Definition at line <a class="el" href="a00559_source.html#l00040">40</a> of file <a class="el" href="a00559_source.html">twoPhaseSystemI.H</a>.</p>
+<p>Reimplemented from <a class="el" href="a00170.html#ab4263b72d31ab6b16f672ebdac11d34e">phaseModel</a>.</p>
+
+<p>Definition at line <a class="el" href="a00583_source.html#l00171">171</a> of file <a class="el" href="a00583_source.html">pdPhaseModel.H</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ace6dda1224b634f41045415a3ba6089d"></a>
+<a class="anchor" id="a69d1f0a659f83d6d9908d63c9e117801"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -855,26 +514,29 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="a00129.html">Foam::phaseModel</a> &amp; phase2 </td>
+          <td class="memname">virtual const volScalarField&amp; ds </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodei</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Return phase model 2. </p>
+<p>Return the diameter for nodei. </p>
 
-<p>Definition at line <a class="el" href="a00559_source.html#l00046">46</a> of file <a class="el" href="a00559_source.html">twoPhaseSystemI.H</a>.</p>
+<p>Reimplemented from <a class="el" href="a00170.html#a69d1f0a659f83d6d9908d63c9e117801">phaseModel</a>.</p>
+
+<p>Definition at line <a class="el" href="a00583_source.html#l00177">177</a> of file <a class="el" href="a00583_source.html">pdPhaseModel.H</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a28e5bc97bd0ce70b75636a70bd141c06"></a>
+<a class="anchor" id="a4955544d9a2bf4b40aadecc03d76717f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -882,38 +544,103 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00129.html">Foam::phaseModel</a> &amp; phase2 </td>
+          <td class="memname">virtual const volVectorField&amp; Us </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodei</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the velocity for nodei. </p>
+
+<p>Reimplemented from <a class="el" href="a00170.html#a4955544d9a2bf4b40aadecc03d76717f">phaseModel</a>.</p>
+
+<p>Definition at line <a class="el" href="a00583_source.html#l00183">183</a> of file <a class="el" href="a00583_source.html">pdPhaseModel.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a84e13a2ef3cff4ca530bc85559d4e1ef"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual volVectorField&amp; Us </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodei</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Return non-const access to phase model 2. </p>
+<p>Return non-const access to the velocity for nodei. </p>
 
-<p>Definition at line <a class="el" href="a00559_source.html#l00052">52</a> of file <a class="el" href="a00559_source.html">twoPhaseSystemI.H</a>.</p>
+<p>Reimplemented from <a class="el" href="a00170.html#a84e13a2ef3cff4ca530bc85559d4e1ef">phaseModel</a>.</p>
 
-<p>References <a class="el" href="a00559_source.html#l00059">twoPhaseSystem::otherPhase()</a>.</p>
+<p>Definition at line <a class="el" href="a00583_source.html#l00189">189</a> of file <a class="el" href="a00583_source.html">pdPhaseModel.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aeb2c18aec76e4c667cf5185caa8e1c13"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual tmp&lt;volVectorField&gt; Vs </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodei</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return deviation velocity for nodei. </p>
+
+<p>Reimplemented from <a class="el" href="a00170.html#aeb2c18aec76e4c667cf5185caa8e1c13">phaseModel</a>.</p>
+
+<p>Definition at line <a class="el" href="a00583_source.html#l00195">195</a> of file <a class="el" href="a00583_source.html">pdPhaseModel.H</a>.</p>
+
+<p>References <a class="el" href="a00166.html#a05a00dd35d1744a056754b601c117136">pdPhaseModel::averageTransport()</a>, <a class="el" href="a00166.html#aa40b482ba81fd8de31bdba348c184074">pdPhaseModel::correct()</a>, and <a class="el" href="a00166.html#a98b8459f24c250f47616cdc5ce2f708f">pdPhaseModel::relativeTransport()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00166_a28e5bc97bd0ce70b75636a70bd141c06_cgraph.png" border="0" usemap="#a00166_a28e5bc97bd0ce70b75636a70bd141c06_cgraph" alt=""/></div>
-<map name="a00166_a28e5bc97bd0ce70b75636a70bd141c06_cgraph" id="a00166_a28e5bc97bd0ce70b75636a70bd141c06_cgraph">
-<area shape="rect" id="node2" href="a00166.html#a7a66222af4865209cd410d77cd196fe6" title="Return the phase not given as an argument. " alt="" coords="120,5,211,32"/>
+<div class="center"><img src="a00166_aeb2c18aec76e4c667cf5185caa8e1c13_cgraph.png" border="0" usemap="#a00166_aeb2c18aec76e4c667cf5185caa8e1c13_cgraph" alt=""/></div>
+<map name="a00166_aeb2c18aec76e4c667cf5185caa8e1c13_cgraph" id="a00166_aeb2c18aec76e4c667cf5185caa8e1c13_cgraph">
+<area shape="rect" id="node2" href="a00166.html#a05a00dd35d1744a056754b601c117136" title="Average transport of moments. " alt="" coords="92,5,223,32"/>
+<area shape="rect" id="node3" href="a00166.html#aa40b482ba81fd8de31bdba348c184074" title="Correct the phase properties. " alt="" coords="126,56,189,83"/>
+<area shape="rect" id="node4" href="a00166.html#a98b8459f24c250f47616cdc5ce2f708f" title="Relative transport of moments. " alt="" coords="95,107,219,133"/>
 </map>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a7a66222af4865209cd410d77cd196fe6"></a>
+<a class="anchor" id="aa40b482ba81fd8de31bdba348c184074"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -921,39 +648,38 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="a00129.html">Foam::phaseModel</a> &amp; otherPhase </td>
+          <td class="memname">virtual void correct </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="a00129.html">phaseModel</a> &amp;&#160;</td>
-          <td class="paramname"><em>phase</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Return the phase not given as an argument. </p>
+<p>Correct the phase properties. </p>
 
-<p>Definition at line <a class="el" href="a00559_source.html#l00059">59</a> of file <a class="el" href="a00559_source.html">twoPhaseSystemI.H</a>.</p>
+<p>Reimplemented from <a class="el" href="a00170.html#aa40b482ba81fd8de31bdba348c184074">phaseModel</a>.</p>
 
-<p>Referenced by <a class="el" href="a00559_source.html#l00052">twoPhaseSystem::phase2()</a>.</p>
+<p>Referenced by <a class="el" href="a00583_source.html#l00195">pdPhaseModel::Vs()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00166_a7a66222af4865209cd410d77cd196fe6_icgraph.png" border="0" usemap="#a00166_a7a66222af4865209cd410d77cd196fe6_icgraph" alt=""/></div>
-<map name="a00166_a7a66222af4865209cd410d77cd196fe6_icgraph" id="a00166_a7a66222af4865209cd410d77cd196fe6_icgraph">
-<area shape="rect" id="node2" href="a00166.html#a28e5bc97bd0ce70b75636a70bd141c06" title="Return non&#45;const access to phase model 2. " alt="" coords="144,5,211,32"/>
+<div class="center"><img src="a00166_aa40b482ba81fd8de31bdba348c184074_icgraph.png" border="0" usemap="#a00166_aa40b482ba81fd8de31bdba348c184074_icgraph" alt=""/></div>
+<map name="a00166_aa40b482ba81fd8de31bdba348c184074_icgraph" id="a00166_aa40b482ba81fd8de31bdba348c184074_icgraph">
+<area shape="rect" id="node2" href="a00166.html#aeb2c18aec76e4c667cf5185caa8e1c13" title="Return deviation velocity for nodei. " alt="" coords="116,5,155,32"/>
 </map>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a445e7dcdb6ef86dc28308939486c49a9"></a>
+<a class="anchor" id="a98b8459f24c250f47616cdc5ce2f708f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -961,34 +687,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const Foam::surfaceScalarField &amp; phi </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return the mixture flux. </p>
-
-<p>Definition at line <a class="el" href="a00559_source.html#l00074">74</a> of file <a class="el" href="a00559_source.html">twoPhaseSystemI.H</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a7ccfa750ea7a0623efe7790b5cfc955d"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Foam::surfaceScalarField &amp; phi </td>
+          <td class="memname">virtual void relativeTransport </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -996,18 +695,30 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Return non-const access to the the mixture flux. </p>
+<p>Relative transport of moments. </p>
 
-<p>Definition at line <a class="el" href="a00559_source.html#l00080">80</a> of file <a class="el" href="a00559_source.html">twoPhaseSystemI.H</a>.</p>
+<p>Reimplemented from <a class="el" href="a00170.html#a98b8459f24c250f47616cdc5ce2f708f">phaseModel</a>.</p>
+
+<p>Referenced by <a class="el" href="a00583_source.html#l00195">pdPhaseModel::Vs()</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00166_a98b8459f24c250f47616cdc5ce2f708f_icgraph.png" border="0" usemap="#a00166_a98b8459f24c250f47616cdc5ce2f708f_icgraph" alt=""/></div>
+<map name="a00166_a98b8459f24c250f47616cdc5ce2f708f_icgraph" id="a00166_a98b8459f24c250f47616cdc5ce2f708f_icgraph">
+<area shape="rect" id="node2" href="a00166.html#aeb2c18aec76e4c667cf5185caa8e1c13" title="Return deviation velocity for nodei. " alt="" coords="177,5,216,32"/>
+</map>
+</div>
+</p>
 
 </div>
 </div>
-<a class="anchor" id="a0289a01379f7ea2a41c119071d375bef"></a>
+<a class="anchor" id="a05a00dd35d1744a056754b601c117136"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1015,89 +726,47 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const Foam::volScalarField &amp; dgdt </td>
+          <td class="memname">virtual void averageTransport </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return the dilatation term. </p>
-
-<p>Definition at line <a class="el" href="a00559_source.html#l00086">86</a> of file <a class="el" href="a00559_source.html">twoPhaseSystemI.H</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="acd8c71f42e894434170427a613ea4a06"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Foam::volScalarField &amp; dgdt </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const PtrList&lt; fvVectorMatrix &gt; &amp;&#160;</td>
+          <td class="paramname"><em>AEqns</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Return non-const access to the dilatation parameter. </p>
+<p>Average transport of moments. </p>
 
-<p>Definition at line <a class="el" href="a00559_source.html#l00092">92</a> of file <a class="el" href="a00559_source.html">twoPhaseSystemI.H</a>.</p>
+<p>Reimplemented from <a class="el" href="a00170.html#a05a00dd35d1744a056754b601c117136">phaseModel</a>.</p>
+
+<p>Referenced by <a class="el" href="a00583_source.html#l00195">pdPhaseModel::Vs()</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00166_a05a00dd35d1744a056754b601c117136_icgraph.png" border="0" usemap="#a00166_a05a00dd35d1744a056754b601c117136_icgraph" alt=""/></div>
+<map name="a00166_a05a00dd35d1744a056754b601c117136_icgraph" id="a00166_a05a00dd35d1744a056754b601c117136_icgraph">
+<area shape="rect" id="node2" href="a00166.html#aeb2c18aec76e4c667cf5185caa8e1c13" title="Return deviation velocity for nodei. " alt="" coords="184,5,223,32"/>
+</map>
+</div>
+</p>
 
 </div>
 </div>
-<a class="anchor" id="a7890c3eaebf550c6caf7706678ca2199"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Foam::tmp&lt; Foam::surfaceScalarField &gt; &amp; pPrimeByA </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return non-const access to the dispersion diffusivity. </p>
-
-<p>Definition at line <a class="el" href="a00559_source.html#l00098">98</a> of file <a class="el" href="a00559_source.html">twoPhaseSystemI.H</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="a00558_source.html">twoPhaseSystem.H</a></li>
-<li><a class="el" href="a00559_source.html">twoPhaseSystemI.H</a></li>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="a00583_source.html">pdPhaseModel.H</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00605.html">Foam</a></li><li class="navelem"><a class="el" href="a00166.html">twoPhaseSystem</a></li>
+    <li class="navelem"><a class="el" href="a00723.html">Foam</a></li><li class="navelem"><a class="el" href="a00166.html">pdPhaseModel</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

@@ -1,18 +1,10 @@
 var a00101 =
 [
-    [ "monoKineticQuadratureApproximation", "a00101.html#adaec91d5eba8cbd1753c60ccdfd995bf", null ],
-    [ "~monoKineticQuadratureApproximation", "a00101.html#a96a9798a7bc99c1c09c291c8c0ada9ab", null ],
-    [ "velocities", "a00101.html#a864bffa5be328d9e1f850b264d2de11e", null ],
-    [ "velocities", "a00101.html#a4f0ea905128215dbf8e3e89a2c1a1921", null ],
-    [ "velocityMoments", "a00101.html#accd88777c6713a815b37b797f615e477", null ],
-    [ "velocityMoments", "a00101.html#a378f092fd2b31a01fa44c19e211ca883", null ],
-    [ "nodesOwn", "a00101.html#aed39d8c979af39431a75e73107a80e81", null ],
-    [ "velocitiesOwn", "a00101.html#a1ef4d41e6d03d5205a77b103a69731e3", null ],
-    [ "nodesNei", "a00101.html#a173823a263ae34208a1e9c256037d74a", null ],
-    [ "velocitiesNei", "a00101.html#a3618a59bf5c498c7951168fa8a329c37", null ],
-    [ "interpolateNodes", "a00101.html#aee1fc78125838d352f1209c771319fe7", null ],
-    [ "updateBoundaryVelocities", "a00101.html#aa539aa2c2d5c6521a45ef8a8c7aff7ee", null ],
-    [ "updateAllQuadrature", "a00101.html#a3cf9b5640abcb3467999886d9cdb0633", null ],
-    [ "updateVelocities", "a00101.html#ae605ec130ded2b61f6b78d19af264a54", null ],
-    [ "updateAllMoments", "a00101.html#abdcac0b11d8065805cb7abfc5dee64d0", null ]
+    [ "JohnsonJacksonSchaeffer", "a00101.html#a00b7ef071ba9887dfd03409ab651af01", null ],
+    [ "~JohnsonJacksonSchaeffer", "a00101.html#a6b3e0a63ccb76de652e667f189df185f", null ],
+    [ "TypeName", "a00101.html#ab83eda930b6195a385f23bec86134a83", null ],
+    [ "frictionalPressure", "a00101.html#a2fc1dda5901ee9cb4c70a6ba2301884b", null ],
+    [ "frictionalPressurePrime", "a00101.html#adfefae1dab0fb12943207676bf26dce8", null ],
+    [ "nu", "a00101.html#ae429d57404660fbf93f53dbcd90c9e49", null ],
+    [ "read", "a00101.html#abcf7aafd601a940195284bc91610bb08", null ]
 ];

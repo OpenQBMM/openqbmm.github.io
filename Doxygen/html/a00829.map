@@ -1,4 +1,3 @@
-<map id="moments.H" name="moments.H">
-<area shape="rect" id="node2" href="$a00384.html" title="momentFieldSets.H" alt="" coords="5,80,144,107"/>
-<area shape="rect" id="node3" href="$a00464.html" title="nucleationModel.H" alt="" coords="168,80,301,107"/>
+<map id="cosineWallDamping.H" name="cosineWallDamping.H">
+<area shape="rect" id="node2" href="$a00417.html" title="interpolatedWallDamping.H" alt="" coords="5,80,191,107"/>
 </map>

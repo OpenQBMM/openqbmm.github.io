@@ -1,9 +1,7 @@
 var a00007 =
 [
-    [ "basicFieldMomentInversion", "a00007.html#a520ff2f8fe8c29d2c448ecf910df1f99", null ],
-    [ "~basicFieldMomentInversion", "a00007.html#a4c8055bf05bb6465ec815251cdfa03e7", null ],
-    [ "TypeName", "a00007.html#a16c7e2969d7f2346945d833b832e6aab", null ],
-    [ "invert", "a00007.html#a81fbc0b024ab994e1e665273b7b7268b", null ],
-    [ "invertBoundaryMoments", "a00007.html#a0db254ceb34e9343bebd658750f9312d", null ],
-    [ "invertLocalMoments", "a00007.html#ae61ce7f3d511855a1d0eaf25c94d648f", null ]
+    [ "alphaG0", "a00007.html#ad9f1599f12d9006c040bc05d33f50062", null ],
+    [ "~alphaG0", "a00007.html#a9efa054f846d2c39295d277eb06544ab", null ],
+    [ "TypeName", "a00007.html#a4dea7165098dcd24bbd90907ea7699f5", null ],
+    [ "h2", "a00007.html#ac36b247d7da07da34423d5dfc49e3445", null ]
 ];

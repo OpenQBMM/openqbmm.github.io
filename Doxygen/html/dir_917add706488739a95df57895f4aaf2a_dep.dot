@@ -1,0 +1,36 @@
+digraph "interfacialModels" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d62a5a20700de1cb9696e405d497a576 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="multiphase" fontname="Helvetica", fontsize="10", URL="dir_d62a5a20700de1cb9696e405d497a576.html"]
+  subgraph clusterdir_917add706488739a95df57895f4aaf2a {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_917add706488739a95df57895f4aaf2a.html"];
+    dir_917add706488739a95df57895f4aaf2a [shape=plaintext label="interfacialModels"];
+    dir_d77a3a16c57a899218254e614255aa0e [shape=box label="aspectRatioModels" color="red" fillcolor="white" style="filled" URL="dir_d77a3a16c57a899218254e614255aa0e.html"];
+    dir_952f9f80929efeaf23762bf78683e6ea [shape=box label="bubbleBreakupKernels" color="red" fillcolor="white" style="filled" URL="dir_952f9f80929efeaf23762bf78683e6ea.html"];
+    dir_61be596afa92d8a6a4a34eb17d1eb2b5 [shape=box label="bubblePressureModels" color="red" fillcolor="white" style="filled" URL="dir_61be596afa92d8a6a4a34eb17d1eb2b5.html"];
+    dir_8f2ae065d706742e7732d935e797e22a [shape=box label="coalescenceKernels" color="red" fillcolor="white" style="filled" URL="dir_8f2ae065d706742e7732d935e797e22a.html"];
+    dir_76c0c6ee4b0db6234558cc7fbc8db804 [shape=box label="dragModels" color="red" fillcolor="white" style="filled" URL="dir_76c0c6ee4b0db6234558cc7fbc8db804.html"];
+    dir_c67964259d33ee0cfbe5ccad3f7aacf0 [shape=box label="liftModels" color="red" fillcolor="white" style="filled" URL="dir_c67964259d33ee0cfbe5ccad3f7aacf0.html"];
+    dir_7e0c7d78b8e775e845dc247ec7879659 [shape=box label="swarmCorrections" color="red" fillcolor="white" style="filled" URL="dir_7e0c7d78b8e775e845dc247ec7879659.html"];
+    dir_de66bb30071d3449be58c3a263cb76d1 [shape=box label="turbulentDispersionModels" color="red" fillcolor="white" style="filled" URL="dir_de66bb30071d3449be58c3a263cb76d1.html"];
+    dir_77e6d190c0f90647ad709ff98b045afa [shape=box label="virtualMassModels" color="red" fillcolor="white" style="filled" URL="dir_77e6d190c0f90647ad709ff98b045afa.html"];
+    dir_ab66132706275a20f5d6864ebac89afc [shape=box label="wallDampingModels" color="red" fillcolor="white" style="filled" URL="dir_ab66132706275a20f5d6864ebac89afc.html"];
+    dir_453f6145badb054e5a051d04728bcee2 [shape=box label="wallDependentModel" color="black" fillcolor="white" style="filled" URL="dir_453f6145badb054e5a051d04728bcee2.html"];
+    dir_f6facab77b545559b99f7d6f9eea70dc [shape=box label="wallLubricationModels" color="red" fillcolor="white" style="filled" URL="dir_f6facab77b545559b99f7d6f9eea70dc.html"];
+  }
+  }
+  dir_c8dd8d838525102dfd397a50c2714810 [shape=box label="twoPhaseSystem" color="red" URL="dir_c8dd8d838525102dfd397a50c2714810.html"];
+  dir_c67964259d33ee0cfbe5ccad3f7aacf0->dir_ab66132706275a20f5d6864ebac89afc [headlabel="1", labeldistance=1.5 headhref="dir_000068_000074.html"];
+  dir_c8dd8d838525102dfd397a50c2714810->dir_76c0c6ee4b0db6234558cc7fbc8db804 [headlabel="1", labeldistance=1.5 headhref="dir_000038_000093.html"];
+  dir_c8dd8d838525102dfd397a50c2714810->dir_8f2ae065d706742e7732d935e797e22a [headlabel="1", labeldistance=1.5 headhref="dir_000038_000052.html"];
+  dir_c8dd8d838525102dfd397a50c2714810->dir_952f9f80929efeaf23762bf78683e6ea [headlabel="1", labeldistance=1.5 headhref="dir_000038_000015.html"];
+  dir_d77a3a16c57a899218254e614255aa0e->dir_453f6145badb054e5a051d04728bcee2 [headlabel="1", labeldistance=1.5 headhref="dir_000026_000249.html"];
+  dir_f6facab77b545559b99f7d6f9eea70dc->dir_453f6145badb054e5a051d04728bcee2 [headlabel="1", labeldistance=1.5 headhref="dir_000024_000249.html"];
+  dir_8f2ae065d706742e7732d935e797e22a->dir_c8dd8d838525102dfd397a50c2714810 [headlabel="14", labeldistance=1.5 headhref="dir_000052_000038.html"];
+  dir_61be596afa92d8a6a4a34eb17d1eb2b5->dir_453f6145badb054e5a051d04728bcee2 [headlabel="1", labeldistance=1.5 headhref="dir_000032_000249.html"];
+  dir_ab66132706275a20f5d6864ebac89afc->dir_453f6145badb054e5a051d04728bcee2 [headlabel="1", labeldistance=1.5 headhref="dir_000074_000249.html"];
+  dir_952f9f80929efeaf23762bf78683e6ea->dir_c8dd8d838525102dfd397a50c2714810 [headlabel="2", labeldistance=1.5 headhref="dir_000015_000038.html"];
+}

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>pbeFoam.C File Reference</title>
+<title>My Project: molecularDiffusion.C File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,9 +31,12 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
-    <td style="padding-left: 0.5em;">
-    <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
-    </td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   &#160;<span id="projectnumber">-dev</span>
+   </div>
+   <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
+  </td>
  </tr>
  </tbody>
 </table>
@@ -103,30 +106,50 @@ $(document).ready(function(){initNavTree('a00472.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">pbeFoam.C File Reference</div>  </div>
+<div class="title">mixingModels/mixingSubModels/diffusionModels/molecularDiffusion/molecularDiffusion.C File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Solver for population balance problems.  
-<a href="#details">More...</a></p>
-
+<div class="textblock"><div class="dynheader">
+Include dependency graph for mixingModels/mixingSubModels/diffusionModels/molecularDiffusion/molecularDiffusion.C:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00969.png" border="0" usemap="#molecularDiffusion_8C" alt=""/></div>
+<map name="molecularDiffusion_8C" id="molecularDiffusion_8C">
+<area shape="rect" id="node2" href="a00474.html" title="molecularDiffusion.H" alt="" coords="5,80,149,107"/>
+</map>
+</div>
+</div>
 <p><a href="a00472_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:a00723"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00723.html">Foam</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00742"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00742.html">Foam::mixingSubModels</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00743"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00743.html">Foam::mixingSubModels::diffusionModels</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ae282d355e8bb81dcd60d4c2778f12ba5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00743.html#ae282d355e8bb81dcd60d4c2778f12ba5">defineTypeNameAndDebug</a> (molecularDiffusion, 0)</td></tr>
+<tr class="separator:ae282d355e8bb81dcd60d4c2778f12ba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a024bbc4b37f0b86ec4a0715a76d74ebc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00743.html#a024bbc4b37f0b86ec4a0715a76d74ebc">addToRunTimeSelectionTable</a> (diffusionModel, molecularDiffusion, dictionary)</td></tr>
+<tr class="separator:a024bbc4b37f0b86ec4a0715a76d74ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Solver for population balance problems. </p>
-<p><b>Original source file</b> <a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/pbeFoam/pbeFoam.C">pbeFoam.C</a></p>
-<p><a class="anchor" id="Description"></a>- designed for use on single cell cases to validate kernels</p><ul>
-<li>single cell mesh created on-the-fly</li>
-<li>fields created on the fly from the initial conditions </li>
-</ul>
+<div class="textblock"><p><b>Original source file</b> <a href="/home/alberto/Desktop/OpenQBMM-Test/OpenQBMM/src/quadratureMethods/mixingModels/mixingSubModels/diffusionModels/molecularDiffusion/molecularDiffusion.C">molecularDiffusion.C</a> </p>
 
-<p>Definition in file <a class="el" href="a00472_source.html">pbeFoam.C</a>.</p>
+<p>Definition in file <a class="el" href="a00472_source.html">mixingModels/mixingSubModels/diffusionModels/molecularDiffusion/molecularDiffusion.C</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html">applications</a></li><li class="navelem"><a class="el" href="dir_fdd174abb8ada244b49e98779c87ac3c.html">solvers</a></li><li class="navelem"><a class="el" href="dir_74f6d3f7ad03918913a31b65bbfab520.html">pbeFoam</a></li><li class="navelem"><a class="el" href="a00472.html">pbeFoam.C</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_e33c4094dda42b63bf42ed0cf06ff677.html">mixingModels</a></li><li class="navelem"><a class="el" href="dir_2e6d34bda531f0fb841bc3aac1e0e585.html">mixingSubModels</a></li><li class="navelem"><a class="el" href="dir_d6772ea9513def0e0f2211126e6f45d9.html">diffusionModels</a></li><li class="navelem"><a class="el" href="dir_40520971e612dc6939e1d1fa12839d84.html">molecularDiffusion</a></li><li class="navelem"><a class="el" href="a00472.html">molecularDiffusion.C</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

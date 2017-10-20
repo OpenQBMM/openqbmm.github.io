@@ -1,0 +1,12 @@
+digraph "Antal" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_f6facab77b545559b99f7d6f9eea70dc {
+    graph [ bgcolor="#ddddee", pencolor="black", label="wallLubricationModels" fontname="Helvetica", fontsize="10", URL="dir_f6facab77b545559b99f7d6f9eea70dc.html"]
+  dir_53f2546f8d23488708b3fbe9cc136e46 [shape=box, label="Antal", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_53f2546f8d23488708b3fbe9cc136e46.html"];
+  }
+  dir_d2c4297a17e0ba8e674954ad6ef4c0bb [shape=box label="wallLubricationModel" URL="dir_d2c4297a17e0ba8e674954ad6ef4c0bb.html"];
+  dir_53f2546f8d23488708b3fbe9cc136e46->dir_d2c4297a17e0ba8e674954ad6ef4c0bb [headlabel="1", labeldistance=1.5 headhref="dir_000025_000184.html"];
+}

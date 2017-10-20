@@ -1,6 +1,5 @@
 var a00607 =
 [
-    [ "hyperbolic", "a00063.html", "a00063" ],
-    [ "linear", "a00081.html", "a00081" ],
-    [ "noBlending", "a00105.html", "a00105" ]
+    [ "defineTypeNameAndDebug", "a00607.html#a8b60ada41289ba4c36eedcf1dca754ac", null ],
+    [ "addToRunTimeSelectionTable", "a00607.html#aeff8d67156c89fed6ad177f01cb8321e", null ]
 ];

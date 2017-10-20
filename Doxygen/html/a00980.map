@@ -1,10 +1,4 @@
-<map id="univariateMomentSet.H" name="univariateMomentSet.H">
-<area shape="rect" id="node2" href="$a00201.html" title="basicFieldMomentInversion.H" alt="" coords="357,155,555,181"/>
-<area shape="rect" id="node3" href="$a00280.html" title="extendedFieldMomentInversion.H" alt="" coords="209,229,431,256"/>
-<area shape="rect" id="node4" href="$a00284.html" title="fieldMomentInversion.H" alt="" coords="239,80,401,107"/>
-<area shape="rect" id="node5" href="$a00394.html" title="monoKineticQuadratureApproximation.H" alt="" coords="23,155,283,181"/>
-<area shape="rect" id="node6" href="$a00222.html" title="conditionalMomentInversion.H" alt="" coords="579,155,781,181"/>
-<area shape="rect" id="node7" href="$a00568.html" title="univariateMomentInversion.H" alt="" coords="476,80,671,107"/>
-<area shape="rect" id="node8" href="$a00282.html" title="extendedMomentInversion.H" alt="" coords="805,155,998,181"/>
-<area shape="rect" id="node9" href="$a00570.html" title="univariateMomentSet.C" alt="" coords="797,80,958,107"/>
+<map id="momentFieldSet.H" name="momentFieldSet.H">
+<area shape="rect" id="node2" href="$a00478.html" title="momentFieldSet.C" alt="" coords="5,80,139,107"/>
+<area shape="rect" id="node3" href="$a00481.html" title="momentFieldSets.H" alt="" coords="163,80,301,107"/>
 </map>

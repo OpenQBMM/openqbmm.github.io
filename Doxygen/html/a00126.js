@@ -1,7 +1,12 @@
 var a00126 =
 [
-    [ "PDFTransportModel", "a00126.html#a7a484ccf0035787e3f0694401128817a", null ],
-    [ "~PDFTransportModel", "a00126.html#aa73779ffb5b8359a6463d7c93864fee6", null ],
-    [ "solve", "a00126.html#aacd6f92a174ec1ebe14983fc21ec498c", null ],
-    [ "mesh_", "a00126.html#a23edeeeecebcef11921a33dd5d990570", null ]
+    [ "mixingKernel", "a00126.html#aaca5d9c330f9d405dbba4c0a005e67b2", null ],
+    [ "~mixingKernel", "a00126.html#a8187a8529b4c0530e7d8b8e65f567ae2", null ],
+    [ "TypeName", "a00126.html#a3b42ca04bac2225aebf334ca0d1930d3", null ],
+    [ "declareRunTimeSelectionTable", "a00126.html#aae2fd47362b83e744693764fac06c525", null ],
+    [ "New", "a00126.html#add8b3288d1baf0dccf98ad50e9c1a689", null ],
+    [ "K", "a00126.html#a6ab81f0139b713a05fb0ebe91fc54ed5", null ],
+    [ "dict_", "a00126.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a", null ],
+    [ "Cphi_", "a00126.html#a88b4336f953c90f0d28a80db8fa28857", null ],
+    [ "Cmixing_", "a00126.html#a1807597980604a41ccdbd2b34f9f4479", null ]
 ];

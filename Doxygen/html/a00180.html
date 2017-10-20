@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>viscosityModel Class Reference</title>
+<title>My Project: quadratureApproximation&lt; momentFieldSetType, nodeType &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,9 +31,12 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
-    <td style="padding-left: 0.5em;">
-    <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
-    </td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   &#160;<span id="projectnumber">-dev</span>
+   </div>
+   <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
+  </td>
  </tr>
  </tbody>
 </table>
@@ -107,76 +110,182 @@ $(document).ready(function(){initNavTree('a00180.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="a01225.html">List of all members</a>  </div>
+<a href="a01290.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">viscosityModel Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">quadratureApproximation&lt; momentFieldSetType, nodeType &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Provides storage for the moments and the corresponding quadrature approximation of a univariate distribution function. Methods to update the moments and the quadrature approximation are provided.  
+ <a href="a00180.html#details">More...</a></p>
 <div class="dynheader">
-Inheritance diagram for viscosityModel:</div>
+Inheritance diagram for quadratureApproximation&lt; momentFieldSetType, nodeType &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="a01226.png" border="0" usemap="#viscosityModel_inherit__map" alt="Inheritance graph"/></div>
-<map name="viscosityModel_inherit__map" id="viscosityModel_inherit__map">
-<area shape="rect" id="node2" href="a00113.html" title="noneViscosity" alt="" coords="5,80,112,107"/>
-<area shape="rect" id="node3" href="a00053.html" title="Gidaspow" alt="" coords="137,80,221,107"/>
-<area shape="rect" id="node4" href="a00061.html" title="HrenyaSinclair" alt="" coords="245,80,355,107"/>
-<area shape="rect" id="node5" href="a00148.html" title="Syamlal" alt="" coords="379,80,450,107"/>
+<div class="center"><img src="a01291.png" border="0" usemap="#quadratureApproximation_3_01momentFieldSetType_00_01nodeType_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="quadratureApproximation_3_01momentFieldSetType_00_01nodeType_01_4_inherit__map" id="quadratureApproximation_3_01momentFieldSetType_00_01nodeType_01_4_inherit__map">
+<area shape="rect" id="node3" href="a00180.html" title="quadratureApproximation\l\&lt; volUnivariateMomentFieldSet,\l volScalarNode \&gt;" alt="" coords="5,215,220,271"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for quadratureApproximation&lt; momentFieldSetType, nodeType &gt;:</div>
+<div class="dyncontent">
+<div class="center"><img src="a01292.png" border="0" usemap="#quadratureApproximation_3_01momentFieldSetType_00_01nodeType_01_4_coll__map" alt="Collaboration graph"/></div>
+<map name="quadratureApproximation_3_01momentFieldSetType_00_01nodeType_01_4_coll__map" id="quadratureApproximation_3_01momentFieldSetType_00_01nodeType_01_4_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac0e08eba1e7a69731b23fbe94d2d9aa7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#ac0e08eba1e7a69731b23fbe94d2d9aa7">TypeName</a> (&quot;viscosityModel&quot;)</td></tr>
-<tr class="memdesc:ac0e08eba1e7a69731b23fbe94d2d9aa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#ac0e08eba1e7a69731b23fbe94d2d9aa7">More...</a><br /></td></tr>
-<tr class="separator:ac0e08eba1e7a69731b23fbe94d2d9aa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50922703861a77b97ff4ae6f38c8d833"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#a50922703861a77b97ff4ae6f38c8d833">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00180.html">viscosityModel</a>, dictionary,(                                       const dictionary &amp;dict                       ),(dict))</td></tr>
-<tr class="separator:a50922703861a77b97ff4ae6f38c8d833"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67b2e2df07af44cb61c2c8c7eafeb52b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#a67b2e2df07af44cb61c2c8c7eafeb52b">viscosityModel</a> (const dictionary &amp;dict)</td></tr>
-<tr class="memdesc:a67b2e2df07af44cb61c2c8c7eafeb52b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#a67b2e2df07af44cb61c2c8c7eafeb52b">More...</a><br /></td></tr>
-<tr class="separator:a67b2e2df07af44cb61c2c8c7eafeb52b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3453f72f3e991f44922b1ccffde8c22"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#aa3453f72f3e991f44922b1ccffde8c22">~viscosityModel</a> ()</td></tr>
-<tr class="memdesc:aa3453f72f3e991f44922b1ccffde8c22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#aa3453f72f3e991f44922b1ccffde8c22">More...</a><br /></td></tr>
-<tr class="separator:aa3453f72f3e991f44922b1ccffde8c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4b2bbc5d39ce41944a74db5003448d6"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#ab4b2bbc5d39ce41944a74db5003448d6">nu</a> (const volScalarField &amp;alpha1, const volScalarField &amp;Theta, const volScalarField &amp;g0, const volScalarField &amp;<a class="el" href="a00249.html#af72fd2ce0bf948096cadebf34827046a">rho1</a>, const volScalarField &amp;da, const dimensionedScalar &amp;e) const  =0</td></tr>
-<tr class="separator:ab4b2bbc5d39ce41944a74db5003448d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcf7aafd601a940195284bc91610bb08"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#abcf7aafd601a940195284bc91610bb08">read</a> ()</td></tr>
-<tr class="separator:abcf7aafd601a940195284bc91610bb08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36e6d3192d1872bbc6b0cffd5872d86f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#a36e6d3192d1872bbc6b0cffd5872d86f">quadratureApproximation</a> (const word &amp;<a class="el" href="a00180.html#a2456166dce07bb1aa57f90fba72ba551">name</a>, const fvMesh &amp;mesh, const word &amp;support, const label <a class="el" href="a00180.html#ae4410b8afdbd8d2d0aef13f1944201a3">nDimensions</a>)</td></tr>
+<tr class="memdesc:a36e6d3192d1872bbc6b0cffd5872d86f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from mesh.  <a href="#a36e6d3192d1872bbc6b0cffd5872d86f">More...</a><br /></td></tr>
+<tr class="separator:a36e6d3192d1872bbc6b0cffd5872d86f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb1b16ba7fd2128342b886ba9fce7537"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#adb1b16ba7fd2128342b886ba9fce7537">~quadratureApproximation</a> ()</td></tr>
+<tr class="memdesc:adb1b16ba7fd2128342b886ba9fce7537"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#adb1b16ba7fd2128342b886ba9fce7537">More...</a><br /></td></tr>
+<tr class="separator:adb1b16ba7fd2128342b886ba9fce7537"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2456166dce07bb1aa57f90fba72ba551"><td class="memItemLeft" align="right" valign="top">const word&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#a2456166dce07bb1aa57f90fba72ba551">name</a> () const </td></tr>
+<tr class="memdesc:a2456166dce07bb1aa57f90fba72ba551"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return name.  <a href="#a2456166dce07bb1aa57f90fba72ba551">More...</a><br /></td></tr>
+<tr class="separator:a2456166dce07bb1aa57f90fba72ba551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab35707f48144b6e8c377d530fda6958e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00066.html">fieldMomentInversion</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#ab35707f48144b6e8c377d530fda6958e">momentFieldInverter</a> ()</td></tr>
+<tr class="memdesc:ab35707f48144b6e8c377d530fda6958e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extended moment inversion method.  <a href="#ab35707f48144b6e8c377d530fda6958e">More...</a><br /></td></tr>
+<tr class="separator:ab35707f48144b6e8c377d530fda6958e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91c350105601a2749fccc0b46064c670"><td class="memItemLeft" align="right" valign="top">const PtrList&lt; nodeType &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#a91c350105601a2749fccc0b46064c670">nodes</a> () const </td></tr>
+<tr class="memdesc:a91c350105601a2749fccc0b46064c670"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the nodes.  <a href="#a91c350105601a2749fccc0b46064c670">More...</a><br /></td></tr>
+<tr class="separator:a91c350105601a2749fccc0b46064c670"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abec4ab79350278c1e96c53a7a3211cb2"><td class="memItemLeft" align="right" valign="top">const momentFieldSetType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#abec4ab79350278c1e96c53a7a3211cb2">moments</a> () const </td></tr>
+<tr class="memdesc:abec4ab79350278c1e96c53a7a3211cb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const access to the moments.  <a href="#abec4ab79350278c1e96c53a7a3211cb2">More...</a><br /></td></tr>
+<tr class="separator:abec4ab79350278c1e96c53a7a3211cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ea917ef655d7358597ba9ef187a6333"><td class="memItemLeft" align="right" valign="top">momentFieldSetType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#a7ea917ef655d7358597ba9ef187a6333">moments</a> ()</td></tr>
+<tr class="memdesc:a7ea917ef655d7358597ba9ef187a6333"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-const access to the moments.  <a href="#a7ea917ef655d7358597ba9ef187a6333">More...</a><br /></td></tr>
+<tr class="separator:a7ea917ef655d7358597ba9ef187a6333"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4410b8afdbd8d2d0aef13f1944201a3"><td class="memItemLeft" align="right" valign="top">label&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#ae4410b8afdbd8d2d0aef13f1944201a3">nDimensions</a> () const </td></tr>
+<tr class="memdesc:ae4410b8afdbd8d2d0aef13f1944201a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of dimensions in the distribution.  <a href="#ae4410b8afdbd8d2d0aef13f1944201a3">More...</a><br /></td></tr>
+<tr class="separator:ae4410b8afdbd8d2d0aef13f1944201a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a111ae2fd86df6aa54d903019cd7032f6"><td class="memItemLeft" align="right" valign="top">label&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#a111ae2fd86df6aa54d903019cd7032f6">nMoments</a> () const </td></tr>
+<tr class="memdesc:a111ae2fd86df6aa54d903019cd7032f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of moments.  <a href="#a111ae2fd86df6aa54d903019cd7032f6">More...</a><br /></td></tr>
+<tr class="separator:a111ae2fd86df6aa54d903019cd7032f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4aec727fcdd873ea78763aaeeb86e14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#ac4aec727fcdd873ea78763aaeeb86e14">updateQuadrature</a> ()</td></tr>
+<tr class="memdesc:ac4aec727fcdd873ea78763aaeeb86e14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculate the quadrature nodes from the moments.  <a href="#ac4aec727fcdd873ea78763aaeeb86e14">More...</a><br /></td></tr>
+<tr class="separator:ac4aec727fcdd873ea78763aaeeb86e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab46f111920d16a088f2fddf21d658315"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#ab46f111920d16a088f2fddf21d658315">updateMoments</a> ()</td></tr>
+<tr class="memdesc:ab46f111920d16a088f2fddf21d658315"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculate the moments from the quadrature nodes.  <a href="#ab46f111920d16a088f2fddf21d658315">More...</a><br /></td></tr>
+<tr class="separator:ab46f111920d16a088f2fddf21d658315"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57361ed63aa05333406727264ae648b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#a57361ed63aa05333406727264ae648b6">updateLocalMoments</a> (label celli)</td></tr>
+<tr class="memdesc:a57361ed63aa05333406727264ae648b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculate moments in the specified cell.  <a href="#a57361ed63aa05333406727264ae648b6">More...</a><br /></td></tr>
+<tr class="separator:a57361ed63aa05333406727264ae648b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a177dde920f33639945218c2c55bc83f8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#a177dde920f33639945218c2c55bc83f8">updateLocalQuadrature</a> (label celli, bool fatalErrorOnFailedRealizabilityTest=true)</td></tr>
+<tr class="memdesc:a177dde920f33639945218c2c55bc83f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recalculate the quadrature nodes from the moments in the.  <a href="#a177dde920f33639945218c2c55bc83f8">More...</a><br /></td></tr>
+<tr class="separator:a177dde920f33639945218c2c55bc83f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a8e424f01eae19c718d22a9268198f8f8"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00180.html">viscosityModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#a8e424f01eae19c718d22a9268198f8f8">New</a> (const dictionary &amp;dict)</td></tr>
-<tr class="separator:a8e424f01eae19c718d22a9268198f8f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a1bd8bb0fb60b71d271b25c14b5d66b63"><td class="memItemLeft" align="right" valign="top">static const word&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#a1bd8bb0fb60b71d271b25c14b5d66b63">propertiesName</a></td></tr>
+<tr class="memdesc:a1bd8bb0fb60b71d271b25c14b5d66b63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default name of the phase properties dictionary.  <a href="#a1bd8bb0fb60b71d271b25c14b5d66b63">More...</a><br /></td></tr>
+<tr class="separator:a1bd8bb0fb60b71d271b25c14b5d66b63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a892ddcb9cba6f50b0396cdb7bf1b4f6a"><td class="memItemLeft" align="right" valign="top">const dictionary &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a">dict_</a></td></tr>
-<tr class="separator:a892ddcb9cba6f50b0396cdb7bf1b4f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd780271a9c45061cfdc62f5c3fc9929"><td class="memItemLeft" align="right" valign="top">const word&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#afd780271a9c45061cfdc62f5c3fc9929">name_</a></td></tr>
+<tr class="memdesc:afd780271a9c45061cfdc62f5c3fc9929"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the quadrature approximation.  <a href="#afd780271a9c45061cfdc62f5c3fc9929">More...</a><br /></td></tr>
+<tr class="separator:afd780271a9c45061cfdc62f5c3fc9929"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23edeeeecebcef11921a33dd5d990570"><td class="memItemLeft" align="right" valign="top">const fvMesh &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#a23edeeeecebcef11921a33dd5d990570">mesh_</a></td></tr>
+<tr class="memdesc:a23edeeeecebcef11921a33dd5d990570"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to the mesh.  <a href="#a23edeeeecebcef11921a33dd5d990570">More...</a><br /></td></tr>
+<tr class="separator:a23edeeeecebcef11921a33dd5d990570"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5395f06d5da26eb23ac52a1a75327df1"><td class="memItemLeft" align="right" valign="top">autoPtr&lt; PtrList&lt; nodeType &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#a5395f06d5da26eb23ac52a1a75327df1">nodes_</a></td></tr>
+<tr class="memdesc:a5395f06d5da26eb23ac52a1a75327df1"><td class="mdescLeft">&#160;</td><td class="mdescRight">AutoPtr to the PtrList of quadrature nodes.  <a href="#a5395f06d5da26eb23ac52a1a75327df1">More...</a><br /></td></tr>
+<tr class="separator:a5395f06d5da26eb23ac52a1a75327df1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a258d174491c53d664745568f9dca5924"><td class="memItemLeft" align="right" valign="top">momentFieldSetType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#a258d174491c53d664745568f9dca5924">moments_</a></td></tr>
+<tr class="memdesc:a258d174491c53d664745568f9dca5924"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of moments.  <a href="#a258d174491c53d664745568f9dca5924">More...</a><br /></td></tr>
+<tr class="separator:a258d174491c53d664745568f9dca5924"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22a7e22a470f736e5a4561cd9d2fa5ae"><td class="memItemLeft" align="right" valign="top">const label&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#a22a7e22a470f736e5a4561cd9d2fa5ae">nDimensions_</a></td></tr>
+<tr class="memdesc:a22a7e22a470f736e5a4561cd9d2fa5ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dimensionality of the distribution function.  <a href="#a22a7e22a470f736e5a4561cd9d2fa5ae">More...</a><br /></td></tr>
+<tr class="separator:a22a7e22a470f736e5a4561cd9d2fa5ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e897a153fd991bd6a4b54dbe380d8c3"><td class="memItemLeft" align="right" valign="top">const label&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#a1e897a153fd991bd6a4b54dbe380d8c3">nMoments_</a></td></tr>
+<tr class="memdesc:a1e897a153fd991bd6a4b54dbe380d8c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of moments.  <a href="#a1e897a153fd991bd6a4b54dbe380d8c3">More...</a><br /></td></tr>
+<tr class="separator:a1e897a153fd991bd6a4b54dbe380d8c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad99a5dcc1a9e45d5267031edef42012b"><td class="memItemLeft" align="right" valign="top">const label&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#ad99a5dcc1a9e45d5267031edef42012b">nSecondaryNodes_</a></td></tr>
+<tr class="memdesc:ad99a5dcc1a9e45d5267031edef42012b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of secondary nodes.  <a href="#ad99a5dcc1a9e45d5267031edef42012b">More...</a><br /></td></tr>
+<tr class="separator:ad99a5dcc1a9e45d5267031edef42012b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97745e65ea5305313a9cc8919a99b621"><td class="memItemLeft" align="right" valign="top">word&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#a97745e65ea5305313a9cc8919a99b621">support_</a></td></tr>
+<tr class="memdesc:a97745e65ea5305313a9cc8919a99b621"><td class="mdescLeft">&#160;</td><td class="mdescRight">Support of the distribution function.  <a href="#a97745e65ea5305313a9cc8919a99b621">More...</a><br /></td></tr>
+<tr class="separator:a97745e65ea5305313a9cc8919a99b621"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2884c8660ba88930f5bcf3f3c1293634"><td class="memItemLeft" align="right" valign="top">autoPtr&lt; <a class="el" href="a00066.html">fieldMomentInversion</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00180.html#a2884c8660ba88930f5bcf3f3c1293634">momentFieldInverter_</a></td></tr>
+<tr class="memdesc:a2884c8660ba88930f5bcf3f3c1293634"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extended moment inversion method.  <a href="#a2884c8660ba88930f5bcf3f3c1293634">More...</a><br /></td></tr>
+<tr class="separator:a2884c8660ba88930f5bcf3f3c1293634"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="a00586_source.html#l00052">52</a> of file <a class="el" href="a00586_source.html">viscosityModel.H</a>.</p>
+<div class="textblock"><h3>template&lt;class momentFieldSetType, class nodeType&gt;<br />
+class Foam::quadratureApproximation&lt; momentFieldSetType, nodeType &gt;</h3>
+
+<p>Provides storage for the moments and the corresponding quadrature approximation of a univariate distribution function. Methods to update the moments and the quadrature approximation are provided. </p>
+<p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM-Test/OpenQBMM/src/quadratureMethods/quadratureApproximations/quadratureApproximation.H">quadratureApproximation.H</a> </li>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM-Test/OpenQBMM/src/quadratureMethods/quadratureApproximations/quadratureApproximation.C">quadratureApproximation.C</a> </li>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM-Test/OpenQBMM/src/quadratureMethods/quadratureApproximations/quadratureApproximationI.H">quadratureApproximationI.H</a> </li>
+</ul>
+</dd></dl>
+
+<p>Definition at line <a class="el" href="a00614_source.html#l00059">59</a> of file <a class="el" href="a00614_source.html">quadratureApproximation.H</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a67b2e2df07af44cb61c2c8c7eafeb52b"></a>
+<a class="anchor" id="a36e6d3192d1872bbc6b0cffd5872d86f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00180.html">viscosityModel</a> </td>
+          <td class="memname"><a class="el" href="a00180.html">quadratureApproximation</a> </td>
           <td>(</td>
-          <td class="paramtype">const dictionary &amp;&#160;</td>
-          <td class="paramname"><em>dict</em></td><td>)</td>
+          <td class="paramtype">const word &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const fvMesh &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const word &amp;&#160;</td>
+          <td class="paramname"><em>support</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nDimensions</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Construct from components. </p>
+<p>Construct from mesh. </p>
+
+<p>Definition at line <a class="el" href="a00613_source.html#l00040">40</a> of file <a class="el" href="a00613_source.html">quadratureApproximation.C</a>.</p>
+
+<p>References <a class="el" href="a00613_source.html#l00111">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::~quadratureApproximation()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00180_a36e6d3192d1872bbc6b0cffd5872d86f_cgraph.png" border="0" usemap="#a00180_a36e6d3192d1872bbc6b0cffd5872d86f_cgraph" alt=""/></div>
+<map name="a00180_a36e6d3192d1872bbc6b0cffd5872d86f_cgraph" id="a00180_a36e6d3192d1872bbc6b0cffd5872d86f_cgraph">
+<area shape="rect" id="node2" href="a00180.html#adb1b16ba7fd2128342b886ba9fce7537" title="Destructor. " alt="" coords="225,5,405,32"/>
+</map>
+</div>
+</p>
 
 </div>
 </div>
-<a class="anchor" id="aa3453f72f3e991f44922b1ccffde8c22"></a>
+<a class="anchor" id="adb1b16ba7fd2128342b886ba9fce7537"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -184,7 +293,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual ~<a class="el" href="a00180.html">viscosityModel</a> </td>
+          <td class="memname">~<a class="el" href="a00180.html">quadratureApproximation</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -199,60 +308,418 @@ Protected Attributes</h2></td></tr>
 
 <p>Destructor. </p>
 
+<p>Definition at line <a class="el" href="a00613_source.html#l00111">111</a> of file <a class="el" href="a00613_source.html">quadratureApproximation.C</a>.</p>
+
+<p>References <a class="el" href="a00613_source.html#l00119">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::updateQuadrature()</a>.</p>
+
+<p>Referenced by <a class="el" href="a00613_source.html#l00040">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::quadratureApproximation()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00180_adb1b16ba7fd2128342b886ba9fce7537_cgraph.png" border="0" usemap="#a00180_adb1b16ba7fd2128342b886ba9fce7537_cgraph" alt=""/></div>
+<map name="a00180_adb1b16ba7fd2128342b886ba9fce7537_cgraph" id="a00180_adb1b16ba7fd2128342b886ba9fce7537_cgraph">
+<area shape="rect" id="node2" href="a00180.html#ac4aec727fcdd873ea78763aaeeb86e14" title="Recalculate the quadrature nodes from the moments. " alt="" coords="233,5,364,32"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00180_adb1b16ba7fd2128342b886ba9fce7537_icgraph.png" border="0" usemap="#a00180_adb1b16ba7fd2128342b886ba9fce7537_icgraph" alt=""/></div>
+<map name="a00180_adb1b16ba7fd2128342b886ba9fce7537_icgraph" id="a00180_adb1b16ba7fd2128342b886ba9fce7537_icgraph">
+<area shape="rect" id="node2" href="a00180.html#a36e6d3192d1872bbc6b0cffd5872d86f" title="Construct from mesh. " alt="" coords="233,5,405,32"/>
+</map>
+</div>
+</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ac0e08eba1e7a69731b23fbe94d2d9aa7"></a>
+<a class="anchor" id="a2456166dce07bb1aa57f90fba72ba551"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const word name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return name. </p>
+
+<p>Definition at line <a class="el" href="a00615_source.html#l00030">30</a> of file <a class="el" href="a00615_source.html">quadratureApproximationI.H</a>.</p>
+
+<p>References <a class="el" href="a00615_source.html#l00038">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::momentFieldInverter()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00180_a2456166dce07bb1aa57f90fba72ba551_cgraph.png" border="0" usemap="#a00180_a2456166dce07bb1aa57f90fba72ba551_cgraph" alt=""/></div>
+<map name="a00180_a2456166dce07bb1aa57f90fba72ba551_cgraph" id="a00180_a2456166dce07bb1aa57f90fba72ba551_cgraph">
+<area shape="rect" id="node2" href="a00180.html#ab35707f48144b6e8c377d530fda6958e" title="Extended moment inversion method. " alt="" coords="109,5,253,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ab35707f48144b6e8c377d530fda6958e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a00066.html">Foam::fieldMomentInversion</a> &amp; momentFieldInverter </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Extended moment inversion method. </p>
+
+<p>Definition at line <a class="el" href="a00615_source.html#l00038">38</a> of file <a class="el" href="a00615_source.html">quadratureApproximationI.H</a>.</p>
+
+<p>Referenced by <a class="el" href="a00615_source.html#l00030">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::name()</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00180_ab35707f48144b6e8c377d530fda6958e_icgraph.png" border="0" usemap="#a00180_ab35707f48144b6e8c377d530fda6958e_icgraph" alt=""/></div>
+<map name="a00180_ab35707f48144b6e8c377d530fda6958e_icgraph" id="a00180_ab35707f48144b6e8c377d530fda6958e_icgraph">
+<area shape="rect" id="node2" href="a00180.html#a2456166dce07bb1aa57f90fba72ba551" title="Return name. " alt="" coords="197,5,253,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a91c350105601a2749fccc0b46064c670"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const Foam::PtrList&lt; nodeType &gt; &amp; nodes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the nodes. </p>
+
+<p>Definition at line <a class="el" href="a00615_source.html#l00045">45</a> of file <a class="el" href="a00615_source.html">quadratureApproximationI.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abec4ab79350278c1e96c53a7a3211cb2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const momentFieldSetType &amp; <a class="el" href="a00135.html">moments</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Const access to the moments. </p>
+
+<p>Definition at line <a class="el" href="a00615_source.html#l00052">52</a> of file <a class="el" href="a00615_source.html">quadratureApproximationI.H</a>.</p>
+
+<p>Referenced by <a class="el" href="a00691_source.html#l00244">univariatePDFTransportModel::solve()</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00180_abec4ab79350278c1e96c53a7a3211cb2_icgraph.png" border="0" usemap="#a00180_abec4ab79350278c1e96c53a7a3211cb2_icgraph" alt=""/></div>
+<map name="a00180_abec4ab79350278c1e96c53a7a3211cb2_icgraph" id="a00180_abec4ab79350278c1e96c53a7a3211cb2_icgraph">
+<area shape="rect" id="node2" href="a00216.html#af7d39f0eac0af0ed5785935ac72a1e7d" title="Edit. " alt="" coords="131,5,383,47"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a7ea917ef655d7358597ba9ef187a6333"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">momentFieldSetType &amp; <a class="el" href="a00135.html">moments</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Non-const access to the moments. </p>
+
+<p>Definition at line <a class="el" href="a00615_source.html#l00059">59</a> of file <a class="el" href="a00615_source.html">quadratureApproximationI.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae4410b8afdbd8d2d0aef13f1944201a3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Foam::label nDimensions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the number of dimensions in the distribution. </p>
+
+<p>Definition at line <a class="el" href="a00615_source.html#l00066">66</a> of file <a class="el" href="a00615_source.html">quadratureApproximationI.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a111ae2fd86df6aa54d903019cd7032f6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Foam::label nMoments </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the number of moments. </p>
+
+<p>Definition at line <a class="el" href="a00615_source.html#l00073">73</a> of file <a class="el" href="a00615_source.html">quadratureApproximationI.H</a>.</p>
+
+<p>Referenced by <a class="el" href="a00691_source.html#l00244">univariatePDFTransportModel::solve()</a>.</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00180_a111ae2fd86df6aa54d903019cd7032f6_icgraph.png" border="0" usemap="#a00180_a111ae2fd86df6aa54d903019cd7032f6_icgraph" alt=""/></div>
+<map name="a00180_a111ae2fd86df6aa54d903019cd7032f6_icgraph" id="a00180_a111ae2fd86df6aa54d903019cd7032f6_icgraph">
+<area shape="rect" id="node2" href="a00216.html#af7d39f0eac0af0ed5785935ac72a1e7d" title="Edit. " alt="" coords="137,5,389,47"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ac4aec727fcdd873ea78763aaeeb86e14"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">TypeName </td>
+          <td class="memname">void updateQuadrature </td>
           <td>(</td>
-          <td class="paramtype">&quot;viscosityModel&quot;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Runtime type information. </p>
+<p>Recalculate the quadrature nodes from the moments. </p>
+
+<p>Definition at line <a class="el" href="a00613_source.html#l00119">119</a> of file <a class="el" href="a00613_source.html">quadratureApproximation.C</a>.</p>
+
+<p>References <a class="el" href="a00613_source.html#l00127">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::updateMoments()</a>.</p>
+
+<p>Referenced by <a class="el" href="a00691_source.html#l00244">univariatePDFTransportModel::solve()</a>, and <a class="el" href="a00613_source.html#l00111">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::~quadratureApproximation()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00180_ac4aec727fcdd873ea78763aaeeb86e14_cgraph.png" border="0" usemap="#a00180_ac4aec727fcdd873ea78763aaeeb86e14_cgraph" alt=""/></div>
+<map name="a00180_ac4aec727fcdd873ea78763aaeeb86e14_cgraph" id="a00180_ac4aec727fcdd873ea78763aaeeb86e14_cgraph">
+<area shape="rect" id="node2" href="a00180.html#ab46f111920d16a088f2fddf21d658315" title="Recalculate the moments from the quadrature nodes. " alt="" coords="184,5,303,32"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00180_ac4aec727fcdd873ea78763aaeeb86e14_icgraph.png" border="0" usemap="#a00180_ac4aec727fcdd873ea78763aaeeb86e14_icgraph" alt=""/></div>
+<map name="a00180_ac4aec727fcdd873ea78763aaeeb86e14_icgraph" id="a00180_ac4aec727fcdd873ea78763aaeeb86e14_icgraph">
+<area shape="rect" id="node2" href="a00216.html#af7d39f0eac0af0ed5785935ac72a1e7d" title="Edit. " alt="" coords="184,5,436,47"/>
+<area shape="rect" id="node3" href="a00180.html#adb1b16ba7fd2128342b886ba9fce7537" title="Destructor. " alt="" coords="220,71,400,98"/>
+</map>
+</div>
+</p>
 
 </div>
 </div>
-<a class="anchor" id="a50922703861a77b97ff4ae6f38c8d833"></a>
+<a class="anchor" id="ab46f111920d16a088f2fddf21d658315"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">declareRunTimeSelectionTable </td>
+          <td class="memname">void updateMoments </td>
           <td>(</td>
-          <td class="paramtype">autoPtr&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Recalculate the moments from the quadrature nodes. </p>
+
+<p>Definition at line <a class="el" href="a00613_source.html#l00127">127</a> of file <a class="el" href="a00613_source.html">quadratureApproximation.C</a>.</p>
+
+<p>References <a class="el" href="a00613_source.html#l00134">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::updateLocalMoments()</a>.</p>
+
+<p>Referenced by <a class="el" href="a00613_source.html#l00119">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::updateQuadrature()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00180_ab46f111920d16a088f2fddf21d658315_cgraph.png" border="0" usemap="#a00180_ab46f111920d16a088f2fddf21d658315_cgraph" alt=""/></div>
+<map name="a00180_ab46f111920d16a088f2fddf21d658315_cgraph" id="a00180_ab46f111920d16a088f2fddf21d658315_cgraph">
+<area shape="rect" id="node2" href="a00180.html#a57361ed63aa05333406727264ae648b6" title="Recalculate moments in the specified cell. " alt="" coords="172,5,323,32"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00180_ab46f111920d16a088f2fddf21d658315_icgraph.png" border="0" usemap="#a00180_ab46f111920d16a088f2fddf21d658315_icgraph" alt=""/></div>
+<map name="a00180_ab46f111920d16a088f2fddf21d658315_icgraph" id="a00180_ab46f111920d16a088f2fddf21d658315_icgraph">
+<area shape="rect" id="node2" href="a00180.html#ac4aec727fcdd873ea78763aaeeb86e14" title="Recalculate the quadrature nodes from the moments. " alt="" coords="172,5,303,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a57361ed63aa05333406727264ae648b6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void updateLocalMoments </td>
+          <td>(</td>
+          <td class="paramtype">label&#160;</td>
+          <td class="paramname"><em>celli</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Recalculate moments in the specified cell. </p>
+
+<p>Definition at line <a class="el" href="a00613_source.html#l00134">134</a> of file <a class="el" href="a00613_source.html">quadratureApproximation.C</a>.</p>
+
+<p>References <a class="el" href="a00613_source.html#l00141">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::updateLocalQuadrature()</a>.</p>
+
+<p>Referenced by <a class="el" href="a00613_source.html#l00127">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::updateMoments()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00180_a57361ed63aa05333406727264ae648b6_cgraph.png" border="0" usemap="#a00180_a57361ed63aa05333406727264ae648b6_cgraph" alt=""/></div>
+<map name="a00180_a57361ed63aa05333406727264ae648b6_cgraph" id="a00180_a57361ed63aa05333406727264ae648b6_cgraph">
+<area shape="rect" id="node2" href="a00180.html#a177dde920f33639945218c2c55bc83f8" title="Recalculate the quadrature nodes from the moments in the. " alt="" coords="204,5,367,32"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00180_a57361ed63aa05333406727264ae648b6_icgraph.png" border="0" usemap="#a00180_a57361ed63aa05333406727264ae648b6_icgraph" alt=""/></div>
+<map name="a00180_a57361ed63aa05333406727264ae648b6_icgraph" id="a00180_a57361ed63aa05333406727264ae648b6_icgraph">
+<area shape="rect" id="node2" href="a00180.html#ab46f111920d16a088f2fddf21d658315" title="Recalculate the moments from the quadrature nodes. " alt="" coords="204,5,323,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a177dde920f33639945218c2c55bc83f8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool updateLocalQuadrature </td>
+          <td>(</td>
+          <td class="paramtype">label&#160;</td>
+          <td class="paramname"><em>celli</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00180.html">viscosityModel</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">dictionary&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">(                                                                           const dictionary &amp;dict                                           )&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">(dict)&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>fatalErrorOnFailedRealizabilityTest</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -262,121 +729,27 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a class="anchor" id="a8e424f01eae19c718d22a9268198f8f8"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static autoPtr&lt;<a class="el" href="a00180.html">viscosityModel</a>&gt; New </td>
-          <td>(</td>
-          <td class="paramtype">const dictionary &amp;&#160;</td>
-          <td class="paramname"><em>dict</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Recalculate the quadrature nodes from the moments in the. </p>
+<p>specified cell </p>
 
-</div>
-</div>
-<a class="anchor" id="ab4b2bbc5d39ce41944a74db5003448d6"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual tmp&lt;volScalarField&gt; nu </td>
-          <td>(</td>
-          <td class="paramtype">const volScalarField &amp;&#160;</td>
-          <td class="paramname"><em>alpha1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const volScalarField &amp;&#160;</td>
-          <td class="paramname"><em>Theta</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const volScalarField &amp;&#160;</td>
-          <td class="paramname"><em>g0</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const volScalarField &amp;&#160;</td>
-          <td class="paramname"><em>rho1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const volScalarField &amp;&#160;</td>
-          <td class="paramname"><em>da</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const dimensionedScalar &amp;&#160;</td>
-          <td class="paramname"><em>e</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Definition at line <a class="el" href="a00613_source.html#l00141">141</a> of file <a class="el" href="a00613_source.html">quadratureApproximation.C</a>.</p>
 
-<p>Implemented in <a class="el" href="a00061.html#a3127d9484a13bfb2bb2090956c1f8836">HrenyaSinclair</a>, <a class="el" href="a00148.html#a3127d9484a13bfb2bb2090956c1f8836">Syamlal</a>, <a class="el" href="a00053.html#a3127d9484a13bfb2bb2090956c1f8836">Gidaspow</a>, and <a class="el" href="a00113.html#a3127d9484a13bfb2bb2090956c1f8836">noneViscosity</a>.</p>
+<p>Referenced by <a class="el" href="a00613_source.html#l00134">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::updateLocalMoments()</a>.</p>
 
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="a00180_a177dde920f33639945218c2c55bc83f8_icgraph.png" border="0" usemap="#a00180_a177dde920f33639945218c2c55bc83f8_icgraph" alt=""/></div>
+<map name="a00180_a177dde920f33639945218c2c55bc83f8_icgraph" id="a00180_a177dde920f33639945218c2c55bc83f8_icgraph">
+<area shape="rect" id="node2" href="a00180.html#a57361ed63aa05333406727264ae648b6" title="Recalculate moments in the specified cell. " alt="" coords="216,5,367,32"/>
+</map>
 </div>
-</div>
-<a class="anchor" id="abcf7aafd601a940195284bc91610bb08"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool read </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="a00061.html#abcf7aafd601a940195284bc91610bb08">HrenyaSinclair</a>.</p>
-
-<p>Definition at line <a class="el" href="a00586_source.html#l00118">118</a> of file <a class="el" href="a00586_source.html">viscosityModel.H</a>.</p>
+</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a892ddcb9cba6f50b0396cdb7bf1b4f6a"></a>
+<a class="anchor" id="afd780271a9c45061cfdc62f5c3fc9929"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -384,7 +757,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const dictionary&amp; dict_</td>
+          <td class="memname">const word name_</td>
         </tr>
       </table>
   </td>
@@ -394,19 +767,239 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="a00586_source.html#l00067">67</a> of file <a class="el" href="a00586_source.html">viscosityModel.H</a>.</p>
+<p>Name of the quadrature approximation. </p>
+
+<p>Definition at line <a class="el" href="a00614_source.html#l00067">67</a> of file <a class="el" href="a00614_source.html">quadratureApproximation.H</a>.</p>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="a00586_source.html">viscosityModel.H</a></li>
+<a class="anchor" id="a23edeeeecebcef11921a33dd5d990570"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const fvMesh&amp; mesh_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reference to the mesh. </p>
+
+<p>Definition at line <a class="el" href="a00614_source.html#l00070">70</a> of file <a class="el" href="a00614_source.html">quadratureApproximation.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5395f06d5da26eb23ac52a1a75327df1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">autoPtr&lt;PtrList&lt;nodeType&gt; &gt; nodes_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>AutoPtr to the PtrList of quadrature nodes. </p>
+
+<p>Definition at line <a class="el" href="a00614_source.html#l00073">73</a> of file <a class="el" href="a00614_source.html">quadratureApproximation.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a258d174491c53d664745568f9dca5924"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">momentFieldSetType moments_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>List of moments. </p>
+
+<p>Definition at line <a class="el" href="a00614_source.html#l00076">76</a> of file <a class="el" href="a00614_source.html">quadratureApproximation.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a22a7e22a470f736e5a4561cd9d2fa5ae"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const label nDimensions_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Dimensionality of the distribution function. </p>
+
+<p>Definition at line <a class="el" href="a00614_source.html#l00079">79</a> of file <a class="el" href="a00614_source.html">quadratureApproximation.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1e897a153fd991bd6a4b54dbe380d8c3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const label nMoments_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Number of moments. </p>
+
+<p>Definition at line <a class="el" href="a00614_source.html#l00082">82</a> of file <a class="el" href="a00614_source.html">quadratureApproximation.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad99a5dcc1a9e45d5267031edef42012b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const label nSecondaryNodes_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Number of secondary nodes. </p>
+
+<p>Definition at line <a class="el" href="a00614_source.html#l00085">85</a> of file <a class="el" href="a00614_source.html">quadratureApproximation.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a97745e65ea5305313a9cc8919a99b621"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">word support_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Support of the distribution function. </p>
+
+<p>Definition at line <a class="el" href="a00614_source.html#l00088">88</a> of file <a class="el" href="a00614_source.html">quadratureApproximation.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2884c8660ba88930f5bcf3f3c1293634"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">autoPtr&lt;<a class="el" href="a00066.html">fieldMomentInversion</a>&gt; momentFieldInverter_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Extended moment inversion method. </p>
+
+<p>Definition at line <a class="el" href="a00614_source.html#l00091">91</a> of file <a class="el" href="a00614_source.html">quadratureApproximation.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1bd8bb0fb60b71d271b25c14b5d66b63"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const Foam::word propertiesName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Default name of the phase properties dictionary. </p>
+
+<p>Definition at line <a class="el" href="a00614_source.html#l00097">97</a> of file <a class="el" href="a00614_source.html">quadratureApproximation.H</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li><a class="el" href="a00614_source.html">quadratureApproximation.H</a></li>
+<li><a class="el" href="a00613_source.html">quadratureApproximation.C</a></li>
+<li><a class="el" href="a00615_source.html">quadratureApproximationI.H</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00605.html">Foam</a></li><li class="navelem"><a class="el" href="a00610.html">kineticTheoryModels</a></li><li class="navelem"><a class="el" href="a00180.html">viscosityModel</a></li>
+    <li class="navelem"><a class="el" href="a00723.html">Foam</a></li><li class="navelem"><a class="el" href="a00180.html">quadratureApproximation</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

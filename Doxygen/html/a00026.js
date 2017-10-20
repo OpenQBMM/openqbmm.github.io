@@ -1,7 +1,8 @@
 var a00026 =
 [
-    [ "constantTurbulentDispersionCoefficient", "a00026.html#abff9dc535a1b0ff0fc04db1844ccdea3", null ],
-    [ "~constantTurbulentDispersionCoefficient", "a00026.html#a3bc61581d3b3fe2a3c1a1e7a2bab81ed", null ],
-    [ "TypeName", "a00026.html#aafe31ab21b510f2d502d4058cf65e7bd", null ],
-    [ "D", "a00026.html#aaf1922308183e59d85b4ad6dfad616fd", null ]
+    [ "CarnahanStarling", "a00026.html#a20a8ec8a04a7980cc50a82f26b36e24f", null ],
+    [ "~CarnahanStarling", "a00026.html#a5f7fbca20ba93e2ec320ab06b57fc08c", null ],
+    [ "TypeName", "a00026.html#a7d4db64d4725848e9d99c78da6995f3c", null ],
+    [ "g0", "a00026.html#a77181c36b117cab1999c37a2c4ae392f", null ],
+    [ "g0prime", "a00026.html#a76068a5c111e6a71f9d5011c78d97346", null ]
 ];

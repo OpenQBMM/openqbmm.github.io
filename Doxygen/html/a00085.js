@@ -1,8 +1,11 @@
 var a00085 =
 [
-    [ "Lun", "a00085.html#a23ee449d6527b7755a1da51eae89e357", null ],
-    [ "~Lun", "a00085.html#a9195da2539df648c03a1538ca2e95854", null ],
-    [ "TypeName", "a00085.html#a71ac58eefea271425c68a5b19fe89d5b", null ],
-    [ "granularPressureCoeff", "a00085.html#ab385b192bdf96fe50901cf94cadcccb2", null ],
-    [ "granularPressureCoeffPrime", "a00085.html#a7477040e4bebb305b8dba787382d97e0", null ]
+    [ "growthModel", "a00085.html#aa383495cbbb616e5138b6b5ce8a2630b", null ],
+    [ "~growthModel", "a00085.html#a2cbcf75a5aa3c9f8e8b9d40904732c29", null ],
+    [ "TypeName", "a00085.html#ab1ef5bca2c86ba9151614ebeaffed754", null ],
+    [ "declareRunTimeSelectionTable", "a00085.html#aa9d98df3c14edfe3a1ac5bbfb9e2b10b", null ],
+    [ "New", "a00085.html#a7da088e2d1463d28793d9e080bf244a6", null ],
+    [ "Kg", "a00085.html#ab7fb4ac29c00f426780bcdfebae822de", null ],
+    [ "dict_", "a00085.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a", null ],
+    [ "Cg_", "a00085.html#a77eb6079970cf46157d09f0370132b38", null ]
 ];

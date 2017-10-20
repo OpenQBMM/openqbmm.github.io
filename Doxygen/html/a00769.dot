@@ -1,15 +1,11 @@
-digraph "growthModel.H"
+digraph "Alopaeus.H"
 {
   bgcolor="transparent";
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="growthModel.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="constantGrowth.H",height=0.2,width=0.4,color="red",URL="$a00233.html"];
-  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="growthModel.C",height=0.2,width=0.4,color="black",URL="$a00319.html"];
-  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node4 [label="newGrowthModel.C",height=0.2,width=0.4,color="black",URL="$a00415.html"];
-  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node5 [label="univariatePopulationBalance.H",height=0.2,width=0.4,color="red",URL="$a00577.html"];
+  Node1 [label="Alopaeus.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="bubbleBreakupKernel.H",height=0.2,width=0.4,color="red",URL="$a00270.html"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="twoPhaseSystem.H",height=0.2,width=0.4,color="red",URL="$a00675.html"];
 }

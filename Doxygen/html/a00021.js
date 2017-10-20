@@ -1,7 +1,7 @@
 var a00021 =
 [
-    [ "constantAspectRatio", "a00021.html#a01c823930bcaf0814e9697b4118b35ca", null ],
-    [ "~constantAspectRatio", "a00021.html#a094026f88f0f95649f59375f3cf4ab49", null ],
-    [ "TypeName", "a00021.html#ac2a86ba46d157b053e4a28a9483a48f5", null ],
-    [ "E", "a00021.html#a972dcd8e78e1967782a127bf17bd2eb4", null ]
+    [ "Brownian", "a00021.html#abd4a2157ea96052400820ceafb702b91", null ],
+    [ "~Brownian", "a00021.html#a1494ac836158c04e01bf0d61faab3e0e", null ],
+    [ "TypeName", "a00021.html#ab79c0cace563122099e6ab3516ef4f1f", null ],
+    [ "Ka", "a00021.html#ab7307c8c0a54778fb8ea6b85421c0a63", null ]
 ];

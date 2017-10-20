@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>hyperbolic.H File Reference</title>
+<title>My Project: createFields.H File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,9 +31,12 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
-    <td style="padding-left: 0.5em;">
-    <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
-    </td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   &#160;<span id="projectnumber">-dev</span>
+   </div>
+   <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
+  </td>
  </tr>
  </tbody>
 </table>
@@ -104,45 +107,50 @@ $(document).ready(function(){initNavTree('a00328.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">hyperbolic.H File Reference</div>  </div>
+<div class="title">multiphase/denseAGFoam/createFields.H File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div class="dynheader">
-Include dependency graph for hyperbolic.H:</div>
+Include dependency graph for multiphase/denseAGFoam/createFields.H:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00775.png" border="0" usemap="#hyperbolic_8H" alt=""/></div>
-<map name="hyperbolic_8H" id="hyperbolic_8H">
-<area shape="rect" id="node2" href="a00209.html" title="blendingMethod.H" alt="" coords="5,80,136,107"/>
+<div class="center"><img src="a00839.png" border="0" usemap="#createFields_8H" alt=""/></div>
+<map name="createFields_8H" id="createFields_8H">
+<area shape="rect" id="node5" href="a00332.html" title="createMRF.H" alt="" coords="430,80,530,107"/>
 </map>
 </div>
 </div>
 <p><a href="a00328_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00063.html">hyperbolic</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:a00605"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00605.html">Foam</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00607"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00607.html">Foam::blendingMethods</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a832d4c108c5ad79411759a304219e145"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00328.html#a832d4c108c5ad79411759a304219e145">Info&lt;&lt; &quot;Creating twoPhaseSystem\n&quot;&lt;&lt; endl;twoPhaseSystem fluid(mesh, g);phaseModel &amp;phase1=fluid.phase1();phaseModel &amp;phase2=fluid.phase2();volScalarField &amp;alpha1=phase1;volVectorField &amp;U1=phase1.U();volVectorField &amp;U2=phase2.U();volScalarField &amp;p=phase1.thermo().p();dimensionedScalar pMin(&quot;pMin&quot;, dimPressure, fluid);Info&lt;&lt; &quot;Reading field p_rgh\n&quot;&lt;&lt; endl;volScalarField p_rgh(IOobject(&quot;p_rgh&quot;, runTime.timeName(), mesh, IOobject::MUST_READ, IOobject::AUTO_WRITE), mesh);volVectorField U(IOobject(&quot;U&quot;, runTime.timeName(), mesh, IOobject::NO_READ, IOobject::AUTO_WRITE), fluid.U());label pRefCell=0;scalar pRefValue=0.0;setRefCell(p, p_rgh, pimple.dict(), pRefCell, pRefValue);mesh.setFluxRequired(p_rgh.name());mesh.setFluxRequired(alpha1.name());Info&lt;&lt; &quot;Creating field dpdt\n&quot;&lt;&lt; endl;volScalarField dpdt(IOobject(&quot;dpdt&quot;, runTime.timeName(), mesh), mesh, dimensionedScalar(&quot;dpdt&quot;, p.dimensions()/dimTime, 0));volScalarField rAU1(IOobject(IOobject::groupName(&quot;rAU&quot;, phase1.name()), runTime.timeName(), mesh, IOobject::NO_READ, IOobject::NO_WRITE), mesh, dimensionedScalar(&quot;0&quot;, dimTime/dimDensity, 0.0));volScalarField rAU2(IOobject(IOobject::groupName(&quot;rAU&quot;, phase2.name()), runTime.timeName(), mesh, IOobject::NO_READ, IOobject::NO_WRITE), mesh, dimensionedScalar(&quot;0&quot;, dimTime/dimDensity, 0.0));Info&lt;&lt; &quot;Creating field kinetic energy K\n&quot;&lt;&lt; endl;volScalarField K1(IOobject::groupName(&quot;K&quot;, phase1.name()), 0.5 *magSqr(U1));volScalarField K2(IOobject::groupName(&quot;K&quot;, phase2.name()), 0.5 *magSqr(U2));fluid.pPrimeByA()=tmp&lt; surfaceScalarField &gt;</a> (new surfaceScalarField(                       IOobject                       (                                    &quot;pPrimeByA&quot;,                                       runTime.timeName(),                                       mesh                       ),                       mesh,                       dimensionedScalar                       (                                    &quot;0&quot;,                                       dimensionSet(0, 2,-1, 0, 0),                                       0.0                       )       ))</td></tr>
+<tr class="separator:a832d4c108c5ad79411759a304219e145"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/twoPhaseSystem/BlendedInterfacialModel/blendingMethods/hyperbolic/hyperbolic.H">hyperbolic.H</a> </p>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a832d4c108c5ad79411759a304219e145"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Info&lt;&lt; &quot;Creating twoPhaseSystem\n&quot;&lt;&lt; endl;twoPhaseSystem fluid(mesh, g);phaseModel &amp;phase1=fluid.phase1();phaseModel &amp;phase2=fluid.phase2();volScalarField &amp;alpha1=phase1;volVectorField &amp;U1=<a class="el" href="a00330.html#a2cf53f2d880076e92789c7297fc0423d">phase1.U</a>();volVectorField &amp;U2=<a class="el" href="a00330.html#a2cf53f2d880076e92789c7297fc0423d">phase2.U</a>();volScalarField &amp;<a class="el" href="a00331.html#a334650304cdcdff41898bee9eaf2e3db">p</a>=<a class="el" href="a00331.html#aad0c921770bd26de425cedad0c8ae8be">phase1.thermo</a>().<a class="el" href="a00331.html#a334650304cdcdff41898bee9eaf2e3db">p</a>();dimensionedScalar pMin(&quot;pMin&quot;, dimPressure, fluid);Info&lt;&lt; &quot;Reading field p_rgh\n&quot;&lt;&lt; endl;volScalarField p_rgh(IOobject(&quot;p_rgh&quot;, runTime.timeName(), mesh, IOobject::MUST_READ, IOobject::AUTO_WRITE), mesh);volVectorField <a class="el" href="a00330.html#a2cf53f2d880076e92789c7297fc0423d">U</a>(IOobject(&quot;U&quot;, runTime.timeName(), mesh, IOobject::NO_READ, IOobject::AUTO_WRITE), <a class="el" href="a00330.html#a2cf53f2d880076e92789c7297fc0423d">fluid.U</a>());label pRefCell=0;scalar pRefValue=0.0;setRefCell(<a class="el" href="a00331.html#a334650304cdcdff41898bee9eaf2e3db">p</a>, p_rgh, pimple.dict(), pRefCell, pRefValue);mesh.setFluxRequired(p_rgh.name());mesh.setFluxRequired(alpha1.name());Info&lt;&lt; &quot;Creating field dpdt\n&quot;&lt;&lt; endl;volScalarField dpdt(IOobject(&quot;dpdt&quot;, runTime.timeName(), mesh), mesh, dimensionedScalar(&quot;dpdt&quot;, p.dimensions()/dimTime, 0));volScalarField <a class="el" href="a00586.html#a2c9f9b40ebdf731cc37c38eab8977d44">rAU1</a>(IOobject(IOobject::groupName(&quot;rAU&quot;, phase1.name()), runTime.timeName(), mesh, IOobject::NO_READ, IOobject::NO_WRITE), mesh, dimensionedScalar(&quot;0&quot;, dimTime/dimDensity, 0.0));volScalarField <a class="el" href="a00586.html#a980a98cf85cda183ad754b3d45380f15">rAU2</a>(IOobject(IOobject::groupName(&quot;rAU&quot;, phase2.name()), runTime.timeName(), mesh, IOobject::NO_READ, IOobject::NO_WRITE), mesh, dimensionedScalar(&quot;0&quot;, dimTime/dimDensity, 0.0));Info&lt;&lt; &quot;Creating field kinetic energy K\n&quot;&lt;&lt; endl;volScalarField <a class="el" href="a00586.html#a6b8d5903796d011867096f16bcfe4efd">K1</a>(IOobject::groupName(&quot;K&quot;, phase1.name()), 0.5 *magSqr(U1));volScalarField <a class="el" href="a00586.html#a2cc87dc0dca3d6104d8094986f6b852a">K2</a>(IOobject::groupName(&quot;K&quot;, phase2.name()), 0.5 *magSqr(U2));<a class="el" href="a00586.html#ae11a2f130938bc1bbf0bf4849e8aa587">fluid.pPrimeByA</a>()=tmp&lt; surfaceScalarField &gt; </td>
+          <td>(</td>
+          <td class="paramtype">new &#160;</td>
+          <td class="paramname"><em>surfaceScalarField</em>                                           IOobject                                           (                                                                    &quot;pPrimeByA&quot;,                                                                           runTime.timeName(),                                                                           mesh                                           ),                                           mesh,                                           dimensionedScalar                                           (                                                                    &quot;0&quot;,                                                                           dimensionSet(0, 2,-1, 0, 0),                                                                           0.0                                           )           </td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
-<p>Definition in file <a class="el" href="a00328_source.html">hyperbolic.H</a>.</p>
-</div></div><!-- contents -->
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html">applications</a></li><li class="navelem"><a class="el" href="dir_fdd174abb8ada244b49e98779c87ac3c.html">solvers</a></li><li class="navelem"><a class="el" href="dir_40ef2584a0ec6d8ca6a91d700a2af4ea.html">polydisperseBubbleFoam</a></li><li class="navelem"><a class="el" href="dir_4214d8daecc7d2736d3695296b6bac1f.html">twoPhaseSystem</a></li><li class="navelem"><a class="el" href="dir_7a8b2c6ca152d4754bafea337521b8eb.html">BlendedInterfacialModel</a></li><li class="navelem"><a class="el" href="dir_3cbe912c1082504c84662097f10fad09.html">blendingMethods</a></li><li class="navelem"><a class="el" href="dir_794f1e79d86a13195d551879f98908f5.html">hyperbolic</a></li><li class="navelem"><a class="el" href="a00328.html">hyperbolic.H</a></li>
+    <li class="navelem"><a class="el" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html">applications</a></li><li class="navelem"><a class="el" href="dir_fdd174abb8ada244b49e98779c87ac3c.html">solvers</a></li><li class="navelem"><a class="el" href="dir_d62a5a20700de1cb9696e405d497a576.html">multiphase</a></li><li class="navelem"><a class="el" href="dir_fbf46af2d993e4f57d56cdda57485ece.html">denseAGFoam</a></li><li class="navelem"><a class="el" href="a00328.html">createFields.H</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

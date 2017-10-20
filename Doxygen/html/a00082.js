@@ -1,7 +1,8 @@
 var a00082 =
 [
-    [ "linear", "a00082.html#a666fca855c19bd135c536da260f23323", null ],
-    [ "~linear", "a00082.html#af3fe8bd0398e006d8f2a6e36b957b92b", null ],
-    [ "limiter", "a00082.html#ad826c52960e65cba81f05f76e5ba771c", null ],
-    [ "TypeName", "a00082.html#ab0fc4a9eb6b967007278346598d07480", null ]
+    [ "GidaspowSchillerNaumann", "a00082.html#abe030f4c056ca260d3fcb73543ca85de", null ],
+    [ "~GidaspowSchillerNaumann", "a00082.html#ab5d9d775fdc888b815b3300f91ff9cdc", null ],
+    [ "TypeName", "a00082.html#ae3e11a25058a3ce2460b9a0a33191e6f", null ],
+    [ "CdRe", "a00082.html#a710c9ce4df6a34eec87c435ea332a761", null ],
+    [ "CdRe", "a00082.html#aeea45f46f7f282a9ef8f5091a2152635", null ]
 ];

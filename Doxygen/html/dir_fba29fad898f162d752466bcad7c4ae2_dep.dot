@@ -1,0 +1,22 @@
+digraph "blendingMethods" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_e3ab446b96c2c6bc8e153da3ebeb2a40 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="BlendedInterfacialModel" fontname="Helvetica", fontsize="10", URL="dir_e3ab446b96c2c6bc8e153da3ebeb2a40.html"]
+  subgraph clusterdir_fba29fad898f162d752466bcad7c4ae2 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_fba29fad898f162d752466bcad7c4ae2.html"];
+    dir_fba29fad898f162d752466bcad7c4ae2 [shape=plaintext label="blendingMethods"];
+    dir_232b64447c0419452180e8388af5a0aa [shape=box label="blendingMethod" color="black" fillcolor="white" style="filled" URL="dir_232b64447c0419452180e8388af5a0aa.html"];
+    dir_53b1ac56bbac572ab7abe4a40c57bc52 [shape=box label="hyperbolic" color="black" fillcolor="white" style="filled" URL="dir_53b1ac56bbac572ab7abe4a40c57bc52.html"];
+    dir_603b8e249ae764ddf92bc7f65c9f742c [shape=box label="linear" color="black" fillcolor="white" style="filled" URL="dir_603b8e249ae764ddf92bc7f65c9f742c.html"];
+    dir_2c5d605a4886b95cdb622c1e2f2e0fd4 [shape=box label="noBlending" color="black" fillcolor="white" style="filled" URL="dir_2c5d605a4886b95cdb622c1e2f2e0fd4.html"];
+  }
+  }
+  dir_d8cc37526a46758409c3e7c55a30fef4 [shape=box label="phaseModels" color="red" URL="dir_d8cc37526a46758409c3e7c55a30fef4.html"];
+  dir_232b64447c0419452180e8388af5a0aa->dir_d8cc37526a46758409c3e7c55a30fef4 [headlabel="1", labeldistance=1.5 headhref="dir_000041_000172.html"];
+  dir_603b8e249ae764ddf92bc7f65c9f742c->dir_232b64447c0419452180e8388af5a0aa [headlabel="1", labeldistance=1.5 headhref="dir_000149_000041.html"];
+  dir_2c5d605a4886b95cdb622c1e2f2e0fd4->dir_232b64447c0419452180e8388af5a0aa [headlabel="1", labeldistance=1.5 headhref="dir_000186_000041.html"];
+  dir_53b1ac56bbac572ab7abe4a40c57bc52->dir_232b64447c0419452180e8388af5a0aa [headlabel="1", labeldistance=1.5 headhref="dir_000131_000041.html"];
+}

@@ -4,5 +4,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node1 [label="BlendedInterfacialModel\l\< modelType \>",height=0.2,width=0.4,color="black",URL="$a00011.html"];
+  Node1 [label="Alopaeus",height=0.2,width=0.4,color="black",URL="$a00005.html",tooltip="Turbulent breakup kernel supplemented for bubbles in turbulent flows. "];
 }

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>JohnsonJacksonParticleThetaFvPatchScalarField Class Reference</title>
+<title>My Project: frictionalStressModel Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,9 +31,12 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
-    <td style="padding-left: 0.5em;">
-    <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
-    </td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   &#160;<span id="projectnumber">-dev</span>
+   </div>
+   <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
+  </td>
  </tr>
  </tbody>
 </table>
@@ -107,259 +110,120 @@ $(document).ready(function(){initNavTree('a00072.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="a01058.html">List of all members</a>  </div>
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="a01438.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">JohnsonJacksonParticleThetaFvPatchScalarField Class Reference</div>  </div>
+<div class="title">frictionalStressModel Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Robin condition for the particulate granular temperature.  
- <a href="a00072.html#details">More...</a></p>
 <div class="dynheader">
-Inheritance diagram for JohnsonJacksonParticleThetaFvPatchScalarField:</div>
+Inheritance diagram for frictionalStressModel:</div>
 <div class="dyncontent">
-<div class="center"><img src="a01059.png" border="0" usemap="#JohnsonJacksonParticleThetaFvPatchScalarField_inherit__map" alt="Inheritance graph"/></div>
-<map name="JohnsonJacksonParticleThetaFvPatchScalarField_inherit__map" id="JohnsonJacksonParticleThetaFvPatchScalarField_inherit__map">
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for JohnsonJacksonParticleThetaFvPatchScalarField:</div>
-<div class="dyncontent">
-<div class="center"><img src="a01060.png" border="0" usemap="#JohnsonJacksonParticleThetaFvPatchScalarField_coll__map" alt="Collaboration graph"/></div>
-<map name="JohnsonJacksonParticleThetaFvPatchScalarField_coll__map" id="JohnsonJacksonParticleThetaFvPatchScalarField_coll__map">
+<div class="center"><img src="a01439.png" border="0" usemap="#frictionalStressModel_inherit__map" alt="Inheritance graph"/></div>
+<map name="frictionalStressModel_inherit__map" id="frictionalStressModel_inherit__map">
+<area shape="rect" id="node2" href="a00098.html" title="JohnsonJackson" alt="" coords="5,80,129,107"/>
+<area shape="rect" id="node3" href="a00101.html" title="JohnsonJacksonSchaeffer" alt="" coords="154,80,335,107"/>
+<area shape="rect" id="node4" href="a00183.html" title="Schaeffer" alt="" coords="360,80,439,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3503fab13eb0a7226df1231951df6089"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#a3503fab13eb0a7226df1231951df6089">TypeName</a> (&quot;JohnsonJacksonParticleTheta&quot;)</td></tr>
-<tr class="memdesc:a3503fab13eb0a7226df1231951df6089"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#a3503fab13eb0a7226df1231951df6089">More...</a><br /></td></tr>
-<tr class="separator:a3503fab13eb0a7226df1231951df6089"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4de2b6aeef0cd5aed0a94d42a80ca16"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#ab4de2b6aeef0cd5aed0a94d42a80ca16">JohnsonJacksonParticleThetaFvPatchScalarField</a> (const fvPatch &amp;, const DimensionedField&lt; scalar, volMesh &gt; &amp;)</td></tr>
-<tr class="memdesc:ab4de2b6aeef0cd5aed0a94d42a80ca16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from patch and internal field.  <a href="#ab4de2b6aeef0cd5aed0a94d42a80ca16">More...</a><br /></td></tr>
-<tr class="separator:ab4de2b6aeef0cd5aed0a94d42a80ca16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad896ebd47fc1f2f92971dcefbdda839a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#ad896ebd47fc1f2f92971dcefbdda839a">JohnsonJacksonParticleThetaFvPatchScalarField</a> (const fvPatch &amp;, const DimensionedField&lt; scalar, volMesh &gt; &amp;, const dictionary &amp;)</td></tr>
-<tr class="memdesc:ad896ebd47fc1f2f92971dcefbdda839a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from patch, internal field and dictionary.  <a href="#ad896ebd47fc1f2f92971dcefbdda839a">More...</a><br /></td></tr>
-<tr class="separator:ad896ebd47fc1f2f92971dcefbdda839a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa297c89153786acaae10e1c2710a3928"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#aa297c89153786acaae10e1c2710a3928">JohnsonJacksonParticleThetaFvPatchScalarField</a> (const <a class="el" href="a00072.html">JohnsonJacksonParticleThetaFvPatchScalarField</a> &amp;, const fvPatch &amp;, const DimensionedField&lt; scalar, volMesh &gt; &amp;, const fvPatchFieldMapper &amp;)</td></tr>
-<tr class="memdesc:aa297c89153786acaae10e1c2710a3928"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct by mapping onto a new patch.  <a href="#aa297c89153786acaae10e1c2710a3928">More...</a><br /></td></tr>
-<tr class="separator:aa297c89153786acaae10e1c2710a3928"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a91158a3117d8fcfab3cb29cc279b48"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#a7a91158a3117d8fcfab3cb29cc279b48">JohnsonJacksonParticleThetaFvPatchScalarField</a> (const <a class="el" href="a00072.html">JohnsonJacksonParticleThetaFvPatchScalarField</a> &amp;)</td></tr>
-<tr class="memdesc:a7a91158a3117d8fcfab3cb29cc279b48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct as copy.  <a href="#a7a91158a3117d8fcfab3cb29cc279b48">More...</a><br /></td></tr>
-<tr class="separator:a7a91158a3117d8fcfab3cb29cc279b48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdeceecb1c75e9ccc98c2f489fe8fa00"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; fvPatchScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#afdeceecb1c75e9ccc98c2f489fe8fa00">clone</a> () const </td></tr>
-<tr class="memdesc:afdeceecb1c75e9ccc98c2f489fe8fa00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct and return a clone.  <a href="#afdeceecb1c75e9ccc98c2f489fe8fa00">More...</a><br /></td></tr>
-<tr class="separator:afdeceecb1c75e9ccc98c2f489fe8fa00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cf6a9245c7d534d37bb0232004d294a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#a4cf6a9245c7d534d37bb0232004d294a">JohnsonJacksonParticleThetaFvPatchScalarField</a> (const <a class="el" href="a00072.html">JohnsonJacksonParticleThetaFvPatchScalarField</a> &amp;, const DimensionedField&lt; scalar, volMesh &gt; &amp;)</td></tr>
-<tr class="memdesc:a4cf6a9245c7d534d37bb0232004d294a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct as copy setting internal field reference.  <a href="#a4cf6a9245c7d534d37bb0232004d294a">More...</a><br /></td></tr>
-<tr class="separator:a4cf6a9245c7d534d37bb0232004d294a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a53cadd8227f307947ec9c8750e5f11"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; fvPatchScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#a8a53cadd8227f307947ec9c8750e5f11">clone</a> (const DimensionedField&lt; scalar, volMesh &gt; &amp;iF) const </td></tr>
-<tr class="memdesc:a8a53cadd8227f307947ec9c8750e5f11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct and return a clone setting internal field reference.  <a href="#a8a53cadd8227f307947ec9c8750e5f11">More...</a><br /></td></tr>
-<tr class="separator:a8a53cadd8227f307947ec9c8750e5f11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14e8e75907d10256d8a4ab61520e7e08"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#a14e8e75907d10256d8a4ab61520e7e08">autoMap</a> (const fvPatchFieldMapper &amp;)</td></tr>
-<tr class="memdesc:a14e8e75907d10256d8a4ab61520e7e08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map (and resize as needed) from self given a mapping object.  <a href="#a14e8e75907d10256d8a4ab61520e7e08">More...</a><br /></td></tr>
-<tr class="separator:a14e8e75907d10256d8a4ab61520e7e08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a69c2588e34c53c0a08a60930c964bc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#a1a69c2588e34c53c0a08a60930c964bc">rmap</a> (const fvPatchScalarField &amp;, const labelList &amp;)</td></tr>
-<tr class="memdesc:a1a69c2588e34c53c0a08a60930c964bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reverse map the given fvPatchField onto this fvPatchField.  <a href="#a1a69c2588e34c53c0a08a60930c964bc">More...</a><br /></td></tr>
-<tr class="separator:a1a69c2588e34c53c0a08a60930c964bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a578f7c989cf81854d45213ec3ee3062a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#a578f7c989cf81854d45213ec3ee3062a">updateCoeffs</a> ()</td></tr>
-<tr class="memdesc:a578f7c989cf81854d45213ec3ee3062a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the coefficients.  <a href="#a578f7c989cf81854d45213ec3ee3062a">More...</a><br /></td></tr>
-<tr class="separator:a578f7c989cf81854d45213ec3ee3062a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8485e769c905e0174ac3bc1970eac328"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#a8485e769c905e0174ac3bc1970eac328">write</a> (Ostream &amp;) const </td></tr>
-<tr class="memdesc:a8485e769c905e0174ac3bc1970eac328"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write.  <a href="#a8485e769c905e0174ac3bc1970eac328">More...</a><br /></td></tr>
-<tr class="separator:a8485e769c905e0174ac3bc1970eac328"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af94b60ff3239fa81ced4741c546de289"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#af94b60ff3239fa81ced4741c546de289">TypeName</a> (&quot;frictionalStressModel&quot;)</td></tr>
+<tr class="memdesc:af94b60ff3239fa81ced4741c546de289"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#af94b60ff3239fa81ced4741c546de289">More...</a><br /></td></tr>
+<tr class="separator:af94b60ff3239fa81ced4741c546de289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2741be6f2501ad67d012f86baff59c92"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#a2741be6f2501ad67d012f86baff59c92">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00072.html">frictionalStressModel</a>, dictionary,(                                       const dictionary &amp;dict                       ),(dict))</td></tr>
+<tr class="separator:a2741be6f2501ad67d012f86baff59c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10a490ec2de060d40877d7cd26f6577d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#a10a490ec2de060d40877d7cd26f6577d">frictionalStressModel</a> (const dictionary &amp;dict)</td></tr>
+<tr class="memdesc:a10a490ec2de060d40877d7cd26f6577d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#a10a490ec2de060d40877d7cd26f6577d">More...</a><br /></td></tr>
+<tr class="separator:a10a490ec2de060d40877d7cd26f6577d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f71b430053e2a10283db3dc6b8b96ac"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#a1f71b430053e2a10283db3dc6b8b96ac">~frictionalStressModel</a> ()</td></tr>
+<tr class="memdesc:a1f71b430053e2a10283db3dc6b8b96ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a1f71b430053e2a10283db3dc6b8b96ac">More...</a><br /></td></tr>
+<tr class="separator:a1f71b430053e2a10283db3dc6b8b96ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ea985dd666b633e603e6f2a84ff4afe"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#a6ea985dd666b633e603e6f2a84ff4afe">frictionalPressure</a> (const <a class="el" href="a00170.html">phaseModel</a> &amp;phase, const dimensionedScalar &amp;alphaMinFriction, const dimensionedScalar &amp;alphaMax) const  =0</td></tr>
+<tr class="separator:a6ea985dd666b633e603e6f2a84ff4afe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8949243dd1fb635cd5afd452f6b7f06b"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#a8949243dd1fb635cd5afd452f6b7f06b">frictionalPressurePrime</a> (const <a class="el" href="a00170.html">phaseModel</a> &amp;phase, const dimensionedScalar &amp;alphaMinFriction, const dimensionedScalar &amp;alphaMax) const  =0</td></tr>
+<tr class="separator:a8949243dd1fb635cd5afd452f6b7f06b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5035d13518e7cefd211c8f47e9f9a8d3"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#a5035d13518e7cefd211c8f47e9f9a8d3">nu</a> (const <a class="el" href="a00170.html">phaseModel</a> &amp;phase, const dimensionedScalar &amp;alphaMinFriction, const dimensionedScalar &amp;alphaMax, const volScalarField &amp;pf, const volSymmTensorField &amp;D) const  =0</td></tr>
+<tr class="separator:a5035d13518e7cefd211c8f47e9f9a8d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eeeaebe7e52f5d842385ce0b177150d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#a2eeeaebe7e52f5d842385ce0b177150d">read</a> ()=0</td></tr>
+<tr class="separator:a2eeeaebe7e52f5d842385ce0b177150d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:af4b073000c3b3d6bba3ee4023f40aa98"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00072.html">frictionalStressModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#af4b073000c3b3d6bba3ee4023f40aa98">New</a> (const dictionary &amp;dict)</td></tr>
+<tr class="separator:af4b073000c3b3d6bba3ee4023f40aa98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a892ddcb9cba6f50b0396cdb7bf1b4f6a"><td class="memItemLeft" align="right" valign="top">const dictionary &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00072.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a">dict_</a></td></tr>
+<tr class="memdesc:a892ddcb9cba6f50b0396cdb7bf1b4f6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to higher-level dictionary for re-read.  <a href="#a892ddcb9cba6f50b0396cdb7bf1b4f6a">More...</a><br /></td></tr>
+<tr class="separator:a892ddcb9cba6f50b0396cdb7bf1b4f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Robin condition for the particulate granular temperature. </p>
-<p><a class="anchor" id="Description"></a>References: </p><pre class="fragment">    "Multifluid Eulerian modeling of dense gas–solids fluidized bed
-     hydrodynamics: Influence of the dissipation parameters"
-    Reuge, N.,
-    Chemical Engineering Science
-    Volume 63, Issue 22, November 2008, pp. 5540-5551
-</pre><pre class="fragment">    "Frictional-collisional constitutive relations for granular materials,
-     with application to plane shearing"
-    Johnson, P.C., and Jackson, R.,
-    Journal of Fluid Mechanics
-    Volume 176, March 1987, pp. 67-93
-</pre><dl class="section user"><dt>Source files</dt><dd><ul>
+<div class="textblock"><dl class="section user"><dt>Source files</dt><dd><ul>
 <li>
-<a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/phaseCompressibleTurbulenceModels/kineticTheoryModels/derivedFvPatchFields/JohnsonJacksonParticleTheta/JohnsonJacksonParticleThetaFvPatchScalarField.H">JohnsonJacksonParticleThetaFvPatchScalarField.H</a> </li>
+<a href="/home/alberto/Desktop/OpenQBMM-Test/OpenQBMM/applications/solvers/multiphase/phaseCompressibleTurbulenceModels/kineticTheory/kineticTheorySubModels/frictionalStressModel/frictionalStressModel/frictionalStressModel.H">frictionalStressModel.H</a> </li>
 <li>
-<a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/phaseCompressibleTurbulenceModels/kineticTheoryModels/derivedFvPatchFields/JohnsonJacksonParticleTheta/JohnsonJacksonParticleThetaFvPatchScalarField.C">JohnsonJacksonParticleThetaFvPatchScalarField.C</a> </li>
+<a href="/home/alberto/Desktop/OpenQBMM-Test/OpenQBMM/applications/solvers/multiphase/phaseCompressibleTurbulenceModels/kineticTheory/kineticTheorySubModels/frictionalStressModel/frictionalStressModel/frictionalStressModel.C">frictionalStressModel.C</a> </li>
 </ul>
 </dd></dl>
 
-<p>Definition at line <a class="el" href="a00340_source.html#l00065">65</a> of file <a class="el" href="a00340_source.html">JohnsonJacksonParticleThetaFvPatchScalarField.H</a>.</p>
+<p>Definition at line <a class="el" href="a00376_source.html#l00051">51</a> of file <a class="el" href="a00376_source.html">frictionalStressModel.H</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ab4de2b6aeef0cd5aed0a94d42a80ca16"></a>
+<a class="anchor" id="a10a490ec2de060d40877d7cd26f6577d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00072.html">JohnsonJacksonParticleThetaFvPatchScalarField</a> </td>
+          <td class="memname"><a class="el" href="a00072.html">frictionalStressModel</a> </td>
           <td>(</td>
-          <td class="paramtype">const fvPatch &amp;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const DimensionedField&lt; scalar, volMesh &gt; &amp;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Construct from patch and internal field. </p>
-
-<p>Referenced by <a class="el" href="a00340_source.html#l00117">JohnsonJacksonParticleThetaFvPatchScalarField::clone()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00072_ab4de2b6aeef0cd5aed0a94d42a80ca16_icgraph.png" border="0" usemap="#a00072_ab4de2b6aeef0cd5aed0a94d42a80ca16_icgraph" alt=""/></div>
-<map name="a00072_ab4de2b6aeef0cd5aed0a94d42a80ca16_icgraph" id="a00072_ab4de2b6aeef0cd5aed0a94d42a80ca16_icgraph">
-<area shape="rect" id="node2" href="a00072.html#afdeceecb1c75e9ccc98c2f489fe8fa00" title="Construct and return a clone. " alt="" coords="259,13,313,39"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="ad896ebd47fc1f2f92971dcefbdda839a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="a00072.html">JohnsonJacksonParticleThetaFvPatchScalarField</a> </td>
-          <td>(</td>
-          <td class="paramtype">const fvPatch &amp;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const DimensionedField&lt; scalar, volMesh &gt; &amp;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">const dictionary &amp;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
+          <td class="paramname"><em>dict</em></td><td>)</td>
           <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Construct from patch, internal field and dictionary. </p>
+<p>Construct from components. </p>
 
 </div>
 </div>
-<a class="anchor" id="aa297c89153786acaae10e1c2710a3928"></a>
+<a class="anchor" id="a1f71b430053e2a10283db3dc6b8b96ac"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00072.html">JohnsonJacksonParticleThetaFvPatchScalarField</a> </td>
+          <td class="memname">virtual ~<a class="el" href="a00072.html">frictionalStressModel</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="a00072.html">JohnsonJacksonParticleThetaFvPatchScalarField</a> &amp;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const fvPatch &amp;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const DimensionedField&lt; scalar, volMesh &gt; &amp;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const fvPatchFieldMapper &amp;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Construct by mapping onto a new patch. </p>
-
-</div>
-</div>
-<a class="anchor" id="a7a91158a3117d8fcfab3cb29cc279b48"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="a00072.html">JohnsonJacksonParticleThetaFvPatchScalarField</a> </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="a00072.html">JohnsonJacksonParticleThetaFvPatchScalarField</a> &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Construct as copy. </p>
-
-</div>
-</div>
-<a class="anchor" id="a4cf6a9245c7d534d37bb0232004d294a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="a00072.html">JohnsonJacksonParticleThetaFvPatchScalarField</a> </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="a00072.html">JohnsonJacksonParticleThetaFvPatchScalarField</a> &amp;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const DimensionedField&lt; scalar, volMesh &gt; &amp;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Construct as copy setting internal field reference. </p>
+<p>Destructor. </p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a3503fab13eb0a7226df1231951df6089"></a>
+<a class="anchor" id="af94b60ff3239fa81ced4741c546de289"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">TypeName </td>
           <td>(</td>
-          <td class="paramtype">&quot;JohnsonJacksonParticleTheta&quot;&#160;</td>
+          <td class="paramtype">&quot;frictionalStressModel&quot;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -370,144 +234,38 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="afdeceecb1c75e9ccc98c2f489fe8fa00"></a>
+<a class="anchor" id="a2741be6f2501ad67d012f86baff59c92"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual tmp&lt;fvPatchScalarField&gt; clone </td>
+          <td class="memname">declareRunTimeSelectionTable </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Construct and return a clone. </p>
-
-<p>Definition at line <a class="el" href="a00340_source.html#l00117">117</a> of file <a class="el" href="a00340_source.html">JohnsonJacksonParticleThetaFvPatchScalarField.H</a>.</p>
-
-<p>References <a class="el" href="a00072.html#ab4de2b6aeef0cd5aed0a94d42a80ca16">JohnsonJacksonParticleThetaFvPatchScalarField::JohnsonJacksonParticleThetaFvPatchScalarField()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00072_afdeceecb1c75e9ccc98c2f489fe8fa00_cgraph.png" border="0" usemap="#a00072_afdeceecb1c75e9ccc98c2f489fe8fa00_cgraph" alt=""/></div>
-<map name="a00072_afdeceecb1c75e9ccc98c2f489fe8fa00_cgraph" id="a00072_afdeceecb1c75e9ccc98c2f489fe8fa00_cgraph">
-<area shape="rect" id="node2" href="a00072.html#ab4de2b6aeef0cd5aed0a94d42a80ca16" title="Construct from patch and internal field. " alt="" coords="108,5,313,47"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a8a53cadd8227f307947ec9c8750e5f11"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual tmp&lt;fvPatchScalarField&gt; clone </td>
-          <td>(</td>
-          <td class="paramtype">const DimensionedField&lt; scalar, volMesh &gt; &amp;&#160;</td>
-          <td class="paramname"><em>iF</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Construct and return a clone setting internal field reference. </p>
-
-<p>Definition at line <a class="el" href="a00340_source.html#l00134">134</a> of file <a class="el" href="a00340_source.html">JohnsonJacksonParticleThetaFvPatchScalarField.H</a>.</p>
-
-<p>References <a class="el" href="a00072.html#a14e8e75907d10256d8a4ab61520e7e08">JohnsonJacksonParticleThetaFvPatchScalarField::autoMap()</a>, <a class="el" href="a00072.html#ab4de2b6aeef0cd5aed0a94d42a80ca16">JohnsonJacksonParticleThetaFvPatchScalarField::JohnsonJacksonParticleThetaFvPatchScalarField()</a>, <a class="el" href="a00072.html#a1a69c2588e34c53c0a08a60930c964bc">JohnsonJacksonParticleThetaFvPatchScalarField::rmap()</a>, <a class="el" href="a00072.html#a578f7c989cf81854d45213ec3ee3062a">JohnsonJacksonParticleThetaFvPatchScalarField::updateCoeffs()</a>, and <a class="el" href="a00072.html#a8485e769c905e0174ac3bc1970eac328">JohnsonJacksonParticleThetaFvPatchScalarField::write()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00072_a8a53cadd8227f307947ec9c8750e5f11_cgraph.png" border="0" usemap="#a00072_a8a53cadd8227f307947ec9c8750e5f11_cgraph" alt=""/></div>
-<map name="a00072_a8a53cadd8227f307947ec9c8750e5f11_cgraph" id="a00072_a8a53cadd8227f307947ec9c8750e5f11_cgraph">
-<area shape="rect" id="node2" href="a00072.html#a14e8e75907d10256d8a4ab61520e7e08" title="Map (and resize as needed) from self given a mapping object. " alt="" coords="173,5,248,32"/>
-<area shape="rect" id="node3" href="a00072.html#ab4de2b6aeef0cd5aed0a94d42a80ca16" title="Construct from patch and internal field. " alt="" coords="108,57,313,98"/>
-<area shape="rect" id="node4" href="a00072.html#a1a69c2588e34c53c0a08a60930c964bc" title="Reverse map the given fvPatchField onto this fvPatchField. " alt="" coords="185,123,237,149"/>
-<area shape="rect" id="node5" href="a00072.html#a578f7c989cf81854d45213ec3ee3062a" title="Update the coefficients. " alt="" coords="159,173,262,200"/>
-<area shape="rect" id="node6" href="a00072.html#a8485e769c905e0174ac3bc1970eac328" title="Write. " alt="" coords="185,224,236,251"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a14e8e75907d10256d8a4ab61520e7e08"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void autoMap </td>
-          <td>(</td>
-          <td class="paramtype">const fvPatchFieldMapper &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Map (and resize as needed) from self given a mapping object. </p>
-
-<p>Referenced by <a class="el" href="a00340_source.html#l00134">JohnsonJacksonParticleThetaFvPatchScalarField::clone()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00072_a14e8e75907d10256d8a4ab61520e7e08_icgraph.png" border="0" usemap="#a00072_a14e8e75907d10256d8a4ab61520e7e08_icgraph" alt=""/></div>
-<map name="a00072_a14e8e75907d10256d8a4ab61520e7e08_icgraph" id="a00072_a14e8e75907d10256d8a4ab61520e7e08_icgraph">
-<area shape="rect" id="node2" href="a00072.html#a8a53cadd8227f307947ec9c8750e5f11" title="Construct and return a clone setting internal field reference. " alt="" coords="128,5,183,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a1a69c2588e34c53c0a08a60930c964bc"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void rmap </td>
-          <td>(</td>
-          <td class="paramtype">const fvPatchScalarField &amp;&#160;</td>
+          <td class="paramtype">autoPtr&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const labelList &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="a00072.html">frictionalStressModel</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dictionary&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">(                                                                           const dictionary &amp;dict                                           )&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">(dict)&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -516,30 +274,11 @@ Here is the caller graph for this function:</div>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Reverse map the given fvPatchField onto this fvPatchField. </p>
-
-<p>Referenced by <a class="el" href="a00340_source.html#l00134">JohnsonJacksonParticleThetaFvPatchScalarField::clone()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00072_a1a69c2588e34c53c0a08a60930c964bc_icgraph.png" border="0" usemap="#a00072_a1a69c2588e34c53c0a08a60930c964bc_icgraph" alt=""/></div>
-<map name="a00072_a1a69c2588e34c53c0a08a60930c964bc_icgraph" id="a00072_a1a69c2588e34c53c0a08a60930c964bc_icgraph">
-<area shape="rect" id="node2" href="a00072.html#a8a53cadd8227f307947ec9c8750e5f11" title="Construct and return a clone setting internal field reference. " alt="" coords="105,5,160,32"/>
-</map>
-</div>
-</p>
-
 </div>
 </div>
-<a class="anchor" id="a578f7c989cf81854d45213ec3ee3062a"></a>
+<a class="anchor" id="af4b073000c3b3d6bba3ee4023f40aa98"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -547,7 +286,169 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void updateCoeffs </td>
+          <td class="memname">static autoPtr&lt;<a class="el" href="a00072.html">frictionalStressModel</a>&gt; New </td>
+          <td>(</td>
+          <td class="paramtype">const dictionary &amp;&#160;</td>
+          <td class="paramname"><em>dict</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6ea985dd666b633e603e6f2a84ff4afe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual tmp&lt;volScalarField&gt; frictionalPressure </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="a00170.html">phaseModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>phase</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dimensionedScalar &amp;&#160;</td>
+          <td class="paramname"><em>alphaMinFriction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dimensionedScalar &amp;&#160;</td>
+          <td class="paramname"><em>alphaMax</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="a00098.html#a2fc1dda5901ee9cb4c70a6ba2301884b">JohnsonJackson</a>, <a class="el" href="a00101.html#a2fc1dda5901ee9cb4c70a6ba2301884b">JohnsonJacksonSchaeffer</a>, and <a class="el" href="a00183.html#a2fc1dda5901ee9cb4c70a6ba2301884b">Schaeffer</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8949243dd1fb635cd5afd452f6b7f06b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual tmp&lt;volScalarField&gt; frictionalPressurePrime </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="a00170.html">phaseModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>phase</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dimensionedScalar &amp;&#160;</td>
+          <td class="paramname"><em>alphaMinFriction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dimensionedScalar &amp;&#160;</td>
+          <td class="paramname"><em>alphaMax</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="a00098.html#adfefae1dab0fb12943207676bf26dce8">JohnsonJackson</a>, <a class="el" href="a00101.html#adfefae1dab0fb12943207676bf26dce8">JohnsonJacksonSchaeffer</a>, and <a class="el" href="a00183.html#adfefae1dab0fb12943207676bf26dce8">Schaeffer</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5035d13518e7cefd211c8f47e9f9a8d3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual tmp&lt;volScalarField&gt; nu </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="a00170.html">phaseModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>phase</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dimensionedScalar &amp;&#160;</td>
+          <td class="paramname"><em>alphaMinFriction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dimensionedScalar &amp;&#160;</td>
+          <td class="paramname"><em>alphaMax</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const volScalarField &amp;&#160;</td>
+          <td class="paramname"><em>pf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const volSymmTensorField &amp;&#160;</td>
+          <td class="paramname"><em>D</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="a00098.html#ae429d57404660fbf93f53dbcd90c9e49">JohnsonJackson</a>, <a class="el" href="a00101.html#ae429d57404660fbf93f53dbcd90c9e49">JohnsonJacksonSchaeffer</a>, and <a class="el" href="a00183.html#ae429d57404660fbf93f53dbcd90c9e49">Schaeffer</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2eeeaebe7e52f5d842385ce0b177150d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool read </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -555,28 +456,17 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Update the coefficients. </p>
-
-<p>Referenced by <a class="el" href="a00340_source.html#l00134">JohnsonJacksonParticleThetaFvPatchScalarField::clone()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00072_a578f7c989cf81854d45213ec3ee3062a_icgraph.png" border="0" usemap="#a00072_a578f7c989cf81854d45213ec3ee3062a_icgraph" alt=""/></div>
-<map name="a00072_a578f7c989cf81854d45213ec3ee3062a_icgraph" id="a00072_a578f7c989cf81854d45213ec3ee3062a_icgraph">
-<area shape="rect" id="node2" href="a00072.html#a8a53cadd8227f307947ec9c8750e5f11" title="Construct and return a clone setting internal field reference. " alt="" coords="156,5,211,32"/>
-</map>
-</div>
-</p>
+<p>Implemented in <a class="el" href="a00098.html#abcf7aafd601a940195284bc91610bb08">JohnsonJackson</a>, <a class="el" href="a00101.html#abcf7aafd601a940195284bc91610bb08">JohnsonJacksonSchaeffer</a>, and <a class="el" href="a00183.html#abcf7aafd601a940195284bc91610bb08">Schaeffer</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a8485e769c905e0174ac3bc1970eac328"></a>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a892ddcb9cba6f50b0396cdb7bf1b4f6a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -584,45 +474,31 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void write </td>
-          <td>(</td>
-          <td class="paramtype">Ostream &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td class="memname">const dictionary&amp; dict_</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Write. </p>
+<p>Reference to higher-level dictionary for re-read. </p>
 
-<p>Referenced by <a class="el" href="a00340_source.html#l00134">JohnsonJacksonParticleThetaFvPatchScalarField::clone()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00072_a8485e769c905e0174ac3bc1970eac328_icgraph.png" border="0" usemap="#a00072_a8485e769c905e0174ac3bc1970eac328_icgraph" alt=""/></div>
-<map name="a00072_a8485e769c905e0174ac3bc1970eac328_icgraph" id="a00072_a8485e769c905e0174ac3bc1970eac328_icgraph">
-<area shape="rect" id="node2" href="a00072.html#a8a53cadd8227f307947ec9c8750e5f11" title="Construct and return a clone setting internal field reference. " alt="" coords="104,5,159,32"/>
-</map>
-</div>
-</p>
+<p>Definition at line <a class="el" href="a00376_source.html#l00067">67</a> of file <a class="el" href="a00376_source.html">frictionalStressModel.H</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="a00340_source.html">JohnsonJacksonParticleThetaFvPatchScalarField.H</a></li>
+<li><a class="el" href="a00376_source.html">frictionalStressModel.H</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00605.html">Foam</a></li><li class="navelem"><a class="el" href="a00072.html">JohnsonJacksonParticleThetaFvPatchScalarField</a></li>
+    <li class="navelem"><a class="el" href="a00723.html">Foam</a></li><li class="navelem"><a class="el" href="a00733.html">kineticTheoryModels</a></li><li class="navelem"><a class="el" href="a00072.html">frictionalStressModel</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

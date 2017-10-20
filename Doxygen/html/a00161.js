@@ -1,7 +1,7 @@
 var a00161 =
 [
-    [ "turbulentBrownian", "a00161.html#a69313e09fe86ca111b470eff033b395d", null ],
-    [ "~turbulentBrownian", "a00161.html#a870db0e339e84ac084658eea637e60a0", null ],
-    [ "TypeName", "a00161.html#ad85b05c960956edb395072e9c0879d23", null ],
-    [ "Ka", "a00161.html#aff545f8602677e85abbb1b6c6d0fb20f", null ]
+    [ "oneQuarterMassRatio", "a00161.html#a962d460d76cd33e02cf608ca4beacb77", null ],
+    [ "~oneQuarterMassRatio", "a00161.html#a147fb07ac3fc0d40d665bba9391ef32d", null ],
+    [ "TypeName", "a00161.html#a7fb47156df4cac064c2b90cb0fc81675", null ],
+    [ "mD", "a00161.html#af11d63388088dc9b381b450559526d24", null ]
 ];

@@ -1,3 +1,3 @@
-<map id="alphaAndDiameter" name="alphaAndDiameter">
-<area shape="rect" id="node2" href="$a00098.html" title="Base class for runtime selection for moment generation. One object is used for all node..." alt="" coords="5,5,180,32"/>
+<map id="univariateMomentSet" name="univariateMomentSet">
+<area shape="rect" id="node2" href="$a00136.html" title="Stores a generic moment set with the corresponding list of orders. " alt="" coords="34,5,125,32"/>
 </map>

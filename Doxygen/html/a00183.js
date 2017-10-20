@@ -1,7 +1,10 @@
 var a00183 =
 [
-    [ "wallDependentModel", "a00183.html#a89eebd55d6bf5c29f8add1a9c7c60233", null ],
-    [ "~wallDependentModel", "a00183.html#afc9fbc8fc5a704065f9e392563be0f0f", null ],
-    [ "yWall", "a00183.html#a7d3dada39d35eeffceccf373b54f55f9", null ],
-    [ "nWall", "a00183.html#a4b49acee5772782f0e71f8908f968ede", null ]
+    [ "Schaeffer", "a00183.html#a77fabfee38cfbdfada387add9e9e2fb4", null ],
+    [ "~Schaeffer", "a00183.html#acd9186bf2c0b9430d0e8b52d15b45800", null ],
+    [ "TypeName", "a00183.html#a14d5c45df4dca1c0266e55ebfb4da5d0", null ],
+    [ "frictionalPressure", "a00183.html#a2fc1dda5901ee9cb4c70a6ba2301884b", null ],
+    [ "frictionalPressurePrime", "a00183.html#adfefae1dab0fb12943207676bf26dce8", null ],
+    [ "nu", "a00183.html#ae429d57404660fbf93f53dbcd90c9e49", null ],
+    [ "read", "a00183.html#abcf7aafd601a940195284bc91610bb08", null ]
 ];

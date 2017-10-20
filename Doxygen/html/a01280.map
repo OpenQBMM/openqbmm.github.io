@@ -1,3 +1,4 @@
-<map id="noLift" name="noLift">
-<area shape="rect" id="node2" href="$a00079.html" title="liftModel" alt="" coords="5,5,77,32"/>
+<map id="phasePair" name="phasePair">
+<area shape="rect" id="node3" href="$a00162.html" title="orderedPhasePair" alt="" coords="5,155,139,181"/>
+<area shape="rect" id="node2" href="$a00172.html" title="phasePairKey" alt="" coords="19,5,125,32"/>
 </map>

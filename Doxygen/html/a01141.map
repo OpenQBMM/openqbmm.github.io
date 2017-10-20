@@ -1,5 +1,4 @@
-<map id="wallDampingModel" name="wallDampingModel">
-<area shape="rect" id="node3" href="$a00068.html" title="interpolated" alt="" coords="5,155,97,181"/>
-<area shape="rect" id="node4" href="$a00120.html" title="noWallDamping" alt="" coords="121,155,240,181"/>
-<area shape="rect" id="node2" href="$a00183.html" title="A class which provides on&#45;demand creation and caching of wall distance and wall normal fields for use..." alt="" coords="40,5,191,32"/>
+<map id="univariateMomentInversion.H" name="univariateMomentInversion.H">
+<area shape="rect" id="node5" href="$a00689.html" title="univariateMomentSet.H" alt="" coords="379,80,539,107"/>
+<area shape="rect" id="node6" href="$a00687.html" title="univariateMomentInversionI.H" alt="" coords="563,80,760,107"/>
 </map>

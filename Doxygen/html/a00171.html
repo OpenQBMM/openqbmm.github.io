@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>univariatePDFTransportModel Class Reference</title>
+<title>My Project: phasePair Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,9 +31,12 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
-    <td style="padding-left: 0.5em;">
-    <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
-    </td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   &#160;<span id="projectnumber">-dev</span>
+   </div>
+   <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
+  </td>
  </tr>
  </tbody>
 </table>
@@ -106,124 +109,212 @@ $(document).ready(function(){initNavTree('a00171.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="a01318.html">List of all members</a>  </div>
+<a href="a01279.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">univariatePDFTransportModel Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">phasePair Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Inheritance diagram for univariatePDFTransportModel:</div>
+Inheritance diagram for phasePair:</div>
 <div class="dyncontent">
-<div class="center"><img src="a01319.png" border="0" usemap="#univariatePDFTransportModel_inherit__map" alt="Inheritance graph"/></div>
-<map name="univariatePDFTransportModel_inherit__map" id="univariatePDFTransportModel_inherit__map">
-<area shape="rect" id="node3" href="a00165.html" title="turbulentMixing" alt="" coords="5,155,116,181"/>
-<area shape="rect" id="node4" href="a00174.html" title="univariatePopulationBalance" alt="" coords="140,155,333,181"/>
-<area shape="rect" id="node2" href="a00126.html" title="Abstract class for the run&#45;time selection of the PDF transport model. " alt="" coords="76,5,221,32"/>
+<div class="center"><img src="a01280.png" border="0" usemap="#phasePair_inherit__map" alt="Inheritance graph"/></div>
+<map name="phasePair_inherit__map" id="phasePair_inherit__map">
+<area shape="rect" id="node3" href="a00162.html" title="orderedPhasePair" alt="" coords="5,155,139,181"/>
+<area shape="rect" id="node2" href="a00172.html" title="phasePairKey" alt="" coords="19,5,125,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for univariatePDFTransportModel:</div>
+Collaboration diagram for phasePair:</div>
 <div class="dyncontent">
-<div class="center"><img src="a01320.png" border="0" usemap="#univariatePDFTransportModel_coll__map" alt="Collaboration graph"/></div>
-<map name="univariatePDFTransportModel_coll__map" id="univariatePDFTransportModel_coll__map">
-<area shape="rect" id="node2" href="a00126.html" title="Abstract class for the run&#45;time selection of the PDF transport model. " alt="" coords="40,5,185,32"/>
-<area shape="rect" id="node3" href="a00136.html" title="quadratureApproximation\l\&lt; volUnivariateMomentFieldSet,\l volScalarNode \&gt;" alt="" coords="5,56,220,112"/>
+<div class="center"><img src="a01281.png" border="0" usemap="#phasePair_coll__map" alt="Collaboration graph"/></div>
+<map name="phasePair_coll__map" id="phasePair_coll__map">
+<area shape="rect" id="node2" href="a00172.html" title="phasePairKey" alt="" coords="5,5,112,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:af363db3b15b36bf4fa7997d250543a18"><td class="memItemLeft" align="right" valign="top">typedef HashTable&lt; dictionary, <a class="el" href="a00172.html">phasePairKey</a>, <a class="el" href="a00086.html">phasePairKey::hash</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#af363db3b15b36bf4fa7997d250543a18">dictTable</a></td></tr>
+<tr class="memdesc:af363db3b15b36bf4fa7997d250543a18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dictionary hash table.  <a href="#af363db3b15b36bf4fa7997d250543a18">More...</a><br /></td></tr>
+<tr class="separator:af363db3b15b36bf4fa7997d250543a18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaeea9792724877a3bebe88ab0dff000"><td class="memItemLeft" align="right" valign="top">typedef HashTable&lt; scalar, <a class="el" href="a00172.html">phasePairKey</a>, <a class="el" href="a00086.html">phasePairKey::hash</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#acaeea9792724877a3bebe88ab0dff000">scalarTable</a></td></tr>
+<tr class="memdesc:acaeea9792724877a3bebe88ab0dff000"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scalar hash table.  <a href="#acaeea9792724877a3bebe88ab0dff000">More...</a><br /></td></tr>
+<tr class="separator:acaeea9792724877a3bebe88ab0dff000"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac76f0af150281544efbb317164c0075e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#ac76f0af150281544efbb317164c0075e">univariatePDFTransportModel</a> (const word &amp;name, const dictionary &amp;dict, const fvMesh &amp;mesh, const surfaceScalarField &amp;<a class="el" href="a00249.html#a1a97abcf6c141f539994c8a21c8daca7">phi</a>, const word &amp;support)</td></tr>
-<tr class="memdesc:ac76f0af150281544efbb317164c0075e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#ac76f0af150281544efbb317164c0075e">More...</a><br /></td></tr>
-<tr class="separator:ac76f0af150281544efbb317164c0075e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c2fb39b317ec861cc76f8a047fb2e0b"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#a7c2fb39b317ec861cc76f8a047fb2e0b">~univariatePDFTransportModel</a> ()</td></tr>
-<tr class="memdesc:a7c2fb39b317ec861cc76f8a047fb2e0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a7c2fb39b317ec861cc76f8a047fb2e0b">More...</a><br /></td></tr>
-<tr class="separator:a7c2fb39b317ec861cc76f8a047fb2e0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a200f5b2e653f07470d4ac4fa1a317779"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00605.html#a545e54cd8a5ad1ca2192158b263148c5">univariateQuadratureApproximation</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#a200f5b2e653f07470d4ac4fa1a317779">quadrature</a> () const </td></tr>
-<tr class="memdesc:a200f5b2e653f07470d4ac4fa1a317779"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access.  <a href="#a200f5b2e653f07470d4ac4fa1a317779">More...</a><br /></td></tr>
-<tr class="separator:a200f5b2e653f07470d4ac4fa1a317779"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bb437cbddedbf3f4b27f0e5de4e442d"><td class="memItemLeft" align="right" valign="top">scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#a5bb437cbddedbf3f4b27f0e5de4e442d">realizableCo</a> ()</td></tr>
-<tr class="memdesc:a5bb437cbddedbf3f4b27f0e5de4e442d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the maximum Courant number ensuring moment realizability.  <a href="#a5bb437cbddedbf3f4b27f0e5de4e442d">More...</a><br /></td></tr>
-<tr class="separator:a5bb437cbddedbf3f4b27f0e5de4e442d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7d39f0eac0af0ed5785935ac72a1e7d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#af7d39f0eac0af0ed5785935ac72a1e7d">solve</a> ()</td></tr>
-<tr class="memdesc:af7d39f0eac0af0ed5785935ac72a1e7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edit.  <a href="#af7d39f0eac0af0ed5785935ac72a1e7d">More...</a><br /></td></tr>
-<tr class="separator:af7d39f0eac0af0ed5785935ac72a1e7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a00126"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00126')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="a00126.html">PDFTransportModel</a></td></tr>
-<tr class="memitem:a7a484ccf0035787e3f0694401128817a inherit pub_methods_a00126"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00126.html#a7a484ccf0035787e3f0694401128817a">PDFTransportModel</a> (const word &amp;name, const dictionary &amp;dict, const fvMesh &amp;mesh)</td></tr>
-<tr class="memdesc:a7a484ccf0035787e3f0694401128817a inherit pub_methods_a00126"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#a7a484ccf0035787e3f0694401128817a">More...</a><br /></td></tr>
-<tr class="separator:a7a484ccf0035787e3f0694401128817a inherit pub_methods_a00126"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa73779ffb5b8359a6463d7c93864fee6 inherit pub_methods_a00126"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00126.html#aa73779ffb5b8359a6463d7c93864fee6">~PDFTransportModel</a> ()</td></tr>
-<tr class="memdesc:aa73779ffb5b8359a6463d7c93864fee6 inherit pub_methods_a00126"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#aa73779ffb5b8359a6463d7c93864fee6">More...</a><br /></td></tr>
-<tr class="separator:aa73779ffb5b8359a6463d7c93864fee6 inherit pub_methods_a00126"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a6dca7ee5f9dcbd74ab958fead1ac05fd"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; fvScalarMatrix &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#a6dca7ee5f9dcbd74ab958fead1ac05fd">momentDiffusion</a> (const <a class="el" href="a00605.html#a1247bdc497fbec0f2b067b84972d3873">volUnivariateMoment</a> &amp;<a class="el" href="a00095.html">moment</a>)=0</td></tr>
-<tr class="memdesc:a6dca7ee5f9dcbd74ab958fead1ac05fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Diffusion term.  <a href="#a6dca7ee5f9dcbd74ab958fead1ac05fd">More...</a><br /></td></tr>
-<tr class="separator:a6dca7ee5f9dcbd74ab958fead1ac05fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a984a91bb0f818af9554dbc6805598ea3"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; fvScalarMatrix &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#a984a91bb0f818af9554dbc6805598ea3">implicitMomentSource</a> (const <a class="el" href="a00605.html#a1247bdc497fbec0f2b067b84972d3873">volUnivariateMoment</a> &amp;<a class="el" href="a00095.html">moment</a>)=0</td></tr>
-<tr class="memdesc:a984a91bb0f818af9554dbc6805598ea3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate implicit source terms.  <a href="#a984a91bb0f818af9554dbc6805598ea3">More...</a><br /></td></tr>
-<tr class="separator:a984a91bb0f818af9554dbc6805598ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85b0ae2fdf7934eb3a8fda32f8795fa5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#a85b0ae2fdf7934eb3a8fda32f8795fa5">explicitMomentSource</a> ()</td></tr>
-<tr class="memdesc:a85b0ae2fdf7934eb3a8fda32f8795fa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate explicit source terms with realizable ODE solver.  <a href="#a85b0ae2fdf7934eb3a8fda32f8795fa5">More...</a><br /></td></tr>
-<tr class="separator:a85b0ae2fdf7934eb3a8fda32f8795fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec57a3aa99ea3029930dc95b50c005e6"><td class="memItemLeft" align="right" valign="top">virtual scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#aec57a3aa99ea3029930dc95b50c005e6">cellMomentSource</a> (label &amp;momentOrder, label &amp;celli)=0</td></tr>
-<tr class="memdesc:aec57a3aa99ea3029930dc95b50c005e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate source term for moment equation in the specified cell.  <a href="#aec57a3aa99ea3029930dc95b50c005e6">More...</a><br /></td></tr>
-<tr class="separator:aec57a3aa99ea3029930dc95b50c005e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a4fa4a0f5eac7545eecc523ed6244beba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00605.html#a545e54cd8a5ad1ca2192158b263148c5">univariateQuadratureApproximation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#a4fa4a0f5eac7545eecc523ed6244beba">quadrature_</a></td></tr>
-<tr class="memdesc:a4fa4a0f5eac7545eecc523ed6244beba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Univariate quadrature approximation used to solve PDF transport.  <a href="#a4fa4a0f5eac7545eecc523ed6244beba">More...</a><br /></td></tr>
-<tr class="separator:a4fa4a0f5eac7545eecc523ed6244beba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26f0b04ce1fad57c9087a9186754623b"><td class="memItemLeft" align="right" valign="top">autoPtr&lt; <a class="el" href="a00168.html">univariateMomentAdvection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#a26f0b04ce1fad57c9087a9186754623b">momentAdvection_</a></td></tr>
-<tr class="memdesc:a26f0b04ce1fad57c9087a9186754623b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moment advection.  <a href="#a26f0b04ce1fad57c9087a9186754623b">More...</a><br /></td></tr>
-<tr class="separator:a26f0b04ce1fad57c9087a9186754623b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_a00126"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a00126')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="a00126.html">PDFTransportModel</a></td></tr>
-<tr class="memitem:a23edeeeecebcef11921a33dd5d990570 inherit pro_attribs_a00126"><td class="memItemLeft" align="right" valign="top">const fvMesh &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00126.html#a23edeeeecebcef11921a33dd5d990570">mesh_</a></td></tr>
-<tr class="memdesc:a23edeeeecebcef11921a33dd5d990570 inherit pro_attribs_a00126"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant reference to the mesh.  <a href="#a23edeeeecebcef11921a33dd5d990570">More...</a><br /></td></tr>
-<tr class="separator:a23edeeeecebcef11921a33dd5d990570 inherit pro_attribs_a00126"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9986809af336722c0b627c876f8547da"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#a9986809af336722c0b627c876f8547da">phasePair</a> (const <a class="el" href="a00170.html">phaseModel</a> &amp;<a class="el" href="a00171.html#aafa87466cebd9ebda4a09ea338673568">phase1</a>, const <a class="el" href="a00170.html">phaseModel</a> &amp;<a class="el" href="a00171.html#ace6dda1224b634f41045415a3ba6089d">phase2</a>, const dimensionedVector &amp;<a class="el" href="a00171.html#a8e94a789b5d800dad492d7651102b8f0">g</a>, const <a class="el" href="a00171.html#acaeea9792724877a3bebe88ab0dff000">scalarTable</a> &amp;sigmaTable, const bool ordered=false)</td></tr>
+<tr class="memdesc:a9986809af336722c0b627c876f8547da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from two phases, gravity and surface tension table.  <a href="#a9986809af336722c0b627c876f8547da">More...</a><br /></td></tr>
+<tr class="separator:a9986809af336722c0b627c876f8547da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdbac428a23fdde9735401736b9e6c5d"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#acdbac428a23fdde9735401736b9e6c5d">~phasePair</a> ()</td></tr>
+<tr class="memdesc:acdbac428a23fdde9735401736b9e6c5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#acdbac428a23fdde9735401736b9e6c5d">More...</a><br /></td></tr>
+<tr class="separator:acdbac428a23fdde9735401736b9e6c5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dc74522cb85f706f8b817ecc7547e83"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="a00170.html">phaseModel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#a2dc74522cb85f706f8b817ecc7547e83">dispersed</a> () const </td></tr>
+<tr class="memdesc:a2dc74522cb85f706f8b817ecc7547e83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dispersed phase.  <a href="#a2dc74522cb85f706f8b817ecc7547e83">More...</a><br /></td></tr>
+<tr class="separator:a2dc74522cb85f706f8b817ecc7547e83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9edbe51efb1a14a7b1d4cd674d0556a2"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="a00170.html">phaseModel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#a9edbe51efb1a14a7b1d4cd674d0556a2">continuous</a> () const </td></tr>
+<tr class="memdesc:a9edbe51efb1a14a7b1d4cd674d0556a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Continuous phase.  <a href="#a9edbe51efb1a14a7b1d4cd674d0556a2">More...</a><br /></td></tr>
+<tr class="separator:a9edbe51efb1a14a7b1d4cd674d0556a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb564046bb47fcc129a99f917b209d27"><td class="memItemLeft" align="right" valign="top">virtual word&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#aeb564046bb47fcc129a99f917b209d27">name</a> () const </td></tr>
+<tr class="memdesc:aeb564046bb47fcc129a99f917b209d27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pair name.  <a href="#aeb564046bb47fcc129a99f917b209d27">More...</a><br /></td></tr>
+<tr class="separator:aeb564046bb47fcc129a99f917b209d27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94d56cf5402312283e2182a3766592b7"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#a94d56cf5402312283e2182a3766592b7">rho</a> () const </td></tr>
+<tr class="memdesc:a94d56cf5402312283e2182a3766592b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Average density.  <a href="#a94d56cf5402312283e2182a3766592b7">More...</a><br /></td></tr>
+<tr class="separator:a94d56cf5402312283e2182a3766592b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88ffc39c4f5b836e3118979f7fe60aaa"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#a88ffc39c4f5b836e3118979f7fe60aaa">magUr</a> (const label nodei, const label nodej) const </td></tr>
+<tr class="memdesc:a88ffc39c4f5b836e3118979f7fe60aaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Relative velocity magnitude.  <a href="#a88ffc39c4f5b836e3118979f7fe60aaa">More...</a><br /></td></tr>
+<tr class="separator:a88ffc39c4f5b836e3118979f7fe60aaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa446c643ddd403f2a1354adaf1d65f85"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#aa446c643ddd403f2a1354adaf1d65f85">magUr</a> () const </td></tr>
+<tr class="memdesc:aa446c643ddd403f2a1354adaf1d65f85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Relative velocity magnitude.  <a href="#aa446c643ddd403f2a1354adaf1d65f85">More...</a><br /></td></tr>
+<tr class="separator:aa446c643ddd403f2a1354adaf1d65f85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30fb773d58342713c0a50bfe0024c0ce"><td class="memItemLeft" align="right" valign="top">tmp&lt; volVectorField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#a30fb773d58342713c0a50bfe0024c0ce">Ur</a> (const label nodei, const label nodej) const </td></tr>
+<tr class="memdesc:a30fb773d58342713c0a50bfe0024c0ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Relative velocity.  <a href="#a30fb773d58342713c0a50bfe0024c0ce">More...</a><br /></td></tr>
+<tr class="separator:a30fb773d58342713c0a50bfe0024c0ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d4da460cf0af22fe1734311ec187e34"><td class="memItemLeft" align="right" valign="top">tmp&lt; volVectorField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#a9d4da460cf0af22fe1734311ec187e34">Ur</a> () const </td></tr>
+<tr class="memdesc:a9d4da460cf0af22fe1734311ec187e34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mean relative velocity.  <a href="#a9d4da460cf0af22fe1734311ec187e34">More...</a><br /></td></tr>
+<tr class="separator:a9d4da460cf0af22fe1734311ec187e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7546ea7643e13eddafeffb8bc63c4d36"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#a7546ea7643e13eddafeffb8bc63c4d36">Re</a> (const label nodei, const label nodej) const </td></tr>
+<tr class="memdesc:a7546ea7643e13eddafeffb8bc63c4d36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reynolds number.  <a href="#a7546ea7643e13eddafeffb8bc63c4d36">More...</a><br /></td></tr>
+<tr class="separator:a7546ea7643e13eddafeffb8bc63c4d36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a692965e560d1c5c9f22ae7b2c7fc7812"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#a692965e560d1c5c9f22ae7b2c7fc7812">Re</a> () const </td></tr>
+<tr class="memdesc:a692965e560d1c5c9f22ae7b2c7fc7812"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mean Reynolds number.  <a href="#a692965e560d1c5c9f22ae7b2c7fc7812">More...</a><br /></td></tr>
+<tr class="separator:a692965e560d1c5c9f22ae7b2c7fc7812"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8a35290564c7fb8eb8b654774883bea"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#ac8a35290564c7fb8eb8b654774883bea">We</a> (const label nodei, const label nodej) const </td></tr>
+<tr class="memdesc:ac8a35290564c7fb8eb8b654774883bea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weber number.  <a href="#ac8a35290564c7fb8eb8b654774883bea">More...</a><br /></td></tr>
+<tr class="separator:ac8a35290564c7fb8eb8b654774883bea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac82a616ca40d132efc070dea6b57da8b"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#ac82a616ca40d132efc070dea6b57da8b">We</a> () const </td></tr>
+<tr class="memdesc:ac82a616ca40d132efc070dea6b57da8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mean Weber number.  <a href="#ac82a616ca40d132efc070dea6b57da8b">More...</a><br /></td></tr>
+<tr class="separator:ac82a616ca40d132efc070dea6b57da8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f5506ccc5a1b71e4cd9833a745f0fe9"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#a5f5506ccc5a1b71e4cd9833a745f0fe9">Eo</a> (const label nodei, const label nodej) const </td></tr>
+<tr class="memdesc:a5f5506ccc5a1b71e4cd9833a745f0fe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Eotvos number.  <a href="#a5f5506ccc5a1b71e4cd9833a745f0fe9">More...</a><br /></td></tr>
+<tr class="separator:a5f5506ccc5a1b71e4cd9833a745f0fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af09a16a428382506debf8f56ce6dbbc5"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#af09a16a428382506debf8f56ce6dbbc5">Eo</a> () const </td></tr>
+<tr class="memdesc:af09a16a428382506debf8f56ce6dbbc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mean Eotvos number.  <a href="#af09a16a428382506debf8f56ce6dbbc5">More...</a><br /></td></tr>
+<tr class="separator:af09a16a428382506debf8f56ce6dbbc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75319d82f41f5a2261339e4853aea583"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#a75319d82f41f5a2261339e4853aea583">EoH1</a> (const label nodei, const label nodej) const </td></tr>
+<tr class="memdesc:a75319d82f41f5a2261339e4853aea583"><td class="mdescLeft">&#160;</td><td class="mdescRight">Eotvos number based on hydraulic diameter type 1.  <a href="#a75319d82f41f5a2261339e4853aea583">More...</a><br /></td></tr>
+<tr class="separator:a75319d82f41f5a2261339e4853aea583"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acedc7da5d0b135ec0c2b62383b5e8778"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#acedc7da5d0b135ec0c2b62383b5e8778">EoH1</a> () const </td></tr>
+<tr class="memdesc:acedc7da5d0b135ec0c2b62383b5e8778"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mean Eotvos number based on hydraulic diameter type 1.  <a href="#acedc7da5d0b135ec0c2b62383b5e8778">More...</a><br /></td></tr>
+<tr class="separator:acedc7da5d0b135ec0c2b62383b5e8778"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a300befc1d5caeeb18ac33ff3f80b57df"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#a300befc1d5caeeb18ac33ff3f80b57df">EoH2</a> (const label nodei, const label nodej) const </td></tr>
+<tr class="memdesc:a300befc1d5caeeb18ac33ff3f80b57df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Eotvos number based on hydraulic diameter type 2.  <a href="#a300befc1d5caeeb18ac33ff3f80b57df">More...</a><br /></td></tr>
+<tr class="separator:a300befc1d5caeeb18ac33ff3f80b57df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a744405d87576f6e292fe683020bf226e"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#a744405d87576f6e292fe683020bf226e">EoH2</a> () const </td></tr>
+<tr class="memdesc:a744405d87576f6e292fe683020bf226e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mean Eotvos number based on hydraulic diameter type 2.  <a href="#a744405d87576f6e292fe683020bf226e">More...</a><br /></td></tr>
+<tr class="separator:a744405d87576f6e292fe683020bf226e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa701dd36f601f85511037423a32dc094"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#aa701dd36f601f85511037423a32dc094">Mo</a> () const </td></tr>
+<tr class="memdesc:aa701dd36f601f85511037423a32dc094"><td class="mdescLeft">&#160;</td><td class="mdescRight">Morton Number.  <a href="#aa701dd36f601f85511037423a32dc094">More...</a><br /></td></tr>
+<tr class="separator:aa701dd36f601f85511037423a32dc094"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85615f859b22475580de3a72dee2f74e"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#a85615f859b22475580de3a72dee2f74e">Ta</a> (const label nodei, const label nodej) const </td></tr>
+<tr class="memdesc:a85615f859b22475580de3a72dee2f74e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takahashi Number.  <a href="#a85615f859b22475580de3a72dee2f74e">More...</a><br /></td></tr>
+<tr class="separator:a85615f859b22475580de3a72dee2f74e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7893064a3ab45c3dd170daf99973d02"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#ac7893064a3ab45c3dd170daf99973d02">Ta</a> () const </td></tr>
+<tr class="memdesc:ac7893064a3ab45c3dd170daf99973d02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mean Takahashi Number.  <a href="#ac7893064a3ab45c3dd170daf99973d02">More...</a><br /></td></tr>
+<tr class="separator:ac7893064a3ab45c3dd170daf99973d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5ae1fac29215240158a63e1b85e3eb7"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#ae5ae1fac29215240158a63e1b85e3eb7">E</a> (const label nodei, const label nodej) const </td></tr>
+<tr class="memdesc:ae5ae1fac29215240158a63e1b85e3eb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aspect ratio.  <a href="#ae5ae1fac29215240158a63e1b85e3eb7">More...</a><br /></td></tr>
+<tr class="separator:ae5ae1fac29215240158a63e1b85e3eb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae19104f639802f289cec7b160a521414"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#ae19104f639802f289cec7b160a521414">E</a> () const </td></tr>
+<tr class="memdesc:ae19104f639802f289cec7b160a521414"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mean Aspect ratio.  <a href="#ae19104f639802f289cec7b160a521414">More...</a><br /></td></tr>
+<tr class="separator:ae19104f639802f289cec7b160a521414"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafa87466cebd9ebda4a09ea338673568"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00170.html">phaseModel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#aafa87466cebd9ebda4a09ea338673568">phase1</a> () const </td></tr>
+<tr class="separator:aafa87466cebd9ebda4a09ea338673568"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace6dda1224b634f41045415a3ba6089d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00170.html">phaseModel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#ace6dda1224b634f41045415a3ba6089d">phase2</a> () const </td></tr>
+<tr class="separator:ace6dda1224b634f41045415a3ba6089d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e94a789b5d800dad492d7651102b8f0"><td class="memItemLeft" align="right" valign="top">const dimensionedVector &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#a8e94a789b5d800dad492d7651102b8f0">g</a> () const </td></tr>
+<tr class="separator:a8e94a789b5d800dad492d7651102b8f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf67042a73fad846fa13228b6bce3c25"><td class="memItemLeft" align="right" valign="top">const dimensionedScalar &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html#aaf67042a73fad846fa13228b6bce3c25">sigma</a> () const </td></tr>
+<tr class="separator:aaf67042a73fad846fa13228b6bce3c25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00172"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00172')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="a00172.html">phasePairKey</a></td></tr>
+<tr class="memitem:aa4c7c18a40e8171472410ad7e3ceb300 inherit pub_methods_a00172"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00172.html#aa4c7c18a40e8171472410ad7e3ceb300">phasePairKey</a> ()</td></tr>
+<tr class="memdesc:aa4c7c18a40e8171472410ad7e3ceb300 inherit pub_methods_a00172"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct null.  <a href="#aa4c7c18a40e8171472410ad7e3ceb300">More...</a><br /></td></tr>
+<tr class="separator:aa4c7c18a40e8171472410ad7e3ceb300 inherit pub_methods_a00172"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad162a5b2f36f4065759e039e01bbef66 inherit pub_methods_a00172"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00172.html#ad162a5b2f36f4065759e039e01bbef66">phasePairKey</a> (const word &amp;name1, const word &amp;name2, const bool ordered)</td></tr>
+<tr class="memdesc:ad162a5b2f36f4065759e039e01bbef66 inherit pub_methods_a00172"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from names and the ordering flag.  <a href="#ad162a5b2f36f4065759e039e01bbef66">More...</a><br /></td></tr>
+<tr class="separator:ad162a5b2f36f4065759e039e01bbef66 inherit pub_methods_a00172"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc4b4f5a6566aa68a9da2e6016c47a96 inherit pub_methods_a00172"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00172.html#acc4b4f5a6566aa68a9da2e6016c47a96">~phasePairKey</a> ()</td></tr>
+<tr class="separator:acc4b4f5a6566aa68a9da2e6016c47a96 inherit pub_methods_a00172"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="a00574_source.html#l00053">53</a> of file <a class="el" href="a00574_source.html">univariatePDFTransportModel.H</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ac76f0af150281544efbb317164c0075e"></a>
+<div class="textblock"><p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM-Test/OpenQBMM/applications/solvers/multiphase/twoPhaseSystem/phasePair/phasePair/phasePair.H">phasePair.H</a> </li>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM-Test/OpenQBMM/applications/solvers/multiphase/twoPhaseSystem/phasePair/phasePair/phasePair.C">phasePair.C</a> </li>
+</ul>
+</dd></dl>
+
+<p>Definition at line <a class="el" href="a00598_source.html#l00050">50</a> of file <a class="el" href="a00598_source.html">phasePair.H</a>.</p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a class="anchor" id="af363db3b15b36bf4fa7997d250543a18"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00171.html">univariatePDFTransportModel</a> </td>
+          <td class="memname">typedef HashTable&lt;dictionary, <a class="el" href="a00172.html">phasePairKey</a>, <a class="el" href="a00086.html">phasePairKey::hash</a>&gt; <a class="el" href="a00171.html#af363db3b15b36bf4fa7997d250543a18">dictTable</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Dictionary hash table. </p>
+
+<p>Definition at line <a class="el" href="a00598_source.html#l00060">60</a> of file <a class="el" href="a00598_source.html">phasePair.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acaeea9792724877a3bebe88ab0dff000"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef HashTable&lt;scalar, <a class="el" href="a00172.html">phasePairKey</a>, <a class="el" href="a00086.html">phasePairKey::hash</a>&gt; <a class="el" href="a00171.html#acaeea9792724877a3bebe88ab0dff000">scalarTable</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Scalar hash table. </p>
+
+<p>Definition at line <a class="el" href="a00598_source.html#l00064">64</a> of file <a class="el" href="a00598_source.html">phasePair.H</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a9986809af336722c0b627c876f8547da"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a00171.html">phasePair</a> </td>
           <td>(</td>
-          <td class="paramtype">const word &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
+          <td class="paramtype">const <a class="el" href="a00170.html">phaseModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>phase1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const dictionary &amp;&#160;</td>
-          <td class="paramname"><em>dict</em>, </td>
+          <td class="paramtype">const <a class="el" href="a00170.html">phaseModel</a> &amp;&#160;</td>
+          <td class="paramname"><em>phase2</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const fvMesh &amp;&#160;</td>
-          <td class="paramname"><em>mesh</em>, </td>
+          <td class="paramtype">const dimensionedVector &amp;&#160;</td>
+          <td class="paramname"><em>g</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const surfaceScalarField &amp;&#160;</td>
-          <td class="paramname"><em>phi</em>, </td>
+          <td class="paramtype">const <a class="el" href="a00171.html#acaeea9792724877a3bebe88ab0dff000">scalarTable</a> &amp;&#160;</td>
+          <td class="paramname"><em>sigmaTable</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const word &amp;&#160;</td>
-          <td class="paramname"><em>support</em>&#160;</td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>ordered</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -233,25 +324,11 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Construct from components. </p>
-
-<p>Definition at line <a class="el" href="a00573_source.html#l00032">32</a> of file <a class="el" href="a00573_source.html">univariatePDFTransportModel.C</a>.</p>
-
-<p>References <a class="el" href="a00573_source.html#l00068">univariatePDFTransportModel::~univariatePDFTransportModel()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00171_ac76f0af150281544efbb317164c0075e_cgraph.png" border="0" usemap="#a00171_ac76f0af150281544efbb317164c0075e_cgraph" alt=""/></div>
-<map name="a00171_ac76f0af150281544efbb317164c0075e_cgraph" id="a00171_ac76f0af150281544efbb317164c0075e_cgraph">
-<area shape="rect" id="node2" href="a00171.html#a7c2fb39b317ec861cc76f8a047fb2e0b" title="Destructor. " alt="" coords="256,5,467,32"/>
-</map>
-</div>
-</p>
+<p>Construct from two phases, gravity and surface tension table. </p>
 
 </div>
 </div>
-<a class="anchor" id="a7c2fb39b317ec861cc76f8a047fb2e0b"></a>
+<a class="anchor" id="acdbac428a23fdde9735401736b9e6c5d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -259,7 +336,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">~<a class="el" href="a00171.html">univariatePDFTransportModel</a> </td>
+          <td class="memname">virtual ~<a class="el" href="a00171.html">phasePair</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -274,36 +351,10 @@ Here is the call graph for this function:</div>
 
 <p>Destructor. </p>
 
-<p>Definition at line <a class="el" href="a00573_source.html#l00068">68</a> of file <a class="el" href="a00573_source.html">univariatePDFTransportModel.C</a>.</p>
-
-<p>References <a class="el" href="a00573_source.html#l00074">univariatePDFTransportModel::explicitMomentSource()</a>.</p>
-
-<p>Referenced by <a class="el" href="a00573_source.html#l00032">univariatePDFTransportModel::univariatePDFTransportModel()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00171_a7c2fb39b317ec861cc76f8a047fb2e0b_cgraph.png" border="0" usemap="#a00171_a7c2fb39b317ec861cc76f8a047fb2e0b_cgraph" alt=""/></div>
-<map name="a00171_a7c2fb39b317ec861cc76f8a047fb2e0b_cgraph" id="a00171_a7c2fb39b317ec861cc76f8a047fb2e0b_cgraph">
-<area shape="rect" id="node2" href="a00171.html#a85b0ae2fdf7934eb3a8fda32f8795fa5" title="Calculate explicit source terms with realizable ODE solver. " alt="" coords="264,5,419,32"/>
-</map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00171_a7c2fb39b317ec861cc76f8a047fb2e0b_icgraph.png" border="0" usemap="#a00171_a7c2fb39b317ec861cc76f8a047fb2e0b_icgraph" alt=""/></div>
-<map name="a00171_a7c2fb39b317ec861cc76f8a047fb2e0b_icgraph" id="a00171_a7c2fb39b317ec861cc76f8a047fb2e0b_icgraph">
-<area shape="rect" id="node2" href="a00171.html#ac76f0af150281544efbb317164c0075e" title="Construct from components. " alt="" coords="264,5,467,32"/>
-</map>
-</div>
-</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a6dca7ee5f9dcbd74ab958fead1ac05fd"></a>
+<a class="anchor" id="a2dc74522cb85f706f8b817ecc7547e83"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -311,116 +362,26 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual tmp&lt;fvScalarMatrix&gt; momentDiffusion </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="a00605.html#a1247bdc497fbec0f2b067b84972d3873">volUnivariateMoment</a> &amp;&#160;</td>
-          <td class="paramname"><em>moment</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Diffusion term. </p>
-
-<p>Referenced by <a class="el" href="a00573_source.html#l00244">univariatePDFTransportModel::solve()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00171_a6dca7ee5f9dcbd74ab958fead1ac05fd_icgraph.png" border="0" usemap="#a00171_a6dca7ee5f9dcbd74ab958fead1ac05fd_icgraph" alt=""/></div>
-<map name="a00171_a6dca7ee5f9dcbd74ab958fead1ac05fd_icgraph" id="a00171_a6dca7ee5f9dcbd74ab958fead1ac05fd_icgraph">
-<area shape="rect" id="node2" href="a00171.html#af7d39f0eac0af0ed5785935ac72a1e7d" title="Edit. " alt="" coords="175,5,229,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a984a91bb0f818af9554dbc6805598ea3"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual tmp&lt;fvScalarMatrix&gt; implicitMomentSource </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="a00605.html#a1247bdc497fbec0f2b067b84972d3873">volUnivariateMoment</a> &amp;&#160;</td>
-          <td class="paramname"><em>moment</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Calculate implicit source terms. </p>
-
-<p>Referenced by <a class="el" href="a00573_source.html#l00244">univariatePDFTransportModel::solve()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00171_a984a91bb0f818af9554dbc6805598ea3_icgraph.png" border="0" usemap="#a00171_a984a91bb0f818af9554dbc6805598ea3_icgraph" alt=""/></div>
-<map name="a00171_a984a91bb0f818af9554dbc6805598ea3_icgraph" id="a00171_a984a91bb0f818af9554dbc6805598ea3_icgraph">
-<area shape="rect" id="node2" href="a00171.html#af7d39f0eac0af0ed5785935ac72a1e7d" title="Edit. " alt="" coords="207,5,261,32"/>
-</map>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a85b0ae2fdf7934eb3a8fda32f8795fa5"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void explicitMomentSource </td>
+          <td class="memname">virtual const <a class="el" href="a00170.html">phaseModel</a>&amp; dispersed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Calculate explicit source terms with realizable ODE solver. </p>
-<p>Local time </p>
+<p>Dispersed phase. </p>
 
-<p>Definition at line <a class="el" href="a00573_source.html#l00074">74</a> of file <a class="el" href="a00573_source.html">univariatePDFTransportModel.C</a>.</p>
-
-<p>Referenced by <a class="el" href="a00573_source.html#l00244">univariatePDFTransportModel::solve()</a>, and <a class="el" href="a00573_source.html#l00068">univariatePDFTransportModel::~univariatePDFTransportModel()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00171_a85b0ae2fdf7934eb3a8fda32f8795fa5_icgraph.png" border="0" usemap="#a00171_a85b0ae2fdf7934eb3a8fda32f8795fa5_icgraph" alt=""/></div>
-<map name="a00171_a85b0ae2fdf7934eb3a8fda32f8795fa5_icgraph" id="a00171_a85b0ae2fdf7934eb3a8fda32f8795fa5_icgraph">
-<area shape="rect" id="node2" href="a00171.html#af7d39f0eac0af0ed5785935ac72a1e7d" title="Edit. " alt="" coords="286,5,341,32"/>
-<area shape="rect" id="node3" href="a00171.html#a7c2fb39b317ec861cc76f8a047fb2e0b" title="Destructor. " alt="" coords="208,56,419,83"/>
-</map>
-</div>
-</p>
+<p>Reimplemented in <a class="el" href="a00162.html#a2dc74522cb85f706f8b817ecc7547e83">orderedPhasePair</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aec57a3aa99ea3029930dc95b50c005e6"></a>
+<a class="anchor" id="a9edbe51efb1a14a7b1d4cd674d0556a2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -428,35 +389,447 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual scalar cellMomentSource </td>
+          <td class="memname">virtual const <a class="el" href="a00170.html">phaseModel</a>&amp; continuous </td>
           <td>(</td>
-          <td class="paramtype">label &amp;&#160;</td>
-          <td class="paramname"><em>momentOrder</em>, </td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Continuous phase. </p>
+
+<p>Reimplemented in <a class="el" href="a00162.html#a9edbe51efb1a14a7b1d4cd674d0556a2">orderedPhasePair</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aeb564046bb47fcc129a99f917b209d27"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual word name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pair name. </p>
+
+<p>Reimplemented in <a class="el" href="a00162.html#aeb564046bb47fcc129a99f917b209d27">orderedPhasePair</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a94d56cf5402312283e2182a3766592b7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tmp&lt;volScalarField&gt; rho </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Average density. </p>
+
+</div>
+</div>
+<a class="anchor" id="a88ffc39c4f5b836e3118979f7fe60aaa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tmp&lt;volScalarField&gt; magUr </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodei</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">label &amp;&#160;</td>
-          <td class="paramname"><em>celli</em>&#160;</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodej</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Calculate source term for moment equation in the specified cell. </p>
+<p>Relative velocity magnitude. </p>
 
 </div>
 </div>
-<a class="anchor" id="a200f5b2e653f07470d4ac4fa1a317779"></a>
+<a class="anchor" id="aa446c643ddd403f2a1354adaf1d65f85"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tmp&lt;volScalarField&gt; magUr </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Relative velocity magnitude. </p>
+
+</div>
+</div>
+<a class="anchor" id="a30fb773d58342713c0a50bfe0024c0ce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tmp&lt;volVectorField&gt; Ur </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodei</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodej</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Relative velocity. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9d4da460cf0af22fe1734311ec187e34"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tmp&lt;volVectorField&gt; Ur </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mean relative velocity. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7546ea7643e13eddafeffb8bc63c4d36"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tmp&lt;volScalarField&gt; Re </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodei</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodej</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reynolds number. </p>
+
+</div>
+</div>
+<a class="anchor" id="a692965e560d1c5c9f22ae7b2c7fc7812"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tmp&lt;volScalarField&gt; Re </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mean Reynolds number. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac8a35290564c7fb8eb8b654774883bea"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tmp&lt;volScalarField&gt; We </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodei</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodej</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Weber number. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac82a616ca40d132efc070dea6b57da8b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tmp&lt;volScalarField&gt; We </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mean Weber number. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5f5506ccc5a1b71e4cd9833a745f0fe9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tmp&lt;volScalarField&gt; Eo </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodei</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodej</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Eotvos number. </p>
+
+</div>
+</div>
+<a class="anchor" id="af09a16a428382506debf8f56ce6dbbc5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tmp&lt;volScalarField&gt; Eo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mean Eotvos number. </p>
+
+</div>
+</div>
+<a class="anchor" id="a75319d82f41f5a2261339e4853aea583"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tmp&lt;volScalarField&gt; EoH1 </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodei</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodej</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Eotvos number based on hydraulic diameter type 1. </p>
+
+</div>
+</div>
+<a class="anchor" id="acedc7da5d0b135ec0c2b62383b5e8778"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tmp&lt;volScalarField&gt; EoH1 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mean Eotvos number based on hydraulic diameter type 1. </p>
+
+</div>
+</div>
+<a class="anchor" id="a300befc1d5caeeb18ac33ff3f80b57df"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tmp&lt;volScalarField&gt; EoH2 </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodei</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodej</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Eotvos number based on hydraulic diameter type 2. </p>
+
+</div>
+</div>
+<a class="anchor" id="a744405d87576f6e292fe683020bf226e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tmp&lt;volScalarField&gt; EoH2 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mean Eotvos number based on hydraulic diameter type 2. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa701dd36f601f85511037423a32dc094"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tmp&lt;volScalarField&gt; Mo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Morton Number. </p>
+
+</div>
+</div>
+<a class="anchor" id="a85615f859b22475580de3a72dee2f74e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tmp&lt;volScalarField&gt; Ta </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodei</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodej</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takahashi Number. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac7893064a3ab45c3dd170daf99973d02"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tmp&lt;volScalarField&gt; Ta </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mean Takahashi Number. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae5ae1fac29215240158a63e1b85e3eb7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -464,7 +837,72 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="a00605.html#a545e54cd8a5ad1ca2192158b263148c5">Foam::univariateQuadratureApproximation</a> &amp; quadrature </td>
+          <td class="memname">virtual tmp&lt;volScalarField&gt; E </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodei</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname"><em>nodej</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Aspect ratio. </p>
+
+<p>Reimplemented in <a class="el" href="a00162.html#ae5ae1fac29215240158a63e1b85e3eb7">orderedPhasePair</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae19104f639802f289cec7b160a521414"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual tmp&lt;volScalarField&gt; E </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mean Aspect ratio. </p>
+
+<p>Reimplemented in <a class="el" href="a00162.html#ae19104f639802f289cec7b160a521414">orderedPhasePair</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aafa87466cebd9ebda4a09ea338673568"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="a00170.html">Foam::phaseModel</a> &amp; phase1 </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -477,16 +915,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Access. </p>
-<p>Returns a const reference to the quadrature approximation </p>
-
-<p>Definition at line <a class="el" href="a00575_source.html#l00029">29</a> of file <a class="el" href="a00575_source.html">univariatePDFTransportModelI.H</a>.</p>
-
-<p>References <a class="el" href="a00574_source.html#l00088">univariatePDFTransportModel::quadrature_</a>.</p>
+<p>Definition at line <a class="el" href="a00599_source.html#l00028">28</a> of file <a class="el" href="a00599_source.html">phasePairI.H</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a5bb437cbddedbf3f4b27f0e5de4e442d"></a>
+<a class="anchor" id="ace6dda1224b634f41045415a3ba6089d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -494,10 +927,10 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Foam::scalar realizableCo </td>
+          <td class="memname">const <a class="el" href="a00170.html">Foam::phaseModel</a> &amp; phase2 </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -507,28 +940,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Return the maximum Courant number ensuring moment realizability. </p>
-
-<p>Definition at line <a class="el" href="a00575_source.html#l00035">35</a> of file <a class="el" href="a00575_source.html">univariatePDFTransportModelI.H</a>.</p>
-
-<p>References <a class="el" href="a00574_source.html#l00091">univariatePDFTransportModel::momentAdvection_</a>.</p>
-
-<p>Referenced by <a class="el" href="a00555_source.html#l00148">turbulentMixing::realizableCo()</a>, and <a class="el" href="a00576_source.html#l00390">univariatePopulationBalance::realizableCo()</a>.</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00171_a5bb437cbddedbf3f4b27f0e5de4e442d_icgraph.png" border="0" usemap="#a00171_a5bb437cbddedbf3f4b27f0e5de4e442d_icgraph" alt=""/></div>
-<map name="a00171_a5bb437cbddedbf3f4b27f0e5de4e442d_icgraph" id="a00171_a5bb437cbddedbf3f4b27f0e5de4e442d_icgraph">
-<area shape="rect" id="node2" href="a00165.html#a5bb437cbddedbf3f4b27f0e5de4e442d" title="Return the maximum Courant number ensuring moment realizability. " alt="" coords="152,5,363,61"/>
-<area shape="rect" id="node3" href="a00174.html#a5bb437cbddedbf3f4b27f0e5de4e442d" title="Return the maximum Courant number ensuring moment realizability. " alt="" coords="157,86,358,157"/>
-</map>
-</div>
-</p>
+<p>Definition at line <a class="el" href="a00599_source.html#l00034">34</a> of file <a class="el" href="a00599_source.html">phasePairI.H</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="af7d39f0eac0af0ed5785935ac72a1e7d"></a>
+<a class="anchor" id="a8e94a789b5d800dad492d7651102b8f0"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -536,62 +952,24 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void solve </td>
+          <td class="memname">const Foam::dimensionedVector &amp; g </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Edit. </p>
-<p>Solve univariate PDF transport equation </p>
-
-<p>Implements <a class="el" href="a00126.html#aacd6f92a174ec1ebe14983fc21ec498c">PDFTransportModel</a>.</p>
-
-<p>Reimplemented in <a class="el" href="a00174.html#af7d39f0eac0af0ed5785935ac72a1e7d">univariatePopulationBalance</a>, and <a class="el" href="a00165.html#af7d39f0eac0af0ed5785935ac72a1e7d">turbulentMixing</a>.</p>
-
-<p>Definition at line <a class="el" href="a00573_source.html#l00244">244</a> of file <a class="el" href="a00573_source.html">univariatePDFTransportModel.C</a>.</p>
-
-<p>References <a class="el" href="a00573_source.html#l00074">univariatePDFTransportModel::explicitMomentSource()</a>, <a class="el" href="a00171.html#a984a91bb0f818af9554dbc6805598ea3">univariatePDFTransportModel::implicitMomentSource()</a>, <a class="el" href="a00574_source.html#l00091">univariatePDFTransportModel::momentAdvection_</a>, <a class="el" href="a00171.html#a6dca7ee5f9dcbd74ab958fead1ac05fd">univariatePDFTransportModel::momentDiffusion()</a>, <a class="el" href="a00500_source.html#l00052">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::moments()</a>, <a class="el" href="a00500_source.html#l00073">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::nMoments()</a>, <a class="el" href="a00574_source.html#l00088">univariatePDFTransportModel::quadrature_</a>, and <a class="el" href="a00498_source.html#l00119">quadratureApproximation&lt; momentFieldSetType, nodeType &gt;::updateQuadrature()</a>.</p>
-
-<p>Referenced by <a class="el" href="a00555_source.html#l00154">turbulentMixing::solve()</a>, and <a class="el" href="a00576_source.html#l00397">univariatePopulationBalance::solve()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00171_af7d39f0eac0af0ed5785935ac72a1e7d_cgraph.png" border="0" usemap="#a00171_af7d39f0eac0af0ed5785935ac72a1e7d_cgraph" alt=""/></div>
-<map name="a00171_af7d39f0eac0af0ed5785935ac72a1e7d_cgraph" id="a00171_af7d39f0eac0af0ed5785935ac72a1e7d_cgraph">
-<area shape="rect" id="node2" href="a00171.html#a85b0ae2fdf7934eb3a8fda32f8795fa5" title="Calculate explicit source terms with realizable ODE solver. " alt="" coords="138,5,293,32"/>
-<area shape="rect" id="node3" href="a00171.html#a984a91bb0f818af9554dbc6805598ea3" title="Calculate implicit source terms. " alt="" coords="139,56,292,83"/>
-<area shape="rect" id="node4" href="a00171.html#a6dca7ee5f9dcbd74ab958fead1ac05fd" title="Diffusion term. " alt="" coords="155,107,276,133"/>
-<area shape="rect" id="node5" href="a00136.html#abec4ab79350278c1e96c53a7a3211cb2" title="Const access to the moments. " alt="" coords="108,158,323,199"/>
-<area shape="rect" id="node6" href="a00136.html#a111ae2fd86df6aa54d903019cd7032f6" title="Return the number of moments. " alt="" coords="108,223,323,265"/>
-<area shape="rect" id="node7" href="a00136.html#ac4aec727fcdd873ea78763aaeeb86e14" title="Recalculate the quadrature nodes from the moments. " alt="" coords="108,289,323,330"/>
-</map>
-</div>
-</p>
-
-<p><div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="a00171_af7d39f0eac0af0ed5785935ac72a1e7d_icgraph.png" border="0" usemap="#a00171_af7d39f0eac0af0ed5785935ac72a1e7d_icgraph" alt=""/></div>
-<map name="a00171_af7d39f0eac0af0ed5785935ac72a1e7d_icgraph" id="a00171_af7d39f0eac0af0ed5785935ac72a1e7d_icgraph">
-<area shape="rect" id="node2" href="a00165.html#af7d39f0eac0af0ed5785935ac72a1e7d" title="Solve mixing model. " alt="" coords="108,5,359,47"/>
-<area shape="rect" id="node3" href="a00174.html#af7d39f0eac0af0ed5785935ac72a1e7d" title="Solve population balance equation. " alt="" coords="112,70,355,126"/>
-</map>
-</div>
-</p>
+<p>Definition at line <a class="el" href="a00599_source.html#l00040">40</a> of file <a class="el" href="a00599_source.html">phasePairI.H</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a4fa4a0f5eac7545eecc523ed6244beba"></a>
+<a class="anchor" id="aaf67042a73fad846fa13228b6bce3c25"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -599,61 +977,33 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00605.html#a545e54cd8a5ad1ca2192158b263148c5">univariateQuadratureApproximation</a> quadrature_</td>
+          <td class="memname">const Foam::dimensionedScalar &amp; sigma </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Univariate quadrature approximation used to solve PDF transport. </p>
-
-<p>Definition at line <a class="el" href="a00574_source.html#l00088">88</a> of file <a class="el" href="a00574_source.html">univariatePDFTransportModel.H</a>.</p>
-
-<p>Referenced by <a class="el" href="a00575_source.html#l00029">univariatePDFTransportModel::quadrature()</a>, and <a class="el" href="a00573_source.html#l00244">univariatePDFTransportModel::solve()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a26f0b04ce1fad57c9087a9186754623b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">autoPtr&lt;<a class="el" href="a00168.html">univariateMomentAdvection</a>&gt; momentAdvection_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Moment advection. </p>
-
-<p>Definition at line <a class="el" href="a00574_source.html#l00091">91</a> of file <a class="el" href="a00574_source.html">univariatePDFTransportModel.H</a>.</p>
-
-<p>Referenced by <a class="el" href="a00575_source.html#l00035">univariatePDFTransportModel::realizableCo()</a>, and <a class="el" href="a00573_source.html#l00244">univariatePDFTransportModel::solve()</a>.</p>
+<p>Definition at line <a class="el" href="a00599_source.html#l00046">46</a> of file <a class="el" href="a00599_source.html">phasePairI.H</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="a00574_source.html">univariatePDFTransportModel.H</a></li>
-<li><a class="el" href="a00573_source.html">univariatePDFTransportModel.C</a></li>
-<li><a class="el" href="a00575_source.html">univariatePDFTransportModelI.H</a></li>
+<li><a class="el" href="a00598_source.html">phasePair.H</a></li>
+<li><a class="el" href="a00599_source.html">phasePairI.H</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00605.html">Foam</a></li><li class="navelem"><a class="el" href="a00622.html">PDFTransportModels</a></li><li class="navelem"><a class="el" href="a00171.html">univariatePDFTransportModel</a></li>
+    <li class="navelem"><a class="el" href="a00723.html">Foam</a></li><li class="navelem"><a class="el" href="a00171.html">phasePair</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

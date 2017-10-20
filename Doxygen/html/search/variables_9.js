@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['own_5f',['own_',['../a00168.html#ac6ebab407edaa9fb1bf07c163e389b8f',1,'Foam::univariateMomentAdvection']]]
+  ['lambda_5f',['lambda_',['../a00104.html#a799814c3e9e79477198e1afc4c306737',1,'Foam::kineticTheoryModel']]]
 ];

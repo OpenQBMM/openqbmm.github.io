@@ -1,3 +1,4 @@
-<map id="Lun" name="Lun">
-<area shape="rect" id="node2" href="$a00057.html" title="granularPressureModel" alt="" coords="5,5,168,32"/>
+<map id="mixingModel" name="mixingModel">
+<area shape="rect" id="node2" href="$a00147.html" title="Disables the solution of the mixing model. " alt="" coords="5,80,81,107"/>
+<area shape="rect" id="node3" href="$a00210.html" title="turbulentMixing" alt="" coords="105,80,216,107"/>
 </map>

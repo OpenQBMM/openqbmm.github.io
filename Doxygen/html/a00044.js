@@ -1,7 +1,7 @@
 var a00044 =
 [
-    [ "Frank", "a00044.html#afda02904b876255649385d4f33720944", null ],
-    [ "~Frank", "a00044.html#a7efad619c8f6a662560a93872b46604b", null ],
-    [ "TypeName", "a00044.html#a152da4f74040fb11a7b1edcb75e56d21", null ],
-    [ "Fi", "a00044.html#ac25d7fa61e6c77f74f43e4c65d647a45", null ]
+    [ "constantLiftCoefficient", "a00044.html#a793ccb5fa6b0f442879aef564161485e", null ],
+    [ "~constantLiftCoefficient", "a00044.html#ae78c7f829dd298d6eb15a4b27fc1bd49", null ],
+    [ "TypeName", "a00044.html#aafe31ab21b510f2d502d4058cf65e7bd", null ],
+    [ "Cl", "a00044.html#a7ca2eeaa963ec216ce5478271a682ea5", null ]
 ];

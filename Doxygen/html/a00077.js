@@ -1,7 +1,8 @@
 var a00077 =
 [
-    [ "Lamb", "a00077.html#a58a366133f549d84004e29bf8e011ace", null ],
-    [ "~Lamb", "a00077.html#a343c59311abd70dac8a6f71ab3ce54c6", null ],
-    [ "TypeName", "a00077.html#a12e2e2803bbf74bce46bd237011ea2c0", null ],
-    [ "Cvm", "a00077.html#a5eb86a943fb9eba9a9d253787e7ca82c", null ]
+    [ "gaussRadauMomentInversion", "a00077.html#aaa249ea77e932779c48df02a6ee4e382", null ],
+    [ "~gaussRadauMomentInversion", "a00077.html#a1c10e28cb0b50ad94bb183aa98afcf05", null ],
+    [ "TypeName", "a00077.html#af30711ded5ffb0a9c4feae46a978cc98", null ],
+    [ "correctRecurrence", "a00077.html#adb8044c0e431e0fe1005a4395fff5478", null ],
+    [ "calcNQuadratureNodes", "a00077.html#ae11f16abe217f76d4e7b5e98e47b3ae1", null ]
 ];

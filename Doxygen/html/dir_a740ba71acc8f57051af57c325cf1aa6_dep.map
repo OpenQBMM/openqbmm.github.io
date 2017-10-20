@@ -1,5 +1,6 @@
 <map id="utilities" name="utilities">
-<area shape="rect" id="node2" href="dir_c1a7d52594e9fc42fe1c630af0bab07c.html" title="generateMoments" alt="" coords="37,63,168,111"/>
-<area shape="rect" id="clust2" href="dir_a740ba71acc8f57051af57c325cf1aa6.html" alt="" coords="27,52,275,121"/>
-<area shape="rect" id="clust1" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html" title="applications" alt="" coords="16,16,285,132"/>
+<area shape="rect" id="node2" href="dir_c1a7d52594e9fc42fe1c630af0bab07c.html" title="generateMoments" alt="" coords="237,63,368,111"/>
+<area shape="rect" id="node3" href="dir_677c54a54b021c3fbadde56e8b1439c6.html" title="phaseMeanVelocityForce" alt="" coords="37,63,213,111"/>
+<area shape="rect" id="clust2" href="dir_a740ba71acc8f57051af57c325cf1aa6.html" alt="" coords="27,52,475,121"/>
+<area shape="rect" id="clust1" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html" title="applications" alt="" coords="16,16,485,132"/>
 </map>

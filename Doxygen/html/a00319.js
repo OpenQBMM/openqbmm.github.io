@@ -1,5 +1,4 @@
 var a00319 =
 [
-    [ "defineTypeNameAndDebug", "a00319.html#a808c3e596bb1cee3b5e795d38419b367", null ],
-    [ "defineRunTimeSelectionTable", "a00319.html#a7fcd4c8a5852e11ff67830a07a4cfe7b", null ]
+    [ "CoNum", "a00319.html#a849d4984464537af64ca83f816e85c88", null ]
 ];

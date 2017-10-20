@@ -1,9 +1,8 @@
 var a00119 =
 [
-    [ "noVirtualMass", "a00119.html#aa743ff7b4e12c585c7854021dae7891a", null ],
-    [ "~noVirtualMass", "a00119.html#a5adce566f79f4cd0ce0aa266a476a253", null ],
-    [ "TypeName", "a00119.html#a660172304dfa1b418cc1bded338b9fd9", null ],
-    [ "Cvm", "a00119.html#a5eb86a943fb9eba9a9d253787e7ca82c", null ],
-    [ "Cvm", "a00119.html#abfd8d3f3726ebad0d66f65237e29136b", null ],
-    [ "K", "a00119.html#acf0bef05c6c97208195a12f283cd19d6", null ]
+    [ "Lun", "a00119.html#a23ee449d6527b7755a1da51eae89e357", null ],
+    [ "~Lun", "a00119.html#a9195da2539df648c03a1538ca2e95854", null ],
+    [ "TypeName", "a00119.html#a71ac58eefea271425c68a5b19fe89d5b", null ],
+    [ "granularPressureCoeff", "a00119.html#ab385b192bdf96fe50901cf94cadcccb2", null ],
+    [ "granularPressureCoeffPrime", "a00119.html#a7477040e4bebb305b8dba787382d97e0", null ]
 ];

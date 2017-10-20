@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$a00180.html" title="Provides storage for the moments and the corresponding quadrature approximation of a univariate distr..." alt="" coords="168,5,340,61"/>
+<area shape="rect" id="node3" href="$a00211.html" title="twoPhaseSystem" alt="" coords="191,85,317,112"/>
+<area shape="rect" id="node4" href="$a00180.html" title="quadratureApproximation\l\&lt; volUnivariateMomentFieldSet,\l volScalarNode \&gt;" alt="" coords="147,136,361,192"/>
+<area shape="rect" id="node5" href="$a00137.html" title="Uses quadrature approximation as a base to handle size moments, while the velocity moments and abscis..." alt="" coords="409,151,657,177"/>
+</map>

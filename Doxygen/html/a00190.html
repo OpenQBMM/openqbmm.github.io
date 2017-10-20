@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>aggregationKernel.C File Reference</title>
+<title>My Project: swarmCorrection Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,9 +31,12 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
-    <td style="padding-left: 0.5em;">
-    <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
-    </td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   &#160;<span id="projectnumber">-dev</span>
+   </div>
+   <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
+  </td>
  </tr>
  </tbody>
 </table>
@@ -47,8 +50,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
-      <li class="current"><a href="files.html"><span>Files</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -69,8 +72,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="files.html"><span>File&#160;List</span></a></li>
-      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -104,47 +109,325 @@ $(document).ready(function(){initNavTree('a00190.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="a01295.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">aggregationKernel.C File Reference</div>  </div>
+<div class="title">swarmCorrection Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div class="dynheader">
-Include dependency graph for aggregationKernel.C:</div>
+<div class="dynheader">
+Inheritance diagram for swarmCorrection:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00639.png" border="0" usemap="#aggregationKernel_8C" alt=""/></div>
-<map name="aggregationKernel_8C" id="aggregationKernel_8C">
-<area shape="rect" id="node2" href="a00191.html" title="aggregationKernel.H" alt="" coords="5,80,152,107"/>
+<div class="center"><img src="a01296.png" border="0" usemap="#swarmCorrection_inherit__map" alt="Inheritance graph"/></div>
+<map name="swarmCorrection_inherit__map" id="swarmCorrection_inherit__map">
+<area shape="rect" id="node2" href="a00155.html" title="noSwarm" alt="" coords="5,80,84,107"/>
+<area shape="rect" id="node3" href="a00203.html" title="TomiyamaSwarm" alt="" coords="109,80,239,107"/>
 </map>
-</div>
-</div>
-<p><a href="a00190_source.html">Go to the source code of this file.</a></p>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for swarmCorrection:</div>
+<div class="dyncontent">
+<div class="center"><img src="a01297.png" border="0" usemap="#swarmCorrection_coll__map" alt="Collaboration graph"/></div>
+<map name="swarmCorrection_coll__map" id="swarmCorrection_coll__map">
+<area shape="rect" id="node2" href="a00171.html" title="phasePair" alt="" coords="26,5,109,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:a00605"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00605.html">Foam</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00626"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00626.html">Foam::populationBalanceSubModels</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a5316e9d61d8dea54c06abeed52cfbf66"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00190.html#a5316e9d61d8dea54c06abeed52cfbf66">TypeName</a> (&quot;swarmCorrection&quot;)</td></tr>
+<tr class="memdesc:a5316e9d61d8dea54c06abeed52cfbf66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#a5316e9d61d8dea54c06abeed52cfbf66">More...</a><br /></td></tr>
+<tr class="separator:a5316e9d61d8dea54c06abeed52cfbf66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7045137bc7d8974476c63fa4889cb6f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00190.html#aa7045137bc7d8974476c63fa4889cb6f">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00190.html">swarmCorrection</a>, dictionary,(                                       const dictionary &amp;dict,                                       const <a class="el" href="a00171.html">phasePair</a> &amp;pair                       ),(dict, pair))</td></tr>
+<tr class="separator:aa7045137bc7d8974476c63fa4889cb6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab349f8b1c2d9ee7a45fece303bb5befc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00190.html#ab349f8b1c2d9ee7a45fece303bb5befc">swarmCorrection</a> (const dictionary &amp;dict, const <a class="el" href="a00171.html">phasePair</a> &amp;pair)</td></tr>
+<tr class="memdesc:ab349f8b1c2d9ee7a45fece303bb5befc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from a dictionary and a phase pair.  <a href="#ab349f8b1c2d9ee7a45fece303bb5befc">More...</a><br /></td></tr>
+<tr class="separator:ab349f8b1c2d9ee7a45fece303bb5befc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4902330ff6741d8c343fd09897f77f03"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00190.html#a4902330ff6741d8c343fd09897f77f03">~swarmCorrection</a> ()</td></tr>
+<tr class="memdesc:a4902330ff6741d8c343fd09897f77f03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a4902330ff6741d8c343fd09897f77f03">More...</a><br /></td></tr>
+<tr class="separator:a4902330ff6741d8c343fd09897f77f03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9e4c4d794bca14aa2422cd7002ea436"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00190.html#ae9e4c4d794bca14aa2422cd7002ea436">Cs</a> (const label, const label) const  =0</td></tr>
+<tr class="memdesc:ae9e4c4d794bca14aa2422cd7002ea436"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swarm correction coefficient.  <a href="#ae9e4c4d794bca14aa2422cd7002ea436">More...</a><br /></td></tr>
+<tr class="separator:ae9e4c4d794bca14aa2422cd7002ea436"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee684652fe9026eb275052fc5f239423"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00190.html#aee684652fe9026eb275052fc5f239423">Cs</a> () const  =0</td></tr>
+<tr class="memdesc:aee684652fe9026eb275052fc5f239423"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mean swarm correction coefficient.  <a href="#aee684652fe9026eb275052fc5f239423">More...</a><br /></td></tr>
+<tr class="separator:aee684652fe9026eb275052fc5f239423"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:abce02722c305557cb5730a9610ba0d51"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00626.html#abce02722c305557cb5730a9610ba0d51">defineTypeNameAndDebug</a> (aggregationKernel, 0)</td></tr>
-<tr class="separator:abce02722c305557cb5730a9610ba0d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9dd0aa6f3fae81195037437f9fb2042f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00626.html#a9dd0aa6f3fae81195037437f9fb2042f">defineRunTimeSelectionTable</a> (aggregationKernel, dictionary)</td></tr>
-<tr class="separator:a9dd0aa6f3fae81195037437f9fb2042f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:aed46a8706b7f96382c52e67d774e2d3a"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00190.html">swarmCorrection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00190.html#aed46a8706b7f96382c52e67d774e2d3a">New</a> (const dictionary &amp;dict, const <a class="el" href="a00171.html">phasePair</a> &amp;pair)</td></tr>
+<tr class="separator:aed46a8706b7f96382c52e67d774e2d3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:afd0567a30e2ea4703b446fd80ca5ec0b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00171.html">phasePair</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00190.html#afd0567a30e2ea4703b446fd80ca5ec0b">pair_</a></td></tr>
+<tr class="memdesc:afd0567a30e2ea4703b446fd80ca5ec0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phase pair.  <a href="#afd0567a30e2ea4703b446fd80ca5ec0b">More...</a><br /></td></tr>
+<tr class="separator:afd0567a30e2ea4703b446fd80ca5ec0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="/home/alberto/Desktop/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/aggregationKernels/aggregationKernel/aggregationKernel.C">aggregationKernel.C</a> </p>
+<div class="textblock"><p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM-Test/OpenQBMM/applications/solvers/multiphase/interfacialModels/swarmCorrections/swarmCorrection/swarmCorrection.H">swarmCorrection.H</a> </li>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM-Test/OpenQBMM/applications/solvers/multiphase/interfacialModels/swarmCorrections/swarmCorrection/swarmCorrection.C">swarmCorrection.C</a> </li>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM-Test/OpenQBMM/applications/solvers/multiphase/interfacialModels/swarmCorrections/swarmCorrection/newSwarmCorrection.C">newSwarmCorrection.C</a> </li>
+</ul>
+</dd></dl>
 
-<p>Definition in file <a class="el" href="a00190_source.html">aggregationKernel.C</a>.</p>
-</div></div><!-- contents -->
+<p>Definition at line <a class="el" href="a00639_source.html#l00054">54</a> of file <a class="el" href="a00639_source.html">swarmCorrection.H</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="ab349f8b1c2d9ee7a45fece303bb5befc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a00190.html">swarmCorrection</a> </td>
+          <td>(</td>
+          <td class="paramtype">const dictionary &amp;&#160;</td>
+          <td class="paramname"><em>dict</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="a00171.html">phasePair</a> &amp;&#160;</td>
+          <td class="paramname"><em>pair</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct from a dictionary and a phase pair. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4902330ff6741d8c343fd09897f77f03"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual ~<a class="el" href="a00190.html">swarmCorrection</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Destructor. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a5316e9d61d8dea54c06abeed52cfbf66"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TypeName </td>
+          <td>(</td>
+          <td class="paramtype">&quot;swarmCorrection&quot;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Runtime type information. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa7045137bc7d8974476c63fa4889cb6f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">declareRunTimeSelectionTable </td>
+          <td>(</td>
+          <td class="paramtype">autoPtr&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="a00190.html">swarmCorrection</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dictionary&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">(                                                                           const dictionary &amp;dict,                                                                           const <a class="el" href="a00171.html">phasePair</a> &amp;pair                                           )&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">(dict, pair)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aed46a8706b7f96382c52e67d774e2d3a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static autoPtr&lt;<a class="el" href="a00190.html">swarmCorrection</a>&gt; New </td>
+          <td>(</td>
+          <td class="paramtype">const dictionary &amp;&#160;</td>
+          <td class="paramname"><em>dict</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="a00171.html">phasePair</a> &amp;&#160;</td>
+          <td class="paramname"><em>pair</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae9e4c4d794bca14aa2422cd7002ea436"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual tmp&lt;volScalarField&gt; Cs </td>
+          <td>(</td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const label&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Swarm correction coefficient. </p>
+
+<p>Implemented in <a class="el" href="a00203.html#a9700b3a6b79e924846d971643534435d">TomiyamaSwarm</a>, and <a class="el" href="a00155.html#adbf840cf4465c072cc306ad4e0537242">noSwarm</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aee684652fe9026eb275052fc5f239423"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual tmp&lt;volScalarField&gt; Cs </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Mean swarm correction coefficient. </p>
+
+<p>Implemented in <a class="el" href="a00203.html#a7a9a6057249b1641404b642261e063bd">TomiyamaSwarm</a>, and <a class="el" href="a00155.html#a2fc806ce6fd228513bde9681f7fca040">noSwarm</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="afd0567a30e2ea4703b446fd80ca5ec0b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="a00171.html">phasePair</a>&amp; pair_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Phase pair. </p>
+
+<p>Definition at line <a class="el" href="a00639_source.html#l00061">61</a> of file <a class="el" href="a00639_source.html">swarmCorrection.H</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="a00639_source.html">swarmCorrection.H</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0ecbe6cb5f50223527ce4e1b499bd333.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="dir_58c61e057ed2119d9755c9fdbb448648.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="dir_62f86ef0c260ceaf3b93a8b1f701039a.html">aggregationKernels</a></li><li class="navelem"><a class="el" href="dir_a48c39aac25b9d92c13c5141c3503af1.html">aggregationKernel</a></li><li class="navelem"><a class="el" href="a00190.html">aggregationKernel.C</a></li>
+    <li class="navelem"><a class="el" href="a00723.html">Foam</a></li><li class="navelem"><a class="el" href="a00190.html">swarmCorrection</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

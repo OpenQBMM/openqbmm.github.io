@@ -1,6 +1,0 @@
-<map id="updateAllQuadrature" name="updateAllQuadrature">
-<area shape="rect" id="node2" href="$a00101.html#abdcac0b11d8065805cb7abfc5dee64d0" title="Recalculate the moments from the quadrature nodes. " alt="" coords="254,5,387,32"/>
-<area shape="rect" id="node3" href="$a00101.html#aa539aa2c2d5c6521a45ef8a8c7aff7ee" title="Update node velocities on fixed&#45;value boundaries. " alt="" coords="231,56,411,83"/>
-<area shape="rect" id="node4" href="$a00136.html#ac4aec727fcdd873ea78763aaeeb86e14" title="Recalculate the quadrature nodes from the moments. " alt="" coords="199,107,443,163"/>
-<area shape="rect" id="node5" href="$a00101.html#ae605ec130ded2b61f6b78d19af264a54" title="Recalculate the velocity abscissae from the velocity moments. " alt="" coords="259,187,382,213"/>
-</map>

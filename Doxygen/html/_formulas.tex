@@ -1,0 +1,156 @@
+\documentclass{article}
+\usepackage{epsfig}
+\usepackage{/home/alberto/OpenFOAM/OpenFOAM-dev/doc/Doxygen/Macros/tensorOperator}
+\pagestyle{empty}
+\begin{document}
+\[ \mathcal{D}_k = \nabla \cdot \left( \Gamma_l \nabla m_k \right) \]
+\pagebreak
+
+$ \mathcal{D}_k $
+\pagebreak
+
+$ m_k $
+\pagebreak
+
+$ \Gamma_l $
+\pagebreak
+
+\[ \mathcal{D}_k = \nabla \cdot \left[ \left( \Gamma_l + \frac{\mu_t}{Sc_t} \right) \nabla m_k \right] \]
+\pagebreak
+
+$ Sc_t $
+\pagebreak
+
+$ \mu_t $
+\pagebreak
+
+\[ K_a = \frac{2 \kappa T}{3 \mu} \frac{(\xi_i + \xi_j)^2}{\xi_i \xi_j} \]
+\pagebreak
+
+$ T $
+\pagebreak
+
+$ \kappa $
+\pagebreak
+
+$ \mu $
+\pagebreak
+
+$ \xi_i $
+\pagebreak
+
+$ \xi_j $
+\pagebreak
+
+\[ K_a = C_a \]
+\pagebreak
+
+$ C_a $
+\pagebreak
+
+\[ K_a = C_a (\xi_i + \xi_j)^2 |\xi_i^2 - \xi_j^2| \]
+\pagebreak
+
+\[ K_a = C_a (\xi_i + \xi_j)^3 \]
+\pagebreak
+
+\[ K_a = C_a (\xi_i^3 + \xi_j^3) \]
+\pagebreak
+
+\[ K_a = \frac{2 \kappa T}{3 \mu} \frac{(\xi_i + \xi_j)^2}{\xi_i \xi_j} + \frac{4}{3} (\xi_i + \xi_j)^3 \sqrt{\frac{3 \pi \varepsilon}{10 \nu}} \]
+\pagebreak
+
+$ \varepsilon $
+\pagebreak
+
+$ \nu $
+\pagebreak
+
+\[ \overline{b}_k = \xi_0^k + (\xi^3 - \xi_0^3)^{1/3} \]
+\pagebreak
+
+$ k $
+\pagebreak
+
+$ \xi $
+\pagebreak
+
+$ \xi_0 $
+\pagebreak
+
+\[ \overline{b}_k = \left( \frac{\xi}{\xi_0} \right)^3 \xi_0^k \]
+\pagebreak
+
+\[ \overline{b}_k = \frac{4^{k/3} + 1}{5^{k/3}} \xi^k \]
+\pagebreak
+
+\[ \overline{b}_k = 2^{(3-k)/3} \xi^k \]
+\pagebreak
+
+\[ \overline{b}_k = \frac{6}{k + 3} \xi^k \]
+\pagebreak
+
+\[ K_b = Cb \epsilon_f^{1/3} \text{erfc} \left( \sqrt{ C_1 \frac{\sigma}{\rho_f \epsilon_f^{2/3} \xi^{5/3}} + C_2 \frac{\mu_f} {\sqrt{rho_f \rho_b} \epsilon_f^{1/3} \xi^{4/3}} } \right) \]
+\pagebreak
+
+$ \sigma $
+\pagebreak
+
+$ \rho_f $
+\pagebreak
+
+$ \rho_b $
+\pagebreak
+
+$ \epsilon_f $
+\pagebreak
+
+$ \mu_f $
+\pagebreak
+
+\[ P_c = \text{exp} ( - \frac{\theta \sqrt{We} \sqrt{0.75 (1.0 + \xi^2) (1.0 + \xi^3)}} {\sqrt{\rho_b/rho_f}*(1.0 + \xi)^3} ); \xi = \frac{d_i}{d_j} \theta = x Re^{y} \text{We}^{z} \]
+\pagebreak
+
+$ We $
+\pagebreak
+
+$ Re $
+\pagebreak
+
+$ x $
+\pagebreak
+
+$ y $
+\pagebreak
+
+$ z $
+\pagebreak
+
+$ d_i $
+\pagebreak
+
+$ d_j $
+\pagebreak
+
+\[ P_c = \text{exp} \left( - C_{eff} \frac{\mu_f \rho_f \epsilon_f}{\sigma^2} \left( \frac{d_i^{1/3} d_j^{1/3}}{d_i^{1/3} + d_j^{1/3}} \right) \right) \]
+\pagebreak
+
+\[ \omega = \epsilon_f^{1/3}(d_i^{2/3} + d_j^{2/3}) \]
+\pagebreak
+
+\[ \omega_{turb} = 0.089 \pi (d_i + d_j)^2 \sqrt{d_i^{\frac{2}{3}} + d_j^{\frac{2}{3}} } epsilon_f^{frac{1}{3}} \omega_{buoyancy} = \pi (d_i + d_j)^2 ( \sqrt{2.14*\sigma/(d_i \rho_f) + 0.5 \mathbf{g} d_i} - \sqrt{2.14*\sigma/(d_j \rho_f) + 0.5 \mathbf{g} d_j} ) \omega_{shear} = \frac{2}{3} (d_i + d_j)^3 |\nabla \mathbf{U}_f| \]
+\pagebreak
+
+$ \mathbf{U}_f$
+\pagebreak
+
+$ g $
+\pagebreak
+
+$ \d_i $
+\pagebreak
+
+$ \d_j $
+\pagebreak
+
+\end{document}

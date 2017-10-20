@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>turbulentDispersionModel Class Reference</title>
+<title>My Project: particlePressure Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,9 +31,12 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
-    <td style="padding-left: 0.5em;">
-    <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
-    </td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   &#160;<span id="projectnumber">-dev</span>
+   </div>
+   <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
+  </td>
  </tr>
  </tbody>
 </table>
@@ -107,119 +110,92 @@ $(document).ready(function(){initNavTree('a00164.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="a01120.html">List of all members</a>  </div>
+<a href="a01470.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">turbulentDispersionModel Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">particlePressure Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Inheritance diagram for turbulentDispersionModel:</div>
+Inheritance diagram for particlePressure:</div>
 <div class="dyncontent">
-<div class="center"><img src="a01121.png" border="0" usemap="#turbulentDispersionModel_inherit__map" alt="Inheritance graph"/></div>
-<map name="turbulentDispersionModel_inherit__map" id="turbulentDispersionModel_inherit__map">
-<area shape="rect" id="node2" href="a00016.html" title="Turbulent dispersion model of Burns et al. " alt="" coords="295,5,351,32"/>
-<area shape="rect" id="node3" href="a00026.html" title="Constant coefficient turbulent dispersion model. " alt="" coords="227,57,419,98"/>
-<area shape="rect" id="node4" href="a00030.html" title="Turbulent dispersion model of Davidson. " alt="" coords="283,123,363,149"/>
-<area shape="rect" id="node5" href="a00056.html" title="Turbulent dispersion model of Gosman et al. " alt="" coords="285,173,360,200"/>
-<area shape="rect" id="node6" href="a00084.html" title="Lopez de Bertodano (1992) turbulent dispersion model. " alt="" coords="253,224,393,251"/>
-<area shape="rect" id="node7" href="a00118.html" title="noTurbulentDispersion" alt="" coords="244,275,401,301"/>
-<area shape="rect" id="node8" href="a00125.html" title="Bubble dispersion model of Panicker et al. Used to describe the drag induced by one bubble on neighbo..." alt="" coords="285,325,360,352"/>
+<div class="center"><img src="a01471.png" border="0" usemap="#particlePressure_inherit__map" alt="Inheritance graph"/></div>
+<map name="particlePressure_inherit__map" id="particlePressure_inherit__map">
+<area shape="rect" id="node2" href="a00068.html" title="fluxSplittingFunction" alt="" coords="5,5,144,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for turbulentDispersionModel:</div>
+Collaboration diagram for particlePressure:</div>
 <div class="dyncontent">
-<div class="center"><img src="a01122.png" border="0" usemap="#turbulentDispersionModel_coll__map" alt="Collaboration graph"/></div>
-<map name="turbulentDispersionModel_coll__map" id="turbulentDispersionModel_coll__map">
-<area shape="rect" id="node2" href="a00130.html" title="phasePair" alt="" coords="51,5,133,32"/>
+<div class="center"><img src="a01472.png" border="0" usemap="#particlePressure_coll__map" alt="Collaboration graph"/></div>
+<map name="particlePressure_coll__map" id="particlePressure_coll__map">
+<area shape="rect" id="node2" href="a00068.html" title="fluxSplittingFunction" alt="" coords="5,5,144,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aadc70cb8b5ed675d2d5dc4efcceffebe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00164.html#aadc70cb8b5ed675d2d5dc4efcceffebe">TypeName</a> (&quot;turbulentDispersionModel&quot;)</td></tr>
-<tr class="memdesc:aadc70cb8b5ed675d2d5dc4efcceffebe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#aadc70cb8b5ed675d2d5dc4efcceffebe">More...</a><br /></td></tr>
-<tr class="separator:aadc70cb8b5ed675d2d5dc4efcceffebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5b4441c18a2318e007357137418f0df"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00164.html#ab5b4441c18a2318e007357137418f0df">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00164.html">turbulentDispersionModel</a>, dictionary,(                                                       const dictionary &amp;dict,                                                       const <a class="el" href="a00130.html">phasePair</a> &amp;pair                                       ),(dict, pair))</td></tr>
-<tr class="separator:ab5b4441c18a2318e007357137418f0df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6e083687046f0e4da9d24e47f11c32f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00164.html#ae6e083687046f0e4da9d24e47f11c32f">turbulentDispersionModel</a> (const dictionary &amp;dict, const <a class="el" href="a00130.html">phasePair</a> &amp;pair)</td></tr>
-<tr class="memdesc:ae6e083687046f0e4da9d24e47f11c32f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from a dictionary and a phase pair.  <a href="#ae6e083687046f0e4da9d24e47f11c32f">More...</a><br /></td></tr>
-<tr class="separator:ae6e083687046f0e4da9d24e47f11c32f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb757b566135de9298b6328d52e15200"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00164.html#afb757b566135de9298b6328d52e15200">~turbulentDispersionModel</a> ()</td></tr>
-<tr class="memdesc:afb757b566135de9298b6328d52e15200"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#afb757b566135de9298b6328d52e15200">More...</a><br /></td></tr>
-<tr class="separator:afb757b566135de9298b6328d52e15200"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3cdf0c36a145f46ea778c726ad5b30f"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00164.html#ad3cdf0c36a145f46ea778c726ad5b30f">D</a> (const label, const label) const  =0</td></tr>
-<tr class="memdesc:ad3cdf0c36a145f46ea778c726ad5b30f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turbulent diffusivity.  <a href="#ad3cdf0c36a145f46ea778c726ad5b30f">More...</a><br /></td></tr>
-<tr class="separator:ad3cdf0c36a145f46ea778c726ad5b30f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e0215a73ed9f69baeea60de4cddff0d"><td class="memItemLeft" align="right" valign="top">virtual tmp&lt; volVectorField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00164.html#a8e0215a73ed9f69baeea60de4cddff0d">F</a> (const label, const label) const </td></tr>
-<tr class="memdesc:a8e0215a73ed9f69baeea60de4cddff0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turbulent dispersion force.  <a href="#a8e0215a73ed9f69baeea60de4cddff0d">More...</a><br /></td></tr>
-<tr class="separator:a8e0215a73ed9f69baeea60de4cddff0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c91a0af4430d7151503edb1e77613af"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00164.html#a2c91a0af4430d7151503edb1e77613af">TypeName</a> (&quot;particlePressure&quot;)</td></tr>
+<tr class="memdesc:a2c91a0af4430d7151503edb1e77613af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#a2c91a0af4430d7151503edb1e77613af">More...</a><br /></td></tr>
+<tr class="separator:a2c91a0af4430d7151503edb1e77613af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af64b8f158fee1b6eb0f8d14ea9ea0cdc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00164.html#af64b8f158fee1b6eb0f8d14ea9ea0cdc">particlePressure</a> (const dictionary &amp;dict)</td></tr>
+<tr class="memdesc:af64b8f158fee1b6eb0f8d14ea9ea0cdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#af64b8f158fee1b6eb0f8d14ea9ea0cdc">More...</a><br /></td></tr>
+<tr class="separator:af64b8f158fee1b6eb0f8d14ea9ea0cdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9956e667316189901cbd6c35484f520"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00164.html#ad9956e667316189901cbd6c35484f520">~particlePressure</a> ()</td></tr>
+<tr class="memdesc:ad9956e667316189901cbd6c35484f520"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#ad9956e667316189901cbd6c35484f520">More...</a><br /></td></tr>
+<tr class="separator:ad9956e667316189901cbd6c35484f520"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac36b247d7da07da34423d5dfc49e3445"><td class="memItemLeft" align="right" valign="top">tmp&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00164.html#ac36b247d7da07da34423d5dfc49e3445">h2</a> (const volScalarField &amp;alpha1, const volScalarField &amp;Theta, const volScalarField &amp;g0, const volScalarField &amp;<a class="el" href="a00325.html#af72fd2ce0bf948096cadebf34827046a">rho1</a>, const volScalarField &amp;da, const volScalarField &amp;ppfr, const dimensionedScalar &amp;e) const </td></tr>
+<tr class="separator:ac36b247d7da07da34423d5dfc49e3445"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a00068"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a00068')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="a00068.html">fluxSplittingFunction</a></td></tr>
+<tr class="memitem:ae5250b98827eaf9e3e46dbfdc5f3f3ae inherit pub_methods_a00068"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00068.html#ae5250b98827eaf9e3e46dbfdc5f3f3ae">TypeName</a> (&quot;fluxSplittingFunction&quot;)</td></tr>
+<tr class="memdesc:ae5250b98827eaf9e3e46dbfdc5f3f3ae inherit pub_methods_a00068"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#ae5250b98827eaf9e3e46dbfdc5f3f3ae">More...</a><br /></td></tr>
+<tr class="separator:ae5250b98827eaf9e3e46dbfdc5f3f3ae inherit pub_methods_a00068"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30017850a80dc23bcd997b5c0cae0457 inherit pub_methods_a00068"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00068.html#a30017850a80dc23bcd997b5c0cae0457">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00068.html">fluxSplittingFunction</a>, dictionary,(                                       const dictionary &amp;dict                       ),(dict))</td></tr>
+<tr class="separator:a30017850a80dc23bcd997b5c0cae0457 inherit pub_methods_a00068"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d9659533367bc9daa0681febfc406a3 inherit pub_methods_a00068"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00068.html#a9d9659533367bc9daa0681febfc406a3">fluxSplittingFunction</a> (const dictionary &amp;dict)</td></tr>
+<tr class="memdesc:a9d9659533367bc9daa0681febfc406a3 inherit pub_methods_a00068"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from components.  <a href="#a9d9659533367bc9daa0681febfc406a3">More...</a><br /></td></tr>
+<tr class="separator:a9d9659533367bc9daa0681febfc406a3 inherit pub_methods_a00068"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad407a32fd89353d674930254ff7e976f inherit pub_methods_a00068"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00068.html#ad407a32fd89353d674930254ff7e976f">~fluxSplittingFunction</a> ()</td></tr>
+<tr class="memdesc:ad407a32fd89353d674930254ff7e976f inherit pub_methods_a00068"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#ad407a32fd89353d674930254ff7e976f">More...</a><br /></td></tr>
+<tr class="separator:ad407a32fd89353d674930254ff7e976f inherit pub_methods_a00068"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcf7aafd601a940195284bc91610bb08 inherit pub_methods_a00068"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00068.html#abcf7aafd601a940195284bc91610bb08">read</a> ()</td></tr>
+<tr class="separator:abcf7aafd601a940195284bc91610bb08 inherit pub_methods_a00068"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ae28e9615b1f0e9e1f4a28697bd05c742"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00164.html">turbulentDispersionModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00164.html#ae28e9615b1f0e9e1f4a28697bd05c742">New</a> (const dictionary &amp;dict, const <a class="el" href="a00130.html">phasePair</a> &amp;pair)</td></tr>
-<tr class="separator:ae28e9615b1f0e9e1f4a28697bd05c742"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a142839aaae3fb9d4c98afac9a0912fc8"><td class="memItemLeft" align="right" valign="top">static const dimensionSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00164.html#a142839aaae3fb9d4c98afac9a0912fc8">dimD</a></td></tr>
-<tr class="memdesc:a142839aaae3fb9d4c98afac9a0912fc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Diffusivity dimensions.  <a href="#a142839aaae3fb9d4c98afac9a0912fc8">More...</a><br /></td></tr>
-<tr class="separator:a142839aaae3fb9d4c98afac9a0912fc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6307eb221338d4af3a7880e0540b6ffc"><td class="memItemLeft" align="right" valign="top">static const dimensionSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00164.html#a6307eb221338d4af3a7880e0540b6ffc">dimF</a></td></tr>
-<tr class="memdesc:a6307eb221338d4af3a7880e0540b6ffc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Force dimensions.  <a href="#a6307eb221338d4af3a7880e0540b6ffc">More...</a><br /></td></tr>
-<tr class="separator:a6307eb221338d4af3a7880e0540b6ffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:afd0567a30e2ea4703b446fd80ca5ec0b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00130.html">phasePair</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00164.html#afd0567a30e2ea4703b446fd80ca5ec0b">pair_</a></td></tr>
-<tr class="memdesc:afd0567a30e2ea4703b446fd80ca5ec0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phase pair.  <a href="#afd0567a30e2ea4703b446fd80ca5ec0b">More...</a><br /></td></tr>
-<tr class="separator:afd0567a30e2ea4703b446fd80ca5ec0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_methods_a00068"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_a00068')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="a00068.html">fluxSplittingFunction</a></td></tr>
+<tr class="memitem:aad19e7eb7c949201156ba0eb10960814 inherit pub_static_methods_a00068"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00068.html">fluxSplittingFunction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00068.html#aad19e7eb7c949201156ba0eb10960814">New</a> (const dictionary &amp;dict)</td></tr>
+<tr class="separator:aad19e7eb7c949201156ba0eb10960814 inherit pub_static_methods_a00068"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_a00068"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a00068')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="a00068.html">fluxSplittingFunction</a></td></tr>
+<tr class="memitem:a892ddcb9cba6f50b0396cdb7bf1b4f6a inherit pro_attribs_a00068"><td class="memItemLeft" align="right" valign="top">const dictionary &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00068.html#a892ddcb9cba6f50b0396cdb7bf1b4f6a">dict_</a></td></tr>
+<tr class="memdesc:a892ddcb9cba6f50b0396cdb7bf1b4f6a inherit pro_attribs_a00068"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dictionary used to construct.  <a href="#a892ddcb9cba6f50b0396cdb7bf1b4f6a">More...</a><br /></td></tr>
+<tr class="separator:a892ddcb9cba6f50b0396cdb7bf1b4f6a inherit pro_attribs_a00068"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7596a784a09e20e5040549367a59a664 inherit pro_attribs_a00068"><td class="memItemLeft" align="right" valign="top">const scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00068.html#a7596a784a09e20e5040549367a59a664">h2Pow_</a></td></tr>
+<tr class="memdesc:a7596a784a09e20e5040549367a59a664 inherit pro_attribs_a00068"><td class="mdescLeft">&#160;</td><td class="mdescRight">Power used to determine how important the kinetic flux is.  <a href="#a7596a784a09e20e5040549367a59a664">More...</a><br /></td></tr>
+<tr class="separator:a7596a784a09e20e5040549367a59a664 inherit pro_attribs_a00068"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
-<li>
-<a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/interfacialModels/turbulentDispersionModels/turbulentDispersionModel/turbulentDispersionModel.H">turbulentDispersionModel.H</a> </li>
-<li>
-<a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/interfacialModels/turbulentDispersionModels/turbulentDispersionModel/turbulentDispersionModel.C">turbulentDispersionModel.C</a> </li>
-<li>
-<a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/interfacialModels/turbulentDispersionModels/turbulentDispersionModel/newTurbulentDispersionModel.C">newTurbulentDispersionModel.C</a> </li>
-</ul>
-</dd></dl>
-
-<p>Definition at line <a class="el" href="a00554_source.html#l00054">54</a> of file <a class="el" href="a00554_source.html">turbulentDispersionModel.H</a>.</p>
+<div class="textblock">
+<p>Definition at line <a class="el" href="a00577_source.html#l00054">54</a> of file <a class="el" href="a00577_source.html">particlePressure.H</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ae6e083687046f0e4da9d24e47f11c32f"></a>
+<a class="anchor" id="af64b8f158fee1b6eb0f8d14ea9ea0cdc"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00164.html">turbulentDispersionModel</a> </td>
+          <td class="memname"><a class="el" href="a00164.html">particlePressure</a> </td>
           <td>(</td>
           <td class="paramtype">const dictionary &amp;&#160;</td>
-          <td class="paramname"><em>dict</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>dict</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="a00130.html">phasePair</a> &amp;&#160;</td>
-          <td class="paramname"><em>pair</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Construct from a dictionary and a phase pair. </p>
+<p>Construct from components. </p>
 
 </div>
 </div>
-<a class="anchor" id="afb757b566135de9298b6328d52e15200"></a>
+<a class="anchor" id="ad9956e667316189901cbd6c35484f520"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -227,7 +203,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual ~<a class="el" href="a00164.html">turbulentDispersionModel</a> </td>
+          <td class="memname">virtual ~<a class="el" href="a00164.html">particlePressure</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -245,14 +221,14 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aadc70cb8b5ed675d2d5dc4efcceffebe"></a>
+<a class="anchor" id="a2c91a0af4430d7151503edb1e77613af"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">TypeName </td>
           <td>(</td>
-          <td class="paramtype">&quot;turbulentDispersionModel&quot;&#160;</td>
+          <td class="paramtype">&quot;particlePressure&quot;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -263,51 +239,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab5b4441c18a2318e007357137418f0df"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">declareRunTimeSelectionTable </td>
-          <td>(</td>
-          <td class="paramtype">autoPtr&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="a00164.html">turbulentDispersionModel</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">dictionary&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">(                                                                                                           const dictionary &amp;dict,                                                                                                           const <a class="el" href="a00130.html">phasePair</a> &amp;pair                                                                           )&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">(dict, pair)&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ae28e9615b1f0e9e1f4a28697bd05c742"></a>
+<a class="anchor" id="ac36b247d7da07da34423d5dfc49e3445"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -315,89 +247,46 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static autoPtr&lt;<a class="el" href="a00164.html">turbulentDispersionModel</a>&gt; New </td>
+          <td class="memname">tmp&lt;volScalarField&gt; h2 </td>
           <td>(</td>
-          <td class="paramtype">const dictionary &amp;&#160;</td>
-          <td class="paramname"><em>dict</em>, </td>
+          <td class="paramtype">const volScalarField &amp;&#160;</td>
+          <td class="paramname"><em>alpha1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="a00130.html">phasePair</a> &amp;&#160;</td>
-          <td class="paramname"><em>pair</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ad3cdf0c36a145f46ea778c726ad5b30f"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual tmp&lt;volScalarField&gt; D </td>
-          <td>(</td>
-          <td class="paramtype">const label&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramtype">const volScalarField &amp;&#160;</td>
+          <td class="paramname"><em>Theta</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const label&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Turbulent diffusivity. </p>
-<p>multiplying the gradient of the phase-fraction </p>
-
-<p>Implemented in <a class="el" href="a00016.html#aaf1922308183e59d85b4ad6dfad616fd">Burns</a>, <a class="el" href="a00084.html#aaf1922308183e59d85b4ad6dfad616fd">LopezDeBertodano</a>, <a class="el" href="a00030.html#aaf1922308183e59d85b4ad6dfad616fd">Davidson</a>, <a class="el" href="a00125.html#aaf1922308183e59d85b4ad6dfad616fd">Panicker</a>, <a class="el" href="a00056.html#aaf1922308183e59d85b4ad6dfad616fd">Gosman</a>, <a class="el" href="a00026.html#aaf1922308183e59d85b4ad6dfad616fd">constantTurbulentDispersionCoefficient</a>, and <a class="el" href="a00118.html#aaf1922308183e59d85b4ad6dfad616fd">noTurbulentDispersion</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a8e0215a73ed9f69baeea60de4cddff0d"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual tmp&lt;volVectorField&gt; F </td>
-          <td>(</td>
-          <td class="paramtype">const label&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramtype">const volScalarField &amp;&#160;</td>
+          <td class="paramname"><em>g0</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const label&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramtype">const volScalarField &amp;&#160;</td>
+          <td class="paramname"><em>rho1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const volScalarField &amp;&#160;</td>
+          <td class="paramname"><em>da</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const volScalarField &amp;&#160;</td>
+          <td class="paramname"><em>ppfr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dimensionedScalar &amp;&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -412,94 +301,19 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Turbulent dispersion force. </p>
-
-<p>Reimplemented in <a class="el" href="a00118.html#a8e0215a73ed9f69baeea60de4cddff0d">noTurbulentDispersion</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="afd0567a30e2ea4703b446fd80ca5ec0b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="a00130.html">phasePair</a>&amp; pair_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Phase pair. </p>
-
-<p>Definition at line <a class="el" href="a00554_source.html#l00061">61</a> of file <a class="el" href="a00554_source.html">turbulentDispersionModel.H</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a142839aaae3fb9d4c98afac9a0912fc8"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const dimensionSet dimD</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Diffusivity dimensions. </p>
-
-<p>Definition at line <a class="el" href="a00554_source.html#l00087">87</a> of file <a class="el" href="a00554_source.html">turbulentDispersionModel.H</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a6307eb221338d4af3a7880e0540b6ffc"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const dimensionSet dimF</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Force dimensions. </p>
-
-<p>Definition at line <a class="el" href="a00554_source.html#l00090">90</a> of file <a class="el" href="a00554_source.html">turbulentDispersionModel.H</a>.</p>
+<p>Implements <a class="el" href="a00068.html#a2429f9e3f9b4d6c9784c3ca0457f6dc3">fluxSplittingFunction</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="a00554_source.html">turbulentDispersionModel.H</a></li>
+<li><a class="el" href="a00577_source.html">particlePressure.H</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a00605.html">Foam</a></li><li class="navelem"><a class="el" href="a00164.html">turbulentDispersionModel</a></li>
+    <li class="navelem"><a class="el" href="a00723.html">Foam</a></li><li class="navelem"><a class="el" href="a00733.html">kineticTheoryModels</a></li><li class="navelem"><a class="el" href="a00735.html">fluxSplittingFunctions</a></li><li class="navelem"><a class="el" href="a00164.html">particlePressure</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

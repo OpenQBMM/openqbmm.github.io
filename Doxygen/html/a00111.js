@@ -1,8 +1,7 @@
 var a00111 =
 [
-    [ "noMixing", "a00111.html#a6ecff56a57443f498ad578b8ed7b744d", null ],
-    [ "~noMixing", "a00111.html#af18366fcca2541617323cb6d4d640047", null ],
-    [ "TypeName", "a00111.html#a660172304dfa1b418cc1bded338b9fd9", null ],
-    [ "realizableCo", "a00111.html#a5bb437cbddedbf3f4b27f0e5de4e442d", null ],
-    [ "solve", "a00111.html#af7d39f0eac0af0ed5785935ac72a1e7d", null ]
+    [ "LegendreMagnaudet", "a00111.html#acc53debfcea5371b060430124fce95a1", null ],
+    [ "~LegendreMagnaudet", "a00111.html#a724cb76c34f9e6efb9180c387cd2042f", null ],
+    [ "TypeName", "a00111.html#abbb7ed6dfd12f682709bd4b2f2b59e87", null ],
+    [ "Cl", "a00111.html#a7ca2eeaa963ec216ce5478271a682ea5", null ]
 ];

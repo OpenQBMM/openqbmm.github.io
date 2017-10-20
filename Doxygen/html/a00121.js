@@ -1,8 +1,8 @@
 var a00121 =
 [
-    [ "noWallLubrication", "a00121.html#a6ee2c6ae19e1bbbc2fef77312f110141", null ],
-    [ "~noWallLubrication", "a00121.html#a6ba0829ceec7f226ad28fc4227a7c2ae", null ],
-    [ "TypeName", "a00121.html#a660172304dfa1b418cc1bded338b9fd9", null ],
-    [ "Fi", "a00121.html#ac25d7fa61e6c77f74f43e4c65d647a45", null ],
-    [ "F", "a00121.html#a0c9fa48cb1f9d839c1d14409a6cf8dba", null ]
+    [ "LunSavage", "a00121.html#a7bce5061b72bd157fe880f9dbe40a463", null ],
+    [ "~LunSavage", "a00121.html#a75468dcca744cce43224d29b1835f02a", null ],
+    [ "TypeName", "a00121.html#aa7326a112256126f745e25a13b058971", null ],
+    [ "g0", "a00121.html#a77181c36b117cab1999c37a2c4ae392f", null ],
+    [ "g0prime", "a00121.html#a76068a5c111e6a71f9d5011c78d97346", null ]
 ];

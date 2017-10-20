@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Brownian.H File Reference</title>
+<title>My Project: univariateMomentAdvection Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,9 +31,12 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
-    <td style="padding-left: 0.5em;">
-    <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
-    </td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   &#160;<span id="projectnumber">-dev</span>
+   </div>
+   <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
+  </td>
  </tr>
  </tbody>
 </table>
@@ -47,8 +50,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
-      <li class="current"><a href="files.html"><span>Files</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -69,8 +72,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="files.html"><span>File&#160;List</span></a></li>
-      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -104,56 +109,604 @@ $(document).ready(function(){initNavTree('a00213.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="a01304.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Brownian.H File Reference</div>  </div>
+<div class="title">univariateMomentAdvection Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div class="dynheader">
-Include dependency graph for Brownian.H:</div>
+
+<p>Abstract class for the advection of a univariate moment set.  
+ <a href="a00213.html#details">More...</a></p>
+<div class="dynheader">
+Inheritance diagram for univariateMomentAdvection:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00663.png" border="0" usemap="#Brownian_8H" alt=""/></div>
-<map name="Brownian_8H" id="Brownian_8H">
-<area shape="rect" id="node2" href="a00191.html" title="aggregationKernel.H" alt="" coords="5,80,152,107"/>
+<div class="center"><img src="a01305.png" border="0" usemap="#univariateMomentAdvection_inherit__map" alt="Inheritance graph"/></div>
+<map name="univariateMomentAdvection_inherit__map" id="univariateMomentAdvection_inherit__map">
+<area shape="rect" id="node2" href="a00067.html" title="First&#45;order univariate moment advection with kinetic scheme. " alt="" coords="5,80,121,107"/>
+<area shape="rect" id="node3" href="a00140.html" title="Empty scheme for cases without moment advection. " alt="" coords="145,80,243,107"/>
+<area shape="rect" id="node4" href="a00233.html" title="Second&#45;order univariate moment advection with zeta kinetic scheme. " alt="" coords="267,80,315,107"/>
 </map>
-</div>
-</div><div class="textblock"><div class="dynheader">
-This graph shows which files directly or indirectly include this file:</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for univariateMomentAdvection:</div>
 <div class="dyncontent">
-<div class="center"><img src="a00664.png" border="0" usemap="#Brownian_8Hdep" alt=""/></div>
-<map name="Brownian_8Hdep" id="Brownian_8Hdep">
-<area shape="rect" id="node2" href="a00212.html" title="Brownian.C" alt="" coords="5,80,96,107"/>
+<div class="center"><img src="a01306.png" border="0" usemap="#univariateMomentAdvection_coll__map" alt="Collaboration graph"/></div>
+<map name="univariateMomentAdvection_coll__map" id="univariateMomentAdvection_coll__map">
+<area shape="rect" id="node2" href="a00132.html" title="Stores a list of moments, with a Map&lt;label&gt; that takes a label key and returns the index into the lis..." alt="" coords="5,5,221,47"/>
 </map>
-</div>
-</div>
-<p><a href="a00213_source.html">Go to the source code of this file.</a></p>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00014.html">Brownian</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="a00014.html" title="Brownian aggregation kernel. ">Brownian</a> aggregation kernel.  <a href="a00014.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a922fedbd9a4fa76566799abd43f071ca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00213.html#a922fedbd9a4fa76566799abd43f071ca">TypeName</a> (&quot;univariateMomentAdvection&quot;)</td></tr>
+<tr class="memdesc:a922fedbd9a4fa76566799abd43f071ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runtime type information.  <a href="#a922fedbd9a4fa76566799abd43f071ca">More...</a><br /></td></tr>
+<tr class="separator:a922fedbd9a4fa76566799abd43f071ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada5d67bdf45974d411f9977245927f51"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00213.html#ada5d67bdf45974d411f9977245927f51">declareRunTimeSelectionTable</a> (autoPtr, <a class="el" href="a00213.html">univariateMomentAdvection</a>, dictionary,(                                                       const dictionary &amp;dict,                                                       const <a class="el" href="a00723.html#a545e54cd8a5ad1ca2192158b263148c5">univariateQuadratureApproximation</a> &amp;quadrature,                                                       const surfaceScalarField &amp;<a class="el" href="a00325.html#a1a97abcf6c141f539994c8a21c8daca7">phi</a>,                                                       const word &amp;support                                       ),(dict, quadrature, <a class="el" href="a00325.html#a1a97abcf6c141f539994c8a21c8daca7">phi</a>, support))</td></tr>
+<tr class="separator:ada5d67bdf45974d411f9977245927f51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae80830da2be5412957390f8d74916bc5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00213.html#ae80830da2be5412957390f8d74916bc5">univariateMomentAdvection</a> (const dictionary &amp;dict, const <a class="el" href="a00723.html#a545e54cd8a5ad1ca2192158b263148c5">univariateQuadratureApproximation</a> &amp;quadrature, const surfaceScalarField &amp;<a class="el" href="a00325.html#a1a97abcf6c141f539994c8a21c8daca7">phi</a>, const word &amp;support)</td></tr>
+<tr class="memdesc:ae80830da2be5412957390f8d74916bc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from <a class="el" href="a00215.html" title="Stores a generic moment set with the corresponding list of orders. ">univariateMomentSet</a>.  <a href="#ae80830da2be5412957390f8d74916bc5">More...</a><br /></td></tr>
+<tr class="separator:ae80830da2be5412957390f8d74916bc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7558438bb9fa34ba37ed51735b3a2e2"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00213.html#af7558438bb9fa34ba37ed51735b3a2e2">~univariateMomentAdvection</a> ()</td></tr>
+<tr class="memdesc:af7558438bb9fa34ba37ed51735b3a2e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#af7558438bb9fa34ba37ed51735b3a2e2">More...</a><br /></td></tr>
+<tr class="separator:af7558438bb9fa34ba37ed51735b3a2e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e42ed478eefece586b6bfb013468be1"><td class="memItemLeft" align="right" valign="top">const PtrList&lt; volScalarField &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00213.html#a1e42ed478eefece586b6bfb013468be1">divMoments</a> () const </td></tr>
+<tr class="memdesc:a1e42ed478eefece586b6bfb013468be1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the advection term for the moment transport equation.  <a href="#a1e42ed478eefece586b6bfb013468be1">More...</a><br /></td></tr>
+<tr class="separator:a1e42ed478eefece586b6bfb013468be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf73b8eb8622b96b9a7af30fcfe4544a"><td class="memItemLeft" align="right" valign="top">virtual scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00213.html#acf73b8eb8622b96b9a7af30fcfe4544a">realizableCo</a> ()=0</td></tr>
+<tr class="memdesc:acf73b8eb8622b96b9a7af30fcfe4544a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the maximum Courant number ensuring moment realizability.  <a href="#acf73b8eb8622b96b9a7af30fcfe4544a">More...</a><br /></td></tr>
+<tr class="separator:acf73b8eb8622b96b9a7af30fcfe4544a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99b02345a8a15d3c5ea2844a2253f510"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00213.html#a99b02345a8a15d3c5ea2844a2253f510">update</a> ()=0</td></tr>
+<tr class="memdesc:a99b02345a8a15d3c5ea2844a2253f510"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update moment advection.  <a href="#a99b02345a8a15d3c5ea2844a2253f510">More...</a><br /></td></tr>
+<tr class="separator:a99b02345a8a15d3c5ea2844a2253f510"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:a00605"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00605.html">Foam</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00626"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00626.html">Foam::populationBalanceSubModels</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00627"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00627.html">Foam::populationBalanceSubModels::aggregationKernels</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a2e88d94d84f3060a397779ff83b3e3d2"><td class="memItemLeft" align="right" valign="top">static autoPtr&lt; <a class="el" href="a00213.html">univariateMomentAdvection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00213.html#a2e88d94d84f3060a397779ff83b3e3d2">New</a> (const dictionary &amp;dict, const <a class="el" href="a00723.html#a545e54cd8a5ad1ca2192158b263148c5">univariateQuadratureApproximation</a> &amp;quadrature, const surfaceScalarField &amp;<a class="el" href="a00325.html#a1a97abcf6c141f539994c8a21c8daca7">phi</a>, const word &amp;support)</td></tr>
+<tr class="separator:a2e88d94d84f3060a397779ff83b3e3d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:afd780271a9c45061cfdc62f5c3fc9929"><td class="memItemLeft" align="right" valign="top">const word&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00213.html#afd780271a9c45061cfdc62f5c3fc9929">name_</a></td></tr>
+<tr class="memdesc:afd780271a9c45061cfdc62f5c3fc9929"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the distribution associated to the quadrature approximation.  <a href="#afd780271a9c45061cfdc62f5c3fc9929">More...</a><br /></td></tr>
+<tr class="separator:afd780271a9c45061cfdc62f5c3fc9929"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4389bf303f1fbbc7c380c84c3c323568"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="a00723.html#ad3c4993319e0afd86f19cfc10dc05503">volUnivariateMomentFieldSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00213.html#a4389bf303f1fbbc7c380c84c3c323568">moments_</a></td></tr>
+<tr class="memdesc:a4389bf303f1fbbc7c380c84c3c323568"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to the moments to advect.  <a href="#a4389bf303f1fbbc7c380c84c3c323568">More...</a><br /></td></tr>
+<tr class="separator:a4389bf303f1fbbc7c380c84c3c323568"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e897a153fd991bd6a4b54dbe380d8c3"><td class="memItemLeft" align="right" valign="top">const label&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00213.html#a1e897a153fd991bd6a4b54dbe380d8c3">nMoments_</a></td></tr>
+<tr class="memdesc:a1e897a153fd991bd6a4b54dbe380d8c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of moments.  <a href="#a1e897a153fd991bd6a4b54dbe380d8c3">More...</a><br /></td></tr>
+<tr class="separator:a1e897a153fd991bd6a4b54dbe380d8c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2077495efed6bdb534dda0e84dd2cbba"><td class="memItemLeft" align="right" valign="top">PtrList&lt; volScalarField &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00213.html#a2077495efed6bdb534dda0e84dd2cbba">divMoments_</a></td></tr>
+<tr class="memdesc:a2077495efed6bdb534dda0e84dd2cbba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advection terms for moment transport equations.  <a href="#a2077495efed6bdb534dda0e84dd2cbba">More...</a><br /></td></tr>
+<tr class="separator:a2077495efed6bdb534dda0e84dd2cbba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6ebab407edaa9fb1bf07c163e389b8f"><td class="memItemLeft" align="right" valign="top">surfaceScalarField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00213.html#ac6ebab407edaa9fb1bf07c163e389b8f">own_</a></td></tr>
+<tr class="memdesc:ac6ebab407edaa9fb1bf07c163e389b8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Field used to find upwind values of the owner.  <a href="#ac6ebab407edaa9fb1bf07c163e389b8f">More...</a><br /></td></tr>
+<tr class="separator:ac6ebab407edaa9fb1bf07c163e389b8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8b04d4daaf16b8ad52708b54b311c58"><td class="memItemLeft" align="right" valign="top">surfaceScalarField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00213.html#af8b04d4daaf16b8ad52708b54b311c58">nei_</a></td></tr>
+<tr class="memdesc:af8b04d4daaf16b8ad52708b54b311c58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Field used to find upwind values of the neighbour.  <a href="#af8b04d4daaf16b8ad52708b54b311c58">More...</a><br /></td></tr>
+<tr class="separator:af8b04d4daaf16b8ad52708b54b311c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c8dd33081ef34705076d00797291810"><td class="memItemLeft" align="right" valign="top">const surfaceScalarField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00213.html#a6c8dd33081ef34705076d00797291810">phi_</a></td></tr>
+<tr class="memdesc:a6c8dd33081ef34705076d00797291810"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conservative advection flux.  <a href="#a6c8dd33081ef34705076d00797291810">More...</a><br /></td></tr>
+<tr class="separator:a6c8dd33081ef34705076d00797291810"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97745e65ea5305313a9cc8919a99b621"><td class="memItemLeft" align="right" valign="top">word&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00213.html#a97745e65ea5305313a9cc8919a99b621">support_</a></td></tr>
+<tr class="memdesc:a97745e65ea5305313a9cc8919a99b621"><td class="mdescLeft">&#160;</td><td class="mdescRight">Support of the distribution function.  <a href="#a97745e65ea5305313a9cc8919a99b621">More...</a><br /></td></tr>
+<tr class="separator:a97745e65ea5305313a9cc8919a99b621"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63b7139626299621e608e4a07a0def92"><td class="memItemLeft" align="right" valign="top">label&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00213.html#a63b7139626299621e608e4a07a0def92">nDimensions_</a></td></tr>
+<tr class="memdesc:a63b7139626299621e608e4a07a0def92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dimensions of the underlying distribution.  <a href="#a63b7139626299621e608e4a07a0def92">More...</a><br /></td></tr>
+<tr class="separator:a63b7139626299621e608e4a07a0def92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="/home/alberto/Desktop/OpenQBMM/src/quadratureMethods/populationBalanceModels/populationBalanceSubModels/aggregationKernels/Brownian/Brownian.H">Brownian.H</a> </p>
+<div class="textblock"><p>Abstract class for the advection of a univariate moment set. </p>
+<p><a class="anchor" id="Description"></a></p><dl class="section user"><dt>Source files</dt><dd><ul>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM-Test/OpenQBMM/src/quadratureMethods/momentAdvection/univariateMomentAdvection/univariateMomentAdvection.H">univariateMomentAdvection.H</a> </li>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM-Test/OpenQBMM/src/quadratureMethods/momentAdvection/univariateMomentAdvection/univariateMomentAdvection.C">univariateMomentAdvection.C</a> </li>
+<li>
+<a href="/home/alberto/Desktop/OpenQBMM-Test/OpenQBMM/src/quadratureMethods/momentAdvection/univariateMomentAdvection/univariateMomentAdvectionI.H">univariateMomentAdvectionI.H</a> </li>
+</ul>
+</dd></dl>
 
-<p>Definition in file <a class="el" href="a00213_source.html">Brownian.H</a>.</p>
-</div></div><!-- contents -->
+<p>Definition at line <a class="el" href="a00683_source.html#l00057">57</a> of file <a class="el" href="a00683_source.html">univariateMomentAdvection.H</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="ae80830da2be5412957390f8d74916bc5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a00213.html">univariateMomentAdvection</a> </td>
+          <td>(</td>
+          <td class="paramtype">const dictionary &amp;&#160;</td>
+          <td class="paramname"><em>dict</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="a00723.html#a545e54cd8a5ad1ca2192158b263148c5">univariateQuadratureApproximation</a> &amp;&#160;</td>
+          <td class="paramname"><em>quadrature</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const surfaceScalarField &amp;&#160;</td>
+          <td class="paramname"><em>phi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const word &amp;&#160;</td>
+          <td class="paramname"><em>support</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct from <a class="el" href="a00215.html" title="Stores a generic moment set with the corresponding list of orders. ">univariateMomentSet</a>. </p>
+
+<p>Definition at line <a class="el" href="a00682_source.html#l00040">40</a> of file <a class="el" href="a00682_source.html">univariateMomentAdvection.C</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af7558438bb9fa34ba37ed51735b3a2e2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">~<a class="el" href="a00213.html">univariateMomentAdvection</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Destructor. </p>
+
+<p>Definition at line <a class="el" href="a00682_source.html#l00106">106</a> of file <a class="el" href="a00682_source.html">univariateMomentAdvection.C</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a922fedbd9a4fa76566799abd43f071ca"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TypeName </td>
+          <td>(</td>
+          <td class="paramtype">&quot;univariateMomentAdvection&quot;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Runtime type information. </p>
+
+</div>
+</div>
+<a class="anchor" id="ada5d67bdf45974d411f9977245927f51"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">declareRunTimeSelectionTable </td>
+          <td>(</td>
+          <td class="paramtype">autoPtr&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="a00213.html">univariateMomentAdvection</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dictionary&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">(                                                                                                           const dictionary &amp;dict,                                                                                                           const <a class="el" href="a00723.html#a545e54cd8a5ad1ca2192158b263148c5">univariateQuadratureApproximation</a> &amp;quadrature,                                                                                                           const surfaceScalarField &amp;<a class="el" href="a00325.html#a1a97abcf6c141f539994c8a21c8daca7">phi</a>,                                                                                                           const word &amp;support                                                                           )&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">(dict, quadrature, <a class="el" href="a00325.html#a1a97abcf6c141f539994c8a21c8daca7">phi</a>, support)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2e88d94d84f3060a397779ff83b3e3d2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Foam::autoPtr&lt; <a class="el" href="a00213.html">Foam::univariateMomentAdvection</a> &gt; New </td>
+          <td>(</td>
+          <td class="paramtype">const dictionary &amp;&#160;</td>
+          <td class="paramname"><em>dict</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="a00723.html#a545e54cd8a5ad1ca2192158b263148c5">univariateQuadratureApproximation</a> &amp;&#160;</td>
+          <td class="paramname"><em>quadrature</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const surfaceScalarField &amp;&#160;</td>
+          <td class="paramname"><em>phi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const word &amp;&#160;</td>
+          <td class="paramname"><em>support</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="a00527_source.html#l00032">32</a> of file <a class="el" href="a00527_source.html">newUnivariateMomentAdvection.C</a>.</p>
+
+<p>References <a class="el" href="a00324_source.html#l00011">phi</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1e42ed478eefece586b6bfb013468be1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const Foam::PtrList&lt; Foam::volScalarField &gt; &amp; divMoments </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the advection term for the moment transport equation. </p>
+
+<p>Definition at line <a class="el" href="a00684_source.html#l00029">29</a> of file <a class="el" href="a00684_source.html">univariateMomentAdvectionI.H</a>.</p>
+
+<p>References <a class="el" href="a00683_source.html#l00082">univariateMomentAdvection::divMoments_</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acf73b8eb8622b96b9a7af30fcfe4544a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual scalar realizableCo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the maximum Courant number ensuring moment realizability. </p>
+
+<p>Implemented in <a class="el" href="a00233.html#a5bb437cbddedbf3f4b27f0e5de4e442d">zeta</a>, <a class="el" href="a00067.html#a5bb437cbddedbf3f4b27f0e5de4e442d">firstOrderKinetic</a>, and <a class="el" href="a00140.html#a5bb437cbddedbf3f4b27f0e5de4e442d">noAdvection</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a99b02345a8a15d3c5ea2844a2253f510"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update moment advection. </p>
+
+<p>Implemented in <a class="el" href="a00233.html#ac5c54df7ed3b930268c8d7752c101725">zeta</a>, <a class="el" href="a00067.html#ac5c54df7ed3b930268c8d7752c101725">firstOrderKinetic</a>, and <a class="el" href="a00140.html#ac5c54df7ed3b930268c8d7752c101725">noAdvection</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="afd780271a9c45061cfdc62f5c3fc9929"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const word name_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Name of the distribution associated to the quadrature approximation. </p>
+
+<p>Definition at line <a class="el" href="a00683_source.html#l00073">73</a> of file <a class="el" href="a00683_source.html">univariateMomentAdvection.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4389bf303f1fbbc7c380c84c3c323568"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="a00723.html#ad3c4993319e0afd86f19cfc10dc05503">volUnivariateMomentFieldSet</a>&amp; moments_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reference to the moments to advect. </p>
+
+<p>Definition at line <a class="el" href="a00683_source.html#l00076">76</a> of file <a class="el" href="a00683_source.html">univariateMomentAdvection.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1e897a153fd991bd6a4b54dbe380d8c3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const label nMoments_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Number of moments. </p>
+
+<p>Definition at line <a class="el" href="a00683_source.html#l00079">79</a> of file <a class="el" href="a00683_source.html">univariateMomentAdvection.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2077495efed6bdb534dda0e84dd2cbba"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PtrList&lt;volScalarField&gt; divMoments_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Advection terms for moment transport equations. </p>
+
+<p>Definition at line <a class="el" href="a00683_source.html#l00082">82</a> of file <a class="el" href="a00683_source.html">univariateMomentAdvection.H</a>.</p>
+
+<p>Referenced by <a class="el" href="a00684_source.html#l00029">univariateMomentAdvection::divMoments()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac6ebab407edaa9fb1bf07c163e389b8f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">surfaceScalarField own_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Field used to find upwind values of the owner. </p>
+
+<p>Definition at line <a class="el" href="a00683_source.html#l00085">85</a> of file <a class="el" href="a00683_source.html">univariateMomentAdvection.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af8b04d4daaf16b8ad52708b54b311c58"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">surfaceScalarField nei_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Field used to find upwind values of the neighbour. </p>
+
+<p>Definition at line <a class="el" href="a00683_source.html#l00088">88</a> of file <a class="el" href="a00683_source.html">univariateMomentAdvection.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6c8dd33081ef34705076d00797291810"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const surfaceScalarField phi_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Conservative advection flux. </p>
+
+<p>Definition at line <a class="el" href="a00683_source.html#l00091">91</a> of file <a class="el" href="a00683_source.html">univariateMomentAdvection.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a97745e65ea5305313a9cc8919a99b621"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">word support_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Support of the distribution function. </p>
+
+<p>Definition at line <a class="el" href="a00683_source.html#l00094">94</a> of file <a class="el" href="a00683_source.html">univariateMomentAdvection.H</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a63b7139626299621e608e4a07a0def92"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">label nDimensions_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Dimensions of the underlying distribution. </p>
+
+<p>Definition at line <a class="el" href="a00683_source.html#l00097">97</a> of file <a class="el" href="a00683_source.html">univariateMomentAdvection.H</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li><a class="el" href="a00683_source.html">univariateMomentAdvection.H</a></li>
+<li><a class="el" href="a00527_source.html">newUnivariateMomentAdvection.C</a></li>
+<li><a class="el" href="a00682_source.html">univariateMomentAdvection.C</a></li>
+<li><a class="el" href="a00684_source.html">univariateMomentAdvectionI.H</a></li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_259a5a6e928303d9988273e835fb5828.html">quadratureMethods</a></li><li class="navelem"><a class="el" href="dir_0ecbe6cb5f50223527ce4e1b499bd333.html">populationBalanceModels</a></li><li class="navelem"><a class="el" href="dir_58c61e057ed2119d9755c9fdbb448648.html">populationBalanceSubModels</a></li><li class="navelem"><a class="el" href="dir_62f86ef0c260ceaf3b93a8b1f701039a.html">aggregationKernels</a></li><li class="navelem"><a class="el" href="dir_71fbc4140e0b22ddf08dacef365d70a4.html">Brownian</a></li><li class="navelem"><a class="el" href="a00213.html">Brownian.H</a></li>
+    <li class="navelem"><a class="el" href="a00723.html">Foam</a></li><li class="navelem"><a class="el" href="a00213.html">univariateMomentAdvection</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

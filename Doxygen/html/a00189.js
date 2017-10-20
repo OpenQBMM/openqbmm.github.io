@@ -1,7 +1,7 @@
 var a00189 =
 [
-    [ "Zuber", "a00189.html#ab4201d130831189771d33335e0f1d13c", null ],
-    [ "~Zuber", "a00189.html#acd4235d62382e5a64b7b20e7a58921a8", null ],
-    [ "TypeName", "a00189.html#a628f94d72da54c847476fca7f9e43862", null ],
-    [ "Cvm", "a00189.html#a5eb86a943fb9eba9a9d253787e7ca82c", null ]
+    [ "sumAggregation", "a00189.html#a2c16e4ffc6504984bf080838406a8de2", null ],
+    [ "~sumAggregation", "a00189.html#a8e3dea727d5bdc9cd286c349f6dfefff", null ],
+    [ "TypeName", "a00189.html#a4175abdc1459fcf6820150c4e2ecf4da", null ],
+    [ "Ka", "a00189.html#ab7307c8c0a54778fb8ea6b85421c0a63", null ]
 ];

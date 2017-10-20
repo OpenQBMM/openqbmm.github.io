@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Wellek.H File Reference</title>
+<title>My Project: phasePair.H File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,9 +31,12 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
-    <td style="padding-left: 0.5em;">
-    <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
-    </td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   &#160;<span id="projectnumber">-dev</span>
+   </div>
+   <div id="projectbrief">An open-source implementation of Quadrature-Based Moment Methods</div>
+  </td>
  </tr>
  </tbody>
 </table>
@@ -107,15 +110,27 @@ $(document).ready(function(){initNavTree('a00598.html','');});
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
-<div class="title">Wellek.H File Reference</div>  </div>
+<div class="title">phasePair.H File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div class="dynheader">
-Include dependency graph for Wellek.H:</div>
+Include dependency graph for phasePair.H:</div>
 <div class="dyncontent">
-<div class="center"><img src="a01007.png" border="0" usemap="#Wellek_8H" alt=""/></div>
-<map name="Wellek_8H" id="Wellek_8H">
-<area shape="rect" id="node2" href="a00197.html" title="aspectRatioModel.H" alt="" coords="5,80,148,107"/>
+<div class="center"><img src="a01066.png" border="0" usemap="#phasePair_8H" alt=""/></div>
+<map name="phasePair_8H" id="phasePair_8H">
+<area shape="rect" id="node2" href="a00595.html" title="phaseModel.H" alt="" coords="5,80,115,107"/>
+<area shape="rect" id="node3" href="a00601.html" title="phasePairKey.H" alt="" coords="139,80,258,107"/>
+<area shape="rect" id="node4" href="a00599.html" title="phasePairI.H" alt="" coords="283,80,381,107"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="a01067.png" border="0" usemap="#phasePair_8Hdep" alt=""/></div>
+<map name="phasePair_8Hdep" id="phasePair_8Hdep">
+<area shape="rect" id="node2" href="a00262.html" title="BlendedInterfacialModel.H" alt="" coords="5,155,185,181"/>
+<area shape="rect" id="node3" href="a00572.html" title="orderedPhasePair.H" alt="" coords="124,80,269,107"/>
+<area shape="rect" id="node4" href="a00675.html" title="twoPhaseSystem.H" alt="" coords="229,155,367,181"/>
 </map>
 </div>
 </div>
@@ -123,27 +138,24 @@ Include dependency graph for Wellek.H:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00186.html">Wellek</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aspect ratio model of <a class="el" href="a00186.html" title="Aspect ratio model of Wellek et al. ">Wellek</a> et al.  <a href="a00186.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00171.html">phasePair</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:a00605"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00605.html">Foam</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00606"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00606.html">Foam::aspectRatioModels</a></td></tr>
+<tr class="memitem:a00723"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00723.html">Foam</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><b>Original source file</b> <a href="/home/alberto/Desktop/OpenQBMM/applications/solvers/polydisperseBubbleFoam/interfacialModels/aspectRatioModels/Wellek/Wellek.H">Wellek.H</a> </p>
+<div class="textblock"><p><b>Original source file</b> <a href="/home/alberto/Desktop/OpenQBMM-Test/OpenQBMM/applications/solvers/multiphase/twoPhaseSystem/phasePair/phasePair/phasePair.H">phasePair.H</a> </p>
 
-<p>Definition in file <a class="el" href="a00598_source.html">Wellek.H</a>.</p>
+<p>Definition in file <a class="el" href="a00598_source.html">phasePair.H</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html">applications</a></li><li class="navelem"><a class="el" href="dir_fdd174abb8ada244b49e98779c87ac3c.html">solvers</a></li><li class="navelem"><a class="el" href="dir_40ef2584a0ec6d8ca6a91d700a2af4ea.html">polydisperseBubbleFoam</a></li><li class="navelem"><a class="el" href="dir_a67881d67603c1140e6c8a3150cfe24f.html">interfacialModels</a></li><li class="navelem"><a class="el" href="dir_59d90556c1e3b97d9ebc5928eb1b9511.html">aspectRatioModels</a></li><li class="navelem"><a class="el" href="dir_d9944119f0840737b36e62b433360951.html">Wellek</a></li><li class="navelem"><a class="el" href="a00598.html">Wellek.H</a></li>
+    <li class="navelem"><a class="el" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html">applications</a></li><li class="navelem"><a class="el" href="dir_fdd174abb8ada244b49e98779c87ac3c.html">solvers</a></li><li class="navelem"><a class="el" href="dir_d62a5a20700de1cb9696e405d497a576.html">multiphase</a></li><li class="navelem"><a class="el" href="dir_c8dd8d838525102dfd397a50c2714810.html">twoPhaseSystem</a></li><li class="navelem"><a class="el" href="dir_ffc3b5f9531d28b967c8c8bcbd3054a9.html">phasePair</a></li><li class="navelem"><a class="el" href="dir_34eb6ee0c2a451524456f247758e5632.html">phasePair</a></li><li class="navelem"><a class="el" href="a00598.html">phasePair.H</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

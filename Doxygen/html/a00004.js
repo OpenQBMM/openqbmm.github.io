@@ -1,7 +1,7 @@
 var a00004 =
 [
-    [ "Antal", "a00004.html#a0e547060df61ae133caa2df0f9cd67fe", null ],
-    [ "~Antal", "a00004.html#a362a51a461ff1aabd4d339e2f87fcacf", null ],
-    [ "TypeName", "a00004.html#acfa70bfca9ccb6dd70b89195da96e06e", null ],
-    [ "Fi", "a00004.html#ac25d7fa61e6c77f74f43e4c65d647a45", null ]
+    [ "Alopaeus", "a00004.html#a7ebf1513d77c1243a91f219de4cbde10", null ],
+    [ "~Alopaeus", "a00004.html#aa4b9b954599871d4466dcbe63491da13", null ],
+    [ "TypeName", "a00004.html#a74455590faa86d134eeddfaddb21615b", null ],
+    [ "Kb", "a00004.html#adb4d984ff69a05e97de4a6fabb76bd48", null ]
 ];

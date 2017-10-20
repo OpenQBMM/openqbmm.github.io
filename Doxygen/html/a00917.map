@@ -1,3 +1,4 @@
-<map id="quadratureApproximation.H" name="quadratureApproximation.H">
-<area shape="rect" id="node8" href="$a00284.html" title="fieldMomentInversion.H" alt="" coords="682,80,843,107"/>
+<map id="hermiteQuadrature.C" name="hermiteQuadrature.C">
+<area shape="rect" id="node2" href="$a00405.html" title="hermiteQuadrature.H" alt="" coords="5,80,151,107"/>
+<area shape="rect" id="node5" href="$a00351.html" title="eigenSolver.H" alt="" coords="226,80,333,107"/>
 </map>

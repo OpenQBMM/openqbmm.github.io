@@ -1,7 +1,7 @@
 var a00176 =
 [
-    [ "VakhrushevEfremov", "a00176.html#ade76af5df6029c43099adbb1795071ce", null ],
-    [ "~VakhrushevEfremov", "a00176.html#a14a9c4cbfa1918b639f08068c7f5d6af", null ],
-    [ "TypeName", "a00176.html#a5aab66d86d4ca62a3b027e96b8b98bf6", null ],
-    [ "E", "a00176.html#a972dcd8e78e1967782a127bf17bd2eb4", null ]
+    [ "powerLawBreakup", "a00176.html#a11045d68f7b22d71a19150334861de52", null ],
+    [ "~powerLawBreakup", "a00176.html#acfdcf8ac936fab910b034c20837198f6", null ],
+    [ "TypeName", "a00176.html#ab1fbb32a962ed7ca607b766ec813333b", null ],
+    [ "Kb", "a00176.html#ac8057d8c4cbb6846d2f28e305caa5d78", null ]
 ];

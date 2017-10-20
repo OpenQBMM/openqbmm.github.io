@@ -1,8 +1,7 @@
 var a00151 =
 [
-    [ "SyamlalRogersOBrien", "a00151.html#aa78bf2c4309412069f5f7686411e5f73", null ],
-    [ "~SyamlalRogersOBrien", "a00151.html#ad7f0e0d76c579fdcc5186a1be41856ff", null ],
-    [ "TypeName", "a00151.html#aa1910326595e8c75013d9aa5cde3d6bc", null ],
-    [ "granularPressureCoeff", "a00151.html#ab385b192bdf96fe50901cf94cadcccb2", null ],
-    [ "granularPressureCoeffPrime", "a00151.html#a7477040e4bebb305b8dba787382d97e0", null ]
+    [ "noneViscosity", "a00151.html#a3f5bb1602107fc75155a91e639a2e944", null ],
+    [ "~noneViscosity", "a00151.html#a2e3b3538f36529016e3a9f4d7917a8d2", null ],
+    [ "TypeName", "a00151.html#a660172304dfa1b418cc1bded338b9fd9", null ],
+    [ "nu", "a00151.html#af4c864586110e879869d1be6131f326e", null ]
 ];

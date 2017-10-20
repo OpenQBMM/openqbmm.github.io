@@ -1,7 +1,7 @@
 var a00144 =
 [
-    [ "sine", "a00144.html#afbbd095848d37a8fd1b8aa033667dfb4", null ],
-    [ "~sine", "a00144.html#aa1c45d97c843bcc584b269b6a527e6fa", null ],
-    [ "limiter", "a00144.html#ad826c52960e65cba81f05f76e5ba771c", null ],
-    [ "TypeName", "a00144.html#a33c7be900b7642a50de9fe3539ee19d7", null ]
+    [ "noDiffusion", "a00144.html#a790c8815b53962b66948569e5a37601e", null ],
+    [ "~noDiffusion", "a00144.html#ab00319b0bec238d68ee3f4ae6b34b7b6", null ],
+    [ "TypeName", "a00144.html#a660172304dfa1b418cc1bded338b9fd9", null ],
+    [ "momentDiff", "a00144.html#a2607d470834fac9d39bfc0d92f89d41a", null ]
 ];
