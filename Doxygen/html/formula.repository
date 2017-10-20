@@ -1,0 +1,50 @@
+\form#0:\[ \mathcal{D}_k = \nabla \cdot \left( \Gamma_l \nabla m_k \right) \]
+\form#1:$ \mathcal{D}_k $
+\form#2:$ m_k $
+\form#3:$ \Gamma_l $
+\form#4:\[ \mathcal{D}_k = \nabla \cdot \left[ \left( \Gamma_l + \frac{\mu_t}{Sc_t} \right) \nabla m_k \right] \]
+\form#5:$ Sc_t $
+\form#6:$ \mu_t $
+\form#7:\[ K_a = \frac{2 \kappa T}{3 \mu} \frac{(\xi_i + \xi_j)^2}{\xi_i \xi_j} \]
+\form#8:$ T $
+\form#9:$ \kappa $
+\form#10:$ \mu $
+\form#11:$ \xi_i $
+\form#12:$ \xi_j $
+\form#13:\[ K_a = C_a \]
+\form#14:$ C_a $
+\form#15:\[ K_a = C_a (\xi_i + \xi_j)^2 |\xi_i^2 - \xi_j^2| \]
+\form#16:\[ K_a = C_a (\xi_i + \xi_j)^3 \]
+\form#17:\[ K_a = C_a (\xi_i^3 + \xi_j^3) \]
+\form#18:\[ K_a = \frac{2 \kappa T}{3 \mu} \frac{(\xi_i + \xi_j)^2}{\xi_i \xi_j} + \frac{4}{3} (\xi_i + \xi_j)^3 \sqrt{\frac{3 \pi \varepsilon}{10 \nu}} \]
+\form#19:$ \varepsilon $
+\form#20:$ \nu $
+\form#21:\[ \overline{b}_k = \xi_0^k + (\xi^3 - \xi_0^3)^{1/3} \]
+\form#22:$ k $
+\form#23:$ \xi $
+\form#24:$ \xi_0 $
+\form#25:\[ \overline{b}_k = \left( \frac{\xi}{\xi_0} \right)^3 \xi_0^k \]
+\form#26:\[ \overline{b}_k = \frac{4^{k/3} + 1}{5^{k/3}} \xi^k \]
+\form#27:\[ \overline{b}_k = 2^{(3-k)/3} \xi^k \]
+\form#28:\[ \overline{b}_k = \frac{6}{k + 3} \xi^k \]
+\form#29:\[ K_b = Cb \epsilon_f^{1/3} \text{erfc} \left( \sqrt{ C_1 \frac{\sigma}{\rho_f \epsilon_f^{2/3} \xi^{5/3}} + C_2 \frac{\mu_f} {\sqrt{rho_f \rho_b} \epsilon_f^{1/3} \xi^{4/3}} } \right) \]
+\form#30:$ \sigma $
+\form#31:$ \rho_f $
+\form#32:$ \rho_b $
+\form#33:$ \epsilon_f $
+\form#34:$ \mu_f $
+\form#35:\[ P_c = \text{exp} ( - \frac{\theta \sqrt{We} \sqrt{0.75 (1.0 + \xi^2) (1.0 + \xi^3)}} {\sqrt{\rho_b/rho_f}*(1.0 + \xi)^3} ); \xi = \frac{d_i}{d_j} \theta = x Re^{y} \text{We}^{z} \]
+\form#36:$ We $
+\form#37:$ Re $
+\form#38:$ x $
+\form#39:$ y $
+\form#40:$ z $
+\form#41:$ d_i $
+\form#42:$ d_j $
+\form#43:\[ P_c = \text{exp} \left( - C_{eff} \frac{\mu_f \rho_f \epsilon_f}{\sigma^2} \left( \frac{d_i^{1/3} d_j^{1/3}}{d_i^{1/3} + d_j^{1/3}} \right) \right) \]
+\form#44:\[ \omega = \epsilon_f^{1/3}(d_i^{2/3} + d_j^{2/3}) \]
+\form#45:\[ \omega_{turb} = 0.089 \pi (d_i + d_j)^2 \sqrt{d_i^{\frac{2}{3}} + d_j^{\frac{2}{3}} } epsilon_f^{frac{1}{3}} \omega_{buoyancy} = \pi (d_i + d_j)^2 ( \sqrt{2.14*\sigma/(d_i \rho_f) + 0.5 \mathbf{g} d_i} - \sqrt{2.14*\sigma/(d_j \rho_f) + 0.5 \mathbf{g} d_j} ) \omega_{shear} = \frac{2}{3} (d_i + d_j)^3 |\nabla \mathbf{U}_f| \]
+\form#46:$ \mathbf{U}_f$
+\form#47:$ g $
+\form#48:$ \d_i $
+\form#49:$ \d_j $
