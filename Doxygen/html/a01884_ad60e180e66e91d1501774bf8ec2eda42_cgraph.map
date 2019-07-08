@@ -1,0 +1,8 @@
+<map id="invertLocalMoments" name="invertLocalMoments">
+<area shape="rect" id="node2" href="$a01697.html#a661071c857206cff08f25e78275fc863" title="forAll" alt="" coords="251,5,303,32"/>
+<area shape="rect" id="node3" href="$a02240.html#a44294a401aa4b4cd33e56b6d61967ae6" title="Const access to the scalar abscissa of the node. " alt="" coords="196,57,359,98"/>
+<area shape="rect" id="node4" href="$a02240.html#ae744e0be2351d524d75803ea51fe5f69" title="Const access to the weight of the node. " alt="" coords="196,122,359,163"/>
+<area shape="rect" id="node5" href="$a02240.html#a1ae11040ca975de93967d8f0452e6de3" title="Const access to the list of secondary abscissae of the node. " alt="" coords="196,187,359,229"/>
+<area shape="rect" id="node6" href="$a02240.html#afc068e8effa3c3cc13c9e15c22058214" title="Const access to the secondary weights of the node. " alt="" coords="196,253,359,294"/>
+<area shape="rect" id="node7" href="$a02240.html#afe3b61857d852262867c81e0cd0a68a0" title="Const access to sigma. " alt="" coords="196,318,359,359"/>
+</map>

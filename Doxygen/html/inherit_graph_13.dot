@@ -4,5 +4,7 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node1 [label="Chesters",height=0.2,width=0.4,color="black",URL="$a00028.html",tooltip="Coaelescence efficieny kernel based on the interaction time of bubble. Only valid for bubbles of equa..."];
+  Node0 [label="bubblePressureModel",height=0.2,width=0.4,color="black",URL="$a02364.html"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="Beisheuvel",height=0.2,width=0.4,color="black",URL="$a02360.html"];
 }

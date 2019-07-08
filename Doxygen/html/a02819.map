@@ -1,0 +1,5 @@
+<map id="heatTransferModel" name="heatTransferModel">
+<area shape="rect" id="node2" href="$a02816.html" title="Model which applies a user provided constant Nusselt number for interfacial heat transfer. " alt="" coords="5,80,172,107"/>
+<area shape="rect" id="node3" href="$a02824.html" title="Ranz&#45;Marshall correlation for turbulent heat transfer from the surface of a sphere to the surrounding..." alt="" coords="197,80,301,107"/>
+<area shape="rect" id="node4" href="$a02828.html" title="Model which applies an analytical solution for heat transfer from the surface of a sphere to the flui..." alt="" coords="325,80,479,107"/>
+</map>

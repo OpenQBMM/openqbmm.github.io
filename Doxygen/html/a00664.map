@@ -1,0 +1,12 @@
+<map id="quadratureApproximations.H" name="quadratureApproximations.H">
+<area shape="rect" id="node2" href="$a00158.html" title="univariateMomentAdvection.H" alt="" coords="5,80,205,107"/>
+<area shape="rect" id="node3" href="$a00365.html" title="univariatePDFTransportModel.H" alt="" coords="75,155,290,181"/>
+<area shape="rect" id="node4" href="$a00188.html" title="velocityMomentAdvection.H" alt="" coords="281,80,469,107"/>
+<area shape="rect" id="node5" href="$a00374.html" title="velocityPDFTransportModel.H" alt="" coords="332,155,535,181"/>
+<area shape="rect" id="node6" href="$a00404.html" title="aggregationKernel.H" alt="" coords="544,80,691,107"/>
+<area shape="rect" id="node7" href="$a00455.html" title="breakupKernel.H" alt="" coords="715,80,837,107"/>
+<area shape="rect" id="node8" href="$a00515.html" title="collisionKernel.H" alt="" coords="861,80,984,107"/>
+<area shape="rect" id="node9" href="$a03507.html" title="IEM.H" alt="" coords="1008,80,1064,107"/>
+<area shape="rect" id="node10" href="$a00599.html" title="growthModel.H" alt="" coords="1088,80,1200,107"/>
+<area shape="rect" id="node11" href="$a01742.html" title="vdfPhaseModel.H" alt="" coords="1225,80,1354,107"/>
+</map>

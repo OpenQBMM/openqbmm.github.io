@@ -1,0 +1,12 @@
+digraph "multivariateMomentSet" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_28a10e058b67f0d7e124cb3c5246e6cb {
+    graph [ bgcolor="#ddddee", pencolor="black", label="momentSets" fontname="Helvetica", fontsize="10", URL="dir_28a10e058b67f0d7e124cb3c5246e6cb.html"]
+  dir_a26478d4416b031239c3e1fa55b07c30 [shape=box, label="multivariateMomentSet", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_a26478d4416b031239c3e1fa55b07c30.html"];
+  }
+  dir_5649e4d055fee5650da77731fdab85d9 [shape=box label="momentSet" URL="dir_5649e4d055fee5650da77731fdab85d9.html"];
+  dir_a26478d4416b031239c3e1fa55b07c30->dir_5649e4d055fee5650da77731fdab85d9 [headlabel="1", labeldistance=1.5 headhref="dir_000247_000240.html"];
+}

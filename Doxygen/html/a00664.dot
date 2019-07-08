@@ -1,0 +1,29 @@
+digraph "quadratureApproximations.H"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node37 [label="quadratureApproximations.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node37 -> Node38 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node38 [label="univariateMomentAdvection.H",height=0.2,width=0.4,color="red",URL="$a00158.html"];
+  Node38 -> Node47 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node47 [label="univariatePDFTransportModel.H",height=0.2,width=0.4,color="red",URL="$a00365.html"];
+  Node37 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node55 [label="velocityMomentAdvection.H",height=0.2,width=0.4,color="red",URL="$a00188.html"];
+  Node55 -> Node64 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node64 [label="velocityPDFTransportModel.H",height=0.2,width=0.4,color="red",URL="$a00374.html"];
+  Node37 -> Node47 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node37 -> Node64 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node37 -> Node70 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node70 [label="aggregationKernel.H",height=0.2,width=0.4,color="red",URL="$a00404.html"];
+  Node37 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node85 [label="breakupKernel.H",height=0.2,width=0.4,color="red",URL="$a00455.html"];
+  Node37 -> Node98 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node98 [label="collisionKernel.H",height=0.2,width=0.4,color="red",URL="$a00515.html"];
+  Node37 -> Node114 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node114 [label="IEM.H",height=0.2,width=0.4,color="red",URL="$a03507.html"];
+  Node37 -> Node116 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node116 [label="growthModel.H",height=0.2,width=0.4,color="red",URL="$a00599.html"];
+  Node37 -> Node121 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node121 [label="vdfPhaseModel.H",height=0.2,width=0.4,color="black",URL="$a01742.html"];
+}

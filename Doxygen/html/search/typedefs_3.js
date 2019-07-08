@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['univariatequadratureapproximation',['univariateQuadratureApproximation',['../a00723.html#a545e54cd8a5ad1ca2192158b263148c5',1,'Foam']]]
+  ['odetype',['odeType',['../a02228.html#a7cb4af65743aca906d1eddf51e00b86b',1,'Foam::PDFTransportModels::populationBalanceModels::velocityPopulationBalance']]]
 ];

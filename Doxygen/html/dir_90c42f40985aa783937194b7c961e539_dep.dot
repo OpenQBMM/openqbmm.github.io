@@ -8,5 +8,5 @@ digraph "nonEquilibrium" {
   dir_90c42f40985aa783937194b7c961e539 [shape=box, label="nonEquilibrium", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_90c42f40985aa783937194b7c961e539.html"];
   }
   dir_44c13c9e29fecf045ec0d93a50553a5e [shape=box label="kineticTheoryModel" URL="dir_44c13c9e29fecf045ec0d93a50553a5e.html"];
-  dir_90c42f40985aa783937194b7c961e539->dir_44c13c9e29fecf045ec0d93a50553a5e [headlabel="1", labeldistance=1.5 headhref="dir_000193_000140.html"];
+  dir_90c42f40985aa783937194b7c961e539->dir_44c13c9e29fecf045ec0d93a50553a5e [headlabel="1", labeldistance=1.5 headhref="dir_000281_000201.html"];
 }

@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$a00197.html" title="ThermalDiffusivity\l\&lt; BasicTurbulenceModel \&gt;" alt="" coords="5,5,192,47"/>
+<area shape="rect" id="node1" href="$a02216.html" title="Abstract class for nucleation model. " alt="" coords="5,31,127,57"/>
+<area shape="rect" id="node2" href="$a02208.html" title="Miller nucleation model for soot formation. " alt="" coords="197,5,252,32"/>
+<area shape="rect" id="node3" href="$a02212.html" title="No nucleation model. " alt="" coords="175,56,275,83"/>
 </map>

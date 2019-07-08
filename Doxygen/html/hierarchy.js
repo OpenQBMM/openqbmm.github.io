@@ -1,319 +1,480 @@
 var hierarchy =
 [
-    [ "aggregationKernel", "a00002.html", [
-      [ "Brownian", "a00021.html", null ],
-      [ "constantAggregation", "a00039.html", null ],
-      [ "differentialForceAggregation", "a00054.html", null ],
-      [ "hydrodynamicAggregation", "a00090.html", null ],
-      [ "sumAggregation", "a00189.html", null ],
-      [ "turbulentBrownian", "a00206.html", null ]
+    [ "aggregationKernel", "a02080.html", [
+      [ "Brownian", "a02084.html", null ],
+      [ "constantAggregation", "a02088.html", null ],
+      [ "differentialForceAggregation", "a02092.html", null ],
+      [ "hydrodynamicAggregation", "a02096.html", null ],
+      [ "sumAggregation", "a02100.html", null ],
+      [ "turbulentBrownian", "a02104.html", null ]
     ] ],
-    [ "AGmomentTransportModel", "a00003.html", null ],
-    [ "Alopaeus", "a00005.html", null ],
-    [ "alphG0", "a00008.html", null ],
-    [ "anisotropicGaussian", "a00010.html", null ],
-    [ "aspectRatioModel", "a00012.html", [
-      [ "constantAspectRatio", "a00040.html", null ],
-      [ "VakhrushevEfremov", "a00221.html", [
-        [ "TomiyamaAspectRatio", "a00200.html", null ]
+    [ "AGmomentTransportModel", "a02628.html", null ],
+    [ "Alopaeus", "a02960.html", null ],
+    [ "alphG0", "a03024.html", null ],
+    [ "anisotropicGaussian", "a03020.html", null ],
+    [ "aspectRatioModel", "a02328.html", [
+      [ "constantAspectRatio", "a02332.html", null ],
+      [ "constantAspectRatio", "a02332.html", null ],
+      [ "VakhrushevEfremov", "a02340.html", [
+        [ "TomiyamaAspectRatio", "a02336.html", null ],
+        [ "TomiyamaAspectRatio", "a02336.html", null ]
       ] ],
-      [ "Wellek", "a00231.html", null ]
+      [ "VakhrushevEfremov", "a02340.html", null ],
+      [ "Wellek", "a02344.html", null ],
+      [ "Wellek", "a02344.html", null ]
     ] ],
-    [ "baseModel", null, [
-      [ "anisotropicGaussian< baseModel >", "a00009.html", null ]
+    [ "AUSM", "a02932.html", null ],
+    [ "AUSMPlus", "a02936.html", null ],
+    [ "BeisheuvelBubblePressure", "a02972.html", null ],
+    [ "BlendedInterfacialModel< modelType >", "a02764.html", null ],
+    [ "blendingMethod", "a02768.html", [
+      [ "hyperbolic", "a02772.html", null ],
+      [ "linear", "a02776.html", null ],
+      [ "noBlending", "a02780.html", null ]
     ] ],
-    [ "BeisheuvelBubblePressure", "a00016.html", null ],
-    [ "BlendedInterfacialModel< modelType >", "a00018.html", null ],
-    [ "blendingMethod", "a00019.html", [
-      [ "hyperbolic", "a00091.html", null ],
-      [ "linear", "a00115.html", null ],
-      [ "noBlending", "a00142.html", null ]
+    [ "breakupKernel", "a02112.html", [
+      [ "AyaziShamlou", "a02108.html", null ],
+      [ "constantBreakup", "a02116.html", null ],
+      [ "exponentialBreakup", "a02120.html", null ],
+      [ "LuoSvendsen", "a02124.html", null ],
+      [ "powerLawBreakup", "a02128.html", null ]
     ] ],
-    [ "breakupKernel", "a00020.html", [
-      [ "AyaziShamlou", "a00013.html", null ],
-      [ "constantBreakup", "a00042.html", null ],
-      [ "exponentialBreakup", "a00063.html", null ],
-      [ "LuoSvendsen", "a00122.html", null ],
-      [ "powerLawBreakup", "a00176.html", null ]
+    [ "bubbleBreakupKernel", "a02964.html", null ],
+    [ "bubbleBreakupKernel", "a02352.html", [
+      [ "Alopaeus", "a02348.html", null ],
+      [ "LuoSvendsen", "a02356.html", null ]
     ] ],
-    [ "bubbleBreakupKernel", "a00022.html", [
-      [ "Alopaeus", "a00004.html", null ],
-      [ "LuoSvendsen", "a00124.html", null ]
+    [ "bubblePressureModel", "a02364.html", [
+      [ "Beisheuvel", "a02360.html", null ]
     ] ],
-    [ "bubbleBreakupKernel", "a00023.html", null ],
-    [ "bubblePressureModel", "a00024.html", [
-      [ "Beisheuvel", "a00015.html", null ]
+    [ "ButcherTable", "a02264.html", [
+      [ "Euler", "a02268.html", null ],
+      [ "RK2", "a02272.html", null ],
+      [ "RK2SSP", "a02276.html", null ],
+      [ "RK3SSP", "a02280.html", null ],
+      [ "RK45", "a02284.html", null ],
+      [ "RK4SSP", "a02288.html", null ],
+      [ "RKF45", "a02292.html", null ]
     ] ],
     [ "cellSetOption", null, [
-      [ "phaseCompressibleMeanVelocityForce", "a00167.html", null ],
-      [ "phaseIncompressibleMeanVelocityForce", "a00169.html", null ]
+      [ "phaseCompressibleMeanVelocityForce", "a02864.html", null ],
+      [ "phaseIncompressibleMeanVelocityForce", "a02868.html", null ]
     ] ],
-    [ "Chesters", "a00028.html", null ],
-    [ "coalescenceEfficiencyKernel", "a00029.html", [
-      [ "Chesters", "a00027.html", null ],
-      [ "constant", "a00037.html", null ],
-      [ "CoulaloglouAndTavlarides", "a00048.html", null ],
-      [ "Lehr", "a00112.html", null ],
-      [ "PrinceAndBlanch", "a00177.html", null ]
+    [ "Chesters", "a02976.html", null ],
+    [ "coalescenceEfficiencyKernel", "a02376.html", [
+      [ "Chesters", "a02372.html", null ],
+      [ "constant", "a02380.html", null ],
+      [ "CoulaloglouAndTavlarides", "a02384.html", null ],
+      [ "Lehr", "a02388.html", null ],
+      [ "Luo", "a02392.html", null ],
+      [ "PrinceAndBlanch", "a02396.html", null ]
     ] ],
-    [ "coalescenceEfficiencyKernel", "a00030.html", null ],
-    [ "coalescenceFrequencyKernel", "a00031.html", [
-      [ "CoulaloglouAndTavlarides", "a00049.html", null ],
-      [ "PrinceAndBlanch", "a00179.html", null ]
+    [ "coalescenceEfficiencyKernel", "a02980.html", null ],
+    [ "coalescenceFrequencyKernel", "a02400.html", [
+      [ "CoulaloglouAndTavlarides", "a02404.html", null ],
+      [ "Luo", "a02408.html", null ],
+      [ "PrinceAndBlanch", "a02412.html", null ]
     ] ],
-    [ "coalescenceFrequencyKernel", "a00032.html", null ],
-    [ "coalescenceKernel", "a00033.html", null ],
-    [ "coalescenceKernel", "a00034.html", null ],
-    [ "conditionalMomentInversion", "a00035.html", null ],
-    [ "conductivityModel", "a00036.html", [
-      [ "Gidaspow", "a00079.html", null ],
-      [ "HrenyaSinclair", "a00088.html", null ],
-      [ "KongFox", "a00105.html", null ],
-      [ "Syamlal", "a00191.html", null ]
+    [ "coalescenceFrequencyKernel", "a02992.html", null ],
+    [ "coalescenceKernel", "a02416.html", null ],
+    [ "coalescenceKernel", "a03008.html", null ],
+    [ "collisionKernel", "a02140.html", [
+      [ "BGKCollision", "a02132.html", [
+        [ "esBGKCollision", "a02144.html", null ]
+      ] ],
+      [ "BoltzmannCollision", "a02136.html", null ],
+      [ "noCollision", "a02148.html", null ]
     ] ],
-    [ "constant", "a00038.html", null ],
-    [ "constantAspectRatio", "a00041.html", null ],
-    [ "CoulaloglouAndTavlarides", "a00050.html", null ],
-    [ "CoulaloglouAndTavlarides", "a00051.html", null ],
-    [ "daughterDistribution", "a00052.html", [
-      [ "erosion", "a00062.html", null ],
-      [ "fullFragmentation", "a00073.html", null ],
-      [ "oneQuarterMassRatio", "a00161.html", null ],
-      [ "symmetricFragmentation", "a00196.html", null ],
-      [ "uniform", "a00212.html", null ]
+    [ "compressibleSystem", "a02296.html", null ],
+    [ "conductivityModel", "a02660.html", [
+      [ "Gidaspow", "a02664.html", null ],
+      [ "HrenyaSinclair", "a02668.html", null ],
+      [ "KongFox", "a02672.html", null ],
+      [ "Syamlal", "a02676.html", null ]
     ] ],
-    [ "diffusionModel", "a00055.html", [
-      [ "molecularDiffusion", "a00129.html", null ],
-      [ "noDiffusion", "a00144.html", null ],
-      [ "turbulentDiffusion", "a00207.html", null ]
+    [ "constant", "a02984.html", null ],
+    [ "constantAspectRatio", "a02952.html", null ],
+    [ "CoulaloglouAndTavlarides", "a02988.html", null ],
+    [ "CoulaloglouAndTavlarides", "a02996.html", null ],
+    [ "daughterDistribution", "a02152.html", [
+      [ "erosion", "a02156.html", null ],
+      [ "fullFragmentation", "a02160.html", null ],
+      [ "oneQuarterMassRatio", "a02164.html", null ],
+      [ "symmetricFragmentation", "a02168.html", null ],
+      [ "uniform", "a02172.html", null ]
     ] ],
-    [ "diffusionModel", "a00056.html", [
-      [ "molecularDiffusion", "a00130.html", null ],
-      [ "noDiffusion", "a00145.html", null ],
-      [ "turbulentDiffusion", "a00208.html", null ]
+    [ "diffusionModel", "a02176.html", [
+      [ "molecularDiffusion", "a02180.html", null ],
+      [ "noDiffusion", "a02184.html", null ],
+      [ "turbulentDiffusion", "a02188.html", null ]
     ] ],
-    [ "eddyViscosity    ", null, [
-      [ "kineticTheory", "a00102.html", null ],
-      [ "phasePressureModel", "a00174.html", null ]
+    [ "eddyViscosity", null, [
+      [ "kineticTheory", "a02624.html", null ],
+      [ "phasePressureModel", "a02760.html", null ]
     ] ],
-    [ "eigenSolver", "a00058.html", null ],
-    [ "equilibrium", "a00060.html", null ],
-    [ "extendedMomentInversion", "a00065.html", [
-      [ "betaEQMOM", "a00017.html", null ],
-      [ "gammaEQMOM", "a00074.html", null ],
-      [ "lognormalEQMOM", "a00117.html", null ]
+    [ "eigenSolver", "a01864.html", null ],
+    [ "environmentMixingModel", "a02192.html", [
+      [ "IEM", "a02196.html", null ]
     ] ],
-    [ "fieldMomentInversion", "a00066.html", [
-      [ "basicFieldMomentInversion", "a00014.html", null ],
-      [ "extendedFieldMomentInversion", "a00064.html", null ]
+    [ "equilibrium", "a03032.html", null ],
+    [ "errorEstimator", "a02836.html", null ],
+    [ "extendedMomentInversion", "a02020.html", [
+      [ "betaEQMOM", "a02016.html", null ],
+      [ "gammaEQMOM", "a02024.html", null ],
+      [ "lognormalEQMOM", "a02028.html", null ]
+    ] ],
+    [ "fieldMomentInversion", "a01888.html", [
+      [ "basicFieldMomentInversion", "a01876.html", null ],
+      [ "basicVelocityFieldMomentInversion", "a01880.html", null ],
+      [ "extendedFieldMomentInversion", "a01884.html", null ]
     ] ],
     [ "fieldType", null, [
-      [ "moment< fieldType, nodeType >", "a00131.html", null ]
+      [ "moment< fieldType, nodeType >", "a02032.html", null ]
     ] ],
-    [ "fluxSplittingFunction", "a00068.html", [
-      [ "alphaG0", "a00007.html", null ],
-      [ "particlePressure", "a00164.html", null ]
+    [ "firstOrderKinetic", "a02880.html", null ],
+    [ "fluxFunction", "a02308.html", [
+      [ "AUSM", "a02300.html", null ],
+      [ "AUSMPlus", "a02304.html", null ],
+      [ "HLL", "a02316.html", null ],
+      [ "HLLC", "a02312.html", null ],
+      [ "Roe", "a02320.html", null ]
     ] ],
-    [ "fluxSplittingFunction", "a00069.html", null ],
-    [ "frictionalStressModel", "a00072.html", [
-      [ "JohnsonJackson", "a00098.html", null ],
-      [ "JohnsonJacksonSchaeffer", "a00101.html", null ],
-      [ "Schaeffer", "a00183.html", null ]
+    [ "fluxIntegrator", "a02324.html", null ],
+    [ "fluxSplittingFunction", "a03028.html", null ],
+    [ "fluxSplittingFunction", "a02640.html", [
+      [ "alphaG0", "a02636.html", null ],
+      [ "particlePressure", "a02644.html", null ]
     ] ],
-    [ "granularPressureModel", "a00084.html", [
-      [ "KongFox", "a00106.html", null ],
-      [ "Lun", "a00119.html", null ],
-      [ "SyamlalRogersOBrien", "a00194.html", null ]
+    [ "frictionalStressModel", "a02680.html", [
+      [ "JohnsonJackson", "a02684.html", null ],
+      [ "JohnsonJacksonSchaeffer", "a02688.html", null ],
+      [ "Schaeffer", "a02692.html", null ]
     ] ],
-    [ "growthModel", "a00085.html", [
-      [ "constantGrowth", "a00043.html", null ]
+    [ "granularPressureModel", "a02696.html", [
+      [ "KongFox", "a02700.html", null ],
+      [ "Lun", "a02704.html", null ],
+      [ "SyamlalRogersOBrien", "a02708.html", null ]
+    ] ],
+    [ "growthModel", "a02204.html", [
+      [ "constantGrowth", "a02200.html", null ]
     ] ],
     [ "Hash", null, [
-      [ "phasePairKey::hash", "a00086.html", null ]
+      [ "phasePairKey::hash", "a02804.html", null ],
+      [ "phasePairKey::hash", "a02804.html", null ]
     ] ],
-    [ "hermiteQuadrature", "a00087.html", null ],
-    [ "hyperbolic", "a00092.html", null ],
-    [ "quadratureNode< weightType, abscissaType, sigmaType >::iNew", "a00094.html", null ],
-    [ "moment< fieldType, nodeType >::iNew", "a00095.html", null ],
+    [ "heatTransferModel", "a02820.html", [
+      [ "constantNuHeatTransfer", "a02816.html", null ],
+      [ "RanzMarshall", "a02824.html", null ],
+      [ "sphericalHeatTransfer", "a02828.html", null ]
+    ] ],
+    [ "hermiteQuadrature", "a01892.html", null ],
+    [ "HLLCFlux", "a02940.html", null ],
+    [ "HLLFlux", "a02944.html", null ],
+    [ "hyperbolic", "a03068.html", null ],
+    [ "environmentMixingModel::IEM", "a02916.html", null ],
+    [ "moment< fieldType, nodeType >::iNew", "a02036.html", null ],
+    [ "velocityQuadratureNode< scalarType, vectorType >::iNew", "a02252.html", null ],
+    [ "quadratureNode< scalarType, vectorType >::iNew", "a02244.html", null ],
     [ "IOdictionary", null, [
-      [ "quadratureApproximation< momentFieldSetType, nodeType >", "a00180.html", null ],
-      [ "twoPhaseSystem", "a00211.html", null ],
-      [ "quadratureApproximation< volUnivariateMomentFieldSet, volScalarNode >", "a00180.html", [
-        [ "monoKineticQuadratureApproximation", "a00137.html", null ]
-      ] ]
+      [ "quadratureApproximation< momentType, nodeType >", "a02236.html", null ],
+      [ "twoPhaseSystem", "a02808.html", null ],
+      [ "quadratureApproximation< volScalarMoment, volScalarNode >", "a02236.html", [
+        [ "monoKineticQuadratureApproximation", "a02232.html", null ]
+      ] ],
+      [ "quadratureApproximation< volVelocityMoment, volVelocityNode >", "a02236.html", null ]
     ] ],
-    [ "kineticTheory", "a00103.html", null ],
-    [ "KongFox", "a00108.html", null ],
-    [ "liftModel", "a00113.html", [
-      [ "constantLiftCoefficient", "a00044.html", null ],
-      [ "LegendreMagnaudet", "a00111.html", null ],
-      [ "Moraga", "a00138.html", null ],
-      [ "noLift", "a00146.html", null ],
-      [ "TomiyamaLift", "a00202.html", null ],
-      [ "wallDamped", "a00226.html", null ]
+    [ "kineticTheory", "a03016.html", null ],
+    [ "KongFox", "a03040.html", null ],
+    [ "liftModel", "a02484.html", [
+      [ "constantLiftCoefficient", "a02476.html", null ],
+      [ "constantLiftCoefficient", "a02476.html", null ],
+      [ "LegendreMagnaudet", "a02480.html", null ],
+      [ "LegendreMagnaudet", "a02480.html", null ],
+      [ "Moraga", "a02488.html", null ],
+      [ "Moraga", "a02488.html", null ],
+      [ "noLift", "a02492.html", null ],
+      [ "noLift", "a02492.html", null ],
+      [ "TomiyamaLift", "a02496.html", null ],
+      [ "TomiyamaLift", "a02496.html", null ],
+      [ "wallDamped", "a02500.html", null ],
+      [ "wallDamped", "a02500.html", null ]
     ] ],
-    [ "linear", "a00116.html", null ],
-    [ "Lun", "a00120.html", null ],
-    [ "LuoSvendsen", "a00123.html", null ],
+    [ "linear", "a03072.html", null ],
+    [ "List", null, [
+      [ "mappedList< mappedType >", "a01868.html", null ],
+      [ "mappedList< dimensionedScalar >", "a01868.html", null ],
+      [ "mappedList< scalar >", "a01868.html", [
+        [ "momentSet", "a02044.html", [
+          [ "multivariateMomentSet", "a02048.html", null ],
+          [ "univariateMomentSet", "a02052.html", null ]
+        ] ]
+      ] ],
+      [ "mappedList< scalarList >", "a01868.html", null ],
+      [ "mappedList< vector >", "a01868.html", null ]
+    ] ],
+    [ "Lun", "a03044.html", null ],
+    [ "Luo", "a03000.html", null ],
+    [ "LuoSvendsen", "a02968.html", null ],
+    [ "mappedLists", "a02872.html", null ],
     [ "mixedFvPatchScalarField", null, [
-      [ "JohnsonJacksonParticleThetaFvPatchScalarField", "a00100.html", null ]
+      [ "JohnsonJacksonParticleThetaFvPatchScalarField", "a02620.html", null ]
     ] ],
-    [ "mixingKernel", "a00126.html", [
-      [ "FokkerPlanck", "a00070.html", null ],
-      [ "IEM", "a00093.html", null ]
+    [ "mixingDiffusionModel", "a01900.html", [
+      [ "molecularDiffusion", "a01904.html", null ],
+      [ "noDiffusion", "a01908.html", null ],
+      [ "turbulentDiffusion", "a01912.html", null ]
     ] ],
-    [ "mixingModel", "a00127.html", [
-      [ "noMixing", "a00147.html", null ],
-      [ "turbulentMixing", "a00210.html", null ]
+    [ "mixingKernel", "a01924.html", [
+      [ "FokkerPlanck", "a01916.html", null ],
+      [ "IEM", "a01920.html", null ],
+      [ "noMixingKernel", "a01928.html", null ]
     ] ],
-    [ "mixingModels", "a00128.html", null ],
-    [ "momentFieldSets", "a00133.html", null ],
-    [ "momentGenerationModel", "a00134.html", [
-      [ "alphaAndDiameter", "a00006.html", null ],
-      [ "noMomentGeneration", "a00148.html", null ],
-      [ "weightsAndAbscissae", "a00230.html", null ]
+    [ "mixingModel", "a01896.html", [
+      [ "noMixing", "a01932.html", null ],
+      [ "turbulentMixing", "a01936.html", null ]
     ] ],
-    [ "moments", "a00135.html", null ],
-    [ "noBlending", "a00141.html", null ],
-    [ "nonEquilibrium", "a00149.html", null ],
-    [ "noneViscosity", "a00152.html", null ],
-    [ "nucleationModel", "a00160.html", [
-      [ "Miller", "a00125.html", null ],
-      [ "noNucleation", "a00153.html", null ]
+    [ "mixingModels", "a02876.html", null ],
+    [ "mixingPopulationBalance", "a02912.html", null ],
+    [ "momentFieldSets", "a02896.html", null ],
+    [ "momentGenerationModel", "a02848.html", [
+      [ "alphaAndDiameter", "a02840.html", [
+        [ "alphaAndDiameterVelocity", "a02844.html", null ]
+      ] ],
+      [ "noMomentGeneration", "a02852.html", null ],
+      [ "velocity", "a02856.html", null ],
+      [ "weightsAndAbscissae", "a02860.html", null ]
+    ] ],
+    [ "moments", "a02900.html", null ],
+    [ "multivariateMomentInversion", "a01984.html", [
+      [ "CHyQMOM", "a01976.html", null ],
+      [ "conditional", "a01972.html", null ],
+      [ "monoKinetic", "a01980.html", null ],
+      [ "sizeCHyQMOM", "a01988.html", null ],
+      [ "TensorProduct", "a01992.html", null ]
+    ] ],
+    [ "noAdvection", "a02884.html", null ],
+    [ "noBlending", "a03076.html", null ],
+    [ "nonEquilibrium", "a03036.html", null ],
+    [ "noneViscosity", "a03056.html", null ],
+    [ "nucleationModel", "a02216.html", [
+      [ "Miller", "a02208.html", null ],
+      [ "noNucleation", "a02212.html", null ]
     ] ],
     [ "Pair", null, [
-      [ "phasePairKey", "a00172.html", [
-        [ "phasePair", "a00171.html", [
-          [ "orderedPhasePair", "a00162.html", null ]
+      [ "phasePairKey", "a02800.html", [
+        [ "phasePair", "a02796.html", [
+          [ "orderedPhasePair", "a02792.html", null ],
+          [ "orderedPhasePair", "a02792.html", null ]
+        ] ],
+        [ "phasePair", "a02796.html", null ]
+      ] ],
+      [ "phasePairKey", "a02800.html", null ]
+    ] ],
+    [ "partialSlipFvPatchVectorField", null, [
+      [ "JohnsonJacksonParticleSlipFvPatchVectorField", "a02616.html", null ]
+    ] ],
+    [ "PDFTransportModel", "a02056.html", [
+      [ "univariatePDFTransportModel", "a02060.html", [
+        [ "turbulentMixing", "a01936.html", null ],
+        [ "univariatePopulationBalance", "a02224.html", null ]
+      ] ],
+      [ "velocityPDFTransportModel", "a02064.html", [
+        [ "velocityPopulationBalance", "a02228.html", [
+          [ "sizeVelocityPopulationBalance", "a02220.html", null ]
         ] ]
       ] ]
     ] ],
-    [ "partialSlipFvPatchVectorField", null, [
-      [ "JohnsonJacksonParticleSlipFvPatchVectorField", "a00099.html", null ]
-    ] ],
-    [ "PDFTransportModel", "a00165.html", [
-      [ "univariatePDFTransportModel", "a00216.html", [
-        [ "turbulentMixing", "a00210.html", null ],
-        [ "univariatePopulationBalance", "a00219.html", null ]
+    [ "PhaseCompressibleTurbulenceModel< TransportModel >", "a02752.html", null ],
+    [ "phasePressureModel", "a03064.html", null ],
+    [ "PrinceAndBlanch", "a03004.html", null ],
+    [ "PtrList", null, [
+      [ "mappedPtrList< mappedType >", "a01872.html", null ],
+      [ "mappedPtrList< momentType >", "a01872.html", [
+        [ "momentFieldSet< momentType, nodeType >", "a02040.html", null ]
+      ] ],
+      [ "mappedPtrList< surfaceScalarMoment >", "a01872.html", [
+        [ "momentFieldSet< surfaceScalarMoment, surfaceScalarNode >", "a02040.html", null ]
+      ] ],
+      [ "mappedPtrList< volScalarField >", "a01872.html", null ],
+      [ "mappedPtrList< volScalarMoment >", "a01872.html", [
+        [ "momentFieldSet< volScalarMoment, volScalarNode >", "a02040.html", null ]
+      ] ],
+      [ "mappedPtrList< volVectorField >", "a01872.html", null ],
+      [ "mappedPtrList< volVelocityMoment >", "a01872.html", [
+        [ "momentFieldSet< volVelocityMoment, volVelocityNode >", "a02040.html", null ]
       ] ]
     ] ],
-    [ "PhaseCompressibleTurbulenceModel< TransportModel >", "a00168.html", null ],
-    [ "phasePressureModel", "a00173.html", null ],
-    [ "populationBalanceModel", "a00175.html", [
-      [ "univariatePopulationBalance", "a00219.html", null ],
-      [ "noPopulationBalance", "a00154.html", null ]
+    [ "quadratureNode< scalarType, vectorType >", "a02240.html", [
+      [ "velocityQuadratureNode< scalarType, vectorType >", "a02248.html", null ]
     ] ],
-    [ "PrinceAndBlanch", "a00178.html", null ],
-    [ "PtrList", null, [
-      [ "momentFieldSet< momentType, nodeType >", "a00132.html", null ],
-      [ "nDimensionalMappedList< mappedType >", "a00139.html", null ],
-      [ "momentFieldSet< surfaceUnivariateMoment, surfaceScalarNode >", "a00132.html", null ],
-      [ "nDimensionalMappedList< scalar >", "a00139.html", null ]
+    [ "radialModel", "a02720.html", [
+      [ "CarnahanStarling", "a02712.html", null ],
+      [ "LunSavage", "a02716.html", null ],
+      [ "SinclairJackson", "a02724.html", null ]
     ] ],
-    [ "quadratureNode< weightType, abscissaType, sigmaType >", "a00181.html", null ],
-    [ "radialModel", "a00182.html", [
-      [ "CarnahanStarling", "a00026.html", null ],
-      [ "LunSavage", "a00121.html", null ],
-      [ "SinclairJackson", "a00186.html", null ]
+    [ "realizableOdeSolver< momentType, nodeType >", "a02256.html", null ],
+    [ "realizableOdeSolver< volScalarMoment, volScalarNode >", "a02256.html", [
+      [ "mixingPopulationBalance", "a02068.html", null ],
+      [ "univariatePopulationBalance", "a02224.html", null ]
+    ] ],
+    [ "realizableOdeSolver< volVelocityMoment, volVelocityNode >", "a02256.html", [
+      [ "velocityPopulationBalance", "a02228.html", null ]
     ] ],
     [ "regIOobject", null, [
-      [ "dragModel", "a00057.html", [
-        [ "Ergun", "a00061.html", null ],
-        [ "Gibilaro", "a00078.html", null ],
-        [ "GidaspowErgunWenYu", "a00081.html", null ],
-        [ "GidaspowSchillerNaumann", "a00082.html", null ],
-        [ "IshiiZuber", "a00097.html", null ],
-        [ "Lain", "a00109.html", null ],
-        [ "SchillerNaumann", "a00184.html", null ],
-        [ "segregated", "a00185.html", null ],
-        [ "SyamlalOBrien", "a00193.html", null ],
-        [ "Tomiyama", "a00198.html", null ],
-        [ "TomiyamaAnalytic", "a00199.html", null ],
-        [ "TomiyamaCorrelated", "a00201.html", null ],
-        [ "WenYu", "a00232.html", null ]
+      [ "dragModel", "a02420.html", [
+        [ "Ergun", "a02424.html", null ],
+        [ "Ergun", "a02424.html", null ],
+        [ "Gibilaro", "a02428.html", null ],
+        [ "Gibilaro", "a02428.html", null ],
+        [ "GidaspowErgunWenYu", "a02432.html", null ],
+        [ "GidaspowErgunWenYu", "a02432.html", null ],
+        [ "GidaspowSchillerNaumann", "a02436.html", null ],
+        [ "GidaspowSchillerNaumann", "a02436.html", null ],
+        [ "IshiiZuber", "a02440.html", null ],
+        [ "IshiiZuber", "a02440.html", null ],
+        [ "Lain", "a02444.html", null ],
+        [ "Lain", "a02444.html", null ],
+        [ "SchillerNaumann", "a02448.html", null ],
+        [ "SchillerNaumann", "a02448.html", null ],
+        [ "segregated", "a02452.html", null ],
+        [ "segregated", "a02452.html", null ],
+        [ "Stokes", "a02812.html", null ],
+        [ "SyamlalOBrien", "a02456.html", null ],
+        [ "SyamlalOBrien", "a02456.html", null ],
+        [ "Tomiyama", "a02460.html", null ],
+        [ "TomiyamaAnalytic", "a02464.html", null ],
+        [ "TomiyamaAnalytic", "a02464.html", null ],
+        [ "TomiyamaCorrelated", "a02468.html", null ],
+        [ "TomiyamaCorrelated", "a02468.html", null ],
+        [ "WenYu", "a02472.html", null ],
+        [ "WenYu", "a02472.html", null ]
       ] ],
-      [ "kineticTheoryModel", "a00104.html", [
-        [ "equilibrium", "a00059.html", null ],
-        [ "nonEquilibrium", "a00150.html", null ]
+      [ "dragModel", "a02420.html", null ],
+      [ "kineticTheoryModel", "a02652.html", [
+        [ "anisotropicGaussian", "a02632.html", null ],
+        [ "equilibrium", "a02648.html", null ],
+        [ "nonEquilibrium", "a02656.html", null ]
       ] ],
-      [ "virtualMassModel", "a00223.html", [
-        [ "constantVirtualMassCoefficient", "a00046.html", null ],
-        [ "Lamb", "a00110.html", null ],
-        [ "noVirtualMass", "a00157.html", null ],
-        [ "Zuber", "a00234.html", null ]
-      ] ]
+      [ "populationBalanceModel", "a02076.html", [
+        [ "mixingPopulationBalance", "a02068.html", null ],
+        [ "univariatePopulationBalance", "a02224.html", null ],
+        [ "velocityPopulationBalance", "a02228.html", null ],
+        [ "noPopulationBalance", "a02072.html", null ]
+      ] ],
+      [ "virtualMassModel", "a02560.html", [
+        [ "constantVirtualMassCoefficient", "a02548.html", null ],
+        [ "constantVirtualMassCoefficient", "a02548.html", null ],
+        [ "Lamb", "a02552.html", null ],
+        [ "Lamb", "a02552.html", null ],
+        [ "noVirtualMass", "a02556.html", null ],
+        [ "noVirtualMass", "a02556.html", null ],
+        [ "Zuber", "a02564.html", null ],
+        [ "Zuber", "a02564.html", null ]
+      ] ],
+      [ "virtualMassModel", "a02560.html", null ]
     ] ],
+    [ "RK3", "a02928.html", null ],
+    [ "RoeFlux", "a02948.html", null ],
     [ "scalarDiagonalMatrix", null, [
-      [ "Vandermonde", "a00222.html", null ]
+      [ "Vandermonde", "a02260.html", null ]
     ] ],
-    [ "scalarList", null, [
-      [ "momentSet", "a00136.html", [
-        [ "univariateMomentSet", "a00215.html", null ]
-      ] ]
+    [ "SinclairJackson", "a03052.html", null ],
+    [ "swarmCorrection", "a02508.html", [
+      [ "noSwarm", "a02504.html", null ],
+      [ "noSwarm", "a02504.html", null ],
+      [ "TomiyamaSwarm", "a02512.html", null ],
+      [ "TomiyamaSwarm", "a02512.html", null ]
     ] ],
-    [ "SinclairJackson", "a00187.html", null ],
-    [ "swarmCorrection", "a00190.html", [
-      [ "noSwarm", "a00155.html", null ],
-      [ "TomiyamaSwarm", "a00203.html", null ]
-    ] ],
-    [ "SyamlalRogersOBrien", "a00195.html", null ],
-    [ "ThermalDiffusivity< BasicTurbulenceModel >", "a00197.html", null ],
-    [ "TomiyamaSwarm", "a00204.html", null ],
+    [ "SyamlalRogersOBrien", "a03048.html", null ],
+    [ "ThermalDiffusivity< BasicTurbulenceModel >", "a02756.html", null ],
+    [ "TomiyamaSwarm", "a03012.html", null ],
     [ "transportModel", null, [
-      [ "phaseModel", "a00170.html", [
-        [ "pdPhaseModel", "a00166.html", null ]
-      ] ]
-    ] ],
-    [ "turbulentDispersionModel", "a00209.html", [
-      [ "Burns", "a00025.html", null ],
-      [ "constantTurbulentDispersionCoefficient", "a00045.html", null ],
-      [ "Davidson", "a00053.html", null ],
-      [ "Gosman", "a00083.html", null ],
-      [ "LopezDeBertodano", "a00118.html", null ],
-      [ "noTurbulentDispersion", "a00156.html", null ],
-      [ "Panicker", "a00163.html", null ]
-    ] ],
-    [ "univariateMomentAdvection", "a00213.html", [
-      [ "firstOrderKinetic", "a00067.html", null ],
-      [ "noAdvection", "a00140.html", null ],
-      [ "zeta", "a00233.html", null ]
-    ] ],
-    [ "univariateMomentInversion", "a00214.html", [
-      [ "gaussLobattoMomentInversion", "a00075.html", null ],
-      [ "gaussMomentInversion", "a00076.html", null ],
-      [ "gaussRadauMomentInversion", "a00077.html", null ]
-    ] ],
-    [ "univariatePDFTransportModel", "a00217.html", null ],
-    [ "univariatePopulationBalance", "a00218.html", null ],
-    [ "VakhrushevEfremov", "a00220.html", null ],
-    [ "viscosityModel", "a00224.html", [
-      [ "KongFox", "a00107.html", null ],
-      [ "noneViscosity", "a00151.html", null ],
-      [ "Gidaspow", "a00080.html", null ],
-      [ "HrenyaSinclair", "a00089.html", null ],
-      [ "Syamlal", "a00192.html", null ]
-    ] ],
-    [ "viscosityModel", "a00225.html", null ],
-    [ "volScalarField", null, [
-      [ "phaseModel", "a00170.html", null ]
-    ] ],
-    [ "wallDependentModel", "a00228.html", [
-      [ "TomiyamaAspectRatio", "a00200.html", null ],
-      [ "wallDampingModel", "a00227.html", [
-        [ "interpolated", "a00096.html", [
-          [ "cosine", "a00047.html", null ],
-          [ "linear", "a00114.html", null ],
-          [ "sine", "a00188.html", null ]
-        ] ],
-        [ "noWallDamping", "a00158.html", null ]
+      [ "phaseModel", "a02784.html", [
+        [ "polydispersePhaseModel", "a02788.html", null ],
+        [ "vdfPhaseModel", "a02832.html", null ]
       ] ],
-      [ "wallLubricationModel", "a00229.html", [
-        [ "noBubblePressure", "a00143.html", null ],
-        [ "Antal", "a00011.html", null ],
-        [ "Frank", "a00071.html", null ],
-        [ "noWallLubrication", "a00159.html", null ],
-        [ "TomiyamaWallLubrication", "a00205.html", null ]
-      ] ]
+      [ "phaseModel", "a02784.html", null ]
     ] ],
-    [ "momentFieldSetType", null, null ]
+    [ "turbulentDispersionModel", "a02544.html", [
+      [ "Burns", "a02516.html", null ],
+      [ "Burns", "a02516.html", null ],
+      [ "constantTurbulentDispersionCoefficient", "a02520.html", null ],
+      [ "constantTurbulentDispersionCoefficient", "a02520.html", null ],
+      [ "Davidson", "a02524.html", null ],
+      [ "Davidson", "a02524.html", null ],
+      [ "Gosman", "a02528.html", null ],
+      [ "Gosman", "a02528.html", null ],
+      [ "LopezDeBertodano", "a02532.html", null ],
+      [ "LopezDeBertodano", "a02532.html", null ],
+      [ "noTurbulentDispersion", "a02536.html", null ],
+      [ "noTurbulentDispersion", "a02536.html", null ],
+      [ "Panicker", "a02540.html", null ],
+      [ "Panicker", "a02540.html", null ]
+    ] ],
+    [ "univariateMomentAdvection", "a01948.html", [
+      [ "firstOrderKinetic", "a01940.html", null ],
+      [ "noAdvection", "a01944.html", null ],
+      [ "zeta", "a01952.html", null ]
+    ] ],
+    [ "univariateMomentInversion", "a02012.html", [
+      [ "gaussLobattoMomentInversion", "a01996.html", null ],
+      [ "gaussMomentInversion", "a02000.html", null ],
+      [ "gaussRadauMomentInversion", "a02004.html", null ],
+      [ "hyperbolicMomentInversion", "a02008.html", null ]
+    ] ],
+    [ "univariatePDFTransportModel", "a02904.html", null ],
+    [ "univariatePopulationBalance", "a02924.html", null ],
+    [ "VakhrushevEfremov", "a02956.html", null ],
+    [ "velocityMomentAdvection", "a01964.html", [
+      [ "firstOrderKinetic", "a01956.html", [
+        [ "VikasQuasiSecondOrder", "a01968.html", null ]
+      ] ],
+      [ "noAdvection", "a01960.html", null ]
+    ] ],
+    [ "velocityPDFTransportModel", "a02908.html", null ],
+    [ "velocityPopulationBalance", "a02920.html", null ],
+    [ "VikasQuasiSecondOrder", "a02892.html", null ],
+    [ "viscosityModel", "a02748.html", [
+      [ "KongFox", "a02736.html", null ],
+      [ "noneViscosity", "a02740.html", null ],
+      [ "Gidaspow", "a02728.html", null ],
+      [ "HrenyaSinclair", "a02732.html", null ],
+      [ "Syamlal", "a02744.html", null ]
+    ] ],
+    [ "viscosityModel", "a03060.html", null ],
+    [ "volScalarField", null, [
+      [ "phaseModel", "a02784.html", null ],
+      [ "phaseModel", "a02784.html", null ]
+    ] ],
+    [ "wallDependentModel", "a02592.html", [
+      [ "TomiyamaAspectRatio", "a02336.html", null ],
+      [ "TomiyamaAspectRatio", "a02336.html", null ],
+      [ "wallDampingModel", "a02588.html", [
+        [ "interpolated", "a02572.html", [
+          [ "cosine", "a02568.html", null ],
+          [ "cosine", "a02568.html", null ],
+          [ "linear", "a02576.html", null ],
+          [ "linear", "a02576.html", null ],
+          [ "sine", "a02584.html", null ],
+          [ "sine", "a02584.html", null ]
+        ] ],
+        [ "interpolated", "a02572.html", null ],
+        [ "noWallDamping", "a02580.html", null ],
+        [ "noWallDamping", "a02580.html", null ]
+      ] ],
+      [ "wallDampingModel", "a02588.html", null ],
+      [ "wallLubricationModel", "a02612.html", [
+        [ "noBubblePressure", "a02368.html", null ],
+        [ "Antal", "a02596.html", null ],
+        [ "Antal", "a02596.html", null ],
+        [ "Frank", "a02600.html", null ],
+        [ "Frank", "a02600.html", null ],
+        [ "noWallLubrication", "a02604.html", null ],
+        [ "noWallLubrication", "a02604.html", null ],
+        [ "TomiyamaWallLubrication", "a02608.html", null ],
+        [ "TomiyamaWallLubrication", "a02608.html", null ]
+      ] ],
+      [ "wallLubricationModel", "a02612.html", null ]
+    ] ],
+    [ "zeta", "a02888.html", null ]
 ];

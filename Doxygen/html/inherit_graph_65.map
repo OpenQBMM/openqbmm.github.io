@@ -1,3 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$a00168.html" title="PhaseCompressibleTurbulence\lModel\&lt; TransportModel \&gt;" alt="" coords="5,5,217,47"/>
+<area shape="rect" id="node1" href="$a01900.html" title="Abstract class for moment diffusion models. " alt="" coords="5,56,156,83"/>
+<area shape="rect" id="node2" href="$a01904.html" title="Molecular diffusion model. " alt="" coords="204,5,336,32"/>
+<area shape="rect" id="node3" href="$a01908.html" title="No diffusion model. " alt="" coords="226,56,314,83"/>
+<area shape="rect" id="node4" href="$a01912.html" title="Turbulent diffusion model. " alt="" coords="209,107,331,133"/>
 </map>

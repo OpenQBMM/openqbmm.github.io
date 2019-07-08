@@ -1,0 +1,14 @@
+digraph "Luo" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_92820da124da6957650bddb1ecb938b0 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="coalescenceFrequencyKernels" fontname="Helvetica", fontsize="10", URL="dir_92820da124da6957650bddb1ecb938b0.html"]
+  dir_d4c2cadb827ac13f70c89b55a43e67bf [shape=box, label="Luo", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d4c2cadb827ac13f70c89b55a43e67bf.html"];
+  }
+  dir_c8dd8d838525102dfd397a50c2714810 [shape=box label="twoPhaseSystem" color="red" URL="dir_c8dd8d838525102dfd397a50c2714810.html"];
+  dir_a263977d17652172c137f083279b8a32 [shape=box label="coalescenceFrequencyKernel" URL="dir_a263977d17652172c137f083279b8a32.html"];
+  dir_d4c2cadb827ac13f70c89b55a43e67bf->dir_c8dd8d838525102dfd397a50c2714810 [headlabel="1", labeldistance=1.5 headhref="dir_000223_000054.html"];
+  dir_d4c2cadb827ac13f70c89b55a43e67bf->dir_a263977d17652172c137f083279b8a32 [headlabel="1", labeldistance=1.5 headhref="dir_000223_000078.html"];
+}

@@ -1,0 +1,14 @@
+digraph "BGKCollision" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_dcaab70d6b339fee7d25e4c0fea4327e {
+    graph [ bgcolor="#ddddee", pencolor="black", label="collisionKernels" fontname="Helvetica", fontsize="10", URL="dir_dcaab70d6b339fee7d25e4c0fea4327e.html"]
+  dir_72895c4e0973a5fb9659f99bc713508d [shape=box, label="BGKCollision", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_72895c4e0973a5fb9659f99bc713508d.html"];
+  }
+  dir_b32b5f83daaa5a3afa205645027e300d [shape=box label="mappedPtrList" URL="dir_b32b5f83daaa5a3afa205645027e300d.html"];
+  dir_9fe7c1f64ee3cf411e7b201f46b29b77 [shape=box label="collisionKernel" URL="dir_9fe7c1f64ee3cf411e7b201f46b29b77.html"];
+  dir_72895c4e0973a5fb9659f99bc713508d->dir_b32b5f83daaa5a3afa205645027e300d [headlabel="1", labeldistance=1.5 headhref="dir_000053_000227.html"];
+  dir_72895c4e0973a5fb9659f99bc713508d->dir_9fe7c1f64ee3cf411e7b201f46b29b77 [headlabel="1", labeldistance=1.5 headhref="dir_000053_000079.html"];
+}

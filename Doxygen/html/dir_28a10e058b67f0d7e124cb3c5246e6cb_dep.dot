@@ -9,8 +9,12 @@ digraph "momentSets" {
     graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_28a10e058b67f0d7e124cb3c5246e6cb.html"];
     dir_28a10e058b67f0d7e124cb3c5246e6cb [shape=plaintext label="momentSets"];
     dir_5649e4d055fee5650da77731fdab85d9 [shape=box label="momentSet" color="black" fillcolor="white" style="filled" URL="dir_5649e4d055fee5650da77731fdab85d9.html"];
+    dir_a26478d4416b031239c3e1fa55b07c30 [shape=box label="multivariateMomentSet" color="black" fillcolor="white" style="filled" URL="dir_a26478d4416b031239c3e1fa55b07c30.html"];
     dir_fd144807c3608c11d3f3261e35716445 [shape=box label="univariateMomentSet" color="black" fillcolor="white" style="filled" URL="dir_fd144807c3608c11d3f3261e35716445.html"];
   }
   }
-  dir_fd144807c3608c11d3f3261e35716445->dir_5649e4d055fee5650da77731fdab85d9 [headlabel="1", labeldistance=1.5 headhref="dir_000243_000166.html"];
+  dir_987bd2a8a4b3ec7be1bd9f4b3cda3f9a [shape=box label="mappedList" URL="dir_987bd2a8a4b3ec7be1bd9f4b3cda3f9a.html"];
+  dir_5649e4d055fee5650da77731fdab85d9->dir_987bd2a8a4b3ec7be1bd9f4b3cda3f9a [headlabel="1", labeldistance=1.5 headhref="dir_000240_000226.html"];
+  dir_a26478d4416b031239c3e1fa55b07c30->dir_5649e4d055fee5650da77731fdab85d9 [headlabel="1", labeldistance=1.5 headhref="dir_000247_000240.html"];
+  dir_fd144807c3608c11d3f3261e35716445->dir_5649e4d055fee5650da77731fdab85d9 [headlabel="1", labeldistance=1.5 headhref="dir_000371_000240.html"];
 }

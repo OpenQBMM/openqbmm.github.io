@@ -4,5 +4,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node1 [label="coalescenceEfficiencyKernel",height=0.2,width=0.4,color="black",URL="$a00030.html",tooltip="Abstract class for coalescence effeciency kernels. "];
+  Node0 [label="Chesters",height=0.2,width=0.4,color="black",URL="$a02976.html",tooltip="Coaelescence efficieny kernel based on the interaction time of bubble. Only valid for bubbles of equa..."];
 }

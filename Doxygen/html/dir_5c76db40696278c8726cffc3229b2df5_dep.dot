@@ -8,5 +8,5 @@ digraph "CarnahanStarling" {
   dir_5c76db40696278c8726cffc3229b2df5 [shape=box, label="CarnahanStarling", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_5c76db40696278c8726cffc3229b2df5.html"];
   }
   dir_0be5906eb78c10743b2868e183ad3d01 [shape=box label="radialModel" URL="dir_0be5906eb78c10743b2868e183ad3d01.html"];
-  dir_5c76db40696278c8726cffc3229b2df5->dir_0be5906eb78c10743b2868e183ad3d01 [headlabel="1", labeldistance=1.5 headhref="dir_000051_000175.html"];
+  dir_5c76db40696278c8726cffc3229b2df5->dir_0be5906eb78c10743b2868e183ad3d01 [headlabel="1", labeldistance=1.5 headhref="dir_000072_000254.html"];
 }

@@ -1,0 +1,12 @@
+digraph "sphericalHeatTransfer" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_40137832b1bbefb800916a2d4dc60e92 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="heatTransferModels" fontname="Helvetica", fontsize="10", URL="dir_40137832b1bbefb800916a2d4dc60e92.html"]
+  dir_21937723ec694f08cf75f09e88ed2a55 [shape=box, label="sphericalHeatTransfer", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_21937723ec694f08cf75f09e88ed2a55.html"];
+  }
+  dir_90d61f594bd91cd80572c3a84e8b21f8 [shape=box label="heatTransferModel" URL="dir_90d61f594bd91cd80572c3a84e8b21f8.html"];
+  dir_21937723ec694f08cf75f09e88ed2a55->dir_90d61f594bd91cd80572c3a84e8b21f8 [headlabel="1", labeldistance=1.5 headhref="dir_000342_000180.html"];
+}

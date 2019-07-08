@@ -8,5 +8,5 @@ digraph "gaussRadauMomentInversion" {
   dir_f6b83f958e94be02670b20c6320e1d43 [shape=box, label="gaussRadauMomentInversion", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_f6b83f958e94be02670b20c6320e1d43.html"];
   }
   dir_5d93fb87d5a4d8520d1d58aab7b74357 [shape=box label="univariateMomentInversion" URL="dir_5d93fb87d5a4d8520d1d58aab7b74357.html"];
-  dir_f6b83f958e94be02670b20c6320e1d43->dir_5d93fb87d5a4d8520d1d58aab7b74357 [headlabel="1", labeldistance=1.5 headhref="dir_000116_000180.html"];
+  dir_f6b83f958e94be02670b20c6320e1d43->dir_5d93fb87d5a4d8520d1d58aab7b74357 [headlabel="1", labeldistance=1.5 headhref="dir_000165_000262.html"];
 }

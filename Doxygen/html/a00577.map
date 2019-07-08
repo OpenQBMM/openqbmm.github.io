@@ -1,0 +1,10 @@
+<map id="diffusionModel.H" name="diffusionModel.H">
+<area shape="rect" id="node2" href="$a00383.html" title="mixingPopulationBalance.H" alt="" coords="5,80,192,107"/>
+<area shape="rect" id="node3" href="$a00572.html" title="diffusionModel.C" alt="" coords="216,80,339,107"/>
+<area shape="rect" id="node4" href="$a00578.html" title="newDiffusionModel.C" alt="" coords="363,80,512,107"/>
+<area shape="rect" id="node5" href="$a03627.html" title="molecularDiffusion.H" alt="" coords="536,80,680,107"/>
+<area shape="rect" id="node6" href="$a03705.html" title="noDiffusion.H" alt="" coords="705,80,805,107"/>
+<area shape="rect" id="node7" href="$a04023.html" title="turbulentDiffusion.H" alt="" coords="829,80,963,107"/>
+<area shape="rect" id="node8" href="$a00629.html" title="sizeVelocityPopulationBalance.H" alt="" coords="987,80,1207,107"/>
+<area shape="rect" id="node9" href="$a00635.html" title="univariatePopulationBalance.H" alt="" coords="1232,80,1437,107"/>
+</map>

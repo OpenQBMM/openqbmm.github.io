@@ -8,5 +8,5 @@ digraph "HrenyaSinclair" {
   dir_77d32d963d915532b34e6e71d9b1e03b [shape=box, label="HrenyaSinclair", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_77d32d963d915532b34e6e71d9b1e03b.html"];
   }
   dir_735e6a4235ccebe2eb1ec95087c92d50 [shape=box label="conductivityModel" URL="dir_735e6a4235ccebe2eb1ec95087c92d50.html"];
-  dir_77d32d963d915532b34e6e71d9b1e03b->dir_735e6a4235ccebe2eb1ec95087c92d50 [headlabel="1", labeldistance=1.5 headhref="dir_000128_000061.html"];
+  dir_77d32d963d915532b34e6e71d9b1e03b->dir_735e6a4235ccebe2eb1ec95087c92d50 [headlabel="1", labeldistance=1.5 headhref="dir_000184_000085.html"];
 }

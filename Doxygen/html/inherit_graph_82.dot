@@ -4,11 +4,13 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node1 [label="univariateMomentAdvection",height=0.2,width=0.4,color="black",URL="$a00213.html",tooltip="Abstract class for the advection of a univariate moment set. "];
-  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="firstOrderKinetic",height=0.2,width=0.4,color="black",URL="$a00067.html",tooltip="First-order univariate moment advection with kinetic scheme. "];
-  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="noAdvection",height=0.2,width=0.4,color="black",URL="$a00140.html",tooltip="Empty scheme for cases without moment advection. "];
-  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node4 [label="zeta",height=0.2,width=0.4,color="black",URL="$a00233.html",tooltip="Second-order univariate moment advection with zeta kinetic scheme. "];
+  Node54 [label="transportModel",height=0.2,width=0.4,color="grey75"];
+  Node54 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="phaseModel",height=0.2,width=0.4,color="black",URL="$a02784.html",tooltip="Base class for a moving phase model. Functions are made so that the class can be abstracted to a poly..."];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="polydispersePhaseModel",height=0.2,width=0.4,color="black",URL="$a02788.html",tooltip="Class for a polydisperse phase model. Each bubble size hase a unique mean velocity. Size and velocity moments are stored in quadrature. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="vdfPhaseModel",height=0.2,width=0.4,color="black",URL="$a02832.html",tooltip="Base class for a phase model that is goverened by a set of moment transport equations where verlocity..."];
+  Node16 [label="volScalarField",height=0.2,width=0.4,color="grey75"];
+  Node16 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
 }

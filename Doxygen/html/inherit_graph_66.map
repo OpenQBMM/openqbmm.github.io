@@ -1,4 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$a00170.html" title="Base class for a moving phase model. Functions are made so that the class can be abstracted to a poly..." alt="" coords="164,31,261,57"/>
-<area shape="rect" id="node3" href="$a00166.html" title="Class for a polydisperse phase model. Each bubble size hase a unique mean velocity. Size and velocity moments are stored in quadrature. " alt="" coords="309,31,424,57"/>
+<area shape="rect" id="node1" href="$a01924.html" title="Abstract class for mixing model kernels. " alt="" coords="5,56,105,83"/>
+<area shape="rect" id="node2" href="$a01916.html" title="Fokker&#45;Planck mixing model. " alt="" coords="158,5,263,32"/>
+<area shape="rect" id="node3" href="$a01920.html" title="Interaction by exchange with the mean mixing model. " alt="" coords="189,56,233,83"/>
+<area shape="rect" id="node4" href="$a01928.html" title="Empty mixing model. " alt="" coords="153,107,268,133"/>
 </map>

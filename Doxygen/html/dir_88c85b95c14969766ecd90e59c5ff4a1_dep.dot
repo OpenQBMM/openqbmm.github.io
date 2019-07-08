@@ -8,5 +8,5 @@ digraph "lognormal" {
   dir_88c85b95c14969766ecd90e59c5ff4a1 [shape=box, label="lognormal", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_88c85b95c14969766ecd90e59c5ff4a1.html"];
   }
   dir_81685f318616eefea0b52e76178bd778 [shape=box label="extendedMomentInversion" URL="dir_81685f318616eefea0b52e76178bd778.html"];
-  dir_88c85b95c14969766ecd90e59c5ff4a1->dir_81685f318616eefea0b52e76178bd778 [headlabel="1", labeldistance=1.5 headhref="dir_000151_000101.html"];
+  dir_88c85b95c14969766ecd90e59c5ff4a1->dir_81685f318616eefea0b52e76178bd778 [headlabel="1", labeldistance=1.5 headhref="dir_000217_000142.html"];
 }

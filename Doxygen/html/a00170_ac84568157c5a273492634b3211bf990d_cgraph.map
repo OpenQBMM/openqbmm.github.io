@@ -1,5 +1,0 @@
-<map id="alphaRhoPhi" name="alphaRhoPhi">
-<area shape="rect" id="node2" href="$a00170.html#ad38205f722710c048191c5bc87609f9f" title="Return the volumetric flux of the phase. " alt="" coords="185,5,260,32"/>
-<area shape="rect" id="node3" href="$a00170.html#aa40b482ba81fd8de31bdba348c184074" title="Correct the phase properties. " alt="" coords="191,56,254,83"/>
-<area shape="rect" id="node4" href="$a00170.html#a6718217a48b5a1e81b5c167b128de999" title="Ensure that the flux at inflow BCs is preserved. " alt="" coords="152,107,293,133"/>
-</map>

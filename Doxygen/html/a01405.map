@@ -1,3 +1,6 @@
-<map id="segregated" name="segregated">
-<area shape="rect" id="node2" href="$a00057.html" title="dragModel" alt="" coords="7,5,95,32"/>
+<map id="kineticTheoryModel.H" name="kineticTheoryModel.H">
+<area shape="rect" id="node2" href="$a01355.html" title="kineticTheory.H" alt="" coords="5,80,121,107"/>
+<area shape="rect" id="node3" href="$a01367.html" title="anisotropicGaussian.H" alt="" coords="146,80,303,107"/>
+<area shape="rect" id="node4" href="$a01397.html" title="equilibrium.H" alt="" coords="327,80,426,107"/>
+<area shape="rect" id="node5" href="$a01412.html" title="nonEquilibrium.H" alt="" coords="450,80,570,107"/>
 </map>

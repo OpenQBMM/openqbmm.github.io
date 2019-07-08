@@ -9,6 +9,6 @@ digraph "Lehr" {
   }
   dir_c8dd8d838525102dfd397a50c2714810 [shape=box label="twoPhaseSystem" color="red" URL="dir_c8dd8d838525102dfd397a50c2714810.html"];
   dir_64201f64a97ea2db4703a1fa734f7314 [shape=box label="coalescenceEfficiencyKernel" URL="dir_64201f64a97ea2db4703a1fa734f7314.html"];
-  dir_dc7395aa39b66078ddce205df3e4fb6a->dir_c8dd8d838525102dfd397a50c2714810 [headlabel="2", labeldistance=1.5 headhref="dir_000147_000038.html"];
-  dir_dc7395aa39b66078ddce205df3e4fb6a->dir_64201f64a97ea2db4703a1fa734f7314 [headlabel="1", labeldistance=1.5 headhref="dir_000147_000055.html"];
+  dir_dc7395aa39b66078ddce205df3e4fb6a->dir_c8dd8d838525102dfd397a50c2714810 [headlabel="1", labeldistance=1.5 headhref="dir_000211_000054.html"];
+  dir_dc7395aa39b66078ddce205df3e4fb6a->dir_64201f64a97ea2db4703a1fa734f7314 [headlabel="1", labeldistance=1.5 headhref="dir_000211_000076.html"];
 }

@@ -1,23 +1,4 @@
 var searchData=
 [
-  ['p',['p',['../a00326.html#a334650304cdcdff41898bee9eaf2e3db',1,'p():&#160;createFields.H'],['../a00584.html#ac483f6ce851c9ecd9fb835ff7551737c',1,'p():&#160;pEqn.H'],['../a00327.html#a334650304cdcdff41898bee9eaf2e3db',1,'p():&#160;createFields.H'],['../a00330.html#a334650304cdcdff41898bee9eaf2e3db',1,'p():&#160;createFields.H'],['../a00331.html#a334650304cdcdff41898bee9eaf2e3db',1,'p():&#160;createFields.H']]],
-  ['pair_5f',['pair_',['../a00012.html#afd0567a30e2ea4703b446fd80ca5ec0b',1,'Foam::aspectRatioModel::pair_()'],['../a00024.html#afd0567a30e2ea4703b446fd80ca5ec0b',1,'Foam::bubblePressureModel::pair_()'],['../a00057.html#afd0567a30e2ea4703b446fd80ca5ec0b',1,'Foam::dragModel::pair_()'],['../a00113.html#afd0567a30e2ea4703b446fd80ca5ec0b',1,'Foam::liftModel::pair_()'],['../a00190.html#afd0567a30e2ea4703b446fd80ca5ec0b',1,'Foam::swarmCorrection::pair_()'],['../a00209.html#afd0567a30e2ea4703b446fd80ca5ec0b',1,'Foam::turbulentDispersionModel::pair_()'],['../a00223.html#afd0567a30e2ea4703b446fd80ca5ec0b',1,'Foam::virtualMassModel::pair_()'],['../a00227.html#afd0567a30e2ea4703b446fd80ca5ec0b',1,'Foam::wallDampingModel::pair_()'],['../a00229.html#afd0567a30e2ea4703b446fd80ca5ec0b',1,'Foam::wallLubricationModel::pair_()']]],
-  ['patches',['patches',['../a00333.html#a6eea546b8fab7318f4d0d67e4ff28fde',1,'createSingleCellMesh.H']]],
-  ['phase_5f',['phase_',['../a00104.html#a881b39a8089f59d8d1571639726059c5',1,'Foam::kineticTheoryModel']]],
-  ['phasedict_5f',['phaseDict_',['../a00170.html#a2550b891719ee4e38bd9a30f9f31dc55',1,'Foam::phaseModel']]],
-  ['phi',['phi',['../a00324.html#a1a97abcf6c141f539994c8a21c8daca7',1,'phi():&#160;createFieldRefs.H'],['../a00325.html#a1a97abcf6c141f539994c8a21c8daca7',1,'phi():&#160;createFieldRefs.H']]],
-  ['phi1',['phi1',['../a00324.html#aaafa68dab09410efefed1b712990703c',1,'phi1():&#160;createFieldRefs.H'],['../a00325.html#aaafa68dab09410efefed1b712990703c',1,'phi1():&#160;createFieldRefs.H']]],
-  ['phi2',['phi2',['../a00324.html#a8401107915808b316cc7b5ef0ae2a858',1,'phi2():&#160;createFieldRefs.H'],['../a00325.html#a8401107915808b316cc7b5ef0ae2a858',1,'phi2():&#160;createFieldRefs.H']]],
-  ['phi_5f',['phi_',['../a00127.html#a5828da03a859a3aaa358802cd2daf505',1,'Foam::mixingModel::phi_()'],['../a00213.html#a6c8dd33081ef34705076d00797291810',1,'Foam::univariateMomentAdvection::phi_()'],['../a00175.html#a5828da03a859a3aaa358802cd2daf505',1,'Foam::populationBalanceModel::phi_()']]],
-  ['phif1',['phiF1',['../a00585.html#aedd16305da3cfdbea19ba23daed10d9a',1,'phiF1():&#160;pEqn.H'],['../a00586.html#aedd16305da3cfdbea19ba23daed10d9a',1,'phiF1():&#160;pEqn.H']]],
-  ['phif2',['phiF2',['../a00585.html#a6646a332531432477318e632c7e962c2',1,'phiF2():&#160;pEqn.H'],['../a00586.html#a6646a332531432477318e632c7e962c2',1,'phiF2():&#160;pEqn.H']]],
-  ['phiptr_5f',['phiPtr_',['../a00170.html#a497673767745b44b26977e35496c55df',1,'Foam::phaseModel']]],
-  ['pimpledict',['pimpleDict',['../a00631.html#aa656ebf7e2eda7d1f7c5d3975ac55a9c',1,'setRDeltaT.H']]],
-  ['populationbalance',['populationBalance',['../a00326.html#af238d5f26618a0393bfdeaa9ca937c61',1,'populationBalance():&#160;createFields.H'],['../a00331.html#a85ef080b591b16bd8842a924cc220a73',1,'populationBalance():&#160;createFields.H']]],
-  ['primaryabscissae_5f',['primaryAbscissae_',['../a00065.html#ab603db57b174dc650c896e4ad2c09c9e',1,'Foam::extendedMomentInversion']]],
-  ['primaryweights_5f',['primaryWeights_',['../a00065.html#aedefe40f48ae03efde1bc63b09f905d8',1,'Foam::extendedMomentInversion']]],
-  ['propertiesname',['propertiesName',['../a00180.html#a1bd8bb0fb60b71d271b25c14b5d66b63',1,'Foam::quadratureApproximation']]],
-  ['psi',['psi',['../a00326.html#aba679271c41582099c8ccf4827fdf217',1,'createFields.H']]],
-  ['psi1',['psi1',['../a00324.html#ab9a1e315298d6f85139930962fd52c41',1,'psi1():&#160;createFieldRefs.H'],['../a00325.html#ab9a1e315298d6f85139930962fd52c41',1,'psi1():&#160;createFieldRefs.H']]],
-  ['psi2',['psi2',['../a00324.html#a62305a7b59b36b0c38c2742939a6821c',1,'psi2():&#160;createFieldRefs.H'],['../a00325.html#a62305a7b59b36b0c38c2742939a6821c',1,'psi2():&#160;createFieldRefs.H']]]
+  ['own_5f',['own_',['../a01948.html#ac6ebab407edaa9fb1bf07c163e389b8f',1,'Foam::univariateMomentAdvection::own_()'],['../a01964.html#ac6ebab407edaa9fb1bf07c163e389b8f',1,'Foam::velocityMomentAdvection::own_()'],['../a02308.html#ac6ebab407edaa9fb1bf07c163e389b8f',1,'Foam::fluxFunction::own_()']]]
 ];

@@ -4,7 +4,15 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node1 [label="scalarDiagonalMatrix",height=0.2,width=0.4,color="grey75"];
-  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="Vandermonde",height=0.2,width=0.4,color="black",URL="$a00222.html",tooltip="Stores the second row of a Vandermonde matrix, and solves the associated linear system. "];
+  Node189 [label="IOdictionary",height=0.2,width=0.4,color="grey75"];
+  Node189 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="quadratureApproximation\l\< momentType, nodeType \>",height=0.2,width=0.4,color="black",URL="$a02236.html",tooltip="Provides storage for the moments and the corresponding quadrature approximation of a distribution fun..."];
+  Node189 -> Node191 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node191 [label="twoPhaseSystem",height=0.2,width=0.4,color="black",URL="$a02808.html"];
+  Node189 -> Node192 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node192 [label="quadratureApproximation\l\< volScalarMoment, volScalar\lNode \>",height=0.2,width=0.4,color="black",URL="$a02236.html"];
+  Node192 -> Node193 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node193 [label="monoKineticQuadratureApproximation",height=0.2,width=0.4,color="black",URL="$a02232.html",tooltip="Uses quadrature approximation as a base to handle size moments, while the velocity moments and abscis..."];
+  Node189 -> Node194 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node194 [label="quadratureApproximation\l\< volVelocityMoment, volVelocity\lNode \>",height=0.2,width=0.4,color="black",URL="$a02236.html"];
 }

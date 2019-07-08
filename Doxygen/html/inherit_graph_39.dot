@@ -4,5 +4,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node1 [label="hermiteQuadrature",height=0.2,width=0.4,color="black",URL="$a00087.html",tooltip="Use spectral methods to generate samples for multivaraites Gaussian distribution. ..."];
+  Node0 [label="firstOrderKinetic",height=0.2,width=0.4,color="black",URL="$a02880.html",tooltip="First-order univariate moment advection with kinetic scheme. "];
 }

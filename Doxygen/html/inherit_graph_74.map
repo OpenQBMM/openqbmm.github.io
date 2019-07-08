@@ -1,3 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$a00094.html" title="Return a pointer to a new quadrature node created on freestore. " alt="" coords="5,5,212,61"/>
+<area shape="rect" id="node1" href="$a01984.html" title="General class for multivariate moment inversions. " alt="" coords="5,107,197,133"/>
+<area shape="rect" id="node2" href="$a01976.html" title="Implementation of the hyperbolic conditional quadrature method of moment for velocity. Three nodes are used in each direction. Moment realizability is verified analytically. " alt="" coords="257,5,348,32"/>
+<area shape="rect" id="node3" href="$a01972.html" title="Implementation of the conditional quadrature method of moments. " alt="" coords="259,56,346,83"/>
+<area shape="rect" id="node4" href="$a01980.html" title="Implementation of the monokinetic velocity distribution moment set inversion. " alt="" coords="255,107,351,133"/>
+<area shape="rect" id="node5" href="$a01988.html" title="Implementation of the hyperbolic conditional quadrature method of moment for velocity with conditioni..." alt="" coords="245,157,360,184"/>
+<area shape="rect" id="node6" href="$a01992.html" title="Tensor product moment inversion for multidimensional moment sets. " alt="" coords="247,208,359,235"/>
 </map>

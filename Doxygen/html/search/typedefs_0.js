@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['dicttable',['dictTable',['../a00171.html#af363db3b15b36bf4fa7997d250543a18',1,'Foam::phasePair']]]
+  ['abscissaetype',['abscissaeType',['../a02240.html#a34c58fd36c4dca035dbd66f860025dc1',1,'Foam::quadratureNode']]],
+  ['abscissatype',['abscissaType',['../a02240.html#a1fb76a2a2c3dc61b68236bf8c9424929',1,'Foam::quadratureNode']]]
 ];

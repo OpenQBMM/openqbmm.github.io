@@ -8,5 +8,5 @@ digraph "Schaeffer" {
   dir_7176dd836d703175e86f7ea035e0d776 [shape=box, label="Schaeffer", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_7176dd836d703175e86f7ea035e0d776.html"];
   }
   dir_72294630f721355f9fb7906a33293d93 [shape=box label="frictionalStressModel" URL="dir_72294630f721355f9fb7906a33293d93.html"];
-  dir_7176dd836d703175e86f7ea035e0d776->dir_72294630f721355f9fb7906a33293d93 [headlabel="1", labeldistance=1.5 headhref="dir_000220_000110.html"];
+  dir_7176dd836d703175e86f7ea035e0d776->dir_72294630f721355f9fb7906a33293d93 [headlabel="1", labeldistance=1.5 headhref="dir_000332_000159.html"];
 }

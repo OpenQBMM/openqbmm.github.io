@@ -11,10 +11,5 @@ digraph "BlendedInterfacialModel" {
     dir_fba29fad898f162d752466bcad7c4ae2 [shape=box label="blendingMethods" color="red" fillcolor="white" style="filled" URL="dir_fba29fad898f162d752466bcad7c4ae2.html"];
   }
   }
-  dir_ffc3b5f9531d28b967c8c8bcbd3054a9 [shape=box label="phasePair" color="red" URL="dir_ffc3b5f9531d28b967c8c8bcbd3054a9.html"];
-  dir_d8cc37526a46758409c3e7c55a30fef4 [shape=box label="phaseModels" color="red" URL="dir_d8cc37526a46758409c3e7c55a30fef4.html"];
-  dir_e3ab446b96c2c6bc8e153da3ebeb2a40->dir_ffc3b5f9531d28b967c8c8bcbd3054a9 [headlabel="2", labeldistance=1.5 headhref="dir_000039_000203.html"];
-  dir_e3ab446b96c2c6bc8e153da3ebeb2a40->dir_fba29fad898f162d752466bcad7c4ae2 [headlabel="4", labeldistance=1.5 headhref="dir_000039_000040.html"];
-  dir_ffc3b5f9531d28b967c8c8bcbd3054a9->dir_d8cc37526a46758409c3e7c55a30fef4 [headlabel="1", labeldistance=1.5 headhref="dir_000203_000172.html"];
-  dir_fba29fad898f162d752466bcad7c4ae2->dir_d8cc37526a46758409c3e7c55a30fef4 [headlabel="1", labeldistance=1.5 headhref="dir_000040_000172.html"];
+  dir_e3ab446b96c2c6bc8e153da3ebeb2a40->dir_fba29fad898f162d752466bcad7c4ae2 [headlabel="4", labeldistance=1.5 headhref="dir_000055_000056.html"];
 }

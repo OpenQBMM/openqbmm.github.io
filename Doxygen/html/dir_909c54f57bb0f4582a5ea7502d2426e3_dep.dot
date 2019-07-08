@@ -1,0 +1,22 @@
+digraph "sizeCHyQMOM" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a727253ad871f360830950009662c355 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="multivariate" fontname="Helvetica", fontsize="10", URL="dir_a727253ad871f360830950009662c355.html"]
+  dir_909c54f57bb0f4582a5ea7502d2426e3 [shape=box, label="sizeCHyQMOM", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_909c54f57bb0f4582a5ea7502d2426e3.html"];
+  }
+  dir_31c4affba36cde1c26e847807faab78f [shape=box label="Vandermonde" URL="dir_31c4affba36cde1c26e847807faab78f.html"];
+  dir_2410bdd35d6682ee1bbbb57a8d6422ac [shape=box label="multivariateMomentInversion" URL="dir_2410bdd35d6682ee1bbbb57a8d6422ac.html"];
+  dir_987bd2a8a4b3ec7be1bd9f4b3cda3f9a [shape=box label="mappedList" URL="dir_987bd2a8a4b3ec7be1bd9f4b3cda3f9a.html"];
+  dir_caf286c4878a255bd17ec734a9e9f7d8 [shape=box label="hyperbolic" URL="dir_caf286c4878a255bd17ec734a9e9f7d8.html"];
+  dir_2410bdd35d6682ee1bbbb57a8d6422ac->dir_31c4affba36cde1c26e847807faab78f [headlabel="1", labeldistance=1.5 headhref="dir_000246_000376.html"];
+  dir_2410bdd35d6682ee1bbbb57a8d6422ac->dir_987bd2a8a4b3ec7be1bd9f4b3cda3f9a [headlabel="2", labeldistance=1.5 headhref="dir_000246_000226.html"];
+  dir_909c54f57bb0f4582a5ea7502d2426e3->dir_31c4affba36cde1c26e847807faab78f [headlabel="1", labeldistance=1.5 headhref="dir_000340_000376.html"];
+  dir_909c54f57bb0f4582a5ea7502d2426e3->dir_2410bdd35d6682ee1bbbb57a8d6422ac [headlabel="1", labeldistance=1.5 headhref="dir_000340_000246.html"];
+  dir_909c54f57bb0f4582a5ea7502d2426e3->dir_987bd2a8a4b3ec7be1bd9f4b3cda3f9a [headlabel="1", labeldistance=1.5 headhref="dir_000340_000226.html"];
+  dir_909c54f57bb0f4582a5ea7502d2426e3->dir_caf286c4878a255bd17ec734a9e9f7d8 [headlabel="1", labeldistance=1.5 headhref="dir_000340_000188.html"];
+  dir_caf286c4878a255bd17ec734a9e9f7d8->dir_2410bdd35d6682ee1bbbb57a8d6422ac [headlabel="1", labeldistance=1.5 headhref="dir_000188_000246.html"];
+  dir_caf286c4878a255bd17ec734a9e9f7d8->dir_987bd2a8a4b3ec7be1bd9f4b3cda3f9a [headlabel="2", labeldistance=1.5 headhref="dir_000188_000226.html"];
+}

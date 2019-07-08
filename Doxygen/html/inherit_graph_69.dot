@@ -4,5 +4,7 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node1 [label="phasePressureModel",height=0.2,width=0.4,color="black",URL="$a00173.html",tooltip="Particle-particle phase-pressure RAS model. "];
+  Node231 [label="fieldType",height=0.2,width=0.4,color="grey75"];
+  Node231 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="moment\< fieldType,\l nodeType \>",height=0.2,width=0.4,color="black",URL="$a02032.html",tooltip="Stores a moment of a distribution function with arbitrary dimensionality. "];
 }

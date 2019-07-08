@@ -10,12 +10,16 @@ digraph "PDFTransportModels" {
     dir_a2511ae0788c5bf3ef079489002b5a51 [shape=plaintext label="PDFTransportModels"];
     dir_c7bb23c4c35074ff6c3bb01ead78aaa0 [shape=box label="PDFTransportModel" color="black" fillcolor="white" style="filled" URL="dir_c7bb23c4c35074ff6c3bb01ead78aaa0.html"];
     dir_67267f5a91ed640e67510f5791a1c825 [shape=box label="univariatePDFTransportModel" color="black" fillcolor="white" style="filled" URL="dir_67267f5a91ed640e67510f5791a1c825.html"];
+    dir_9a2e299f5419fc0acab2e43dd9ad1f22 [shape=box label="velocityPDFTransportModel" color="black" fillcolor="white" style="filled" URL="dir_9a2e299f5419fc0acab2e43dd9ad1f22.html"];
   }
   }
   dir_1a1d8e7a8fbc26c9783a2a4005a1b47e [shape=box label="momentAdvection" color="red" URL="dir_1a1d8e7a8fbc26c9783a2a4005a1b47e.html"];
   dir_719cf215453ac00ed8aac873f3732925 [shape=box label="quadratureApproximations" color="red" URL="dir_719cf215453ac00ed8aac873f3732925.html"];
-  dir_67267f5a91ed640e67510f5791a1c825->dir_1a1d8e7a8fbc26c9783a2a4005a1b47e [headlabel="1", labeldistance=1.5 headhref="dir_000244_000103.html"];
-  dir_67267f5a91ed640e67510f5791a1c825->dir_719cf215453ac00ed8aac873f3732925 [headlabel="1", labeldistance=1.5 headhref="dir_000244_000167.html"];
-  dir_67267f5a91ed640e67510f5791a1c825->dir_c7bb23c4c35074ff6c3bb01ead78aaa0 [headlabel="1", labeldistance=1.5 headhref="dir_000244_000208.html"];
-  dir_1a1d8e7a8fbc26c9783a2a4005a1b47e->dir_719cf215453ac00ed8aac873f3732925 [headlabel="1", labeldistance=1.5 headhref="dir_000103_000167.html"];
+  dir_67267f5a91ed640e67510f5791a1c825->dir_1a1d8e7a8fbc26c9783a2a4005a1b47e [headlabel="1", labeldistance=1.5 headhref="dir_000372_000144.html"];
+  dir_67267f5a91ed640e67510f5791a1c825->dir_719cf215453ac00ed8aac873f3732925 [headlabel="1", labeldistance=1.5 headhref="dir_000372_000242.html"];
+  dir_67267f5a91ed640e67510f5791a1c825->dir_c7bb23c4c35074ff6c3bb01ead78aaa0 [headlabel="1", labeldistance=1.5 headhref="dir_000372_000306.html"];
+  dir_1a1d8e7a8fbc26c9783a2a4005a1b47e->dir_719cf215453ac00ed8aac873f3732925 [headlabel="2", labeldistance=1.5 headhref="dir_000144_000242.html"];
+  dir_9a2e299f5419fc0acab2e43dd9ad1f22->dir_1a1d8e7a8fbc26c9783a2a4005a1b47e [headlabel="1", labeldistance=1.5 headhref="dir_000379_000144.html"];
+  dir_9a2e299f5419fc0acab2e43dd9ad1f22->dir_719cf215453ac00ed8aac873f3732925 [headlabel="1", labeldistance=1.5 headhref="dir_000379_000242.html"];
+  dir_9a2e299f5419fc0acab2e43dd9ad1f22->dir_c7bb23c4c35074ff6c3bb01ead78aaa0 [headlabel="1", labeldistance=1.5 headhref="dir_000379_000306.html"];
 }

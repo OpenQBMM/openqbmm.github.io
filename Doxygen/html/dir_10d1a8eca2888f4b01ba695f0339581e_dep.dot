@@ -1,0 +1,24 @@
+digraph "velocityDistributionTransport" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_fdd174abb8ada244b49e98779c87ac3c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="solvers" fontname="Helvetica", fontsize="10", URL="dir_fdd174abb8ada244b49e98779c87ac3c.html"]
+  subgraph clusterdir_10d1a8eca2888f4b01ba695f0339581e {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_10d1a8eca2888f4b01ba695f0339581e.html"];
+    dir_10d1a8eca2888f4b01ba695f0339581e [shape=plaintext label="velocityDistributionTransport"];
+    dir_128f7d07993ce103941f87bf4aef3544 [shape=box label="diluteVdfTransportFoam" color="black" fillcolor="white" style="filled" URL="dir_128f7d07993ce103941f87bf4aef3544.html"];
+    dir_81ff33c7c5e96b78be655caa62ecf883 [shape=box label="interfacialModels" color="red" fillcolor="white" style="filled" URL="dir_81ff33c7c5e96b78be655caa62ecf883.html"];
+    dir_2628bfa7d64e93093e140f4db0ea68cf [shape=box label="oneWayCoupledVdfTransportFoam" color="black" fillcolor="white" style="filled" URL="dir_2628bfa7d64e93093e140f4db0ea68cf.html"];
+    dir_a9fa59652dfefd7e8aa9dcce7c787e4b [shape=box label="phaseCompressibleTurbulenceModels" color="black" fillcolor="white" style="filled" URL="dir_a9fa59652dfefd7e8aa9dcce7c787e4b.html"];
+    dir_70da3881a381348fa96fd344294581cd [shape=box label="phaseModel" color="red" fillcolor="white" style="filled" URL="dir_70da3881a381348fa96fd344294581cd.html"];
+    dir_0c230c65fffcd4720789e90c1c82defa [shape=box label="vdfTransportFoam" color="black" fillcolor="white" style="filled" URL="dir_0c230c65fffcd4720789e90c1c82defa.html"];
+  }
+  }
+  dir_d62a5a20700de1cb9696e405d497a576 [shape=box label="multiphase" color="red" URL="dir_d62a5a20700de1cb9696e405d497a576.html"];
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_128f7d07993ce103941f87bf4aef3544->dir_d62a5a20700de1cb9696e405d497a576 [headlabel="1", labeldistance=1.5 headhref="dir_000106_000008.html"];
+  dir_d62a5a20700de1cb9696e405d497a576->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_000008_000000.html"];
+  dir_70da3881a381348fa96fd344294581cd->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_000251_000000.html"];
+}

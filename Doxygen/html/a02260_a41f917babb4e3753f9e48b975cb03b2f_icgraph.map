@@ -1,0 +1,6 @@
+<map id="inv" name="inv">
+<area shape="rect" id="node2" href="$a01980.html#ae6813b534d14729b1f14771df0910a87" title="Invert moments to find weights and abscissae. " alt="" coords="138,5,319,61"/>
+<area shape="rect" id="node3" href="$a01988.html#ae6813b534d14729b1f14771df0910a87" title="Invert moments to find weights and abscissae. " alt="" coords="137,85,321,141"/>
+<area shape="rect" id="node4" href="$a02232.html#aa539aa2c2d5c6521a45ef8a8c7aff7ee" title="Update node velocities on fixed&#45;value boundaries. " alt="" coords="92,166,365,207"/>
+<area shape="rect" id="node5" href="$a02232.html#a1fcf449c047afc1c23441af7f0d10328" title="Recalculate the velocity abscissae from the velocity moments. " alt="" coords="105,231,353,273"/>
+</map>

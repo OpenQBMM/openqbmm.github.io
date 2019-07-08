@@ -1,0 +1,12 @@
+digraph "molecularDiffusion" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d6772ea9513def0e0f2211126e6f45d9 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="diffusionModels" fontname="Helvetica", fontsize="10", URL="dir_d6772ea9513def0e0f2211126e6f45d9.html"]
+  dir_40520971e612dc6939e1d1fa12839d84 [shape=box, label="molecularDiffusion", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_40520971e612dc6939e1d1fa12839d84.html"];
+  }
+  dir_3d5e11542e05f8bebfd9dc2f1868f93c [shape=box label="mixingDiffusionModel" URL="dir_3d5e11542e05f8bebfd9dc2f1868f93c.html"];
+  dir_40520971e612dc6939e1d1fa12839d84->dir_3d5e11542e05f8bebfd9dc2f1868f93c [headlabel="1", labeldistance=1.5 headhref="dir_000235_000231.html"];
+}

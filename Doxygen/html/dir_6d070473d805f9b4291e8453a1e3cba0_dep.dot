@@ -13,15 +13,7 @@ digraph "kineticTheory" {
     dir_f981a973cbcfb4102e151acd659ce85e [shape=box label="kineticTheorySubModels" color="red" fillcolor="white" style="filled" URL="dir_f981a973cbcfb4102e151acd659ce85e.html"];
   }
   }
-  dir_c8dd8d838525102dfd397a50c2714810 [shape=box label="twoPhaseSystem" color="red" URL="dir_c8dd8d838525102dfd397a50c2714810.html"];
   dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
-  dir_917add706488739a95df57895f4aaf2a [shape=box label="interfacialModels" color="red" URL="dir_917add706488739a95df57895f4aaf2a.html"];
-  dir_c8dd8d838525102dfd397a50c2714810->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_000038_000000.html"];
-  dir_c8dd8d838525102dfd397a50c2714810->dir_917add706488739a95df57895f4aaf2a [headlabel="3", labeldistance=1.5 headhref="dir_000038_000014.html"];
-  dir_ed2d56e502992d65035ff68b2a9a1135->dir_c8dd8d838525102dfd397a50c2714810 [headlabel="3", labeldistance=1.5 headhref="dir_000011_000038.html"];
   dir_ed2d56e502992d65035ff68b2a9a1135->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000011_000000.html"];
-  dir_ed2d56e502992d65035ff68b2a9a1135->dir_f981a973cbcfb4102e151acd659ce85e [headlabel="7", labeldistance=1.5 headhref="dir_000011_000049.html"];
-  dir_ed2d56e502992d65035ff68b2a9a1135->dir_917add706488739a95df57895f4aaf2a [headlabel="1", labeldistance=1.5 headhref="dir_000011_000014.html"];
-  dir_f981a973cbcfb4102e151acd659ce85e->dir_c8dd8d838525102dfd397a50c2714810 [headlabel="3", labeldistance=1.5 headhref="dir_000049_000038.html"];
-  dir_917add706488739a95df57895f4aaf2a->dir_c8dd8d838525102dfd397a50c2714810 [headlabel="16", labeldistance=1.5 headhref="dir_000014_000038.html"];
+  dir_ed2d56e502992d65035ff68b2a9a1135->dir_f981a973cbcfb4102e151acd659ce85e [headlabel="7", labeldistance=1.5 headhref="dir_000011_000070.html"];
 }

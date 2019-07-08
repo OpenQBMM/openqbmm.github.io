@@ -1,0 +1,29 @@
+digraph "velocity" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_1a1d8e7a8fbc26c9783a2a4005a1b47e {
+    graph [ bgcolor="#ddddee", pencolor="black", label="momentAdvection" fontname="Helvetica", fontsize="10", URL="dir_1a1d8e7a8fbc26c9783a2a4005a1b47e.html"]
+  subgraph clusterdir_893c6495a5a63d77c0149ab44f5a40de {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_893c6495a5a63d77c0149ab44f5a40de.html"];
+    dir_893c6495a5a63d77c0149ab44f5a40de [shape=plaintext label="velocity"];
+    dir_e18214c2d0e7c849a2eeb1135e7e3238 [shape=box label="firstOrderKineticVelocityAdvection" color="black" fillcolor="white" style="filled" URL="dir_e18214c2d0e7c849a2eeb1135e7e3238.html"];
+    dir_578bc5b2d0c4566ef5375a052657dd62 [shape=box label="noVelocityAdvection" color="black" fillcolor="white" style="filled" URL="dir_578bc5b2d0c4566ef5375a052657dd62.html"];
+    dir_0da885420b39e2e3f898d34931b2fab6 [shape=box label="velocityMomentAdvection" color="black" fillcolor="white" style="filled" URL="dir_0da885420b39e2e3f898d34931b2fab6.html"];
+    dir_26e5ea37a1436757c665f5590ac99217 [shape=box label="VikasQuasiSecondOrderVelocityAdvection" color="black" fillcolor="white" style="filled" URL="dir_26e5ea37a1436757c665f5590ac99217.html"];
+  }
+  }
+  dir_17a6c3d0f5fde6543c26c10fa938ae5d [shape=box label="moments" URL="dir_17a6c3d0f5fde6543c26c10fa938ae5d.html"];
+  dir_719cf215453ac00ed8aac873f3732925 [shape=box label="quadratureApproximations" color="red" URL="dir_719cf215453ac00ed8aac873f3732925.html"];
+  dir_48cba3f3a1194fdbaf1cf859d335accc [shape=box label="quadratureNode" color="red" URL="dir_48cba3f3a1194fdbaf1cf859d335accc.html"];
+  dir_0da885420b39e2e3f898d34931b2fab6->dir_17a6c3d0f5fde6543c26c10fa938ae5d [headlabel="1", labeldistance=1.5 headhref="dir_000263_000237.html"];
+  dir_0da885420b39e2e3f898d34931b2fab6->dir_719cf215453ac00ed8aac873f3732925 [headlabel="1", labeldistance=1.5 headhref="dir_000263_000242.html"];
+  dir_0da885420b39e2e3f898d34931b2fab6->dir_48cba3f3a1194fdbaf1cf859d335accc [headlabel="1", labeldistance=1.5 headhref="dir_000263_000320.html"];
+  dir_578bc5b2d0c4566ef5375a052657dd62->dir_0da885420b39e2e3f898d34931b2fab6 [headlabel="1", labeldistance=1.5 headhref="dir_000290_000263.html"];
+  dir_e18214c2d0e7c849a2eeb1135e7e3238->dir_0da885420b39e2e3f898d34931b2fab6 [headlabel="1", labeldistance=1.5 headhref="dir_000148_000263.html"];
+  dir_17a6c3d0f5fde6543c26c10fa938ae5d->dir_48cba3f3a1194fdbaf1cf859d335accc [headlabel="3", labeldistance=1.5 headhref="dir_000237_000320.html"];
+  dir_719cf215453ac00ed8aac873f3732925->dir_17a6c3d0f5fde6543c26c10fa938ae5d [headlabel="2", labeldistance=1.5 headhref="dir_000242_000237.html"];
+  dir_719cf215453ac00ed8aac873f3732925->dir_48cba3f3a1194fdbaf1cf859d335accc [headlabel="4", labeldistance=1.5 headhref="dir_000242_000320.html"];
+  dir_26e5ea37a1436757c665f5590ac99217->dir_e18214c2d0e7c849a2eeb1135e7e3238 [headlabel="1", labeldistance=1.5 headhref="dir_000381_000148.html"];
+}

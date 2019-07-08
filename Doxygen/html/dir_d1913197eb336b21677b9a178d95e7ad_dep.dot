@@ -8,5 +8,5 @@ digraph "equilibrium" {
   dir_d1913197eb336b21677b9a178d95e7ad [shape=box, label="equilibrium", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d1913197eb336b21677b9a178d95e7ad.html"];
   }
   dir_44c13c9e29fecf045ec0d93a50553a5e [shape=box label="kineticTheoryModel" URL="dir_44c13c9e29fecf045ec0d93a50553a5e.html"];
-  dir_d1913197eb336b21677b9a178d95e7ad->dir_44c13c9e29fecf045ec0d93a50553a5e [headlabel="1", labeldistance=1.5 headhref="dir_000096_000140.html"];
+  dir_d1913197eb336b21677b9a178d95e7ad->dir_44c13c9e29fecf045ec0d93a50553a5e [headlabel="1", labeldistance=1.5 headhref="dir_000133_000201.html"];
 }

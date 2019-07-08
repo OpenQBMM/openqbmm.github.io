@@ -1,0 +1,9 @@
+<map id="solve" name="solve">
+<area shape="rect" id="node2" href="$a02228.html#a85b0ae2fdf7934eb3a8fda32f8795fa5" title="Calculate explicit source terms with realizable ODE solver. " alt="" coords="126,5,321,76"/>
+<area shape="rect" id="node3" href="$a04038.html#a5340a84918449f06669e13812b90f046" title="if" alt="" coords="204,101,243,127"/>
+<area shape="rect" id="node4" href="$a02260.html#a41f917babb4e3753f9e48b975cb03b2f" title="Invert Vandermonde matrix. " alt="" coords="135,151,311,178"/>
+<area shape="rect" id="node5" href="$a01992.html#ae6813b534d14729b1f14771df0910a87" title="Invert moments to find weights and abscissae. " alt="" coords="133,202,314,258"/>
+<area shape="rect" id="node6" href="$a02228.html#af7d39f0eac0af0ed5785935ac72a1e7d" title="Solve population balance equation. " alt="" coords="108,282,339,338"/>
+<area shape="rect" id="node7" href="$a02068.html#af7d39f0eac0af0ed5785935ac72a1e7d" title="Solve population balance equation. " alt="" coords="112,362,335,418"/>
+<area shape="rect" id="node8" href="$a00872.html#a0b9d5d8b1ecc0bf63b4c35f41598a500" title="while" alt="" coords="197,442,250,469"/>
+</map>

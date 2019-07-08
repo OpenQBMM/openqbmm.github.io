@@ -1,0 +1,14 @@
+digraph "breakupKernel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_8db1431bcb360c6bb23f8119e5d3e19f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="breakupKernels" fontname="Helvetica", fontsize="10", URL="dir_8db1431bcb360c6bb23f8119e5d3e19f.html"]
+  dir_716f5cbb281bc8c04cbc643b875570af [shape=box, label="breakupKernel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_716f5cbb281bc8c04cbc643b875570af.html"];
+  }
+  dir_a959301c3cf54322ad2aac04893d37dc [shape=box label="daugtherDistributions" color="red" URL="dir_a959301c3cf54322ad2aac04893d37dc.html"];
+  dir_719cf215453ac00ed8aac873f3732925 [shape=box label="quadratureApproximations" color="red" URL="dir_719cf215453ac00ed8aac873f3732925.html"];
+  dir_716f5cbb281bc8c04cbc643b875570af->dir_a959301c3cf54322ad2aac04893d37dc [headlabel="1", labeldistance=1.5 headhref="dir_000059_000119.html"];
+  dir_716f5cbb281bc8c04cbc643b875570af->dir_719cf215453ac00ed8aac873f3732925 [headlabel="1", labeldistance=1.5 headhref="dir_000059_000242.html"];
+}

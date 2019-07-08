@@ -1,0 +1,14 @@
+<map id="liftModel.H" name="liftModel.H">
+<area shape="rect" id="node2" href="$a03258.html" title="constantLiftCoefficient.H" alt="" coords="5,80,168,107"/>
+<area shape="rect" id="node3" href="$a03564.html" title="LegendreMagnaudet.H" alt="" coords="192,80,352,107"/>
+<area shape="rect" id="node4" href="$a03636.html" title="Moraga.H" alt="" coords="377,80,458,107"/>
+<area shape="rect" id="node5" href="$a03714.html" title="noLift.H" alt="" coords="482,80,547,107"/>
+<area shape="rect" id="node6" href="$a03984.html" title="TomiyamaLift.H" alt="" coords="571,80,687,107"/>
+<area shape="rect" id="node7" href="$a04086.html" title="wallDampedLift.H" alt="" coords="711,80,838,107"/>
+<area shape="rect" id="node8" href="$a03261.html" title="constantLiftCoefficient.H" alt="" coords="863,80,1025,107"/>
+<area shape="rect" id="node9" href="$a03567.html" title="LegendreMagnaudet.H" alt="" coords="1049,80,1209,107"/>
+<area shape="rect" id="node10" href="$a03639.html" title="Moraga.H" alt="" coords="1234,80,1315,107"/>
+<area shape="rect" id="node11" href="$a03717.html" title="noLift.H" alt="" coords="1339,80,1405,107"/>
+<area shape="rect" id="node12" href="$a03987.html" title="TomiyamaLift.H" alt="" coords="1429,80,1545,107"/>
+<area shape="rect" id="node13" href="$a04089.html" title="wallDampedLift.H" alt="" coords="1569,80,1695,107"/>
+</map>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ywall',['yWall',['../a00228.html#a7d3dada39d35eeffceccf373b54f55f9',1,'Foam::wallDependentModel']]]
+  ['ywall',['yWall',['../a02592.html#a7309dd20f3f8f1b057f5ed0a82e3cdac',1,'Foam::wallDependentModel::yWall() const'],['../a02592.html#a7309dd20f3f8f1b057f5ed0a82e3cdac',1,'Foam::wallDependentModel::yWall() const']]]
 ];

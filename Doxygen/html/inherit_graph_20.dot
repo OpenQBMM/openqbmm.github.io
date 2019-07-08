@@ -4,5 +4,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node1 [label="conditionalMomentInversion",height=0.2,width=0.4,color="black",URL="$a00035.html",tooltip="Implementation of the conditional quadrature method of moments. "];
+  Node0 [label="coalescenceKernel",height=0.2,width=0.4,color="black",URL="$a02416.html"];
 }

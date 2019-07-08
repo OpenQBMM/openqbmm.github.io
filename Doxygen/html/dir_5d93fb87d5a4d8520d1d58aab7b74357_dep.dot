@@ -9,6 +9,6 @@ digraph "univariateMomentInversion" {
   }
   dir_28a10e058b67f0d7e124cb3c5246e6cb [shape=box label="momentSets" color="red" URL="dir_28a10e058b67f0d7e124cb3c5246e6cb.html"];
   dir_9c0e92409a33848bf66dccc8c0cdc400 [shape=box label="eigenSolver" URL="dir_9c0e92409a33848bf66dccc8c0cdc400.html"];
-  dir_5d93fb87d5a4d8520d1d58aab7b74357->dir_28a10e058b67f0d7e124cb3c5246e6cb [headlabel="1", labeldistance=1.5 headhref="dir_000180_000165.html"];
-  dir_5d93fb87d5a4d8520d1d58aab7b74357->dir_9c0e92409a33848bf66dccc8c0cdc400 [headlabel="1", labeldistance=1.5 headhref="dir_000180_000095.html"];
+  dir_5d93fb87d5a4d8520d1d58aab7b74357->dir_28a10e058b67f0d7e124cb3c5246e6cb [headlabel="1", labeldistance=1.5 headhref="dir_000262_000239.html"];
+  dir_5d93fb87d5a4d8520d1d58aab7b74357->dir_9c0e92409a33848bf66dccc8c0cdc400 [headlabel="1", labeldistance=1.5 headhref="dir_000262_000130.html"];
 }

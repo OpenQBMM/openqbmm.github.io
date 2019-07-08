@@ -1,0 +1,9 @@
+<map id="Vandermonde.H" name="Vandermonde.H">
+<area shape="rect" id="node2" href="$a00203.html" title="conditionalMomentInversion.H" alt="" coords="5,155,207,181"/>
+<area shape="rect" id="node3" href="$a00215.html" title="monoKineticMomentInversion.H" alt="" coords="231,155,442,181"/>
+<area shape="rect" id="node4" href="$a00221.html" title="multivariateMomentInversion.H" alt="" coords="356,80,560,107"/>
+<area shape="rect" id="node5" href="$a00233.html" title="sizeCHyQMOMMomentInversion.H" alt="" coords="466,155,695,181"/>
+<area shape="rect" id="node6" href="$a00239.html" title="TensorProductMomentInversion.H" alt="" coords="719,155,946,181"/>
+<area shape="rect" id="node7" href="$a00644.html" title="monoKineticQuadratureApproximation.C" alt="" coords="686,80,947,107"/>
+<area shape="rect" id="node8" href="$a00704.html" title="Vandermonde.C" alt="" coords="972,80,1093,107"/>
+</map>

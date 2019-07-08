@@ -1,6 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$a00180.html" title="Provides storage for the moments and the corresponding quadrature approximation of a univariate distr..." alt="" coords="168,5,340,61"/>
-<area shape="rect" id="node3" href="$a00211.html" title="twoPhaseSystem" alt="" coords="191,85,317,112"/>
-<area shape="rect" id="node4" href="$a00180.html" title="quadratureApproximation\l\&lt; volUnivariateMomentFieldSet,\l volScalarNode \&gt;" alt="" coords="147,136,361,192"/>
-<area shape="rect" id="node5" href="$a00137.html" title="Uses quadrature approximation as a base to handle size moments, while the velocity moments and abscis..." alt="" coords="409,151,657,177"/>
+<area shape="rect" id="node1" href="$a02848.html" title="Base class for runtime selection for moment generation. One object is used for all node..." alt="" coords="5,81,180,108"/>
+<area shape="rect" id="node2" href="$a02840.html" title="Moment generation done using volume fraction, density, and bubble diameter. " alt="" coords="238,5,373,32"/>
+<area shape="rect" id="node4" href="$a02852.html" title="Moments are read directly from the dictionary to create the moment fields. " alt="" coords="229,56,381,83"/>
+<area shape="rect" id="node5" href="$a02856.html" title="Moment generation done using volume fraction, density, and bubble diameter. " alt="" coords="271,107,339,133"/>
+<area shape="rect" id="node6" href="$a02860.html" title="Constructs moments given weights and abscissae. " alt="" coords="228,157,383,184"/>
+<area shape="rect" id="node3" href="$a02844.html" title="Moment generation done using volume fraction, density, bubble diameter, and velocity. " alt="" coords="431,5,613,32"/>
 </map>

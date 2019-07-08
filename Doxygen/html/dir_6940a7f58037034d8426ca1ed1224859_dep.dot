@@ -12,5 +12,7 @@ digraph "growthModels" {
     dir_ec684823dce04113314ce54695e567a3 [shape=box label="growthModel" color="black" fillcolor="white" style="filled" URL="dir_ec684823dce04113314ce54695e567a3.html"];
   }
   }
-  dir_96543e7c798c74799d4424b894d0d171->dir_ec684823dce04113314ce54695e567a3 [headlabel="1", labeldistance=1.5 headhref="dir_000067_000126.html"];
+  dir_719cf215453ac00ed8aac873f3732925 [shape=box label="quadratureApproximations" color="red" URL="dir_719cf215453ac00ed8aac873f3732925.html"];
+  dir_ec684823dce04113314ce54695e567a3->dir_719cf215453ac00ed8aac873f3732925 [headlabel="1", labeldistance=1.5 headhref="dir_000179_000242.html"];
+  dir_96543e7c798c74799d4424b894d0d171->dir_ec684823dce04113314ce54695e567a3 [headlabel="1", labeldistance=1.5 headhref="dir_000092_000179.html"];
 }

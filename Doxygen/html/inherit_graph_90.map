@@ -1,20 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$a00012.html" title="aspectRatioModel" alt="" coords="5,56,136,83"/>
-<area shape="rect" id="node2" href="$a00040.html" title="constantAspectRatio" alt="" coords="187,5,331,32"/>
-<area shape="rect" id="node3" href="$a00221.html" title="VakhrushevEfremov" alt="" coords="188,56,331,83"/>
-<area shape="rect" id="node5" href="$a00231.html" title="Aspect ratio model of Wellek et al. " alt="" coords="227,107,291,133"/>
-<area shape="rect" id="node4" href="$a00200.html" title="Aspect ratio model of Tomiyama. " alt="" coords="383,68,543,95"/>
-<area shape="rect" id="node6" href="$a00228.html" title="A class which provides on&#45;demand creation and caching of wall distance and wall normal fields for use..." alt="" coords="184,157,335,184"/>
-<area shape="rect" id="node7" href="$a00227.html" title="wallDampingModel" alt="" coords="393,144,532,171"/>
-<area shape="rect" id="node13" href="$a00229.html" title="wallLubricationModel" alt="" coords="389,271,537,297"/>
-<area shape="rect" id="node8" href="$a00096.html" title="interpolated" alt="" coords="634,93,726,120"/>
-<area shape="rect" id="node12" href="$a00158.html" title="noWallDamping" alt="" coords="621,144,739,171"/>
-<area shape="rect" id="node9" href="$a00047.html" title="cosine" alt="" coords="817,43,880,69"/>
-<area shape="rect" id="node10" href="$a00114.html" title="linear" alt="" coords="821,93,876,120"/>
-<area shape="rect" id="node11" href="$a00188.html" title="sine" alt="" coords="825,144,872,171"/>
-<area shape="rect" id="node14" href="$a00143.html" title="noBubblePressure" alt="" coords="614,195,746,221"/>
-<area shape="rect" id="node15" href="$a00011.html" title="Wall lubrication model of Antal et al. " alt="" coords="654,245,706,272"/>
-<area shape="rect" id="node16" href="$a00071.html" title="Wall lubrication model of Frank. " alt="" coords="652,296,708,323"/>
-<area shape="rect" id="node17" href="$a00159.html" title="noWallLubrication" alt="" coords="616,347,744,373"/>
-<area shape="rect" id="node18" href="$a00205.html" title="Wall lubrication model of Tomiyama. " alt="" coords="591,397,769,424"/>
+<area shape="rect" id="node1" href="$a02720.html" title="radialModel" alt="" coords="5,56,100,83"/>
+<area shape="rect" id="node2" href="$a02712.html" title="CarnahanStarling" alt="" coords="148,5,275,32"/>
+<area shape="rect" id="node3" href="$a02716.html" title="LunSavage" alt="" coords="166,56,257,83"/>
+<area shape="rect" id="node4" href="$a02724.html" title="SinclairJackson" alt="" coords="153,107,270,133"/>
 </map>

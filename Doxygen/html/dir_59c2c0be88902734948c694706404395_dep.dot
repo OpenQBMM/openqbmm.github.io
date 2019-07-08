@@ -11,10 +11,12 @@ digraph "mixingKernels" {
     dir_9cf8c1fe955c19230075a4ccb15e9149 [shape=box label="FokkerPlanck" color="black" fillcolor="white" style="filled" URL="dir_9cf8c1fe955c19230075a4ccb15e9149.html"];
     dir_044ce33e76c3206ee6cfd9fffb2276e9 [shape=box label="IEM" color="black" fillcolor="white" style="filled" URL="dir_044ce33e76c3206ee6cfd9fffb2276e9.html"];
     dir_5b2311dddb8d1d4e27493a6b3d60ef15 [shape=box label="mixingKernel" color="black" fillcolor="white" style="filled" URL="dir_5b2311dddb8d1d4e27493a6b3d60ef15.html"];
+    dir_43e0b0d198e6e9c89e5e435b2ab71386 [shape=box label="noMixingKernel" color="black" fillcolor="white" style="filled" URL="dir_43e0b0d198e6e9c89e5e435b2ab71386.html"];
   }
   }
   dir_17a6c3d0f5fde6543c26c10fa938ae5d [shape=box label="moments" URL="dir_17a6c3d0f5fde6543c26c10fa938ae5d.html"];
-  dir_5b2311dddb8d1d4e27493a6b3d60ef15->dir_17a6c3d0f5fde6543c26c10fa938ae5d [headlabel="1", labeldistance=1.5 headhref="dir_000159_000163.html"];
-  dir_044ce33e76c3206ee6cfd9fffb2276e9->dir_5b2311dddb8d1d4e27493a6b3d60ef15 [headlabel="1", labeldistance=1.5 headhref="dir_000132_000159.html"];
-  dir_9cf8c1fe955c19230075a4ccb15e9149->dir_5b2311dddb8d1d4e27493a6b3d60ef15 [headlabel="1", labeldistance=1.5 headhref="dir_000107_000159.html"];
+  dir_43e0b0d198e6e9c89e5e435b2ab71386->dir_5b2311dddb8d1d4e27493a6b3d60ef15 [headlabel="1", labeldistance=1.5 headhref="dir_000279_000232.html"];
+  dir_5b2311dddb8d1d4e27493a6b3d60ef15->dir_17a6c3d0f5fde6543c26c10fa938ae5d [headlabel="1", labeldistance=1.5 headhref="dir_000232_000237.html"];
+  dir_044ce33e76c3206ee6cfd9fffb2276e9->dir_5b2311dddb8d1d4e27493a6b3d60ef15 [headlabel="1", labeldistance=1.5 headhref="dir_000190_000232.html"];
+  dir_9cf8c1fe955c19230075a4ccb15e9149->dir_5b2311dddb8d1d4e27493a6b3d60ef15 [headlabel="1", labeldistance=1.5 headhref="dir_000155_000232.html"];
 }

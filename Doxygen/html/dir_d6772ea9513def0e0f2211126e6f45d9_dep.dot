@@ -1,0 +1,20 @@
+digraph "diffusionModels" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_2e6d34bda531f0fb841bc3aac1e0e585 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="mixingSubModels" fontname="Helvetica", fontsize="10", URL="dir_2e6d34bda531f0fb841bc3aac1e0e585.html"]
+  subgraph clusterdir_d6772ea9513def0e0f2211126e6f45d9 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_d6772ea9513def0e0f2211126e6f45d9.html"];
+    dir_d6772ea9513def0e0f2211126e6f45d9 [shape=plaintext label="diffusionModels"];
+    dir_3d5e11542e05f8bebfd9dc2f1868f93c [shape=box label="mixingDiffusionModel" color="black" fillcolor="white" style="filled" URL="dir_3d5e11542e05f8bebfd9dc2f1868f93c.html"];
+    dir_40520971e612dc6939e1d1fa12839d84 [shape=box label="molecularDiffusion" color="black" fillcolor="white" style="filled" URL="dir_40520971e612dc6939e1d1fa12839d84.html"];
+    dir_9e77c6259bb3be3a6dab528cecc0737f [shape=box label="noDiffusion" color="black" fillcolor="white" style="filled" URL="dir_9e77c6259bb3be3a6dab528cecc0737f.html"];
+    dir_e1f2bcba9ddcbd7e94973ef56e51d900 [shape=box label="turbulentDiffusion" color="black" fillcolor="white" style="filled" URL="dir_e1f2bcba9ddcbd7e94973ef56e51d900.html"];
+  }
+  }
+  dir_40520971e612dc6939e1d1fa12839d84->dir_3d5e11542e05f8bebfd9dc2f1868f93c [headlabel="1", labeldistance=1.5 headhref="dir_000235_000231.html"];
+  dir_e1f2bcba9ddcbd7e94973ef56e51d900->dir_3d5e11542e05f8bebfd9dc2f1868f93c [headlabel="1", labeldistance=1.5 headhref="dir_000367_000231.html"];
+  dir_9e77c6259bb3be3a6dab528cecc0737f->dir_3d5e11542e05f8bebfd9dc2f1868f93c [headlabel="1", labeldistance=1.5 headhref="dir_000274_000231.html"];
+}

@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$a00222.html" title="Stores the second row of a Vandermonde matrix, and solves the associated linear system. " alt="" coords="204,5,312,32"/>
+<area shape="rect" id="node2" href="$a02236.html" title="Provides storage for the moments and the corresponding quadrature approximation of a distribution fun..." alt="" coords="159,5,357,47"/>
+<area shape="rect" id="node3" href="$a02808.html" title="twoPhaseSystem" alt="" coords="195,71,321,98"/>
+<area shape="rect" id="node4" href="$a02236.html" title="quadratureApproximation\l\&lt; volScalarMoment, volScalar\lNode \&gt;" alt="" coords="156,122,360,178"/>
+<area shape="rect" id="node6" href="$a02236.html" title="quadratureApproximation\l\&lt; volVelocityMoment, volVelocity\lNode \&gt;" alt="" coords="147,202,369,258"/>
+<area shape="rect" id="node5" href="$a02232.html" title="Uses quadrature approximation as a base to handle size moments, while the velocity moments and abscis..." alt="" coords="417,137,665,163"/>
 </map>

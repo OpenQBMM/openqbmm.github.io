@@ -1,0 +1,6 @@
+<map id="populationBalanceModel" name="populationBalanceModel">
+<area shape="rect" id="node3" href="$a02068.html" title="mixingPopulationBalance" alt="" coords="372,5,547,32"/>
+<area shape="rect" id="node4" href="$a02224.html" title="univariatePopulationBalance" alt="" coords="363,56,556,83"/>
+<area shape="rect" id="node5" href="$a02228.html" title="velocityPopulationBalance" alt="" coords="369,107,550,133"/>
+<area shape="rect" id="node6" href="$a02072.html" title="Disables the solution of the population balance model. " alt="" coords="384,157,535,184"/>
+</map>

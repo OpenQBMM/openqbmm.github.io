@@ -1,0 +1,20 @@
+digraph "heatTransferModels" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_81ff33c7c5e96b78be655caa62ecf883 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="interfacialModels" fontname="Helvetica", fontsize="10", URL="dir_81ff33c7c5e96b78be655caa62ecf883.html"]
+  subgraph clusterdir_40137832b1bbefb800916a2d4dc60e92 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_40137832b1bbefb800916a2d4dc60e92.html"];
+    dir_40137832b1bbefb800916a2d4dc60e92 [shape=plaintext label="heatTransferModels"];
+    dir_6430dd84052308b90a47bafeddc50edb [shape=box label="constantNu" color="black" fillcolor="white" style="filled" URL="dir_6430dd84052308b90a47bafeddc50edb.html"];
+    dir_90d61f594bd91cd80572c3a84e8b21f8 [shape=box label="heatTransferModel" color="black" fillcolor="white" style="filled" URL="dir_90d61f594bd91cd80572c3a84e8b21f8.html"];
+    dir_294f51ff027b817640799472a6e2c6df [shape=box label="RanzMarshall" color="black" fillcolor="white" style="filled" URL="dir_294f51ff027b817640799472a6e2c6df.html"];
+    dir_21937723ec694f08cf75f09e88ed2a55 [shape=box label="sphericalHeatTransfer" color="black" fillcolor="white" style="filled" URL="dir_21937723ec694f08cf75f09e88ed2a55.html"];
+  }
+  }
+  dir_21937723ec694f08cf75f09e88ed2a55->dir_90d61f594bd91cd80572c3a84e8b21f8 [headlabel="1", labeldistance=1.5 headhref="dir_000342_000180.html"];
+  dir_294f51ff027b817640799472a6e2c6df->dir_90d61f594bd91cd80572c3a84e8b21f8 [headlabel="1", labeldistance=1.5 headhref="dir_000322_000180.html"];
+  dir_6430dd84052308b90a47bafeddc50edb->dir_90d61f594bd91cd80572c3a84e8b21f8 [headlabel="1", labeldistance=1.5 headhref="dir_000098_000180.html"];
+}

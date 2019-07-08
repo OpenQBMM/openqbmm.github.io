@@ -8,5 +8,5 @@ digraph "gaussMomentInversion" {
   dir_69cda17393d99638a055981e70fb59f8 [shape=box, label="gaussMomentInversion", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_69cda17393d99638a055981e70fb59f8.html"];
   }
   dir_5d93fb87d5a4d8520d1d58aab7b74357 [shape=box label="univariateMomentInversion" URL="dir_5d93fb87d5a4d8520d1d58aab7b74357.html"];
-  dir_69cda17393d99638a055981e70fb59f8->dir_5d93fb87d5a4d8520d1d58aab7b74357 [headlabel="1", labeldistance=1.5 headhref="dir_000115_000180.html"];
+  dir_69cda17393d99638a055981e70fb59f8->dir_5d93fb87d5a4d8520d1d58aab7b74357 [headlabel="1", labeldistance=1.5 headhref="dir_000164_000262.html"];
 }

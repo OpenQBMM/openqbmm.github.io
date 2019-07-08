@@ -1,3 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$a00116.html" title="linear" alt="" coords="5,5,60,32"/>
+<area shape="rect" id="node1" href="$a02820.html" title="heatTransferModel" alt="" coords="5,56,143,83"/>
+<area shape="rect" id="node2" href="$a02816.html" title="Model which applies a user provided constant Nusselt number for interfacial heat transfer. " alt="" coords="191,5,357,32"/>
+<area shape="rect" id="node3" href="$a02824.html" title="Ranz&#45;Marshall correlation for turbulent heat transfer from the surface of a sphere to the surrounding..." alt="" coords="222,56,326,83"/>
+<area shape="rect" id="node4" href="$a02828.html" title="Model which applies an analytical solution for heat transfer from the surface of a sphere to the flui..." alt="" coords="197,107,351,133"/>
 </map>

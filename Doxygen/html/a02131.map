@@ -1,0 +1,4 @@
+<map id="BGKCollision" name="BGKCollision">
+<area shape="rect" id="node3" href="$a02144.html" title="Collision model which returns the velocity distribution to a Maxwellian distribution (multivariate Ga..." alt="" coords="5,155,124,181"/>
+<area shape="rect" id="node2" href="$a02140.html" title="Abstract class for collision kernels. " alt="" coords="9,5,120,32"/>
+</map>
